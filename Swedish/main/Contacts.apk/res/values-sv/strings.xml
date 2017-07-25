@@ -866,8 +866,6 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
   <string name="payphone">Betalnummer</string>
   <string name="people">Kontakter</string>
-  <string name="percent_sign">%</string>
-  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Numret är för långt</string>

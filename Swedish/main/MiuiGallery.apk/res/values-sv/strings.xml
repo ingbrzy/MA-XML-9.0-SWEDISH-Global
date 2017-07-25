@@ -551,7 +551,6 @@ Ta fler bilder av dina vänner!"</string>
   <string name="people_jump_failed">Vänta tills bilder med människor synkroniseras med Mi Cloud och försök igen</string>
   <string name="people_page_label">Människor</string>
   <string name="people_page_unname">Namnlös</string>
-  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">Sällskapsdjursfoton</string>
   <string name="petabyteShort">PB</string>
   <string name="photo">Foton</string>
@@ -662,8 +661,6 @@ Ta fler bilder av dina vänner!"</string>
   <string name="search_title_people">Människor</string>
   <string name="search_title_recommend">Rekommenderad</string>
   <string name="search_title_tag">Objekt</string>
-  <string name="search_transition_element_icon">search_icon</string>
-  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">The best place for all your little secrets</string>
   <string name="secret_album_card_title">Try hidden album</string>
   <string name="secret_album_display_name">Dolt album</string>
