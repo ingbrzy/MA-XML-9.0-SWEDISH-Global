@@ -668,7 +668,6 @@ Orsak: \"%s\""</string>
   <string name="miprofile_contact_header">Kontakter med kontakt kort</string>
   <string name="miprofile_contact_meaasge">Lokala kontakter</string>
   <string name="miprofile_contact_verifying">Verifierar</string>
-  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Redigera profil</string>
   <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontakt kort</string>
   <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
