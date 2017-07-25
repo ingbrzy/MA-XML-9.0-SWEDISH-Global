@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adblock_rules_number_text">
+        <item quantity="other">%d blockerade objekt</item>
+        <item quantity="one">%d blockerat objekt</item>
+    </plurals>
+    <plurals name="find_on_page_matches">
+        <item quantity="other">%d passar</item>
+        <item quantity="one">%d passar</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Last %d days</item>
+        <item quantity="one">Last %d day</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d av %2$d</item>
+        <item quantity="one">1 matchning</item>
+    </plurals>
+    <plurals name="v5_edit_mode_title">
+        <item quantity="other">%1$d valda</item>
+        <item quantity="one">%1$d vald</item>
+    </plurals>
+    <plurals name="video_download_clear_info">
+        <item quantity="other">Lyckades ta bort %1$d videor.</item>
+        <item quantity="one">Lyckades ta bort %1$d video.</item>
+    </plurals>
+    <plurals name="video_download_clear_prompt">
+        <item quantity="other">Rensa %1$d videor?</item>
+        <item quantity="one">Rensa %1$d video?</item>
+    </plurals>
+    <plurals name="video_history_clear_info">
+        <item quantity="other">%1$d objekt bort från historien.</item>
+        <item quantity="one">%1$d objekt bort från historien.</item>
+    </plurals>
+    <plurals name="video_history_clear_prompt">
+        <item quantity="other">Radera %1$d objeken från historiken?</item>
+        <item quantity="one">Radera %1$d objekt från historiken?</item>
+    </plurals>
+    <plurals name="video_subtitle_last_message">
+        <item quantity="other">%d minuter återstår</item>
+        <item quantity="one">%d minut återstår</item>
+    </plurals>
+</resources>

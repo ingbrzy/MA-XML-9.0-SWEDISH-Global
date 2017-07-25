@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ingen dataanslutning för %s minuter</item>
+        <item quantity="one">Ingen dataanslutning för %s minut</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonen kommer att vara i läget för nödsamtal för %s minuter. I detta läge kommer inga appar som använder en dataanslutning kan användas. Vill du avsluta nu?</item>
+        <item quantity="one">Telefonen kommer att vara i läget för nödsamtal för %s minut. I detta läge kommer inga appar som använder en dataanslutning kan användas. Vill du avsluta nu?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Den valda åtgärden är inte tillgänglig medan den är i läget för nödsamtal. Telefonen kommer att vara i detta läge för %s minuter. Vill du avsluta nu?</item>
+        <item quantity="one">Den valda åtgärden är inte tillgänglig medan den är i läget för nödsamtal. Telefonen kommer att vara i detta läge för %s minut. Vill du avsluta nu?</item>
+    </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d numbers</item>
+        <item quantity="one">%d number</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">%d numbers will be deleted.</item>
+        <item quantity="one">%d number will be deleted.</item>
+    </plurals>
+    <plurals name="call_record_add_white_list_over_reminder">
+        <item quantity="other">You can add up to %s people, select again.</item>
+        <item quantity="one">You can add up to %s person, select again.</item>
+    </plurals>
+    <plurals name="auto_answer_summary_delay">
+        <item quantity="other">delay: %s seconds</item>
+        <item quantity="one">delay: %s second</item>
+    </plurals>
+    <plurals name="pin_attempts">
+        <item quantity="other">"
+%d attempts remaining."</item>
+        <item quantity="one">"
+%d attempt remaining."</item>
+    </plurals>
+</resources>

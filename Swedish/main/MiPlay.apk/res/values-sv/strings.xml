@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Mediaserver</string>
+  <string name="cancel">Avbryt</string>
+  <string name="enable_wifi_btn">Sätt på</string>
+  <string name="enable_wifi_message">Slå på WiFi för att söka och ansluta enheter i närheten.</string>
+  <string name="enable_wifi_title">Slå på WiFi</string>
+  <string name="media_feature_projection">Spegla skärm</string>
+  <string name="media_route_controller_disconnect">Disconnect</string>
+  <string name="media_status_error">Fel</string>
+  <string name="media_status_started">Ansluten</string>
+  <string name="media_status_starting">Ansluter…</string>
+  <string name="media_status_stopped">Stoppad</string>
+  <string name="media_status_stopping">Stoppar…</string>
+  <string name="noti_projection_status_desc_on">Skärmspegling är på</string>
+  <string name="noti_projection_status_title">Mi Play trådlös skärm</string>
+  <string name="prjection_title">Trådlös bildskärm</string>
+  <string name="search_for_devices">Uppdatera</string>
+  <string name="wifi_display_details">Skärminställningar</string>
+  <string name="wifi_display_enable_menu_item">Slå på trådlös display</string>
+  <string name="wifi_display_no_devices_found">Det gick inte att hitta närliggande enheter.</string>
+  <string name="wifi_display_options_done">Klar</string>
+  <string name="wifi_display_options_forget">Glöm</string>
+  <string name="wifi_display_options_name">Namn</string>
+  <string name="wifi_display_options_title">Inställningar för trådlösa skärmar</string>
+  <string name="wifi_display_settings_title">Kasta</string>
+  <string name="wifi_display_status_connected">Ansluten</string>
+  <string name="wifi_display_status_connecting">Ansluter</string>
+  <string name="wifi_display_status_in_use">Används</string>
+  <string name="wifi_display_status_not_available">Ej tillgänglig</string>
+</resources>

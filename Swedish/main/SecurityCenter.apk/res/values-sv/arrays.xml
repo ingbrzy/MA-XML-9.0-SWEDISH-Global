@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_of_traffic_cmcc">
+        <item>"Denna Vecka "</item>
+        <item>"I dag "</item>
+        <item>"Denna månaden "</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"I går "</item>
+        <item>"I dag "</item>
+        <item>"Denna månaden "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix_cmcc">
+        <item>"Denna Vecka: "</item>
+        <item>"I dag: "</item>
+        <item>"Denna månad: "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"I går: "</item>
+        <item>"I dag: "</item>
+        <item>"Denna månad: "</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>I går (data)</item>
+        <item>I dag (data)</item>
+        <item>Denna månad (data)</item>
+        <item>I går Wi-Fi</item>
+        <item>I dag Wi-Fi</item>
+        <item>Denna månad Wi-Fi</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"Mobilanvändning "</item>
+        <item>"Wi-Fi-användning "</item>
+    </string-array>
+    <string-array name="mi_service_traffic_type">
+        <item>"Mobilanvändning "</item>
+        <item>"Wi-Fi-användning "</item>
+    </string-array>
+    <string-array name="over_limit_traffic_waring_style">
+        <item>Visa varning</item>
+        <item>Varna och stäng av mobildata</item>
+    </string-array>
+    <string-array name="roaming_network_type">
+        <item>Alltid</item>
+        <item>Endast för undantag</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="lock_mode">
+        <item>När enheten är låst</item>
+        <item>När enheten är låst eller efter en app avslutas</item>
+        <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
+    </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sort_type">
+        <item>Status</item>
+        <item>App name</item>
+        <item>Usage frequency</item>
+        <item>Used storage</item>
+        <item>Data usage</item>
+        <item>Battery usage</item>
+    </string-array>
+    <string-array name="sort_title">
+        <item>Sort by status</item>
+        <item>Sort by app name</item>
+        <item>Sort by usage frequency</item>
+        <item>Sort by used storage</item>
+        <item>Sort by data usage</item>
+        <item>Sort by battery usage</item>
+    </string-array>
+    <string-array name="sms_report_type">
+        <item>Data Usage</item>
+        <item>Phone balance</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>En gång</item>
+        <item>Varje dag</item>
+        <item>Arbetsdagar</item>
+        <item>Vardagar</item>
+        <item>Anpassad</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>En gång</item>
+        <item>Varje dag</item>
+        <item>Vardagar</item>
+        <item>Anpassad</item>
+    </string-array>
+</resources>

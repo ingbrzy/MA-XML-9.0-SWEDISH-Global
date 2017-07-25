@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="face_count">
+        <item quantity="other">Totalt %d foton</item>
+        <item quantity="one">Totalt %d foto</item>
+    </plurals>
+    <plurals name="remind_face_recommend_confirm_text">
+        <item quantity="other">Totalt %d bilder</item>
+        <item quantity="one">Totalt %d bild</item>
+    </plurals>
+    <plurals name="age_year">
+        <item quantity="other">%d år</item>
+        <item quantity="one">%d år</item>
+    </plurals>
+    <plurals name="age_month">
+        <item quantity="other">%d månader</item>
+        <item quantity="one">%d månad</item>
+    </plurals>
+    <plurals name="age_day">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_old_pictures">
+        <item quantity="other">%1$d bilder av %2$s kommer bli tillagda</item>
+        <item quantity="one">%1$d bild av %2$s kommer bli tillagd</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_new_pictures">
+        <item quantity="other">%1$d bilder av %2$s kommer bli tillagda</item>
+        <item quantity="one">%1$d bild av %2$s kommer bli tillagd</item>
+    </plurals>
+    <plurals name="album_already_share_user_count">
+        <item quantity="other">Delad till %d människor</item>
+        <item quantity="one">Delad till %d person</item>
+    </plurals>
+    <plurals name="picker_all_image_need_download">
+        <item quantity="other">Valda foton finns inte på enheten. Ladda ner dem med mobildata?</item>
+        <item quantity="one">Valt foto finns inte på enheten. Ladda ner med mobildata?</item>
+    </plurals>
+    <plurals name="picker_all_origin_need_download">
+        <item quantity="other">Valda foton (%dMB) finns inte på enheten. Ladda ner med mobildata?</item>
+        <item quantity="one">Valt foto (%dMB) finns inte på enheten. Ladda ner med mobildata?</item>
+    </plurals>
+    <plurals name="picker_all_image_will_download">
+        <item quantity="other">Valda foton finns inte på enheten. De kommer att laddas ner.</item>
+        <item quantity="one">Valt foto finns inte på enheten. Det kommer att laddas ner.</item>
+    </plurals>
+    <plurals name="picker_skip_unavailable_images">
+        <item quantity="other">Hoppade över %d foton som inte finns på enheten.</item>
+        <item quantity="one">Hoppade över ett foto som inte finns på enheten.</item>
+    </plurals>
+    <plurals name="picker_retry_image_confirm_message">
+        <item quantity="other">Kunde inte ladda ner %1$d foton, försök igen?</item>
+        <item quantity="one">Kunde inte ladda ner foto, försök igen?</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_image_confirm_message">
+        <item quantity="other">Det gick inte att hämta %1$d foton ansluta till nätverket och försök igen</item>
+        <item quantity="one">Det gick inte att hämta foto, ansluta till nätverket och försök igen</item>
+    </plurals>
+    <plurals name="picker_retry_origin_confirm_message">
+        <item quantity="other">Kunde inte ladda ner %1$d foton (%2$dMB), försök igen?</item>
+        <item quantity="one">Kunde inte ladda ner foto (%2$dMB), försök igen?</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_origin_confirm_message">
+        <item quantity="other">Det gick inte att hämta %1$d bilder (%2$dMB), anslut till nätverket och försök igen</item>
+        <item quantity="one">Det gick inte att hämta bild(%2$dMB), anslut till nätverket och försök igen</item>
+    </plurals>
+    <plurals name="picker_cancel_confirm_message">
+        <item quantity="other">Avbryt nedladdningen av %d kvarvarande foton?</item>
+        <item quantity="one">Avbryt nedladdningen av det kvarvarande fotot?</item>
+    </plurals>
+    <plurals name="add_to_album_cloud_photo_count_tip">
+        <item quantity="other">Lade till %d bilder i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
+        <item quantity="one">Lade till %d bild i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">Radera %1$d bilder %2$s?</item>
+        <item quantity="one">Radera bilden %2$s?</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">Radera %1$d videor %2$s?</item>
+        <item quantity="one">Radera videon %2$s?</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">Radera %1$d objekt %2$s?</item>
+        <item quantity="one">Radera %1$d objekt %2$s?</item>
+    </plurals>
+    <plurals name="album_item_msg_format">
+        <item quantity="other">(%d objekt)</item>
+        <item quantity="one">(%d objekt)</item>
+    </plurals>
+    <plurals name="album_count">
+        <item quantity="other">%d bilder</item>
+        <item quantity="one">%d bild</item>
+    </plurals>
+    <plurals name="album_count_and_size">
+        <item quantity="other">%1$d objekt | %2$s</item>
+        <item quantity="one">%1$d objekt | %2$s</item>
+    </plurals>
+    <plurals name="backuping_desc_normal">
+        <item quantity="other">%1$d foton och videor</item>
+        <item quantity="one">%1$d foto eller video</item>
+    </plurals>
+    <plurals name="backuping_desc_gprs">
+        <item quantity="other">%1$d foto eller video| %2$s</item>
+        <item quantity="one">%1$d foto eller video| %2$s</item>
+    </plurals>
+    <plurals name="backup_after_hours">
+        <item quantity="other">Resume backup in %d hours</item>
+        <item quantity="one">Återupptar säkershetskopiering om %d timmar</item>
+    </plurals>
+    <plurals name="backup_pause_desc">
+        <item quantity="other">%d photos and videos | Paused</item>
+        <item quantity="one">%d photo or video | Paused</item>
+    </plurals>
+    <plurals name="sync_error_title">
+        <item quantity="other">Har inte säkerhetskopierat %d foto eller video</item>
+        <item quantity="one">Har inte säkerhetskopierat %d foto eller video</item>
+    </plurals>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d objekt</item>
+        <item quantity="one">%d objekt</item>
+    </plurals>
+    <plurals name="cloud_storage_photo_num">
+        <item quantity="other">%d foton</item>
+        <item quantity="one">%d foton</item>
+    </plurals>
+    <plurals name="cloud_storage_video_num">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="add_to_secret_successful">
+        <item quantity="other">Added %1$d photos to hidden album</item>
+        <item quantity="one">Added 1 photo to hidden album</item>
+    </plurals>
+    <plurals name="number_of_images_synced">
+        <item quantity="other">%1$d bilder</item>
+        <item quantity="one">1 bild</item>
+    </plurals>
+    <plurals name="number_of_videos_synced">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="number_of_images_to_upload">
+        <item quantity="other">%1$d bilder väntar på säkerhetskopiering</item>
+        <item quantity="one">1 bild väntar på säkerhetskopiering</item>
+    </plurals>
+    <plurals name="number_of_videos_to_upload">
+        <item quantity="other">%1$d videor väntar på säkerhetskopiering</item>
+        <item quantity="one">1 video väntar på säkerhetskopiering</item>
+    </plurals>
+    <plurals name="number_of_images_and_videos_to_upload">
+        <item quantity="other">%1$d objekt väntar på säkerhetskopiering</item>
+        <item quantity="one">1 objekt väntar på säkerhetskopiering</item>
+    </plurals>
+    <plurals name="number_of_uploading_images">
+        <item quantity="other">Säkerhetskopierar %1$d bilder…</item>
+        <item quantity="one">Säkerhetskopierar bild…</item>
+    </plurals>
+    <plurals name="number_of_uploading_videos">
+        <item quantity="other">Säkerhetskopierar %1$d videor…</item>
+        <item quantity="one">Säkerhetskopierar video…</item>
+    </plurals>
+    <plurals name="number_of_uploading_images_and_videos">
+        <item quantity="other">Säkerhetskopierar %1$d objekt…</item>
+        <item quantity="one">Säkerhetskopierar 1 objekt…</item>
+    </plurals>
+    <plurals name="download_error">
+        <item quantity="other">Kunde inte ladda ner %1$d filer</item>
+        <item quantity="one">Kunde inte ladda ner %1$d fil</item>
+    </plurals>
+    <plurals name="download_retry_message">
+        <item quantity="other">"Couldn't download %1$d files, check network connection and try again"</item>
+        <item quantity="one">Kunde inte ladda ner %1$d filer, kolla nätverket och försök igen</item>
+    </plurals>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">%d objekt valda</item>
+        <item quantity="one">%d objekt vald</item>
+    </plurals>
+    <plurals name="fast_share_auto_render_failed">
+        <item quantity="other">Hoppade över %1$d foton som inte kunde renderas.</item>
+        <item quantity="one">Hoppade över ett foto som inte kunde renderas.</item>
+    </plurals>
+    <plurals name="file_count_format">
+        <item quantity="other">Totalt %1$d objekt</item>
+        <item quantity="one">Totalt %1$d objekt</item>
+    </plurals>
+    <plurals name="quickly_discovery_message_format">
+        <item quantity="other">Fann %1$d nya foton</item>
+        <item quantity="one">Fann ett nytt foto</item>
+    </plurals>
+</resources>
