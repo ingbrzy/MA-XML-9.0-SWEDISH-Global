@@ -50,11 +50,4 @@
         <item>Flygande damm</item>
         <item>Dis</item>
     </string-array>
-    <string-array name="editing_mode_entries">
-        <item>Teman</item>
-        <item>Widgets</item>
-        <item>Bakgrunder</item>
-        <item>Effekter</item>
-        <item>Layout</item>
-    </string-array>
 </resources>
