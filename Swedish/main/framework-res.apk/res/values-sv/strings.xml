@@ -76,7 +76,7 @@
   <string name="android_upgrading_complete">Uppgraderingen är klar.</string>
   <string name="android_upgrading_fstrim">Lagringsutrymmet optimeras.</string>
   <string name="android_upgrading_notification_body">En del appar kanske inte fungerar som de ska innan uppgraderingen har slutförts</string>
-  <string name="android_upgrading_notification_title">Android uppgraderas</string>
+  <string name="android_upgrading_notification_title">Android-uppdateringen slutförs …</string>
   <string name="android_upgrading_starting_apps">Appar startas.</string>
   <string name="android_upgrading_title">Android uppgraderas ...</string>
   <string name="anr_activity_application">%2$s svarar inte</string>
@@ -88,6 +88,7 @@
   <string name="app_not_found">Ingen app som kan hantera åtgärden hittades</string>
   <string name="app_running_notification_text">Tryck om du vill veta mer eller stoppa appen.</string>
   <string name="app_running_notification_title">%1$s körs</string>
+  <string name="app_upgrading_toast">%1$s uppgraderas …</string>
   <string name="audit_safemode_notification">Återställ enheten till standardinställningarna om du vill använda den utan begränsningar</string>
   <string name="audit_safemode_notification_details">Tryck här om du vill läsa mer.</string>
   <string name="autofill_address_name_separator">" "</string>
@@ -123,7 +124,6 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
   <string name="bugreport_title">Skapa felrapport</string>
   <string name="byteShort">B</string>
   <string name="cancel">Avbryt</string>
-  <string name="candidates_style">&lt;u&gt;kandidater&lt;/u&gt;</string>
   <string name="capability_desc_canControlMagnification">Styr skärmens zoomnivå och positionering.</string>
   <string name="capability_desc_canPerformGestures">Kan trycka, svepa, nypa och göra andra rörelser.</string>
   <string name="capability_desc_canRequestEnhancedWebAccessibility">Skript kan installeras för att göra appens innehåll tillgängligare.</string>
@@ -158,6 +158,7 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
   <string name="close_button_text">Stäng</string>
   <string name="common_name">Nätverksnamn:</string>
   <string name="condition_provider_service_binding_label">Leverantör</string>
+  <string name="conference_call">Konferenssamtal</string>
   <string name="contentServiceSync">Synkronisera</string>
   <string name="contentServiceSyncNotificationTitle">Synkronisera</string>
   <string name="contentServiceTooManyDeletesNotificationDesc">För många %s-borttagningar.</string>
@@ -183,7 +184,7 @@ med %s"</string>
   <string name="data_usage_restricted_body">Ta bort begränsning.</string>
   <string name="data_usage_restricted_title">Bakgrundsdata är begränsade</string>
   <string name="data_usage_warning_body">Visa användning och inställning.</string>
-  <string name="data_usage_warning_title">Varning angående dataanvändning</string>
+  <string name="data_usage_warning_title">Varning – dataanvändning</string>
   <string name="data_usage_wifi_limit_snoozed_title">Gränsen för data via Wi-Fi har överskridits</string>
   <string name="data_usage_wifi_limit_title">Datagränsen för Wi-Fi har uppnåtts</string>
   <string name="date_and_time" formatted="false">%H:%M:%S %-e %b %Y</string>
@@ -213,6 +214,12 @@ med %s"</string>
   <string name="delete">Ta bort</string>
   <string name="deleteText">Ta bort</string>
   <string name="deleted_key">%1$s har tagits bort</string>
+  <string name="demo_restarting_message">Enheten återställs …</string>
+  <string name="demo_starting_message">Demo startas …</string>
+  <string name="demo_user_inactivity_timeout_countdown">Ändringar som du har gjort sparas inte och demon börjar om om %1$s sekunder …</string>
+  <string name="demo_user_inactivity_timeout_left_button">Avbryt</string>
+  <string name="demo_user_inactivity_timeout_right_button">Återställ nu</string>
+  <string name="demo_user_inactivity_timeout_title">Vill du återställa enheten?</string>
   <string name="deny">Neka</string>
   <string name="description_target_unlock_tablet">Lås upp genom att svepa.</string>
   <string name="dial_number_using">"Slå nummer 
@@ -342,6 +349,7 @@ med %s"</string>
   <string name="gigabyteShort">GB</string>
   <string name="global_action_assist">Hjälp</string>
   <string name="global_action_bug_report">Felrapport</string>
+  <string name="global_action_emergency">Nödsituation</string>
   <string name="global_action_lock">Skärmlås</string>
   <string name="global_action_lockdown">Lås nu</string>
   <string name="global_action_power_off">Stäng av</string>
@@ -563,7 +571,7 @@ Besök "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;.</string>
   <string name="lockscreen_glogin_submit_button">Logga in</string>
   <string name="lockscreen_glogin_too_many_attempts">För många försök med grafiskt lösenord</string>
   <string name="lockscreen_glogin_username_hint">Användarnamn (e-post)</string>
-  <string name="lockscreen_instructions_when_pattern_disabled">Tryck på Menu om du vill låsa upp.</string>
+  <string name="lockscreen_instructions_when_pattern_disabled">Tryck på Menu för att låsa upp.</string>
   <string name="lockscreen_instructions_when_pattern_enabled">Tryck på Menu om du vill låsa upp eller ringa nödsamtal.</string>
   <string name="lockscreen_missing_sim_instructions">Sätt in SIM kort.</string>
   <string name="lockscreen_missing_sim_instructions_long">SIM kort saknas eller är inte läsbar. Vänligen för in en SIM kort.</string>
@@ -585,6 +593,7 @@ Besök "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;.</string>
   <string name="lockscreen_sim_unlock_progress_dialog_message">Låser upp SIM-kort…</string>
   <string name="lockscreen_sound_off_label">Ljud av</string>
   <string name="lockscreen_sound_on_label">Ljud på</string>
+  <string name="lockscreen_storage_locked">Lås upp för alla funktioner och all data</string>
   <string name="lockscreen_too_many_failed_attempts_countdown">Försök igen om %d sekunder.</string>
   <string name="lockscreen_too_many_failed_attempts_dialog_message">"Du har ritat ditt grafiska lösenord fel %1$d gånger. 
 
@@ -725,6 +734,10 @@ Försök igen om %2$d sekunder."</string>
   <string name="needPuk2">Ange PUK2-koden för att häva spärren av SIM-kortet.</string>
   <string name="negative_duration">-%1$s</string>
   <string name="network_available_sign_in">Logga in på nätverket</string>
+  <string name="network_switch_metered">Byte av nätverk till %1$s</string>
+  <string name="network_switch_metered_detail">%1$s används på enheten när det inte finns internetåtkomst via %2$s. Avgifter kan tillkomma.</string>
+  <string name="network_switch_metered_toast">Byte av nätverk från %1$s till %2$s</string>
+  <string name="network_switch_type_name_unknown">en okänd nätverkstyp</string>
   <string name="new_app_action">Starta %1$s</string>
   <string name="new_app_description">Avbryt den gamla appen utan att spara.</string>
   <string name="new_sms_notification_content">Öppna sms-appen och visa meddelandet</string>
@@ -1070,6 +1083,7 @@ för kontot %s."</string>
   <string name="reboot_to_update_title">Systemuppdatering för Android</string>
   <string name="recent_tasks_title">Senaste</string>
   <string name="redo">Gör om</string>
+  <string name="region_picker_section_all">Alla regioner</string>
   <string name="relationTypeAssistant">Assistent</string>
   <string name="relationTypeBrother">Bror</string>
   <string name="relationTypeChild">Barn</string>
@@ -1089,6 +1103,8 @@ för kontot %s."</string>
   <string name="replace">Ersätt...</string>
   <string name="report">Rapportera</string>
   <string name="reset">Återställ</string>
+  <string name="reset_retail_demo_mode_text">Tryck om du vill återställa enheten</string>
+  <string name="reset_retail_demo_mode_title">Vill du återställa enheten?</string>
   <string name="restr_pin_confirm_pin">Bekräfta din nya pinkod</string>
   <string name="restr_pin_create_pin">Skapa en pinkod om du vill ändra begränsningar</string>
   <string name="restr_pin_enter_admin_pin">Ange administratörspinkod</string>
@@ -1283,7 +1299,7 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
   <string name="user_creation_account_exists">Tillåter du att %1$s skapar en ny användare för %2$s?</string>
   <string name="user_creation_adding">Tillåter du att %1$s skapar en ny användare för %2$s (det finns redan en användare med det här kontot)?</string>
   <string name="user_encrypted_detail">Användaruppgifterna är låsta</string>
-  <string name="user_encrypted_message">Tryck om du vill låsa upp</string>
+  <string name="user_encrypted_message">Tryck för att låsa upp</string>
   <string name="user_encrypted_title">Vissa funktioner är begränsade</string>
   <string name="user_logging_out_message">Loggar ut %1$s …</string>
   <string name="user_owner_label">Byt till din personliga profil</string>
@@ -1304,9 +1320,10 @@ Att lyssna med stark volym långa stunder åt gången kan skada hörseln."</stri
   <string name="volume_notification">Aviseringsvolym</string>
   <string name="volume_ringtone">Ringvolym</string>
   <string name="volume_unknown">Volym</string>
-  <string name="vpn_lockdown_config">Tryck om du vill konfigurera</string>
+  <string name="vpn_lockdown_config">Tryck för att konfigurera</string>
   <string name="vpn_lockdown_connected">Ansluten till Always-on VPN</string>
   <string name="vpn_lockdown_connecting">Ansluter till Always-on VPN ...</string>
+  <string name="vpn_lockdown_disconnected">Always-on VPN har kopplats från</string>
   <string name="vpn_lockdown_error">Fel på Always-on VPN</string>
   <string name="vpn_text">Knacka lätt för att hantera nätverket.</string>
   <string name="vpn_text_long">Ansluten till %s. Knacka lätt för att hantera nätverket.</string>

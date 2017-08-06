@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="accessibility_action_divider_bottom_full">Bottom full screen</string>
+  <string name="accessibility_action_divider_left_30">Left 30%</string>
+  <string name="accessibility_action_divider_left_50">Left 50%</string>
+  <string name="accessibility_action_divider_left_70">Left 70%</string>
+  <string name="accessibility_action_divider_left_full">Left full screen</string>
+  <string name="accessibility_action_divider_right_full">Right full screen</string>
+  <string name="accessibility_action_divider_top_30">Top 30%</string>
+  <string name="accessibility_action_divider_top_50">Top 50%</string>
+  <string name="accessibility_action_divider_top_70">Top 70%</string>
+  <string name="accessibility_action_divider_top_full">Top full screen</string>
   <string name="accessibility_airplane_mode">Flygplansläge.</string>
   <string name="accessibility_assistant">Snabb Panel</string>
   <string name="accessibility_back">Tillbaka</string>
@@ -20,8 +30,10 @@
   <string name="accessibility_data_signal_full">Datasignal full.</string>
   <string name="accessibility_data_three_bars">Data tre staplar.</string>
   <string name="accessibility_data_two_bars">Data två staplar.</string>
+  <string name="accessibility_desc_recent_apps">Overview.</string>
   <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
+  <string name="accessibility_divider">Split-screen divider</string>
   <string name="accessibility_home">Hem</string>
   <string name="accessibility_ime_switch_button">Välj inmatningsmetodsknapp.</string>
   <string name="accessibility_managed_profile">Arbetsprofil</string>
@@ -40,6 +52,12 @@
   <string name="accessibility_recent_task_locked">Låst, dra ner för att låsa upp.</string>
   <string name="accessibility_recent_task_memory_info">Total RAM: %2$s | Tillgängliga RAM: %1$s. Dubbeltryck för att rensa.</string>
   <string name="accessibility_recent_task_unlocked">Upplåst</string>
+  <string name="accessibility_recents_all_items_dismissed">All recent applications dismissed.</string>
+  <string name="accessibility_recents_item_dismissed">%s dismissed.</string>
+  <string name="accessibility_recents_item_launched">Starting %s.</string>
+  <string name="accessibility_recents_item_open_app_info">Open %s application info.</string>
+  <string name="accessibility_recents_item_will_be_dismissed">Dismiss %s.</string>
+  <string name="accessibility_recents_task_header">%1$s %2$s</string>
   <string name="accessibility_remove_notification">Rensa notifikation.</string>
   <string name="accessibility_ringer_silent">Ringsignal tyst.</string>
   <string name="accessibility_ringer_vibrate">Ringer vibrera.</string>
@@ -68,6 +86,8 @@
   <string name="apn_settings_not_available">Access Point Name settings are not available for this user</string>
   <string name="app_label">System-gränssnitt</string>
   <string name="app_process_limit_title">Background process limit</string>
+  <string name="as_important">Important</string>
+  <string name="as_unimportant">Unimportant</string>
   <string name="audio_effect_custom">Konfigurera</string>
   <string name="audio_effect_info">Optimera ljud</string>
   <string name="audio_effect_settings">Välj hörlurstyp</string>
@@ -99,7 +119,7 @@
   <string name="bluetooth_connected_no_map">Connected (no message access)</string>
   <string name="bluetooth_connecting">Connecting…</string>
   <string name="bluetooth_disable_absolute_volume">Disable absolute volume</string>
-  <string name="bluetooth_disable_absolute_volume_summary">Disables the Bluetooth absolute volume feature in case of volume issues with remote devices such as unacceptably loud volume or lack of control.</string>
+  <string name="bluetooth_disable_absolute_volume_summary">Disable absolute volume for Bluetooth in case of volume issues with remote devices, such as unacceptably loud volume or inability to control it.</string>
   <string name="bluetooth_disconnected">Disconnected</string>
   <string name="bluetooth_disconnecting">Disconnecting…</string>
   <string name="bluetooth_dun_profile_summary_connected">Connected to DUN Server</string>
@@ -157,22 +177,24 @@
   <string name="camera_key_action_shortcut_title">Genväg</string>
   <string name="camera_key_action_shortcut_wake">Lås/Väck enhet</string>
   <string name="camera_key_action_toggle_title">Trigger toggle</string>
+  <string name="cancel">Cancel</string>
   <string name="category_personal">Personal</string>
   <string name="category_work">Work</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="chooseUsbActivity">Välj en enhet för USB-enheten</string>
-  <string name="choose_profile">Choose Profile</string>
+  <string name="choose_profile">Choose profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
+  <string name="click_to_return_multi_window">Click to return Multi Window Mode</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
   <string name="connected_via_passpoint">Connected via %1$s</string>
   <string name="connected_via_wfa">Connected via Wi‑Fi assistant</string>
   <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
- !!Warning!! This will erase all your data.
- This feature is alpha, and may not work correctly.
+ Warning: This will erase all your data.
+ This feature is being developed, and may not work correctly.
  Press 'Wipe and convert…' to continue."</string>
   <string name="convert_to_file_encryption">Convert to file encryption</string>
-  <string name="convert_to_file_encryption_done">Already file encrypted</string>
+  <string name="convert_to_file_encryption_done">Files are encrypted</string>
   <string name="convert_to_file_encryption_enabled">Convert…</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
@@ -199,15 +221,16 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
   <string name="debug_hw_drawing_category">Hardware accelerated rendering</string>
   <string name="debug_hw_overdraw">Debug GPU overdraw</string>
   <string name="debug_input_category">Input</string>
-  <string name="debug_layout">Show layout bounds</string>
-  <string name="debug_layout_summary">Show clip bounds, margins, etc.</string>
+  <string name="debug_layout">Show layout boundaries</string>
+  <string name="debug_layout_summary">Show clip boundaries, margins, etc.</string>
   <string name="debug_monitoring_category">Monitoring</string>
   <string name="debug_networking_category">Networking</string>
-  <string name="debug_view_attributes">Enable view attribute inspection</string>
+  <string name="debug_view_attributes">Enable viewing attributes</string>
+  <string name="demo_mode">Demo mode</string>
   <string name="description_direction_left">Dra vänster för%s.</string>
   <string name="description_direction_up">Dra upp för%s.</string>
   <string name="description_target_search">Sök</string>
-  <string name="dev_settings_warning_message">These settings are intended for development use only. They can cause your device and the applications on it to break or misbehave.</string>
+  <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
   <string name="development_settings_enable">Enable developer options</string>
   <string name="development_settings_not_available">Developer options are not available for this user</string>
@@ -215,8 +238,8 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
   <string name="development_settings_title">Developer options</string>
   <string name="disable_notification_summary">Visa aldrig notifikationer från valda appar</string>
   <string name="disable_notification_title">Göm notifikationer</string>
-  <string name="disable_overlays">Disable HW overlays</string>
-  <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
+  <string name="disable_overlays">Disable HW overlay</string>
+  <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
   <string name="disabled_by_admin">Disabled by administrator</string>
   <string name="disabled_by_admin_summary_text">Controlled by admin</string>
   <string name="dismount_storage">Nej</string>
@@ -227,12 +250,14 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
   <string name="dlg_confirm_kill_storage_users_title">Aktivera USB-lagring</string>
   <string name="dlg_error_title">USB-funktion misslyckades</string>
   <string name="dlg_ok">OK</string>
+  <string name="dock_forced_resizable">App may not work with split-screen.</string>
+  <string name="dock_non_resizeble_failed_to_dock_text">App does not support split-screen</string>
   <string name="drive_mode_tip">Du är i Billäge</string>
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
   <string name="enable_freeform_support">Enable freeform windows</string>
   <string name="enable_freeform_support_summary">Enable support for experimental freeform windows.</string>
-  <string name="enable_opengl_traces_title">Enable OpenGL traces</string>
+  <string name="enable_opengl_traces_title">Enable OpenGL tracing</string>
   <string name="enable_power_save_mode">Aktivera batterisparare</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
@@ -258,10 +283,10 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
   <string name="ext_media_unmountable_notification_title">Skadad USB-lagring</string>
   <string name="float_incall_ignore">Ignorera</string>
   <string name="float_incall_message">Meddelande</string>
-  <string name="force_allow_on_external">Force allow apps on external</string>
+  <string name="force_allow_on_external">Force allow apps ro write on external storage</string>
   <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
   <string name="force_hw_ui">Force GPU rendering</string>
-  <string name="force_hw_ui_summary">Force use of GPU for 2d drawing</string>
+  <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
   <string name="force_msaa">Force 4x MSAA</string>
   <string name="force_msaa_summary">Enable 4x MSAA in OpenGL ES 2.0 apps</string>
   <string name="force_resizable_activities">Force activities to be resizable</string>
@@ -275,7 +300,8 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
   <string name="home">Settings Home</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
-  <string name="immediately_destroy_activities_summary">Destroy every activity as soon as the user leaves it</string>
+  <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
+  <string name="important_desc">All important notifications will appear directly on the Notification shade.</string>
   <string name="inactive_app_active_summary">Active. Tap to toggle.</string>
   <string name="inactive_app_inactive_summary">Inactive. Tap to toggle.</string>
   <string name="inactive_apps_title">Inactive apps</string>
@@ -283,6 +309,7 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
 Använd endast den medföljande laddaren."</string>
   <string name="keep_screen_on">Stay awake</string>
   <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
+  <string name="keyboard_shortcut_group_system_recents">Recents</string>
   <string name="kilobyte_per_second">Kb/s</string>
   <string name="label_view">Se</string>
   <string name="launch_defaults_none">No defaults set</string>
@@ -293,9 +320,9 @@ Använd endast den medföljande laddaren."</string>
   <string name="local_backup_password_summary_change">Tap to change or remove the password for desktop full backups</string>
   <string name="local_backup_password_summary_none">Desktop full backups aren’t currently protected</string>
   <string name="local_backup_password_title">Desktop backup password</string>
-  <string name="local_backup_password_toast_confirmation_mismatch">New password and confirmation don’t match</string>
+  <string name="local_backup_password_toast_confirmation_mismatch">Passwords don’t match</string>
   <string name="local_backup_password_toast_success">New backup password set</string>
-  <string name="local_backup_password_toast_validation_failure">Failure setting backup password</string>
+  <string name="local_backup_password_toast_validation_failure">"Couldn't set backup password"</string>
   <string name="lockscreen_carrier_default">Ingen tjänst</string>
   <string name="long_screenshot_not_support_msg">Nuvarande app stödjer inte skrollande skärmdumpar</string>
   <string name="long_screenshot_out_of_memory_error">Bildstorlek är för stor</string>
@@ -390,10 +417,28 @@ Använd endast den medföljande laddaren."</string>
   <string name="quick_settings_wifi_detail_empty_text">Inga Wi-Fi nätverk är tillgängliga</string>
   <string name="quick_settings_wifi_label">Wi-Fi</string>
   <string name="quick_settings_wifi_nearby">Välj ett närliggande nätverk</string>
+  <string name="recent_dock_tip">Click to choose application</string>
   <string name="recent_task_app_info_text">Info</string>
   <string name="recent_task_cleaning">Clearing apps…</string>
   <string name="recent_task_lock_text">Lås</string>
   <string name="recent_task_unlock_text">Lås upp</string>
+  <string name="recents_app_info_button_label">Application Info</string>
+  <string name="recents_caption_resize">Select new task layout</string>
+  <string name="recents_drag_hint_message">Drag here to use split screen</string>
+  <string name="recents_empty_message">No recent items</string>
+  <string name="recents_empty_message_dismissed_all">"You've cleared everything"</string>
+  <string name="recents_empty_message_multi_window">Please go home to open an application</string>
+  <string name="recents_exit_multi_window_mode">Exit SplitScreenMode</string>
+  <string name="recents_incompatible_app_message">"App doesn't support split screen"</string>
+  <string name="recents_launch_disabled_message">%s is disabled in safe-mode.</string>
+  <string name="recents_launch_error_message">Could not start %s.</string>
+  <string name="recents_lock_to_app_button_label">screen pinning</string>
+  <string name="recents_multi_window_mode">SplitScreenMode</string>
+  <string name="recents_multistack_add_stack_dialog_split_custom">Split Custom</string>
+  <string name="recents_multistack_add_stack_dialog_split_horizontal">Split Horizontal</string>
+  <string name="recents_multistack_add_stack_dialog_split_vertical">Split Vertical</string>
+  <string name="recents_search_bar_label">search</string>
+  <string name="recents_stack_action_button_label">Clear all</string>
   <string name="reject_call">Avvisa samtalet</string>
   <string name="remaining_length_format">%1$s left</string>
   <string name="return_to_incall_screen">Återgå till samtal</string>
@@ -421,7 +466,8 @@ Använd endast den medföljande laddaren."</string>
   <string name="screenshot_dlg_cancel">Avbryt</string>
   <string name="screenshot_dlg_delete_button">Radera</string>
   <string name="screenshot_edit">Redigera</string>
-  <string name="screenshot_failed_text">Det går inte att ta skärmdump på grund av begränsat lagringsutrymme, eller så är det inte tillåtet för appen eller din organisation.</string>
+  <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space or the app forbid that."</string>
+  <string name="screenshot_insert_failed">Fail to load the screenshot, please retake a new one or view the picture in the album</string>
   <string name="screenshot_long_screenshot">Skrolla</string>
   <string name="screenshot_saved_text">Tryck för att visa din skärmbild.</string>
   <string name="screenshot_saved_title">Skärmdump fångad</string>
@@ -430,10 +476,10 @@ Använd endast den medföljande laddaren."</string>
   <string name="screenshot_saving_title">Sparar skärmdump…</string>
   <string name="screenshot_send">Skicka</string>
   <string name="select_application">Select application</string>
-  <string name="select_logd_size_dialog_title">Select Logger sizes per log buffer</string>
-  <string name="select_logd_size_title">Logger buffer sizes</string>
-  <string name="select_usb_configuration_dialog_title">Select USB Configuration</string>
-  <string name="select_usb_configuration_title">Select USB Configuration</string>
+  <string name="select_logd_size_dialog_title">Select size for log buffers</string>
+  <string name="select_logd_size_title">Log buffer sizes</string>
+  <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
+  <string name="select_usb_configuration_title">Select USB configuration</string>
   <string name="select_webview_provider_dialog_title">Set WebView implementation</string>
   <string name="select_webview_provider_title">WebView implementation</string>
   <string name="select_webview_provider_toast_text">This choice is no longer valid. Try again.</string>
@@ -443,19 +489,21 @@ Använd endast den medföljande laddaren."</string>
   <string name="settings_toggle_position_reset">Återställ knappar</string>
   <string name="share">Dela</string>
   <string name="show_all_anrs">Show all ANRs</string>
-  <string name="show_all_anrs_summary">Show App Not Responding dialog for background apps</string>
+  <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
   <string name="show_cpu_usage">Show CPU usage</string>
-  <string name="show_cpu_usage_summary">Screen overlay showing current CPU usage</string>
-  <string name="show_hw_layers_updates">Show hardware layers updates</string>
-  <string name="show_hw_layers_updates_summary">Flash hardware layers green when they update</string>
-  <string name="show_hw_screen_updates">Show GPU view updates</string>
-  <string name="show_hw_screen_updates_summary">Flash views inside windows when drawn with the GPU</string>
+  <string name="show_cpu_usage_summary">Show CPU usage using screen overlay</string>
+  <string name="show_demo_mode">Show demo mode</string>
+  <string name="show_hw_layers_updates">Show hardware level updates</string>
+  <string name="show_hw_layers_updates_summary">Hardware items that are being updated will flash green</string>
+  <string name="show_hw_screen_updates">Visualize GPU rendering</string>
+  <string name="show_hw_screen_updates_summary">Flash windows where videos are being rendered by GPU</string>
   <string name="show_non_rect_clip">Debug non-rectangular clip operations</string>
   <string name="show_screen_updates">Show surface updates</string>
   <string name="show_screen_updates_summary">Flash entire window surfaces when they update</string>
   <string name="show_touches">Show taps</string>
   <string name="show_touches_summary">Show visual feedback for taps</string>
   <string name="simulate_color_space">Simulate color space</string>
+  <string name="status_bar_accessibility_dismiss_recents">Dismiss recent apps</string>
   <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
   <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
@@ -472,8 +520,10 @@ MMMM d"</string>
 Dra ner för att låsa"</string>
   <string name="status_bar_recent_guide_bottom">Dra ner för att låsa</string>
   <string name="status_bar_recent_guide_top">Skjut upp för att stänga</string>
+  <string name="status_bar_recent_inspect_item_title">App info</string>
   <string name="status_bar_recent_memory_info1">%1$sB av %2$sB tillgängligt</string>
   <string name="status_bar_recent_memory_info2"/>
+  <string name="status_bar_recent_remove_item_title">Remove from list</string>
   <string name="status_bar_recording_back">Återvänd till Recorder</string>
   <string name="status_bar_recording_pause">Recorder pausad</string>
   <string name="status_bar_safepay_risk">Risker med betalning funna</string>
@@ -493,7 +543,7 @@ Dra ner för att låsa"</string>
   <string name="tether_settings_title_usb_bluetooth">Tethering</string>
   <string name="tether_settings_title_wifi">Portable hotspot</string>
   <string name="tethering_settings_not_available">Tethering settings are not available for this user</string>
-  <string name="title_convert_fbe">Converting to file based encryption</string>
+  <string name="title_convert_fbe">Converting to file based encryption…</string>
   <string name="title_usb_accessory">USB-tillbehör</string>
   <string name="torch_activity_hint">Tryck [icon] för att aktivera ficklampan på låsskärmen</string>
   <string name="torch_activity_name">Ficklampa</string>
@@ -501,7 +551,7 @@ Dra ner för att låsa"</string>
   <string name="torch_opened">Ficklampa på</string>
   <string name="track_frame_time">Profile GPU rendering</string>
   <string name="transition_animation_scale_title">Transition animation scale</string>
-  <string name="tts_default_lang_summary">Sets the language-specific voice for the spoken text</string>
+  <string name="tts_default_lang_summary">Set the default language for text-to-speech output</string>
   <string name="tts_default_lang_title">Language</string>
   <string name="tts_default_pitch_summary">Affects the tone of the synthesized speech</string>
   <string name="tts_default_pitch_title">Pitch</string>
@@ -510,7 +560,7 @@ Dra ner för att låsa"</string>
   <string name="tts_default_sample_string">This is an example of speech synthesis</string>
   <string name="tts_engine_network_required">This language requires a working network connection for text-to-speech output.</string>
   <string name="tts_engine_preference_section_title">Preferred engine</string>
-  <string name="tts_engine_security_warning">This speech synthesis engine may be able to collect all the text that will be spoken, including personal data like passwords and credit card numbers. It comes from the %s engine. Enable the use of this speech synthesis engine?</string>
+  <string name="tts_engine_security_warning">This voice engine may be able to record and collect everything you say, including personal data like passwords and credit card numbers. This voice engine is provided by %s. Turn on voice engine?</string>
   <string name="tts_engine_settings_button">Launch engine settings</string>
   <string name="tts_engine_settings_title">Settings for %s</string>
   <string name="tts_general_section_title">General</string>
@@ -525,10 +575,13 @@ Dra ner för att låsa"</string>
   <string name="tts_settings">Text-to-speech settings</string>
   <string name="tts_settings_title">Text-to-speech output</string>
   <string name="tts_status_checking">Checking…</string>
-  <string name="tts_status_not_supported">%1$s is not supported</string>
+  <string name="tts_status_not_supported">"%1$s isn't supported"</string>
   <string name="tts_status_ok">%1$s is fully supported</string>
   <string name="tts_status_requires_network">%1$s requires network connection</string>
   <string name="tts_status_title">Default language status</string>
+  <string name="un_important_notifications">Unimportant notifications</string>
+  <string name="unimportant_desc">All unimportant notifications will appear in a separate folder.</string>
+  <string name="unimportant_title">Unimportant</string>
   <string name="unknown">Unknown</string>
   <string name="usb_accessory_confirm_prompt">Öppna %1$s när det här USB-tillbehöret är anslutet?</string>
   <string name="usb_accessory_permission_prompt">Tillåt appen %1$s att komma åt USB-enhet?</string>
@@ -578,10 +631,10 @@ Dra ner för att låsa"</string>
   <string name="wait_for_debugger_summary">Debugged application waits for debugger to attach before executing</string>
   <string name="weather_description_no_aqi">%1$s</string>
   <string name="weather_publish_time">Uppdaterad %1$s</string>
-  <string name="wifi_aggressive_handover">Aggressive Wi‑Fi to Cellular handover</string>
-  <string name="wifi_aggressive_handover_summary">When enabled, Wi‑Fi will be more aggressive in handing over the data connection to Cellular, when Wi‑Fi signal is low</string>
-  <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi Roam Scans</string>
-  <string name="wifi_allow_scan_with_traffic_summary">Allow/Disallow Wi‑Fi Roam Scans based on the amount of data traffic present at the interface</string>
+  <string name="wifi_aggressive_handover">Automatic Wi‑Fi to Cellular handover</string>
+  <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively, when Wi‑Fi signal is low.</string>
+  <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi roam scans</string>
+  <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict Wi‑Fi roam scans based on the amount of data traffic present in the interface.</string>
   <string name="wifi_connected_no_internet">Connected, no internet</string>
   <string name="wifi_disabled_generic">Disabled</string>
   <string name="wifi_disabled_network_failure">"Couldn't configure IP"</string>
@@ -598,9 +651,11 @@ Dra ner för att låsa"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">None</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -609,7 +664,7 @@ Dra ner för att låsa"</string>
   <string name="wifi_security_wpa">WPA PSK</string>
   <string name="wifi_security_wpa2">WPA2 PSK</string>
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-  <string name="wifi_verbose_logging">Enable Wi‑Fi Verbose Logging</string>
-  <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show per SSID RSSI in Wi‑Fi Picker</string>
+  <string name="wifi_verbose_logging">Enable Wi‑Fi verbose logging</string>
+  <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show RSSI for every SSID in the list of Wi‑Finetworks.</string>
   <string name="window_animation_scale_title">Window animation scale</string>
 </resources>

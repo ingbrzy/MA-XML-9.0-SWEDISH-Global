@@ -129,6 +129,7 @@
   <string name="confirm_enable_oem_unlock_title">Vill du tillåta OEM-upplåsning?</string>
   <string name="connected_via_passpoint">Anslutet via %1$s</string>
   <string name="connected_via_wfa">Ansluten via Wi-Fi-assistent</string>
+  <string name="content_description_menu_button">Meny</string>
   <string name="convert_to_fbe_warning">"Konvertera datapartitionen till filbaserad kryptering.
  Varning! All data raderas.
  Detta är en alfafunktion och fel kan uppstå.
@@ -159,6 +160,8 @@
   <string name="debug_monitoring_category">Övervakning</string>
   <string name="debug_networking_category">Nätverk</string>
   <string name="debug_view_attributes">Aktivera inspektion av visningsattribut</string>
+  <string name="dev_logpersist_clear_warning_message">När övervakningen inte längre görs med permanent loggning måste loggdata som finns på enheten raderas.</string>
+  <string name="dev_logpersist_clear_warning_title">Vill du rensa lagringsutrymmet för loggar?</string>
   <string name="dev_settings_warning_message">Inställningarna är endast avsedda att användas för utvecklingsändamål. De kan orsaka problem med enheten eller apparna som finns installerade på den.</string>
   <string name="dev_settings_warning_title">Tillåt utvecklarinställningar?</string>
   <string name="development_settings_enable">Aktivera utvecklaralternativ</string>
@@ -208,7 +211,6 @@
   <string name="keep_screen_on_summary">Skärmen vilar aldrig när laddning pågår</string>
   <string name="launch_defaults_none">Inga standardinställningar har angetts</string>
   <string name="launch_defaults_some">Några standardinställningar har angetts</string>
-  <string name="legacy_dhcp_client_summary">Använd DHCP-klienten från Lollipop i stället för den nya Android DHCP-klienten.</string>
   <string name="local_backup_password_summary_change">Tryck om du vill ändra eller ta bort lösenordet för fullständig säkerhetskopiering av datorn</string>
   <string name="local_backup_password_summary_none">De fullständiga säkerhetskopiorna av datorn är för närvarande inte skyddade</string>
   <string name="local_backup_password_title">Lösenord för säkerhetskopia av datorn</string>
@@ -229,7 +231,7 @@
   <string name="name">Namn</string>
   <string name="no">Nej</string>
   <string name="no_application">Ingen</string>
-  <string name="no_info_provided">Ingen krisinformation har angetts</string>
+  <string name="no_info_provided">Det finns inga uppgifter om mobilens ägare</string>
   <string name="o_negative">0-negativ</string>
   <string name="o_positive">0-positiv</string>
   <string name="oem_unlock_enable">OEM-upplåsning</string>
@@ -273,9 +275,12 @@
   <string name="screen_zoom_summary_large">Stor</string>
   <string name="screen_zoom_summary_small">Små</string>
   <string name="screen_zoom_summary_very_large">Större</string>
+  <string name="search_menu_title">Sök</string>
   <string name="select_application">Välj app</string>
   <string name="select_logd_size_dialog_title">Välj loggstorlekar per loggbuffert</string>
   <string name="select_logd_size_title">Buffertstorlekar för logg</string>
+  <string name="select_logpersist_dialog_title">Välj vilka loggbuffertar som ska sparas permanent på enheten</string>
+  <string name="select_logpersist_title">Spara logg permanent på enheten</string>
   <string name="select_usb_configuration_dialog_title">Välj USB-konfiguration</string>
   <string name="select_usb_configuration_title">Välj USB-konfiguration</string>
   <string name="select_webview_provider_dialog_title">Ange WebView-implementering</string>
@@ -283,8 +288,6 @@
   <string name="select_webview_provider_toast_text">Det här alternativet är inte längre giltigt. Försök igen.</string>
   <string name="show_all_anrs">Visa alla som inte svarar</string>
   <string name="show_all_anrs_summary">Visa dialogrutan om att appen inte svarar för bakgrundsappar</string>
-  <string name="show_cpu_usage">Visa CPU-användning</string>
-  <string name="show_cpu_usage_summary">Överlägg på skärmen med aktuell CPU-användning</string>
   <string name="show_hw_layers_updates">Visa maskinvaruskiktuppd.</string>
   <string name="show_hw_layers_updates_summary">Låt maskinvaruskikt blinka grönt vid uppdateringar</string>
   <string name="show_hw_screen_updates">Visa GPU-visningsuppdateringar</string>
@@ -300,6 +303,7 @@
   <string name="strict_mode_summary">Tänd skärm när app gör omfattande åtgärd på huvudtråd</string>
   <string name="tab_title_contacts">Kontakter</string>
   <string name="tab_title_info">Information</string>
+  <string name="tap_pencil">Om det här är din mobil trycker du på pennikonen för att lägga till uppgifter som visas här i nödsituationer</string>
   <string name="tether_settings_title_all">Internetdelning och surfpunkt</string>
   <string name="tether_settings_title_bluetooth">Delning via Bluetooth</string>
   <string name="tether_settings_title_usb">Internetdelning via USB</string>
@@ -368,7 +372,8 @@
   <string name="wifi_display_certification">Certifiering för Wi-Fi-skärmdelning</string>
   <string name="wifi_display_certification_summary">Visa certifieringsalternativ för Wi-Fi-skärmdelning</string>
   <string name="wifi_fail_to_scan">Det går inte att söka efter nätverk</string>
-  <string name="wifi_no_internet">Ingen internetåtkomst hittades. Det går inte att återansluta automatiskt.</string>
+  <string name="wifi_no_internet">Ingen internetåtkomst</string>
+  <string name="wifi_no_internet_no_reconnect">Ingen internetåtkomst hittades. Det går inte att återansluta automatiskt.</string>
   <string name="wifi_not_in_range">Utom räckhåll</string>
   <string name="wifi_remembered">Sparat</string>
   <string name="wifi_security_none">Ingen</string>

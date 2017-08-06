@@ -37,7 +37,10 @@
   <string name="album_jump_failed">Vänta tills album synkroniseras med Mi Cloud och försök igen</string>
   <string name="album_member">Album medlemmar %s</string>
   <string name="album_name">Albumnamn</string>
+  <string name="album_name_locations">Locations</string>
+  <string name="album_name_people">People</string>
   <string name="album_name_recent_discovery">Nyligen</string>
+  <string name="album_name_tags">Tags</string>
   <string name="album_others_share_baby_info_format">Bebisalbum från %s</string>
   <string name="album_others_share_info_format">Från %s</string>
   <string name="album_owner_share">Delat</string>
@@ -303,6 +306,7 @@
   <string name="empty_recommend_back">Tillbaka</string>
   <string name="empty_recommend_face_page_view">Inga fler rekommendationer</string>
   <string name="empty_relation">Filnamnet kan inte vara blankt</string>
+  <string name="empty_title_no_photos">No photos or videos</string>
   <string name="enable_auto_upload_tip">Slå på synkronisering mot Mi Cloud för det här albumet?</string>
   <string name="enable_auto_upload_title">Sätt på synkronisering mot Mi Cloud</string>
   <string name="enable_cloud_for_sharing">Starta Mi Cloud album för att visa delade bilder.</string>
@@ -335,7 +339,7 @@
   <string name="face_album_empty">"Inte tillräckligt med bilder för att känna igen personer.
 Ta fler bilder av dina vänner!"</string>
   <string name="face_album_empty_syncing">Synkroniserar data, återkom om ett ögonblick</string>
-  <string name="face_album_empty_syncing_when_connect_wifi">Anslut till Wi-Fi för att synkroniseringsinfo</string>
+  <string name="face_album_empty_syncing_when_connect_wifi">Connect to network to sync info</string>
   <string name="face_album_long_tap_tip">Att välja flera personer eller ändra gruppinställningar, tryck &amp; markera en profilbild</string>
   <string name="face_album_new_name_hint">Nytt namn</string>
   <string name="face_album_not_named">Namnlös</string>
@@ -394,7 +398,7 @@ Ta fler bilder av dina vänner!"</string>
   <string name="has_invalid_recipient">Ogiltig mottagare: %1$s</string>
   <string name="have_known">Jag förstår</string>
   <string name="hidden_album_display_name">Dolda album</string>
-  <string name="home_page_empty">Tom</string>
+  <string name="home_page_empty_action">Take a photo</string>
   <string name="home_page_label">Foton</string>
   <string name="how_to_set_relation">Tryck &amp; håll ett album för att skapa grupp</string>
   <string name="hybrid_check_network">Nätverksinställningar</string>
@@ -548,9 +552,13 @@ Ta fler bilder av dina vänner!"</string>
   <string name="other_album">Andra album</string>
   <string name="other_settings">Ytterligare inställningar</string>
   <string name="owner_album_subtitle">Delad med %1$s personer</string>
+  <string name="people_album_empty_title">Photos can be sorted by people in them</string>
   <string name="people_jump_failed">Vänta tills bilder med människor synkroniseras med Mi Cloud och försök igen</string>
+  <string name="people_mark_mode_title">Select \"%s\"</string>
+  <string name="people_mark_mode_title_no_mark_name">Select a person</string>
   <string name="people_page_label">Människor</string>
   <string name="people_page_unname">Namnlös</string>
+  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">Sällskapsdjursfoton</string>
   <string name="petabyteShort">PB</string>
   <string name="photo">Foton</string>
@@ -574,6 +582,7 @@ Ta fler bilder av dina vänner!"</string>
   <string name="picker_title_format">Du kan välja upp till %d bilder</string>
   <string name="picker_title_selection_format">Valda foton: %d</string>
   <string name="picker_title_unlimit">Välj bilder</string>
+  <string name="places_album_empty_title">Photos can be sorted by location</string>
   <string name="preparing_data">Bara en sekund…</string>
   <string name="projection_checkbox_text">Kom ihåg denna skärm</string>
   <string name="projection_device_connection_failed">Det gick inte att ansluta till projektor</string>
@@ -589,6 +598,7 @@ Ta fler bilder av dina vänner!"</string>
   <string name="publish_succeeded">Album publiserad</string>
   <string name="publishing">Publiserar…</string>
   <string name="quotation">\"%s\"</string>
+  <string name="recent_album_empty_title">"Haven't added new photos recently"</string>
   <string name="recommanded_face_abandon_tip">Borttagen från förslag</string>
   <string name="recommanded_face_added_tip">Tillagt i \"%s\"</string>
   <string name="recovery_merge">Slå ihop</string>
@@ -635,7 +645,6 @@ Ta fler bilder av dina vänner!"</string>
   <string name="scan_barcode_guide">För att få albumets QR-kod, tryck på Dela-ikonen.</string>
   <string name="scan_barcode_to_join">Scanna QR-kod för att lägga till album</string>
   <string name="scan_qr_code_buttom_text">Scanna QR-koden för att titta på albumet</string>
-  <string name="search_album_jump_failed">Vänta tills album synkroniseras med Mi Cloud och försök igen</string>
   <string name="search_backup_full_screen">Aktivera synkronisering med Mi Cloud för att hitta mer objekt och personer</string>
   <string name="search_backup_now">Aktivera</string>
   <string name="search_backup_sub_title">Aktivera för att hitta fler bilder</string>
@@ -651,16 +660,26 @@ Ta fler bilder av dina vänner!"</string>
   <string name="search_login_sub_title">Logga in för att hitta fler foton</string>
   <string name="search_login_title">Mi-konto</string>
   <string name="search_login_title_full_screen">Logga in med ditt Mi-konto för att hitta fler föremål och människor</string>
-  <string name="search_people_jump_failed">Vänta tills bilder med människor synkroniseras med Mi Cloud och försök igen</string>
+  <string name="search_net_error">A network error occurred. Connect to a different network and try again.</string>
+  <string name="search_request_open">Join testing team</string>
   <string name="search_result_empty">Fann ingenting</string>
   <string name="search_retry">Försök igen</string>
+  <string name="search_select_network">Select network</string>
   <string name="search_set_network_connection">Nätverksinställningar</string>
+  <string name="search_setting_sub_title">Improved image search</string>
+  <string name="search_setting_sub_title_open">Approved. Wait a while before you start.</string>
+  <string name="search_setting_title">Find photos in Gallery</string>
+  <string name="search_syncing">Syncing data, come back in a while</string>
+  <string name="search_title_album">Album</string>
   <string name="search_title_history">Sökhistorik</string>
   <string name="search_title_location">Platser</string>
   <string name="search_title_others">Alla resultat</string>
   <string name="search_title_people">Människor</string>
   <string name="search_title_recommend">Rekommenderad</string>
+  <string name="search_title_suggestion">Suggestions</string>
   <string name="search_title_tag">Objekt</string>
+  <string name="search_transition_element_icon">search_icon</string>
+  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">The best place for all your little secrets</string>
   <string name="secret_album_card_title">Try hidden album</string>
   <string name="secret_album_display_name">Dolt album</string>
@@ -693,6 +712,7 @@ Ta fler bilder av dina vänner!"</string>
   <string name="set_face_image">Ange en ny profilbild</string>
   <string name="set_group">Ange grupp</string>
   <string name="set_wallpaper_get_image_failed">Kunde inte ladda ner foto, försök igen senare</string>
+  <string name="setup_network_connection">Network settings</string>
   <string name="share">Dela</string>
   <string name="share_album">Dela album</string>
   <string name="share_album_needs_auto_upload_tip">Kan inte stänga av säkerhetskopiering för delade album</string>
@@ -748,6 +768,7 @@ Ta fler bilder av dina vänner!"</string>
   <string name="text_append_hint">Ange text</string>
   <string name="text_append_style">Bubbla</string>
   <string name="text_append_transparent">Opacitet</string>
+  <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
   <string name="tip_capture_location">Plats:</string>
   <string name="tip_capture_params">EXIF data:</string>
   <string name="tip_capture_time">Tagen vid:</string>
@@ -845,6 +866,7 @@ Ta fler bilder av dina vänner!"</string>
   <string name="view_by_gallery_tip">MIUI Galleri</string>
   <string name="view_face_album">Visa album</string>
   <string name="view_queuing_status">Kolla status</string>
+  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
   <string name="welcome_to_slim">Optimera lokalt utrymme</string>
   <string name="where_is_barcode">Var är QR-koden?</string>

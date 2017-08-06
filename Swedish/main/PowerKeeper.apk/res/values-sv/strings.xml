@@ -32,6 +32,7 @@
 Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
   <string name="config_suggest_suffix_title">MIUI batterisparfunktioner (rekommenderas)</string>
   <string name="config_suggest_title">MIUI batterisparfunktioner</string>
+  <string name="confirm">Confirm</string>
   <string name="disable_hide_mode">Disable MIUI Battery Saver</string>
   <string name="disable_hide_mode_warning">Disable MIUI Battery Saver may cause more power consumption</string>
   <string name="disabled">Av</string>
@@ -50,6 +51,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
   <string name="hide_system_app">Hide system apps</string>
   <string name="high">Prestanda</string>
   <string name="hints_loading_text">Bara en sekund…</string>
+  <string name="important_warning">Warning</string>
   <string name="invalid_size_value">Det gick inte att få paketstorleken.</string>
   <string name="location_disable_description">Apps i bakgrunden kan endast få tillgång till lokaliseringstjänster för en kort tid medan kontinuerlig tillgång är begränsad</string>
   <string name="location_disable_title">Begränsa</string>
@@ -174,14 +176,13 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
   <string name="set_lcd_mode">Skärmläge</string>
   <string name="settings_safetylegal_activity_loading">Bara en sekund…</string>
   <string name="show_system_app">Show system apps</string>
-  <string name="sleep_config_enhance_description">Will improve standby power usage in night</string>
+  <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
   <string name="sleep_config_enhance_title">Sleep saving modes</string>
   <string name="still">Bild</string>
   <string name="ui">Standard</string>
   <string name="user_define_mode">Namn</string>
   <string name="vip_feedback">Vip Feedback</string>
-  <string name="vip_feedback_apply">Apply Vip Feedback</string>
-  <string name="vip_feedback_apply_msg">Please contact vip-feedback-system@xiaomi.com to apply Vip Feedback</string>
   <string name="vip_feedback_enable">Enable Vip Auto Feedback</string>
   <string name="warm_configure">Warm control configure</string>
+  <string name="warm_performance_tip">In high load scenarios, the cell phone temperature is higher than the default mode</string>
 </resources>

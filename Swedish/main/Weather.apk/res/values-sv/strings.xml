@@ -22,6 +22,7 @@
   <string name="activity_main_update_time">Updaterad %1$s</string>
   <string name="activity_main_update_time_expire">Data expired</string>
   <string name="activity_main_update_time_right_now">just nu</string>
+  <string name="activity_minute_rain_location_fail_msg">Locating failed, default location of map is Beijing</string>
   <string name="activity_weathermain_locationg">Lokalisering…</string>
   <string name="activity_weathermain_locationg_error">Kan inte lokalisera</string>
   <string name="add_city">Lägg till</string>
@@ -73,6 +74,9 @@
   <string name="commercial">Kommersiell</string>
   <string name="common_loading_text">Vänta lite…</string>
   <string name="connect_fail">"Couldn't connect to the network, try again"</string>
+  <string name="content_desc_activity_main_add_city">Add city</string>
+  <string name="content_desc_activity_main_add_city_manage">City management</string>
+  <string name="content_desc_activity_main_more_settings">More settings</string>
   <string name="daily_forcast_drawer_on_bottom">Dölj</string>
   <string name="daily_forcast_no_stable_direction">Vind</string>
   <string name="daily_forcast_no_wind">0</string>
@@ -142,6 +146,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="international_details_uv_index_title">UV INDEX</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">VIND</string>
+  <string name="it_is_going_to_rain">It is going to rain</string>
   <string name="locate_fail_detail_err">"Can't locate device
 Tap the screen to manually add or reposition city"</string>
   <string name="location_tag">Lokalisera</string>
@@ -165,12 +170,15 @@ Tap the screen to manually add or reposition city"</string>
   <string name="more_details">Mer detaljer</string>
   <string name="network_not_available">Kan inte ansluta till nätverket</string>
   <string name="network_unavailable">Kan inte ansluta till nätverket.</string>
+  <string name="night_not_disturb_settings_summary">Will not receive all weather notices from 23:00 to 07:00 the next day after opening</string>
+  <string name="night_not_disturb_settings_title">Do not disturb at night</string>
   <string name="no_network_btn">Försök igen</string>
   <string name="no_vote_ratio">Mot %1$s%%</string>
   <string name="open">Öppna</string>
   <string name="open_browser">Öppna i webbläsaren</string>
   <string name="open_now">Open</string>
   <string name="other">Övrigt</string>
+  <string name="other_warning_settings">Other Warning Settings</string>
   <string name="particulate_matter_exceeded">High</string>
   <string name="particulate_matter_not_exceeded">Normal</string>
   <string name="particulate_matter_serious_exceeded">Too high</string>
@@ -181,11 +189,14 @@ Tap the screen to manually add or reposition city"</string>
   <string name="precipitation_degree_two">小</string>
   <string name="pressure_connect">%1$s mb</string>
   <string name="radar_cloud_image_title">雷达降水图</string>
+  <string name="rainfall_settings_summary">Rainfall Settings</string>
+  <string name="rainfall_settings_title">Rainfall Warning</string>
   <string name="realtime_aqi_title">Luftkvalitetsindex</string>
   <string name="realtime_humidity_title">Relative humidity</string>
   <string name="realtime_temperature_no_data">N/A</string>
   <string name="realtime_wind_default_title">Vind</string>
   <string name="refresh_fail">Det gick inte att ansluta till nätverket</string>
+  <string name="reminder_from_xiaomi_weather_app">Reminder From Xiaomi Weather APP</string>
   <string name="retry">Försök igen</string>
   <string name="set">Inställningar</string>
   <string name="set_degree_centigrade">°C</string>
@@ -231,6 +242,9 @@ Tap the screen to manually add or reposition city"</string>
   <string name="unit">Enhet</string>
   <string name="unit_temperature">Temperaturenheter</string>
   <string name="unit_wind">Vindhastighet enheter</string>
+  <string name="update_night_setting_summary_text">Will not update automatically 23:00-07:00 after closed</string>
+  <string name="update_night_setting_title_text">Update Automatically At Night</string>
+  <string name="update_setting_title_text">Update Settings</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>
@@ -245,4 +259,5 @@ Tap the screen to manually add or reposition city"</string>
   <string name="xiaomi_weather_description_content">"Weather provides you with accurate weather info. Without this app, status bar and Home screen Weather widget won't work properly. Make sure you can do without these features before you uninstall the app."</string>
   <string name="xiaomi_weather_description_title">About Weather</string>
   <string name="yes_vote_ratio">För %1$s%%</string>
+  <string name="your_location">Your location</string>
 </resources>

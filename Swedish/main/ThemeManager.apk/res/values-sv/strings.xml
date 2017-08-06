@@ -116,8 +116,10 @@
   <string name="my_gifts_received">Mottagit</string>
   <string name="no_data">Kan inte ansluta till nätverket</string>
   <string name="online_no_network">Kan inte ansluta till nätverket</string>
+  <string name="online_precust_dreams">Dreams</string>
+  <string name="online_precust_midnight">Midnight</string>
   <string name="online_search_hint">Sök efter onlineresurser</string>
-  <string name="present_local_themes">Nedladdadat</string>
+  <string name="present_local_themes">My resources</string>
   <string name="present_online_themes">Skaffa fler teman gratis</string>
   <string name="provision_default_theme_title">Standard</string>
   <string name="provision_loading_tips">Vänta lite…</string>

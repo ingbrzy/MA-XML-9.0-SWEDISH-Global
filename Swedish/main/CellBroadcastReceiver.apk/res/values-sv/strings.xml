@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="alert_reminder_interval_title">Påminnelse</string>
-  <string name="alert_sound_duration_title">Varaktighet för varningsljud</string>
   <string name="app_label">Cell Broadcasts</string>
   <string name="button_cancel">Avbryt</string>
   <string name="button_delete">Radera</string>

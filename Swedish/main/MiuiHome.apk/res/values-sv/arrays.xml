@@ -19,6 +19,10 @@
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
     <string-array name="gadget_weather_theme_type_entries">
         <item>Standard</item>
         <item>Klassisk</item>
@@ -49,5 +53,10 @@
         <item>Hagel</item>
         <item>Flygande damm</item>
         <item>Dis</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>Wallpaper</item>
+        <item>Widgets</item>
+        <item>Setting</item>
     </string-array>
 </resources>

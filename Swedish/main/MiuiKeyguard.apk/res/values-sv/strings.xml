@@ -63,10 +63,13 @@
   <string name="keyguard_charging_info_tip_text4">"Don't use your device actively while it's charging to avoid overheating."</string>
   <string name="keyguard_charging_info_tip_text5">Batteries charge longer when they get hotter than usual.</string>
   <string name="keyguard_charging_info_tip_text6">Turn the screen off and put your device away to cool it off.</string>
+  <string name="keyguard_left_bankcard">Mi Pay</string>
+  <string name="keyguard_left_buscard">Transport card</string>
+  <string name="keyguard_left_remotecentral">Mi Remote</string>
+  <string name="keyguard_left_smarthome">Mi Home</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Quick charging…</string>
   <string name="keyguard_torch_cover_text">För att hålla igång ficklampan, håll ned strömknappen</string>
-  <string name="left_action_default_hint_text">Mi Fjärrkontroll</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_wallpaper_enter">Ange</string>
@@ -82,8 +85,8 @@
  Försök igen om %d sekunder."</string>
   <string name="lockscreen_failed_attempts_now_wiping">Du har försökt att låsa upp telefonen med fel lösenord %d gånger. Telefonen kommer nu att fabriksåterställas.</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">Upplåst med Bluetooth enhet</string>
-  <string name="open_camera_hint_text">Svep till vänster för att öppna %s</string>
-  <string name="open_remote_center_hint_text">Svep till höger för att öppna %s</string>
+  <string name="open_camera_hint_text">Swipe left to open camera</string>
+  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">Glömt lösenord?</string>
   <string name="phone_locked_foget_password_content">"Du kan logga in på i.mi.com med det Mi konto som är associerat till denna enhet, och rensa all data. Detta kommer att radera all personlig data som finns lagrad på denna enhet. Efter detta, så kan du starta om enheten och återställa kontakter, meddelanden, foton, och andra objekt från Mi Cloud. 
 

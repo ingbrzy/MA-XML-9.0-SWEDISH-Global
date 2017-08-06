@@ -392,6 +392,7 @@
   <string name="contactUpdateSuccess">Succesfully updated contact in SIM</string>
   <string name="contactdeleteFailed">"Couldn't delete contact from SIM"</string>
   <string name="contactdeleteSuccess">Succesfully deleted contact from SIM</string>
+  <string name="content_description_menu_button">Meny</string>
   <string name="convert_to_fbe_warning">"Konvertera datapartitionen till filbaserad kryptering.
  Varning! All data raderas.
  Detta är en alfafunktion och fel kan uppstå.
@@ -431,6 +432,9 @@
   <string name="debug_view_attributes">Aktivera inspektion av visningsattribut</string>
   <string name="default_notification_description">Standardsignal (%1$s)</string>
   <string name="default_preference_summary">&lt;Inte angiven&gt;</string>
+  <string name="default_preference_summary_domain_address">&lt;Inte inställd&gt;</string>
+  <string name="default_preference_summary_password">&lt;Inte inställd&gt;</string>
+  <string name="default_preference_summary_username">&lt;Inte inställd&gt;</string>
   <string name="default_sim_setting">Standard SIM-kort:</string>
   <string name="delete">Delete</string>
   <string name="deleteAllSimEntries">Delete all SIM contacts</string>
@@ -455,6 +459,8 @@
   <string name="description_image_button_two">två</string>
   <string name="description_image_button_zero">noll</string>
   <string name="description_voicemail_button">röstbrevlåda</string>
+  <string name="dev_logpersist_clear_warning_message">När övervakningen inte längre görs med permanent loggning måste loggdata som finns på enheten raderas.</string>
+  <string name="dev_logpersist_clear_warning_title">Vill du rensa lagringsutrymmet för loggar?</string>
   <string name="dev_settings_warning_message">Inställningarna är endast avsedda att användas för utvecklingsändamål. De kan orsaka problem med enheten eller apparna som finns installerade på den.</string>
   <string name="dev_settings_warning_title">Tillåt utvecklarinställningar?</string>
   <string name="development_settings_enable">Aktivera utvecklaralternativ</string>
@@ -759,7 +765,6 @@ Kontakta din operatör om problemet kvarstår."</string>
   <string name="lafs_enable">Lokalt schema för flyg är på</string>
   <string name="launch_defaults_none">Inga standardinställningar har angetts</string>
   <string name="launch_defaults_some">Några standardinställningar har angetts</string>
-  <string name="legacy_dhcp_client_summary">Använd DHCP-klienten från Lollipop i stället för den nya Android DHCP-klienten.</string>
   <string name="list_language_dtitle">Språk</string>
   <string name="list_language_summary">Välj nyhetsspråk</string>
   <string name="list_language_title">Språk</string>
@@ -1313,11 +1318,42 @@ SIM-kortet kommer att raderas efter ett till misslyckat försök."</string>
   <string name="screen_zoom_summary_large">Stor</string>
   <string name="screen_zoom_summary_small">Små</string>
   <string name="screen_zoom_summary_very_large">Större</string>
+  <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
   <string name="search_antispam_setting">Blockeringslista</string>
   <string name="search_app_name">Telefon;Ring inspelning;Omdirigera samtal;omdirigering;Samtal väntar;Blockerings, landskod;riktnummer;landskoder;Riktnummer; spela in samtal;Spela in samtal;Dial pad;Ring;Samtal;Telefoni;VoIP;Volte;Missade samtal;Missade samtal;SIP;T9;IP-telefoni;FDN</string>
+  <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
   <string name="search_auto_retry_mode_title">\@Sträng/auto_retry_mode_title</string>
   <string name="search_autoip_phone">\@Sträng/autoip_phone</string>
+  <string name="search_call_background_setting">@string/call_background_setting</string>
+  <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+  <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+  <string name="search_call_record_setting">@string/call_record_setting</string>
+  <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+  <string name="search_call_waiting_title">@string/call_waiting_title</string>
+  <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+  <string name="search_caller_id_title">@string/caller_id_title</string>
+  <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+  <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+  <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+  <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+  <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+  <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+  <string name="search_fdn">@string/fdn</string>
+  <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+  <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
+  <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
   <string name="search_networks">Söker nätverk</string>
+  <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+  <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+  <string name="search_reject_via_sms">@string/reject_via_sms</string>
+  <string name="search_sip_settings">@string/sip_settings</string>
+  <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+  <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+  <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+  <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+  <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+  <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+  <string name="search_voicemail_settings">@string/voicemail_settings</string>
   <string name="selectContact">Select contact</string>
   <string name="select_application">Välj app</string>
   <string name="select_automatically">Välj automatiskt</string>
@@ -1325,6 +1361,8 @@ SIM-kortet kommer att raderas efter ett till misslyckat försök."</string>
   <string name="select_continue">Fortsätt</string>
   <string name="select_logd_size_dialog_title">Välj loggstorlekar per loggbuffert</string>
   <string name="select_logd_size_title">Buffertstorlekar för logg</string>
+  <string name="select_logpersist_dialog_title">Välj vilka loggbuffertar som ska sparas permanent på enheten</string>
+  <string name="select_logpersist_title">Spara logg permanent på enheten</string>
   <string name="select_ok">OK</string>
   <string name="select_one_sim_title">Kan endast använda SIM %1$d</string>
   <string name="select_sim_hint">Kan inte använda SIM %2$d, samtidigt som SIM %1$d används.</string>
@@ -1347,8 +1385,6 @@ SIM-kortet kommer att raderas efter ett till misslyckat försök."</string>
   <string name="settings_label">Nätverksinställningar</string>
   <string name="show_all_anrs">Visa alla som inte svarar</string>
   <string name="show_all_anrs_summary">Visa dialogrutan om att appen inte svarar för bakgrundsappar</string>
-  <string name="show_cpu_usage">Visa CPU-användning</string>
-  <string name="show_cpu_usage_summary">Överlägg på skärmen med aktuell CPU-användning</string>
   <string name="show_hw_layers_updates">Visa maskinvaruskiktuppd.</string>
   <string name="show_hw_layers_updates_summary">Låt maskinvaruskikt blinka grönt vid uppdateringar</string>
   <string name="show_hw_screen_updates">Visa GPU-visningsuppdateringar</string>
@@ -1658,7 +1694,8 @@ Kontakta din operatör om problemet kvarstår."</string>
   <string name="wifi_display_certification">Certifiering för Wi-Fi-skärmdelning</string>
   <string name="wifi_display_certification_summary">Visa certifieringsalternativ för Wi-Fi-skärmdelning</string>
   <string name="wifi_fail_to_scan">Det går inte att söka efter nätverk</string>
-  <string name="wifi_no_internet">Ingen internetåtkomst hittades. Det går inte att återansluta automatiskt.</string>
+  <string name="wifi_no_internet">Ingen internetåtkomst</string>
+  <string name="wifi_no_internet_no_reconnect">Ingen internetåtkomst hittades. Det går inte att återansluta automatiskt.</string>
   <string name="wifi_not_in_range">Utom räckhåll</string>
   <string name="wifi_only">Endast Wi-Fi</string>
   <string name="wifi_pref_none">Inställningar inte angivna</string>

@@ -188,14 +188,13 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
   <string name="micloud_detail_lastest_with_off">Synkroniserad</string>
   <string name="micloud_detail_need_charge_or_sleep">Connect charger and turn off screen to sync</string>
   <string name="micloud_detail_not_sync">%d väntar på att synkroniseras</string>
+  <string name="micloud_detail_not_syncable">Not syncable</string>
   <string name="micloud_detail_not_synced">Inte synkroniserad</string>
   <string name="micloud_detail_ok">OK</string>
   <string name="micloud_detail_pause">Synkronisering pausad</string>
   <string name="micloud_detail_pending">Väntar</string>
   <string name="micloud_detail_preference_sync_items">Objekt</string>
   <string name="micloud_detail_query_error">Kunde inte få info om synkroniseringsprocess</string>
-  <string name="micloud_detail_query_error_detail">Kan inte bekräfta att synkroniseringen är komplett. Du kan kontakta utvecklare genom Återkopplingsappen.</string>
-  <string name="micloud_detail_query_error_title">Kunde inte få info om synkroniseringsprocess</string>
   <string name="micloud_detail_success">Synkroniserad</string>
   <string name="micloud_detail_sync_now">Synkronisera nu</string>
   <string name="micloud_detail_syncing">Synkroniserar</string>
@@ -242,24 +241,33 @@ För att lösa detta kan du antingen ta bort gamla filer för att ge plats åt n
   <string name="micloud_full_influence_title">När din Mi Cloud är full…</string>
   <string name="micloud_main_battery_low">Inte tillräckligt med batteri för att synkronisera</string>
   <string name="micloud_main_battery_message">Connect charger to sync</string>
+  <string name="micloud_main_button_activate">Activate</string>
+  <string name="micloud_main_button_authorize">Authorize</string>
+  <string name="micloud_main_button_set_internet">Setting</string>
   <string name="micloud_main_cancel_sync">Avbryt synkronisering</string>
   <string name="micloud_main_clear_now">Rensa</string>
   <string name="micloud_main_detail">Visa detaljer</string>
+  <string name="micloud_main_error_activated_fail">Please activate Sim card.</string>
+  <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
+  <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
   <string name="micloud_main_last_sync_time">Senaste synkroniserat %s</string>
+  <string name="micloud_main_master_sync_on">Sync on</string>
   <string name="micloud_main_memory_low_message">För att synkronisera, radera objekt du har lagrat i molnet.</string>
   <string name="micloud_main_memory_low_title">Telefonens internlagring är nästan fullt</string>
+  <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
   <string name="micloud_main_message_not_synced">%s data har inte synkroniserats</string>
-  <string name="micloud_main_multi_user_error_message">"Du har loggat in med samma konto som det primära utrymmet vilket har orsakat ett Mi Cloud fel. Om du vill backa upp filer:
-
-1. Använd ett annat konto.
-2. Flytta filer till det primära utrymmet."</string>
+  <string name="micloud_main_multi_user_error_message">"You signed in with the same account as in First space which caused a Mi Cloud error. 
+Use a different account."</string>
   <string name="micloud_main_multi_user_error_title">Mi Cloud fel</string>
   <string name="micloud_main_network_abnormal">Kan inte ansluta till nätverket</string>
   <string name="micloud_main_network_error">Kan inte ansluta till nätverket</string>
+  <string name="micloud_main_query_again">Query</string>
   <string name="micloud_main_query_error_message">Kan inte bekräfta att synkroniseringen är komplett</string>
   <string name="micloud_main_query_error_title">Kunde inte få info om synkroniseringsprocess</string>
+  <string name="micloud_main_resume_sync_soon">Resume sync soon</string>
   <string name="micloud_main_set_internet">Nätverk</string>
   <string name="micloud_main_space_full">Molnlagringen är full</string>
+  <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
   <string name="micloud_main_space_full_title">Inte tillräckligt med utrymme, synk pausad</string>
   <string name="micloud_main_space_low">Snart slut på utrymme</string>
   <string name="micloud_main_stop_sync">Synkronisering avbruten</string>
@@ -268,7 +276,6 @@ För att lösa detta kan du antingen ta bort gamla filer för att ge plats åt n
   <string name="micloud_main_suggest_sync">Kunde inte synkronisera allt</string>
   <string name="micloud_main_sync_exception">Synkrnoserings problem</string>
   <string name="micloud_main_sync_init">Hämtar information</string>
-  <string name="micloud_main_sync_need_charge">Ladda din enhet</string>
   <string name="micloud_main_sync_need_charge_or_sleep">Connect charger and turn off screen to sync</string>
   <string name="micloud_main_sync_now">Synkronisera nu</string>
   <string name="micloud_main_sync_on">Synkronisering på</string>
@@ -285,6 +292,11 @@ För att lösa detta kan du antingen ta bort gamla filer för att ge plats åt n
   <string name="micloud_main_title_sync_off">Synkronisering avstängd</string>
   <string name="micloud_main_title_sync_on_wifi">Använd Wi-Fi</string>
   <string name="micloud_main_update_space">Skaffa mer utrymme.</string>
+  <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+  <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
+  <string name="micloud_main_wait_wlan">Waiting for Wi-Fi</string>
+  <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
+  <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
   <string name="micloud_main_wlan_sync_data_count">Objekt som väntar på synk: %d</string>
   <string name="micloud_member">Mi Cloud medlemsskap</string>
   <string name="micloud_member_advantage">Skaffa mer utrymme.</string>

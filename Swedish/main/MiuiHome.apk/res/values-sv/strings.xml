@@ -155,17 +155,22 @@
   <string name="lock_screen_success_message">Tillämpat att låsa skärmen</string>
   <string name="lock_screen_wallpaper">Låsskärmsbakgrundsbild</string>
   <string name="menu_add">Lägg till</string>
+  <string name="menu_auto_fill">Auto Fill</string>
   <string name="menu_back_desktop">Tillbaka till startskärmen</string>
+  <string name="menu_cell_setting">Screen Setting</string>
   <string name="menu_customize">Inställningar</string>
   <string name="menu_edit">Editera hemskärm</string>
   <string name="menu_exit_scene">Avsluta Mi Space</string>
   <string name="menu_item_add_item">Placera på hemskärmen</string>
   <string name="menu_launcher_setting">Launcherinställningar</string>
+  <string name="menu_lock">Lock Screen</string>
+  <string name="menu_more">More</string>
   <string name="menu_picktheme">Välj ett tema</string>
   <string name="menu_reset_scene">Återställ till standardlayout</string>
   <string name="menu_search">Sök</string>
   <string name="menu_settings">Inställningar</string>
   <string name="menu_sort">Sortera appar</string>
+  <string name="menu_trans_effect">Transition Effect</string>
   <string name="menu_wallpaper">Bakgrund</string>
   <string name="menu_workspace_preview">Home screen previews</string>
   <string name="mi_wallpaper">MIUI Tema Butik</string>
@@ -266,4 +271,5 @@
   <string name="widget_favorite_contacts_style">Ändra stolek</string>
   <string name="widget_gadget_player">Musik</string>
   <string name="widget_global_search">Sök</string>
+  <string name="widget_quick_function">Quick function</string>
 </resources>

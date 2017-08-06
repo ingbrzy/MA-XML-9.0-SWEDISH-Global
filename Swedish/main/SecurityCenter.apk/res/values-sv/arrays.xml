@@ -50,6 +50,11 @@
         <item>När enheten är låst eller efter en app avslutas</item>
         <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>Status</item>
         <item>App name</item>
@@ -65,6 +70,18 @@
         <item>Sort by used storage</item>
         <item>Sort by data usage</item>
         <item>Sort by battery usage</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
+    <string-array name="title_app_info">
+        <item>Installation source</item>
+        <item>Installation time</item>
+        <item>Last update source</item>
+        <item>Last update time</item>
     </string-array>
     <string-array name="sms_report_type">
         <item>Data Usage</item>
