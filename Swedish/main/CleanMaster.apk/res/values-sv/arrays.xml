@@ -9,71 +9,24 @@
         <item>Namn</item>
     </string-array>
     <string-array name="installed_app_sort_type">
-        <item>Mest använda</item>
+        <item>Frequently used</item>
         <item>Storlek</item>
     </string-array>
     <string-array name="auto_clean_time">
-        <item>Varje dag</item>
+        <item>Everyday</item>
         <item>Var tredje dag</item>
         <item>Var 7: de dag</item>
+        <item>Every 15 days</item>
     </string-array>
     <string-array name="auto_clean_size">
-        <item>100 MB</item>
-        <item>300 MB</item>
-        <item>500 MB</item>
-        <item>1 GB</item>
+        <item>100MB</item>
+        <item>300MB</item>
+        <item>500MB</item>
+        <item>1GB</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>Endast uppmärksamma</item>
-        <item>Rensa automatiskt</item>
-        <item>Rensa och meddela</item>
-    </string-array>
-    <string-array name="cache_clean_menu">
-        <item>Städa upp den här filen</item>
-        <item>Visa filens plats</item>
-    </string-array>
-    <string-array name="trash_clean_menu">
-        <item>Städa upp den här filen</item>
-        <item>Visa filens plats</item>
-    </string-array>
-    <string-array name="video_clean_menu">
-        <item>Städa upp den här filen</item>
-        <item>Öppna</item>
-    </string-array>
-    <string-array name="empty_floder_clean_menu">
-        <item>Städa upp</item>
-    </string-array>
-    <string-array name="apk_clean_menu">
-        <item>Städa upp</item>
-        <item>Installera den här appen</item>
-        <item>Visa i mapp</item>
-    </string-array>
-    <string-array name="long_add_menu">
-        <item>Lägg till i undantag</item>
-    </string-array>
-    <string-array name="long_add_app_menu">
-        <item>Lägg appen till undantag</item>
-    </string-array>
-    <string-array name="app_clean_menu">
-        <item>Avinstallera</item>
-    </string-array>
-    <string-array name="auto_alert_apps_time">
-        <item>Var 7: de dag</item>
-        <item>Var 15: de dag</item>
-        <item>Var 30: de dag</item>
-    </string-array>
-    <string-array name="wechat_menu_delete">
-        <item>Rensa</item>
-    </string-array>
-    <string-array name="wechat_menu_delete_whitelist">
-        <item>Rensa</item>
-    </string-array>
-    <string-array name="wechat_menu_delete_whitelist_view">
-        <item>Rensa</item>
-        <item>Visa</item>
-    </string-array>
-    <string-array name="scan_engine">
-        <item>Clean Master</item>
-        <item>Tencent</item>
+        <item>Prompt with notification</item>
+        <item>Clean in background</item>
+        <item>Show notification after clean</item>
     </string-array>
 </resources>

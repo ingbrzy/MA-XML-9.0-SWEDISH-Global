@@ -88,6 +88,7 @@
   <string name="call_radio">Ring radio</string>
   <string name="call_record_setting_miui">Inspelningsinställningar</string>
   <string name="call_settings">Inställningar</string>
+  <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
   <string name="call_sim1_description">SIM 1</string>
   <string name="call_sim1_menu_title">Ring på SIM 1</string>
   <string name="call_sim2_description">SIM 2</string>
@@ -669,6 +670,7 @@ Orsak: \"%s\""</string>
   <string name="miprofile_contact_header">Kontakter med kontakt kort</string>
   <string name="miprofile_contact_meaasge">Lokala kontakter</string>
   <string name="miprofile_contact_verifying">Verifierar</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Redigera profil</string>
   <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontakt kort</string>
   <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -867,6 +869,8 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
   <string name="payphone">Betalnummer</string>
   <string name="people">Kontakter</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Numret är för långt</string>
@@ -935,7 +939,7 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="preference_phone_more_title">Samtalsinställningar</string>
   <string name="preference_remove_duplicate">Slå ihop dubletter</string>
   <string name="preference_show_yellowpage_tab_description">Close the YellowPage tab, the YellowPage function will not work properly</string>
-  <string name="preference_show_yellowpage_tab_title">Show the YellowPage tab</string>
+  <string name="preference_show_yellowpage_tab_title">Show the YellowPage entry</string>
   <string name="preference_simple_mode_description">Visa bilder och annan kontaktinfo i listvyn</string>
   <string name="preference_simple_mode_title">Visa bilder och information</string>
   <string name="preference_smart_group_company_summary">Gruppera efter företag</string>
@@ -1179,10 +1183,12 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="type_outgoing">Utgående samtal</string>
   <string name="type_voicemail">Röstbrevlåda</string>
   <string name="unable_get_device_id">Det går inte att få fram IMEI</string>
+  <string name="unfold_all">unfold all</string>
   <string name="unknow_phone_number_call_failed">Det går inte att ringa okänt nummer</string>
   <string name="unknow_phone_number_mms_failed">Det går inte att skicka meddelande till okänt nummer</string>
   <string name="unknown">Okänd</string>
   <string name="unknown_contact_name">Okänd kontakt</string>
+  <string name="unknown_details_new_contact">New contact</string>
   <string name="update_sim_contact_photo_toast">Kan inte använda foto för SIM kontakter</string>
   <string name="upgrade_in_progress">Kontaktlistan uppdateras.</string>
   <string name="upgrade_out_of_memory">"Kontakter håller på att uppgraderas. 

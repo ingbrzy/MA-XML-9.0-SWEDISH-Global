@@ -8,7 +8,7 @@
   <string name="app_name">Feedback</string>
   <string name="btn_send">Skicka</string>
   <string name="bugreport_dialog_not_show_again">Visa inte igen</string>
-  <string name="bugreport_dialog_submit_content">Din feedback kan innehålla personuppgifter.</string>
+  <string name="bugreport_dialog_submit_content">Your feedback may contain personal info and location data.</string>
   <string name="bugreport_dump_complete_notification_summary">Tryck för att visa.</string>
   <string name="bugreport_dump_complete_notification_title">Skapat felrapport</string>
   <string name="bugreport_dump_start_notification_summary">Detta tar flera minuter.</string>
@@ -254,7 +254,7 @@
   <string name="section_screenshot">Skärmdump</string>
   <string name="submit_dialog_cancel">Avbryt</string>
   <string name="submit_dialog_confirm">Skicka</string>
-  <string name="submit_dialog_content">Din feedback, tillsammans med bilagor och loggar, kommer att skickas till MIUIs servrar. Den kan innehålla personlig information.</string>
+  <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>
   <string name="submit_dialog_title">Skicka rapport</string>
   <string name="submit_feedback_info_failed">Kunde inte skicka rapport</string>
   <string name="suggestion_description">Lägg till en beskrivning här</string>

@@ -4,6 +4,7 @@
   <string name="account">Konto</string>
   <string name="account_related">Din enhet är kopplat till ett existerande Mi Konto(%s). Anslut till ett nätverk för att verifiera enheten.</string>
   <string name="activate">Aktivera</string>
+  <string name="activate_find_device_success">Find device has been activated.</string>
   <string name="activate_finddevice">Anslut till nätverket för att aktivera enhet</string>
   <string name="activate_number_change_dialog_message">Välj ett telefonnummer som kommer visas för andra enheter när du använder VoIP.</string>
   <string name="activating">Aktiverar…</string>
@@ -46,6 +47,8 @@ Senaste säkerhetskopieringen var %2$s"</string>
   <string name="cloud_back_up_title">Säkerhetskopiera enheten</string>
   <string name="cloud_backup_dialog_title">Säkerhetskopiera med Mi Cloud</string>
   <string name="cloud_find_device">Hitta Enhet</string>
+  <string name="cloud_find_device_off">Off</string>
+  <string name="cloud_find_device_on">On</string>
   <string name="cloud_restore_title">Återställ ifrån säkerhetskopiering</string>
   <string name="cloud_space_upgrade_message">Tryck för att lägga till %sGB till ditt cloud.</string>
   <string name="cloud_space_upgrade_no_quota_info">Kunde inte hämta lagrings information</string>
@@ -97,6 +100,12 @@ Senaste säkerhetskopieringen var %2$s"</string>
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
 Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
+  <string name="find_device_operation_failure_rpc">"Couldn't perform the operation due to RPC error."</string>
+  <string name="find_device_pref_alert_content">"Find device is associated with your Mi Account. You need to set a password or enter the password you've set. Make sure you always remember your Mi Account ID and password. An outgoing SMS may be required to activate this service. Your carrier will charge you for this message. When you switch SIM cards, a message will be sent automatically to reactivate this feature."</string>
+  <string name="find_device_pref_alert_negtive">No thanks</string>
+  <string name="find_device_pref_alert_positive">OK</string>
+  <string name="find_device_pref_alert_title">Remember your Mi Account ID and password</string>
+  <string name="find_device_pref_initializing">Initializing…</string>
   <string name="find_device_reading_status">Laddar status…</string>
   <string name="find_device_reading_status_failure">Kunde inte ladda status.</string>
   <string name="find_device_send_sms_alert">Om du byter SIM kort kommer ett meddelande automatiskt skickas för att återaktivera denna funktion.</string>
@@ -206,10 +215,21 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
   <string name="micloud_dialog_sync_now_title">Anslut till Wi-Fi för att synkronisera</string>
   <string name="micloud_dspt">Använda Mi Cloud för att synka data, hitta din enhet,</string>
   <string name="micloud_dspt_provision">Använda Mi Cloud för att synka data, hitta din enhet, och delar saker med vänner.</string>
+  <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+  <string name="micloud_find_device_close_alert_negtive">Turn off anyway</string>
+  <string name="micloud_find_device_close_alert_positive">Keep on</string>
+  <string name="micloud_find_device_close_alert_title">Turn off Find device?</string>
+  <string name="micloud_find_device_close_fail">"Couldn't turn off Find device"</string>
+  <string name="micloud_find_device_close_progress">Turning off Find device…</string>
   <string name="micloud_find_device_finish">Klar</string>
+  <string name="micloud_find_device_guide_alert_content">"Find device is associated with your Mi Account. You need to set a password or enter the password you've set. Make sure you always remember your Mi Account ID and password."</string>
+  <string name="micloud_find_device_guide_alert_negtive">No thanks</string>
+  <string name="micloud_find_device_guide_alert_negtive_activate">No thanks</string>
+  <string name="micloud_find_device_guide_alert_positive">OK</string>
+  <string name="micloud_find_device_guide_alert_title">Remember your Mi Account ID and password</string>
   <string name="micloud_find_device_guide_button">Slå på Hitta enhet</string>
   <string name="micloud_find_device_guide_content">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message. When you switch your SIM card, a message will be sent automatically to reactivate this feature.</string>
-  <string name="micloud_find_device_guide_fail_reopen">Slå på Hitta enheten i Mi Cloud</string>
+  <string name="micloud_find_device_guide_fail_reopen">You can turn on Find device in Mi Account - Mi Cloud</string>
   <string name="micloud_find_device_guide_fail_sub_net">Kontrollera din nätverksanslutning och försök igen.</string>
   <string name="micloud_find_device_guide_fail_sub_timeout">Anslutningen pausades. Försök igen senare.</string>
   <string name="micloud_find_device_guide_micloud">Starta Synkronisera med Mi Cloud</string>
@@ -223,12 +243,16 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
   <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat rekommenderar att du aktiverar Hitta enhet</string>
   <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay rekommenderar att du aktiverar Hitta enhet</string>
   <string name="micloud_find_device_guide_progress">Startar hitta enhet…</string>
-  <string name="micloud_find_device_guide_title">Sign in to %s to locate, lock, or erase your device.</string>
+  <string name="micloud_find_device_guide_title">"Sign in to &lt;font color=#FF0000&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; to locate, lock, or erase your device. This might help you to find your device in case it's lost.&lt;br /&gt;If you lose your device, you could contact the security service of the apps you use frequently (e.g., Alipay, WeChat, QQ) to protect your accounts on &lt;font color=#FF0000&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt;."</string>
   <string name="micloud_find_device_open_fail">Kunde inte starta Hitta enheten</string>
   <string name="micloud_find_device_opened">Hitta enheten påslagen</string>
   <string name="micloud_find_device_opened_content">Hitta din enhet på %s</string>
   <string name="micloud_find_device_opened_content_url">i.mi.com</string>
   <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
+  <string name="micloud_find_device_verify_button">Reactivate Find device</string>
+  <string name="micloud_find_device_verify_close">Turn off Find device</string>
+  <string name="micloud_find_device_verify_fail">"Couldn't reactivate Find device"</string>
+  <string name="micloud_find_device_verify_progress">Reactivating Find device…</string>
   <string name="micloud_first_login_summary"/>
   <string name="micloud_first_login_title"/>
   <string name="micloud_full_influence_dspt">"Alla dina foton, filmer, anteckningar och appar kommer förbli på din cloud. 

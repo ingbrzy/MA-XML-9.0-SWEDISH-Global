@@ -18,6 +18,7 @@ Contact your sales agent for details."</string>
   <string name="enable_find_device_success">Hitta enheten är påslagen</string>
   <string name="find_device">Hitta Enhet</string>
   <string name="find_device_crash">Find Device closed unexpectedly.</string>
+  <string name="find_device_error_access_denied">Access denied.</string>
   <string name="find_device_error_account_sys_timeout">"Det gick inte att ansluta till Mi kontot. "</string>
   <string name="find_device_error_account_unknown_error">Mi Konto fel (%s).</string>
   <string name="find_device_error_network">Nätverksfel.</string>
@@ -50,6 +51,10 @@ Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återa
   <string name="phone_locked_account_phone">, tillhörande telefonnummer: %s</string>
   <string name="stop_on_empty_captcha">Captcha får inte vara tomt</string>
   <string name="stop_on_empty_password">Lösenord får inte vara tomt</string>
+  <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>
+  <string name="sys_notification_async_open_failed_title">"Couldn't turn on Find device"</string>
+  <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
+  <string name="sys_notification_async_verify_title">Reactivate Find device</string>
   <string name="time_correction_failure">Det gick inte att justera tiden (%s)</string>
   <string name="time_correction_success">Tid justerad</string>
   <string name="unlock">Aktivera</string>
