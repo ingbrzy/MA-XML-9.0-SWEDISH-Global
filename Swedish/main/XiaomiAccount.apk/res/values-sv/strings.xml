@@ -279,7 +279,6 @@ För att aktivera ditt konto, följ
   <string name="passport_quick_login_dialog_title">Verifiera lösenord</string>
   <string name="passport_quick_login_step2_title">2-stegsverifiering</string>
   <string name="passport_quick_login_title">Ange ditt lösenord</string>
-  <string name="passport_quick_register_notice">&lt;u&gt;"Don't have a Mi Account? Create one."&lt;/u&gt;</string>
   <string name="passport_re_get_verify_code">Hämta kod igen</string>
   <string name="passport_re_register">Registrera dig igen</string>
   <string name="passport_recycle_account_prompt">Är detta ditt Mi-Konto?</string>
