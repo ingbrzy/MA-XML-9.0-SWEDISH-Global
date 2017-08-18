@@ -109,9 +109,6 @@
   <string name="cancel_running_download">Avbryt</string>
   <string name="change_download_quality">Change download quality</string>
   <string name="channel_list_fragment_title">Radio</string>
-  <string name="chinese_female">Kvinnliga artister (Kina)</string>
-  <string name="chinese_group">Band (Kina)</string>
-  <string name="chinese_male">Manliga artister (Kina)</string>
   <string name="choose_download_quality">Välj nedladdningskvalitet</string>
   <string name="choose_stream_quality">Välj strömmningskvalitet</string>
   <string name="click_modify">Try för att ändra låttext.</string>
@@ -124,8 +121,6 @@
   <string name="cloud_loading_message">Searching for songs…</string>
   <string name="cloud_music">Songs in Mi Cloud</string>
   <string name="cloud_settings">Synkroniserings inställningar</string>
-  <string name="cloud_space_full">Inget lagringsutrymme kvar</string>
-  <string name="cloud_space_full_message">Det finns inte tillräckligt med utrymme på Mi Cloud för att lägga till fler låtar. Uppgradera ditt Mi-konto för att utöka utrymmet.</string>
   <string name="cloud_state_cloud_space_full">Not enough Mi Cloud storage, paused backup</string>
   <string name="cloud_state_low_power">Koppla in laddare för att återuppta säkerhetskopiering</string>
   <string name="cloud_state_network_data">"Couldn't find Wi-Fi networks, paused backup"</string>
@@ -209,7 +204,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="disable_auto_payment_success_message">Avaktiverade automatisk förnyelse. Efter din nuvarande prenumeration löper ut, måste du teckna ett nytt avtal för att ladda ned låtar.</string>
   <string name="disallow_add_to_fm">Kan inte lägga till låtar till FM radio</string>
   <string name="disallow_add_to_personal_radio">Kan inte lägga till låtar till Personliga radion</string>
-  <string name="do_not_remind_again">Visa inte igen</string>
   <string name="doc_filter">Dokument</string>
   <string name="done">Klar</string>
   <string name="download">Ladda ned</string>
@@ -303,9 +297,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="enable_auto_payment_success">Förnya automatiskt</string>
   <string name="enable_auto_payment_success_message">Aktiverade automatisk förnyelse. Nästa betalning sker %s.</string>
   <string name="enabled">Aktiverad</string>
-  <string name="english_female">Kvinnliga artister (USA/Europa)</string>
-  <string name="english_group">Band (USA/Europa)</string>
-  <string name="english_male">Manliga artister (USA/Europa)</string>
   <string name="enter_garbage_clean">Städa upp internt lagringsutrymme.</string>
   <string name="eq_auto">Anpassad</string>
   <string name="eq_blues">Blues</string>
@@ -342,7 +333,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="favorites">Favorites</string>
   <string name="favourite_music_left_half">För att lägga till låtar i den här spellistan, tryck på</string>
   <string name="favourite_music_right_half">Favoritikonen till höger om låtens titel</string>
-  <string name="female_artist">Kvinnliga artister</string>
   <string name="file_not_found">Filen existerar inte</string>
   <string name="filter_by_duration">Efter längd</string>
   <string name="filter_by_duration_format">%2$dm %5$2ds</string>
@@ -398,7 +388,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="global_search_title_movie">Movie soundtracks</string>
   <string name="global_search_title_prenatal">Prenatal musik</string>
   <string name="global_search_title_radar">Musikigenkänning</string>
-  <string name="group_artist">Band</string>
   <string name="handle_later">Inte nu</string>
   <string name="higher_quality_music">Högkvalitetsljud</string>
   <string name="higher_quality_music_summary">Strömma och ladda ned högre bithastighetsfiler</string>
@@ -425,9 +414,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="is_scanning">Kontrollerar lagring…</string>
   <string name="is_scanning_support_online">"Kontrollerar lagring…
 (Under tiden kan du strömma musik online)"</string>
-  <string name="japan_korea_female">Kvinnliga artister (Japan/Korea)</string>
-  <string name="japan_korea_group">Band (Japan/Korea)</string>
-  <string name="japan_korea_male">Manliga artister (Japan/Korea)</string>
   <string name="keep_queued_download">Behåll</string>
   <string name="ktv_playlist">KTV spellista</string>
   <string name="latest_song">Spelhistorik (%d)</string>
@@ -459,7 +445,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="lyric_is_empty">Ingen låttext tillgänglig</string>
   <string name="lyric_open_other_connect">Ladda ned låttexter med mobildata</string>
   <string name="lyric_setting">Låttext inställningar</string>
-  <string name="male_artist">Manliga artister</string>
   <string name="manager_cloud_space">Hantera Mi Cloud-lagring</string>
   <string name="media_filter">Media</string>
   <string name="menu_all_task_pause">Pausa alla</string>
@@ -565,7 +550,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="no_song_downloaded">Det gick inte att ansluta till servern</string>
   <string name="normal_quality">Bra</string>
   <string name="not_login">Inte inloggad</string>
-  <string name="not_now">Inte nu</string>
   <string name="not_selected">Choose a song</string>
   <string name="notif_text_engine_off">Xunlei acceleratorn är avstängd.</string>
   <string name="notif_text_engine_on">Accelererar…</string>
@@ -884,7 +868,6 @@ is huvudsakligen av Ultimate Inc."</string>
   <string name="upgrade">Uppgradera:</string>
   <string name="upgrade_force">Vår nuvarande strömmningstjänst har upphört på grund av upphovsrätt. Uppdatera Musik appen till den senaste versionen för att lyssna på högkvalitetsmusik.</string>
   <string name="upgrade_immediate">Uppdatera nu</string>
-  <string name="upgrade_membership">Utöka utrymmet</string>
   <string name="upgrade_music">Uppdatera Musik</string>
   <string name="upgrade_music_message">Uppdateringar är redo. Starta om för att uppdatera.</string>
   <string name="upgrade_nobeta">Vår nuvarande strömmningstjänst har upphört på grund av upphovsrätt. Beklagar obelägenheten :(</string>

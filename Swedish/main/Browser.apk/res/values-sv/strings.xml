@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">Välj färg</string>
   <string name="color_picker_hue">Nyans</string>
   <string name="color_picker_saturation">Mättnad</string>
+  <string name="color_picker_value">Värde</string>
   <string name="comment_app_menu">Kommentar</string>
   <string name="comment_description">Kommentar</string>
   <string name="comment_hint">Kommentar</string>
@@ -479,6 +480,8 @@ Lämna denna sida?"</string>
   <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) Check your %s1proxy settings%s2.</string>
   <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">Clear cache (%s1Settings%s2 - Clear data).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Clear cache and cookies (%s1Settings%s2 - Clear data, your account info may be lost).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Clear cache and cookies (your account info may be lost).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
   <string name="miuichromium_error_page_suggestion_connect_and_retry">Reload after connecting to the internet</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">Contact your system administrator.</string>
   <string name="miuichromium_error_page_suggestion_correct_url">"Check the address you've entered and try again using the correct URL."</string>
@@ -658,6 +661,7 @@ Lämna denna sida?"</string>
   <string name="pull_to_refresh_pull_label">Dra för att uppdatera</string>
   <string name="pull_to_refresh_release_label">Släpp för att uppdatera</string>
   <string name="qr_code_title">QR-kod</string>
+  <string name="qr_description">Scan QR code</string>
   <string name="quicklink_bookmark_save">Spara till</string>
   <string name="quicklink_cannot_save_url">Denna URL kan inte läggas till.</string>
   <string name="quicklink_folder_text">Topp appar</string>
@@ -756,8 +760,8 @@ Lämna denna sida?"</string>
   <string name="send_comment_title">Kommentar</string>
   <string name="senddesktop">Hemskärm</string>
   <string name="sendstartpage">Startsida</string>
-  <string name="share_image_text">Titta vad jag hittade!</string>
-  <string name="share_page_text">Titta vad jag hittade: %1$s | %2$s</string>
+  <string name="share_image_text">Look what I shared! @MIUI</string>
+  <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
   <string name="show_check_security_url_check_tip_dialog_description">Webbläsaren behöver för att ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer, låta webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
   <string name="show_check_security_url_check_tip_dialog_description_international">Browser needs to connect to the internet to work normally. To receive more relevant recommendations, allow Browser to get the URLs of the websites you visit and access your location info.</string>
   <string name="show_security_tip_dialog_title">Användarvillkor</string>
@@ -767,12 +771,13 @@ Lämna denna sida?"</string>
   <string name="skip_current_version">Hoppa över denna version</string>
   <string name="snapshot">Local</string>
   <string name="snapshot_failed">Det gick inte att spara sidan</string>
-  <string name="snapshot_successed">Saved page successfully</string>
+  <string name="snapshot_successed">Open Bookmarks/History-&gt;LOCAL to view page</string>
   <string name="ssl_bad_clock_date_settings">Ange datum</string>
   <string name="ssl_bad_clock_warning" formatted="false">En privat ansluting till %s1kan inte uppehållas på grund av din enhets datum och tid (%s2är inkorrekta.</string>
   <string name="ssl_certificate">Säkerhetscertifikat</string>
   <string name="ssl_certificate_is_valid">Certifikatet är giltigt.</string>
   <string name="ssl_continue">Fortsätt</string>
+  <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page.\""</string>
   <string name="ssl_date_invalid">Detta certifikat har ett ogiltigt datum.</string>
   <string name="ssl_expired">Detta certifikat har upphört att gälla.</string>
   <string name="ssl_go_back">Gå tillbaka</string>
@@ -905,6 +910,7 @@ Lämna denna sida?"</string>
   <string name="view_document_downloaded_files">Titta på nerladdade filer i Hämtade</string>
   <string name="voice_check_network">Kontrollera din nätverksanslutning och försök igen.</string>
   <string name="voice_connect_network">Kunde inte ansluta till nätverk.</string>
+  <string name="voice_description">Voice search</string>
   <string name="voice_network_connection">Röstsökning kräver att du ansluter till internet för att fungera normalt.</string>
   <string name="voice_search_permission">Röstsökning behöver komma åt din mikrofon för att fungera normalt.</string>
   <string name="voice_semantic_analysis">Webbläsaren kommer att kunna analysera semantik efter att du har tillåtit det att ansluta.</string>

@@ -670,6 +670,7 @@ Orsak: \"%s\""</string>
   <string name="miprofile_contact_header">Kontakter med kontakt kort</string>
   <string name="miprofile_contact_meaasge">Lokala kontakter</string>
   <string name="miprofile_contact_verifying">Verifierar</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Redigera profil</string>
   <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontakt kort</string>
   <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -868,6 +869,8 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
   <string name="payphone">Betalnummer</string>
   <string name="people">Kontakter</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Numret är för långt</string>
@@ -1149,6 +1152,10 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="strequentList">Favoriter</string>
   <string name="success_message_import_from_account">Kontakt importerad</string>
   <string name="summary_kind_title">Summering</string>
+  <string name="t9_search_empty_create_contact">New contact</string>
+  <string name="t9_search_empty_edit_contact">Add to contact</string>
+  <string name="t9_search_empty_send_sms">Send message</string>
+  <string name="t9_search_empty_video_call">Video call</string>
   <string name="t9_search_guide_pinyin_title1">Skriv in nummer för söka kontakt</string>
   <string name="t9_search_guide_pinyin_title2">Ange \"9\" och \"4\" för att söka efter \"&lt;font fgcolor=""&gt;X&lt;/font&gt;avier &lt;font fgcolor=""&gt;H&lt;/font&gt;enry\"</string>
   <string name="t9_search_guide_zhuyin_title1">Skriv in nummer för söka kontakt</string>

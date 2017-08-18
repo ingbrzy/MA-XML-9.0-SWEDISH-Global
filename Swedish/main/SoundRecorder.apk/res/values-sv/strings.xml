@@ -37,7 +37,7 @@
   <string name="error_filename_too_long">Filnamnet är för långt.</string>
   <string name="error_sdcard_access">Det går inte att komma åt lagring</string>
   <string name="error_sdcard_unmounted">Sätt i SD kort nu</string>
-  <string name="export_to_note">Exportera till Anteckningar</string>
+  <string name="export_to_note">Export</string>
   <string name="head_set_tip_dialog_msg">Disconnect your earphones to be able to record sound with specific presets (e.g., Music, Voice).</string>
   <string name="head_set_tip_dialog_ok">Got it</string>
   <string name="head_set_tip_dialog_title">Use internal mic</string>

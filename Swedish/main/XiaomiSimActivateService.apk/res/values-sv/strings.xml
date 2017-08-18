@@ -9,6 +9,7 @@
   <string name="activate_feature_default_name">Mi tjänster</string>
   <string name="activate_feature_find_device">Hitta enhet</string>
   <string name="activate_feature_live_talk">Fyll på-paket</string>
+  <string name="activate_feature_mi_roaming">Mi Roaming</string>
   <string name="activate_feature_mms_sync">Synkronisera meddelanden</string>
   <string name="activate_feature_mx">Mi Meddelande</string>
   <string name="activate_feature_mx_and_voip">Mi Meddelande och Röst</string>

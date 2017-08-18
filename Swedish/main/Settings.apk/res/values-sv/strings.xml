@@ -2086,9 +2086,9 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
   <string name="lock_screen_notifications_interstitial_title_profile">Profilaviseringar</string>
   <string name="lock_screen_notifications_summary_disable">Visa inga aviseringar alls</string>
   <string name="lock_screen_notifications_summary_disable_profile">Visa inga jobbaviseringar alls</string>
-  <string name="lock_screen_notifications_summary_hide">Dölj känsligt aviseringsinnehåll</string>
+  <string name="lock_screen_notifications_summary_hide">Show all notifications but hide contents</string>
   <string name="lock_screen_notifications_summary_hide_profile">Dölj känsligt innehåll i jobbaviseringarna</string>
-  <string name="lock_screen_notifications_summary_show">Visa allt aviseringsinnehåll</string>
+  <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_summary_show_profile">Visa allt innehåll i jobbaviseringarna</string>
   <string name="lock_screen_notifications_title">På låsskärmen</string>
   <string name="lock_screen_secure_after_timeout_immediately_summary">Lösenord krävs omedelbart.</string>
@@ -2215,6 +2215,7 @@ för Sekundära utrymmet"</string>
   <string name="lockscreen_glogin_checking_password">Kontrollerar…</string>
   <string name="lockscreen_glogin_password_hint">Lösenord</string>
   <string name="lockscreen_glogin_submit_button">Logga in</string>
+  <string name="lockscreen_magazine">Wallpaper Carousel</string>
   <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">Gör aviseringar skrivskyddade när enheten är låst så att det inte går att skriva svar eller liknande</string>
   <string name="login_account_dialog_message">Logga in med ditt Mi Konto och start synkronisering med Mi Cloud.</string>
@@ -2228,6 +2229,7 @@ för Sekundära utrymmet"</string>
   <string name="man_add_application">Lägg till autostart appar</string>
   <string name="manage_device_admin">Enhetsadministratörer</string>
   <string name="manage_device_admin_summary">Visa eller inaktivera enhetsadministratörer</string>
+  <string name="manage_fakecell_settings">Protection from fake base stations</string>
   <string name="manage_fingerprint_text">Hantera fingeravtryck</string>
   <string name="manage_mobile_plan_title">Mobilplan</string>
   <string name="manage_notification_access_summary_zero">Appar kan läsa meddelanden</string>
@@ -2573,6 +2575,8 @@ Välj ditt operativsystem:"</string>
   <string name="no_updates_warning2">Ta det lugnt, vi kommer meddela dig när en uppdatering är tillgänglig :)</string>
   <string name="no_vr_listeners">Inga installerade appar har begärt att få köras som hjälptjänster för virtuell verklighet.</string>
   <string name="noise_suppression">Omgivande ljuddämpning</string>
+  <string name="normal">Normal</string>
+  <string name="normal_info">All the volume is normal</string>
   <string name="normal_smartcover_title">Ogenomskinlig frontluckan</string>
   <string name="not_battery_optimizing">Batterioptimering används inte</string>
   <string name="not_installed">Ej installerad för användaren</string>
@@ -2914,6 +2918,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
   <string name="privacy_factory_reset_dlg_title">Back up your data</string>
   <string name="privacy_file">Filer</string>
   <string name="privacy_gallery">Foton</string>
+  <string name="privacy_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="privacy_mms">Meddelanden</string>
   <string name="privacy_mode_dialog_message">Dölj meddelanden, anteckningar, bilder, inställningar och inkommande samtal?</string>
   <string name="privacy_mode_dialog_title">Gästläge</string>
@@ -3106,7 +3111,6 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
   <string name="remove_managed_profile_label">Ta bort arbetsprofilen</string>
   <string name="repeat">Repetera</string>
   <string name="repeat_call">Repeated caller reminder</string>
-  <string name="repeat_call_info">In the Silent mode, if the same person in 15 minutes two calls, allowing Ling Ling reminders</string>
   <string name="repeat_title">Upprepa</string>
   <string name="reset_aaid">Nottställ reklamidentifierare</string>
   <string name="reset_app_preferences">Återställ inställningarna</string>
@@ -3716,10 +3720,11 @@ Obs! Fingeravtryck kan vara mindre säkra än en säkert grafiskt lösenord elle
   <string name="shut_down_find_device_network_failure_content">Kunde inte stänga av Hitta enheten. Kontrollera att din enhet har en internet anslutning.</string>
   <string name="shut_down_find_device_network_failure_title">Kan inte ansluta till nätverket</string>
   <string name="shuting_down_find_device">Stänger av Hitta enhet…</string>
+  <string name="silent_duration">Duration</string>
   <string name="silent_mode">Silent Mode</string>
   <string name="silent_mode_title">Tyst läge</string>
   <string name="silent_off">Turn off</string>
-  <string name="silent_settings">Silent Mode</string>
+  <string name="silent_settings">Silence/DND</string>
   <string name="silent_standard">Silent</string>
   <string name="silent_time">Slience Duration</string>
   <string name="silent_total">DND</string>
@@ -3895,6 +3900,8 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
   <string name="status_bar_settings_style">Notifikationers- &amp; knapparslayout</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">Kollapsa efter kontakt</string>
   <string name="status_bar_settings_toggle_position">Växla positioner</string>
+  <string name="status_bar_settings_user_fold">Notifications folder</string>
+  <string name="status_bar_settings_user_fold_summary">All unimportant notifications will appear in a separate folder</string>
   <string name="status_bar_style_list">Kombinerade</string>
   <string name="status_bar_style_page">Separata</string>
   <string name="status_bt_address">Bluetooth-adress</string>
@@ -4236,6 +4243,13 @@ En funktion i Google som du kan anv&amp;#228;nda om du vill synkronisera s&amp;#
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
   <string name="turn_off_security_lock">Stäng av lås</string>
   <string name="turn_on_keyguard_password">Slå på låsskärmslösenord</string>
+  <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
+  <string name="turn_on_keyguard_password_alert_choose">"Remember your password. If you forget it, you'll have to erase all data on your device to set a new one."</string>
+  <string name="turn_on_keyguard_password_alert_foget_cacel">Not now</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok">Got it</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok_time">Got it(%dsecond)</string>
+  <string name="turn_on_keyguard_password_alert_forget_content">"Remember your Lock screen password. If you forget it, you'll have to erase all data on your device, including photos and contacts, and then set a new one."</string>
+  <string name="turn_on_keyguard_password_alert_forget_title">"If you forget it, you won't be able to restore it."</string>
   <string name="turn_on_security_lock">Välj skärmlås</string>
   <string name="turn_update_keyguard_password_wait_dialog">Modifying password</string>
   <string name="twohours">1 hours</string>
@@ -4910,9 +4924,11 @@ Vill du tillåta detta för alla appar som vill söka efter nätverk?"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">None</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
