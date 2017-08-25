@@ -473,7 +473,6 @@ Orsak: \"%s\""</string>
   <string name="force_touch_miprofile">Kontaktkort</string>
   <string name="force_touch_new_contact">Ny kontakt</string>
   <string name="foundTooManyContacts">Mer än %d funna.</string>
-  <string name="fraud_more_indemnity">Mer</string>
   <string name="frequentList">Frekvent</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">Namn</string>
@@ -670,6 +669,7 @@ Orsak: \"%s\""</string>
   <string name="miprofile_contact_header">Kontakter med kontakt kort</string>
   <string name="miprofile_contact_meaasge">Lokala kontakter</string>
   <string name="miprofile_contact_verifying">Verifierar</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Redigera profil</string>
   <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontakt kort</string>
   <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -868,6 +868,8 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
   <string name="payphone">Betalnummer</string>
   <string name="people">Kontakter</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Numret är för långt</string>
@@ -1048,7 +1050,8 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="search_wipe_data">Organisera;Kontakter</string>
   <string name="searching_vcard_message">Söker efter vCard data på lagringsminne…</string>
   <string name="select_all">Markera alla</string>
-  <string name="select_done">Inget mer att markera</string>
+  <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
+  <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">Välj grupper</string>
   <string name="select_none">Inget valt</string>
   <string name="select_show_contacts">Kontaktlista</string>
@@ -1081,8 +1084,6 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="sim_capacity_content" formatted="false">%d totalt | %d använt</string>
   <string name="sim_card_no_free_space_message">Inte tillräckligt med utrymme</string>
   <string name="sim_card_no_free_space_title">SIM-kortet fullt</string>
-  <string name="sim_contact_dropdown_menu_deselect_all_miui">Avmarkera alla</string>
-  <string name="sim_contact_dropdown_menu_select_all_miui">Markera alla</string>
   <string name="sim_contact_existing">Kontakt existerar redan</string>
   <string name="sim_contact_invalid">Ogiltig SIM kontakt</string>
   <string name="sim_contact_search_error">Ett fel uppstod</string>
@@ -1159,8 +1160,6 @@ För att lägga till en kontakt i din lista av favoriter:
   <string name="t9_search_guide_zhuyin_title2">Ange \"5\" och \"6\" för att söka efter \"&lt;font fgcolor=""&gt;J&lt;/font&gt;ohan &lt;font fgcolor=""&gt;M&lt;/font&gt;artin\"</string>
   <string name="take_new_photo">Ta en ny bild</string>
   <string name="take_photo">Ta bild</string>
-  <string name="telecom_fraud_insurance">Telecom bedrägeri försäkring</string>
-  <string name="telecom_fraud_insurance_description">10.0000 CNY försäkring | Exklusivt Xiaomi erbjudande | 9.9 CNY per år</string>
   <string name="titleJoinContactDataWith">Slå ihop kontakter</string>
   <string name="title_other_devices">Övriga tillgängliga enheter</string>
   <string name="title_paired_devices">Sammankopplade enheter</string>

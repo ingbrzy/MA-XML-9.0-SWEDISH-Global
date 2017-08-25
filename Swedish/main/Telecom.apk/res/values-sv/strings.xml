@@ -94,6 +94,7 @@
   <string name="bugreport_in_power">Genväg till felrapport</string>
   <string name="bugreport_in_power_summary">Visa en knapp för felrapportering i extramenyn</string>
   <string name="button_convert_fbe">Rensa och konvertera …</string>
+  <string name="callFailed_simError">SIM card error</string>
   <string name="can_not_dial_vt_while_voice_prompt">Kan inte starta ett videosamtal medan röstsamtal pågår</string>
   <string name="can_not_dial_while_vt_prompt">Det går inte att ringa under ett pågående videosamtal</string>
   <string name="category_personal">Personligt</string>
@@ -105,6 +106,7 @@
   <string name="charge_length_format">för %1$s sedan</string>
   <string name="choose_profile">Välj profil</string>
   <string name="clear_adb_keys">Återkalla åtkomst till USB-felsökning</string>
+  <string name="close">Close</string>
   <string name="confirm_enable_oem_unlock_text">Varning! Funktionerna för enhetsskydd fungerar inte på enheten när den här inställningen är aktiverad.</string>
   <string name="confirm_enable_oem_unlock_title">Vill du tillåta OEM-upplåsning?</string>
   <string name="connected_via_passpoint">Anslutet via %1$s</string>
@@ -189,6 +191,8 @@
   <string name="inactive_app_inactive_summary">Inaktiv. Tryck om du vill aktivera.</string>
   <string name="inactive_apps_title">Inaktiva appar</string>
   <string name="incall_error_call_failed">Kunde inte ringa.</string>
+  <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+  <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
   <string name="keep_screen_on">Håll aktiverad</string>
   <string name="keep_screen_on_summary">Skärmen vilar aldrig när laddning pågår</string>
   <string name="launch_defaults_none">Inga standardinställningar har angetts</string>

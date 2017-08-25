@@ -371,7 +371,7 @@ Administratören kan övervaka och hantera inställningar, åtkomst, appar och d
   <string name="auto_rule">schedule rule</string>
   <string name="auto_silent">Timing Muted</string>
   <string name="auto_startup_application_manage">Autostart</string>
-  <string name="auto_startup_count">%d appar tillåts att starta automatiskt</string>
+  <string name="auto_startup_count">%d apps are allowed to autostart</string>
   <string name="automatic_brightness">Automatisk ljusstyrka</string>
   <string name="available_size">%s tillgänglig</string>
   <string name="available_via_passpoint">Available via %1$s</string>
@@ -901,7 +901,6 @@ Sändningen använder Bluetooth-signaler med låg energiförbrukning."</string>
   <string name="clear_failed_dlg_title">Ta bort data</string>
   <string name="clear_uri_btn_text">Ta bort åtkomst</string>
   <string name="clear_user_data_text">Rensa data</string>
-  <string name="close_gesture">Avsluta med gest</string>
   <string name="close_install_and_connect">No thanks</string>
   <string name="close_miui_optimization_title">Avaktivera MIUI optimering</string>
   <string name="close_miui_optimization_warning_message">Enheten kommer att starta om för att tillämpa denna förändring. Obs: om du inaktiverar den här funktionen kommer att medföra stora förändringar layout och andra element i Användargränssnittet.</string>
@@ -1253,7 +1252,7 @@ Den här inställningen påverkar alla användare på mobilen."</string>
   <string name="device_available_memory">Available memory</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
-  <string name="device_complete_parameters">Färdig</string>
+  <string name="device_complete_parameters">Complete</string>
   <string name="device_cpu">CPU</string>
   <string name="device_cpu10_info">Hexa-core</string>
   <string name="device_cpu2_info">Dubbelkärnig</string>
@@ -1752,7 +1751,6 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
   <string name="google_backup_enable">Slå på säkerhetskopior</string>
   <string name="google_backup_section_title">Google säkerhetskopiering &amp; återställning</string>
   <string name="google_title">Google</string>
-  <string name="got_it">Uppfattat</string>
   <string name="gsm_to_wifi_connect_type_title">GSM till Wi-Fi</string>
   <string name="handy_mode">En hands-läge</string>
   <string name="handy_mode_enable">One-handed mode</string>
@@ -1789,8 +1787,6 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
   <string name="heavy_weight_stop_description">Det går inte att avsluta appen på ett säkert sätt. Om du avslutar den kan du förlora det aktuella arbetet.</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
   <string name="help_label">Hjälp och feedback</string>
-  <string name="hide">Dölj</string>
-  <string name="hide_screen_button">Göm skärmknappar</string>
   <string name="high_performance_notif_summary">Enheten kan bli varm under intensiv användning.</string>
   <string name="high_performance_notif_title">Prestanda läge är på</string>
   <string name="high_performance_title">Du kör en benchmark. Ange \"Prestanda\" läge för bästa resultat.</string>
@@ -2023,16 +2019,16 @@ När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdat
   <string name="location_agps_pref_reset_type_title">Föredragen omställningstyp</string>
   <string name="location_agps_pref_si_title">Föredraget läge</string>
   <string name="location_agps_register_network_type">Accessnätstyp</string>
-  <string name="location_agps_register_network_type_dialog_summary">Välj ett nätverk</string>
-  <string name="location_agps_register_network_type_dialog_title">Välj nätverk</string>
+  <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
+  <string name="location_agps_register_network_type_dialog_title">Använd Assisterad GPS</string>
   <string name="location_agps_register_network_type_summary">Välj nätverk för använda AGPS</string>
   <string name="location_agps_reset_type">Omställningstyper</string>
   <string name="location_agps_reset_type_choose_dialog_title">Omställningstyper</string>
   <string name="location_agps_reset_type_summary">Välj föredragen omställningstyp</string>
   <string name="location_agps_roaming_help">Att välja alla nätverk kan öka din dataanvändning när du använder roaming. Om du överskrider ditt abonnemangs gräns kan din operatör debitera dig för detta.</string>
-  <string name="location_agps_si_mode">AGPS SI läge</string>
-  <string name="location_agps_si_mode_dialog_title">AGPS metod</string>
-  <string name="location_agps_si_mode_summary">Välj föredragen AGPS metod</string>
+  <string name="location_agps_si_mode">A-GPS SI läge</string>
+  <string name="location_agps_si_mode_dialog_title">A-GPS metod</string>
+  <string name="location_agps_si_mode_summary">Välj föredragen A-GPS metod</string>
   <string name="location_agps_supl_server_addr">Server address</string>
   <string name="location_agps_supl_server_port">Server port</string>
   <string name="location_agps_supl_settings">SUPL inställningar</string>
@@ -2162,11 +2158,11 @@ för Sekundära utrymmet"</string>
   <string name="lockpassword_password_too_short">Lösenordet måste innehålla minst %d tecken</string>
   <string name="lockpassword_pattern_set_toast">Mönster har angivits</string>
   <string name="lockpassword_pin_contains_non_digits">PIN kan endast innehålla nummer</string>
-  <string name="lockpassword_pin_fixed_length">PIN måste vara %d siffror</string>
+  <string name="lockpassword_pin_fixed_length">PIN must be %d digits</string>
   <string name="lockpassword_pin_no_sequential_digits">En stigande, sjunkande eller upprepad sekvens av siffror är inte tillåten</string>
   <string name="lockpassword_pin_recently_used">Enhetsadministratör tillåter inte PIN upplåsning</string>
   <string name="lockpassword_pin_set_toast">PIN angiven</string>
-  <string name="lockpassword_pin_too_long">PIN kan innehålla upp till %d siffror</string>
+  <string name="lockpassword_pin_too_long">PIN måste vara färre än %d siffror lång</string>
   <string name="lockpassword_pin_too_short">PIN måste vara %d siffror lång</string>
   <string name="lockpassword_strong_auth_required_reason_restart_device_password">Efter omstart måste du ange enhetens lösenord för att kunna fortsätta.</string>
   <string name="lockpassword_strong_auth_required_reason_restart_device_pattern">Efter omstart måste du ange enhetens grafiska lösenord för att kunna fortsätta.</string>
@@ -2185,7 +2181,7 @@ för Sekundära utrymmet"</string>
   <string name="lockpattern_pattern_same_with_others">Should be different from other space password</string>
   <string name="lockpattern_pattern_same_with_owner">Måste vara annorlunda mot det primära utrymmets lösenord</string>
   <string name="lockpattern_pattern_same_with_security_space">Måste vara annorlunda mot det sekundära utrymmets lösenord</string>
-  <string name="lockpattern_recording_incorrect_too_short">Anslut åtminstone %d punkter. Försök igen.</string>
+  <string name="lockpattern_recording_incorrect_too_short">Anslut minst %d punkter. Försök igen.</string>
   <string name="lockpattern_recording_inprogress">Lyft ditt finger när du är klar</string>
   <string name="lockpattern_recording_intro_footer">Tryck Meny för hjälp.</string>
   <string name="lockpattern_recording_intro_header">Rita ett upplåsningsmönster:</string>
@@ -2208,7 +2204,6 @@ för Sekundära utrymmet"</string>
   <string name="lockpattern_settings_require_pin_before_startup_summary">Kräv pinkod när enheten startar. Du kan inte ta emot samtal, meddelanden, aviseringar eller ställa alarm om inte enheten är påslagen.</string>
   <string name="lockpattern_settings_title">Upplåsningsmönster</string>
   <string name="lockpattern_too_many_failed_confirmation_attempts">För många felaktiga försök. Försök igen om %d sekunder.</string>
-  <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Vänta i %d sekunder och försök igen.</string>
   <string name="lockpattern_too_many_failed_confirmation_attempts_header">För många misslyckade försök</string>
   <string name="lockpattern_tutorial_cancel_label">Avbryt</string>
   <string name="lockpattern_tutorial_continue_label">Nästa</string>
@@ -2290,6 +2285,7 @@ Det finns andra användare på enheten.
   <string name="master_clear_progress_title">Rensar</string>
   <string name="master_clear_summary">Rensar all data på telefonen</string>
   <string name="master_clear_title">Återställ standardinst.</string>
+  <string name="max_aspect_settings_all_app_display_loading">Just a sec…</string>
   <string name="max_cpu10_info">"Deca-core Max "</string>
   <string name="max_cpu2_info">Dubbelkärnig Max</string>
   <string name="max_cpu4_info">"Quad-core Max "</string>
@@ -3149,6 +3145,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
   <string name="restore_default_apn_completed">Återställning av standardinställningar för APN har slutförts.</string>
   <string name="restr_pin_enter_admin_pin">Ange administratörspinkod</string>
   <string name="restrict_background_blacklisted">Bakgrundsdata har inaktiverats</string>
+  <string name="restrict_max_aspect_ratio_title">Suggest disable max aspect ratio</string>
   <string name="restriction_bluetooth_config_summary">Tillåt ändring av Bluetooth-kopplingar och -inställningar</string>
   <string name="restriction_bluetooth_config_title">Bluetooth</string>
   <string name="restriction_location_enable_summary">Tillåt att appar använder din platsinformation</string>
@@ -3209,8 +3206,6 @@ Den här inställningen påverkar samtliga användare."</string>
   <string name="saved_wifi">Manage saved networks</string>
   <string name="saved_wifi_delete">Ta bort</string>
   <string name="screen">Skärm</string>
-  <string name="screen_button">Skärmknappar</string>
-  <string name="screen_button_tips">Dra ner för att dölja skärmknappar</string>
   <string name="screen_cells_config_title">Hemskärms-layout</string>
   <string name="screen_color_and_optimize">Färger &amp; kontrast</string>
   <string name="screen_color_and_optimize_disabled">Kan inte justera färgtemperatur i Läsläge</string>
@@ -3226,6 +3221,8 @@ Den här inställningen påverkar samtliga användare."</string>
   <string name="screen_key_press">Tryck på navigationsknappar</string>
   <string name="screen_key_press_action">Avfyra funktion</string>
   <string name="screen_locking_sounds_title">Ljud vid skärmlåsning</string>
+  <string name="screen_max_aspect_ratio_desc">Whether app can show fullscreen</string>
+  <string name="screen_max_aspect_ratio_title">Max aspect ratio settings</string>
   <string name="screen_monochrome_mode_apps_loading">Just a sec…</string>
   <string name="screen_monochrome_mode_apps_title">Use Monochrome mode</string>
   <string name="screen_monochrome_mode_global_summary">Use Monochrome mode for all apps</string>
@@ -3860,9 +3857,9 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
   <string name="status_bar_app_enable_message">Märken</string>
   <string name="status_bar_key_position_custom">Ändra knapplägen</string>
   <string name="status_bar_notification_info_overflow">&gt;999</string>
-  <string name="status_bar_screen_button_desc">Dra ner för att dölja skärmknappar</string>
+  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
   <string name="status_bar_screen_button_key">Skärmknappar</string>
-  <string name="status_bar_screen_button_key_can_hide">Skärmknappar kan döljas</string>
+  <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
   <string name="status_bar_screen_key_back">Bakåtknapp</string>
   <string name="status_bar_screen_key_home">Hemknapp</string>
   <string name="status_bar_screen_key_menu">Meny knapp</string>
@@ -4068,6 +4065,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
   <string name="storageuse_settings_title">Använt utrymme</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
+  <string name="suggest_unrestrict_max_aspect_ratio_title">Suggest enable max aspect ratio</string>
   <string name="suggested_fingerprint_lock_settings_summary">Lås upp med ditt fingeravtryck</string>
   <string name="suggested_lock_settings_summary">Skydda enheten</string>
   <string name="suggested_lock_settings_title">Skärmlås</string>
@@ -4082,8 +4080,6 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
   <string name="supl_not_set">&lt;Inte angiven&gt;</string>
   <string name="sure_sync_now">Sync items now?</string>
   <string name="suspend_gesture_enabled">Flip phone to turn off screen</string>
-  <string name="suspension_ball_enable">Snabb boll genväg</string>
-  <string name="suspension_ball_enable_desc">Slå Snabb boll på och av med hjälp av genväg</string>
   <string name="suw_back_button_label">Tillbaka</string>
   <string name="suw_more_button_label">Mer</string>
   <string name="suw_next_button_label">Nästa</string>
@@ -4334,6 +4330,7 @@ En funktion i Google som du kan anv&amp;#228;nda om du vill synkronisera s&amp;#
   <string name="unlock_set_unlock_summary">Ställ in ett skärmlås</string>
   <string name="unlock_setup_wizard_fingerprint_details">När du har konfigurerat skärmlåset kan du även registrera ditt fingeravtryck i Inställningar &gt; Säkerhet.</string>
   <string name="unmount_inform_text">USB-lagringsenheten demonteras.</string>
+  <string name="unrestrict_max_aspect_ratio_title">Support max aspect radio</string>
   <string name="unrestricted_app_summary">Tillåt obegränsad dataåtkomst med Databesparing på</string>
   <string name="unrestricted_app_title">Obegränsad dataanvändning</string>
   <string name="unrestricted_data_saver">Obegränsad dataåtkomst</string>
@@ -4554,7 +4551,7 @@ Tryck på plus att lägga till ord."</string>
   <string name="virtual_sim_title">Roaming datanätverk</string>
   <string name="virus_scan">Virussökning</string>
   <string name="virus_scan_app_continue">Fortsätt sökning</string>
-  <string name="virus_scan_app_find_risk">%d risker funna</string>
+  <string name="virus_scan_app_find_risk">%d risks found</string>
   <string name="virus_scan_app_finish">Sökning avslutad</string>
   <string name="virus_scan_app_force_stop">Sökning pausad</string>
   <string name="virus_scan_app_is_stop_scan">Avbryt sökning?</string>
@@ -4924,9 +4921,11 @@ Vill du tillåta detta för alla appar som vill söka efter nätverk?"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">None</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -4990,7 +4989,7 @@ kan du använda andras nätverk också"</string>
   <string name="wifi_share_connect">Anslut</string>
   <string name="wifi_share_connected_summary">Du har anslutit till ett offentligt Wi-Fi nätverk som har delats av en annan användare.</string>
   <string name="wifi_share_connected_title">MIUI-delat Wi-Fi</string>
-  <string name="wifi_share_count">Delade %d nätverk</string>
+  <string name="wifi_share_count">Shared %d networks</string>
   <string name="wifi_share_current_network">Nuvarande nätverk</string>
   <string name="wifi_share_know">OK</string>
   <string name="wifi_share_list_empty">Inga delade nätverk hittade.</string>

@@ -55,6 +55,7 @@
   <string name="feedback_choose_module">Välj objekt</string>
   <string name="feedback_choose_module_hint">Nödvändig</string>
   <string name="feedback_collect_log_failed">Kunde inte hämta loggar</string>
+  <string name="feedback_contact_info_hint">Phone number/Email</string>
   <string name="feedback_continue">Fortsätt med återkoppling</string>
   <string name="feedback_description">Beskrivning</string>
   <string name="feedback_description_bugreport_hint">I vissa fall (…) fungerar inte min telefon som den ska (…).</string>
@@ -196,6 +197,7 @@
   <string name="module_data">Lagring &amp; Dubbla appar</string>
   <string name="module_desktop">Hemskärm &amp; inställningar</string>
   <string name="module_finance">Finans &amp; Mi Wallet</string>
+  <string name="module_google_apps">Google apps</string>
   <string name="module_item_less">Dölj</string>
   <string name="module_item_more">Mer</string>
   <string name="module_medias">Media</string>

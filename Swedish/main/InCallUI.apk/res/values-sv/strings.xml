@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="add_vm_number_str">Lägg till nummer</string>
   <string name="alert_dialog_dismiss">Avfärda</string>
   <string name="alert_dialog_no">Nej</string>
   <string name="alert_dialog_yes">Ja</string>
@@ -174,8 +173,6 @@
   <string name="no_balance_title">Otillräckligt med pengar</string>
   <string name="no_call_back_message">Det tar för lång tid att ansluta. Byter till vanligt samtal, vilket kommer bli debiterat av din operatör.</string>
   <string name="no_call_back_title">Uppmärksamhet</string>
-  <string name="no_vm_number">Saknar nummer till röstbrevlådan</string>
-  <string name="no_vm_number_msg">Inga nummer till röstbrevlåda är sparade på SIM-kortet.</string>
   <string name="non_ivr_menu_collapse_menu">Fäll ihop meny</string>
   <string name="non_ivr_menu_view_menu">Visa meny</string>
   <string name="not_activate_sim_card_content">Verifiera ditt telefonnummer för att börja använda Fyll-på paket. Du kan fortfarande ringa som vanligt, men kommer bli debiterad av din operatör.</string>

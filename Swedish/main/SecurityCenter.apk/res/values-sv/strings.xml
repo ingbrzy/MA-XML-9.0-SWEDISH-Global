@@ -244,6 +244,7 @@
   <string name="apps_list_header_title_sms_access">Restrict access to verification codes</string>
   <string name="auto_atsk_condition_battery_level_text_down">När batteriet når%s</string>
   <string name="auto_atsk_condition_battery_level_text_up">När batteriet är laddat till %s</string>
+  <string name="auto_clean_close">Automatic cleanups are off</string>
   <string name="auto_handle_title">ALLMÄNT</string>
   <string name="auto_import_games">Put all your games in one place</string>
   <string name="auto_task_condition_choose_battery_level_down">När batteriet når en viss nivå</string>
@@ -345,6 +346,7 @@
   <string name="battery_status_unknown">Okänt fel</string>
   <string name="battery_temperature_title">Temperatur</string>
   <string name="begin_date">Återställningsdatum för användning</string>
+  <string name="best_booster_status">Gaming speed is the best available now.</string>
   <string name="bind_xiaomi_account_cancel">Avbryt</string>
   <string name="bind_xiaomi_account_confirm">Lägg till</string>
   <string name="bind_xiaomi_account_dialog_summery">Du håller på att lägga till Mi Konto %s. Om du glömmer ditt lösenord, kan du använda detta konto för att återställa det.</string>
@@ -422,11 +424,13 @@
   <string name="card_main_applock_summary">Skydda privata objekt med applås</string>
   <string name="card_main_applock_title">Applås</string>
   <string name="card_main_deepclean_action">Rensa</string>
+  <string name="card_main_deepclean_qq_title">QQ cleaner</string>
   <string name="card_main_deepclean_summary">Radera onödiga filer</string>
   <string name="card_main_deepclean_title">Djup städning</string>
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
+  <string name="card_main_gamebooster_title">Gaming speed boost</string>
   <string name="card_main_hbassistant_summary">Använd detta verktyg för att ta kuverten snabbare</string>
   <string name="card_main_hbassistant_title">Röda kurvert-assistenten</string>
   <string name="card_main_monthreport_action">Visa</string>
@@ -441,6 +445,7 @@
   <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
   <string name="card_main_private_space_title">Sekundärt utrymme</string>
   <string name="card_main_sectool_title">Verktyg</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">Skapa</string>
   <string name="card_main_xspace_summary">Skapa dubbla konton appar</string>
   <string name="card_main_xspace_title">Dubbla appar</string>
@@ -581,6 +586,7 @@
   <string name="dlg_white_antispam_message">Add this number to exceptions?</string>
   <string name="dns_exception_summary">Kontrollera routerns DNS inställningar</string>
   <string name="dns_exception_title">Kontrollera DNS inställningar</string>
+  <string name="do_clean">Clearing…</string>
   <string name="domestic_roaming_setting">National roaming</string>
   <string name="dont_bore">"Don't let buttons and notifications distract you"</string>
   <string name="dont_bore_text">Silence notifications and turn off buttons to remove distractions</string>
@@ -648,6 +654,8 @@
   <string name="forget_password_button_text">&lt;u&gt;Gl&amp;#246;mt l&amp;#246;senord&lt;/u&gt;</string>
   <string name="forget_password_button_text_normal">Forgot password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot password&lt;/u&gt;</string>
+  <string name="free_send_net_booster">Free Network speed boost</string>
+  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free Network speed boost.</string>
   <string name="free_time_traffic">Lågtrafik dataanvändningsgräns</string>
   <string name="free_time_traffic_hint">Ange lågtrafiksgräns för data</string>
   <string name="free_time_traffic_settings">Lågtrafik dataanvändningsgräns</string>
@@ -750,6 +758,7 @@
   <string name="item_dev_mode">Utvecklaralternativ</string>
   <string name="item_install_monitor">Installera övervakare</string>
   <string name="item_mms">Filtrera bort oönskade meddelanden</string>
+  <string name="item_system_auto_download">Download updates automatically</string>
   <string name="item_usb_debug">USB felsökning</string>
   <string name="item_virus_lib">Uppdatera virus definitioner automatiskt</string>
   <string name="keywords_antispam">Blocklist;Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts</string>
@@ -908,6 +917,7 @@ to respond"</string>
   <string name="memory_clean_running_process_title">Monitoring apps (%d)</string>
   <string name="memory_cleaned_memory_info">Available memory</string>
   <string name="memory_cleaned_memory_up">Speed boost</string>
+  <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="menu_add">Add</string>
   <string name="menu_bl_call_log">View blocked calls</string>
   <string name="menu_bl_remove">Unblock</string>
@@ -950,6 +960,7 @@ to respond"</string>
   <string name="menu_text_networkassistants_unit_gb">GB</string>
   <string name="menu_text_networkassistants_unit_kb">KB</string>
   <string name="menu_text_networkassistants_unit_mb">MB</string>
+  <string name="menu_text_optimize_manage">Boost speed</string>
   <string name="menu_text_power_manager">Batteri användning</string>
   <string name="menu_text_power_percent_title">Batteri %s</string>
   <string name="menu_text_power_percent_title_default">Battery</string>
@@ -964,7 +975,16 @@ to respond"</string>
   <string name="monitor_requests_from_pc">Hantera installation av appar via USB</string>
   <string name="more_game">More games</string>
   <string name="name">Name</string>
+  <string name="net_booster">Network speed boost</string>
+  <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
+  <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
+  <string name="net_booster_tip">Turn on Network speed boost to make Wi-Fi connection more stable and reduce network delay.</string>
+  <string name="net_booster_title">Network speed boost</string>
+  <string name="net_boosting">Boosting speed…</string>
   <string name="net_delay_title">Delay</string>
+  <string name="net_overdue">Session ended</string>
   <string name="network_blocked_connected_open_wifi">Ansluten till offentligt nätverk</string>
   <string name="network_blocked_notification_summary">Testa nätverk</string>
   <string name="network_blocked_switch_wifi">Byt nätverk</string>
@@ -1367,6 +1387,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="reach_daily_limit_value_body">Minska din mobila dataanvändning.</string>
   <string name="reach_daily_limit_value_title">Daglig datagräns nådd</string>
   <string name="read_all_sms">Read all</string>
+  <string name="receive_now">Receive</string>
   <string name="recently_reject_message">Avvisade installation av %1$s och %2$d andra appar</string>
   <string name="recently_reject_message_one">Avvisade %1$s installations förfrågningar</string>
   <string name="recommend_news">Ta emot rekommendationer</string>
@@ -1374,8 +1395,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="reject_all">Begränsa alla</string>
   <string name="reject_countdown">Neka (%d)</string>
   <string name="reject_usb_install">Nekade installation av de följande apparna via USB</string>
+  <string name="release_meminfo">Free up %dMB</string>
   <string name="release_memory">Clear cache</string>
   <string name="renew_ip">Försök igen</string>
+  <string name="renew_now">Renew</string>
   <string name="repair">Reparera</string>
   <string name="repair_loading_text">Vänta lite…</string>
   <string name="repeated_marked_number_summary">"Don't block a second call from the same reported number within 3 minutes"</string>
@@ -1693,6 +1716,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tab_blacklist">Blacklist</string>
   <string name="tab_block_log_unKnowNumber">Private number</string>
   <string name="tab_call">Calls</string>
+  <string name="tab_gift">Gifts</string>
+  <string name="tab_guide">Guide</string>
   <string name="tab_sms">SMS</string>
   <string name="tab_title">Blacklist</string>
   <string name="tc_diagnostic_all_error_notification_summary">Tryck för att rapportera ett fel</string>
@@ -1784,6 +1809,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_app_lock_disable">Lås appar</string>
   <string name="title_app_update">Uppdateringar tillgängliga</string>
   <string name="title_auto_update">Uppdateras automatiskt</string>
+  <string name="title_chain_start">Restrict chain start</string>
   <string name="title_cleaner_cloudscan">Skanna soptunnan i molnet</string>
   <string name="title_cloud_account">Mi-konto</string>
   <string name="title_cloud_service">Mi Cloud</string>
@@ -1792,8 +1818,11 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_cmcc_app_check">Verifikation inte slutförd</string>
   <string name="title_consume_power_rank">Batterianvändning</string>
   <string name="title_data_flow">Kontroll mobildata</string>
+  <string name="title_data_flow_monitor">Data usage monitor is on</string>
+  <string name="title_dev_model_off">"Developer's options are off"</string>
   <string name="title_dev_no">Utvecklaralternativ på</string>
   <string name="title_dev_yes">Utvecklaralternativ av</string>
+  <string name="title_device_not_root">"Root access wasn't granted"</string>
   <string name="title_find_device">Hitta enhet</string>
   <string name="title_flow_notification">Mobildata notifikation</string>
   <string name="title_flow_purchase">Köp mobildata</string>
@@ -1801,17 +1830,20 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_flow_verify">Jämför beräkning</string>
   <string name="title_flow_verify_failed">Har inte kunnat kalibrera 5 dagar i rad</string>
   <string name="title_garbage_clean">App cachestorlek nådde%s</string>
+  <string name="title_garbage_less">App cache is small</string>
   <string name="title_garbage_lib">Uppdatera definitioner</string>
   <string name="title_install_virus_no">Installationsövervakare av</string>
   <string name="title_install_virus_yes">Installations övervakare på</string>
   <string name="title_limit_traffic_per_day">Daglig gräns för dataanvändning</string>
   <string name="title_mifi_insurance">Utökad garanti</string>
   <string name="title_miui_update">Uppdatering tillgänglig</string>
+  <string name="title_miui_update_latest">MIUI is up to date</string>
   <string name="title_mms_no">Meddelandefilter är avstängt</string>
   <string name="title_mms_yes">Meddelandefilter är påslaget</string>
   <string name="title_network_switch">Nätverksanslutning</string>
   <string name="title_of_app_manage">Appar</string>
   <string name="title_of_auto_launch_manage">Autostart</string>
+  <string name="title_payment_protection">Payments are secured</string>
   <string name="title_payment_risk">Risker med betalningen funnen</string>
   <string name="title_permission_no">Tillståndshanterare avstängd</string>
   <string name="title_permission_root">Root åtkomst</string>
@@ -1819,6 +1851,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_power_optimizer">Batterisparare</string>
   <string name="title_realname_verify">ID-kontroll</string>
   <string name="title_show_notification">Notifikationspanel genväg</string>
+  <string name="title_system_auto_download">Updates will be downloaded automatically</string>
   <string name="title_telecom_operator">Autojustera</string>
   <string name="title_usb_no">USB felsökning på</string>
   <string name="title_usb_yes">USB felsökning av</string>
@@ -1951,7 +1984,12 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wifi_item_title_encryption">Wi-Fi encryption</string>
   <string name="wifi_item_title_fake">Detect fake Wi-Fi</string>
   <string name="wifi_network_blocked_notification_title">Ingen internetanslutning</string>
+  <string name="wifi_optizition_loading">Turning on Xunyou Network speed boost…</string>
+  <string name="wifi_optizition_tip">Turn on Wi-Fi speed boost to make Wi-Fi connection more stable. A small amount of mobile data will be used.</string>
+  <string name="wifi_optizition_title">Wi-Fi speed boost</string>
   <string name="wl_no_whitelist">No exceptions.</string>
+  <string name="wlan_booster">Wi-Fi speed boost</string>
   <string name="wlan_change_protection_detail">"Don't switch to Wi-Fi automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="xunyou_pay_webview">Xunyou services</string>
 </resources>

@@ -140,6 +140,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">Skyddar %d appar</item>
         <item quantity="one">Skyddar %d app</item>
     </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">Cleared %d viruses</item>
+        <item quantity="one">Cleared %d virus</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d appar kan autostartas</item>
         <item quantity="one">%d app kan autostartas</item>
