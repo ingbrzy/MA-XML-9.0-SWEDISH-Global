@@ -445,7 +445,6 @@
   <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
   <string name="card_main_private_space_title">Sekundärt utrymme</string>
   <string name="card_main_sectool_title">Verktyg</string>
-  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">Skapa</string>
   <string name="card_main_xspace_summary">Skapa dubbla konton appar</string>
   <string name="card_main_xspace_title">Dubbla appar</string>
