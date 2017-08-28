@@ -6,7 +6,6 @@
     <string name="sina_token_expired_warning">Weibo account expired, add the account again.</string>
     <string name="sina_token_invalid_warning">Weibo account is invalid, add the account again.</string>
     <string name="sina_share_fail_content_repeat">"You've already shared this."</string>
-    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
     <string name="search_path_notes">Systemappar/Anteckningar</string>
     <string name="dlg_move_message">Flyttar…</string>
