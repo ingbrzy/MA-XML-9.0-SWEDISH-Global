@@ -208,6 +208,8 @@ licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."
     <string name="lyric_open_other_connect">Ladda ned låttexter med mobildata</string>
     <string name="playback_failed_no_title_by_bad_file">Den här låtens format stöds inte, eller så finns inte filen.</string>
     <string name="streamloadingtext">Ansluter till %s</string>
+    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
+    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
     <string name="error_title">Kan inte synkronisera med Mi-konto</string>
     <string name="error_unauthorized">Synkroniseringen har stängts av på grund av för många inloggningsförsök.</string>
     <string name="error_forbidden">Synkroniseringen har stängts av på grund av problem med ditt konto.</string>

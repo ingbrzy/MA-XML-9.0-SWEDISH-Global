@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Weibo account expired, add the account again.</string>
     <string name="sina_token_invalid_warning">Weibo account is invalid, add the account again.</string>
     <string name="sina_share_fail_content_repeat">"You've already shared this."</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
     <string name="search_path_notes">Systemappar/Anteckningar</string>
     <string name="dlg_move_message">Flyttar…</string>
@@ -100,7 +101,7 @@
     <string name="menu_send_weibo">Skicka till Weibo</string>
     <string name="info_note_enter_desktop">Tillagd på startskärmen</string>
     <string name="all_terms">%1$s och %2$s</string>
-    <string name="alert_title_delete">Radera nu?</string>
+    <string name="alert_title_delete">Delete note</string>
     <string name="alert_message_delete">Ta bort %1$s?</string>
     <string name="alert_message_delete_note">Ta bort anteckningen?</string>
     <string name="format_move_notes_to_folder">Flyttade %1$s till %2$s</string>
@@ -196,4 +197,5 @@
     <string name="edit_header_done_description">Done</string>
     <string name="refuse_to_share_as_pic_because_of_content">This note is too big to share.</string>
     <string name="refuse_to_share_as_pic_because_of_loading">Wait until the note is loaded and try again.</string>
+    <string name="toast_reach_text_limit_checkbox">"Can't add checkbox because note is too long"</string>
 </resources>

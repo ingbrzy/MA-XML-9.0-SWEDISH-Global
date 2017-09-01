@@ -127,6 +127,7 @@
     <string name="unlock_phone">Unlock device</string>
     <string name="remind_unlock_message">Your device is locked now. \"%s\" will be available after you unlock your device. Unlock now?</string>
     <string name="user_locked_prompt">Unlock device to access contacts.</string>
+    <string name="package_not_available">\"%s\" is not available</string>
     <string name="select_voice_call_sim">Välj SIM kort</string>
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">Kan inte använda SIM %2$d, samtidigt som SIM %1$d används.</string>
@@ -230,6 +231,9 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="no_vm_number">Missing voicemail number</string>
+    <string name="no_vm_number_msg">No voicemail numbers stored on SIM card.</string>
+    <string name="add_vm_number_str">Add number</string>
     <string name="alert_dialog_yes">Ja</string>
     <string name="alert_dialog_no">Nej</string>
     <string name="alert_dialog_dismiss">Avfärda</string>
@@ -237,7 +241,7 @@
     <string name="call_record_button_label">Spelar in %s</string>
     <string name="livetalk_left_minute">%s min kvar</string>
     <string name="call_self">Det går inte att ringa eget nummer</string>
+    <string name="cancel_call">Lägg på</string>
     <string name="dial_with_gsm_phone">Normalt samtal</string>
     <string name="purchase_now">Fyll upp</string>
-    <string name="cancel_call">Lägg på</string>
 </resources>

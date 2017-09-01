@@ -226,6 +226,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="file_uploading">Laddar upp…</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Bara en sekund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
@@ -349,4 +350,9 @@ Rensa minst %s."</string>
     <string name="user_notice_message">Vissa funktioner kräver internetuppkoppling för att fungera.</string>
     <string name="user_notice_declaration_ignore">Visa inte igen</string>
     <string name="total_size">, %s</string>
+    <string name="btn_got_it">Got it</string>
+    <string name="backup_security_tips_title">Backups may not work</string>
+    <string name="backup_security_tips_message">Some apps may not be able to be backed up or restored.</string>
+    <string name="trans_security_tips_title">Mi Mover compatibility</string>
+    <string name="trans_security_tips_message">"Some apps don't support Mi Mover."</string>
 </resources>

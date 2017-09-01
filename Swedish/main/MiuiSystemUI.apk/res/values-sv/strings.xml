@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">None</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -481,6 +483,7 @@ MMMM d"</string>
     <string name="activate_usb_message">För att aktivera denna funktion, sätt i ditt SIM-kort.</string>
     <string name="usb_function_charging_text">Ansluten i laddningsläge</string>
     <string name="return_to_incall_screen">Återgå till samtal</string>
+    <string name="call_status_holding">Holding</string>
     <string name="call_status_dialing">Ringer</string>
     <string name="call_status_ringing">Ringer</string>
     <string name="reject_call">Avvisa samtalet</string>

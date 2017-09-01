@@ -210,7 +210,9 @@
     <string name="feedback_title">Titel</string>
     <string name="feedback_description">Beskrivning</string>
     <string name="feedback_select_images">Lägg till bilder</string>
+    <string name="feedback_delete_images">Delete images</string>
     <string name="feedback_select_upload_log">Lägg till loggar</string>
+    <string name="feedback_select_modem_log">Add modem logs</string>
     <string name="feedback_select_suggestion">Förslag</string>
     <string name="feedback_select_problem">Problem</string>
     <string name="feedback_choose_module">Välj objekt</string>
@@ -293,9 +295,11 @@
     <string name="module_search">Sök</string>
     <string name="module_google_apps">Google apps</string>
     <string name="feedback_submit_hint">Rapportera fel varje gång du stöter på problem för att hjälpa oss att lösa dem snabbare.</string>
+    <string name="feedback_submit_hint_gone">Closed message</string>
     <string name="toast_post_deleted">Det här ämnet finns inte, har tagits bort eller redigeras.</string>
     <string name="toast_log_not_exists">Den nödvändiga loggen har tagits bort eller existerar inte</string>
     <string name="toast_pic_not_exists">Cachad bild raderades</string>
+    <string name="toast_screenshot_too_large">"Can't upload files bigger than 10MB."</string>
     <string name="title_bbs_feedback_main">Lär dig mer om Mi phones</string>
     <string name="title_customer_service">Customer service</string>
 </resources>

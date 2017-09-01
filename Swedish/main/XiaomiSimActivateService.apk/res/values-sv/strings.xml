@@ -6,13 +6,13 @@
     <string name="explain_send_sms_permission_msg">Sätt på %s, Xiaomi Service Framwork kommer skicka ett SMS för att verifiera ditt telefonnummer. Du kommer att debiteras för ett vanligt SMS av din operatör.</string>
     <string name="explain_send_sms_permission_button">Verifiera</string>
     <string name="activate_phone_failed_notif_title">Kan inte aktivera SIM-kort</string>
-    <string name="activate_phone_failed_notif_title_msim">Kan inte aktivera SIM Kort %s</string>
+    <string name="activate_phone_failed_notif_title_msim">"Can't activate SIM card %d"</string>
     <string name="activate_phone_success_notif_title">SIM kort aktiverat</string>
-    <string name="activate_phone_success_notif_title_msim">SIM kort %s aktiverat</string>
+    <string name="activate_phone_success_notif_title_msim">SIM card %d activated</string>
     <string name="activate_phone_cancel_notif_title">SIM kort aktivering avbruten</string>
-    <string name="activate_phone_cancel_notif_title_msim">SIM kort %s aktivering avbruten</string>
+    <string name="activate_phone_cancel_notif_title_msim">SIM card %d activation cancelled</string>
     <string name="activate_status_title_activating">Aktiverar SIM kort…</string>
-    <string name="activate_status_title_activating_msim">Aktiverar SIM kort %s…</string>
+    <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
     <string name="activate_auto_sms_notification_title">SIM-kortsaktivering</string>
     <string name="activate_auto_sms_notification_desc_2_cards">SMS skickas från SIM-kort %s för att aktivera \"Hitta enhet\"</string>
     <string name="activate_auto_sms_notification_desc_1_card">SMS skickats för att aktivera \"Hitta enhet\"</string>
@@ -108,4 +108,11 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s"</st
     <string name="activate_history_multisim_success_overview">Aktiverat SIM-kort %2$d med framgång. Aktivering triggas av %1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">Aktiverat SIM-kort %2$d med framgång. Aktivering triggas av %1$s\".</string>
     <string name="activate_history_sms">SMS har skickats under aktiveringen.</string>
+    <string name="phone_verify_title">Agree %1$s to verify your phone number</string>
+    <string name="phone_verify_text">%1$s will not get your phone number，just verify your phone number is match。</string>
+    <string name="phone_verify_processing">verifying…</string>
+    <string name="phone_get_title">Agree %1$s to get your phone number</string>
+    <string name="phone_get_text">Do you agree %1$s to get your phone number：%2$s</string>
+    <string name="phone_get_processing">getting…</string>
+    <string name="agree">Agree</string>
 </resources>

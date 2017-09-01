@@ -268,8 +268,10 @@
     <string name="screen_locked_toast">Startsidans layout är låst</string>
     <string name="widget_quick_function">Quick function</string>
     <string name="menu_trans_effect">Transition Effect</string>
+    <string name="menu_default_screen_preview">Default screen Setting</string>
     <string name="menu_cell_setting">Screen Setting</string>
     <string name="menu_auto_fill">Auto Fill</string>
     <string name="menu_lock">Lock Screen</string>
     <string name="menu_more">More</string>
+    <string name="default_screen_preview_title">Default screen Setting</string>
 </resources>

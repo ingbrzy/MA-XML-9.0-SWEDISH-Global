@@ -23,4 +23,5 @@ go to %s on another connected device."</string>
     <string name="ad_service">Ad service</string>
     <string name="settings_ad_loading">Just a sec…</string>
     <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
+    <string name="autoconnect">AutoConnect</string>
 </resources>
