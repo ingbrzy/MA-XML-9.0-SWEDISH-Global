@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentar</string>
     <string name="comment_description">Kommentar</string>
     <string name="comment_hint">Kommentar</string>
@@ -180,6 +181,7 @@
     <string name="contextmenu_dial_dot">Ring…</string>
     <string name="contextmenu_download_image">Spara bild</string>
     <string name="contextmenu_download_image_as">Spara bild</string>
+    <string name="contextmenu_manually_block_ad">Mark as ad</string>
     <string name="contextmenu_map">Karta</string>
     <string name="contextmenu_openlink">Öppna</string>
     <string name="contextmenu_openlink_newwindow">Öppna i ny flik</string>
@@ -558,8 +560,10 @@ Lämna denna sida?"</string>
     <string name="pref_accessibility_url_shortcut_enter_title">Snabb URL inmatning</string>
     <string name="pref_adblock_counts">%d blockerade</string>
     <string name="pref_adblock_title">Annonsblockerare</string>
+    <string name="pref_advert_null">Unmarked advertising,You can press the label on the page</string>
     <string name="pref_auto_update_under_wifi">Uppdatera över WiFi</string>
     <string name="pref_automatic_matching_searchengines_title">Växlad till den vanliga sökmotorn</string>
+    <string name="pref_cancel_screen">Cancel screen</string>
     <string name="pref_category_hint">Kategori</string>
     <string name="pref_check_security_url_summary">"Skicka webbsidans URL till Mi's servrar för att kontrollera om den är säker"</string>
     <string name="pref_check_security_url_summary_international">Tillåt webbläsaren att komma åt webbadresserna på de webbplatser du besöker för att få mer relevanta rekommendationer.</string>
@@ -603,6 +607,7 @@ Lämna denna sida?"</string>
     <string name="pref_force_userscalable_summary">Upphäv en webbplats begäran om att styra zoom beteende</string>
     <string name="pref_general_title">Allmän</string>
     <string name="pref_key_gesture_title">Knappar &amp; gester</string>
+    <string name="pref_label_advert_manager">Manager labelled ads</string>
     <string name="pref_nav_mode_summary_pad">Platta</string>
     <string name="pref_nav_mode_summary_phone">Telefon</string>
     <string name="pref_nav_mode_title">Webbläsarläge</string>
@@ -908,11 +913,14 @@ Lämna denna sida?"</string>
     <string name="view_certificate">Visa certifikat</string>
     <string name="view_document_downloaded_files">Titta på nerladdade filer i Hämtade</string>
     <string name="voice_check_network">Kontrollera din nätverksanslutning och försök igen.</string>
+    <string name="voice_close_description">Close</string>
     <string name="voice_connect_network">Kunde inte ansluta till nätverk.</string>
     <string name="voice_description">Voice search</string>
     <string name="voice_network_connection">Röstsökning kräver att du ansluter till internet för att fungera normalt.</string>
     <string name="voice_search_permission">Röstsökning behöver komma åt din mikrofon för att fungera normalt.</string>
     <string name="voice_semantic_analysis">Webbläsaren kommer att kunna analysera semantik efter att du har tillåtit det att ansluta.</string>
+    <string name="voice_start_description">Start</string>
+    <string name="voice_stop_description">Stop</string>
     <string name="voice_sub_title">Vet inte vad jag ska säga? Prova \"Open mi.com</string>
     <string name="voice_title">Tala kommandot…</string>
     <string name="voice_title_distinguish">Processar…</string>

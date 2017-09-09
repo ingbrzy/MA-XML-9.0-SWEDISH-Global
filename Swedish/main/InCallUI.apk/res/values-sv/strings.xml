@@ -67,7 +67,7 @@
     <string name="card_title_threeway_call">Trevägs samtal</string>
     <string name="card_title_incoming_call">Inkommande samtal</string>
     <string name="card_title_answering">Answering call</string>
-    <string name="card_title_answering_fail">"Couldn't answer call, try again."</string>
+    <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
     <string name="card_title_call_ended">"Samtal avslutat "</string>
     <string name="card_title_on_hold">"Parkerad "</string>
     <string name="card_title_hanging_up">"Lägger på "</string>
@@ -180,10 +180,6 @@
     <string name="do_not_ask">Visa inte igen</string>
     <string name="time_left_livetalk">(%ds)</string>
     <string name="can_not_call_oneself">Kan inte ringa numret</string>
-    <string name="jeejen_answer_call_text">Svara samtal</string>
-    <string name="jeejen_reject_call_text">Avvisa samtal</string>
-    <string name="jeejen_end_call_text">Avsluta samtal</string>
-    <string name="jeejen_toggle_dialpad_text">Knappsats</string>
     <string name="miprofile_stranger_card">Främlingskort</string>
     <string name="card_title_video_call_paused">Video pausad</string>
     <string name="card_title_incoming_conference_call">Inkommande konferenssamtal</string>
@@ -239,9 +235,9 @@
     <string name="alert_dialog_dismiss">Avfärda</string>
     <string name="contactPhoto">Kontaktbild</string>
     <string name="call_record_button_label">Spelar in %s</string>
-    <string name="livetalk_left_minute">%s min kvar</string>
     <string name="call_self">Det går inte att ringa eget nummer</string>
     <string name="cancel_call">Lägg på</string>
     <string name="dial_with_gsm_phone">Normalt samtal</string>
+    <string name="livetalk_left_minute">%s min kvar</string>
     <string name="purchase_now">Fyll upp</string>
 </resources>

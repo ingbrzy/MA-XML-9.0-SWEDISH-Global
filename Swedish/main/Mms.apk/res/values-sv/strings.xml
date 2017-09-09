@@ -159,7 +159,7 @@
     <string name="expire_on">Utgår: %s</string>
     <string name="exporting_progress_private_message">Exporterar…</string>
     <string name="fail_to_add_attachment">"Couldn't add attachment"</string>
-    <string name="fail_to_view_attachment">attachment is unavailable</string>
+    <string name="fail_to_view_attachment">"Attachment isn't available"</string>
     <string name="failed_to_add_media">Du kan inte lägga till den här %1$s till ditt meddelande.</string>
     <string name="failed_to_resize_image">Bilden är inte storleksändrad.</string>
     <string name="fake_cell_alert_hint">Detta meddelande skickades från ett annat nummer än det som visas. Var uppmärksam på SMS som innehåller ansökan om finansiering.</string>
@@ -332,9 +332,9 @@
     <string name="mx_stranger_recommend_msg">Tryck för att blockera MI meddelande från okända nummer</string>
     <string name="mx_type_guide">Mi Message låter dig skicka meddelanden till andra MIUI-användare utan avgift över data</string>
     <string name="need_download">Synkroniserar…</string>
-    <string name="networking_allow_continue">OK</string>
-    <string name="networking_allow_desc">Smarta meddelanded tillåter dig att skicka gratis textmeddelanden och röstsamtal, identifiera okända nummer, filtrera spam, osv. Genom att använda den här tjänsten godkänner du Xiaomis %1$s och %2$s. Du måste aktivera Gula sidorna och ansluta till internet för att använda tjänsten.</string>
-    <string name="networking_allow_desc_without_mx">"Smarta meddelanden tillåter dig att skicka gratis textmeddelanden och röstsamtal, identifiera okända nummer, filtrera spam, osv. Genom att använda den här tjänsten godkänner du Xiaomi's %1$s och %2$s. Du måste aktivera Gula sidorna och ansluta till internet för att använda tjänsten."</string>
+    <string name="networking_allow_continue">Allow</string>
+    <string name="networking_allow_desc">Mi Message needs to connect to the internet to work normally. In order to provide free text and voice services, recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
+    <string name="networking_allow_desc_without_mx">Mi Message needs to connect to the internet to work normally. In order to recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
     <string name="networking_allow_title">Uppmärksamhet</string>
     <string name="new_message">Skapa meddelande</string>
     <string name="new_message_arrived">Du har ett nytt meddelande</string>

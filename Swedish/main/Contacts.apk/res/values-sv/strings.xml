@@ -309,6 +309,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="vcard_export_will_start_message">%s kommer att importeras snart.</string>
     <string name="vcard_export_request_rejected_message">vCard exportförfrågan nekades. Försök igen senare.</string>
     <string name="vcard_unknown_filename">kontakt</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Exportera kontakter?</string>
     <string name="confirm_export_message">Dina kontakter kommer att exporteras till filen: %s.</string>
     <string name="exporting_contact_failed_title">Kunde inte exportera</string>
@@ -627,6 +628,7 @@ Välj en av följande alternativ:"</string>
     <string name="sim_contacts">SIM-korts kontakter</string>
     <string name="export_sim_contact_finish">Kontakter exporterade</string>
     <string name="sim_export_loading">Läser SIM-kort…</string>
+    <string name="sim_export_error">SIM not ready, try again later</string>
     <string name="sim_capacity">Visa SIM-kortsutrymme</string>
     <string name="sim_error_not_ready">Laddar SIM-kontakter…</string>
     <string name="sim_contact_existing">Kontakt existerar redan</string>
@@ -692,6 +694,7 @@ Kontakt kort är avstängda"</string>
     <string name="miprofile_alertdialog_message">Visa detta namn för kontakter när du frågar om att byta kort.</string>
     <string name="miprofile_alertdialog_edit">Ange namn</string>
     <string name="miprofile_switch_off_alertdialog_message">Du kommer inte kunna växla kontakt kort med andra.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Lägg till telefonnummer</string>
     <string name="miprofile_bind_account_alertdialog_message">Du måste lägga till denna enhets telefonnummer till ditt Mi Konto för att kunna använda denna funktion.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Lägg till nummer</string>
@@ -1065,6 +1068,7 @@ Kontakt kort är avstängda"</string>
     <string name="device_import_local_account">Lokalt konto</string>
     <string name="import_name">Namn</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Kontrollera målenheten</string>
@@ -1107,6 +1111,7 @@ Kontakt kort är avstängda"</string>
     <string name="profile_name_photo">Foto</string>
     <string name="toast_copying">Kopierar…</string>
     <string name="toast_copy_done">Klar</string>
+    <string name="toast_start_intent_failed">No app was found to handle</string>
     <string name="group_name">Mina grupper</string>
     <string name="import_all_sim_entries_miui">Importera alla kontakter</string>
     <string name="import_sim_entry_miui">Importera</string>

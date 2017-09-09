@@ -209,7 +209,7 @@ licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."
     <string name="playback_failed_no_title_by_bad_file">Den här låtens format stöds inte, eller så finns inte filen.</string>
     <string name="streamloadingtext">Ansluter till %s</string>
     <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
-    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
+    <string name="toast_new_playlist_name_no_enter">"Can't start a new paragraph"</string>
     <string name="error_title">Kan inte synkronisera med Mi-konto</string>
     <string name="error_unauthorized">Synkroniseringen har stängts av på grund av för många inloggningsförsök.</string>
     <string name="error_forbidden">Synkroniseringen har stängts av på grund av problem med ditt konto.</string>
@@ -845,8 +845,8 @@ is huvudsakligen av Ultimate Inc."</string>
     <string name="talkback_favorite">Gilla den här låten</string>
     <string name="talkback_progress">Förloppsindikator</string>
     <string name="talkback_back">Gå tillbaka</string>
-    <string name="talkback_nowplaying_circle">Play Circle</string>
-    <string name="talkback_nowplaying_bar">Play Bar</string>
+    <string name="talkback_nowplaying_circle">Play circle</string>
+    <string name="talkback_nowplaying_bar">Play bar</string>
     <string name="cloud_music">Songs in Mi Cloud</string>
     <string name="backup_immediate">Säkerhetskopiera</string>
     <string name="backup_song_title">Select songs to back up</string>

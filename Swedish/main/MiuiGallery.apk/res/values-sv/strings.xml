@@ -410,7 +410,6 @@ Ta fler bilder av dina vänner!"</string>
     <string name="must_pick_file">Välj ett foto</string>
     <string name="send_multiple_files_hint_format">Skicka (%s)</string>
     <string name="send_too_many_files_error">Kan skicka upp till %d objekt åt gången</string>
-    <string name="share_app_is_launching">{0,choice,0#Starta appen…|1#%s lanserar…}</string>
     <string name="title_warn">Varning</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
@@ -602,6 +601,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="welcome_to_slim">Optimera lokalt utrymme</string>
     <string name="slim_introduce">Byt bilder i full upplösning med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Full upplösning objekt kommer fortfarande att finnas i Mi Cloud.</string>
     <string name="slim_introduce_with_specific_size">Byt bilder i full upplösning med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Full upplösning objekt kommer fortfarande att finnas i Mi Cloud. Detta kan spara upp till %1$s av lokal lagring (Mi konto krävs).</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Säkerhetskopiera bilder och videor automatiskt (Mi konto krävs)</string>
     <string name="next">Nästa</string>
     <string name="login_and_enable_service">Logga in med Mi konto</string>
@@ -678,6 +678,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="cloud_storage_ok_append_desc">Tillgängligt %s</string>
     <string name="cloud_storage_warn_title">Inte tillräckligt med Mi Cloud utrymme</string>
     <string name="cloud_storage_warn_desc">Köp Cloud VIP för extra utrymme</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Extend cloud space</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
@@ -785,6 +786,9 @@ Ta fler bilder av dina vänner!"</string>
     <string name="search_setting_sub_title">Improved image search</string>
     <string name="search_setting_sub_title_open">Applied. Wait a while before you start.</string>
     <string name="search_request_open">Join testing team</string>
+    <string name="search_title_more">More</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="grant_permission_title">Tillåt åtkomst</string>
     <string name="grant_permission_text">"Gallery behöver tillgång till 
 %s
@@ -845,6 +849,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="error_not_synced_tip">"The info isn't synced."</string>
     <string name="error_not_synced_msg">"The info isn't synced. Wait a minute or two, and try again."</string>
     <string name="error_not_synced_action">Sync now</string>
+    <string name="error_download_tip">"Couldn't download"</string>
     <string name="people_mark_mode_title">Select \"%s\"</string>
     <string name="people_mark_mode_title_no_mark_name">Select a person</string>
     <string name="home_menu_cleaner">Free up space</string>

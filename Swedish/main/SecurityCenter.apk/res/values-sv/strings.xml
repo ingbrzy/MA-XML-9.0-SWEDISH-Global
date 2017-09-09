@@ -1132,6 +1132,7 @@ your device"</string>
     <string name="button_text_update_now">Update</string>
     <string name="button_text_fix_now">Fix</string>
     <string name="button_text_open_now">Open</string>
+    <string name="button_text_forbid_now">Forbid</string>
     <string name="button_text_disconnect_now">Disconnect</string>
     <string name="apps_item_sms_reset_button_text">Restore defaults</string>
     <string name="apps_item_sms_title">Default messaging settings</string>
@@ -1561,6 +1562,11 @@ your device"</string>
     <string name="virus_auto_update_engine">Auto updates：%s</string>
     <string name="hints_scan_danger_result">Risk found, fix now</string>
     <string name="ss_activity_main_support_text">Powered by %s</string>
+    <string name="hints_virus_app_summary">%s (app)</string>
+    <string name="hints_virus_apk_summary">%s (apk)</string>
+    <string name="hints_risk_name_title">Risk:</string>
+    <string name="hints_risk_descx_title">Description:</string>
+    <string name="button_text_clear">Clear</string>
     <string name="toast_removed_from_virus_white_list">Avlägsnas från undantag. Objektet ska skannas nästa gång.</string>
     <string name="long_click_dialog_title">Uppmärksamhet</string>
     <string name="long_click_dialog_summary">Håll resultaten i listan för att lägga till dem till undantag</string>
@@ -1619,6 +1625,7 @@ your device"</string>
     <string name="card_main_deepclean_wechat_action">Clear</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1998,6 +2005,6 @@ your device"</string>
     <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
     <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
     <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">Xunyou services</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
 </resources>

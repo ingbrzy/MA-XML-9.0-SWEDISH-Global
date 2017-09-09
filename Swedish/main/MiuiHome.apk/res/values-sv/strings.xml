@@ -91,7 +91,7 @@
     <string name="sort_by_abc">Sortera efter namn</string>
     <string name="encryption">Kryptering</string>
     <string name="failed_to_drop">Kan ej flytta</string>
-    <string name="no_space_toast">No space</string>
+    <string name="no_space_toast">Not enough space</string>
     <string name="failed_to_drop_widget_invalid">Ogiltig widget</string>
     <string name="failed_to_delete_temporary">Kan ej ta bort</string>
     <string name="confirm_btn_label">OK</string>
@@ -266,12 +266,12 @@
     <string name="notification_open_button">Öppen</string>
     <string name="toast_screen_icons_misplaced">Återställd från en annan källa, några ikoner kan vara felplacerade</string>
     <string name="screen_locked_toast">Startsidans layout är låst</string>
-    <string name="widget_quick_function">Quick function</string>
-    <string name="menu_trans_effect">Transition Effect</string>
-    <string name="menu_default_screen_preview">Default screen Setting</string>
-    <string name="menu_cell_setting">Screen Setting</string>
-    <string name="menu_auto_fill">Auto Fill</string>
-    <string name="menu_lock">Lock Screen</string>
+    <string name="widget_quick_function">Quick functions</string>
+    <string name="menu_trans_effect">Transition effects</string>
+    <string name="menu_default_screen_preview">Set default screen</string>
+    <string name="menu_cell_setting">Home screen layout</string>
+    <string name="menu_auto_fill">Fill empty cells</string>
+    <string name="menu_lock">Lock Home screen layout</string>
     <string name="menu_more">More</string>
-    <string name="default_screen_preview_title">Default screen Setting</string>
+    <string name="default_screen_preview_title">Tap to set default screen</string>
 </resources>
