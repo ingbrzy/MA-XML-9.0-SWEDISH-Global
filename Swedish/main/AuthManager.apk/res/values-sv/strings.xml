@@ -94,6 +94,7 @@
     <string name="location_settings">Platsinställningar</string>
     <string name="location_warning">%1$s är en leverantör av platstjänster till denna enheten. Platstillgång kan modifieras från platsinställningar.</string>
     <string name="permission_warning_template">Tillåt %1$s till %2$s ?</string>
+    <string name="permission_warning_template_ask">Allow %1$s the following permissions？</string>
     <string name="screen_overlay_title">Övertäckning av skärm upptäckt</string>
     <string name="screen_overlay_message">För att ändra denna behörighetsinställning, först måste du stänga av övertäckning av skärm ifrån Inställningar > Appar</string>
     <string name="screen_overlay_button">Öppna inställningar</string>

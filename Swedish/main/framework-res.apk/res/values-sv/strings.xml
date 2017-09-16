@@ -188,7 +188,6 @@
     <string name="global_actions">Telefonalternativ</string>
     <string name="global_action_lock">Skärmlås</string>
     <string name="global_action_power_off">Stäng av</string>
-    <string name="global_action_emergency">Nödsituation</string>
     <string name="global_action_bug_report">Felrapport</string>
     <string name="bugreport_title">Skapa felrapport</string>
     <string name="bugreport_message">Nu hämtas information om aktuell status för enheten, som sedan skickas i ett e-postmeddelade. Det tar en liten stund innan felrapporten är färdig och kan skickas, så vi ber dig ha tålamod.</string>
@@ -543,14 +542,13 @@
     <string name="lockscreen_carrier_default">Ingen tjänst</string>
     <string name="lockscreen_screen_locked">Skärmen har låsts.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Tryck på Menu om du vill låsa upp eller ringa nödsamtal.</string>
-    <string name="lockscreen_instructions_when_pattern_disabled">Tryck på Menu för att låsa upp.</string>
+    <string name="lockscreen_instructions_when_pattern_disabled">Tryck på Menu om du vill låsa upp.</string>
     <string name="lockscreen_pattern_instructions">Rita grafiskt lösenord för att låsa upp</string>
     <string name="lockscreen_emergency_call">Nödsamtal</string>
     <string name="lockscreen_return_to_call">Tillbaka till samtal</string>
     <string name="lockscreen_pattern_correct">Korrekt!</string>
     <string name="lockscreen_pattern_wrong">Försök igen</string>
     <string name="lockscreen_password_wrong">Försök igen</string>
-    <string name="lockscreen_storage_locked">Lås upp för alla funktioner och all data</string>
     <string name="faceunlock_multiple_failures">Du har försökt låsa upp med Ansiktslås för många gånger</string>
     <string name="lockscreen_missing_sim_message_short">Inget SIM-kort</string>
     <string name="lockscreen_missing_sim_message">Inget SIM-kort i telefonen.</string>
@@ -802,9 +800,8 @@ Vill du stänga sidan?"</string>
     <string name="android_upgrading_title">Android uppgraderas ...</string>
     <string name="android_start_title">Android startar …</string>
     <string name="android_upgrading_fstrim">Lagringsutrymmet optimeras.</string>
-    <string name="android_upgrading_notification_title">Android-uppdateringen slutförs …</string>
+    <string name="android_upgrading_notification_title">Android uppgraderas</string>
     <string name="android_upgrading_notification_body">En del appar kanske inte fungerar som de ska innan uppgraderingen har slutförts</string>
-    <string name="app_upgrading_toast">%1$s uppgraderas …</string>
     <string name="android_upgrading_apk">Optimerar app %1$d av %2$d.</string>
     <string name="android_preparing_apk">%1$s förbereds.</string>
     <string name="android_upgrading_starting_apps">Appar startas.</string>
@@ -845,10 +842,6 @@ Vill du stänga sidan?"</string>
     <string name="network_available_sign_in">Logga in på nätverket</string>
     <string name="wifi_no_internet">Wi-Fi-nätverket är inte anslutet till internet</string>
     <string name="wifi_no_internet_detailed">Tryck för alternativ</string>
-    <string name="network_switch_metered">Byte av nätverk till %1$s</string>
-    <string name="network_switch_metered_detail">%1$s används på enheten när det inte finns internetåtkomst via %2$s. Avgifter kan tillkomma.</string>
-    <string name="network_switch_metered_toast">Byte av nätverk från %1$s till %2$s</string>
-    <string name="network_switch_type_name_unknown">en okänd nätverkstyp</string>
     <string name="wifi_watchdog_network_disabled">Det gick inte att ansluta till Wi-Fi</string>
     <string name="wifi_watchdog_network_disabled_detailed">" har en dålig Internetanslutning."</string>
     <string name="wifi_connect_alert_title">Tillåt anslutning?</string>
@@ -924,6 +917,7 @@ Vill du stänga sidan?"</string>
     <string name="select_keyboard_layout_notification_message">Tryck om du vill välja språk och layout</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="candidates_style"><u>kandidater</u></string>
     <string name="ext_media_checking_notification_title">Förbereder ditt %s</string>
     <string name="ext_media_checking_notification_message">Söker efter fel</string>
     <string name="ext_media_new_notification_message">Nytt %s har hittats</string>
@@ -1005,9 +999,8 @@ för kontot %s."</string>
     <string name="vpn_text_long">Ansluten till %s. Knacka lätt för att hantera nätverket.</string>
     <string name="vpn_lockdown_connecting">Ansluter till Always-on VPN ...</string>
     <string name="vpn_lockdown_connected">Ansluten till Always-on VPN</string>
-    <string name="vpn_lockdown_disconnected">Always-on VPN har kopplats från</string>
     <string name="vpn_lockdown_error">Fel på Always-on VPN</string>
-    <string name="vpn_lockdown_config">Tryck för att konfigurera</string>
+    <string name="vpn_lockdown_config">Tryck om du vill konfigurera</string>
     <string name="upload_file">Välj fil</string>
     <string name="no_file_chosen">Ingen fil har valts</string>
     <string name="reset">Återställ</string>
@@ -1086,7 +1079,7 @@ för kontot %s."</string>
     <string name="storage_usb_drive_label">USB-enhet (%s)</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="extract_edit_menu_button">Redigera</string>
-    <string name="data_usage_warning_title">Varning – dataanvändning</string>
+    <string name="data_usage_warning_title">Varning angående dataanvändning</string>
     <string name="data_usage_warning_body">Visa användning och inställning.</string>
     <string name="data_usage_3g_limit_title">Datagränsen för 2G-3G har uppnåtts</string>
     <string name="data_usage_4g_limit_title">Datagränsen för 4G har uppnåtts</string>
@@ -1370,7 +1363,6 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
     <string name="search_language_hint">Ange språket</string>
     <string name="language_picker_section_suggested">Förslag</string>
     <string name="language_picker_section_all">Alla språk</string>
-    <string name="region_picker_section_all">Alla regioner</string>
     <string name="locale_search_menu">Söka</string>
     <string name="work_mode_off_title">Arbetsläget är inaktiverat</string>
     <string name="work_mode_off_message">Tillåt att jobbprofilen är aktiv, inklusive appar, bakgrundssynkronisering och andra tillhörande funktioner.</string>
@@ -1378,7 +1370,7 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
     <string name="new_sms_notification_title">Du har nya meddelanden</string>
     <string name="new_sms_notification_content">Öppna sms-appen och visa meddelandet</string>
     <string name="user_encrypted_title">Vissa funktioner är begränsade</string>
-    <string name="user_encrypted_message">Tryck för att låsa upp</string>
+    <string name="user_encrypted_message">Tryck om du vill låsa upp</string>
     <string name="user_encrypted_detail">Användaruppgifterna är låsta</string>
     <string name="profile_encrypted_detail">Jobbprofilen är låst</string>
     <string name="profile_encrypted_message">Tryck och lås upp jobbprofilen</string>
@@ -1388,18 +1380,9 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
     <string name="unpin_target">Lossa</string>
     <string name="app_info">Info om appen</string>
     <string name="negative_duration">-%1$s</string>
-    <string name="reset_retail_demo_mode_title">Vill du återställa enheten?</string>
-    <string name="reset_retail_demo_mode_text">Tryck om du vill återställa enheten</string>
-    <string name="demo_starting_message">Demo startas …</string>
-    <string name="demo_restarting_message">Enheten återställs …</string>
-    <string name="demo_user_inactivity_timeout_title">Vill du återställa enheten?</string>
-    <string name="demo_user_inactivity_timeout_countdown">Ändringar som du har gjort sparas inte och demon börjar om om %1$s sekunder …</string>
-    <string name="demo_user_inactivity_timeout_left_button">Avbryt</string>
-    <string name="demo_user_inactivity_timeout_right_button">Återställ nu</string>
     <string name="audit_safemode_notification">Återställ enheten till standardinställningarna om du vill använda den utan begränsningar</string>
     <string name="audit_safemode_notification_details">Tryck här om du vill läsa mer.</string>
     <string name="suspended_widget_accessibility">%1$s har inaktiverats</string>
-    <string name="conference_call">Konferenssamtal</string>
     <string name="lock_to_app_toast_accessible">För att bocka av denna skärm, tryck och håll Hem och På knappen samtidigt.</string>
     <string name="lock_to_app_description">"Bocka i låsen på skärmen visar en enkel vy
 

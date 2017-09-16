@@ -32,6 +32,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="delete_backup_title">Ta bort säkerhetskopiering</string>
     <string name="delete">Radera</string>
     <string name="cancel">Avbryt</string>
+    <string name="reconnect">Reconnect</string>
     <string name="delete_backup_process">Tar bort…</string>
     <string name="backup_error">Kunde inte säkerhetskopiera</string>
     <string name="delete_failed_backup_confirm">Denna säkerhetskopiering innehåller fel.</string>
@@ -226,6 +227,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="file_uploading">Laddar upp…</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Bara en sekund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
@@ -259,6 +261,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="notif_trans_receiving_completed">Data mottagen framgångsrikt</string>
     <string name="notif_trans_sending_failed">Det gick inte att skicka data</string>
     <string name="notif_trans_receiving_failed">Det gick inte att ta emot data</string>
+    <string name="notif_trans_wait_for_reconnecting">Remote device is disconnected. Please connect again.</string>
     <string name="custom_progress">%d objekt</string>
     <string name="remote_receive">Ta emot</string>
     <string name="click_to_view">Tryck för att visa</string>
@@ -307,6 +310,7 @@ Förbrukad tid: %s"</string>
     <string name="trans_cancel_confirm">Överförning pågår, avbryt nu?</string>
     <string name="trans_cancelling">Avbryter…</string>
     <string name="trans_device_disconnected">Enhet frånkopplad</string>
+    <string name="trans_device_wait_for_reconnecting">Device disconnected. Please reconnect.</string>
     <string name="trans_connecting_toast">Ansluter…</string>
     <string name="trans_connect_failed_toast">Det gick inte att ansluta</string>
     <string name="trans_generate_qr_code_failed">Det gick inte att skapa QR-kod</string>
@@ -322,6 +326,10 @@ Förbrukad tid: %s"</string>
 2. Öppna appen coh tryck Starta
 3. Skanna QR koden med din gamla enhet"</string>
     <string name="trans_operate_old_phone_tips2">Gå till Inställningar > Ytterligare Inställningar > Överför, Tryck[Jag är avsändare]</string>
+    <string name="trans_operate_reconnect_new_tips">"Wait until new phone shows \"Device disconnected\".
+Then click [Reconnect] to create a QR code."</string>
+    <string name="trans_operate_reconnect_old_tips">"Wait until old phone shows \"Device disconnected\".
+Then click [Reconnect] to scan the QR code."</string>
     <string name="trans_wait_trans_data">"Anslut till den gamla enheten.
 Vänta på överföringen…"</string>
     <string name="trans_select_data">Välj objekt att senda</string>
@@ -344,6 +352,7 @@ Rensa minst %s."</string>
     <string name="trans_retry">Försök igen</string>
     <string name="trans_start_failed_title">Det gick inte att starta överföring</string>
     <string name="trans_start_failed_message">Det gick inte att starta överföring, försök igen eller starta om enheten.</string>
+    <string name="trans_connect_failed_device_incompatible">device incompatible. Please cancel the transfering progress and try again.</string>
     <string name="trans_connection_failed">Enhet frånkopplad</string>
     <string name="user_notice_title">Uppmärksamma</string>
     <string name="user_notice_message">Vissa funktioner kräver internetuppkoppling för att fungera.</string>

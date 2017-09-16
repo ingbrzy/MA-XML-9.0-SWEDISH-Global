@@ -3,8 +3,8 @@
     <string name="fw_blocked">Blocklist</string>
     <string name="fw_blocked_count">"Blocked "</string>
     <string name="fw_blocked_join">" and "</string>
-    <string name="tab_title">Blacklist</string>
-    <string name="tab_blacklist">Blacklist</string>
+    <string name="tab_title">Blocklist</string>
+    <string name="tab_blacklist">Blocklist</string>
     <string name="tab_sms">SMS</string>
     <string name="tab_call">Calls</string>
     <string name="bl_no_block_call">No blocked calls.</string>
@@ -22,12 +22,12 @@
     <string name="two_address_choose_hint">%1$s and %2$s</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="marked_by_user">"You marked it as "</string>
-    <string name="dlg_black_antispam_message">Add this number to blacklist?</string>
+    <string name="dlg_black_antispam_message">Add this number to blocklist?</string>
     <string name="dlg_white_antispam_message">Add this number to exceptions?</string>
-    <string name="dlg_black_address_antispam_message">Add this location to blacklist?</string>
+    <string name="dlg_black_address_antispam_message">Add this location to blocklist?</string>
     <string name="dlg_white_address_antispam_message">Add this location to exceptions?</string>
     <string name="dlg_white_antispam_hint">Exceptions</string>
-    <string name="dlg_black_antispam_hint">Blacklist</string>
+    <string name="dlg_black_antispam_hint">Blocklist</string>
     <string name="dlg_clear_all_sms">Delete blocked messages?</string>
     <string name="dlg_clear_all_call">Clear blocked calls?</string>
     <string name="dlg_clear_current_sms">Delete all blocked messages sent from this number?</string>
@@ -36,13 +36,13 @@
     <string name="dlg_clear_current_ok">Clear</string>
     <string name="dlg_no_block">Unblock this number and restore calls from this number to call history?</string>
     <string name="dlg_no_block_ok">Unblock</string>
-    <string name="dlg_add_blacklist_title">Add to blacklist</string>
+    <string name="dlg_add_blacklist_title">Add to blocklist</string>
     <string name="dlg_add_blacklist">Block this number?</string>
-    <string name="dlg_remove_blacklist">Remove these numbers from blacklist?</string>
+    <string name="dlg_remove_blacklist">Remove these numbers from blocklist?</string>
     <string name="dlg_remove_whitelist_title">Remove</string>
     <string name="dlg_remove_blacklist_title">Remove</string>
     <string name="dlg_remove_whitelist">Remove these numbers from exceptions?</string>
-    <string name="dlg_remove_address_blacklist">Remove this location from blacklist?</string>
+    <string name="dlg_remove_address_blacklist">Remove this location from blocklist?</string>
     <string name="dlg_remove_address_whitelist">Remove this location from exceptions?</string>
     <string name="dlg_remove_ok">Remove</string>
     <string name="dlg_import_blacklist">Adding…</string>
@@ -84,15 +84,15 @@
     <string name="Phonepass">Allow calls</string>
     <string name="st_message_SMS_AntiSpam">Block SMS</string>
     <string name="st_message_phone_AntiSpam">Block calls</string>
-    <string name="st_title_addblacklist">Add to blacklist</string>
-    <string name="st_title_editblacklist">Edit blacklist</string>
+    <string name="st_title_addblacklist">Add to blocklist</string>
+    <string name="st_title_editblacklist">Edit blocklist</string>
     <string name="st_title_addwhitelist">Add to exceptions</string>
     <string name="st_title_editwhitelist">Edit exceptions</string>
-    <string name="st_title_man_head_addblacklist">Add phone number prefix to blacklist</string>
-    <string name="st_title_man_addblacklist">Add number to blacklist</string>
+    <string name="st_title_man_head_addblacklist">Add phone number prefix to blocklist</string>
+    <string name="st_title_man_addblacklist">Add number to blocklist</string>
     <string name="st_title_man_head_addwhitelist">Add phone number prefix to exceptions</string>
     <string name="st_title_man_addwhitelist">Add phone number to exceptions</string>
-    <string name="st_title_man_editblacklist">Choose an area code to add to blacklist</string>
+    <string name="st_title_man_editblacklist">Choose an area code to add to blocklist</string>
     <string name="st_title_man_editwhitelist">Choose an area code to add to exceptions</string>
     <string name="st_title_back_sound_choose">Away message</string>
     <string name="st_title_back_sound_busy">Busy</string>
@@ -212,7 +212,7 @@
     <string name="note_call_none">No calls</string>
     <string name="block_message_number">Messages: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">Calls: &lt;font color=#5fab1b>%d&lt;/font></string>
-    <string name="info_antispam_close">AntiSpam Off</string>
+    <string name="info_antispam_close">Blocklist is off</string>
     <string name="mark_fraud">Block reported scams</string>
     <string name="mark_agent">Block reported agencies</string>
     <string name="mark_sell">Block reported telemarketers</string>
@@ -260,7 +260,7 @@
     <string name="address">Address</string>
     <string name="note">Note</string>
     <string name="antispam_xpace_text">Switch to First space to set Blocklist</string>
-    <string name="antispam_mode_details">details of interception mode</string>
+    <string name="antispam_mode_details">Blocklist details</string>
     <string name="st_share_settings">Use SIM 1 settings</string>
     <string name="st_msg_settings">SMS blocklist</string>
     <string name="st_msg_intercept_contacts">Block SMS from contacts</string>
@@ -353,7 +353,7 @@ to respond"</string>
     <string name="firewall_restrict_android_dialog_title">Uppmärksamma</string>
     <string name="firewall_restrict_android_dialog_content">To make sure your device works normally, a few Android system apps will still connect to the internet. These apps will use your mobile data connection and may generate minor charges from your carrier.</string>
     <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
-    <string name="firewall_allow_network">Allowed</string>
+    <string name="firewall_allow_network">Allow</string>
     <string name="firewall_network_allow">Allowed %1$s to use %2$s connection</string>
     <string name="search_result_text">"Couldn't find any apps"</string>
     <string name="firewall_mobile_dialog_message">"The installed app won't be able to connect to the internet using mobile data when this switch is off."</string>
@@ -413,7 +413,6 @@ to respond"</string>
     <string name="adjust_traffic_carrier_summary_oneweek_before">Uppdaterad för 1 vecka sedan</string>
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">Uppdaterad för över en vecka sedan</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Uppdaterad för över en månad sedan</string>
-    <string name="start_tc_button">Calibrate</string>
     <string name="left_precent">60%</string>
     <string name="right_precent">100%</string>
     <string name="pref_avaible_traffic">Data abonnemang</string>
@@ -464,9 +463,12 @@ to respond"</string>
     <string name="traffic_setting_fragment_button1_text">Avbryt</string>
     <string name="traffic_setting_fragment_button2_text">Spara</string>
     <string name="traffic_setting_fragment_area">Plats</string>
-    <string name="traffic_setting_fragment_area_dual">%s Plats</string>
+    <string name="traffic_setting_fragment_province">Province</string>
+    <string name="traffic_setting_fragment_city">City</string>
+    <string name="traffic_setting_fragment_operator_setting">Carrier settings</string>
     <string name="traffic_setting_fragment_operator">Operatör</string>
     <string name="traffic_setting_fragment_brand">Märke</string>
+    <string name="traffic_setting_fragment_default">Select</string>
     <string name="traffic_setting_fragment_send_num">Operatörens telefonnummer</string>
     <string name="traffic_setting_fragment_sms_content">Meddelandets innehåll</string>
     <string name="traffic_setting_fragment_send_num_tips">Ange telefonnummer</string>
@@ -515,9 +517,9 @@ Carrier may charge you additional fees if you use mobile data connection again."
     <string name="package_setted_error_notification_summary">Tryck för att visa detaljer om dataanvändning.</string>
     <string name="traffic_config_alert_title">%s correction</string>
     <string name="traffic_config_alert_auto_modify">Uppdatera abonnemang automatiskt</string>
-    <string name="traffic_config_alert_body">"Din operatörs användning visar: %s.
+    <string name="traffic_config_alert_body">"Your carrier's plan shows this: %s.
 
-Är det korrekt?"</string>
+Will you take this?"</string>
     <string name="traffic_config_alert_body_normal">"
 Your plan's monthly peak-time data usage limit is %1$s. This is different from the %2$s limit you set manually."</string>
     <string name="traffic_config_alert_body_leisure">"
@@ -579,11 +581,11 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="tc_sms_report_notify_correction_body">Go to the Data usage app in Security Center and try again manually.</string>
     <string name="tc_sms_report_notify_get_failure_body">"Couldn't submit data usage report. Make sure that you're connected to a mobile network."</string>
     <string name="tc_sms_report_tips_dialog_title">SMS för dataanvändning</string>
-    <string name="tc_sms_report_tips_dialog_message">"Data usage uses a specially formatted SMS to get your latest data usage from your carrier. If this feature isn't working normally, try updating the data usage SMS format. The new updated format will then be uploaded to our servers."</string>
-    <string name="tc_sms_report_get_sms_failure">Kunde inte hämta format för dataanvändnings SMS</string>
+    <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
+    <string name="tc_sms_report_get_sms_failure">"Couldn't get data usage info"</string>
     <string name="tc_sms_report_get_sms_timeout">Begäran tog för lång tid</string>
-    <string name="tc_sms_report_get_sms_successs">SMS format för dataanvändning uppdaterad</string>
-    <string name="tc_sms_report_get_default">"You won't incur charges for SMS messages used to get your data usage balance from your carrier."</string>
+    <string name="tc_sms_report_get_sms_successs">Updated data usage info successfully</string>
+    <string name="tc_sms_report_get_default">"You won't incur charges for the messages used to get the data usage info from your carrier."</string>
     <string name="tc_sms_report_toast_text">Hämtar info…</string>
     <string name="tc_sms_report_type">Report type</string>
     <string name="privacy_declare_dialog_title">Användarvillkor</string>
@@ -738,6 +740,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="permission_exception_summary">Vissa appar har inte tillstånd att ansluta till internet</string>
     <string name="networkchanged_exception_title">Anslutning ändrad</string>
     <string name="networkchanged_exception_summary">Network connection has changed. Test again.</string>
+    <string name="network_test_speed">Test Wi-Fi speed</string>
     <string name="network_speed_for_apps_title">Anslutning</string>
     <string name="network_speed_for_apps_total">Anslutningshastighet</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Tvinga avslutning av den här appen?</string>
@@ -1322,7 +1325,7 @@ your device"</string>
     <string name="title_install_virus_no">Installationsövervakare av</string>
     <string name="title_install_virus_yes">Installations övervakare på</string>
     <string name="summary_install_virus">Skanna appar för virus innan installation</string>
-    <string name="title_dev_model_off">"Developer's options are off"</string>
+    <string name="title_dev_model_off">Developer options are off</string>
     <string name="title_dev_yes">Utvecklaralternativ av</string>
     <string name="title_dev_no">Utvecklaralternativ på</string>
     <string name="summary_dev">Undvik virus och skydda personlig data</string>
@@ -1559,7 +1562,7 @@ your device"</string>
     <string name="handle_title_pay_env">Payment environment</string>
     <string name="handle_title_privacy">Privacy &amp; security</string>
     <string name="risk_count_suffix" />
-    <string name="virus_auto_update_engine">Auto updates：%s</string>
+    <string name="virus_auto_update_engine">Auto updates: %s</string>
     <string name="hints_scan_danger_result">Risk found, fix now</string>
     <string name="ss_activity_main_support_text">Powered by %s</string>
     <string name="hints_virus_app_summary">%s (app)</string>
@@ -1625,6 +1628,7 @@ your device"</string>
     <string name="card_main_deepclean_wechat_action">Clear</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1649,9 +1653,9 @@ your device"</string>
     <string name="skin_change_close_toast">Förändringar kommer att tillämpas nästa gång du startar Säkerhet</string>
     <string name="Setting_lock">Inställningar</string>
     <string name="app_name">Applås</string>
-    <string name="notification_item">Skydda valda appar med applås</string>
+    <string name="notification_item">Protect apps with App lock</string>
     <string name="lock_mode_title">Låsinställningar</string>
-    <string name="after_the_lock_screen">App is locked together with the screen</string>
+    <string name="after_the_lock_screen">Lock apps together with the screen</string>
     <string name="set_applock_password">Välj lösenord</string>
     <string name="ac_firstUseApplock_title">Ange ett lösenord för att skydda dina appar</string>
     <string name="ac_firstUseApplock_subTitle">Använd bättre säkerhetsverktyg på systemnivå</string>
@@ -1712,7 +1716,7 @@ your device"</string>
     <string name="go_to_setting_fingerprint">Inställningar</string>
     <string name="fingerprint_remind_dialog_title">Upplåsning med fingeravtryck</string>
     <string name="confirm_fingerprint_msg">Verify your fingerprint</string>
-    <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
+    <string name="fingerprint_identify_msg">Turn on fingerprint unlock</string>
     <string name="fingerprint_not_identified_msg">Kunde inte läsa av fingeravtrycket. Ange lösenord</string>
     <string name="lockscreen_access_pattern_start">Mönster startat</string>
     <string name="lockscreen_access_pattern_cleared">Mönster rensat</string>
@@ -1725,10 +1729,10 @@ your device"</string>
     <string name="applock_not_add_account"><u>Not now</u></string>
     <string name="applock_add_account">Add</string>
     <string name="applock_not_login_account">"You aren't signed in"</string>
-    <string name="applock_bind_account_title">Resetting your password</string>
+    <string name="applock_bind_account_title">Forgot password</string>
     <string name="applock_close_dialog_title">Turn off App lock?</string>
     <string name="applock_close_dialog_summary">Apps will no longer be protected and your password will be deleted after you turn off App lock.</string>
-    <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
+    <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
     <string name="wakepath_confirm_start_activity">Tillåt %1$s att öppna %2$s?</string>
     <string name="unlike">Nej tack</string>
     <string name="toast_network_eror">Kan inte ansluta till nätverket</string>
@@ -1957,7 +1961,7 @@ your device"</string>
     <string name="more_game">More games</string>
     <string name="sys_title_gamebooster_unit_gb">G</string>
     <string name="sys_title_gamebooster_unit_mb">M</string>
-    <string name="google_base_app_install_choice">\"%s\" requires Google Service Framework apps to work normally, download and install them?</string>
+    <string name="google_base_app_install_choice">\"%s\" requires Google Services Framework to work normally, download and install it?</string>
     <string name="application_item_disable">Restricted</string>
     <string name="application_item_already_permission">Allowed</string>
     <string name="man_add_application">Add autostart apps manually</string>
@@ -1987,7 +1991,7 @@ your device"</string>
     <string name="renew_now">Renew</string>
     <string name="receive_now">Receive</string>
     <string name="net_booster">Network speed boost</string>
-    <string name="wlan_booster">Wi-Fi optizition</string>
+    <string name="wlan_booster">Wi-Fi optimization</string>
     <string name="tab_gift">Gifts</string>
     <string name="tab_guide">Guide</string>
     <string name="release_meminfo">Free up %dMB</string>
@@ -2005,5 +2009,4 @@ your device"</string>
     <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
     <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
     <string name="xunyou_pay_webview">Xunyou services</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
 </resources>

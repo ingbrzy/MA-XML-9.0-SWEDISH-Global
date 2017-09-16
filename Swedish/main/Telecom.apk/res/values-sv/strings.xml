@@ -8,8 +8,7 @@
     <string name="wifi_disabled_wifi_failure">Wi-Fi-anslutningsfel</string>
     <string name="wifi_disabled_password_failure">Autentiseringsproblem</string>
     <string name="wifi_not_in_range">Utom räckhåll</string>
-    <string name="wifi_no_internet_no_reconnect">Ingen internetåtkomst hittades. Det går inte att återansluta automatiskt.</string>
-    <string name="wifi_no_internet">Ingen internetåtkomst</string>
+    <string name="wifi_no_internet">Ingen internetåtkomst hittades. Det går inte att återansluta automatiskt.</string>
     <string name="saved_network">Sparades av %1$s</string>
     <string name="connected_via_wfa">Ansluten via Wi-Fi-assistent</string>
     <string name="connected_via_passpoint">Anslutet via %1$s</string>
@@ -145,15 +144,12 @@
     <string name="wifi_allow_scan_with_traffic_summary">Tillåt/tillåt inte sökning efter Wi-Fi-roaming utifrån mängden datatrafik i gränssnittet</string>
     <string name="select_logd_size_title">Buffertstorlekar för logg</string>
     <string name="select_logd_size_dialog_title">Välj loggstorlekar per loggbuffert</string>
-    <string name="dev_logpersist_clear_warning_title">Vill du rensa lagringsutrymmet för loggar?</string>
-    <string name="dev_logpersist_clear_warning_message">När övervakningen inte längre görs med permanent loggning måste loggdata som finns på enheten raderas.</string>
-    <string name="select_logpersist_title">Spara logg permanent på enheten</string>
-    <string name="select_logpersist_dialog_title">Välj vilka loggbuffertar som ska sparas permanent på enheten</string>
     <string name="select_usb_configuration_title">Välj USB-konfiguration</string>
     <string name="select_usb_configuration_dialog_title">Välj USB-konfiguration</string>
     <string name="allow_mock_location">Tillåt skenplatser</string>
     <string name="allow_mock_location_summary">Tillåt skenplatser</string>
     <string name="debug_view_attributes">Aktivera inspektion av visningsattribut</string>
+    <string name="legacy_dhcp_client_summary">Använd DHCP-klienten från Lollipop i stället för den nya Android DHCP-klienten.</string>
     <string name="mobile_data_always_on_summary">Håll alltid mobildata aktiverad, även när Wi-Fi är aktiverat (så att du snabbt kan byta mellan nätverk).</string>
     <string name="adb_warning_title">Ska USB-felsökning tillåtas?</string>
     <string name="adb_warning_message">USB-felsökning ska endast användas i utvecklingssyfte. Använd den för att kopiera data mellan datorn och enheten, installera appar på enheten utan meddelanden och läsa loggdata.</string>
@@ -203,6 +199,8 @@
     <string name="debug_layout_summary">Visa gränser för videoklipp, marginaler m.m.</string>
     <string name="force_rtl_layout_all_locales">Tvinga fram RTL-layout</string>
     <string name="force_rtl_layout_all_locales_summary">Tvinga fram RTL-skärmlayout (hö–vä) för alla språk</string>
+    <string name="show_cpu_usage">Visa CPU-användning</string>
+    <string name="show_cpu_usage_summary">Överlägg på skärmen med aktuell CPU-användning</string>
     <string name="force_hw_ui">Framtvinga GPU-rendering</string>
     <string name="force_hw_ui_summary">Tvingad användning av GPU för 2D-ritning</string>
     <string name="force_msaa">Force 4x MSAA</string>
@@ -286,7 +284,6 @@
     <string name="screen_zoom_summary_extremely_large">Störst</string>
     <string name="screen_zoom_summary_custom">Anpassad (%d)</string>
     <string name="help_feedback_label">Hjälp och feedback</string>
-    <string name="content_description_menu_button">Meny</string>
     <string name="telecommAppLabel">Samtalshantering</string>
     <string name="userCallActivityLabel">Telefon</string>
     <string name="notification_missedCallTitle">Missat samtal</string>
@@ -316,9 +313,8 @@
     <string name="no_vm_number_msg">Inget nummer till röstbrevlåda är sparat på SIM-kortet.</string>
     <string name="add_vm_number_str">Lägg till nummer</string>
     <string name="change_default_dialer_dialog_title">Make %s your default Phone app?</string>
-    <string name="change_default_dialer_dialog_affirmative">Set Default</string>
-    <string name="change_default_dialer_dialog_negative">Cancel</string>
-    <string name="change_default_dialer_warning_message">%s will be able to place and control all aspects of calls. Only apps you trust should be set as the default Phone app.</string>
+    <string name="change_default_dialer_with_previous_app_set_text">Vill du använda %1$s i stället för %2$s som standardapp för uppringning?</string>
+    <string name="change_default_dialer_no_previous_app_set_text">Vill du använda %s som standardapp för uppringning?</string>
     <string name="blocked_numbers">Blocked numbers</string>
     <string name="blocked_numbers_msg">"You won't receive calls or texts from blocked numbers."</string>
     <string name="block_number">Add a number</string>
@@ -363,4 +359,7 @@
     <string name="callFailed_simError">SIM card error</string>
     <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
     <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+    <string name="change_default_dialer_dialog_affirmative">Set Default</string>
+    <string name="change_default_dialer_dialog_negative">Cancel</string>
+    <string name="change_default_dialer_warning_message">%s will be able to place and control all aspects of calls. Only apps you trust should be set as the default Phone app.</string>
 </resources>

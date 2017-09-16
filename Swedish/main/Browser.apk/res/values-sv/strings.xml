@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentar</string>
     <string name="comment_description">Kommentar</string>
     <string name="comment_hint">Kommentar</string>
@@ -180,7 +181,7 @@
     <string name="contextmenu_dial_dot">Ring…</string>
     <string name="contextmenu_download_image">Spara bild</string>
     <string name="contextmenu_download_image_as">Spara bild</string>
-    <string name="contextmenu_manually_block_ad">Mark as ad</string>
+    <string name="contextmenu_manually_block_ad">Label as ad</string>
     <string name="contextmenu_map">Karta</string>
     <string name="contextmenu_openlink">Öppna</string>
     <string name="contextmenu_openlink_newwindow">Öppna i ny flik</string>
@@ -435,7 +436,7 @@ Lämna denna sida?"</string>
     <string name="miuichromium_error_page_network_off">Slå på WiFi eller mobildata</string>
     <string name="miuichromium_error_page_no_network">Kan inte ansluta till nätverket</string>
     <string name="miuichromium_error_page_problem_access_denied">Access to %s0 was denied</string>
-    <string name="miuichromium_error_page_problem_cache_miss">This page cant be loaded from the cache</string>
+    <string name="miuichromium_error_page_problem_cache_miss">"The cached version of this page can't be loaded"</string>
     <string name="miuichromium_error_page_problem_cannot_open_page">"The page can't be opened"</string>
     <string name="miuichromium_error_page_problem_cannot_reach_site">"The site can't be reached"</string>
     <string name="miuichromium_error_page_problem_connection_interrupted">Connection was interrupted</string>
@@ -459,7 +460,7 @@ Lämna denna sida?"</string>
     <string name="miuichromium_error_page_reason_invalid_address">. IP address or port number is invalid</string>
     <string name="miuichromium_error_page_reason_invalid_response">" because %s0 sent an invalid response"</string>
     <string name="miuichromium_error_page_reason_invalid_url">" because the URL is invalid"</string>
-    <string name="miuichromium_error_page_reason_moved_or_deleted">. It might be moved or deleted</string>
+    <string name="miuichromium_error_page_reason_moved_or_deleted">. It might have been moved or deleted</string>
     <string name="miuichromium_error_page_reason_name_collision">. This site on the intranet has the same URL as an external website</string>
     <string name="miuichromium_error_page_reason_name_not_resolved">". Couldn't find DNS address for %s0"</string>
     <string name="miuichromium_error_page_reason_network_changed">" due to a network change"</string>
@@ -470,14 +471,14 @@ Lämna denna sida?"</string>
     <string name="miuichromium_error_page_reason_unsafe_port">. %s0 is using an unsafe port number</string>
     <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 is redirecting you in an unsafe way</string>
     <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 uses an unsupported protocol</string>
-    <string name="miuichromium_error_page_reload">Reload</string>
+    <string name="miuichromium_error_page_reload">Refresh</string>
     <string name="miuichromium_error_page_safe_network">Säkert läge</string>
     <string name="miuichromium_error_page_server_error">Alltför många enheter försöker ansluta</string>
     <string name="miuichromium_error_page_suggestion_check_app_proxy">Check the settings of the proxy apps installed on your device.</string>
     <string name="miuichromium_error_page_suggestion_check_connetion">Check your Internet connection.</string>
     <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(Mobile data) Reset your %s1APN settings%s2.</string>
     <string name="miuichromium_error_page_suggestion_check_url">"Check the URL you've entered."</string>
-    <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) Check your %s1proxy settings%s2.</string>
+    <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(Wi-Fi) Check your %s1proxy settings%s2.</string>
     <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">Clear cache (%s1Settings%s2 - Clear data).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Clear cache and cookies (%s1Settings%s2 - Clear data, your account info may be lost).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Clear cache and cookies (your account info may be lost).</string>
@@ -559,10 +560,10 @@ Lämna denna sida?"</string>
     <string name="pref_accessibility_url_shortcut_enter_title">Snabb URL inmatning</string>
     <string name="pref_adblock_counts">%d blockerade</string>
     <string name="pref_adblock_title">Annonsblockerare</string>
-    <string name="pref_advert_null">Unmarked advertising,You can press the label on the page</string>
+    <string name="pref_advert_null">No items labelled as ads. Press and hold an item on the webpage to mark.</string>
     <string name="pref_auto_update_under_wifi">Uppdatera över WiFi</string>
     <string name="pref_automatic_matching_searchengines_title">Växlad till den vanliga sökmotorn</string>
-    <string name="pref_cancel_screen">Cancel screen</string>
+    <string name="pref_cancel_screen">Unblock</string>
     <string name="pref_category_hint">Kategori</string>
     <string name="pref_check_security_url_summary">"Skicka webbsidans URL till Mi's servrar för att kontrollera om den är säker"</string>
     <string name="pref_check_security_url_summary_international">Tillåt webbläsaren att komma åt webbadresserna på de webbplatser du besöker för att få mer relevanta rekommendationer.</string>
@@ -606,7 +607,7 @@ Lämna denna sida?"</string>
     <string name="pref_force_userscalable_summary">Upphäv en webbplats begäran om att styra zoom beteende</string>
     <string name="pref_general_title">Allmän</string>
     <string name="pref_key_gesture_title">Knappar &amp; gester</string>
-    <string name="pref_label_advert_manager">Manager labelled ads</string>
+    <string name="pref_label_advert_manager">Manage labelled ads</string>
     <string name="pref_nav_mode_summary_pad">Platta</string>
     <string name="pref_nav_mode_summary_phone">Telefon</string>
     <string name="pref_nav_mode_title">Webbläsarläge</string>
@@ -780,7 +781,7 @@ Lämna denna sida?"</string>
     <string name="ssl_certificate">Säkerhetscertifikat</string>
     <string name="ssl_certificate_is_valid">Certifikatet är giltigt.</string>
     <string name="ssl_continue">Fortsätt</string>
-    <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page.\""</string>
+    <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page."</string>
     <string name="ssl_date_invalid">Detta certifikat har ett ogiltigt datum.</string>
     <string name="ssl_expired">Detta certifikat har upphört att gälla.</string>
     <string name="ssl_go_back">Gå tillbaka</string>

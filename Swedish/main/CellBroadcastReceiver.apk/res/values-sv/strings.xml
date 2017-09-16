@@ -32,6 +32,7 @@
     <string name="emergency_alert_settings_title">Inställningar för varningar om nödsituationer</string>
     <string name="enable_emergency_alerts_title">Aktivera meddelanden</string>
     <string name="enable_emergency_alerts_summary">Visa sändningar av varningsmeddelanden</string>
+    <string name="alert_sound_duration_title">Varaktighet för varningsljud</string>
     <string name="alert_reminder_interval_title">Påminnelse</string>
     <string name="enable_alert_speech_title">Tala in varningsmeddelande</string>
     <string name="enable_alert_speech_summary">Använd text-till-tal när du vill tala in varningsmeddelanden</string>

@@ -200,7 +200,7 @@
     <string name="port_range">Port måste vara mellan 1024-65535</string>
     <string name="file_name_invalid">Filnamn kanan inte innehålla följande tecken: /\\:*?&lt;></string>
     <string name="rename_alert">Om du ändrar filnamnstillägget, kanske du inte kan öppna filen.</string>
-    <string name="rename_alert2">如果修改后缀名，文件将可能无法打开。</string>
+    <string name="rename_alert2">The file will be hidden after you change its extension.</string>
     <string name="search_file_type_picture">Foto</string>
     <string name="search_file_type_video">Video</string>
     <string name="search_file_type_music">Musik</string>
@@ -248,7 +248,7 @@
     <string name="app_name_midrop">Mi Drop</string>
     <string name="data_consumption_title">Internet anslutning</string>
     <string name="data_consumption_message">Denna app behöver ansluta till internet med Wi-Fi för att fungera normalt.</string>
-    <string name="data_consumption_message1">Videos and Stickers needs to connect to the internet using Wi-Fi to work normally.</string>
+    <string name="data_consumption_message1">Explorer needs to connect to the internet to make popular videos and stickers available.</string>
     <string name="data_consumption_checkbox_hint">Visa inte igen</string>
     <string name="data_consumption_confirm">OK</string>
     <string name="data_consumption_cancel">Avsluta</string>
@@ -292,7 +292,7 @@
     <string name="network_spent_reminding_title">Data användnings notifikation</string>
     <string name="network_spent_reminding">Använd dina mobila datauppkoppling föra att visa denna sida? Du kommer att ta emot vanliga mobil data avgifter från din operatör.</string>
     <string name="shared_sticker_use_tip_title">Hur man använder klistermärken</string>
-    <string name="shared_sticker_use_tip">"You can send the stickers you saved from Chats just like you send images.
+    <string name="shared_sticker_use_tip">"You can send the stickers you saved from chats just like you send images.
 (GIFs can be added to Custom in WeChat Stickers)."</string>
     <string name="shared_sticker_page_no_file">Kunde inte ansluta till nätverket. Kontrollera nätverksanslutningen och försök igen.</string>
     <string name="shared_sticker_network_permission_tip">Kunde inte ansluta till nätverket. Kontrollera nätverksanslutningen och försök igen.</string>
@@ -410,7 +410,7 @@
     <string name="enable_documentsui">Starta %s i Inställningar > Installerade appar först</string>
     <string name="not_installed_documentsui">DokumentUI är inte installerade</string>
     <string name="title_enable_documentsui">Starta DokumentUI</string>
-    <string name="server_error">Sever error, try again later. (Error %s)</string>
+    <string name="server_error">Server error, try again later. (Error %s).</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="request_timeout">Nätverk timeout</string>
     <string name="login_expired">Login has expired, try login again.</string>

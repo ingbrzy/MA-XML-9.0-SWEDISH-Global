@@ -61,15 +61,15 @@
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
     <string name="xspace_label">Dubbla appar</string>
-    <string name="xspace_setting_label">双开设置</string>
-    <string name="xspace_account">双开帐号</string>
+    <string name="xspace_setting_label">Dual app settings</string>
+    <string name="xspace_account">Dual app accounts</string>
     <string name="declare_dialog_title">Om dubbla appar</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
     <string name="xspace_header">Dubbla appar</string>
     <string name="xspace_introduce">Rekommenderad</string>
-    <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+    <string name="xspace_description">"Dual apps are app copies which can be used separately with a different account.
 
-部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
+Some dual apps require Google Services Framework support. In such cases, dual Google Services Framework is created."</string>
     <string name="xspace_chocie">Dual app stöd</string>
     <string name="xspace_creating">Skapar dual app…</string>
     <string name="xspace_installing">Installerar…</string>
@@ -310,7 +310,7 @@ för att logga in från låsskärmen"</string>
     <string name="show_decktop_quick_switch_icon">Home screen shortcut</string>
     <string name="show_decktop_quick_switch_icon_detail">Show a shortcut for switching spaces on the Home screen in First space</string>
     <string name="has_created_second_space">"You can open Second space now.
-One device. Two spaces."</string>
+Two spaces. One device."</string>
     <string name="privacy_password_fingerprint_dialog_title">Scan your fingerprint</string>
     <string name="privacy_password_fingerprint_dialog_message">Put your finger on the sensor</string>
 </resources>

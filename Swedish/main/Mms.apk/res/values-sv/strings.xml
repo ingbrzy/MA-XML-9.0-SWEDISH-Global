@@ -7,6 +7,7 @@
     <string name="addBlackList">Blockera</string>
     <string name="add_attachment">Bifoga</string>
     <string name="add_contact">vCard</string>
+    <string name="add_miui_contact">Mi Card</string>
     <string name="add_music">Lägg till musik</string>
     <string name="add_number_to_sender">Lägg till nummer till %s</string>
     <string name="add_picture">Lägg till bild</string>
@@ -385,8 +386,10 @@
     <string name="pref_show_sms_template_in_summary">Detektera engångslösenord i SMS automatiskt</string>
     <string name="pref_show_sms_template_summary">Aktivera för att använda smarta funktioner i Mi meddelande, såsom kopiering koder, kontroll balans, etc.</string>
     <string name="pref_smart_messages_settings">Smarta meddelanden</string>
+    <string name="pref_sms_storage_title">Storage</string>
     <string name="pref_sms_theme_title">Visa</string>
     <string name="pref_summary_allow_si_sl_push">Tillåt meddelanden att ladda innehåll från webbsidor</string>
+    <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
     <string name="pref_summary_delete_limit">%1$s meddelanden per konversation</string>
     <string name="pref_summary_delivery_reports">Visa status för skickade meddelanden</string>
     <string name="pref_summary_delivery_ringtone">Spela upp ljudnotifikation för skickat meddelande.</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">System</string>
     <string name="pref_title_about_smart_sms">Om Smart meddelanden partner</string>
     <string name="pref_title_allow_si_sl_push">Tillåt WAP pushmeddelanden (SI/SL)</string>
+    <string name="pref_title_auto_delete">Delete old messages</string>
     <string name="pref_title_card_format">Kortdelningsformat</string>
     <string name="pref_title_delivery_reports">Sändningsstatus</string>
     <string name="pref_title_fwd_sender_info">Vidarebefordra avsändarinformation</string>
@@ -412,6 +416,8 @@
     <string name="pref_title_mms_auto_retrieval">Hämta MMS-innehåll automatiskt</string>
     <string name="pref_title_mms_delete">Multimediameddelande-gräns</string>
     <string name="pref_title_mms_read_reports">MMS läs kvitton</string>
+    <string name="pref_title_mms_retrieval_during_international_roaming">Download MMS content when international roaming</string>
+    <string name="pref_title_mms_retrieval_during_national_roaming">Download MMS content when national roaming</string>
     <string name="pref_title_mms_retrieval_during_roaming">Ladda ned MMS-innehåll vid roaming</string>
     <string name="pref_title_mms_validity_period">MMS utgång</string>
     <string name="pref_title_notification_body_enabled">Visa meddelanden på låsskärmen</string>

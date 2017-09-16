@@ -493,6 +493,7 @@ licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."
     <string name="please_search_or_select">Sök eller välj ett fält</string>
     <string name="in_searching_please_wait">Söker…</string>
     <string name="no_file_picker_find">Utforskaren är inte installerad på denna enhet</string>
+    <string name="no_system_cropper_find">"System doesn't have cropper for image"</string>
     <string name="set_lyric_successful">Låttext sparad</string>
     <string name="set_album_successful">Album sparad</string>
     <string name="set_id3_successful">Låtinfo sparad</string>

@@ -69,13 +69,14 @@
     <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan starta eller stanna denna funktion närsomhelst i Inställningar.
 "</string>
-    <string name="sync_dspt_entrance_provision">"Synka dina bilder, kontakter, samtalshistorik, och meddelanden över alla dina enheter. Få tillgång till saker du synkar från vilken webbläsare som helst på %s. "</string>
+    <string name="sync_dspt_entrance_provision">"MiCloud help you to sync photos,contacts and more across devices.You can access the things you sync from any browser at %s. "</string>
     <string name="sync_dspt_entrance_provision_2">Ta reda på mer</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Använd ej</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Använd Mi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Använd inte Mi Cloud?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">"MIUI's inbyggda appar behöver Mi Cloud för att säkerhetskopiera dina foton, kontakter, anteckningar och annat. Mi Cloud är gratis och redo att användas direkt."</string>
     <string name="sync_dspt_entrance_provision_skip">Hoppa över detta steg</string>
+    <string name="sync_dspt_entrance_provision_network">This app needs to connect to the internet to work normally.Sync data may be connected to the data network and open WiFi.</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till %s för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>

@@ -60,18 +60,6 @@
         <item>4 MB/loggbuffert</item>
         <item>16 MB/loggbuffert</item>
     </string-array>
-    <string-array name="select_logpersist_titles">
-        <item>Av</item>
-        <item>Alla</item>
-        <item>Alla utom radio</item>
-        <item>endast kernel</item>
-    </string-array>
-    <string-array name="select_logpersist_summaries">
-        <item>Av</item>
-        <item>Alla loggbuffertar</item>
-        <item>Alla loggbuffertar utom för radio</item>
-        <item>endast buffert av kernellogg</item>
-    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animering avstängd</item>
         <item>Animering i skala 0,5x</item>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">None</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -645,6 +647,9 @@ MMMM d"</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Inga ihopkopplade enheter tillgängliga</string>
     <string name="accessibility_ime_switch_button">Välj inmatningsmetodsknapp.</string>
+    <string name="accessibility_settings">Settings</string>
+    <string name="accessibility_search_scanner">Scanner</string>
+    <string name="accessibility_brightness_slider">Brightness slider</string>
     <string name="click_to_return_multi_window">Tap to return to Split screen</string>
     <string name="recent_dock_tip">Tap to select apps</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">"Split screen isn't supported on the Lock screen."</string>
