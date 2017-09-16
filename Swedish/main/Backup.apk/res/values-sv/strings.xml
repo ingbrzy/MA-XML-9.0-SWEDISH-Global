@@ -227,7 +227,6 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="file_uploading">Laddar upp…</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
-    <string name="digit_percent">%</string>
     <string name="state_waiting">Bara en sekund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
