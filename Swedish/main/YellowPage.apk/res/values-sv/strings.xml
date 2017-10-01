@@ -350,7 +350,6 @@ Kontrollera ditt spårningsnummer."</string>
     <string name="quick_yellow_page_tab_phones">Telefon</string>
     <string name="recharge_actual_price">Pris:</string>
     <string name="recharge_charge_range">Pris: RMB %1$s-%2$s</string>
-    <string name="recharge_charge_value">Pris: RMB %s</string>
     <string name="recharge_follow_name">Fyll upp</string>
     <string name="recharge_history">Påfyllningshistorik</string>
     <string name="recharge_history_empty">Tom</string>
@@ -393,7 +392,6 @@ Totalt: RMB %3$s"</string>
     <string name="sending_shortcut">Skickar…</string>
     <string name="service_unavailiable">Service otillgänglig</string>
     <string name="share">Dela</string>
-    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">Nummerpresentation</string>
     <string name="toast_finish_delete_call_log">Samtalshistorik raderad</string>
     <string name="toast_text_copied">Text kopierad</string>
