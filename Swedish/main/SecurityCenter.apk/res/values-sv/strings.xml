@@ -813,7 +813,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="menu_charge_bill">Top-up balance</string>
     <string name="privacy_dialog_message">"When you connect to the internet, this message along with the carrier info will be encrypted and uploaded to Mi's servers to help us improve data usage monitoring."</string>
     <string name="optimize_manage_title">Boost speed</string>
-    <string name="cpu_usage_android_system">Android System</string>
+    <string name="cpu_usage_android_system">Android system</string>
     <string name="cpu_usage_process_run_time_little_time">Less than 1 minute</string>
     <string name="cpu_usage_view_action_btn_text">Tap to view</string>
     <string name="cpu_usage_app_bg_restrict_title">Background settings</string>
@@ -821,7 +821,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="cpu_usage_app_bg_restrict_no_limit">"Don't restrict"</string>
     <string name="cpu_usage_app_bg_restrict_partly">After %s</string>
     <string name="cpu_usage_app_bg_restrict_full">Restrict background activity</string>
-    <string name="cpu_usage_app_bg_restrict_partly_short">After%s</string>
+    <string name="cpu_usage_app_bg_restrict_partly_short">After %s</string>
     <string name="cpu_usage_app_bg_restrict_default_short">Auto</string>
     <string name="cpu_usage_app_tip_can_not_restrict_system_app">"Can't restrict system services"</string>
     <string name="cpu_usage_app_uninstalled_toast">This app is uninstalled</string>
@@ -841,7 +841,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="om_settings_lock_app_manage">Lock apps</string>
     <string name="om_settings_lock_app">Lock apps</string>
     <string name="om_settings_speed_up_auto">Auto speed boost</string>
-    <string name="om_settings_memory_clean_lock_screen">Clear cache when screen off</string>
+    <string name="om_settings_memory_clean_lock_screen">Clear cache when device is locked</string>
     <string name="om_settings_notify_manage">Notifications</string>
     <string name="om_settings_memory_occupy_notify">High cache size</string>
     <string name="om_settings_memocy_occupy_too_large_summary">Notify when cache size is too big</string>
@@ -1570,6 +1570,7 @@ your device"</string>
     <string name="hints_risk_name_title">Risk:</string>
     <string name="hints_risk_descx_title">Description:</string>
     <string name="button_text_clear">Clear</string>
+    <string name="antivirus_main_activity_back">Back from security scan</string>
     <string name="toast_removed_from_virus_white_list">Avlägsnas från undantag. Objektet ska skannas nästa gång.</string>
     <string name="long_click_dialog_title">Uppmärksamhet</string>
     <string name="long_click_dialog_summary">Håll resultaten i listan för att lägga till dem till undantag</string>
@@ -1628,6 +1629,7 @@ your device"</string>
     <string name="card_main_deepclean_wechat_action">Clear</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1652,6 +1654,7 @@ your device"</string>
     <string name="skin_change_close_toast">Förändringar kommer att tillämpas nästa gång du startar Säkerhet</string>
     <string name="Setting_lock">Inställningar</string>
     <string name="app_name">Applås</string>
+    <string name="back_app_name">Go back to App lock</string>
     <string name="notification_item">Protect apps with App lock</string>
     <string name="lock_mode_title">Låsinställningar</string>
     <string name="after_the_lock_screen">Lock apps together with the screen</string>
@@ -1668,6 +1671,7 @@ your device"</string>
     <string name="lockpattern_continue_button_text">Nästa</string>
     <string name="lockpattern_confirm_button_text">OK</string>
     <string name="modifypassword">Ändra lösenord</string>
+    <string name="back_modifypassword">Go back to changing password</string>
     <string name="showpattern">Visa mönster</string>
     <string name="notification_mask_title">Hide content</string>
     <string name="notification_mask_summary">"Don't show content for notifications on the Lock screen and in the Notification shade"</string>
@@ -1684,7 +1688,7 @@ your device"</string>
     <string name="passwordIncorrect">Användarnamn eller lösenord är felaktiga</string>
     <string name="access_control_app_is_launching">App is starting</string>
     <string name="access_control_need_to_unlock_nofingerprint">Ange App lås lösenord</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">Password is required to open apps</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
     <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
     <string name="access_control_need_password">"%s tillagd
 "</string>
@@ -2008,4 +2012,9 @@ your device"</string>
     <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
     <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
     <string name="xunyou_pay_webview">Xunyou services</string>
+    <string name="xunyou_server_expired">The session expired.</string>
+    <string name="game_anti_disturb_msg">Game DND</string>
+    <string name="gamebooster_main_activity_back">Back Game Speed Booster</string>
+    <string name="data_booster_title">Stabilize data connection</string>
+    <string name="data_booster_desc">Deactivate other SIM slots to keep the connection stable</string>
 </resources>

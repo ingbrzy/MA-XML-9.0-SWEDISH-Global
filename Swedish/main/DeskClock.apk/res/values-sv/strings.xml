@@ -23,6 +23,7 @@
     <string name="delete_timer_item_title">Ta bort timeruppgift</string>
     <string name="delete_selected_timer_item">Ta bort den markerade timeruppgiften?</string>
     <string name="delete_timezone_title">Ta bort tidszon</string>
+    <string name="add_timezone_title">Add timezone</string>
     <string name="timezone_exist_error_message">Du visar redan den tidszonen</string>
     <string name="alarm_disabled">Av</string>
     <string name="alarm_ascending_mode_title">Stigande volym</string>
@@ -103,6 +104,7 @@
     <string name="life_post_wake_up_item_acumu_day_title">Dagsräkning</string>
     <string name="life_post_wake_up_item_acumu_day">%1$s dagar</string>
     <string name="life_post_setting">Morgonrapport</string>
+    <string name="life_post_setting_close_title">Close morning reports</string>
     <string name="life_post_setting_open_title">Motta morgonrapporter</string>
     <string name="life_post_setting_open_subtitle">Motta information om vädret när du stänger av dina alarm mellan 04:00 och 09:30</string>
     <string name="life_post_setting_wake_up_list_title">Historia för uppvaknande</string>
@@ -110,6 +112,8 @@
     <string name="life_post_setting_FBE_remind">Due to system restriction, weather info in morning report may not display correctly after reboot</string>
     <string name="install_weather_app_loading">Just a sec…</string>
     <string name="install_weather_app_error">"Couldn't load app"</string>
+    <string name="more_setting">More settings</string>
+    <string name="go_back">Back</string>
     <string name="full_wday_month_day_no_year">EEEE d MMMM</string>
     <string name="app_label">Klocka</string>
     <string name="alarm_list_title">Alarm</string>

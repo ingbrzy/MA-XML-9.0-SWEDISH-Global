@@ -10,6 +10,7 @@
     <string name="enable_touch_assistant">Aktivera Snabboll</string>
     <string name="enabled_for_pad_hint">Fungerar när \"Blocka navigeringsknapparna i landskapsläge\" är påslagen</string>
     <string name="function_settings">Genvägsinställningar</string>
+    <string name="handy_mode_default_to_close_whether_open">One-handed mode is off by default. Turn on One-handed mode?</string>
     <string name="hide_touch_assistant">Göm automatiskt</string>
     <string name="hide_touch_assistant_intro">Göm Quick boll i valda appar.</string>
     <string name="hide_when_fullscreen">Flytta åt sidan i helskärm</string>
@@ -38,6 +39,7 @@
     <string name="nfc_all_mipay_card_not_in_use">Mi Pay är inte aktiverat</string>
     <string name="nfc_trans_card_not_in_use">Transportkort är inte aktiverat</string>
     <string name="not_working">%s (Fungerar inte)</string>
+    <string name="open">Turn on</string>
     <string name="open_panel">Aktivera Snabboll</string>
     <string name="pay_entry_dialog_title_select">Välj app att öppna</string>
     <string name="pay_entry_dialog_title_setting">Välj app</string>
@@ -50,4 +52,5 @@
     <string name="restore_intro">Återställ standardinställningar, inklusive genvägar och deras ordning. App data på din enhet kommer inte påverkas.</string>
     <string name="show_on_keyguard">Visa på låsskärmen</string>
     <string name="theme_manager_not_supported">Temahanteraren stöds inte.</string>
+    <string name="three_seconds_auto_hide">Stick to the edge after 3 seconds of inactivity</string>
 </resources>

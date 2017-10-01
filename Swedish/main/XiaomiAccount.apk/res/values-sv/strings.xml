@@ -432,8 +432,8 @@ För att aktivera ditt konto, följ
     <string name="mipay_balance">Balance</string>
     <string name="mipay_others">Other</string>
     <string name="mipay_identity">ID verification</string>
-    <string name="mipay_indentity_done">done</string>
-    <string name="mipay_identitiy_no">no</string>
+    <string name="mipay_indentity_done">Verified</string>
+    <string name="mipay_identitiy_no">Not verified</string>
     <string name="account_token_expired_title">Authentication failed</string>
     <string name="account_token_expired_msg">"Verification code expired, start over or sign out
  Your account ID: %s"</string>

@@ -584,10 +584,10 @@
     <string name="webview_reload">Försök igen</string>
     <string name="hybrid_provider">Tillhandahålls av %1$s</string>
     <string name="xiaomi_mobile">Mi Mobile</string>
-    <string name="immersion_button_close_description">close</string>
-    <string name="search_input_description">search</string>
-    <string name="search_mode_button_back_description">back</string>
-    <string name="actionbar_immersion_button_more_description">more</string>
-    <string name="actionbar_button_up_description">back</string>
-    <string name="clearable_edittext_clear_description">clear</string>
+    <string name="immersion_button_close_description">Close</string>
+    <string name="search_input_description">Search</string>
+    <string name="search_mode_button_back_description">Back</string>
+    <string name="actionbar_immersion_button_more_description">More</string>
+    <string name="actionbar_button_up_description">Back</string>
+    <string name="clearable_edittext_clear_description">Clear</string>
 </resources>

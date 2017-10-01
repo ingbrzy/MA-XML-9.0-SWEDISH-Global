@@ -145,8 +145,8 @@
     <string name="clear_records">Radera synkroniserade inspelningar</string>
     <string name="choose_call_records_count">%d objekt</string>
     <string name="network_tip_dialog_title">Internetanslutning krävs</string>
-    <string name="network_tip_dialog_content">This app needs to connect to the internet, as well as read your contacts to label the recordings you record during calls.</string>
-    <string name="network_tip_dialog_ok">Tillåt</string>
+    <string name="network_tip_dialog_content">Recorder needs to connect to the internet, as well as read your contacts to work normally. Agree?</string>
+    <string name="network_tip_dialog_ok">Agree</string>
     <string name="network_tip_dialog_cancel">Avbryt</string>
     <string name="head_set_tip_dialog_title">Use internal mic</string>
     <string name="head_set_tip_dialog_msg">Disconnect your earphones to be able to record sound with specific presets (e.g., Music, Voice).</string>

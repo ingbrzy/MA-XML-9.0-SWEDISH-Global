@@ -209,7 +209,7 @@
     <string name="free_style_edit_tab_shortcut">Genvägar</string>
     <string name="free_style_edit_tab_free_component">Objekt</string>
     <string name="free_style_edit_tab_widget">Widgets</string>
-    <string name="free_style_edit_move_tip">Tryck &amp; håll för att flytta</string>
+    <string name="free_style_edit_move_tip">Press &amp; hold to move an item</string>
     <string name="free_style_edit_app">App</string>
     <string name="free_style_edit_drawer">Låda</string>
     <string name="free_style_drawer_title">Alla appar</string>

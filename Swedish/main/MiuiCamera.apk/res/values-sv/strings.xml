@@ -167,10 +167,10 @@
     <string name="pref_camera_autoexposure_entry_spotmetering">Fokuspunkt</string>
     <string name="pref_camera_audio_capture_title">Ljud</string>
     <string name="simple_mode_button_text_audio_capture">Stäng av röst trigger</string>
-    <string name="pref_camera_video_duration_entry_mms">30 sekunder(MMS)</string>
+    <string name="pref_camera_video_duration_entry_mms">30 seconds (MMS)</string>
     <string name="pref_camera_video_duration_entry_10">10 minuter</string>
     <string name="pref_camera_video_duration_entry_30">30 minuter</string>
-    <string name="pref_camera_video_duration_entry_120">Ingen gräns</string>
+    <string name="pref_camera_video_duration_entry_120">Unlimited</string>
     <string name="pref_camera_zsl_entry_off">Av</string>
     <string name="pref_camera_zsl_entry_on">På</string>
     <string name="pref_camera_facedetection_title">Ansiktsigenkänning</string>
@@ -340,6 +340,7 @@ Motivet bör inte vara längre bort än 2 meter."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Options</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -356,6 +357,7 @@ and then create a shot where everyone looks best."</string>
     <string name="toast_saving">Sparar bild…</string>
     <string name="cannot_connect_camera_volte_call">Videosamtal pågår, försök senare.</string>
     <string name="hibernate_hint">Tap the screen to wake Camera</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Zoom läge</string>
     <string name="accessibility_portrait_button">Porträttläge</string>
     <string name="toast_burst_snap_finished_summary">Burst shot done, %1$s photos taken</string>
@@ -451,7 +453,7 @@ and then create a shot with a minimal amount of noise."</string>
     <string name="user_notice_identify_summary_format">"By using this service, you agree to Xiaomi's %1$s and %2$s."</string>
     <string name="user_notice_title">Terms and Conditions</string>
     <string name="pref_camera_focus_shoot_title">Focus &amp; shoot</string>
-    <string name="pref_camera_focus_shoot_summary">触摸对焦成功之后,点击对焦环中间的相机按钮进行拍照</string>
+    <string name="pref_camera_focus_shoot_summary">Tap the screen to focus, and tap again to shoot.</string>
     <string name="pref_retain_camera_mode_title">Save previous mode</string>
     <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
     <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>

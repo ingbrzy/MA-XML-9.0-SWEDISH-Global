@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SIM Verktyg</string>
+    <string name="app_name">SIM toolkit</string>
     <string name="menu_end_session">Avsluta session</string>
     <string name="help">Hjälp</string>
     <string name="menu_back">Tillbaka</string>
@@ -10,24 +10,24 @@
     <string name="button_cancel">Avbryt</string>
     <string name="button_yes">Ja</string>
     <string name="button_no">Nej</string>
-    <string name="alphabet">Alphabets</string>
+    <string name="alphabet">Letters</string>
     <string name="digits">Siffror (0-9, *, #, +)</string>
     <string name="default_call_setup_msg">Samtal pågår…</string>
-    <string name="default_setup_call_msg">Call being setup</string>
+    <string name="default_setup_call_msg">Setting up call…</string>
     <string name="stk_app_state">Application state</string>
     <string name="enable_app">Enabled</string>
     <string name="disable_app">Disabled</string>
-    <string name="stk_dialog_title">SIM ToolKit</string>
-    <string name="default_tone_dialog_msg">Playing Tone</string>
-    <string name="default_open_channel_msg">Open Channel?</string>
-    <string name="default_send_data_msg">Sending Data</string>
-    <string name="default_receive_data_msg">Receiving Data</string>
-    <string name="default_close_channel_msg">Channel Closed</string>
+    <string name="stk_dialog_title">SIM toolkit</string>
+    <string name="default_tone_dialog_msg">Playing tone…</string>
+    <string name="default_open_channel_msg">Open channel?</string>
+    <string name="default_send_data_msg">Sending data…</string>
+    <string name="default_receive_data_msg">Receiving data…</string>
+    <string name="default_close_channel_msg">Channel closed</string>
     <string name="stk_dialog_accept">JA</string>
     <string name="stk_dialog_reject">NEJ</string>
-    <string name="no_sim_card_inserted">Please insert SIM to launch SIM Toolkit.</string>
-    <string name="stk_intent_permission">Allow STK Intents</string>
-    <string name="sim_type_sim_name">SIM-Verktyg</string>
-    <string name="sim_type_usim_name">SIM Verktyg</string>
-    <string name="sim_type_uim_name">UIM Verktyg</string>
+    <string name="no_sim_card_inserted">Insert SIM to launch SIM toolkit.</string>
+    <string name="stk_intent_permission">Permissions are required</string>
+    <string name="sim_type_sim_name">SIM toolkit</string>
+    <string name="sim_type_usim_name">USIM toolkit</string>
+    <string name="sim_type_uim_name">UIM toolkit</string>
 </resources>

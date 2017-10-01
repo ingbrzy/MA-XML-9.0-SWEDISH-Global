@@ -60,8 +60,12 @@
     <string name="hint_volume_down">Volume down</string>
     <string name="stop_by_second_space">Switching spaces will stop the recording</string>
     <string name="cannot_change_parames">"Couldn't change parameters while recording"</string>
-    <string name="cannot_record">"Couldn't record, please try again later."</string>
-    <string name="frequently_click_toast">Service initializing, please wait a moment</string>
+    <string name="cannot_record">"Couldn't record, try again later."</string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="start_recording">Start recording</string>
+    <string name="frequently_click_toast">Just a sec…</string>
+    <string name="recording_failure">"Couldn't record, start over"</string>
+    <string name="recording_max_size">"Recording was stopped and saved because the video file reached its size limit. Start recording from where you left off if you haven't finished yet."</string>
     <string name="no_sound">Mute</string>
     <string name="mic_sound">Mic</string>
     <string name="loopback_sound">Speaker</string>

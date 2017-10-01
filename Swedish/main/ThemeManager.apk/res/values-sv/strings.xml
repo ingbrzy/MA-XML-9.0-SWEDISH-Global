@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="resource_app_name">Resursövervakare</string>
+    <string name="resource_app_name">View resources</string>
     <string name="resource_delete">Radera</string>
     <string name="resource_price_free">Fri</string>
     <string name="resource_price_unit"> Mi Krediter</string>
@@ -80,9 +80,9 @@
     <string name="resource_no_result">Fann ingenting</string>
     <string name="resource_failed_to_load_list">Kan inte ladda teman.</string>
     <string name="resource_search_list_empty">Fann ingenting.</string>
-    <string name="resource_data_empty">Innehållet är tomt.</string>
+    <string name="resource_data_empty">No items here.</string>
     <string name="resource_no_network_text">Kan inte ansluta till nätverket.</string>
-    <string name="resource_network_diagnostics"><u>Nätverks Diagnostik</u></string>
+    <string name="resource_network_diagnostics"><u>Test network</u></string>
     <string name="resource_list_title">Nyligen valda</string>
     <string name="resource_get_auth_checking">Verifierar…</string>
     <string name="resource_get_auth_retrieving">Hämtar info…</string>
@@ -143,7 +143,7 @@
     <string name="resource_exchange_hint">Ange din gåvokod</string>
     <string name="resource_exchange_window_title">Återlösa</string>
     <string name="resource_exchange_universal_goon">Denna kod kan användas för att ladda ner ett tema i butiken.</string>
-    <string name="resource_exchange_universal_finish">Använd denna kod för att ladda ner ett tema från tema Store.</string>
+    <string name="resource_exchange_universal_finish">Use this code to download items from Themes.</string>
     <string name="resource_exchange_empty_format">Ange gåvokod</string>
     <string name="resource_exchange_wrong_format_by_local">Formatet på koden du angav är felaktig.</string>
     <string name="resource_exchange_wrong_format_by_server">Koden har inte verifierats. Se till att du har angett den korrekt.</string>
@@ -154,7 +154,7 @@
     <string name="resource_exchange_success">Njut! :)</string>
     <string name="resource_exchange_share_code_dlg_title">Skickar</string>
     <string name="resource_exchange_share_code_dlg_content">Gåvokod för \"%1$s\":%2$s. När du skickar det till en annan MIUI användare, kan de använda den för att ladda ner detta tema.</string>
-    <string name="resource_exchange_share_code_content">Du har fått en gåvokod (%2$s) för temat \"%1$s\" i MIUI Tema Butik. Tryck på %3$s för att använda den nu.</string>
+    <string name="resource_exchange_share_code_content">"You've received a gift code (%2$s) for the theme \"%1$s\" in MIUI's Themes. Tap %3$s to use it now."</string>
     <string name="resource_exchange_purchase_unkown_error">Usch! Ett okänt fel inträffade. Logga in på http://market.xiaomi.com för att se din betalningsstatus.</string>
     <string name="resource_comment_all_comments">Alla</string>
     <string name="resource_comment_good_comments">Positiv</string>
@@ -226,7 +226,7 @@
     <string name="backup_theme_dialog_message">Säkerhetskopiera din nuvarande tema?</string>
     <string name="backup_theme_progress_message">Säkerhetskopierar…</string>
     <string name="backup_theme_success_message">Dina aktuella temainställningar har säkerhetskopierats.</string>
-    <string name="backup_theme_fail_trial_rights_message">Det går inte att säkerhetskopiera försöks resurser</string>
+    <string name="backup_theme_fail_trial_rights_message">"Can't back up trial items"</string>
     <string name="backup_theme_name">Tema säkerhetskopiering</string>
     <string name="theme_description_title_default">Standard</string>
     <string name="theme_description_title_customized">Anpassad</string>
@@ -284,7 +284,7 @@
     <string name="favorite_list">Favoriter</string>
     <string name="favorite_list_format">Favorit %1$s</string>
     <string name="purchased_list">Köpt</string>
-    <string name="purchased_list_current">MIUI 8</string>
+    <string name="purchased_list_current">Optimized themes</string>
     <string name="purchased_list_legacy">Äldre teman</string>
     <string name="my_gifts">Gåvor</string>
     <string name="my_gifts_purchased">Köpt</string>
@@ -320,10 +320,10 @@
     <string name="theme_favorite_add_fail">Kunde inte lägga till, till favoriter</string>
     <string name="theme_favorite_delete_success">Borttagen från favoriter</string>
     <string name="theme_favorite_delete_fail">Kan inte ta bort från favirot-tema</string>
-    <string name="theme_favorite_list_empty">Du har inte favoriserat något tema.</string>
-    <string name="theme_favorite_delete">Ta bort favorit</string>
+    <string name="theme_favorite_list_empty">"You haven't added any themes to favorites."</string>
+    <string name="theme_favorite_delete">Remove from favorites</string>
     <string name="theme_favorite_waiting">Bara en sekund…</string>
-    <string name="theme_empty_redirect">Tillbaks till Tema Butik</string>
+    <string name="theme_empty_redirect">Back to Themes</string>
     <string name="theme_purchased_non_local">Online</string>
     <string name="theme_purchased_list_empty">Du har inte köpt några teman.</string>
     <string name="gift_present">Ge</string>
@@ -358,7 +358,7 @@
     <string name="gift_purchased_list_empty">Du har inte gett några gåvor än.</string>
     <string name="gift_received_list_empty">Du har inte mottagit några gåvor.</string>
     <string name="gift_received_notification_title">%s gav dig ett tema.</string>
-    <string name="present_online_themes">Skaffa fler teman gratis</string>
+    <string name="present_online_themes">Get more online themes</string>
     <string name="present_local_themes">My resources</string>
     <string name="lockscreen_magazine_title">Bakgrundskarusell</string>
     <string name="lockscreen_magazine_summary">Kategorier</string>
@@ -427,19 +427,19 @@
     <string name="find_more_wallpapers">Find more</string>
     <string name="local_photos">Local photos</string>
     <string name="recently_used">Recently used</string>
-    <string name="system_precust">System precust</string>
-    <string name="wallpaper_settings_loading_text">Loading</string>
+    <string name="system_precust">Pre-installed</string>
+    <string name="wallpaper_settings_loading_text">Just a sec…</string>
     <string name="wallpaper_settings_no_history">No history</string>
-    <string name="card_loading">Loading...</string>
-    <string name="card_no_network">No network now, please connect and try again~</string>
-    <string name="card_data_request_error">Data request exception, please try again later~</string>
-    <string name="card_retry">Retry</string>
-    <string name="in_the_end">No more</string>
+    <string name="card_loading">Just a sec…</string>
+    <string name="card_no_network">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="card_data_request_error">An error occurred. Wait a minute or two and try again.</string>
+    <string name="card_retry">Try again</string>
+    <string name="in_the_end">No more items to show</string>
     <string name="item_resource_audio_divider">│</string>
-    <string name="item_resource_audio_optional_color_ring">color ring</string>
-    <string name="item_resource_audio_optional_phone_ring">phone ring</string>
-    <string name="item_resource_audio_optional_alarm_ring">alarm ring</string>
-    <string name="item_resource_audio_optional_notification_ring">notification ring</string>
+    <string name="item_resource_audio_optional_color_ring">Ringback tone</string>
+    <string name="item_resource_audio_optional_phone_ring">Ringtone</string>
+    <string name="item_resource_audio_optional_alarm_ring">Alarms</string>
+    <string name="item_resource_audio_optional_notification_ring">Notifications</string>
     <string name="resource_ring_ranking_list_divider">-</string>
     <string name="resource_ring_ranking_list_rank_1">1</string>
     <string name="resource_ring_ranking_list_rank_2">2</string>
@@ -447,4 +447,14 @@
     <string name="ringtone_set_success">Set successfully</string>
     <string name="online_precust_peach_blossom">Peach blossom</string>
     <string name="online_precust_asphalt">Asphalt</string>
+    <string name="online_precust_entertainment">Entertainment</string>
+    <string name="online_precust_scenery">Scenery</string>
+    <string name="online_precust_starry_sky">Starry sky</string>
+    <string name="online_precust_plant">Plant</string>
+    <string name="online_precust_animal">Animal</string>
+    <string name="online_precust_creative">Creative</string>
+    <string name="online_precust_building">Building</string>
+    <string name="online_precust_lifestyle">Lifestyle</string>
+    <string name="online_precust_cartoon">Cartoon</string>
+    <string name="region_not_support">Sorry,Themes is not supported in your area.</string>
 </resources>

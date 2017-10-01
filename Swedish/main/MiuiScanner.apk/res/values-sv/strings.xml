@@ -32,7 +32,7 @@
     <string name="common_save">Spara</string>
     <string name="common_retry">Försök igen</string>
     <string name="sdk_not_ready">Förbereder SDK. Försök igen senare.</string>
-    <string name="error_get_image">fail to get image</string>
+    <string name="error_get_image">"Couldn't get image"</string>
     <string name="language_entry_chinese_cn">Förenklad kinesiska</string>
     <string name="language_entry_chinese_tw">Traditionell kinesiska</string>
     <string name="language_entry_danish">Danska</string>
@@ -102,6 +102,8 @@
     <string name="payment_zhifubao">AliPay</string>
     <string name="weixin_code_tip">Please use WeChat to scan this QR code</string>
     <string name="back">Back</string>
+    <string name="label_flash_light">Flash light</string>
+    <string name="label_choose_picture">Choose picture</string>
     <string name="shopping_title">Ta ett foto av produkten</string>
     <string name="shopping_searching">Söker…</string>
     <string name="shopping_vendor_info">Drivs av TaoBao</string>
@@ -166,7 +168,7 @@
     <string name="document_color_picture_tip">Konverterar till färg…</string>
     <string name="document_save_succeed_tip">Dokument sparad till %1$s</string>
     <string name="document_recognize_fail_tip">Kunde inte läsa dokument</string>
-    <string name="document_recognize_null_tip">Document result is empty</string>
+    <string name="document_recognize_null_tip">"Couldn't recofnize document"</string>
     <string name="recognition_error_download_title">Igenkänningsmotor erkännande krävs</string>
     <string name="recognition_error_download_msg">Hämta igenkänningsmotor att skanna kort. Dess storlek är cirka 15 Mb.</string>
     <string name="recognition_error_download_ok">Ladda ner</string>
@@ -178,5 +180,5 @@
     <string name="recognition_error_download_fail">Det gick inte att hämta igenkänningsmotor</string>
     <string name="low_version_tip">MIUI version is too old. Update MIUI to use Scanner.</string>
     <string name="app_description_title">About Scanner</string>
-    <string name="app_description_content">Scanner provide QR code scan, scan to translate, scan to solve questions, business card recognition. Please make sure you already acknowledged function and service provided by this app.</string>
+    <string name="app_description_content">Scanner allows you to scan QR codes, documents, business cards, and more. Make sure you can do without these features before you uninstall the app.</string>
 </resources>

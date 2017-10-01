@@ -309,6 +309,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="vcard_export_will_start_message">%s kommer att importeras snart.</string>
     <string name="vcard_export_request_rejected_message">vCard exportförfrågan nekades. Försök igen senare.</string>
     <string name="vcard_unknown_filename">kontakt</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Exportera kontakter?</string>
     <string name="confirm_export_message">Dina kontakter kommer att exporteras till filen: %s.</string>
     <string name="exporting_contact_failed_title">Kunde inte exportera</string>
@@ -693,6 +694,7 @@ Kontakt kort är avstängda"</string>
     <string name="miprofile_alertdialog_message">Visa detta namn för kontakter när du frågar om att byta kort.</string>
     <string name="miprofile_alertdialog_edit">Ange namn</string>
     <string name="miprofile_switch_off_alertdialog_message">Du kommer inte kunna växla kontakt kort med andra.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Lägg till telefonnummer</string>
     <string name="miprofile_bind_account_alertdialog_message">Du måste lägga till denna enhets telefonnummer till ditt Mi Konto för att kunna använda denna funktion.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Lägg till nummer</string>
@@ -884,7 +886,7 @@ Kontakt kort är avstängda"</string>
     <string name="pref_key_rebuild_t9_index_message">Återskapa indexet för att lösa sökproblem</string>
     <string name="pref_key_photo">Foto</string>
     <string name="pref_key_photo_word_title">Tilldela kontaktbilder</string>
-    <string name="pref_key_photo_word_summary">Tilldela en bild automatiskt till kontakter som saknar en</string>
+    <string name="pref_key_photo_word_summary">Automatically assign a photo to contacts without one</string>
     <string name="remove_duplicate">"MIUI hjälper dig att finna och slå ihop dubblerade kontakter.
 
  För att börja, välj Slå ihop ikonen på botten av din skärm."</string>
@@ -917,8 +919,8 @@ Kontakt kort är avstängda"</string>
     <string name="share_over_limit">Kan inte dela över 1000 kontakter</string>
     <string name="preference_key_trash_bin_title">Återställ kontakter</string>
     <string name="preference_other">Other</string>
-    <string name="preference_show_yellowpage_tab_title">Show the YellowPage entry</string>
-    <string name="preference_show_yellowpage_tab_description">Close the YellowPage tab, the YellowPage function will not work properly</string>
+    <string name="preference_show_yellowpage_tab_title">Show Yellow pages</string>
+    <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
     <string name="account_default">Telefon</string>
     <string name="lunarBirthdayLabelsGroup">Mån-födelsedag</string>
     <string name="option_view_contact">Visa</string>
@@ -957,8 +959,9 @@ Kontakt kort är avstängda"</string>
     <string name="antispam_provider_format">Identifierad av %s</string>
     <string name="type_mx_msg">Mi Meddelande</string>
     <string name="qr_card_card">QR-kod</string>
-    <string name="unknown_details_new_contact">New contact</string>
-    <string name="unfold_all">unfold all</string>
+    <string name="unknown_details_new_contact">New</string>
+    <string name="unknown_details_add_to_contact">Existing</string>
+    <string name="unfold_all">Show all</string>
     <string name="menu_new_favorite_action_bar">Lägg till i favoriter</string>
     <string name="click_close">Klicka för att stänga</string>
     <string name="phone_primary">Primär</string>
@@ -978,9 +981,10 @@ Kontakt kort är avstängda"</string>
     <string name="group_create_fail_toast">Det gick inte att skapa grupp</string>
     <string name="group_rename_fail_toast">Kunde inte byta namn på grupp</string>
     <string name="contact_unfavorite_toast">Borttagen från favoriter</string>
-    <string name="group_member_remove_toast">Borttagen från grupp</string>
-    <string name="contact_delete_toast">Deleted contact successfully</string>
     <string name="profile_delete_toast">Deleted profile successfully</string>
+    <string name="group_member_remove_success_toast">Removed from group</string>
+    <string name="group_member_remove_fail_toast">Not removed from group</string>
+    <string name="contact_delete_toast">Contact deleted</string>
     <string name="duplicate_group_name">En grupp med det namnet existerar redan</string>
     <string name="all_list_empty">Inga kontakter</string>
     <string name="favorites_list_empty">Inga favoriter</string>
@@ -1066,6 +1070,7 @@ Kontakt kort är avstängda"</string>
     <string name="device_import_local_account">Lokalt konto</string>
     <string name="import_name">Namn</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Kontrollera målenheten</string>
@@ -1102,13 +1107,13 @@ Kontakt kort är avstängda"</string>
     <string name="batch_delete">Radera parti</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="other_contacts">Övriga kontakter</string>
-    <string name="set_photo_failed_msg">Kunde inte tilldela bild.</string>
+    <string name="set_photo_failed_msg">"Couldn't assign photo"</string>
     <string name="contact_is_readOnly">Kan inte redigera skrivskyddade kontakter</string>
     <string name="profile_name">Min profil</string>
     <string name="profile_name_photo">Foto</string>
     <string name="toast_copying">Kopierar…</string>
     <string name="toast_copy_done">Klar</string>
-    <string name="toast_start_intent_failed">No app was found to handle</string>
+    <string name="toast_start_intent_failed">"Couldn't find apps to handle this action"</string>
     <string name="group_name">Mina grupper</string>
     <string name="import_all_sim_entries_miui">Importera alla kontakter</string>
     <string name="import_sim_entry_miui">Importera</string>
@@ -1190,11 +1195,6 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="data_unit_mb">MB</string>
     <string name="data_unit_gb">GB</string>
     <string name="set_data_package">Ställ in dataplan först</string>
-    <string name="livetalk_charge">Fyll på</string>
-    <string name="livetalk_switch_on">Aktivera</string>
-    <string name="livetalk_left">Återstående</string>
-    <string name="livetalk_title">Fyll på-paket</string>
-    <string name="live_talk_switch_on_toast">Aktivera fyll-på paket lyckats</string>
     <string name="button_join_service_number">Lägg till tjänstnummer</string>
     <string name="button_my_center">Profil</string>
     <string name="gallery">Galleri</string>
@@ -1257,6 +1257,6 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="t9_search_empty_create_contact">New contact</string>
     <string name="t9_search_empty_video_call">Video call</string>
     <string name="t9_search_empty_send_sms">Send message</string>
-    <string name="t9_search_empty_edit_contact">Add to contact</string>
+    <string name="t9_search_empty_edit_contact">Add to contacts</string>
     <string name="add_field_toast">No more fields to add.</string>
 </resources>

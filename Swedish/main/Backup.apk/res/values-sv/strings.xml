@@ -32,7 +32,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="delete_backup_title">Ta bort säkerhetskopiering</string>
     <string name="delete">Radera</string>
     <string name="cancel">Avbryt</string>
-    <string name="reconnect">Reconnect</string>
+    <string name="reconnect">Connect again</string>
     <string name="delete_backup_process">Tar bort…</string>
     <string name="backup_error">Kunde inte säkerhetskopiera</string>
     <string name="delete_failed_backup_confirm">Denna säkerhetskopiering innehåller fel.</string>
@@ -227,6 +227,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="file_uploading">Laddar upp…</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Bara en sekund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
@@ -260,7 +261,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="notif_trans_receiving_completed">Data mottagen framgångsrikt</string>
     <string name="notif_trans_sending_failed">Det gick inte att skicka data</string>
     <string name="notif_trans_receiving_failed">Det gick inte att ta emot data</string>
-    <string name="notif_trans_wait_for_reconnecting">Remote device is disconnected. Please connect again.</string>
+    <string name="notif_trans_wait_for_reconnecting">Connection was interrupted. Connect again.</string>
     <string name="custom_progress">%d objekt</string>
     <string name="remote_receive">Ta emot</string>
     <string name="click_to_view">Tryck för att visa</string>
@@ -308,8 +309,8 @@ Förbrukad tid: %s"</string>
     <string name="trans_progress_subdescript_transing_receiver_finish">Mottaget %s, väntar på att återställa…</string>
     <string name="trans_cancel_confirm">Överförning pågår, avbryt nu?</string>
     <string name="trans_cancelling">Avbryter…</string>
-    <string name="trans_device_disconnected">Enhet frånkopplad</string>
-    <string name="trans_device_wait_for_reconnecting">Device disconnected. Please reconnect.</string>
+    <string name="trans_device_disconnected">Connection was interrupted</string>
+    <string name="trans_device_wait_for_reconnecting">Connection was interrupted. Connect again to continue.</string>
     <string name="trans_connecting_toast">Ansluter…</string>
     <string name="trans_connect_failed_toast">Det gick inte att ansluta</string>
     <string name="trans_generate_qr_code_failed">Det gick inte att skapa QR-kod</string>
@@ -325,10 +326,10 @@ Förbrukad tid: %s"</string>
 2. Öppna appen coh tryck Starta
 3. Skanna QR koden med din gamla enhet"</string>
     <string name="trans_operate_old_phone_tips2">Gå till Inställningar > Ytterligare Inställningar > Överför, Tryck[Jag är avsändare]</string>
-    <string name="trans_operate_reconnect_new_tips">"Wait until new phone shows \"Device disconnected\".
-Then click [Reconnect] to create a QR code."</string>
-    <string name="trans_operate_reconnect_old_tips">"Wait until old phone shows \"Device disconnected\".
-Then click [Reconnect] to scan the QR code."</string>
+    <string name="trans_operate_reconnect_new_tips">"Wait until the new phone shows \"Connection was interrupted\".
+Then tap \"Connect again\" to create a QR code."</string>
+    <string name="trans_operate_reconnect_old_tips">"Wait until the old phone shows \"Connection was interrupted\".
+Then tap \"Connect again\" to scan the QR code."</string>
     <string name="trans_wait_trans_data">"Anslut till den gamla enheten.
 Vänta på överföringen…"</string>
     <string name="trans_select_data">Välj objekt att senda</string>
@@ -351,8 +352,8 @@ Rensa minst %s."</string>
     <string name="trans_retry">Försök igen</string>
     <string name="trans_start_failed_title">Det gick inte att starta överföring</string>
     <string name="trans_start_failed_message">Det gick inte att starta överföring, försök igen eller starta om enheten.</string>
-    <string name="trans_connect_failed_device_incompatible">device incompatible. Please cancel the transfering progress and try again.</string>
-    <string name="trans_connection_failed">Enhet frånkopplad</string>
+    <string name="trans_connect_failed_device_incompatible">"Device isn't compatible. Cancel the transfer and try again."</string>
+    <string name="trans_connection_failed">Connection was interrupted</string>
     <string name="user_notice_title">Uppmärksamma</string>
     <string name="user_notice_message">Vissa funktioner kräver internetuppkoppling för att fungera.</string>
     <string name="user_notice_declaration_ignore">Visa inte igen</string>
@@ -362,4 +363,31 @@ Rensa minst %s."</string>
     <string name="backup_security_tips_message">Some apps may not be able to be backed up or restored.</string>
     <string name="trans_security_tips_title">Mi Mover compatibility</string>
     <string name="trans_security_tips_message">"Some apps don't support Mi Mover."</string>
+    <string name="trans_intro_title">FAQ</string>
+    <string name="trans_intro_question_1">1. How do I use Mi Mover?</string>
+    <string name="trans_intro_title_new">On a new phone:</string>
+    <string name="trans_intro_desc_new">"Tap \"I'm a recipient\". A QR code will be generated."</string>
+    <string name="trans_intro_title_old">On an old phone:</string>
+    <string name="trans_intro_desc_old">"Tap \"I'm a sender\". Scan the QR code on the new phone, wait until Mi Mover figures out which files to send, and tap \"Send\"."</string>
+    <string name="trans_intro_question_2">2. What should I do if Mi Mover got stuck on a certain step?</string>
+    <string name="trans_intro_desc_2">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
+    <string name="trans_intro_question_3">"3. Why can't I use Wi-Fi during transfers?"</string>
+    <string name="trans_intro_desc_3">"Mi Mover uses Wi-Fi to transfer files. That's why you can't connect to the internet using Wi-Fi on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using Wi-Fi during transfers."</string>
+    <string name="trans_intro_question_4">"4. Why does Mi Mover tell me there isn't enough storage space on my old phone?"</string>
+    <string name="trans_intro_desc_4">Storage space on old devices is used for creating transfer packages. Make sure you have at least 500MB - 1GB of available storage on your old phone before you start a transfer.</string>
+    <string name="trans_intro_question_5">"5. Why aren't some apps transferred successfully?"</string>
+    <string name="trans_intro_desc_5">There are several reasons why that may happen: system and app version compatibility issues, network problems, compatibility issues specific to a particular device, etc.</string>
+    <string name="trans_intro_question_6">"6. Why won't some apps start on a new device?"</string>
+    <string name="trans_intro_desc_6">Some app profiles (e-banking, finance, etc.) are associated with specific device due to security reasons. Try clearing the app data or re-installing the app on a new device.</string>
+    <string name="trans_intro_question_7">"7. Why isn't WeChat history fully transferred?"</string>
+    <string name="trans_intro_desc_7">"WeChat app data and chat history might not be fully transferred using Mi Mover. Go to WeChat's settings and sign out of your account to get more chances for a successful transfer."</string>
+    <string name="trans_intro_question_8">"8. Which items can't be transferred?"</string>
+    <string name="trans_intro_title_account">Accounts and passwords:</string>
+    <string name="trans_intro_desc_account">You have to sign in again to your accounts (e.g., Mi Account, Exchange, Google, etc.) on a new device due to security reasons.</string>
+    <string name="trans_intro_title_private">Hidden album:</string>
+    <string name="trans_intro_desc_private">"Mi Mover can't access photos in the hidden album because they are encrypted. You can restore these photos from Mi Cloud on a new device."</string>
+    <string name="trans_intro_title_multiuser">Second space data:</string>
+    <string name="trans_intro_desc_multiuser">"Mi Mover can't access items in Second space. Move items to First space and launch Mi Mover there."</string>
+    <string name="trans_intro_title_multiapp">Dual apps data:</string>
+    <string name="trans_intro_desc_multiapp">"Mi Mover doesn't transfer Dual apps data to avoid conflicts between files."</string>
 </resources>

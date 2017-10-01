@@ -69,14 +69,14 @@
     <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan starta eller stanna denna funktion närsomhelst i Inställningar.
 "</string>
-    <string name="sync_dspt_entrance_provision">"MiCloud help you to sync photos,contacts and more across devices.You can access the things you sync from any browser at %s. "</string>
+    <string name="sync_dspt_entrance_provision">Mi Cloud helps you sync photos, contacts, and other items across devices. You can access synced items anywhere at %s.</string>
     <string name="sync_dspt_entrance_provision_2">Ta reda på mer</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Använd ej</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Använd Mi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Använd inte Mi Cloud?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">"MIUI's inbyggda appar behöver Mi Cloud för att säkerhetskopiera dina foton, kontakter, anteckningar och annat. Mi Cloud är gratis och redo att användas direkt."</string>
     <string name="sync_dspt_entrance_provision_skip">Hoppa över detta steg</string>
-    <string name="sync_dspt_entrance_provision_network">This app needs to connect to the internet to work normally.Sync data may be connected to the data network and open WiFi.</string>
+    <string name="sync_dspt_entrance_provision_network">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on Wi-Fi.</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till %s för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
@@ -164,6 +164,7 @@ Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återa
     <string name="calendar_sync">Kalender</string>
     <string name="antispam_sync">Stör ej inställningar</string>
     <string name="deskclock_backup">Säkerhetskopiering för Klocka</string>
+    <string name="secret_photo">Hidden photos</string>
     <string name="wipe_data_dialog_msg_separator">, </string>
     <string name="micloud_space_duokan_title">Duokan</string>
     <string name="micloud_space_duokan_detail">Ladda ner och hantera eböcker med Duokan appen.</string>
@@ -266,7 +267,7 @@ För att lösa detta kan du antingen ta bort gamla filer för att ge plats åt n
     <string name="micloud_main_space_low">Snart slut på utrymme</string>
     <string name="micloud_main_update_space">Skaffa mer utrymme.</string>
     <string name="micloud_main_space_full_title">Inte tillräckligt med utrymme, synk pausad</string>
-    <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
+    <string name="micloud_main_space_full_message">Buy more storage space in Mi Cloud</string>
     <string name="micloud_main_memory_low_title">Telefonens internlagring är nästan fullt</string>
     <string name="micloud_main_memory_low_message">För att synkronisera, radera objekt du har lagrat i molnet.</string>
     <string name="micloud_main_clear_now">Rensa</string>
@@ -276,14 +277,14 @@ För att lösa detta kan du antingen ta bort gamla filer för att ge plats åt n
     <string name="micloud_main_multi_user_error_message">"You signed in with the same account as in First space which caused a Mi Cloud error. 
 Use a different account."</string>
     <string name="micloud_main_cancel_sync">Avbryt synkronisering</string>
-    <string name="micloud_main_query_again">Query</string>
+    <string name="micloud_main_query_again">Send another request</string>
     <string name="micloud_main_wait_wlan">Waiting for Wi-Fi</string>
-    <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
-    <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+    <string name="micloud_main_wait_wlan_charge_sleep">Connect to Wi-Fi, turn off screen, and fully charge your device to resume sync.</string>
+    <string name="micloud_main_wait_wlan_charge">Connect to Wi-Fi and fully charge your device to resume sync.</string>
+    <string name="micloud_main_wait_charge_sleep">Turn off screen and fully charge your device to resume sync.</string>
+    <string name="micloud_main_wait_charge">Fully charge your device to resume sync.</string>
     <string name="micloud_main_resume_sync_soon">Resume sync soon</string>
-    <string name="micloud_main_button_set_internet">Setting</string>
+    <string name="micloud_main_button_set_internet">Settings</string>
     <string name="micloud_main_button_activate">Activate</string>
     <string name="micloud_main_button_authorize">Authorize</string>
     <string name="micloud_detail_syncing">Synkroniserar</string>
@@ -291,8 +292,8 @@ Use a different account."</string>
     <string name="micloud_detail_download_syncing">Laddar ner %s</string>
     <string name="micloud_detail_pending">Väntar</string>
     <string name="micloud_detail_success">Synkroniserad</string>
-    <string name="micloud_detail_fail">Kan inte synkronisera</string>
-    <string name="micloud_detail_not_syncable">Not syncable</string>
+    <string name="micloud_detail_fail">"Couldn't sync"</string>
+    <string name="micloud_detail_not_syncable">"Can't sync"</string>
     <string name="micloud_detail_lastest">Synkroniserad</string>
     <string name="micloud_detail_lastest_with_off">Synkroniserad</string>
     <string name="micloud_detail_not_synced">Inte synkroniserad</string>
@@ -408,10 +409,10 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="micloud_main_title_sync_on_wifi">Använd Wi-Fi</string>
     <string name="micloud_main_title_sync_off">Synkronisering avstängd</string>
     <string name="micloud_main_title_master_sync_off">Automatiskt synkronisering är avstängd</string>
-    <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
-    <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
-    <string name="micloud_main_error_activated_fail">Please activate Sim card.</string>
-    <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
+    <string name="micloud_main_message_master_sync_off">You turned off sync in the Notification shade.</string>
+    <string name="micloud_main_error_network_disallowed">Make sure you allowed access to the internet.</string>
+    <string name="micloud_main_error_activated_fail">Activate your SIM card.</string>
+    <string name="micloud_main_error_permission_limit">Allow Mi Cloud to access storage.</string>
     <string name="micloud_confusion_no">Nej</string>
     <string name="micloud_confusion_yes">Ja</string>
     <string name="micloud_confusion_cancel">Avbryt</string>
@@ -506,7 +507,7 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="micloud_find_device_guide_alert_negtive">No thanks</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">No thanks</string>
     <string name="micloud_find_device_close_alert_title">Turn off Find device?</string>
-    <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+    <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you won't be able to locate your device in case it's lost."</string>
     <string name="micloud_find_device_close_alert_positive">Keep on</string>
     <string name="micloud_find_device_close_alert_negtive">Turn off anyway</string>
     <string name="activate_finddevice">Anslut till nätverket för att aktivera enhet</string>
@@ -548,10 +549,13 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="micloud_wipe_data_confirm_title">Ta bort objekt synkroniserade med Mi Cloud från telefonen när du har loggat ut?</string>
     <string name="micloud_wipe_data_retain">Behåll</string>
     <string name="micloud_wipe_data_remove">Ta bort</string>
-    <string name="wipe_data_dialog_title">Några objekt har inte blivit synkroniserade</string>
-    <string name="wipe_data_dialog_msg">%s synkroniserades inte och kommer stanna på telefonen.</string>
+    <string name="wipe_data_dialog_title">"Items aren't synced"</string>
+    <string name="wipe_data_dialog_msg">"Some items (%s) aren't synced. They will be saved on your device and won't be deleted."</string>
     <string name="wipe_data_dialog_button_check_sync">Kontrollera om synkroniserad</string>
     <string name="wipe_data_dialog_msg_and_on">, och några andra objekt</string>
+    <string name="wipe_secret_photo_dialog_title">"Hidden photos aren't synced"</string>
+    <string name="confirm_delete">Delete</string>
+    <string name="confirm_save">Keep</string>
     <string name="micloud_dialog_sync_now_title">Anslut till Wi-Fi för att synkronisera</string>
     <string name="micloud_dialog_sync_now_message">Anslut till Wi-Fi för att undvika mobildata avgifter</string>
     <string name="micloud_dialog_sync_now_negative">Inte nu</string>

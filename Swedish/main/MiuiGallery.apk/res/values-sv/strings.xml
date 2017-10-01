@@ -33,8 +33,8 @@
     <string name="video_editor_audio_sad">Ballad</string>
     <string name="video_editor_audio_custom">Välj</string>
     <string name="video_editor_unsupport_audio_file">Stödjer ej ljudfil</string>
-    <string name="video_editor_text_preview_text">MI</string>
-    <string name="video_editor_text_default">default</string>
+    <string name="video_editor_text_preview_text">Aa</string>
+    <string name="video_editor_text_default">Default</string>
     <string name="video_editor_text_input_empty_tips">Ser ut som att du inte fyllt i text ännu</string>
     <string name="video_editor_encode_video">Kodning av video…</string>
     <string name="video_editor_analyzing">Analyserar video…</string>
@@ -296,8 +296,8 @@ Ta fler bilder av dina vänner!"</string>
     <string name="picker_image_will_download">%d av de valda fotona finns inte på enheten. De kommer att laddas ner.</string>
     <string name="picker_continue_with_exists">Fortsätt med lokala foton</string>
     <string name="picker_download">Ladda ner</string>
-    <string name="picker_cancel_download">Avbryt hämtning</string>
-    <string name="picker_continue_download">Fortsätt hämtning</string>
+    <string name="picker_cancel_download">Cancel downloading</string>
+    <string name="picker_continue_download">Continue downloading</string>
     <string name="picker_no_network_message">Anslut till nätverket för att ladda ner</string>
     <string name="picker_download_progress_message">Laddar ned %1$d/%2$d</string>
     <string name="operation_send">Skicka</string>
@@ -320,8 +320,8 @@ Ta fler bilder av dina vänner!"</string>
     <string name="operation_share">Dela</string>
     <string name="operation_force_top">Pin</string>
     <string name="operation_unforce_top">Släppa</string>
-    <string name="operation_hide">Dölj</string>
-    <string name="operation_unhide">Ta bort dölj</string>
+    <string name="operation_hide">Make invisible</string>
+    <string name="operation_unhide">Make visible</string>
     <string name="operation_enable_auto_upload">Sätt på synkronisering mot Mi Cloud</string>
     <string name="operation_disable_auto_upload">Stäng av synkronisering med Mi Cloud</string>
     <string name="operation_remove_from_other_albums">Flytta från annat album</string>
@@ -409,6 +409,8 @@ Ta fler bilder av dina vänner!"</string>
     <string name="must_pick_file">Välj ett foto</string>
     <string name="send_multiple_files_hint_format">Skicka (%s)</string>
     <string name="send_too_many_files_error">Kan skicka upp till %d objekt åt gången</string>
+    <string name="app_is_launching">%s is launching…</string>
+    <string name="app_is_launching_common">Launching app…</string>
     <string name="title_warn">Varning</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
@@ -584,7 +586,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="slim_after_backuped_title">Optimera lokalt utrymme efter säkerhetskopiering</string>
     <string name="slim_after_backuped_summary">Byt bilder i full upplösning på enheten med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Bilder i full upplösning kommer fortfarande att finnas i Mi Cloud. Detta kan spara en hel del lokal lagring.</string>
     <string name="browse_category_title">Bläddra</string>
-    <string name="show_hidden_album_title">Visa gömda album</string>
+    <string name="show_hidden_album_title">Show invisible albums</string>
     <string name="slideshow_interval_title">Visa varje bildspel i</string>
     <string name="slideshow_interval_value">%1$d sekunder</string>
     <string name="slideshow_interval_dialog_title">Ange intervall</string>
@@ -600,6 +602,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="welcome_to_slim">Optimera lokalt utrymme</string>
     <string name="slim_introduce">Byt bilder i full upplösning med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Full upplösning objekt kommer fortfarande att finnas i Mi Cloud.</string>
     <string name="slim_introduce_with_specific_size">Byt bilder i full upplösning med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Full upplösning objekt kommer fortfarande att finnas i Mi Cloud. Detta kan spara upp till %1$s av lokal lagring (Mi konto krävs).</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Säkerhetskopiera bilder och videor automatiskt (Mi konto krävs)</string>
     <string name="next">Nästa</string>
     <string name="login_and_enable_service">Logga in med Mi konto</string>
@@ -676,6 +679,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="cloud_storage_ok_append_desc">Tillgängligt %s</string>
     <string name="cloud_storage_warn_title">Inte tillräckligt med Mi Cloud utrymme</string>
     <string name="cloud_storage_warn_desc">Köp Cloud VIP för extra utrymme</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Extend cloud space</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
@@ -784,6 +788,24 @@ Ta fler bilder av dina vänner!"</string>
     <string name="search_setting_sub_title_open">Applied. Wait a while before you start.</string>
     <string name="search_request_open">Join testing team</string>
     <string name="search_title_more">More</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_mark_feedback_false_positive_title">Fix</string>
+    <string name="search_mark_feedback_all_false_negative_title">All are \"%s\"</string>
+    <string name="search_mark_feedback_false_negative_title">OK</string>
+    <string name="search_feedback_false_negative_title">Selected items are \"%s\"</string>
+    <string name="search_failed_mark_feedback_false_positive">"Couldn't remove"</string>
+    <string name="search_failed_mark_feedback_false_negative">"Couldn't add"</string>
+    <string name="search_feedback_false_positive_text">Remove photos from \"%s\"?</string>
+    <string name="search_feedback_false_negative_text">Add photos to \"%s\"?</string>
+    <string name="search_feedback_contribute">Add photos to AI algorithm database</string>
+    <string name="search_feedback_task_finish_title">Tap to receive reward!</string>
+    <string name="search_feedback_task_progress">%1$d/%2$d</string>
+    <string name="search_feedback_likely_title">Looks like these photos may have \"%s\"</string>
+    <string name="search_feedback_likely_check_title">Check</string>
+    <string name="search_feedback_false_positive_title">Looks like these are \"%s\"</string>
+    <string name="search_feedback_task_requesting_award">Receiving reward​…</string>
+    <string name="search_feedback_task_request_award_failed">"Couldn't receive reward. Try again later.​"</string>
     <string name="grant_permission_title">Tillåt åtkomst</string>
     <string name="grant_permission_text">"Gallery behöver tillgång till 
 %s
@@ -878,7 +900,15 @@ Ta fler bilder av dina vänner!"</string>
     <string name="sub_discard_positive_btn">Spara</string>
     <string name="sub_discard_negative_btn">Kasta</string>
     <string name="photo_editor_navigator_cancel">Cancel</string>
-    <string name="photo_editor_navigator_export">Finish</string>
+    <string name="photo_editor_navigator_export">Save</string>
+    <string name="photo_editor_navigator_need_download">Connect to the internet to download %s.</string>
+    <string name="photo_editor_navigator_module_downloading">Downloading %s…</string>
+    <string name="photo_editor_navigator_download_network_metered_title">Data usage warning</string>
+    <string name="photo_editor_navigator_download_network_metered_msg">Downloading %s requires about 4MB of mobile data. Download now?</string>
+    <string name="photo_editor_navigator_module_download_wait_wlan">Wait for Wi-Fi</string>
+    <string name="photo_editor_navigator_module_download_now">Download</string>
+    <string name="photo_editor_navigator_module_download_success">Downloaded successfully</string>
+    <string name="photo_editor_navigator_module_download_failed">"Couldn't download %s"</string>
     <string name="photo_editor_beautify">Beautify</string>
     <string name="photo_editor_filter">Filter</string>
     <string name="photo_editor_crop_and_rotate">Crop</string>
@@ -888,8 +918,9 @@ Ta fler bilder av dina vänner!"</string>
     <string name="photo_editor_text">Text</string>
     <string name="photo_editor_long_crop">Crop</string>
     <string name="photo_editor_mosaic">Mosaic</string>
+    <string name="photo_editor_remover">Erase</string>
     <string name="photo_editor_beauty_compare">Original</string>
-    <string name="onekey_none">None</string>
+    <string name="onekey_none">Original</string>
     <string name="onekey_auto">Auto</string>
     <string name="onekey_food">Food</string>
     <string name="onekey_scene">Landscape</string>
@@ -958,4 +989,8 @@ Ta fler bilder av dina vänner!"</string>
     <string name="text_append_font_example">Aa</string>
     <string name="text_edit_dialog_font">Font</string>
     <string name="text_edit_dialog_font_default">Default</string>
+    <string name="remover_edit_type_free">Objects</string>
+    <string name="remover_edit_type_line">Lines</string>
+    <string name="remover_menu_processing">Processing</string>
+    <string name="remover_erase_aera_too_big">The erase area is too big</string>
 </resources>

@@ -32,8 +32,8 @@
     <string-array name="action_param_translate">
         <item>Ingen</item>
         <item>Standard</item>
-        <item>Bild</item>
-        <item>Film</item>
+        <item>Images</item>
+        <item>Movies</item>
         <item>Battery Saver</item>
         <item>Balans</item>
         <item>Prestanda</item>
@@ -67,12 +67,12 @@
         <item>Väcker enhet ofta</item>
     </string-array>
     <string-array name="power_checker_recent_group_titles">
-        <item>Kernel WakeLock</item>
-        <item>WakeLock</item>
-        <item>Wi-Fi skanna</item>
-        <item>GPS</item>
-        <item>CPU</item>
-        <item>Vakna</item>
+        <item>Blocking deep sleep mode</item>
+        <item>Blocking sleep mode</item>
+        <item>Searching for Wi-Fi</item>
+        <item>Using GPS</item>
+        <item>Occupying CPU</item>
+        <item>Waking device frequentl</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
@@ -80,11 +80,11 @@
         <item></item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>Default warm control mode</item>
-        <item>Performance first mode</item>
+        <item>Default temperature control mode</item>
+        <item>Performance mode</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Current default mode</item>
+        <item>Current temperature control mode</item>
         <item>Current performance mode</item>
     </string-array>
 </resources>
