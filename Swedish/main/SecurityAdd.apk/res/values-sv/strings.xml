@@ -39,7 +39,7 @@
     <string name="pc_activity_title">Optimera batteri</string>
     <string name="game_booster">Game speed booster</string>
     <string name="game_booster_title">Boost</string>
-<string name="top_game"/>
+    <string name="top_game">Topp-spel</string>
     <string name="game_setting">Spelinställningar</string>
     <string name="gs_auto_clean_memory">Rensa cache</string>
     <string name="gs_auto_clean_memory_detail">Rensa cache automatiskt för att optimera spelande</string>

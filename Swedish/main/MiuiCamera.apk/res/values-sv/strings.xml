@@ -340,6 +340,7 @@ Motivet bör inte vara längre bort än 2 meter."</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Options</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -356,6 +357,7 @@ and then create a shot where everyone looks best."</string>
     <string name="toast_saving">Sparar bild…</string>
     <string name="cannot_connect_camera_volte_call">Videosamtal pågår, försök senare.</string>
     <string name="hibernate_hint">Tap the screen to wake Camera</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Zoom läge</string>
     <string name="accessibility_portrait_button">Porträttläge</string>
     <string name="toast_burst_snap_finished_summary">Burst shot done, %1$s photos taken</string>
@@ -455,4 +457,5 @@ and then create a shot with a minimal amount of noise."</string>
     <string name="pref_retain_camera_mode_title">Save previous mode</string>
     <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
     <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
+    <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
 </resources>
