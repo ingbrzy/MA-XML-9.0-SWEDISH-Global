@@ -68,6 +68,8 @@
     <string name="reboot_progress">Startar om…</string>
     <string name="screen_on_proximity_sensor_title">Fickläge</string>
     <string name="screen_on_proximity_sensor_summary">Täck inte hörlursområdet</string>
+    <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
+    <string name="screen_on_proximity_sensor_hint_has_navigation_bar">To turn this feature off, press the Volume up button.</string>
     <string name="screen_button_notification_title">Navigationsknapparna är avstängda</string>
     <string name="screen_button_notification_text">För att slå på dem, tryck på Hem och Ström knapparna samtidigt.</string>
     <string name="screen_paper_mode_enter_toast">Läsläge är på. För att stänga av denna funktion, gå till Inställningar > Skärm > Läsläge.</string>

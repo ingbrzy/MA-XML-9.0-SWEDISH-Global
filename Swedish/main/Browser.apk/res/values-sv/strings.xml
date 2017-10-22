@@ -23,10 +23,14 @@
     <string name="action_menu_account_not_login_hint">Logga in för att synka med Mi Cloud</string>
     <string name="action_menu_bookshelf">Bokhylla</string>
     <string name="action_menu_current_version">Aktuell version</string>
+    <string name="action_menu_request_desktop_site">Request desktop site</string>
+    <string name="action_menu_request_desktop_site_off">Request desktop site/off</string>
+    <string name="action_menu_request_desktop_site_on">Request desktop site/on</string>
     <string name="action_menu_text_add_bookmark">Lägg till bokmärke</string>
     <string name="action_menu_text_bandwidth">Sparad data</string>
     <string name="action_menu_text_bandwidth_off">Sparad data</string>
     <string name="action_menu_text_bandwidth_on">Sparad data</string>
+    <string name="action_menu_text_bookmark_add_off">No web page can be added.</string>
     <string name="action_menu_text_bookmark_added">Bokmärke tillagt</string>
     <string name="action_menu_text_copy_url">Kopiera URL</string>
     <string name="action_menu_text_create_qr_code">QR-kod</string>
@@ -61,6 +65,7 @@
     <string name="add_favorites_to">Lägg till i favoriter</string>
     <string name="add_new_bookmark">Lägg till bokmärke</string>
     <string name="add_new_quicklink">Lägg till på startsida</string>
+    <string name="add_pwa_to_homescreen">Add this web to home screen?</string>
     <string name="add_ql_bm_title">Spara</string>
     <string name="add_quicklink_to_popular">Lägg till på startskärm</string>
     <string name="add_quicklinks">Lägg till</string>
@@ -74,6 +79,7 @@
     <string name="added_to_bookmarks">Tillagd i bokmärken</string>
     <string name="adjust_text_zoom_toast">Ändring av text zoom kan få vissa webbsidor att sluta fungera</string>
     <string name="agree">Samtycker</string>
+    <string name="agree_permissions_request">Agree</string>
     <string name="alert_tips">Denna sidan kan innebära en säkerhetsrisk</string>
     <string name="allow">Tillåt</string>
     <string name="app_new_version">Den senaste versionen av denna app är redan installerad</string>
@@ -132,6 +138,7 @@
     <string name="browserFrameFormResubmitMessage">Sidan du försöker visa innehåller data som redan har skickats in. Om du skickar data igen kommer tidigare åtgärder (t.ex. sökningar eller inköp) att upprepas.</string>
     <string name="browserFrameNetworkErrorLabel">Anslutningsfel</string>
     <string name="cancel">Avbryt</string>
+    <string name="cancle_sync_cloud_tabs">Cancel sync</string>
     <string name="cannot_download">Kan endast ladda ner \"http\" eller \"https\" URL</string>
     <string name="choosertitle_sharevia">Dela via</string>
     <string name="clear_history">Rensa historik</string>
@@ -167,6 +174,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentar</string>
     <string name="comment_description">Kommentar</string>
     <string name="comment_hint">Kommentar</string>
@@ -183,6 +191,7 @@
     <string name="contextmenu_manually_block_ad">Label as ad</string>
     <string name="contextmenu_map">Karta</string>
     <string name="contextmenu_openlink">Öppna</string>
+    <string name="contextmenu_openlink_in_browser">Open in Browser</string>
     <string name="contextmenu_openlink_newwindow">Öppna i ny flik</string>
     <string name="contextmenu_openlink_newwindow_background">Öppna i bakgrundsflik</string>
     <string name="contextmenu_recognise_qr_code">Skanna QR-kod</string>
@@ -192,7 +201,7 @@
     <string name="contextmenu_share_image">Dela bild</string>
     <string name="contextmenu_sharelink">Dela länk</string>
     <string name="contextmenu_view_image">Visa bild</string>
-    <string name="contextmenu_webpage_capture">Spara som skärmdump</string>
+    <string name="contextmenu_webpage_capture">Screenshot</string>
     <string name="contextmenu_webpage_html">Spara som HTML fil</string>
     <string name="contextmenu_webpage_snapshot">Spara sida</string>
     <string name="copy_to_clipboard_failure_message">Kopiering till utklipp misslyckades</string>
@@ -285,6 +294,9 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="edit_quicklink">Redigera</string>
     <string name="empty_app_name">annan app</string>
     <string name="empty_bookmark">Tom</string>
+    <string name="empty_cloud_tab_login_hint">No cloud tabs</string>
+    <string name="empty_cloud_tab_logout_hint">"Login mi account
+ tabs opened in other devices will show here"</string>
     <string name="empty_history_hint">Historiken är tom</string>
     <string name="empty_snapshot_hint">Tom</string>
     <string name="enable_geolocation_confirm_message">Stänga av platstjänster kommer påverka rekommendationerna du får.</string>
@@ -308,6 +320,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="find_on_page_next">Nästa</string>
     <string name="find_on_page_prev">Bakåt</string>
     <string name="find_previous">Hitta föregående</string>
+    <string name="finish_sync_cloud_tabs">Sync finished</string>
     <string name="firstUsingSearchEngineTips">Ändra sökmotor?</string>
     <string name="fling_on_border_gesture_hint">Du kan välja funktionaliteten av denna gest i Inställningar</string>
     <string name="force_quick_search_title">Sök</string>
@@ -341,6 +354,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="homepage_more_sites">Fler webbsidor</string>
     <string name="homepage_search_hint">Sök</string>
     <string name="homepage_top_card_menu">Överst</string>
+    <string name="ignore_add_pwa_dialog_today">Not show today</string>
     <string name="in_incognito">Du är inkognito! Webbsidor du visar i den här fliken visas inte i webbläsarhistoriken.</string>
     <string name="in_secureaccess">Webbläsaren ändrade till Felsäkert läge</string>
     <string name="isReplacePage">Filen existerar redan, ersätta?</string>
@@ -550,9 +564,12 @@ Lämna denna sida?"</string>
     <string name="pay_failed_toast">Kunde inte slutföra betalningen</string>
     <string name="pay_success_toast">Betalning genomförd</string>
     <string name="permission_alert_window">Tillåt pop-up fönster att använda denna funktion</string>
+    <string name="permission_notification">send you notifications</string>
     <string name="permission_unknown">Okänd handling</string>
+    <string name="permissions_prompt_message">"%s wants to "</string>
     <string name="popup_window_attempt">Tillåt denna webbplats att öppna ett popup-fönster?</string>
     <string name="positive_confirm_message">Stäng av ändå</string>
+    <string name="pref_accept_quicklink_push">Start page push</string>
     <string name="pref_accessibility">Tillgänglighet</string>
     <string name="pref_accessibility_title">Tillgänglighet</string>
     <string name="pref_accessibility_url_shortcut_enter_summary">Vanliga teckenkombinationer kan matas in med hjälp av ett tryck i adressrutan</string>
@@ -592,7 +609,7 @@ Lämna denna sida?"</string>
     <string name="pref_extras_reset_default_summary">Återställ standardinställningar</string>
     <string name="pref_extras_reset_default_title">Övriga</string>
     <string name="pref_extras_send_feedback">Skicka feedback</string>
-    <string name="pref_extras_title">Avancerad</string>
+    <string name="pref_extras_title">Advanced setting</string>
     <string name="pref_extras_title_version">Versionsinformation</string>
     <string name="pref_file_downlaod_save_is_reset_default_settings">Spara filer till Webbläsaren stanardplats</string>
     <string name="pref_file_downlaod_save_reset_default_settings">Återställ standardplats</string>
@@ -663,12 +680,14 @@ Lämna denna sida?"</string>
     <string name="progress_dialog_setting_wallpaper">Använder bakgrund…</string>
     <string name="pull_to_refresh_pull_label">Dra för att uppdatera</string>
     <string name="pull_to_refresh_release_label">Släpp för att uppdatera</string>
+    <string name="pwa_app_name">Web App</string>
     <string name="qr_code_title">QR-kod</string>
     <string name="qr_description">Scan QR code</string>
     <string name="quicklink_bookmark_save">Spara till</string>
     <string name="quicklink_cannot_save_url">Denna URL kan inte läggas till.</string>
     <string name="quicklink_folder_text">Topp appar</string>
     <string name="quicklink_not_saved">Kunde inte lägg till på startsidan</string>
+    <string name="quicklink_push_confirm_message">Turning this feature off will affect start page push.</string>
     <string name="quicklink_saved">Sparad till startsidan</string>
     <string name="quicklink_saved_before">Denna sida har redan blivit tillagd</string>
     <string name="quicklink_user_define_webpage_title">Namn</string>
@@ -691,6 +710,7 @@ Lämna denna sida?"</string>
     <string name="readmode_recommend_message">Du har redan läst denna bok. :)</string>
     <string name="readmode_refresh">Uppdatera</string>
     <string name="readmodelist_bookmarks_to_show">Läslista</string>
+    <string name="refuse_permissions_request">Refuse</string>
     <string name="remember_passwords_confirm_message">Stängs denna funktion av kan användandet påverkas.</string>
     <string name="remove_bookmark">Radera bokmärke</string>
     <string name="remove_bookmark_group">Ta bort grupp</string>
@@ -801,16 +821,24 @@ Lämna denna sida?"</string>
     <string name="suggest_access_btn_play">Spela</string>
     <string name="suggest_access_btn_view">Visa</string>
     <string name="suggest_access_item_album_songs">%d låtar</string>
+    <string name="suggest_access_item_app_mark">APP</string>
     <string name="suggest_access_item_app_size">%.2fMB</string>
     <string name="suggest_access_item_app_update">Uppdatera: %s</string>
+    <string name="suggest_access_item_book_mark">BOOK</string>
+    <string name="suggest_access_item_mina_mark">DIRECT SERVICE</string>
+    <string name="suggest_access_item_music_mark">MUSIC</string>
     <string name="suggest_access_item_singer_albums">%d album</string>
     <string name="suggest_access_item_singer_pop">%d populära låtar</string>
+    <string name="suggest_access_item_site_mark">SITES</string>
+    <string name="suggest_access_item_video_mark">VIDEO</string>
+    <string name="suggest_access_item_website_mark">WEBSITE</string>
     <string name="suggest_access_music">Mi Musik</string>
     <string name="suggest_item_delete_text">Ta bort</string>
     <string name="suggest_open_app_failed">Kunde inte öppna denna app</string>
     <string name="switchText">JA</string>
     <string name="switch_proxy_dialog_msg">Nätverks kapning upptäckt. Använd MIUI´s inbyggda säkerhetsapp eller rapportera detta till din operatör.</string>
     <string name="switch_proxy_dialog_title">Nätverk kapat</string>
+    <string name="sync_cloud_tabs">Sync</string>
     <string name="tab_hotpage">Nyhetsflöde</string>
     <string name="tab_quicklinks">Startsida</string>
     <string name="tab_yellowpage">Länkar</string>

@@ -380,6 +380,7 @@ to respond"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildatagräns</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -872,6 +873,7 @@ This activity shortens battery life."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"This app may slow down
 your device"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Uninstall %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Uninstall this app to fix battery usage issues.</string>
     <string name="om_ill_proc_type_wakelock_title">The app blocks sleep mode and drains battery</string>
@@ -1212,7 +1214,7 @@ your device"</string>
     <string name="sp_background_risk_type_sign">Inofficiell app körs</string>
     <string name="sp_background_risk_type_root">Systemet har rotat</string>
     <string name="resource_securitycenter_settings">Säkerhet</string>
-    <string name="keywords_securitycenter_settings">Batterianvändning;Hantera autostart;Installera via USB;App behörigheter;Köp mobildata;Blocklista;Dataanvändning;Kalibrera dataplan;Testa nätverk; Spara batteri;Värme;Starta;Stäng av;Batteri problem;Energi;Batterisparläge;Energisparläge;Energisparande;Batterisparande; Autostart;Behörigheter;Auto start;MIUI autostart;App autostart;autostarta appar;Kedjestart;Kedjad start;Utlöst start;USB installera;Installera från dator;ADB installera; Plats;Kontakt tillgång;data;mobildata;köp data;fyll på data;dataplan; Blockera;Svartlista;Smart blockeringslista;Bedrägeri;Försäljning;Agenter;Samtalsblockeringslista;Meddelandeblockeringslista;Chattblockeringslista;SMSblockeringslista;svartlista;svart lista;blocklista; block lista; bedrägeri;blockera kontakt;blockera kontakter; Trafik; Kalibrera; Anslutning;Internet;Test; Batterianvändning</string>
+    <string name="keywords_securitycenter_settings">Battery usage;Manage autostart;Install via USB;App permissions;Buy mobile data;Blocklist;Data usage;Calibrate data plan;Test network; Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery issues;Energy;Battery saver;Energy saver;Energy saving;Battery saving; Autostart;Permissions;Auto start;MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start; USB install;install from computer;ADB install; Location;Access contacts; data;mobile data;buy data;topup data;data plan; Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts; Traffic; Calibrate; Connection;Internet;Test; Battery use; Game;speed booster;Glory of the king;Performance mode;DND</string>
     <string name="path_securitycenter_settings">Systemappar/Säkerhet</string>
     <string name="resource_securitycenter">Säkerhet</string>
     <string name="keywords_securitycenter">Säkerhet;Kontroll;Sök</string>
@@ -1253,6 +1255,9 @@ your device"</string>
     <string name="resource_powercenter_powerrank">Batteri &amp; prestanda</string>
     <string name="keywords_powercenter_powerrank">Batterianvändning</string>
     <string name="path_powercenter_powerrank">Batteri &amp; prestanda/Batterianvändning</string>
+    <string name="resource_gamebooster">Game speed booster</string>
+    <string name="keywords_gamebooster">Game;speed booster;Glory of the king;Performance mode;DND</string>
+    <string name="path_gamebooster">System apps/Security/Game speed booster</string>
     <string name="app_name_securitycenter">Säkerhet</string>
     <string name="ok">OK</string>
     <string name="exit">Exit</string>
@@ -1267,6 +1272,7 @@ your device"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1542,8 +1548,8 @@ your device"</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Ladda och skanna app namn och detaljer med hjälp av online virus definitioner.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="pref_title_manual_check_virus_db_update">Kolla efter uppdateringar</string>
-    <string name="virus_update_tips_title">Anslut till Wi-Fi</string>
-    <string name="virus_wait_network_dialog_message">Uppdateringar är stor. Koppla till Wi-Fi för att hämta dem.</string>
+    <string name="virus_update_tips_title">Warning</string>
+    <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
     <string name="antivirus_not_wlan">You aren’t connected to Wi-Fi. Using mobile data may generate additional fees. Continue anyway?</string>
     <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
     <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
@@ -1627,6 +1633,7 @@ your device"</string>
     <string name="card_main_deepclean_wechat_action">Clear</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1932,10 +1939,16 @@ your device"</string>
     <string name="game_booster">Game speed booster</string>
     <string name="game_booster_title">Boost</string>
     <string name="top_game">Top games</string>
+    <string name="game_booster_tab_top">Top</string>
+    <string name="game_bootser_tab_settings">Booster settings</string>
+    <string name="game_booster_jump_webview">Just a sec…</string>
     <string name="game_setting">Game settings</string>
     <string name="gs_auto_clean_memory">Clear cache</string>
     <string name="gs_auto_clean_memory_detail">Clear cache automatically to optimize gaming</string>
     <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
+    <string name="gs_call_handsfree">Answer calls hands free</string>
+    <string name="gs_call_handsfree_mute">Silent mode</string>
+    <string name="gs_forbid_autosync">Restrict background sync</string>
     <string name="gs_app_back_self_start">Battery saver</string>
     <string name="gs_only_self_start_for_list">Restrict background processes to save battery for gaming</string>
     <string name="gs_game_shortcut">Enjoy a more fluid game experience</string>
@@ -2032,11 +2045,17 @@ your device"</string>
     <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
     <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
     <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">Xunyou services</string>
     <string name="xunyou_server_expired">The session expired.</string>
     <string name="game_anti_disturb_msg">Game DND</string>
-    <string name="gamebooster_main_activity_back">Back Game Speed Booster</string>
+    <string name="gamebooster_main_activity_back">Back</string>
     <string name="data_booster_title">Stabilize data connection</string>
     <string name="data_booster_desc">Deactivate other SIM slots to keep the connection stable</string>
     <string name="international_Ad">Ad</string>
+    <string name="thermal_tips_title">Attention</string>
+    <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
+    <string name="forbid_autobright_title">Fix screen brightness</string>
+    <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
+    <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
 </resources>

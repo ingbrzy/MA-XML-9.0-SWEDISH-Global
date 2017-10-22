@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">Uppdatera %1$s nu?</string>
     <string name="theme_current_using_has_update">Tema uppdatering tillgänglig</string>
     <string name="theme_immediately_apply_tip">Ange tema uppdatering nu?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Nya teman tillgängliga</string>
     <string name="selected_resource_file_invalid">Kan inte använda valda resursfilen</string>
     <string name="apply_theme_with_ringtones">Använd tema ringsignaler</string>

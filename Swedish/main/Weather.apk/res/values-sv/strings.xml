@@ -55,6 +55,7 @@ Pull down to refresh or check the network settings"</string>
     <string name="share_title">Dela väder</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="hourly_forcast_now">Nu</string>
     <string name="sunrise">Soluppgång</string>
     <string name="sunset">Solnedgång</string>
@@ -148,9 +149,11 @@ Tap the screen to manually add or reposition city"</string>
     <string name="install">Installera</string>
     <string name="open">Öppna</string>
     <string name="open_now">Open</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="daily_forecast_detail_date">d/M</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="aqi_publish_source">Uppdaterad vid %1$s av CNEMC</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="aqi_data_source">Powered by Colorful Clouds</string>
     <string name="traffic_controls">Vägutrymmes rationering</string>
     <string name="traffic_control_today_numbers">Idag: %1$s</string>
@@ -167,6 +170,7 @@ Tap the screen to manually add or reposition city"</string>
     <string name="international_details_uv_index_title">UV INDEX</string>
     <string name="international_details_pressure_title">LUFTTRYCK</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="weather_alert">Väderrapporter</string>
     <string name="edit_alert_city_title">Hantera rapporter</string>
     <string name="aqi_detail_unit">Unit: µg/m³</string>
@@ -233,6 +237,8 @@ Tap the screen to manually add or reposition city"</string>
     <string name="minute_rain_pull_down_refresh">Pull down to refresh</string>
     <string name="minute_rain_refreshing_now">Refreshing…</string>
     <string name="minute_rain_let_go_refresh">Release to refresh</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="alert_detail_title">Alert details</string>
     <string name="aqi_quality_map_title">Air quality map</string>
     <string name="aqi_station_min_distance_station">Nearest station</string>

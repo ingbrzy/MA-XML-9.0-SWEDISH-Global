@@ -178,6 +178,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -250,7 +251,7 @@
     <string name="message_number">Telefonnummer:</string>
     <string name="message_pending">Skickar</string>
     <string name="message_queued">Kan inte skicka SMS just nu. Kommer skickas när tjänsten blir tillgänglig.</string>
-    <string name="message_queued_second_space">"Can't send your message right now. Please open data network."</string>
+    <string name="message_queued_second_space">"Couldn't send message. Turn on mobile data to send."</string>
     <string name="message_readed">Läst</string>
     <string name="message_received">Mottagit</string>
     <string name="message_rejected">Nekad</string>
@@ -300,9 +301,6 @@
     <string name="mx_activate_status_desc_query_activte_info">Kontrollerar SIM-kort info…</string>
     <string name="mx_activate_status_desc_request_activation_sms_phone_error">Telefonnumret ni har angett är felaktigt</string>
     <string name="mx_activate_status_desc_wait_for_sms_fail">Kan ej aktivera Mi Meddelande</string>
-    <string name="mx_and_voip_enable">Mi Message &amp; Röst</string>
-    <string name="mx_and_voip_enable_popup_msg">Skicka meddelanden och ring till andra MIUI enheter utan att ådra sig avgifter från er operatör. VoIP stöds av Weihui. Visa Weihui Integritetspolicy.</string>
-    <string name="mx_and_voip_enable_popup_msg2">Integritetspolicy</string>
     <string name="mx_auto_resend_mms">Skicka som MMS</string>
     <string name="mx_auto_resend_mms_summary">Skicka multimediameddelanden som MMS över mobildata när du inte är uppkopplad mot Wi-Fi. Du kommer att debiteras standardkostnad för data genom din operatör.</string>
     <string name="mx_auto_resend_sms">Skicka som SMS</string>
@@ -314,7 +312,6 @@
     <string name="mx_dspt">Skicka SMS och MMS-meddelanden till andra MIUI-enheter utan avgift över data när du är uppkopplad mot Wi-Fi.</string>
     <string name="mx_dspt_listview">Skicka meddelanden till andra MIUI-enheter utan avgift över data</string>
     <string name="mx_dspt_provision">Mi Message lets you send messages to other MIUI users over the internet without incurring charges. An outgoing SMS message may be required to reactivate Mi Message. Your carrier will charge you for this message. Besides, this service needs access to mobile data to work normally.</string>
-    <string name="mx_dspt_provision_ex">"Send messages and make calls to other MIUI users over the internet without incurring charges from your carrier. VoIP is supported by Weihui. View Weihui's Privacy Policy."</string>
     <string name="mx_dspt_provision_ex2">Integritetspolicy</string>
     <string name="mx_enable">Mi Message</string>
     <string name="mx_enable_ex">Mi Message &amp; Röst</string>
@@ -355,8 +352,8 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Nytt meddelande</string>
     <string name="number_add_hint">Ange telefonnummer</string>
-    <string name="open_audio_record_panel">Öppna ljudinspelningspanelen</string>
-    <string name="open_edit_sms_panel">Open edit sms panel</string>
+    <string name="open_audio_record_panel">Open the panel for recording audio</string>
+    <string name="open_edit_sms_panel">Open the panel for editing messages</string>
     <string name="open_url_with_web">Öppna denna länk i webbläsaren?</string>
     <string name="over_max_mms_size">MMS för stort.</string>
     <string name="overwrite_edited_content">Innehållet som du har redigerat kommer att skrivas över.</string>
@@ -400,7 +397,6 @@
     <string name="pref_summary_mms_read_reports">Visa meddelande i konversationen när mottagaren har laddat ner MMS</string>
     <string name="pref_summary_mms_retrieval_during_roaming">Ladda automatiskt ned foton och videor i meddelanden vid roaming</string>
     <string name="pref_summary_notification_body_enabled">Visa meddelanden på låsskärmen och i notifikationsfältet</string>
-    <string name="pref_summary_notification_body_enabled_when_secure">Du kan ej förhandsvisa meddelanden i gästläge</string>
     <string name="pref_summary_off_system_mms_priority">"Använd 3'e part app för att skicka och ta emot MMS"</string>
     <string name="pref_summary_on_system_mms_priority">"Sätt MIUI's meddelande app som standard app för att skicka och ta emot"</string>
     <string name="pref_summary_send_delivery_reports">Skicka leveransbekräftelse till avsändaren när du mottar ett MMS</string>
@@ -530,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sent at: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -566,15 +563,15 @@
     <string name="sms_report_dialog_title">Try again</string>
     <string name="sms_report_failed">Kan ej skicka rapport</string>
     <string name="sms_report_success">Sent report successfully</string>
-    <string name="snippet_audio">[audio]</string>
-    <string name="snippet_picture">[bild]</string>
+    <string name="snippet_audio">[Audio]</string>
+    <string name="snippet_picture">[Image]</string>
     <string name="sp_category_all">Alla tjänstmeddelanden</string>
     <string name="sp_category_bank">Banknotifikationsmeddelande</string>
     <string name="sp_category_title_prefix">%s</string>
     <string name="sp_conversation_title">Notifikationer</string>
     <string name="sp_mark_as_read_menu_title">Markera som läst</string>
-    <string name="sqlite_disk_full">Database or Disk is full</string>
-    <string name="sqlite_low_memory">Low Memory</string>
+    <string name="sqlite_disk_full">Storage space on your device is full.</string>
+    <string name="sqlite_low_memory">Not enough storage space</string>
     <string name="status_failed">Misslyckad</string>
     <string name="status_label">"Status: "</string>
     <string name="status_pending">Väntar</string>
@@ -651,9 +648,6 @@ Försök har gjorts: %s."</string>
     <string name="view">Visa</string>
     <string name="view_bookmark">Visa originalmeddelande</string>
     <string name="view_message_details">Visa detaljer</string>
-    <string name="voip_enable">Mi Meddelande och Röst</string>
-    <string name="voip_enable_popup_msg">Ring till andra MIUI enheter utan att ådra sig avgifter från er operatör. VoIP stöds av Weihui. Visa Weihui Integritetspolicy.</string>
-    <string name="voip_enable_popup_msg2">Integritetspolicy</string>
     <string name="wap_push_title">"[WAP Push] "</string>
     <string name="warning_show">Skicka om %ds</string>
     <string name="wild_msg_processing">Arbetar…</string>

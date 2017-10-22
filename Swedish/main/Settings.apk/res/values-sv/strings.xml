@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">None</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -679,6 +681,7 @@ Den här inställningen påverkar samtliga användare."</string>
     <string name="security_enable_widgets_title">Aktivera widgetar</string>
     <string name="security_enable_widgets_disabled_summary">Har inaktiverats av administratören</string>
     <string name="owner_info_settings_summary">Ingen</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
     <string name="user_info_settings_title">Användarinfo</string>
     <string name="show_profile_info_on_lockscreen_label">Visa profilinfo på den låsta skärmen</string>
@@ -940,6 +943,7 @@ Om du vill fortsätta använda mobilen måste du återställa standardinställni
     <string name="wifi_display_options_name">Namn</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">Tillåt datautbyte när mobilen vidrör en annan enhet</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2206,6 +2210,7 @@ Om enheten används av flera personer kan genvägen på låsskärmen tillfällig
     <string name="gadget_title">Strömkontroll</string>
     <string name="gadget_toggle_wifi">Uppdaterar Wi-Fi inställning</string>
     <string name="gadget_toggle_bluetooth">Uppdatera Bluetooth-inställningar</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">på</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_turning_on">aktiverar</string>
@@ -2383,6 +2388,7 @@ En funktion i Google som du kan använda om du vill synkronisera så att du komm
     <string name="delete">Ta bort</string>
     <string name="misc_files">Misc-filer</string>
     <string name="misc_files_selected_count">%1$d av %2$d har valts</string>
+    <string name="misc_files_selected_count_bytes">%1$s av %2$s</string>
     <string name="select_all">Markera alla</string>
     <string name="data_usage_summary_title">Dataanvändning</string>
     <string name="data_usage_app_summary_title">Appens dataanvändning</string>
@@ -2629,6 +2635,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="nfc_payment_no_apps">Betala med mobilen i butiker</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">Använd standard</string>
     <string name="nfc_payment_favor_default">Alltid</string>
     <string name="nfc_payment_favor_open">Förutom när en annan betalningsapp är öppen</string>
@@ -2689,6 +2696,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_settings_title">SIM-kort</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_cards_changed_message">SIM-kort har ändrats</string>
     <string name="sim_cards_changed_message_summary">Tryck om du vill ange aktiviteter</string>
     <string name="sim_cellular_data_unavailable">Det finns ingen mobildata tillgänglig</string>
@@ -2809,6 +2817,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="zen_mode_option_important_interruptions">Bara prioriterade</string>
     <string name="zen_mode_option_alarms">Endast alarm</string>
     <string name="zen_mode_option_no_interruptions">Helt tyst</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Blockera synliga störningar</string>
     <string name="configure_notification_settings">Konfigurera aviseringar</string>
     <string name="advanced_section_header">Avancerat</string>
@@ -2902,6 +2911,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="zen_mode_schedule_alarm_title">Alarm kan åsidosätta sluttiden</string>
     <string name="zen_mode_schedule_alarm_summary">Stäng av vid sluttiden eller nästa alarm, beroende på vad som kommer först</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="zen_mode_calls">Samtal</string>
     <string name="zen_mode_messages">Meddelanden</string>
@@ -3083,6 +3093,8 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="memory_avg_use">Genomsnittlig</string>
     <string name="memory_max_desc">Högsta: %1$s</string>
     <string name="memory_avg_desc">Genomsnittlig: %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Batterioptimering</string>
     <string name="high_power_filter_on">Inte optimerade</string>
     <string name="high_power_on">Inte optimerad</string>
@@ -3359,6 +3371,7 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="dndm_auto_setting_group">Planerad</string>
     <string name="dndm_auto_button_title">Upprepa stör ej tid</string>
     <string name="dndm_auto_time_setting">Ange tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">Från</string>
     <string name="dndm_auto_time_turn_on_title">Slå automatiskt på stör ej</string>
     <string name="dndm_auto_time_turn_off">Till</string>
@@ -3650,16 +3663,17 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="available_size">%s tillgänglig</string>
     <string name="total_size">%s totalt</string>
     <string name="memory_title">Tillänglig: %1$s\u0009\u0009Totalt: %2$s</string>
-    <string name="memory_rightvalue">Available: %s</string>
+    <string name="memory_rightvalue">Total: %s</string>
     <string name="account_list">Andra konton</string>
     <string name="account_add">Lägg till</string>
     <string name="xiaomi_account">Mi Konto</string>
     <string name="sync_settings">Synkronisera</string>
     <string name="google_title">Google</string>
     <string name="account_other">Other</string>
+    <string name="no_account_found">No application supports adding accounts</string>
     <string name="xiaomi_cloud_service_disabled">Off</string>
     <string name="xiaomi_cloud_service_unknown">Unknown</string>
-    <string name="xiaomi_cloud_service_description">Mi Cloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
+    <string name="xiaomi_cloud_service_description">Mi Cloud syncs contacts, photos, and other items across your devices. \"Find device\" also requires Mi Cloud to work normally.</string>
     <string name="sure_sync_now">Sync items now?</string>
     <string name="sync_now">Sync</string>
     <string name="sms_received_sound_title">Meddelande mottaget</string>
@@ -4833,6 +4847,7 @@ kan du använda andras nätverk också"</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">ASDiv Status:</string>
     <string name="app_factory_reset_dlg_title">Uninstall updates?</string>
     <string name="app_factory_reset_dlg_text">All updates to this Android system app will be uninstalled.</string>
@@ -5242,7 +5257,6 @@ kan du använda andras nätverk också"</string>
     <string name="enalbe_identify_iPhone">AP identification</string>
     <string name="block_list_qcom_dialog_content">This action will disconnect \"%s\" from this device and add it to blocklist</string>
     <string name="block_list_mtk_dialog_content">This action will disconnect \"%s\" from this device</string>
-    <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
     <string name="miui_silent_title">Tyst läge</string>
     <string name="zen_mode_miui_disturb_category">Stör ej</string>
     <string name="miui_disturb_title">Stör ej</string>
@@ -5271,10 +5285,11 @@ kan du använda andras nätverk också"</string>
     <string name="uicc_media_format_final_desc">Alla filer som är lagrade på UICC minnet kommer bli permanent raderade.</string>
     <string name="usb_media_format_gesture_explanation">Rita ditt låsmönster för att bekräfta rensningen av USB minnet.</string>
     <string name="uicc_media_format_gesture_explanation">Rita ditt låsmönster för att bekräfta rensningen av UICC minnet.</string>
-    <string name="setup_add_fingerprint_failed_retry_text">"Couldn't add fingerprint"</string>
+    <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
     <string name="status_bar_screen_button_key_can_hide">Screen buttons can be hidden</string>
     <string name="status_bar_screen_button_desc">Swipe down to hide screen buttons</string>
     <string name="suspension_ball_enable">Quick ball shortcut</string>
     <string name="suspension_ball_enable_desc">Turn Quick ball on and off using the shortcut</string>
+    <string name="setup_add_fingerprint_failed_retry_text">"Couldn't add fingerprint"</string>
     <string name="input_password_hint_text">Enter password</string>
 </resources>

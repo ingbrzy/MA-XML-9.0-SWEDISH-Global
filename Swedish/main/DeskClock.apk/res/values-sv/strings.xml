@@ -32,7 +32,7 @@
     <string name="setting_alarm_arriving_summary">Skicka notifiering innan ringande</string>
     <string name="close_alarm">Stäng av</string>
     <string name="timer_notify_text">Snooza eller avvisa timer.</string>
-    <string name="upcoming_alarm">Kommande larm</string>
+    <string name="upcoming_alarm">%s Upcoming alarm</string>
     <string name="upcoming_alarm_hint">Du kan stänga larmet i Avancerad</string>
     <string name="start">Starta</string>
     <string name="pause">Pausa</string>
@@ -81,6 +81,7 @@
     <string name="birthday_alarm_summary">Spela \"Happy Birthday\" istället för standard alarmljud på din födelsedag</string>
     <string name="turn_off_a_repeat_alarm">Stäng av en upprepande alarm</string>
     <string name="skip_alarm_once_hint">Stäng av en gång på %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">Stänga av denna upprepande alarm</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgon</string>
