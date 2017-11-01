@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="change_response_labels">
-        <item>Bara den här händelsen</item>
-        <item>Alla händelser i serien</item>
+        <item>Only this event</item>
+        <item>All events in the series</item>
     </string-array>
     <string-array name="delete_repeating_labels">
-        <item>Bara den här händelsen</item>
-        <item>Den här och framtida händelser</item>
-        <item>Alla händelser</item>
+        <item>Only this event</item>
+        <item>This and future events</item>
+        <item>All events</item>
     </string-array>
     <string-array name="ordinal_labels">
-        <item>första</item>
-        <item>andra</item>
-        <item>tredje</item>
-        <item>fjärde</item>
-        <item>senaste</item>
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>last</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
@@ -28,10 +28,10 @@
         <item>Måndag</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>Inget svar</item>
-        <item>Ja</item>
-        <item>Kanske</item>
-        <item>Nej</item>
+        <item>No response</item>
+        <item>Yes</item>
+        <item>Maybe</item>
+        <item>No</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall Islands</item>
@@ -125,7 +125,7 @@
         <item>1/20 - 2/18</item>
     </string-array>
     <string-array name="aries_info">
-        <item>aries</item>
+        <item>väduren</item>
         <item>Aries</item>
         <item>3/21 - 4/19</item>
     </string-array>
@@ -134,7 +134,7 @@
         <item>Bundesliga</item>
     </string-array>
     <string-array name="cancer_info">
-        <item>cancer</item>
+        <item>kräftan</item>
         <item>Cancer</item>
         <item>6/22 - 7/22</item>
     </string-array>
@@ -158,8 +158,12 @@
         <item>2 dagar innan</item>
         <item>1 vecka innan</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
-        <item>gemini</item>
+        <item>tvillingarna</item>
         <item>Gemini</item>
         <item>5/21 - 6/21</item>
     </string-array>
@@ -168,12 +172,12 @@
         <item>La Liga</item>
     </string-array>
     <string-array name="leo_info">
-        <item>leo</item>
+        <item>lejonet</item>
         <item>Leo</item>
         <item>7/23 - 8/22</item>
     </string-array>
     <string-array name="libra_info">
-        <item>libra</item>
+        <item>vågen</item>
         <item>Libra</item>
         <item>9/23 - 10/23</item>
     </string-array>
@@ -271,12 +275,12 @@
         <item>år</item>
     </string-array>
     <string-array name="sagittarius_info">
-        <item>sagittarius</item>
+        <item>skytten</item>
         <item>Sagittarius</item>
         <item>11/23 - 12/21</item>
     </string-array>
     <string-array name="scorpio_info">
-        <item>scorpio</item>
+        <item>skorpionen</item>
         <item>Scorpio</item>
         <item>10/24 - 11/22</item>
     </string-array>
@@ -285,7 +289,7 @@
         <item>Serie A</item>
     </string-array>
     <string-array name="taurus_info">
-        <item>taurus</item>
+        <item>oxen</item>
         <item>Taurus</item>
         <item>4/20 - 5/20</item>
     </string-array>
@@ -297,7 +301,7 @@
         <item>1 dag innan</item>
     </string-array>
     <string-array name="virgo_info">
-        <item>virgo</item>
+        <item>jungfrun</item>
         <item>Virgo</item>
         <item>8/23 - 9/22</item>
     </string-array>
@@ -313,74 +317,5 @@
     <string-array name="widget_style_list">
         <item>Transparent</item>
         <item>Vit bakgrund</item>
-    </string-array>
-    <string-array name="availability">
-        <item>Upptagen</item>
-        <item>Tillgänglig</item>
-        <item>Preliminärt</item>
-    </string-array>
-    <string-array name="buttons_list">
-        <item>Dag</item>
-        <item>Vecka</item>
-        <item>Månad</item>
-        <item>Program</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>Den här och framtida händelser</item>
-        <item>Alla händelser</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Inga</item>
-        <item>0 minuter</item>
-        <item>1 minut</item>
-        <item>5 minuter</item>
-        <item>10 minuter</item>
-        <item>15 minuter</item>
-        <item>20 minuter</item>
-        <item>25 minuter</item>
-        <item>30 minuter</item>
-        <item>45 minuter</item>
-        <item>1 timme</item>
-        <item>2 timmar</item>
-        <item>3 timmar</item>
-        <item>12 timmar</item>
-        <item>24 timmar</item>
-        <item>2 dagar</item>
-        <item>1 vecka</item>
-    </string-array>
-    <string-array name="quick_response_defaults">
-        <item>Är några minuter sen.</item>
-        <item>Kommer om runt tio minuter.</item>
-        <item>Börja gärna, vänta inte på mig.</item>
-        <item>Jag kan tyvärr inte komma. Vi får välja en ny tid.</item>
-    </string-array>
-    <string-array name="reminder_methods_labels">
-        <item>Meddelande</item>
-        <item>E-post</item>
-        <item>SMS</item>
-        <item>Larm</item>
-    </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minuter</item>
-        <item>1 minut</item>
-        <item>5 minuter</item>
-        <item>10 minuter</item>
-        <item>15 minuter</item>
-        <item>20 minuter</item>
-        <item>25 minuter</item>
-        <item>30 minuter</item>
-        <item>45 minuter</item>
-        <item>1 timme</item>
-        <item>2 timmar</item>
-        <item>3 timmar</item>
-        <item>12 timmar</item>
-        <item>24 timmar</item>
-        <item>2 dagar</item>
-        <item>1 vecka</item>
-    </string-array>
-    <string-array name="visibility">
-        <item>Standardinställning</item>
-        <item>Privat</item>
-        <item>Offentligt</item>
     </string-array>
 </resources>

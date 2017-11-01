@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="common_google_play_services_enable_button">Aktivera</string>
     <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
     <string name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
@@ -20,6 +39,8 @@
     <string name="common_open_on_phone">Öppna på mobilen</string>
     <string name="common_signin_button_text">Logga in</string>
     <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="app_name">Mi Drop</string>
     <string name="cancel_confirm">Cancel transfer</string>
     <string name="cancel_lang">Cancel</string>
@@ -33,6 +54,8 @@
     <string name="clear_all">Clear all</string>
     <string name="click_to_send">Tap on the profile photo to send</string>
     <string name="coolboot_title">Share Mi Drop</string>
+    <string name="date_format_ddmmyyyy">dd/MM/yyyy</string>
+    <string name="date_format_ddmmyyyyhmma">dd/MM/yyyy h:mm a</string>
     <string name="default_lang">System language</string>
     <string name="delete">Delete</string>
     <string name="delete_item_desc">Delete this file from transfer list?</string>
@@ -46,6 +69,14 @@
     <string name="enable_hotspot">Turned on Wi-Fi hotspot successfully</string>
     <string name="exit">Exit</string>
     <string name="file_count">%1$d</string>
+    <string name="file_size_b">%1$d B</string>
+    <string name="file_size_gb">%2$1.2f GB</string>
+    <string name="file_size_kb">%2$1.2f KB</string>
+    <string name="file_size_mb">%2$1.2f MB</string>
+    <string name="file_speed_b">%1$d B/s</string>
+    <string name="file_speed_gb">%2$1.2f GB/s</string>
+    <string name="file_speed_kb">%2$1.2f KB/s</string>
+    <string name="file_speed_mb">%2$1.2f MB/s</string>
     <string name="files_selected">Selected</string>
     <string name="files_selected_count">Selected files: %1$d | Total: %2$s</string>
     <string name="help">Help</string>
@@ -125,7 +156,7 @@ Check network settings and try again."</string>
     <string name="sender_wait">Sending files…</string>
     <string name="sender_wait_queue">About to send…</string>
     <string name="setting_now">Set</string>
-    <string name="share_desc">"Here's how you share Mi Drop:"</string>
+    <string name="share_desc">Share Mi Drop without using any mobile data</string>
     <string name="share_mi_drop">Share Mi Drop to your friends</string>
     <string name="step_1">"Step 1: 
 Ask the other person to connect to Wi-Fi."</string>
@@ -137,7 +168,6 @@ Ask the other person to enter the following address in the browser:"</string>
     <string name="storage_usb">USB storage</string>
     <string name="trans_progress_finish">Done</string>
     <string name="trans_progress_percent">%1$s%%</string>
-    <string name="trans_speed">%1$s/s</string>
     <string name="transfer_cancel">Canceled transfer</string>
     <string name="transfer_fail_desc">Network connection was interrupted, or the transfer was canceled by the other person.</string>
     <string name="transfer_failed">"Couldn't transfer"</string>
@@ -156,6 +186,6 @@ Ask the other person to enter the following address in the browser:"</string>
     <string name="version">Version</string>
     <string name="want_receive">Receive files</string>
     <string name="want_send">Send files</string>
-    <string name="wifi_name">Wi-Fi:</string>
+    <string name="wifi_name">Wi-Fi name:</string>
     <string name="wifi_psw">Password:</string>
 </resources>

@@ -246,6 +246,7 @@ för att logga in från låsskärmen"</string>
     <string name="no_match_repate_scanner">Kunde inte hitta matchande fingeravtryck, Skanna igen</string>
     <string name="delete_phone_fingerprint">Ta bort Sekundära utrymmets fingeravtryck</string>
     <string name="delete_fingerprint">Ta bort fingeravtryck</string>
+    <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
     <string name="delete_fingerprint_desc">Sekundära utrymmets fingeravtryck kommer tas bort tillsammans med lösenordet</string>
     <string name="fingerprint_removal_failed">Kunde inte radera fingeravtryck</string>
     <string name="notification_recommend_title">Top 12 appar för Sekundära utrymmet</string>
@@ -286,7 +287,7 @@ för att logga in från låsskärmen"</string>
     <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
     <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
     <string name="support_desc">Security services provided by Graphite</string>
-    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
+    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
     <string name="do_not_ask">"Don't ask again"</string>
     <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
     <string name="gpg_title">Dual app for Google Play Games</string>

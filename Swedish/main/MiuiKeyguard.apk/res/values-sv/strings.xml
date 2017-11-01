@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
-    <string name="input_password_handle_sdcard_fs">Turn off \"Mock SD card optimization\" before entering Second space.</string>
+    <string name="input_password_handle_sdcard_fs">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
     <string name="accessibility_enter_lock_wallpaper">Knacka för att öppna bakrunder</string>
     <string name="lock_wallpaper_learn_more">Mer</string>
     <string name="lock_wallpaper_enter">Ange</string>

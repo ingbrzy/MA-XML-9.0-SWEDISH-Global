@@ -71,4 +71,7 @@ You must agree to our Terms of Service and Privacy Policy before you can use MIU
     <string name="two_dimensional_code_scan">Scan QR code</string>
     <string name="user_strayed_warning">This page is designed for factory tests. Tap \"Back\" to exit.</string>
     <string name="fail_to_generate_qr_code">"Couldn't generate QR code. Open this page again."</string>
+    <string name="enable_accessibility_canceled">Accessibility canceled.</string>
+    <string name="accessibility_enabled">Accessibility enabled.</string>
+    <string name="continue_to_enable_accessibility">Keep holding down two fingers to enable accessibility.</string>
 </resources>

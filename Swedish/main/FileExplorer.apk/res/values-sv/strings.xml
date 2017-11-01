@@ -162,6 +162,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="tab_local">LOKAL</string>
     <string name="sys_size_enable">" tillgänglig"</string>
     <string name="tools">VERKTYG</string>
@@ -421,6 +422,7 @@
     <string name="video_upload_btn_hint">MP4 video ska vara mellan 3 s - 10 min långa</string>
     <string name="video_upload_btn">Nästa</string>
     <string name="video_upload_title">Välj video</string>
+    <string name="video_upload_item_title">%1$s(%2$s)</string>
     <string name="video_comment_topic">\#Lägg till ämne#</string>
     <string name="video_comment_hint">Välj ämne</string>
     <string name="video_comment_publish">Överlämna</string>
@@ -494,6 +496,7 @@
     <string name="video_topic_hint">Search for people or topics</string>
     <string name="comment_reply">Svara %1$s: </string>
     <string name="comment_hint">Lägg till kommentar</string>
+    <string name="origin_name">%1$s: </string>
     <string name="hot_comments">Populära kommentarer</string>
     <string name="new_comments">Nya kommentarer</string>
     <string name="copy_text">Kopiera text</string>
@@ -753,6 +756,7 @@
     <string name="finish_str">Klar</string>
     <string name="tab_msg">Meddelanden</string>
     <string name="msg_page_video_default_title">Jag laddade upp en video, kolla in!</string>
+    <string name="recommend_users">%1$s+</string>
     <string name="follow_success_tip">Följde framgångsrikt</string>
     <string name="comment_fail">"Couldn't publish comment, try again"</string>
     <string name="comment_fail_banned_temporary">"You've been temporarily banned for inappropriate comments"</string>

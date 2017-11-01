@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d dagar</item>
-        <item quantity="one">1 dag</item>
+        <item quantity="other">%d days before</item>
+        <item quantity="one">%d day before</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d timmar</item>
-        <item quantity="one">1 timme</item>
+        <item quantity="other">%d hours before</item>
+        <item quantity="one">%d hour before</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d minuter</item>
-        <item quantity="one">1 minut</item>
+        <item quantity="other">%d minutes before</item>
+        <item quantity="one">%d minute before</item>
     </plurals>
     <plurals name="month_more_events">
-        <item quantity="other">+ %d</item>
-        <item quantity="one">+ 1</item>
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
     </plurals>
     <plurals name="weekN">
-        <item quantity="other">VECKA %d</item>
+        <item quantity="other">WEEK %d</item>
+        <item quantity="one">WEEK %d</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">After %1$d dagar på %2$s</item>
@@ -102,17 +103,5 @@
     <plurals name="work_days">
         <item quantity="other">%darbets dagar</item>
         <item quantity="one">%darbets dag</item>
-    </plurals>
-    <plurals name="N_remaining_events">
-        <item quantity="other">%d händelser till</item>
-        <item quantity="one">1 händelse</item>
-    </plurals>
-    <plurals name="Nevents">
-        <item quantity="other">%d händelser</item>
-        <item quantity="one">1 händelse</item>
-    </plurals>
-    <plurals name="Nmins">
-        <item quantity="other">%d minuter</item>
-        <item quantity="one">1 min</item>
     </plurals>
 </resources>

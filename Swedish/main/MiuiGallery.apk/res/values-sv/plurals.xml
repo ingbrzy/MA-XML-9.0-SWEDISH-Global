@@ -72,18 +72,6 @@
         <item quantity="other">Lade till %d bilder i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
         <item quantity="one">Lade till %d bild i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
     </plurals>
-    <plurals name="delete_photo_msg_format">
-        <item quantity="other">Radera %1$d bilder %2$s?</item>
-        <item quantity="one">Radera bilden %2$s?</item>
-    </plurals>
-    <plurals name="delete_video_msg_format">
-        <item quantity="other">Radera %1$d videor %2$s?</item>
-        <item quantity="one">Radera videon %2$s?</item>
-    </plurals>
-    <plurals name="delete_media_msg_format">
-        <item quantity="other">Radera %1$d objekt %2$s?</item>
-        <item quantity="one">Radera %1$d objekt %2$s?</item>
-    </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d objekt)</item>
         <item quantity="one">(%d objekt)</item>
@@ -203,5 +191,17 @@
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">Added %1$d photos to \"%2$s\" and added to the database.</item>
         <item quantity="one">Added %1$d photo to \"%2$s\" and added to the database.</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">Radera %1$d bilder %2$s?</item>
+        <item quantity="one">Radera bilden %2$s?</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">Radera %1$d videor %2$s?</item>
+        <item quantity="one">Radera videon %2$s?</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">Radera %1$d objekt %2$s?</item>
+        <item quantity="one">Radera %1$d objekt %2$s?</item>
     </plurals>
 </resources>
