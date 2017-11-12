@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att Hämtningar-appen fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -28,8 +31,8 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="delete_backup_title">Ta bort säkerhetskopiering</string>
     <string name="delete">Radera</string>
     <string name="cancel">Avbryt</string>
-    <string name="reconnect">Connect again</string>
-    <string name="pause">Pause</string>
+    <string name="reconnect">Anslut igen</string>
+    <string name="pause">Pausa</string>
     <string name="delete_backup_process">Tar bort…</string>
     <string name="backup_error">Kunde inte säkerhetskopiera</string>
     <string name="delete_failed_backup_confirm">Denna säkerhetskopiering innehåller fel.</string>
@@ -165,7 +168,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="date_format">HH:mm:ss MM-dd-yyyy</string>
     <string name="dir_date_format">yyyyMMdd_HHmmss</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
-    <string name="retry">Försöka igen</string>
+    <string name="retry">Försök igen</string>
     <string name="select_all">Välj alla</string>
     <string name="deselect_all">Avmarkera alla</string>
     <string name="reverse_all">Rensa alla</string>
@@ -196,9 +199,9 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="enable_encrypt_xiaomi_account">Denna säkerhetskopian skapades av%1$s. Att återställa, radera det aktuella kontot och logga in som %2$s.</string>
     <string name="enable_encrypt_ok">OK</string>
     <string name="no_encrypt_password">Inget lösenord</string>
-    <string name="enable_encrypt_fail">Krypteringen misslyckades</string>
+    <string name="enable_encrypt_fail">Encryption error</string>
     <string name="read_encrypt_fail">Det gick inte att läsa krypterad backup</string>
-    <string name="exchange_account">Switch accounts</string>
+    <string name="exchange_account">Växla konto</string>
     <string name="system_backup">Säkerhetskopiering</string>
     <string name="backup_empty_info">" Säkerhetskopiera dina data, inställningar och program"</string>
     <string name="backup_empty_info_onpad">" Säkerhetskopiera dina data, inställningar och program"</string>
@@ -223,8 +226,9 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="file_uploading">Laddar upp…</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
-    <string name="enable_encrypt_description">Encrypt</string>
-    <string name="disable_encrypt_description">Not encrypt</string>
+    <string name="enable_encrypt_description">Kryptera</string>
+    <string name="disable_encrypt_description">Inte kypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Bara en sekund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
@@ -237,7 +241,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="summary_err_restore_encrypting">Kund inte återställa. Säkerhetsställ att denna säkerhetskopiering är gjord med ditt Mi Konto.</string>
     <string name="summary_err_backup_no_network">Kunde inte ansluta till nätverket</string>
     <string name="summary_err_restore_no_network">Kunde inte ansluta till nätverket</string>
-    <string name="err_authentication_failed">Autentiseringen misslyckades</string>
+    <string name="err_authentication_failed">Det gick inte att autentisera</string>
     <string name="err_low_storage">Inte tillräckligt med utrymme</string>
     <string name="err_unknown">Okänt fel</string>
     <string name="err_version_too_old">Säkerhetskopieringen är för gammal.</string>
@@ -258,9 +262,9 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="notif_trans_receiving_completed">Data mottagen framgångsrikt</string>
     <string name="notif_trans_sending_failed">Det gick inte att skicka data</string>
     <string name="notif_trans_receiving_failed">Det gick inte att ta emot data</string>
-    <string name="notif_trans_wait_for_reconnecting">Connection was interrupted. Connect again.</string>
-    <string name="notif_trans_auto_reconnecting_title">Connection was interrupted. Reconnecting automatically…</string>
-    <string name="notif_trans_auto_reconnecting_content">You can cancel current task if needed.</string>
+    <string name="notif_trans_wait_for_reconnecting">Anslutningen avbröts. Anslut igen.</string>
+    <string name="notif_trans_auto_reconnecting_title">Anslutningen avbröts. Automatisk återanslutning…</string>
+    <string name="notif_trans_auto_reconnecting_content">Du kan avbryta den nuvarande tråden vid behov.</string>
     <string name="custom_progress">%d objekt</string>
     <string name="remote_receive">Ta emot</string>
     <string name="click_to_view">Tryck för att visa</string>
@@ -308,14 +312,14 @@ Förbrukad tid: %s"</string>
     <string name="trans_progress_subdescript_transing_receiver_finish">Mottaget %s, väntar på att återställa…</string>
     <string name="trans_cancel_confirm">Överförning pågår, avbryt nu?</string>
     <string name="trans_cancelling">Avbryter…</string>
-    <string name="trans_device_disconnected">Connection was interrupted</string>
-    <string name="trans_device_wait_for_reconnecting">Connection was interrupted. Connect again to continue.</string>
-    <string name="trans_device_auto_reconnecting">Device disconnected. Reconnecting automatically…</string>
+    <string name="trans_device_disconnected">Anslutningen avbröts</string>
+    <string name="trans_device_wait_for_reconnecting">Anslutningen avbröts. Anslut igen för att fortsätta.</string>
+    <string name="trans_device_auto_reconnecting">Enhet frånkopplad. Återansluter automatiskt…</string>
     <string name="trans_connecting_toast">Ansluter…</string>
     <string name="trans_connect_failed_toast">Det gick inte att ansluta</string>
     <string name="trans_generate_qr_code_failed">Det gick inte att skapa QR-kod</string>
     <string name="trans_scan_invalid_qrcode">QR-kod ogiltig</string>
-    <string name="trans_scan_qr_code_tips">Scan QR code using new device</string>
+    <string name="trans_scan_qr_code_tips">Skanna QR-kod med hjälp av ny enhet</string>
     <string name="trans_show_qr_code_label">Ansluter gammal enhet</string>
     <string name="trans_show_qr_code_tips">Skanna QR-kod med hjälp av gamla enhet</string>
     <string name="trans_operate_new_phone_tips">"Gå till Inställningar > Ytterligare Inställningar > Mi Mover
@@ -326,10 +330,10 @@ Förbrukad tid: %s"</string>
 2. Öppna appen coh tryck Starta
 3. Skanna QR koden med din gamla enhet"</string>
     <string name="trans_operate_old_phone_tips2">Gå till Inställningar > Ytterligare Inställningar > Överför, Tryck[Jag är avsändare]</string>
-    <string name="trans_operate_reconnect_new_tips">"Wait until the new phone shows \"Connection was interrupted\".
-Then tap \"Connect again\" to create a QR code."</string>
-    <string name="trans_operate_reconnect_old_tips">"Wait until the old phone shows \"Connection was interrupted\".
-Then tap \"Connect again\" to scan the QR code."</string>
+    <string name="trans_operate_reconnect_new_tips">"Vänta till den nya telefonen visar \"Anslutningen avbröts.\"
+Tryck sedan på \"Anslut igen\" för att skapa en QR-kod."</string>
+    <string name="trans_operate_reconnect_old_tips">"Vänta till den gamla telefonen visar \"Anslutningen avbröts.\"
+Tryck sedan på \"Anslut igen\" för att skanna QR-koden."</string>
     <string name="trans_wait_trans_data">"Anslut till den gamla enheten.
 Vänta på överföringen…"</string>
     <string name="trans_select_data">Välj objekt att senda</string>
@@ -352,22 +356,22 @@ Rensa minst %s."</string>
     <string name="trans_retry">Försök igen</string>
     <string name="trans_start_failed_title">Det gick inte att starta överföring</string>
     <string name="trans_start_failed_message">Det gick inte att starta överföring, försök igen eller starta om enheten.</string>
-    <string name="trans_connect_failed_device_incompatible">"Device isn't compatible. Cancel the transfer and try again."</string>
-    <string name="trans_connection_failed">Connection was interrupted</string>
+    <string name="trans_connect_failed_device_incompatible">Enheten är inte kompatibel. Avbryt överföringen och försök med annan enhet.</string>
+    <string name="trans_connection_failed">Anslutningen avbröts</string>
     <string name="user_notice_title">Uppmärksamma</string>
     <string name="user_notice_message">Vissa funktioner kräver internetuppkoppling för att fungera.</string>
     <string name="user_notice_declaration_ignore">Visa inte igen</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">FAQ</string>
-    <string name="trans_intro_question_1">1. How do I use Mi Mover to move data from Apple device?</string>
-    <string name="trans_intro_desc_1">"On Xiaomi device, connect to Wi-Fi. Tap \"I'm a recipient\", and then select \"Apple device\". Login iCloud and import data."</string>
-    <string name="trans_intro_question_2">2. How do I use Mi Mover to move data from Android device?</string>
-    <string name="trans_intro_title_new">On a new phone:</string>
+    <string name="trans_intro_question_1">1. How do I use Mi Mover to move data from an iOS device?</string>
+    <string name="trans_intro_desc_1">"On a Mi phone, connect to Wi-Fi and tap \"I'm a recipient\". Select your iOS device, sign in to iCloud, and import data."</string>
+    <string name="trans_intro_question_2">2. How do I use Mi Mover to move data from an Android device?</string>
+    <string name="trans_intro_title_new">På en ny telefon:</string>
     <string name="trans_intro_desc_new">"Tap \"I'm a recipient\". A QR code will be generated."</string>
-    <string name="trans_intro_title_old">On an old phone:</string>
+    <string name="trans_intro_title_old">På en gammal telefon:</string>
     <string name="trans_intro_desc_old">"Tap \"I'm a sender\". Scan the QR code on the new phone, wait until Mi Mover figures out which files to send, and tap \"Send\"."</string>
     <string name="trans_intro_question_3">3. What should I do if Mi Mover got stuck on a certain step?</string>
-    <string name="trans_intro_desc_3">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
+    <string name="trans_intro_desc_3">Avbryt överföringen, avsluta Mi Mover och börja om. Dupplicerade filer kommer skrivas över under den nya överföringen.</string>
     <string name="trans_intro_question_4">"4. Why can't I use Wi-Fi during transfers?"</string>
     <string name="trans_intro_desc_4">"Mi Mover uses Wi-Fi to transfer files. That's why you can't connect to the internet using Wi-Fi on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using Wi-Fi during transfers."</string>
     <string name="trans_intro_question_5">"5. Why does Mi Mover tell me there isn't enough storage space on my old phone?"</string>
@@ -379,104 +383,104 @@ Rensa minst %s."</string>
     <string name="trans_intro_question_8">"8. Why isn't WeChat history fully transferred?"</string>
     <string name="trans_intro_desc_8">"WeChat app data and chat history might not be fully transferred using Mi Mover. Go to WeChat's settings and sign out of your account to get more chances for a successful transfer."</string>
     <string name="trans_intro_question_9">"9. Which items can't be transferred?"</string>
-    <string name="trans_intro_title_account">Accounts and passwords:</string>
+    <string name="trans_intro_title_account">Konto och lösenord:</string>
     <string name="trans_intro_desc_account">You have to sign in again to your accounts (e.g., Mi Account, Exchange, Google, etc.) on a new device due to security reasons.</string>
-    <string name="trans_intro_title_private">Hidden album:</string>
+    <string name="trans_intro_title_private">Dolt album:</string>
     <string name="trans_intro_desc_private">"Mi Mover can't access photos in the hidden album because they are encrypted. You can restore these photos from Mi Cloud on a new device."</string>
     <string name="trans_intro_title_multiuser">Second space data:</string>
     <string name="trans_intro_desc_multiuser">"Mi Mover can't access items in Second space. Move items to First space and launch Mi Mover there."</string>
     <string name="trans_intro_title_multiapp">Dual apps data:</string>
     <string name="trans_intro_desc_multiapp">"Mi Mover doesn't transfer Dual apps data to avoid conflicts between files."</string>
-    <string name="btn_got_it">Got it</string>
+    <string name="btn_got_it">Jag förstår</string>
     <string name="backup_security_tips_title">Backups may not work</string>
     <string name="backup_security_tips_message">Some apps may not be able to be backed up or restored.</string>
     <string name="trans_security_tips_title">Mi Mover compatibility</string>
     <string name="trans_security_tips_message">"Some apps don't support Mi Mover."</string>
-    <string name="trans_wlan_tips_title">"Please don't turn off or switch Wi-Fi"</string>
-    <string name="trans_wlan_tips_message">"Please don't turn off or switch Wi-Fi while transfering data. Otherwise the mover may fail."</string>
-    <string name="trans_disconnected_tips_title">Remote device is disconnected</string>
-    <string name="trans_disconnected_tips_message">Remote device is disconnected. Please reconnect by hand. You can cancel current task if needed.</string>
-    <string name="trans_button_cancel">Cancel</string>
-    <string name="close_twice_auth_tutor">Close appleID two factor authorication</string>
-    <string name="close_twice_auth_steps">Close two factor authorication, as follow steps:</string>
-    <string name="close_twice_auth_step_1">1. login Apple ID account page</string>
-    <string name="close_twice_auth_step_2">2. In the \"Security\" section, click \"Edit\"</string>
-    <string name="close_twice_auth_step_3">3. Click \"Turn off dual / two-step authorication\". Click again to confirm</string>
+    <string name="trans_wlan_tips_title">Stäng inte av Wi-Fi</string>
+    <string name="trans_wlan_tips_message">"Don't turn off Wi-fi or switch to other Wi-Fi networks during the transfer. Otherwise, Mi Mover won't be able to transfer data."</string>
+    <string name="trans_disconnected_tips_title">Remote device disconnected</string>
+    <string name="trans_disconnected_tips_message">Fjärrenhet frånkopplad. Anslut igen manuellt eller avbryt överföringen.</string>
+    <string name="trans_button_cancel">Avbryt</string>
+    <string name="close_twice_auth_tutor">Turn off Apple ID two-factor authorication</string>
+    <string name="close_twice_auth_steps">Follow these steps to turn off two-factor authentication for Apple ID:</string>
+    <string name="close_twice_auth_step_1">1. Open any web browser on any computer and go to appleid.apple.com.</string>
+    <string name="close_twice_auth_step_2">2. Sign in to the Apple ID you want to disable two factor authentication for, go to the \"Security\" section of account settings and choose \"Edit\"</string>
+    <string name="close_twice_auth_step_3">3. Click \"Turn Off Two-Factor Authentication\". Click again to confirm.</string>
     <string name="close_twice_auth_note">"Note:
-After creating a new security question and confirming your date of birth, the dual authentication function will be turned off. If you do not see the option to turn off dual authentication on the Apple ID account page, you can not turn it off."</string>
-    <string name="close_twice_auth_btn">Close to two-factor authentication</string>
-    <string name="close_twice_auth_operation">"Computer-side access:
+After creating a new security question and confirming your date of birth, your Apple ID two-factor authentication will be turned off. If you don't see the option to turn off two-factor authentication on the Apple ID account page, you can't turn it off."</string>
+    <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
+    <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!&amp;page=signin to close"</string>
-    <string name="platform_chooser_title">Choose old device</string>
-    <string name="platform_chooser_item_ios">Import from Apple device</string>
-    <string name="platform_chooser_item_android">Import from Android</string>
-    <string name="icloud_need_wifi_title">Wi-Fi needed</string>
-    <string name="icloud_need_wifi_message">Wi-Fi is not conneced currently. To import data from iCloud, Wi-Fi is needed to login and download data.</string>
-    <string name="icloud_login_title">Login iCloud</string>
-    <string name="icloud_backup_tip">Login iCloud id of old Apple device</string>
+    <string name="platform_chooser_title">Välj gammal enhet</string>
+    <string name="platform_chooser_item_ios">Import from an iOS device</string>
+    <string name="platform_chooser_item_android">Import from an Android device</string>
+    <string name="icloud_need_wifi_title">Anslut till Wi-Fi</string>
+    <string name="icloud_need_wifi_message">"You aren't connected to Wi-Fi now. To import data from iCloud, connect to Wi-Fi."</string>
+    <string name="icloud_login_title">Sign in to iCloud</string>
+    <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
     <string name="icloud_how_to_backup_tip_title">Tips:</string>
-    <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you need to upload data in old devices to iCloud.</string>
-    <string name="icloud_how_to_backup_tip_steps">"1.Enter Settings in you iOS device, and then choose iCloud.
-2.Turn on Contacts.
-3.Select Photos and turn on iCloud Photo Library."</string>
+    <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you must create an iCloud backup.</string>
+    <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
+2. Toggle the switch for Contacts.
+3.Select Photos and toggle the switch for iCloud Photo Library."</string>
     <string name="user_name">Apple ID or email</string>
-    <string name="password">password</string>
-    <string name="user_name_null">User name cannot be empty</string>
-    <string name="password_null">Password cannot be empty</string>
-    <string name="name_password_not_consistent">User name or password is wrong</string>
-    <string name="login">Login</string>
-    <string name="logining">logining…</string>
-    <string name="login_failed">Failed to login. Please retry.</string>
-    <string name="connect_wifi_tip">Network is disconnected. Importing data from iCloud needs Wi-Fi.</string>
-    <string name="connect_wifi">Connect Wi-Fi</string>
-    <string name="notif_icloud_logining">Logining iCloud id of old Apple device…</string>
-    <string name="notif_icloud_loading_summary">Loading data…</string>
-    <string name="notif_icloud_import_title">Import data from iCloud</string>
-    <string name="notif_icloud_loaded_summary">Waiting to download data</string>
-    <string name="notif_icloud_canceling_summary">Canceling…</string>
-    <string name="notif_icloud_canceled_summary">Canceled</string>
-    <string name="notif_icloud_saved_summary">Importing finished</string>
-    <string name="notif_icloud_need_wifi_summary">Wait for Wi-Fi</string>
-    <string name="hsa_title">Two-factor authentication</string>
-    <string name="hsa_input_tip">Your iCloud ID enables two-factor authentication. Please enter verification code.</string>
-    <string name="hsa_input_hint">Enter verification code</string>
-    <string name="hsa_code_null">Verification code cannot be empty</string>
-    <string name="hsa_send_again">Send again</string>
-    <string name="hsa_send_again_countdown">Send again(%ds)</string>
-    <string name="hsa_sending">Sending…</string>
-    <string name="hsa_send_failed">Failed to send verification code. Please retry later.</string>
+    <string name="password">Lösenord</string>
+    <string name="user_name_null">"Username can't be empty"</string>
+    <string name="password_null">Lösenord får inte vara tomt</string>
+    <string name="name_password_not_consistent">Användarnamn eller lösenord är felaktiga</string>
+    <string name="login">Logga in</string>
+    <string name="logining">Signing in…</string>
+    <string name="login_failed">Kunde inte logga in. Försök igen.</string>
+    <string name="connect_wifi_tip">Kunde inte ansluta till nätverket. Anslut till Wi-Fi för att importera objekt från iCloud.</string>
+    <string name="connect_wifi">Anslut till Wi-Fi</string>
+    <string name="notif_icloud_logining">Logga in på iCloud på din gamla iOS-enhet…</string>
+    <string name="notif_icloud_loading_summary">Laddar data…</string>
+    <string name="notif_icloud_import_title">Importera data från Mi Cloud</string>
+    <string name="notif_icloud_loaded_summary">Väntar…</string>
+    <string name="notif_icloud_canceling_summary">Avbryter…</string>
+    <string name="notif_icloud_canceled_summary">Avbruten</string>
+    <string name="notif_icloud_saved_summary">Import lyckades</string>
+    <string name="notif_icloud_need_wifi_summary">Väntar på Wi-Fi</string>
+    <string name="hsa_title">Tvåstegsverifiering</string>
+    <string name="hsa_input_tip">Ditt Apple-ID använder tvåstegsverifiering. Ange din verifieringskod.</string>
+    <string name="hsa_input_hint">Fyll i verifieringskod</string>
+    <string name="hsa_code_null">Verifieringskod får inte vara tomt</string>
+    <string name="hsa_send_again">Skicka igen</string>
+    <string name="hsa_send_again_countdown">Skicka igen (%ds)</string>
+    <string name="hsa_sending">Skickar…</string>
+    <string name="hsa_send_failed">Kunde inte skicka verifieringskoden. Vänta en minut eller två och försök igen.</string>
     <string name="hsa_tip_title">Tips:</string>
-    <string name="hsa_tip_message">"1.A message containing verification code will be sended to the phone bounded to iCloud
-2.Turn off two-factor authentication if failing to verify."</string>
-    <string name="hsa_tip_message_with_device">"1.A message containing verification code has been sended to the phone \"%s\" bounded to iCloud
-2.Turn off two-factor authentication if failing to verify."</string>
-    <string name="hsa_tip_message_shutdown_hsa">how to turn off two-factor authentication</string>
-    <string name="hsa_verify_failed">Two-factor authentication failed</string>
-    <string name="hsa_verify_failed_message">Two-factor authentication failed. You can retry or turn off two-factor authentication.</string>
-    <string name="hsa_verify_retry">Retry</string>
-    <string name="hsa_verify_shutdown">Turn off</string>
-    <string name="import_data_from_icloud">Import data from iCloud</string>
-    <string name="loading_data">Loading data</string>
-    <string name="icloud_need_sync">"To import data from iOS
-you need to upload data in old devices to iCloud"</string>
+    <string name="hsa_tip_message">"1. Ett meddelande med verifieringskoden har skickats till enheten som associeras med ditt Apple-ID.
+2. Avaktivera tvåstegsverifieringen om verifieringskoden inte fungerar."</string>
+    <string name="hsa_tip_message_with_device">"1. Ett meddelande med verifieringskoden har skickats till \"%s\" som associeras med ditt Apple-ID.
+2. Avaktivera tvåstegsverifieringen om verifieringskoden inte fungerar."</string>
+    <string name="hsa_tip_message_shutdown_hsa">Hur tvåstegsverifieringen avaktiveras</string>
+    <string name="hsa_verify_failed">Tvåstegsverifiering misslyckades</string>
+    <string name="hsa_verify_failed_message">Tvåstegsverifieringen misslyckades. Du kan försöka igen eller avaktivera tvåstegsverifieringen.</string>
+    <string name="hsa_verify_retry">Försök igen</string>
+    <string name="hsa_verify_shutdown">Avaktivera</string>
+    <string name="import_data_from_icloud">Importera data från Mi Cloud</string>
+    <string name="loading_data">Laddar data</string>
+    <string name="icloud_need_sync">"För att importera från iOS,
+ ska du först skapa en iCloud backup."</string>
     <string name="import_tip_title">Tips:</string>
-    <string name="import_tip_summary">Because of compatibility, contacts and photos are supported only. You need to upload data in old devices to iCloud first.</string>
-    <string name="button_import">Import</string>
-    <string name="select_empty">Select items to import</string>
-    <string name="select_item_summary_wait">Wait to load data</string>
-    <string name="select_item_summary_loading">Loading data…</string>
-    <string name="select_item_contacts">Contacts</string>
-    <string name="select_item_photos">Photos</string>
-    <string name="select_item_empty_summary">No contents</string>
-    <string name="cancel_moving_dialog_title">Stop importing</string>
-    <string name="cancel_moving_dialog_message">Are you sure to stop importing?</string>
-    <string name="notif_icloud_saving_summary">Restoring data…</string>
-    <string name="saving_data">"Importing data from iCloud
-Please don't turn off or switch Wi-Fi"</string>
-    <string name="saving_data_no_time">Restoring data</string>
-    <string name="saving_data_space_low">"No enough space
-Please release at least %s"</string>
-    <string name="save_finish_with_failing_items">"Importing is interrupted. Some data has been imported
-The data left needs to import again"</string>
-    <string name="import_again">Import again</string>
+    <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra kontakter och bilder från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
+    <string name="button_import">Importera</string>
+    <string name="select_empty">Välj objekt att importera</string>
+    <string name="select_item_summary_wait">Väntar…</string>
+    <string name="select_item_summary_loading">Laddar data…</string>
+    <string name="select_item_contacts">Kontakter</string>
+    <string name="select_item_photos">Bilder</string>
+    <string name="select_item_empty_summary">Inga objekt</string>
+    <string name="cancel_moving_dialog_title">Avsluta importeringen</string>
+    <string name="cancel_moving_dialog_message">Avsluta importeringen?</string>
+    <string name="notif_icloud_saving_summary">Återställer data…</string>
+    <string name="saving_data">Importerar data från iCloud…vaktivera in Wi-Fi</string>
+    <string name="saving_data_no_time">Återställer data…</string>
+    <string name="saving_data_space_low">"Inte tillräckligt med utrymme.
+Frigör minst %s."</string>
+    <string name="save_finish_with_failing_items">"Överföringen blev avbruten.
+ Datan som inte importerades måste importeras igen."</string>
+    <string name="import_again">Importera igen</string>
 </resources>

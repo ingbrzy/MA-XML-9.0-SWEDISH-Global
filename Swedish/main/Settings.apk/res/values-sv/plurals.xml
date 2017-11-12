@@ -157,20 +157,20 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">%d app is allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN must be %d digits</item>
-        <item quantity="one">PIN must be %d digit</item>
+        <item quantity="other">PIN måste vara %d siffror</item>
+        <item quantity="one">PIN måste vara %d siffra</item>
     </plurals>
     <plurals name="wifi_share_count">
-        <item quantity="other">Shared %d networks</item>
-        <item quantity="one">Shared %d network</item>
+        <item quantity="other">Delade %d nätverk</item>
+        <item quantity="one">Delade %d nätverk</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
         <item quantity="one">%d enhet</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
-        <item quantity="other">%1$d people connected</item>
-        <item quantity="one">%1$d person connected</item>
+        <item quantity="other">%1$d användare anslutna</item>
+        <item quantity="one">%1$d användare ansluten</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Du har %1$d steg kvar från att ange din telefoninfo.</item>
@@ -193,23 +193,23 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">Inaktivera aldrig för 1 app</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
-        <item quantity="one">PIN must be %d digit long</item>
+        <item quantity="other">PIN måste vara %d siffror lång</item>
+        <item quantity="one">PIN måste vara %d siffra lång</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN can contain up to %d digit</item>
+        <item quantity="other">PIN kan innehålla upp till %d siffror</item>
+        <item quantity="one">PIN kan innehålla upp till %d siffra</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connect at least %d dots. Try again.</item>
-        <item quantity="one">Connect at least %d dot. Try again.</item>
+        <item quantity="other">Anslut åtminstone %d punkter. Försök igen.</item>
+        <item quantity="one">Anslut åtminstone %d punkt. Försök igen.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">Too many incorrect attempts. Try again in %d second.</item>
+        <item quantity="other">För många felaktiga försök. Försök igen om %d sekunder.</item>
+        <item quantity="one">För många felaktiga försök. Försök igen om %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Wait for %d second and try again.</item>
+        <item quantity="other">Vänta i %d sekunder och försök igen.</item>
+        <item quantity="one">Vänta i %d sekund och försök igen.</item>
     </plurals>
 </resources>

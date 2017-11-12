@@ -312,7 +312,7 @@
     <string name="no_vm_number">Saknar nummer till röstbrevlådan</string>
     <string name="no_vm_number_msg">Inget nummer till röstbrevlåda är sparat på SIM-kortet.</string>
     <string name="add_vm_number_str">Lägg till nummer</string>
-    <string name="change_default_dialer_dialog_title">Make %s your default Phone app?</string>
+    <string name="change_default_dialer_dialog_title">Använd %ssom standard Telefonapp?</string>
     <string name="change_default_dialer_with_previous_app_set_text">Vill du använda %1$s i stället för %2$s som standardapp för uppringning?</string>
     <string name="change_default_dialer_no_previous_app_set_text">Vill du använda %s som standardapp för uppringning?</string>
     <string name="blocked_numbers">Blocked numbers</string>
@@ -328,10 +328,10 @@
     <string name="blocked_numbers_butter_bar_title">Blocking temporarily off</string>
     <string name="blocked_numbers_butter_bar_body">After you dial or text an emergency number, blocking is turned off to ensure that emergency services can contact you.</string>
     <string name="blocked_numbers_butter_bar_button">Re-enable now</string>
-    <string name="blocked_numbers_number_blocked_message">%1$s blocked</string>
-    <string name="blocked_numbers_number_unblocked_message">%1$s unblocked</string>
+    <string name="blocked_numbers_number_blocked_message">%1$s blockerad</string>
+    <string name="blocked_numbers_number_unblocked_message">%1$s ej blockerad</string>
     <string name="blocked_numbers_block_emergency_number_message">Unable to block emergency number.</string>
-    <string name="blocked_numbers_number_already_blocked_message">%1$s is already blocked.</string>
+    <string name="blocked_numbers_number_already_blocked_message">%1$s är redan blockerad.</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>
@@ -355,11 +355,11 @@
     <string name="can_not_dial_vt_while_voice_prompt">Kan inte starta ett videosamtal medan röstsamtal pågår</string>
     <string name="voice_dial_out">Röstsamtal</string>
     <string name="notification_AllMissedCallTitle">Alla missade samtal</string>
-    <string name="close">Close</string>
-    <string name="callFailed_simError">SIM card error</string>
-    <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
-    <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+    <string name="close">Stäng</string>
+    <string name="callFailed_simError">SIM-korts fel</string>
+    <string name="incall_error_supp_service_unknown">Tjänsten stöds inte.</string>
+    <string name="incall_error_power_off">Stäng av flygplansläge för att ringa ett samtal.</string>
     <string name="change_default_dialer_dialog_affirmative">Set Default</string>
-    <string name="change_default_dialer_dialog_negative">Cancel</string>
+    <string name="change_default_dialer_dialog_negative">Avbryt</string>
     <string name="change_default_dialer_warning_message">%s will be able to place and control all aspects of calls. Only apps you trust should be set as the default Phone app.</string>
 </resources>

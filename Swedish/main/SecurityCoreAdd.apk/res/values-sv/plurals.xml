@@ -13,7 +13,7 @@
         <item quantity="one">%d notifikation i sekundära utrymmet</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
-        <item quantity="other">Search %d apps</item>
-        <item quantity="one">Search %d app</item>
+        <item quantity="other">Sök %d appar</item>
+        <item quantity="one">Sök %d app</item>
     </plurals>
 </resources>

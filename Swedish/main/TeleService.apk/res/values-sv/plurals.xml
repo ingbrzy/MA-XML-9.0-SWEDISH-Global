@@ -25,13 +25,13 @@
         <item quantity="one">You can add up to %s person, select again.</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
-        <item quantity="other">delay: %s seconds</item>
-        <item quantity="one">delay: %s second</item>
+        <item quantity="other">fördröj: %s sekunder</item>
+        <item quantity="one">fördröj: %s sekund</item>
     </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"
-%d attempts remaining."</item>
+%d försök återstår."</item>
         <item quantity="one">"
-%d attempt remaining."</item>
+%d försök återstår."</item>
     </plurals>
 </resources>

@@ -25,7 +25,7 @@
         <item>1GB</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>Notify</item>
+        <item>Meddela</item>
         <item>Clear</item>
         <item>Clear and notify</item>
     </string-array>

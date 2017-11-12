@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="passport_account_label">Mi Konto</string>
-    <string name="passport_notification_title">Sign in error for %1$s</string>
+    <string name="passport_notification_title">Inloggningsfel för %1$s</string>
     <string name="passport_login_prompt">Ett Mi konto. Alla Mi tjänster.</string>
     <string name="passport_login_using_other_ways"><u>Andra sätt att logga in</u></string>
     <string name="passport_login_title">Logga in på ditt Mi-Konto</string>
@@ -111,7 +111,7 @@ För att aktivera ditt konto, följ
     <string name="passport_completed">Avsluta</string>
     <string name="passport_verify">Verifiera</string>
     <string name="passport_restart">Börja om</string>
-    <string name="passport_yes">Yes</string>
+    <string name="passport_yes">Ja</string>
     <string name="passport_no">No</string>
     <string name="passport_continue">Continue</string>
     <string name="passport_loading">Laddar…</string>
@@ -140,7 +140,7 @@ För att aktivera ditt konto, följ
     <string name="passport_reg_failed">Kan inte ställa in konto</string>
     <string name="passport_verification_failed">Autentiseringen misslyckades</string>
     <string name="passport_reset_fail_title">Kunde inte återställa</string>
-    <string name="passport_identification_expired">Verification code expired, start over</string>
+    <string name="passport_identification_expired">Verifieringkod gått ut, starta om</string>
     <string name="passport_bad_authentication">Ogiltligt användarnamn eller lösenord</string>
     <string name="passport_error_user_name">Användarnamnet du angav är ogiltigt.</string>
     <string name="passport_access_denied">Nekat tillträde</string>
@@ -154,7 +154,7 @@ För att aktivera ditt konto, följ
     <string name="passport_error_ssl_hand_shake">Det gick inte att ansluta till servern</string>
     <string name="passport_error_server">Server fel</string>
     <string name="passport_error_unknown">Kan inte logga in</string>
-    <string name="passport_error_auth_fail">Session expired, sign in again later</string>
+    <string name="passport_error_auth_fail">Sessionen löpte ut, logga in igen</string>
     <string name="passport_imei_permission_denied_title">Begär IMEI behörighet</string>
     <string name="passport_imei_permission_denied_message">Vi begär tillstånd att få enhetens IMEI. Mi konto använder IMEI för att identifiera enheten som du logga in / registrera dig, för att hålla kontot Mi säker.</string>
     <string name="passport_account_identity_title">Verifiera din identitet</string>
@@ -165,34 +165,34 @@ För att aktivera ditt konto, följ
     <string name="passport_message_dialog_title">SMS med verifikationskoder</string>
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
     <string name="passport_barcode_add_account_prompt">För att ansluta ett konto, skanna QR-koden igen efter du har loggat in.</string>
-    <string name="passport_password_phone_login">Sign in using Mi Account</string>
+    <string name="passport_password_phone_login">Logga in med Mi konto</string>
     <string name="passport_login_other_account">Another account</string>
     <string name="passport_reg_new_account">Create account</string>
     <string name="passport_select_the_login_account">Select the account to sign in</string>
     <string name="passport_select_the_register_phone">Select the phone number to create an account</string>
     <string name="passport_select_the_recycle_phone_login">Select your account</string>
     <string name="passport_recycle_login_other_account">"They aren't mine. I'll use a different one."</string>
-    <string name="passport_registered_phone_num">Phone: %s</string>
+    <string name="passport_registered_phone_num">Telefon: %s</string>
     <string name="passport_quick_login">Sign in</string>
     <string name="passport_error_verify_activator_phone_title">"Couldn't verify phone number"</string>
     <string name="passport_error_verify_activator_phone_message">Make sure your SIM card service is activated and the device is connected to the network.</string>
-    <string name="passport_error_no_password_user">"You haven't set the password yet. Sign in with SMS."</string>
+    <string name="passport_error_no_password_user">Du har inte angett ett lösenord än. Logga in med SMS.</string>
     <string name="passport_phone_ticket_login">Sign in with SMS</string>
     <string name="passport_quick_register">Sign up</string>
-    <string name="passport_account_set_password">Set password</string>
-    <string name="passport_account_set_password_title">Set password</string>
-    <string name="passport_account_set_password_prompt">Set the password for your account to sign in next time.</string>
+    <string name="passport_account_set_password">Ange lösenord</string>
+    <string name="passport_account_set_password_title">Ange lösenord</string>
+    <string name="passport_account_set_password_prompt">Ange lösenord för ditt konto för att logga in nästa gång.</string>
     <string name="passport_set">Set</string>
-    <string name="passport_set_password_no_phone_msg">Add your phone number to protect your account.</string>
-    <string name="passport_user_reg_region">Country/Region</string>
+    <string name="passport_set_password_no_phone_msg">Lägg till ditt telefonnummer för att skydda ditt konto.</string>
+    <string name="passport_user_reg_region">Land/Region</string>
     <string name="passport_user_id_notice">Your Mi Account ID is %s.</string>
     <string name="passport_user_reg_region_warning">"You won't be able to change your country/region once the account is created."</string>
     <string name="passport_sync_account_data">Syncing account info…</string>
     <string name="passport_sync_account_data_failed_warning">Your account info is being synced now, you can sign in using your Mi Account ID. If you want to sign in using your phone or email, wait until the info is fully synced.</string>
     <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
-    <string name="passport_login_recycle_account_yes">Yes</string>
+    <string name="passport_login_recycle_account_yes">Ja</string>
     <string name="passport_login_recycle_account_no">Nope</string>
-    <string name="passport_reg_recycle_account_yes">Yes</string>
+    <string name="passport_reg_recycle_account_yes">Ja</string>
     <string name="passport_reg_recycle_account_no">Nope</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
@@ -360,7 +360,7 @@ För att aktivera ditt konto, följ
     <string name="find_device_request_error">Ett serverfel inträffade, vänta en minut eller två och försök igen</string>
     <string name="find_device_bad_response_error">Ett serverfel inträffade, vänta en minut eller två och försök igen</string>
     <string name="find_device_io_error">Kan inte ansluta till nätverket</string>
-    <string name="find_device_interrupted">Action was interrupted, wait a minute or two and try again</string>
+    <string name="find_device_interrupted">Operationen avbröts, vänta en minut eller två och försök igen</string>
     <string name="find_device_operation_failed_error">Ett serverfel inträffade, vänta en minut eller två och försök igen</string>
     <string name="find_device_unknown_error">Kan inte få enhetens status, vänta en minut eller två och försök igen</string>
     <string name="find_device_error_password_recently_changed">Du har ändrat ditt lösenord inom de senaste 3 dagarna. Kan inte stänga av Hitta enhet nu på grund av säkerhetsskäl.</string>
@@ -405,8 +405,8 @@ För att aktivera ditt konto, följ
 ·tala om detta låsa numret till kundtjänst:%s"</string>
     <string name="find_device_display_id">Lås up nummer:%s</string>
     <string name="login_find_device_bind">Denna enhet är förknippad med befintligt Mi konto-ID (%s). Logga in för att aktivera den här enheten.</string>
-    <string name="find_device_locked_account_phone" formatted="false">%s, associated phone number: %s</string>
-    <string name="find_device_locked_account_email" formatted="false">%s, associated email address: %s</string>
+    <string name="find_device_locked_account_phone" formatted="false">%s, associerat telefonnummer: %s</string>
+    <string name="find_device_locked_account_email" formatted="false">%s, associerad e-postadress: %s</string>
     <string name="oauth_title">Logga in med Mi konto</string>
     <string name="oauth_getting_scopes">Verifiera konto…</string>
     <string name="oauth_get_scopes_failed">Kunde inte hämta konto-info</string>
@@ -435,8 +435,9 @@ För att aktivera ditt konto, följ
     <string name="mipay_identity">ID verification</string>
     <string name="mipay_indentity_done">Verified</string>
     <string name="mipay_identitiy_no">Not verified</string>
-    <string name="account_token_expired_title">Authentication failed</string>
+    <string name="account_token_expired_title">Autentiseringen misslyckades</string>
     <string name="account_token_expired_msg">"Verification code expired, start over or sign out
  Your account ID: %s"</string>
     <string name="bind_safe_phone_msg">Add your phone number to be able to sign in to your Mi Account next time.</string>
+    <string name="account_notification_message">xiaomi account identity has expired, please login again !</string>
 </resources>

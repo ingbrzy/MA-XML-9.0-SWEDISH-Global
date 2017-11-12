@@ -7,18 +7,18 @@
     <string-array name="owner_relation">
         <item>Fader</item>
         <item>Mor</item>
-        <item>Paternal grandfather</item>
-        <item>Paternal grandmother</item>
-        <item>Maternal grandfather</item>
-        <item>Maternal grandmother</item>
+        <item>Farfar</item>
+        <item>Farmor</item>
+        <item>Morfar</item>
+        <item>Mormor</item>
     </string-array>
     <string-array name="sharer_relation_addressive">
-        <item>Father</item>
-        <item>Mother</item>
-        <item>Paternal grandfather</item>
-        <item>Paternal grandmother</item>
-        <item>Maternal grandfather</item>
-        <item>Maternal grandmother</item>
+        <item>Pappa</item>
+        <item>Mamma</item>
+        <item>Farfar</item>
+        <item>Farmor</item>
+        <item>Morfar</item>
+        <item>Mormor</item>
     </string-array>
     <string-array name="relation_with_me">
         <item>Jag</item>

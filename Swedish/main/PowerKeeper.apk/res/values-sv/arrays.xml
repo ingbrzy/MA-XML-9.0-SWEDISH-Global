@@ -69,7 +69,7 @@
     <string-array name="power_checker_recent_group_titles">
         <item>Blocking deep sleep mode</item>
         <item>Blocking sleep mode</item>
-        <item>Searching for Wi-Fi</item>
+        <item>Söker efter Wi-Fi</item>
         <item>Using GPS</item>
         <item>Occupying CPU</item>
         <item>Waking device frequentl</item>

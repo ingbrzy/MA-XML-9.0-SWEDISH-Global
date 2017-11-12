@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="backup_items_sysdata_tailer">
-        <item quantity="other">%d system data files</item>
-        <item quantity="one">%d system data file</item>
+        <item quantity="other">%d systemdatafiler</item>
+        <item quantity="one">%d systemdatafil</item>
     </plurals>
     <plurals name="backup_items_app_tailer">
-        <item quantity="other">%d app data files</item>
-        <item quantity="one">%d app data file</item>
+        <item quantity="other">%d appdatafiler</item>
+        <item quantity="one">%d appdatafil</item>
     </plurals>
     <plurals name="data_item_count">
         <item quantity="other">%d objekt</item>
@@ -21,27 +21,27 @@
         <item quantity="one">%d timme</item>
     </plurals>
     <plurals name="select_item_summary">
-        <item quantity="other">%1$s | %2$d items</item>
-        <item quantity="one">%1$s | %2$d item</item>
+        <item quantity="other">%1$s | %2$d objekt</item>
+        <item quantity="one">%1$s | %2$d objekt</item>
     </plurals>
     <plurals name="select_item_count_unit">
-        <item quantity="other">items</item>
-        <item quantity="one">item</item>
+        <item quantity="other">objekt</item>
+        <item quantity="one">objekt</item>
     </plurals>
     <plurals name="save_item_saving_summary">
-        <item quantity="other">%d items are restored</item>
-        <item quantity="one">%d item is restored</item>
+        <item quantity="other">Återställda %d objekt</item>
+        <item quantity="one">Återställda %d objekt</item>
     </plurals>
     <plurals name="save_item_saved_summary">
-        <item quantity="other">%d items are imported and restored</item>
-        <item quantity="one">%d item is imported and restored</item>
+        <item quantity="other">Importerade och återställda %d objekt</item>
+        <item quantity="one">Importerade och återställda %d objekt</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"%d items imported, "</item>
-        <item quantity="one">"%d item imported, "</item>
+        <item quantity="other">"Impoterade %d objekt. "</item>
+        <item quantity="one">"Impoterade %d objekt. "</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">%d items need to import again</item>
-        <item quantity="one">%d item needs to import again</item>
+        <item quantity="other">Importera %d objekt igen.</item>
+        <item quantity="one">Importera %d objekt igen.</item>
     </plurals>
 </resources>

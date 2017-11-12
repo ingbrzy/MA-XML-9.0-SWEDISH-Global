@@ -89,7 +89,7 @@
         <item quantity="one">Har inte använts på %d år</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> apps haven't been used for a long time, take a look."&lt;/Data></item>
-        <item quantity="one">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> app hasn't been used for a long time, take a look."&lt;/Data></item>
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> appar har inte blivit använda på lång tid, ta en titt.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har inte blivit använda på lång tid, ta en titt.;&lt;/Data></item>
     </plurals>
 </resources>

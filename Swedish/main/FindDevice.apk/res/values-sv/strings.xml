@@ -78,10 +78,10 @@ Logga in på i.mi.com och försöka låsa upp din enhet därifrån"</string>
     <string name="default_lock_msg_words_with_phone">Hej! Jag har förlorat min telefon. Kan du kontakta mej? Tack!</string>
     <string name="default_lock_msg_words">Denna enhet är associerad med ett befintligt Mi konto. Av säkerhetsskäl måste du ange lösenord för att kontrollera enheten.</string>
     <string name="lock_msg_phone">Kontaktinformation: %s</string>
-    <string name="default_debt_msg_words">"This device is locked due to an overdue installment payment.
-Contact your sales agent for details."</string>
+    <string name="default_debt_msg_words">"Den här enheten är låst på grund av en försenad avbetalning.
+Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="sys_notification_async_verify_title">Reactivate Find device</string>
     <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
     <string name="sys_notification_async_open_failed_title">"Couldn't turn on Find device"</string>
-    <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>
+    <string name="sys_notification_async_open_failed_content">Tryck för att försöka igen eller avbryta.</string>
 </resources>

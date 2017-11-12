@@ -228,7 +228,7 @@
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
     <string name="no_vm_number">Missing voicemail number</string>
-    <string name="no_vm_number_msg">No voicemail numbers stored on SIM card.</string>
+    <string name="no_vm_number_msg">Inga nummer till röstbrevlåda är sparade på SIM-kortet.</string>
     <string name="add_vm_number_str">Add number</string>
     <string name="alert_dialog_yes">Ja</string>
     <string name="alert_dialog_no">Nej</string>

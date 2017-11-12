@@ -113,16 +113,16 @@
         <item quantity="one">%1$s pärla</item>
     </plurals>
     <plurals name="more_gems">
-        <item quantity="other">Collect &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> more gems to participate in the lucky draw.</item>
-        <item quantity="one">Collect &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> more gem to participate in the lucky draw.</item>
+        <item quantity="other">Samla &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font>ädelstenar till för att delta i tursamt lotto.</item>
+        <item quantity="one">Samla &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> ädelsten till för att delta i tursamt lotto.</item>
     </plurals>
     <plurals name="clockin_days">
         <item quantity="other">Checked in %1$s days in a row</item>
         <item quantity="one">Checked in %1$s day in a row</item>
     </plurals>
     <plurals name="clockin_new_chip">
-        <item quantity="other">You got &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> points</item>
-        <item quantity="one">You got &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> point</item>
+        <item quantity="other">Du har &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> poäng</item>
+        <item quantity="one">Du har &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> poäng</item>
     </plurals>
     <plurals name="clockin_day_count">
         <item quantity="other">Checked in %1$s days in a row, keep going!</item>

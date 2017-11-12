@@ -5,7 +5,7 @@
         <item quantity="one">%d call recorded.</item>
     </plurals>
     <plurals name="livetalk_left_minute">
-        <item quantity="other">%d minutes left</item>
-        <item quantity="one">%d minute left</item>
+        <item quantity="other">%d minuter kvar</item>
+        <item quantity="one">%d minut kvar</item>
     </plurals>
 </resources>

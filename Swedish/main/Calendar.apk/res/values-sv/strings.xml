@@ -74,7 +74,7 @@
     <string name="new_event_dialog_option">New event</string>
     <string name="no_title_label">(No title)</string>
     <string name="not_synced">not synced</string>
-    <string name="prefDialogTitle_vibrateWhen">Vibrate</string>
+    <string name="prefDialogTitle_vibrateWhen">Vibrera</string>
     <string name="preferences_alerts_ringtone_title">Ljud</string>
     <string name="preferences_alerts_vibrateWhen_title">Vibrera</string>
     <string name="preferences_default_reminder_dialog">Standard påminnelse</string>
@@ -83,7 +83,7 @@
     <string name="preferences_title">Kalender</string>
     <string name="preferences_use_home_tz_descrip">Displays calendars and event times in your home time zone when traveling</string>
     <string name="preferences_use_home_tz_title">Use home time zone</string>
-    <string name="preferences_week_start_day_dialog">Start of the week</string>
+    <string name="preferences_week_start_day_dialog">Början av veckan</string>
     <string name="preferences_week_start_day_title">Start of the week</string>
     <string name="repeats_label">Repeat</string>
     <string name="response_maybe">Maybe</string>
@@ -151,7 +151,7 @@
     <string name="card_detail_dialog_title">Prenumera nu?</string>
     <string name="card_detail_hint">Innehåller kommer visas på hemsidan och uppdateras när du väl prenumererat</string>
     <string name="card_detail_title">Detaljer</string>
-    <string name="card_manager">Manage subscriptions</string>
+    <string name="card_manager">Hantera prenumerationer</string>
     <string name="card_manager_no_data">Inga prenumerationer än</string>
     <string name="card_title_change">Mer</string>
     <string name="countdown_event_title">Nedräkning: %1$s</string>
@@ -223,7 +223,7 @@
     <string name="festival_detail_title">Festival</string>
     <string name="force_touch_title_add_new_event">Lägg till händelse</string>
     <string name="from_google_group_calendar">Google kalender</string>
-    <string name="global_action_text_card_manager">More categories</string>
+    <string name="global_action_text_card_manager">Fler kategorier</string>
     <string name="global_cricket_no_match">No cricket matches are scheduled for today. Check out other days.</string>
     <string name="global_football_final">FINAL</string>
     <string name="global_football_no_match">No football matches are scheduled for today.</string>
@@ -371,10 +371,10 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="template_week_num">Vecka %1$s</string>
     <string name="time_zone">Tidszon</string>
     <string name="today_no_events">Inga evenemang</string>
-    <string name="too_long_content">Content is too long</string>
+    <string name="too_long_content">Innehållet är för långt</string>
     <string name="too_long_description">Event description is too long</string>
     <string name="too_long_location">Event location is too long</string>
-    <string name="too_long_name">Name is too long</string>
+    <string name="too_long_name">Namnet är för långt</string>
     <string name="travel_airport">Flygplats</string>
     <string name="travel_carriage_number_text">Bil</string>
     <string name="travel_eta_advice">%2$s minuters bilresa till %1$s.</string>
@@ -409,7 +409,7 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="view_in_month_view">Se månad</string>
     <string name="week_view_today_toast">Du tittar för närvarande på denna veckan</string>
     <string name="widget_events">Nästa händelse</string>
-    <string name="widget_get_weather_info">Get weather info</string>
+    <string name="widget_get_weather_info">Hämta väderinfo</string>
     <string name="widget_no_events">Inga evenemang</string>
     <string name="widget_select_style">Välj en stil</string>
     <string name="work_day_indication">: (</string>

@@ -256,13 +256,13 @@ för att logga in från låsskärmen"</string>
     <string name="xspace_guide_title">Create Dual app for %s</string>
     <string name="xspace_guide_des">Use 2 accounts without switching</string>
     <string name="xpsace_guide_button">Create</string>
-    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
     <string name="search_result_text">"Couldn't find any apps"</string>
     <string name="space_name_default">Work space</string>
     <string name="space_des_default">Isolated space with encrypted data</string>
     <string name="create_work_space">Create Work space</string>
     <string name="switch_download_space">Switch Work space</string>
-    <string name="confirm_airspace_password">Confirm %s password</string>
+    <string name="confirm_airspace_password">Bekräfta %s lösenord</string>
     <string name="air_space_created">Created Work space successfully</string>
     <string name="enter_air_space">Go to Work space</string>
     <string name="invalid_qr_code">Invalid QR code</string>
@@ -270,12 +270,12 @@ för att logga in från låsskärmen"</string>
     <string name="downloading_space">Downloading…</string>
     <string name="air_space_deleted">Deleted Work space successfully</string>
     <string name="need_reset_passwd">Reset Work space password before entering Work space</string>
-    <string name="reset_passwd_success">Password was reset successfully</string>
+    <string name="reset_passwd_success">Lösenordet återställt</string>
     <string name="air_space_exit">Exit space</string>
     <string name="air_space_setting">Space Settings</string>
     <string name="other">Other</string>
     <string name="airspace_users_full">"Couldn't create more Work space"</string>
-    <string name="same_qr_code_title">%s already exists</string>
+    <string name="same_qr_code_title">%s finns redan</string>
     <string name="same_qr_code_des">Looks like this Work space already exists. You can use Home screen and Notification shade shortcuts to go there. Go now?</string>
     <string name="same_qr_code_enter_space">Go to Work space</string>
     <string name="same_qr_code_create_space">Create another one</string>
@@ -287,7 +287,7 @@ för att logga in från låsskärmen"</string>
     <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
     <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
     <string name="support_desc">Security services provided by Graphite</string>
-    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
+    <string name="sdcardfs_dialog_message">Your old data may be incompatible with the new file system. Optimize the data before entering Second space and reboot your device.</string>
     <string name="do_not_ask">"Don't ask again"</string>
     <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
     <string name="gpg_title">Dual app for Google Play Games</string>
@@ -295,12 +295,12 @@ för att logga in från låsskärmen"</string>
     <string name="gms_title">Turn on Google services</string>
     <string name="gms_open_button">Turn on</string>
     <string name="create_second_space">Created successfully</string>
-    <string name="set_space_password">Set password</string>
+    <string name="set_space_password">Ange lösenord</string>
     <string name="set_space_finger">Set fingerprint</string>
     <string name="guide_start_text">Two spaces. One device.</string>
     <string name="guide_start_ads_text">A completely new level of security</string>
     <string name="skip">Skip</string>
-    <string name="input_space_password">Set now</string>
+    <string name="input_space_password">Ange nu</string>
     <string name="input_space_finger">Set now</string>
     <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
     <string name="set_space_finger_sub_text_suc">Set fingerprint successfully</string>
@@ -312,6 +312,8 @@ för att logga in från låsskärmen"</string>
     <string name="show_decktop_quick_switch_icon_detail">Show a shortcut for switching spaces on the Home screen in First space</string>
     <string name="has_created_second_space">"You can open Second space now.
 Two spaces. One device."</string>
-    <string name="privacy_password_fingerprint_dialog_title">Scan your fingerprint</string>
-    <string name="privacy_password_fingerprint_dialog_message">Put your finger on the sensor</string>
+    <string name="privacy_password_fingerprint_dialog_title">Skanna ditt fingeravtryck</string>
+    <string name="privacy_password_fingerprint_dialog_message">Placera fingret på sensorn</string>
+    <string name="optimize_now">Optimize</string>
+    <string name="dialog_title">Attention</string>
 </resources>

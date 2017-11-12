@@ -134,7 +134,7 @@
     <string name="savingContact">Sparar kontakt…</string>
     <string name="savingDisplayGroups">Sparar visningsalternativ…</string>
     <string name="contactSavedToast">Kontakt sparad</string>
-    <string name="profileSavedToast">Profile saved</string>
+    <string name="profileSavedToast">Profil sparad</string>
     <string name="contactSavedErrorToast">Kunde inte spara Kontaktförändringar</string>
     <string name="profileSavedErrorToast">Kunde inte spara mina profiländringar</string>
     <string name="groupSavedToast">Grupp sparad</string>
@@ -309,6 +309,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="vcard_export_will_start_message">%s kommer att importeras snart.</string>
     <string name="vcard_export_request_rejected_message">vCard exportförfrågan nekades. Försök igen senare.</string>
     <string name="vcard_unknown_filename">kontakt</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Exportera kontakter?</string>
     <string name="confirm_export_message">Dina kontakter kommer att exporteras till filen: %s.</string>
     <string name="exporting_contact_failed_title">Kunde inte exportera</string>
@@ -453,6 +454,7 @@ Orsak: \"%s\""</string>
     <string name="recent">Nyligen</string>
     <string name="recent_updates">Nyligen uppdaterade</string>
     <string name="account_type_format">%1$s kontakt</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">Använd denna bild</string>
     <string name="contact_read_only">Inte redigerbar från denna app.</string>
     <string name="no_contact_details">Ingen ytterligare information för denna kontakt.</string>
@@ -520,12 +522,13 @@ Välj en av följande alternativ:"</string>
     <string name="non_phone_add_to_contacts">Lägg till i en existerande kontakt</string>
     <string name="activity_title_confirm_add_detail">Lägg till i kontakt</string>
     <string name="non_phone_close">Stäng</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="date_year_toggle">Ange ett år</string>
     <string name="social_widget_label">Kontakt</string>
     <string name="social_widget_loading">Laddar…</string>
     <string name="contacts_unavailable_create_contact">Skapa ny kontakt</string>
     <string name="contacts_unavailable_add_account">Logga in på ett konto</string>
-    <string name="contacts_unavailable_import_contacts">Import from a file</string>
+    <string name="contacts_unavailable_import_contacts">Importera från fil</string>
     <string name="create_group_dialog_title">Skapa ny grupp</string>
     <string name="create_group_item_label">Skapa ny grupp</string>
     <string name="delete_group_dialog_title">Ta bort grupp</string>
@@ -537,6 +540,7 @@ Välj en av följande alternativ:"</string>
     <string name="toast_text_copied">Text kopierad</string>
     <string name="cancel_confirmation_dialog_title">Avbryt</string>
     <string name="cancel_confirmation_dialog_message">Ignorera ändringar?</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="profile_display_name">Sätt upp min profil</string>
     <string name="enter_contact_name">Skriv personens namn</string>
     <string name="view_updates_from_group">Visa uppdateringar</string>
@@ -573,9 +577,9 @@ Välj en av följande alternativ:"</string>
     <string name="description_call_log_outgoing_call">Utgående samtal</string>
     <string name="description_call_log_missed_call">Missat samtal</string>
     <string name="description_call_log_voicemail">Röstbrevlåda</string>
-    <string name="description_call_log_incoming_forwarding_call">Incoming forwarded call</string>
-    <string name="description_call_log_missed_forwarding_call">Missed forwarded call</string>
-    <string name="description_call_log_new_contact">New contact</string>
+    <string name="description_call_log_incoming_forwarding_call">Inkommande vidarebefordrat samtal</string>
+    <string name="description_call_log_missed_forwarding_call">Missat vidarebefodrat samtal</string>
+    <string name="description_call_log_new_contact">Ny kontakt</string>
     <string name="description_add_contact">Lägg till kontakt</string>
     <string name="description_view_contact">Visa kontakt %1$s</string>
     <string name="description_call">Ring %1$s</string>
@@ -624,7 +628,7 @@ Välj en av följande alternativ:"</string>
     <string name="sim_contacts">SIM-korts kontakter</string>
     <string name="export_sim_contact_finish">Kontakter exporterade</string>
     <string name="sim_export_loading">Läser SIM-kort…</string>
-    <string name="sim_export_error">SIM not ready, try again later</string>
+    <string name="sim_export_error">SIM ej redo, försök igen senare</string>
     <string name="sim_capacity">Visa SIM-kortsutrymme</string>
     <string name="sim_error_not_ready">Laddar SIM-kontakter…</string>
     <string name="sim_contact_existing">Kontakt existerar redan</string>
@@ -682,7 +686,7 @@ Kontakt kort är avstängda"</string>
     <string name="miprofile_save_alertdialog_title">Kontakt kort mottaget</string>
     <string name="miprofile_save_alertdialog_message">Dit kort kommer att skickas till denna kontakt automatiskt.</string>
     <string name="miprofile_notice_text">Tryck här för att visa kontakters profil bild</string>
-    <string name="miprofile_notice_close">Close</string>
+    <string name="miprofile_notice_close">Stäng</string>
     <string name="miprofile_switch_on_alertdialog_title">Profil bild uppdatera</string>
     <string name="miprofile_switch_on_alertdialog_message">Växla kontakt kort för att visa uppdaterad profil bild.</string>
     <string name="miprofile_switch_on_alertdialog_positive">Sätt på</string>
@@ -690,6 +694,7 @@ Kontakt kort är avstängda"</string>
     <string name="miprofile_alertdialog_message">Visa detta namn för kontakter när du frågar om att byta kort.</string>
     <string name="miprofile_alertdialog_edit">Ange namn</string>
     <string name="miprofile_switch_off_alertdialog_message">Du kommer inte kunna växla kontakt kort med andra.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Lägg till telefonnummer</string>
     <string name="miprofile_bind_account_alertdialog_message">Du måste lägga till denna enhets telefonnummer till ditt Mi Konto för att kunna använda denna funktion.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Lägg till nummer</string>
@@ -785,8 +790,8 @@ Kontakt kort är avstängda"</string>
     <string name="zero_items_selected">Välj objekt</string>
     <string name="select_all">Markera alla</string>
     <string name="deselect_all">Avmarkera alla</string>
-    <string name="select_exceed">Select no more than %1$d</string>
-    <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
+    <string name="select_exceed">Välj in inte fler än %1$d</string>
+    <string name="select_all_exceed">Välj inte fler än %1$d, det går inte att välja alla</string>
     <string name="select_none">Inget valt</string>
     <string name="toast_finish_delete_call_log">Samtalshistorik rensad</string>
     <string name="toast_finish_delete_selected_call_log">Samtalshistorik rensad</string>
@@ -881,7 +886,7 @@ Kontakt kort är avstängda"</string>
     <string name="pref_key_rebuild_t9_index_message">Återskapa indexet för att lösa sökproblem</string>
     <string name="pref_key_photo">Foto</string>
     <string name="pref_key_photo_word_title">Tilldela kontaktbilder</string>
-    <string name="pref_key_photo_word_summary">Automatically assign a photo to contacts without one</string>
+    <string name="pref_key_photo_word_summary">Tilldela en bild automatiskt till kontakter som saknar en</string>
     <string name="remove_duplicate">"MIUI hjälper dig att finna och slå ihop dubblerade kontakter.
 
  För att börja, välj Slå ihop ikonen på botten av din skärm."</string>
@@ -913,15 +918,15 @@ Kontakt kort är avstängda"</string>
     <string name="cloud_antispam_title">Nummerpresentation</string>
     <string name="share_over_limit">Kan inte dela över 1000 kontakter</string>
     <string name="preference_key_trash_bin_title">Återställ kontakter</string>
-    <string name="preference_other">Other</string>
-    <string name="preference_show_yellowpage_tab_title">Show Yellow pages</string>
-    <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
+    <string name="preference_other">Övrigt</string>
+    <string name="preference_show_yellowpage_tab_title">Använd Gula Sidorna</string>
+    <string name="preference_show_yellowpage_tab_description">Gula sidorna fungerar inte korrekt när denna funktion är avaktiverad.</string>
     <string name="account_default">Telefon</string>
     <string name="lunarBirthdayLabelsGroup">Mån-födelsedag</string>
     <string name="option_view_contact">Visa</string>
     <string name="option_edit_contact">Redigera</string>
     <string name="option_delete_contact">Ta bort</string>
-    <string name="option_delete_batch_contacts">Delete batch</string>
+    <string name="option_delete_batch_contacts">Radera parti</string>
     <string name="option_send_to_desktop">Placera på hemskärmen</string>
     <string name="option_send_to_others">Framåt</string>
     <string name="option_not_star">Ta bort från favoriter</string>
@@ -954,9 +959,9 @@ Kontakt kort är avstängda"</string>
     <string name="antispam_provider_format">Identifierad av %s</string>
     <string name="type_mx_msg">Mi Meddelande</string>
     <string name="qr_card_card">QR-kod</string>
-    <string name="unknown_details_new_contact">New</string>
-    <string name="unknown_details_add_to_contact">Existing</string>
-    <string name="unfold_all">Show all</string>
+    <string name="unknown_details_new_contact">Ny</string>
+    <string name="unknown_details_add_to_contact">Existerande</string>
+    <string name="unfold_all">Visa alla</string>
     <string name="menu_new_favorite_action_bar">Lägg till i favoriter</string>
     <string name="click_close">Klicka för att stänga</string>
     <string name="phone_primary">Primär</string>
@@ -976,10 +981,10 @@ Kontakt kort är avstängda"</string>
     <string name="group_create_fail_toast">Det gick inte att skapa grupp</string>
     <string name="group_rename_fail_toast">Kunde inte byta namn på grupp</string>
     <string name="contact_unfavorite_toast">Borttagen från favoriter</string>
-    <string name="profile_delete_toast">Deleted profile successfully</string>
-    <string name="group_member_remove_success_toast">Removed from group</string>
-    <string name="group_member_remove_fail_toast">Not removed from group</string>
-    <string name="contact_delete_toast">Contact deleted</string>
+    <string name="profile_delete_toast">Raderade profil framgångsrikt</string>
+    <string name="group_member_remove_success_toast">Borttagen från grupp</string>
+    <string name="group_member_remove_fail_toast">Inte borttagen från grupp</string>
+    <string name="contact_delete_toast">Kontakt raderad</string>
     <string name="duplicate_group_name">En grupp med det namnet existerar redan</string>
     <string name="all_list_empty">Inga kontakter</string>
     <string name="favorites_list_empty">Inga favoriter</string>
@@ -1010,6 +1015,7 @@ Kontakt kort är avstängda"</string>
     <string name="preference_smart_group_location_summary">Gruppera efter landskod</string>
     <string name="preference_smart_group_frequency_title">Nyligen kontaktade</string>
     <string name="preference_smart_group_frequency_summary">Gruppera efter nyligen kontaktade</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_label">Smarta grupper</string>
     <string name="smart_group_loading">Vänta lite…</string>
     <string name="smart_group_company_label">Företag</string>
@@ -1064,6 +1070,7 @@ Kontakt kort är avstängda"</string>
     <string name="device_import_local_account">Lokalt konto</string>
     <string name="import_name">Namn</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Kontrollera målenheten</string>
@@ -1072,14 +1079,14 @@ Kontakt kort är avstängda"</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth anslutning avbruten</string>
     <string name="device_import_progress_toast">%1$d kontakter importerade</string>
     <string name="no_contact_in_other_phone">Inga kontakter funna</string>
-    <string name="device_transfer_by_bluetooth_message">"1. Turn on Bluetooth on the other device. 
+    <string name="device_transfer_by_bluetooth_message">"1. Aktivera Bluetooth på den andra enheten. 
 
-- Bluetooth can be found in the network settings on Android devices. 
-- On iOS devices, Bluetooth is in the Settings. 
+- Bluetooth hittas i nätverksinställningen på en Androidenhet. 
+- På en iOSenhet, hittas Bluetooth i Inställningar. 
 
-2. Discoverable mode should also be turned on on Android devices. 
+2. Upptäcktsbar ska också vara påslagen på Androidenheten. 
 
-3. Tap \"Next\", and give Contacts the required permissions."</string>
+3. Tryck på \"Nästa\", och ge Kontakter the nödvändiga behörigheter."</string>
     <string name="device_transfer_by_sim_message">"\". Spara kontakter ifrån den andra enheten på SIM kortet; 
 
 2. Öppna inställningar i Kontakt appen, och gå sedan till \"Importera/Exportera kontakter\" -- \"Importera ifrån SIM kort\", tryck och håll ned på någon SIM kontakt för att välja den, välj alla kontakter som krävs, och tryck \"Importera\".\""</string>
@@ -1100,13 +1107,13 @@ Kontakt kort är avstängda"</string>
     <string name="batch_delete">Radera parti</string>
     <string name="starred_contacts">Favoriter</string>
     <string name="other_contacts">Övriga kontakter</string>
-    <string name="set_photo_failed_msg">"Couldn't assign photo"</string>
+    <string name="set_photo_failed_msg">Kunde inte tilldela bild</string>
     <string name="contact_is_readOnly">Kan inte redigera skrivskyddade kontakter</string>
     <string name="profile_name">Min profil</string>
     <string name="profile_name_photo">Foto</string>
     <string name="toast_copying">Kopierar…</string>
     <string name="toast_copy_done">Klar</string>
-    <string name="toast_start_intent_failed">"Couldn't find apps to handle this action"</string>
+    <string name="toast_start_intent_failed">Det gick inte att hitta appar som hanterade den här åtgärden</string>
     <string name="group_name">Mina grupper</string>
     <string name="import_all_sim_entries_miui">Importera alla kontakter</string>
     <string name="import_sim_entry_miui">Importera</string>
@@ -1124,10 +1131,10 @@ Kontakt kort är avstängda"</string>
     <string name="close_dial_pad_description">Stäng knappsats</string>
     <string name="dial">Ring</string>
     <string name="delete_dial_input">Ta bort</string>
-    <string name="clear_digits">Delete phone number</string>
+    <string name="clear_digits">Ta bort telefonnummer</string>
     <string name="call_record_setting_miui">Inspelningsinställningar</string>
     <string name="accessibility_calllog_detail">Detaljer för samtalshistoriken</string>
-    <string name="accessibility_contact_detail">Contact details</string>
+    <string name="accessibility_contact_detail">Kontaktdetaljer</string>
     <string name="clear_copy_number_description">Rensa kopierat telefonnummer</string>
     <string name="select_groups">Välj grupper</string>
     <string name="sim_capacity_content" formatted="false">%d totalt | %d använt</string>
@@ -1154,13 +1161,13 @@ Kontakt kort är avstängda"</string>
     <string name="yellowpage_navigation_search_city_name_hint">Stad</string>
     <string name="yellowpage_navigation_search_select_city">Välj en stad</string>
     <string name="yellowpage_navigation_search_result_no_more">Inga fler resultat</string>
-    <string name="yellowpage_navigation_search_result_network_error">"Can't connect to the network"</string>
+    <string name="yellowpage_navigation_search_result_network_error">Kan inte ansluta till nätverket</string>
     <string name="yellowpage_navigation_search_result_service_error">Service otillgänglig</string>
     <string name="yellowpage_navigation_search_result_unknown_error">Okänt fel</string>
     <string name="yellowpage_navigation_search_result_average_price">Genomsnitt CNY %d</string>
     <string name="yellowpage_navigation_send_to_desktop_succeeded">Tillagd på startskärmen</string>
     <string name="yellowpage_navigation_send_to_desktop_downloading">Laddar ner…</string>
-    <string name="yellowpage_navigation_send_to_desktop_failed">"Can't connect to the network"</string>
+    <string name="yellowpage_navigation_send_to_desktop_failed">Kan inte ansluta till nätverket</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">Saldo och mobildata har verifierats</string>
     <string name="yellowpage_navigation_balance_refresh_failed">Saldo och mobildata kunde inte verifieras, försök igen senare.</string>
     <string name="yellowpage_user_profile">Profil</string>
@@ -1211,7 +1218,7 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="cloud_state_disabled">Synkronisera med Mi Cloud är av</string>
     <string name="unknow_phone_number_call_failed">Det går inte att ringa okänt nummer</string>
     <string name="unknow_phone_number_mms_failed">Det går inte att skicka meddelande till okänt nummer</string>
-    <string name="more_call_logs">Listen to all your call recordings at <a href="https://i.mi.com">i.mi.com</a></string>
+    <string name="more_call_logs">Lyssna på alla dina inspelningar på <a href="https://i.mi.com">i.mi.com</a></string>
     <string name="transfer_accounts">Överför konton</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="dialer_menu_description">Visa menyer</string>
@@ -1233,7 +1240,7 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="hybrid_service_unavailiable">Service otillgänglig</string>
     <string name="hybrid_try_again">Försök igen</string>
     <string name="contacts_hybrid_activity_label">Återställ kontakter</string>
-    <string name="hybrid_webpage_not_available">Webpage not available</string>
+    <string name="hybrid_webpage_not_available">Webbsida inte tillgänglig</string>
     <string name="expandOpenViewDescription">Expandera</string>
     <string name="expandCloseViewDescription">Fäll ihop</string>
     <string name="editContactNameExpandOpenDescription">Expandera namn</string>
@@ -1244,12 +1251,12 @@ För undvika återkommande förfrågningar, uppdaterar vi information om ditt sa
     <string name="tomorrow">Imorgon</string>
     <string name="low_memory_toast">Det går inte att använda den här funktionen på grund av låg minne.</string>
     <string name="yellowpage_fc_toast">Det går inte att använda den här funktionen eftersom Gula sidorna kraschade.</string>
-    <string name="contact_search_history">History</string>
-    <string name="contact_clear_search_history">Clear history</string>
-    <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
-    <string name="t9_search_empty_create_contact">New contact</string>
-    <string name="t9_search_empty_video_call">Video call</string>
-    <string name="t9_search_empty_send_sms">Send message</string>
-    <string name="t9_search_empty_edit_contact">Add to contacts</string>
-    <string name="add_field_toast">No more fields to add.</string>
+    <string name="contact_search_history">Historik</string>
+    <string name="contact_clear_search_history">Rensa historik</string>
+    <string name="call_settings_primary_user_only">Samtalsinställningar kan endast ändras av den primära användaren.</string>
+    <string name="t9_search_empty_create_contact">Ny kontakt</string>
+    <string name="t9_search_empty_video_call">Videosamtal</string>
+    <string name="t9_search_empty_send_sms">Skicka meddelande</string>
+    <string name="t9_search_empty_edit_contact">Lägg till i kontakter</string>
+    <string name="add_field_toast">Inga fler fält att lägga till.</string>
 </resources>

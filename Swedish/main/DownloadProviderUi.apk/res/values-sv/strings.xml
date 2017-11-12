@@ -332,6 +332,8 @@ Accelerate downloads across all your devices."</string>
     <string name="xl_vip_open">Purchase</string>
     <string name="xl_vip_pay">Extend</string>
     <string name="xl_vip_overdue">Expired</string>
+    <string name="download_num_size">%1$s | %2$s</string>
+    <string name="app_size">%1$s</string>
     <string name="ad_title">People also download these with  %1$s </string>
     <string name="rank_data_empty">No rankings</string>
     <string name="net_error">"Can't connect to network, try again"</string>

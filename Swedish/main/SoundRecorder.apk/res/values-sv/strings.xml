@@ -146,10 +146,10 @@
     <string name="choose_call_records_count">%d objekt</string>
     <string name="network_tip_dialog_title">Internetanslutning krävs</string>
     <string name="network_tip_dialog_content">Recorder needs to connect to the internet, as well as read your contacts to work normally. Agree?</string>
-    <string name="network_tip_dialog_ok">Agree</string>
+    <string name="network_tip_dialog_ok">Samtycker</string>
     <string name="network_tip_dialog_cancel">Avbryt</string>
     <string name="head_set_tip_dialog_title">Use internal mic</string>
     <string name="head_set_tip_dialog_msg">Disconnect your earphones to be able to record sound with specific presets (e.g., Music, Voice).</string>
-    <string name="head_set_tip_dialog_ok">Got it</string>
-    <string name="rename_fail_tip">"Couldn't rename. The item with this name already exists."</string>
+    <string name="head_set_tip_dialog_ok">Jag förstår</string>
+    <string name="rename_fail_tip">Kunde inte ändra namn. En objekt med samma namn finns redan.</string>
 </resources>

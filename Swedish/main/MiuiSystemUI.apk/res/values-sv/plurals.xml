@@ -5,12 +5,12 @@
         <item quantity="one">%d recent app</item>
     </plurals>
     <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Opened Recents, available apps: %d.</item>
-        <item quantity="one">Opened Recents, available app: %d.</item>
+        <item quantity="other">Nyligen öppnade, tillgängliga appar: %d.</item>
+        <item quantity="one">Nyligen öppnade, tillgänglig app: %d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="one">Opened Recents, available app: %d. Swipe up to remove, swipe down to lock.</item>
+        <item quantity="other">Öppnade Recents, tillgängliga appar:%d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
+        <item quantity="one">Öppnade Recents, tillgänglig app:%d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d toggles will be shown in the Notification shade</item>
@@ -21,8 +21,8 @@
         <item quantity="one">Dölj denna apps notifikationer?</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="one">Hiding notifications from %1$s &amp; %2$d app.</item>
+        <item quantity="other">Döljer notifikationer från %1$s &amp; %2$d appar.</item>
+        <item quantity="one">Döljer notifikationer från %1$s &amp; %2$d app.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>

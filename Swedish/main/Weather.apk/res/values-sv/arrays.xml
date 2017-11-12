@@ -88,7 +88,7 @@
     </string-array>
     <string-array name="indices_uv_level">
         <item>Low</item>
-        <item>Moderate</item>
+        <item>Måttlig</item>
         <item>High</item>
     </string-array>
     <string-array name="indices_sport">
@@ -159,8 +159,8 @@
     </string-array>
     <string-array name="wind_unit_detail">
         <item>Beaufortskalan</item>
-        <item>Kilometers per hour (km/h)</item>
-        <item>Meters per second (m/s)</item>
+        <item>Kilometer per timme (km/h)</item>
+        <item>Meter per sekund (m/s)</item>
         <item>Miles per timme (mph)</item>
         <item>Knop (kn)</item>
     </string-array>
@@ -172,15 +172,15 @@
         <item>%1$skn</item>
     </string-array>
     <string-array name="minute_rain_array">
-        <item>Heavy</item>
-        <item>Moderate</item>
-        <item>Light</item>
+        <item>Tung</item>
+        <item>Måttlig</item>
+        <item>Lätt</item>
     </string-array>
     <string-array name="pollution_level_desc_arr">
         <item>Excellent</item>
         <item>Good</item>
         <item>Lightly polluted</item>
-        <item>Moderately polluted</item>
+        <item>Måttligt förorenat</item>
         <item>Heavily polluted</item>
         <item>Severely polluted</item>
         <item>Beyond index</item>

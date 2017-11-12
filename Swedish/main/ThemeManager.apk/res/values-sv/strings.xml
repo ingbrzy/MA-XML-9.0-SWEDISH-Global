@@ -80,7 +80,7 @@
     <string name="resource_no_result">Fann ingenting</string>
     <string name="resource_failed_to_load_list">Kan inte ladda teman.</string>
     <string name="resource_search_list_empty">Fann ingenting.</string>
-    <string name="resource_data_empty">No items here.</string>
+    <string name="resource_data_empty">Inga objekt här.</string>
     <string name="resource_no_network_text">Kan inte ansluta till nätverket.</string>
     <string name="resource_network_diagnostics"><u>Test network</u></string>
     <string name="resource_list_title">Nyligen valda</string>
@@ -143,7 +143,7 @@
     <string name="resource_exchange_hint">Ange din gåvokod</string>
     <string name="resource_exchange_window_title">Återlösa</string>
     <string name="resource_exchange_universal_goon">Denna kod kan användas för att ladda ner ett tema i butiken.</string>
-    <string name="resource_exchange_universal_finish">Use this code to download items from Themes.</string>
+    <string name="resource_exchange_universal_finish">Använd denna kod för att ladda ner ett tema från appen Teman.</string>
     <string name="resource_exchange_empty_format">Ange gåvokod</string>
     <string name="resource_exchange_wrong_format_by_local">Formatet på koden du angav är felaktig.</string>
     <string name="resource_exchange_wrong_format_by_server">Koden har inte verifierats. Se till att du har angett den korrekt.</string>
@@ -226,7 +226,7 @@
     <string name="backup_theme_dialog_message">Säkerhetskopiera din nuvarande tema?</string>
     <string name="backup_theme_progress_message">Säkerhetskopierar…</string>
     <string name="backup_theme_success_message">Dina aktuella temainställningar har säkerhetskopierats.</string>
-    <string name="backup_theme_fail_trial_rights_message">"Can't back up trial items"</string>
+    <string name="backup_theme_fail_trial_rights_message">Det går inte att säkerhetskopiera objekt som är på prövotid</string>
     <string name="backup_theme_name">Tema säkerhetskopiering</string>
     <string name="theme_description_title_default">Standard</string>
     <string name="theme_description_title_customized">Anpassad</string>
@@ -279,7 +279,7 @@
     <string name="wallpaper_decoded_error">Kan inte ladda wallpaper</string>
     <string name="close">Stäng</string>
     <string name="download_success">Nedladdingen slutförd</string>
-    <string name="account_info">Me</string>
+    <string name="account_info">Jag</string>
     <string name="account_name_not_login">Logga in</string>
     <string name="favorite_list">Favoriter</string>
     <string name="favorite_list_format">Favorit %1$s</string>
@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">Uppdatera %1$s nu?</string>
     <string name="theme_current_using_has_update">Tema uppdatering tillgänglig</string>
     <string name="theme_immediately_apply_tip">Ange tema uppdatering nu?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Nya teman tillgängliga</string>
     <string name="selected_resource_file_invalid">Kan inte använda valda resursfilen</string>
     <string name="apply_theme_with_ringtones">Använd tema ringsignaler</string>
@@ -309,7 +310,7 @@
     <string name="theme_user_agreement_content5">". Denna app behöver ansluta till Internet för att fungera normalt. "</string>
     <string name="theme_user_agreement_title">Vilkor</string>
     <string name="theme_user_agreement_allow">Samtycker</string>
-    <string name="theme_user_agreement_exit">Disagree</string>
+    <string name="theme_user_agreement_exit">Misstycka</string>
     <string name="theme_user_agreement_remind_never">Visa inte igen</string>
     <string name="theme_user_agreement_remind_again">Visa Villkor</string>
     <string name="theme_user_agreement_remind_summary">Visa användarvillkoren popup varje gång du öppnar temaapp. Den här inställningen börjar gälla när du startar enheten.</string>
@@ -320,9 +321,9 @@
     <string name="theme_favorite_delete_success">Borttagen från favoriter</string>
     <string name="theme_favorite_delete_fail">Kan inte ta bort från favirot-tema</string>
     <string name="theme_favorite_list_empty">"You haven't added any themes to favorites."</string>
-    <string name="theme_favorite_delete">Remove from favorites</string>
+    <string name="theme_favorite_delete">Ta bort från favoriter</string>
     <string name="theme_favorite_waiting">Bara en sekund…</string>
-    <string name="theme_empty_redirect">Back to Themes</string>
+    <string name="theme_empty_redirect">Tillbaka till Teman</string>
     <string name="theme_purchased_non_local">Online</string>
     <string name="theme_purchased_list_empty">Du har inte köpt några teman.</string>
     <string name="gift_present">Ge</string>
@@ -406,7 +407,7 @@
     <string name="multi_sim_ringtone_settings_dialog_ok">Jag förstår</string>
     <string name="uid_change_dialog_title">Reboot device</string>
     <string name="uid_change_dialog_message">"You've deleted updates. Reboot device to be able to use themes."</string>
-    <string name="uid_change_dialog_ok">Got it</string>
+    <string name="uid_change_dialog_ok">Jag förstår</string>
     <string name="wallpaper_scroll_type_tips">Wallpaper scroll</string>
     <string name="wallpaper_apply">Apply</string>
     <string name="can_not_apply">Can not apply</string>
@@ -418,7 +419,7 @@
     <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
     <string name="lockscreen_apply_success_but_home_apply_failured">"Lock screen wallpaper applied. Can't apply Home screen wallpaper."</string>
     <string name="lockscreen_apply_failured_but_home_apply_success">"Home screen wallpaper applied. Can't apply Lock screen wallpaper."</string>
-    <string name="the_picture_is_too_small">The image is too small</string>
+    <string name="the_picture_is_too_small">Bilden är för liten</string>
     <string name="the_picture_is_not_support">"The image isn't supported"</string>
     <string name="is_setting_wallpaper_message">Setting wallpaper…</string>
     <string name="ad_app_download_start">Starting download…</string>
@@ -430,17 +431,17 @@
     <string name="recently_used">Recently used</string>
     <string name="system_precust">Pre-installed</string>
     <string name="wallpaper_settings_loading_text">Just a sec…</string>
-    <string name="wallpaper_settings_no_history">No history</string>
+    <string name="wallpaper_settings_no_history">Ingen historik</string>
     <string name="card_loading">Just a sec…</string>
     <string name="card_no_network">"Couldn't connect to the network. Check your network settings and try again."</string>
-    <string name="card_data_request_error">An error occurred. Wait a minute or two and try again.</string>
+    <string name="card_data_request_error">Ett fel inträffade, vänta en minut eller två och försök igen.</string>
     <string name="card_retry">Try again</string>
-    <string name="in_the_end">No more items to show</string>
+    <string name="in_the_end">Inga fler objekt att visa</string>
     <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_color_ring">Ringback tone</string>
     <string name="item_resource_audio_optional_phone_ring">Ringtone</string>
-    <string name="item_resource_audio_optional_alarm_ring">Alarms</string>
-    <string name="item_resource_audio_optional_notification_ring">Notifications</string>
+    <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
+    <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
     <string name="resource_ring_ranking_list_divider">-</string>
     <string name="resource_ring_ranking_list_rank_1">1</string>
     <string name="resource_ring_ranking_list_rank_2">2</string>

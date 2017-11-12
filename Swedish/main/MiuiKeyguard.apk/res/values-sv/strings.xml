@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="delete">Ta bort</string>
-    <string name="unlockscreen_recharging_message">Charging %d%%</string>
+    <string name="unlockscreen_recharging_message">Laddar %d%%</string>
     <string name="unlockscreen_recharge_completed">Batteriet laddat</string>
     <string name="unlockscreen_low_battery">Anslut laddare nu</string>
     <string name="lockscreen_charging_msg">Laddar</string>
@@ -16,13 +16,13 @@
     <string name="lock_screen_date_12">EEEE, MMMM d</string>
     <string name="phone_locked_string">Telefonen har låsts</string>
     <string name="phone_locked_foget_password">Glömt lösenord?</string>
-    <string name="phone_locked_foget_password_method">Forgot password?</string>
-    <string name="phone_locked_foget_password_method_content"><Data>You have to &lt;font color=#a5220e>erase all data &lt;/font> on your device, including photos and contacts, and then set a new Lock screen password.</Data></string>
-    <string name="phone_locked_foget_password_mehod_back">Back</string>
-    <string name="phone_locked_foget_password_method_next">Next</string>
+    <string name="phone_locked_foget_password_method">Glömt lösenord?</string>
+    <string name="phone_locked_foget_password_method_content"><Data>Du måste &lt;font color=#a5220e> rensa all data &lt;/font> på din enhet, inklusive bilder och kontakter, och sedan sätta ett nytt lösenord för låsskärmen.;</Data></string>
+    <string name="phone_locked_foget_password_mehod_back">Tillbaka</string>
+    <string name="phone_locked_foget_password_method_next">Nästa</string>
     <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Power off your device, press and hold the &lt;font color=#a5220e>Power button&lt;/font> and the &lt;font color=#a5220e>Volume up button&lt;/font> simultaneously until you see the Mi logo.</Data></string>
-    <string name="phone_locked_forget_password_suggesstion_two_content"><Data>Select &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> and wait until the device reboots.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Stäng av din enhet, tryck och håll &lt;font color=#a5220e> Strömknappen&lt;/font> och &lt;font color=#a5220e> Volymknappen upp&lt;/font> samtidigt till du ser MI-loggan.;</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_two_content"><Data>Välj&lt;font color=#a5220e>\"Rensa&amp;amp; Nollställ\"&lt;/font> och vänta till enheten startar om.;</Data></string>
     <string name="phone_locked_foget_password_ok">Uppfattat</string>
     <string name="lockscreen_access_pattern_start">Mönster startat</string>
     <string name="lockscreen_access_pattern_cleared">Mönster rensat</string>
@@ -40,14 +40,14 @@
     <string name="confirm_pin_msg">Ange PIN igen</string>
     <string name="invalid_confirm_pin_hint">PIN-koderna matchar inte</string>
     <string name="unlock_string">Lås upp</string>
-    <string name="open_camera_hint_text">Swipe left to open camera</string>
-    <string name="open_remote_center_hint_text">Swipe right to open Mi Remote</string>
+    <string name="open_camera_hint_text">Svep till vänster för att öppna Kameran</string>
+    <string name="open_remote_center_hint_text">Svep till höger för att öppna Mi Fjärrkontroll</string>
     <string name="click_to_enter_text">Tryck för att visa</string>
     <string name="fingerprint_try_again_text">Försök igen</string>
-    <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
+    <string name="fingerprint_try_again_msg">Det gick inte att tyda fingeravtrycket, försök igen.</string>
     <string name="fingerprint_not_identified_title">Ange lösenord</string>
-    <string name="fingerprint_not_identified_msg">Too many unsuccessful attempts. Enter password now or try using your fingerprint in a few seconds.</string>
-    <string name="fingerprint_again_identified_msg">Your fingerprint is active now. Use it to unlock the device, or enter password.</string>
+    <string name="fingerprint_not_identified_msg">För många misslyckade försök. Ange lösenord eller försök med fingeravtryck om ett par sekunder.</string>
+    <string name="fingerprint_again_identified_msg">Ditt fingeravtryck är aktivt nu. Använd det för att låsa upp, eller ange lösenord.</string>
     <string name="fingerprint_add_title">Lägg till fingeravtryck</string>
     <string name="fingerprint_add_text">Fingeravtrycks-gränssnittet har uppdaterats. Lägg till ditt fingeravtryck igen.</string>
     <string name="invalid_sim_pin_hint">PIN måste innehålla 4 till 8 nummer</string>
@@ -55,9 +55,9 @@
     <string name="input_password_hint_text">Ange lösenord</string>
     <string name="input_pattern_hint_text">Rita ditt upplåsningsmönster</string>
     <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
-    <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
-    <string name="input_password_handle_sdcard_fs">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
+    <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
+    <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
     <string name="accessibility_enter_lock_wallpaper">Knacka för att öppna bakrunder</string>
     <string name="lock_wallpaper_learn_more">Mer</string>
     <string name="lock_wallpaper_enter">Ange</string>
@@ -65,29 +65,29 @@
     <string name="fingerprint_enter_second_psw_title">Ange Sekundära utrymmets lösenord</string>
     <string name="fingerprint_enter_second_psw_msg">Ange Sekundära utrymmets lösenord efter omstart av enheten för att kunna använda fingeravtrycksigenkänning</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">"Can't enter Second space while in Lite mode"</string>
-    <string name="keyguard_charging_info_click_to_detail">View details</string>
-    <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Quick charging…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Fully charged</string>
-    <string name="keyguard_charging_info_charging_text">Charging</string>
-    <string name="keyguard_charging_info_last_charge_today_time">Today %s</string>
-    <string name="keyguard_charging_info_last_charge_yesterday_time">Yesterday %s</string>
+    <string name="keyguard_charging_info_click_to_detail">Visa detaljer</string>
+    <string name="keyguard_quick_charging_info_click_to_detail">Snabbladdning. Tryck för visa detaljer.</string>
+    <string name="keyguard_quickly_charging_info_charging_text">Snabbladdning…</string>
+    <string name="keyguard_charging_info_finished_charging_text">Fulladdad</string>
+    <string name="keyguard_charging_info_charging_text">Laddar</string>
+    <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
+    <string name="keyguard_charging_info_last_charge_yesterday_time">Igår %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
-    <string name="keyguard_charging_info_last_charged_time_text">Last charge</string>
-    <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
-    <string name="keyguard_charging_info_drained_power_percent_text">Drained</string>
-    <string name="keyguard_charging_info_tip_text1">Keep your device at least 10% charged all the time to extend battery life.</string>
-    <string name="keyguard_charging_info_tip_text2">"Don't overcharge your device. Multiple shorter charges are better than an overnight charge."</string>
-    <string name="keyguard_charging_info_tip_text3">Avoid charging your device when the surrounding temperature is lower than 0℃.</string>
-    <string name="keyguard_charging_info_tip_text4">"Don't use your device actively while it's charging to avoid overheating."</string>
-    <string name="keyguard_charging_info_tip_text5">Batteries charge longer when they get hotter than usual.</string>
-    <string name="keyguard_charging_info_tip_text6">Turn the screen off and put your device away to cool it off.</string>
+    <string name="keyguard_charging_info_last_charged_time_text">Senaste laddning</string>
+    <string name="keyguard_charging_info_battery_used_time_text">På batteri</string>
+    <string name="keyguard_charging_info_drained_power_percent_text">Tömd</string>
+    <string name="keyguard_charging_info_tip_text1">Behåll alltid batternivån på över 10% för att uttöka livslängden på batteriet.</string>
+    <string name="keyguard_charging_info_tip_text2">Överladda inte din enhet. flera kortare laddningar är bättre än att ladda enheten över natten.</string>
+    <string name="keyguard_charging_info_tip_text3">Undvik att ladda din enhet när omkringliggande temperaturen är lägre än 0℃.</string>
+    <string name="keyguard_charging_info_tip_text4">Använd inte din enhet aktivt medan den laddas för att undvika överhettning.</string>
+    <string name="keyguard_charging_info_tip_text5">Batterier laddas längre när de är varmare än vanligt.</string>
+    <string name="keyguard_charging_info_tip_text6">Stäng av skärmen och lägg undan enheten för kyla ner den.</string>
     <string name="keyguard_charging_info_data_ma">%smA</string>
     <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_data_c">%s℃</string>
     <string name="keyguard_charging_info_data_percent">%s%%</string>
     <string name="keyguard_left_smarthome">Mi Home</string>
-    <string name="keyguard_left_remotecentral">Mi Remote</string>
+    <string name="keyguard_left_remotecentral">Mi Fjärrkontroll</string>
     <string name="keyguard_left_bankcard">Mi Pay</string>
     <string name="keyguard_left_buscard">Transport card</string>
     <string name="face_data_input_title">Add face data</string>
@@ -99,11 +99,11 @@
     <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
     <string name="face_data_input_camera_ok">Loading camera…</string>
     <string name="face_data_input_msg">Place your face inside the frame</string>
-    <string name="face_data_input_ok_title">Added successfully</string>
+    <string name="face_data_input_ok_title">Tillagd</string>
     <string name="face_data_input_ok_msg">Turn on screen to unlock device using your face data.</string>
-    <string name="face_data_input_cancel">Cancel</string>
-    <string name="face_data_input_cancel_msg">"Couldn't add face data"</string>
-    <string name="face_data_input_ok">Done</string>
+    <string name="face_data_input_cancel">Avbryt</string>
+    <string name="face_data_input_cancel_msg">Kunde inte läsa ansiktsdata</string>
+    <string name="face_data_input_ok">Klart</string>
     <string name="face_data_manage_delete_title">Face data</string>
     <string name="face_data_manage_delete_msg">Delete face data</string>
     <string name="face_data_manage_unlock_title">Unlock using face data</string>
@@ -124,17 +124,17 @@
     <string name="face_unlock_check_failed">"Couldn't recognize you"</string>
     <string name="btn_camera">Enter your face</string>
     <string name="face_unlock_passwork_and_fingerprint">Use password or face data</string>
-    <string name="face_unlock_passwork">Use password</string>
+    <string name="face_unlock_passwork">Använd lösenord</string>
     <string name="unlock_failed">Internal error</string>
     <string name="unlock_failed_face_not_found">Detecting</string>
     <string name="unlock_camera_steady">Please keep steady</string>
     <string name="face_unlock_offset_left">Move to the right</string>
     <string name="face_unlock_offset_top">Raise your phone a bit</string>
-    <string name="face_unlock_offset_right">Move to the left</string>
-    <string name="face_unlock_offset_bottom">Lower your phone a bit</string>
-    <string name="face_unlock_rotated_left">Turn your head to the right</string>
-    <string name="face_unlock_rotated_right">Turn your head to the left</string>
-    <string name="face_unlock_rise">Lower your head</string>
-    <string name="face_unlock_down">Raise your head</string>
-    <string name="face_unlock_quality">"Couldn't see your face clearly"</string>
+    <string name="face_unlock_offset_right">Flytta till vänster</string>
+    <string name="face_unlock_offset_bottom">Sänk din telefon lite</string>
+    <string name="face_unlock_rotated_left">Vänd huvudet till höger</string>
+    <string name="face_unlock_rotated_right">Vänd huvudet till vänster</string>
+    <string name="face_unlock_rise">Sänk huvudet</string>
+    <string name="face_unlock_down">Höj huvudet</string>
+    <string name="face_unlock_quality">Kunde inte se ditt ansikte tydligt</string>
 </resources>

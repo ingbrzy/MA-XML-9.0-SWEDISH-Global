@@ -54,6 +54,6 @@
     <string name="altitude_uncalibrate_refresh">Försök igen</string>
     <string name="altitude_uncalibrate_cancel">Avbryt</string>
     <string name="altitude_longitude_Degree_format" formatted="false">%d:%d:%d</string>
-    <string name="app_description_title">About compass</string>
-    <string name="app_description_content">Compass is used for navigation and orientation and shows you direction. Make sure you can do without these features before you uninstall the app.</string>
+    <string name="app_description_title">Om kompass</string>
+    <string name="app_description_content">Kompass används för navigering och orientering och visar riktning. Se till att du kan undvika dessa funktioner innan du avinstallerar appen.</string>
 </resources>

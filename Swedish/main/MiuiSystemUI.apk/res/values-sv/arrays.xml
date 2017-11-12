@@ -6,26 +6,26 @@
         <item>Connecting…</item>
         <item>Authenticating…</item>
         <item>Obtaining IP address…</item>
-        <item>Connected</item>
+        <item>Ansluten</item>
         <item>Suspended</item>
         <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
+        <item>Ifrånkopplad</item>
+        <item>Misslyckad</item>
+        <item>Blockerad</item>
         <item>Temporarily avoiding poor connection</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Scanning…</item>
-        <item>Connecting to %1$s…</item>
+        <item>Ansluter till %1$s…</item>
         <item>Authenticating with %1$s…</item>
         <item>Obtaining IP address from %1$s…</item>
         <item>Connected to %1$s</item>
         <item>Suspended</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
+        <item>Koppla från %1$s…</item>
+        <item>Ifrånkopplad</item>
+        <item>Misslyckad</item>
+        <item>Blockerad</item>
         <item>Temporarily avoiding poor connection</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
@@ -108,17 +108,17 @@
         <item>Call stack on glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Off</item>
+        <item>Av</item>
         <item>Draw non-rectangular clip region in blue</item>
         <item>Highlight tested drawing commands in green</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Off</item>
+        <item>Av</item>
         <item>On screen as bars</item>
         <item>In adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Off</item>
+        <item>Av</item>
         <item>Show overdraw areas</item>
         <item>Show areas for deuteranomaly</item>
     </string-array>
@@ -148,6 +148,17 @@
         <item>Rapid</item>
         <item>Very rapid</item>
         <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Vibrant (default)</item>

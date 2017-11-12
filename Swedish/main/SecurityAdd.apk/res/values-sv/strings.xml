@@ -39,7 +39,7 @@
     <string name="pc_activity_title">Optimera batteri</string>
     <string name="lucky_result_title">Red envelopes</string>
     <string name="fastboot_status_locked_info">"Fastboot isn't unlocked on this device"</string>
-    <string name="fastboot_status_locked_summary">"Can't get root access"</string>
+    <string name="fastboot_status_locked_summary">Det gick inte att få root-åtkomst</string>
     <string name="fastboot_locked_question_1">Why should Fastboot be locked?</string>
     <string name="fastboot_locked_answer_1">Fastboot is the traditional method to flash Mi devices. When the device is in Fastboot mode, all the data stored on it can be reached and erased directly. We lock Fastboot to make sure your data stays secure in case you lose the device, as well as to guarantee the reliability of Find device features.</string>
     <string name="fastboot_locked_question_2">Are there any risks related to unlocking Fastboot?</string>
