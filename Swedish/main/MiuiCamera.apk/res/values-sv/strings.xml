@@ -339,7 +339,6 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Alternativ</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -356,7 +355,6 @@ och skapar sedan ett foton där alla ser bäst ut."</string>
     <string name="toast_saving">Sparar bild…</string>
     <string name="cannot_connect_camera_volte_call">Videosamtal pågår, försök senare.</string>
     <string name="hibernate_hint">Tryck på skärmen för att väcka kameran</string>
-    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Zoom läge</string>
     <string name="accessibility_portrait_button">Porträttläge</string>
     <string name="toast_burst_snap_finished_summary">Fotoserie slutförd, %1$s foton tagna</string>
