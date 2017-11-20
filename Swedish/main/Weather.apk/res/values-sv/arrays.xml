@@ -52,9 +52,9 @@
     <string-array name="aqi_detail_title">
         <item>Bra</item>
         <item>Måttlig</item>
-        <item>Unhealthy for sensitive groups</item>
+        <item>Ohälsosamt för känsliga grupper</item>
         <item>Ohälsosamt</item>
-        <item>Very unhealthy</item>
+        <item>Mycket ohälsosamt</item>
         <item>Mycket farlig</item>
     </string-array>
     <string-array name="weather_type">
@@ -87,9 +87,9 @@
         <item></item>
     </string-array>
     <string-array name="indices_uv_level">
-        <item>Low</item>
+        <item>Låg</item>
         <item>Måttlig</item>
-        <item>High</item>
+        <item>Hög</item>
     </string-array>
     <string-array name="indices_sport">
         <item>Lämplig</item>
@@ -141,17 +141,17 @@
         <item>Dålig</item>
         <item>Mycket dålig</item>
         <item>Svår</item>
-        <item>Beyond index</item>
+        <item>Överstiger index</item>
     </string-array>
     <string-array name="wind_unit_simple">
-        <item>Beaufort scale</item>
+        <item>Beaufortskalan</item>
         <item>km/h</item>
         <item>m/s</item>
         <item>mph</item>
         <item>kn</item>
     </string-array>
     <string-array name="breeze">
-        <item>&lt;Force 2</item>
+        <item>&lt;Styrka 2</item>
         <item>&lt;6.0km/h</item>
         <item>&lt;1.7m/s</item>
         <item>&lt;3.7mph</item>
@@ -165,7 +165,7 @@
         <item>Knop (kn)</item>
     </string-array>
     <string-array name="wind_unit_replace">
-        <item>Force %1$s</item>
+        <item>Tvinga %1$s</item>
         <item>%1$skm/h</item>
         <item>%1$sm/s</item>
         <item>%1$smph</item>
@@ -177,12 +177,12 @@
         <item>Lätt</item>
     </string-array>
     <string-array name="pollution_level_desc_arr">
-        <item>Excellent</item>
-        <item>Good</item>
-        <item>Lightly polluted</item>
+        <item>Utmärkt</item>
+        <item>Bra</item>
+        <item>Lätt förorenat</item>
         <item>Måttligt förorenat</item>
-        <item>Heavily polluted</item>
-        <item>Severely polluted</item>
-        <item>Beyond index</item>
+        <item>Kraftigt förorenat</item>
+        <item>Allvarligt förorenat</item>
+        <item>Överstiger index</item>
     </string-array>
 </resources>

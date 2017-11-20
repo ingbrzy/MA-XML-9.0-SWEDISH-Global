@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="editing_mode_title">
-        <item quantity="other">%1$d selected</item>
-        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d valda</item>
+        <item quantity="one">%1$d vald</item>
     </plurals>
     <plurals name="uninstall_dialog_title_multi_format">
         <item quantity="other">Avinstallera %1$d appar?</item>
@@ -17,11 +17,11 @@
         <item quantity="one">Kan inte avinstallera %1$d app</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">page %1$d, %2$d apps</item>
-        <item quantity="one">page %1$d, %2$d app</item>
+        <item quantity="other">sida %1$d, %2$d appar</item>
+        <item quantity="one">sida %1$d, %2$d app</item>
     </plurals>
     <plurals name="delete_wallpapers_message">
-        <item quantity="other">Delete %1$d wallpapers?</item>
-        <item quantity="one">Delete %1$d wallpaper?</item>
+        <item quantity="other">Ta bort %1$d bakgrunder?</item>
+        <item quantity="one">Ta bort %1$d bakgrund?</item>
     </plurals>
 </resources>

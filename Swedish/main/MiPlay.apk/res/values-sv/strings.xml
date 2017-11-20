@@ -27,5 +27,5 @@
     <string name="enable_wifi_title">Slå på WiFi</string>
     <string name="enable_wifi_message">Slå på WiFi för att söka och ansluta enheter i närheten.</string>
     <string name="enable_wifi_btn">Sätt på</string>
-    <string name="media_route_controller_disconnect">Disconnect</string>
+    <string name="media_route_controller_disconnect">Koppla från</string>
 </resources>

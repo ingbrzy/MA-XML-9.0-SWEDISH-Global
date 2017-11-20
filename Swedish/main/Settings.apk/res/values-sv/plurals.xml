@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">"%d apps can't show notifications"</item>
-        <item quantity="one">"%d app can't show notifications"</item>
+        <item quantity="other">%d appar kan inte visa notifikationer</item>
+        <item quantity="one">%d app kan inte visa notifikationer</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d apps can show notifications</item>
-        <item quantity="one">%d app can show notifications</item>
+        <item quantity="other">%d appar kan visa notifikationer</item>
+        <item quantity="one">%d app kan visa notifikationer</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
-        <item quantity="one">%1$d toggle will appear in the Notification shade</item>
+        <item quantity="other">%1$d snabbknappar kommer synas i meddelandepanelen</item>
+        <item quantity="one">%1$d snabbknapp kommer synas i meddelandepanelen</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Du är nu %1$d steg från att bli utvecklare.</item>
@@ -149,12 +149,12 @@ Kontakta administratören om du vill veta mer om certifikatet."</item>
         <item quantity="one">1 app har obegränsad dataåtkomst när Databesparing är aktiverat</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
-        <item quantity="other">%d risks found</item>
-        <item quantity="one">%d risk found</item>
+        <item quantity="other">%d risker funna</item>
+        <item quantity="one">%d risk funnen</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d apps are allowed to autostart</item>
-        <item quantity="one">%d app is allowed to autostart</item>
+        <item quantity="other">%d appar tillåts att starta automatiskt</item>
+        <item quantity="one">%d app tillåts att starta automatiskt</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN måste vara %d siffror</item>

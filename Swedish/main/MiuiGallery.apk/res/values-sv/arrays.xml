@@ -29,4 +29,18 @@
         <item>Vänner</item>
         <item>Ogrupperad</item>
     </string-array>
+    <string-array name="collage_month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mars</item>
+        <item>Apr</item>
+        <item>Maj</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
 </resources>

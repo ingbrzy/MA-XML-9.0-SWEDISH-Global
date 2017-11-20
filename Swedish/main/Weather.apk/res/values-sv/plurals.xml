@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">%1$s Days Forecast</item>
-        <item quantity="one">%1$s Day Forecast</item>
+        <item quantity="other">%1$s Dygnsprognos</item>
+        <item quantity="one">%1$s Dygnprognos</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
         <item quantity="other">%d minuter sedan</item>
@@ -13,8 +13,8 @@
         <item quantity="one">%d timme sedan</item>
     </plurals>
     <plurals name="activity_main_update_time_one_day_ago">
-        <item quantity="other">%d days ago</item>
-        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>
@@ -25,15 +25,15 @@
         <item quantity="one">"&lt;font color='# 20a7ff'>%1$s&lt;/font> folk har röstat"</item>
     </plurals>
     <plurals name="yes_vote_num">
-        <item quantity="other"> | %1$s people</item>
+        <item quantity="other"> | %1$s personer</item>
         <item quantity="one"> | %1$s person</item>
     </plurals>
     <plurals name="no_vote_num">
-        <item quantity="other">%1$s people | </item>
+        <item quantity="other">%1$s personer | </item>
         <item quantity="one">%1$s person | </item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short">
-        <item quantity="other">%1$s seconds after the feedback</item>
-        <item quantity="one">%1$s second after the feedback</item>
+        <item quantity="other">%1$s sekunder efter feedbacken</item>
+        <item quantity="one">%1$s sekund efter feedbacken</item>
     </plurals>
 </resources>

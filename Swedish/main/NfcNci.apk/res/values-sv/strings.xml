@@ -18,7 +18,7 @@
     <string name="beam_handover_not_supported">Mottagarens enhet stöder inte att beama stora filer.</string>
     <string name="beam_try_again">Tryck ihop enheterna igen</string>
     <string name="beam_busy">Beam är förnärvarande upptaget. Försök igen när överföringen är slutförd.</string>
-    <string name="device">device</string>
+    <string name="device">enhet</string>
     <string name="connecting_peripheral">Ansluter %1$s</string>
     <string name="connected_peripheral">Anslöt %1$s</string>
     <string name="connect_peripheral_failed">Kunde inte ansluta %1$s</string>
@@ -26,8 +26,8 @@
     <string name="disconnected_peripheral">Kopplade från %1$s</string>
     <string name="pairing_peripheral">Parar %1$s</string>
     <string name="pairing_peripheral_failed">Kunde inte para %1$s</string>
-    <string name="failed_to_enable_bt">Could not enable Bluetooth</string>
-    <string name="confirm_pairing">Are you sure you want to pair the Bluetooth device %1$s?</string>
+    <string name="failed_to_enable_bt">Kunde inte aktivera Bluetooth</string>
+    <string name="confirm_pairing">Är du säker på att du vill sammankoppla Bluetoothenheterna %1$s?</string>
     <string name="pair_yes">Ja</string>
     <string name="pair_no">Nej</string>
     <string name="tap_again_to_pay">Tryck igen för att betala med %1$s</string>
@@ -41,7 +41,7 @@
     <string name="wifi_connect">Anslut</string>
     <string name="status_unable_to_connect">Kan inte ansluta till nätverk</string>
     <string name="status_wifi_connected">Ansluten</string>
-    <string name="title_connect_to_network">Connect to network</string>
+    <string name="title_connect_to_network">Anslut till nätverk</string>
     <string name="prompt_connect_to_network">Anslut till nätverket %1$s?</string>
     <string name="beam_requires_nfc_enabled">Android Beam kräver NFC för aktiveras. Vill du aktivera det?</string>
     <string name="android_beam">Android Beam</string>

@@ -29,8 +29,8 @@
         <item quantity="one">%d foto</item>
     </plurals>
     <plurals name="dirty_callog_count">
-        <item quantity="other">%d samtalkshistorikposter</item>
-        <item quantity="one">%d samtalkshistorikpost</item>
+        <item quantity="other">%d poster för samtalshistorik</item>
+        <item quantity="one">%d post för samtalshistorik</item>
     </plurals>
     <plurals name="dirty_wlan_count">
         <item quantity="other">%d Wi-Fi Nätverk</item>
@@ -53,16 +53,16 @@
         <item quantity="one">%d kalenderobjekt</item>
     </plurals>
     <plurals name="dirty_blocklist_count">
-        <item quantity="other">%d blockeringslistaposter</item>
-        <item quantity="one">%d blockeringslistapost</item>
+        <item quantity="other">%d poster blockeringslista</item>
+        <item quantity="one">%d post blockeringslista</item>
     </plurals>
     <plurals name="dirty_secretphoto_count">
-        <item quantity="other">"%d hidden photos aren't synced. Sign out after all items are synced to keep them; otherwise, items will be deleted."</item>
-        <item quantity="one">"%d hidden photo isn't synced. Sign out after all items are synced to keep them; otherwise, items will be deleted."</item>
+        <item quantity="other">%d dold bilder synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>
+        <item quantity="one">%d dold bild synkroniseras inte. Logga ut efter att alla objekt är synkroniserade för att behålla dem annars kommer objekten tas bort.</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Resume sync after %d hours</item>
-        <item quantity="one">Resume sync after %d hour</item>
+        <item quantity="other">Återuppta synkronisering efter %d timmar</item>
+        <item quantity="one">Återuppta synkronisering efter %d timme</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_min">
         <item quantity="other">Återuppta synkronisering efter %d minuter</item>

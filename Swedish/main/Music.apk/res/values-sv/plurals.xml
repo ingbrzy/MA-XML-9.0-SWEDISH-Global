@@ -13,8 +13,8 @@
         <item quantity="one">Radera %d objekt?</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
-        <item quantity="other">%d nedladdningar borttagen</item>
-        <item quantity="one">%d nedladdning borttagna</item>
+        <item quantity="other">%d nedladdningar borttagna</item>
+        <item quantity="one">%d nedladdning borttagen</item>
     </plurals>
     <plurals name="Ntracks_search_result">
         <item quantity="other">%d låtar hittade</item>
@@ -30,7 +30,7 @@
     </plurals>
     <plurals name="Nnew_tracks_count">
         <item quantity="other">%d nya</item>
-        <item quantity="one">%d nya</item>
+        <item quantity="one">%d ny</item>
     </plurals>
     <plurals name="Ntracks_count">
         <item quantity="other">%d låtar</item>
@@ -53,8 +53,8 @@
         <item quantity="one">Ta bort %d låt?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
-        <item quantity="other">Radera %d låtar?</item>
-        <item quantity="one">Radera %d låt?</item>
+        <item quantity="other">Ta bort %d låtar?</item>
+        <item quantity="one">Ta bort %d låt?</item>
     </plurals>
     <plurals name="dialog_remove_from_cloud_descript">
         <item quantity="other">Ta bort %d låtar från MI Cloud? De kommer bli borttagen från din lokala spellista också.</item>
@@ -89,8 +89,8 @@
         <item quantity="one">En låt har lagts till i favoriter.</item>
     </plurals>
     <plurals name="comment_count">
-        <item quantity="other">%dKommentarer</item>
-        <item quantity="one">%dKommentar</item>
+        <item quantity="other">%d Kommentarer</item>
+        <item quantity="one">%d Kommentar</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d följare</item>

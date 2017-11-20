@@ -26,14 +26,14 @@
         <item>Dataanslutning</item>
         <item>Plats</item>
         <item>Första meddelande</item>
-        <item>Lås skärmen Meddelanden</item>
+        <item>Notifikationer på Låsskärmen</item>
         <item>Begränsa bakgrundsdataanslutningar</item>
     </string-array>
     <string-array name="action_param_translate">
         <item>Ingen</item>
         <item>Standard</item>
-        <item>Images</item>
-        <item>Movies</item>
+        <item>Bilder</item>
+        <item>Filmer</item>
         <item>Battery Saver</item>
         <item>Balans</item>
         <item>Prestanda</item>
@@ -59,20 +59,20 @@
         <item>Nyligen</item>
     </string-array>
     <string-array name="power_checker_running_group_titles">
-        <item>Blocking deep sleep mode</item>
-        <item>Blocking sleep mode</item>
+        <item>Blockerar strömsparläge</item>
+        <item>Blockera viloläge</item>
         <item>Söker efter Wi-Fi</item>
         <item>Använder GPS</item>
         <item>Ockuperar CPU</item>
         <item>Väcker enhet ofta</item>
     </string-array>
     <string-array name="power_checker_recent_group_titles">
-        <item>Blocking deep sleep mode</item>
-        <item>Blocking sleep mode</item>
+        <item>Blockerar strömsparläge</item>
+        <item>Blockera viloläge</item>
         <item>Söker efter Wi-Fi</item>
-        <item>Using GPS</item>
-        <item>Occupying CPU</item>
-        <item>Waking device frequentl</item>
+        <item>Använder GPS</item>
+        <item>Ockuperar CPU</item>
+        <item>Väcker enheten ofta</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
@@ -80,11 +80,11 @@
         <item></item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>Default temperature control mode</item>
-        <item>Performance mode</item>
+        <item>Standardläge för temperaturreglering</item>
+        <item>Prestandaläge</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Current temperature control mode</item>
-        <item>Current performance mode</item>
+        <item>Nuvarande läge för temperaturreglering</item>
+        <item>Nuvarande prestandaläge</item>
     </string-array>
 </resources>

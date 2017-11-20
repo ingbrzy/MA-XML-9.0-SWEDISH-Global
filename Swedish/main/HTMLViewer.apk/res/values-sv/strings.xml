@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">HTML Viewer</string>
-    <string name="loading">Just a sec…</string>
+    <string name="loading">Vänta lite…</string>
     <string name="app_name_which_call">App: %s</string>
-    <string name="app_version_which_call">App version: %s</string>
-    <string name="pre_installed_apps">Pre-installed apps</string>
+    <string name="app_version_which_call">Appversion: %s</string>
+    <string name="pre_installed_apps">Förinstallerade appar</string>
     <string name="policy_name">Protokoll: %s</string>
-    <string name="mibi_license">Mi Credits User Agreement</string>
-    <string name="license_host_unreachable">"Couldn't connect to the network. To view this information now,
-go to %s on another connected device."</string>
-    <string name="permdesc_accessDrm">Allow the app to access DRM-protected content.</string>
+    <string name="mibi_license">Mi Credits användaravtal</string>
+    <string name="license_host_unreachable">"Kunde inte ansluta till nätverket. För att se informationen nu,
+ gå till %s på en annan enhet."</string>
+    <string name="permdesc_accessDrm">Tillåt appen att få tillgån till DRM-skyddat innehåll.</string>
     <string name="open_wifi_connect_title">Ansluten till %1$s</string>
-    <string name="open_wifi_connect_summary">Tap to view details.</string>
-    <string name="settings_license_activity_title">Open source licenses</string>
-    <string name="settings_license_activity_loading">Just a sec…</string>
-    <string name="settings_license_activity_unavailable">"Couldn't load licenses."</string>
-    <string name="settings_safetylegal_title">Security information</string>
-    <string name="settings_safetylegal_activity_title">Security information</string>
-    <string name="settings_safetylegal_activity_unreachable">"Couldn't connect to the network. To view this information now, go to %s from any computer connected to the Internet."</string>
-    <string name="settings_safetylegal_activity_loading">Just a sec…</string>
-    <string name="ime_privacy_policy">Choose keyboard</string>
-    <string name="ad_service">Ad service</string>
-    <string name="settings_ad_loading">Just a sec…</string>
-    <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
-    <string name="autoconnect">Connect automatically</string>
+    <string name="open_wifi_connect_summary">Tryck för att visa detaljer.</string>
+    <string name="settings_license_activity_title">Licenser för Open source</string>
+    <string name="settings_license_activity_loading">Vänta lite…</string>
+    <string name="settings_license_activity_unavailable">Kunde inte ladda licenser.</string>
+    <string name="settings_safetylegal_title">Säkerhetsinformation</string>
+    <string name="settings_safetylegal_activity_title">Säkerhetsinformation</string>
+    <string name="settings_safetylegal_activity_unreachable">Kunde inte ansluta till nätverket. För att se informationen nu, gå till %s från någon annan dator som är ansluten till Internet.</string>
+    <string name="settings_safetylegal_activity_loading">Vänta en stund…</string>
+    <string name="ime_privacy_policy">Välj tangentbord</string>
+    <string name="ad_service">Reklamtjänst</string>
+    <string name="settings_ad_loading">Vänta en stund…</string>
+    <string name="settings_ad_loading_unavailable">Kunde inte ladda information.</string>
+    <string name="autoconnect">Anslut automatiskt</string>
 </resources>

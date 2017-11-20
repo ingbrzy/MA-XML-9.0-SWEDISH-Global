@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SIM toolkit</string>
+    <string name="app_name">SIM-Verktyg</string>
     <string name="menu_end_session">Avsluta session</string>
     <string name="help">Hjälp</string>
     <string name="menu_back">Tillbaka</string>
@@ -10,15 +10,15 @@
     <string name="button_cancel">Avbryt</string>
     <string name="button_yes">Ja</string>
     <string name="button_no">Nej</string>
-    <string name="alphabet">Letters</string>
+    <string name="alphabet">Brev</string>
     <string name="digits">Siffror (0-9, *, #, +)</string>
     <string name="default_call_setup_msg">Samtal pågår…</string>
-    <string name="default_setup_call_msg">Setting up call…</string>
-    <string name="stk_app_state">Application state</string>
-    <string name="enable_app">Enabled</string>
-    <string name="disable_app">Disabled</string>
-    <string name="stk_dialog_title">SIM toolkit</string>
-    <string name="default_tone_dialog_msg">Playing tone…</string>
+    <string name="default_setup_call_msg">Sätter upp samtal…</string>
+    <string name="stk_app_state">Applikationstillstånd</string>
+    <string name="enable_app">Aktiverad</string>
+    <string name="disable_app">Inaktiverad</string>
+    <string name="stk_dialog_title">SIM-Verktyg</string>
+    <string name="default_tone_dialog_msg">Ringsignal…</string>
     <string name="default_open_channel_msg">Öppna denna kanal?</string>
     <string name="default_send_data_msg">Skickar data…</string>
     <string name="default_receive_data_msg">Tar emot data…</string>

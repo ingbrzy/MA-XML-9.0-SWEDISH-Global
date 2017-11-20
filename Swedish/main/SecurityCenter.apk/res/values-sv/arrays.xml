@@ -6,34 +6,34 @@
         <item>"Denna månaden "</item>
     </string-array>
     <string-array name="date_of_traffic">
-        <item>"I går "</item>
-        <item>"I dag "</item>
+        <item>"Igår "</item>
+        <item>"Idag "</item>
         <item>"Denna månaden "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"Denna Vecka: "</item>
-        <item>"I dag: "</item>
+        <item>"Idag: "</item>
         <item>"Denna månad: "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix">
-        <item>"I går: "</item>
-        <item>"I dag: "</item>
+        <item>"Igår: "</item>
+        <item>"Idag: "</item>
         <item>"Denna månad: "</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>I går (data)</item>
-        <item>I dag (data)</item>
+        <item>Igår (data)</item>
+        <item>Idag (data)</item>
         <item>Denna månad (data)</item>
-        <item>I går Wi-Fi</item>
-        <item>I dag Wi-Fi</item>
+        <item>Igår Wi-Fi</item>
+        <item>Idag Wi-Fi</item>
         <item>Denna månad Wi-Fi</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>"Mobilanvändning "</item>
+        <item>"Mobiladata "</item>
         <item>"Wi-Fi-användning "</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
-        <item>"Mobilanvändning "</item>
+        <item>"Mobildata "</item>
         <item>"Wi-Fi-användning "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
@@ -50,19 +50,24 @@
         <item>När enheten är låst eller efter en app avslutas</item>
         <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>Status</item>
-        <item>App name</item>
-        <item>Usage frequency</item>
-        <item>Used storage</item>
-        <item>Installation time</item>
+        <item>Namn på app</item>
+        <item>Användningsfrekvens</item>
+        <item>Använt utrymme</item>
+        <item>Installationstid</item>
     </string-array>
     <string-array name="sort_title">
         <item>Sortera efter datum</item>
         <item>Sortera efter namn</item>
-        <item>Sort by usage frequency</item>
-        <item>Sort by used storage</item>
-        <item>Sort by Installation time</item>
+        <item>Sortera efter användningsfrekvens</item>
+        <item>Sortera efter använt utrymme</item>
+        <item>Sortera efter installationstid</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
@@ -72,13 +77,13 @@
     </string-array>
     <string-array name="title_app_info">
         <item>Installationskälla</item>
-        <item>Installation time</item>
-        <item>Last update source</item>
-        <item>Last update time</item>
+        <item>Installationstid</item>
+        <item>Senaste uppdateringskälla</item>
+        <item>Uppdaterades senast</item>
     </string-array>
     <string-array name="sms_report_type">
-        <item>Data Usage</item>
-        <item>Phone balance</item>
+        <item>Dataanvändning</item>
+        <item>Saldo</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>En gång</item>

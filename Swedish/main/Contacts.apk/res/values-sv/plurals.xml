@@ -9,12 +9,12 @@
         <item quantity="one">1 kontakt</item>
     </plurals>
     <plurals name="listFoundAllContacts">
-        <item quantity="other">%d funna</item>
+        <item quantity="other">%d hittade</item>
         <item quantity="one">1 hittad</item>
     </plurals>
     <plurals name="searchFoundContacts">
-        <item quantity="other">%d funna</item>
-        <item quantity="one">1 funnen</item>
+        <item quantity="other">%d hittade</item>
+        <item quantity="one">1 hittad</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">hopslagen från %0$d källor</item>

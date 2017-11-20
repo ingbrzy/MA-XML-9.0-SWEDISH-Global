@@ -30,8 +30,8 @@
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="yesterday">Igår</string>
-    <string name="today">I dag</string>
-    <string name="tomorrow">I morgon</string>
+    <string name="today">Idag</string>
+    <string name="tomorrow">Imorgon</string>
     <string name="midnight">F. m</string>
     <string name="early_morning">AM</string>
     <string name="morning">AM</string>
@@ -45,6 +45,7 @@
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="date_time_done">Klar</string>
     <string name="date_picker_dialog_title">Ange datum</string>
     <string name="time_picker_dialog_title">Ange tid</string>
@@ -586,7 +587,7 @@
     <string name="immersion_button_close_description">Stäng</string>
     <string name="search_input_description">Sök</string>
     <string name="search_mode_button_back_description">Tillbaka</string>
-    <string name="actionbar_immersion_button_more_description">More</string>
-    <string name="actionbar_button_up_description">Back</string>
-    <string name="clearable_edittext_clear_description">Clear</string>
+    <string name="actionbar_immersion_button_more_description">Mer</string>
+    <string name="actionbar_button_up_description">Tillbaka</string>
+    <string name="clearable_edittext_clear_description">Rensa</string>
 </resources>

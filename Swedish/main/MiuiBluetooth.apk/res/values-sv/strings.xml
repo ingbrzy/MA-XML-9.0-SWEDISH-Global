@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MIUI Bluetooth</string>
-    <string name="device_picker">Bluetooth enhetsinställningar</string>
+    <string name="device_picker">Inställningar för Bluetoothenheter</string>
     <string name="bluetooth_preference_scan_title">Sök efter enheter</string>
     <string name="bluetooth_preference_connected_devices">Sammankopplade enheter</string>
     <string name="bluetooth_preference_found_devices">Tillgängliga enheter</string>
@@ -26,7 +26,7 @@
     <string name="mi_key_take_photo">Ta bild</string>
     <string name="mi_key_find_phone">Hitta enhet</string>
     <string name="mi_key_find_mikey">Hitta Mi Nyckel</string>
-    <string name="mi_key_summary_open_camera">Dubbelklicka Mi Nyckel för att öppna kamera</string>
+    <string name="mi_key_summary_open_camera">Dubbeltryck på Mi Key för att öppna kamera</string>
     <string name="mi_key_summary_take_photo">Klicka på Mi Nyckel för att ta ett kort</string>
     <string name="mi_key_summary_find_phone">Tryck &amp; håll Mi Nyckel för ljudsignal</string>
     <string name="bluetooth_connected">Parkopplad</string>

@@ -68,11 +68,11 @@
     <string name="HIPS_Perm_use_sip">Videotjänster</string>
     <string name="HIPS_Perm_use_sip_Desc">använd Session Initation Protocol (SIP) för att streama video</string>
     <string name="HIPS_Perm_process_outgoing_calls">Få tillgång till Telefon appen</string>
-    <string name="HIPS_Perm_process_outgoing_calls_Desc">övervaka och avsluta samtal</string>
+    <string name="HIPS_Perm_process_outgoing_calls_Desc">Svara, övervaka och avsluta samtal</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">tillgång till närfältskommunikationshårdvara (NFC)</string>
-    <string name="HIPS_Perm_install_shortcut">Genvägar på hemskärmen</string>
-    <string name="HIPS_Perm_install_shortcut_Desc">lägg till genvägar på hemskärmen</string>
+    <string name="HIPS_Perm_install_shortcut">Genvägar på Hemskärmen</string>
+    <string name="HIPS_Perm_install_shortcut_Desc">lägg till genvägar på Hemskärmen</string>
     <string name="HIPS_Perm_read_notification_sms">Tjänst SMS</string>
     <string name="HIPS_Perm_read_notification_sms_Desc">läs tjänst SMS</string>
     <string name="HIPS_Perm_get_tasks">Få uppgifter</string>
@@ -90,16 +90,16 @@
     <string name="permission_group_title_media_related">Multimedia</string>
     <string name="permission_group_title_settings_related">Inställningar</string>
     <string name="ok">OK</string>
-    <string name="default_permission_description">genomför en okänd handling</string>
+    <string name="default_permission_description">genomför okända handlingar</string>
     <string name="location_settings">Platsinställningar</string>
     <string name="location_warning">%1$s är en leverantör av platstjänster till denna enheten. Platstillgång kan modifieras från platsinställningar.</string>
-    <string name="permission_warning_template">Tillåt %1$s till %2$s ?</string>
-    <string name="permission_warning_template_ask">Allow %1$s the following permissions？</string>
+    <string name="permission_warning_template">Tillåt %1$s till %2$s?</string>
+    <string name="permission_warning_template_ask">Tillåt följande behörigheter för %1$s?</string>
     <string name="screen_overlay_title">Övertäckning av skärm upptäckt</string>
-    <string name="screen_overlay_message">För att ändra denna behörighetsinställning, först måste du stänga av övertäckning av skärm ifrån Inställningar > Appar</string>
+    <string name="screen_overlay_message">För att ändra denna behörighet först måste du stänga av övertäckning av skärm ifrån Inställningar > Appar.</string>
     <string name="screen_overlay_button">Öppna inställningar</string>
     <string name="grant_dialog_button_allow">Tillåt</string>
     <string name="grant_dialog_button_deny">Neka</string>
     <string name="current_permission_template">%1$s av %2$s</string>
-    <string name="never_ask_again">Fråga aldrig igen</string>
+    <string name="never_ask_again">Fråga inte igen</string>
 </resources>
