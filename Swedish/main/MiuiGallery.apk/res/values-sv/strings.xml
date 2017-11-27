@@ -792,7 +792,6 @@ Ta fler bilder av dina vänner!"</string>
     <string name="search_feedback_false_negative_text">Lägg till bilder till \"%s\"?</string>
     <string name="search_feedback_contribute">Lägg till bilder i databasen AI algorithm</string>
     <string name="search_feedback_task_finish_title">Tryck för att motta en belöning!</string>
-    <string name="search_feedback_task_progress">%1$d/%2$d</string>
     <string name="search_feedback_likely_title">Det verkar som att de här bilderna har \"%s\"</string>
     <string name="search_feedback_likely_check_title">Kontrollera</string>
     <string name="search_feedback_false_positive_title">Det verkar som de här är \"%s\"</string>
@@ -802,7 +801,6 @@ Ta fler bilder av dina vänner!"</string>
     <string name="grant_permission_text">"Gallery behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Set\" för att gå till Tillstånd."</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">Ange</string>
     <string name="loading">Vänta lite</string>
     <string name="loading_dots">Vänta lite…</string>
