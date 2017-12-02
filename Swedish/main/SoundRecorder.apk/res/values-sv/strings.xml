@@ -77,7 +77,7 @@
     <string name="record_download">Ladda ned från Mi Cloud</string>
     <string name="record_download_msg">Inspelningar kan endast spelas upp efter att de har laddats ned.</string>
     <string name="record_download_msg_reload">Inspelningen finns inte.</string>
-    <string name="record_download_complete">Nedladdadat</string>
+    <string name="record_download_complete">Nedladdat</string>
     <string name="retry">Försök igen</string>
     <string name="start">Återuppta</string>
     <string name="record_downloading_notification">Laddar ned…</string>
@@ -98,6 +98,7 @@
     <string name="record_quliaty_preference_title">Inspelningskvalitet</string>
     <string name="cloud_record_tip">Synkronisera inspelningar med Mi Cloud.</string>
     <string name="cloud_record_open">Synkronisera inspelningar</string>
+    <string name="cloud_service_state_open_reminder">Slå på synkronisering med Mi Cloud för att synkronisera inspelade filer.</string>
     <string name="cloud_status_full_dialog_title">Mi Cloud lagringen är full</string>
     <string name="cloud_status_full_dialog_msg">Din molnlagring är full, kan inte synkronisera inspelningar. Uppgradera ditt konto för att få mer utrymme.</string>
     <string name="cloud_status_full_dialog_cancel">Inte nu</string>

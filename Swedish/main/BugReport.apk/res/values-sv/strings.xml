@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -213,8 +214,11 @@
     <string name="feedback_select_suggestion">Förslag</string>
     <string name="feedback_select_problem">Problem</string>
     <string name="feedback_choose_module">Välj objekt</string>
+    <string name="feedback_choose_third_app_name">Välj namn på app</string>
     <string name="toast_module_required">Välj objekt</string>
     <string name="feedback_choose_module_hint">Nödvändig</string>
+    <string name="feedback_choose_reproductivity">Reproduktivitet</string>
+    <string name="feedback_title_reproductivity">Välj reproduktivitet</string>
     <string name="feedback_report_remind_login_desc">Logga in med ditt Mi-konto för att våra tekniker ska kunna kontakta dig.</string>
     <string name="feedback_report_remind_login_desc2">Du kan också se din rapports framsteg under \"Mina rapporter\".</string>
     <string name="feedback_history_remind_login_desc">Logga in med ditt Mi-konto för att se detaljer och se din rapports framsteg</string>
@@ -224,6 +228,7 @@
     <string name="feedback_title_hint">Beskriv problemet i korthet</string>
     <string name="feedback_description_suggest_hint">Jag vill att ni lägger till en ny funktion () för att ().</string>
     <string name="feedback_description_bugreport_hint">I vissa fall (…) fungerar inte min telefon som den ska (…).</string>
+    <string name="feedback_description_hint">Beskriv felet som inträffade</string>
     <string name="toast_title_required">Beskriv ditt problem</string>
     <string name="toast_problem_class_required">Välj kategori</string>
     <string name="feedback_third_packagename_hint">Vilken tredjepartsapp orsakar problem?</string>
@@ -240,6 +245,7 @@
     <string name="feedback_status_replyed">Gensvar</string>
     <string name="feedback_status_jira_comment">Lägg till kommentar</string>
     <string name="feedback_status_forum_reply">Svara</string>
+    <string name="feedback_status_submit_attachment">Inskickat</string>
     <string name="feedback_status_change_notification_title">Din rapports framsteg har uppdaterats</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s förslag \"%2$s\"</string>
@@ -297,9 +303,11 @@
     <string name="toast_log_not_exists">Den nödvändiga loggen har tagits bort eller existerar inte</string>
     <string name="toast_pic_not_exists">Cachad bild raderades</string>
     <string name="toast_screenshot_too_large">Kan inte ladda upp filer större än 10 MB.</string>
+    <string name="toast_log_too_large">Det gick inte att ladda upp. Filen är för stor.</string>
     <string name="title_bbs_feedback_main">Lär dig mer om Mi phones</string>
     <string name="title_customer_service">Kundtjänst</string>
     <string name="customer_service_apply">Begär kundtjänst</string>
     <string name="customer_service_complain">Rapportera till kundtjänst</string>
     <string name="customer_service_station">Sök plats</string>
+    <string name="select_system_app_tag">Välj taggar</string>
 </resources>

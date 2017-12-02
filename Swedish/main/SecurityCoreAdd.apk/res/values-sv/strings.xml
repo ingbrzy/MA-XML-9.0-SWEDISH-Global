@@ -60,6 +60,7 @@
     <string name="ok_button">OK</string>
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
+    <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, Skapa dual appar och försök igen.</string>
     <string name="xspace_label">Dual appar</string>
     <string name="xspace_setting_label">Inställningar för Dual app</string>
     <string name="xspace_account">Konton för Dual app</string>
@@ -150,6 +151,7 @@ Vissa Dual appar kräver support för Google Services Framework. I de fallen ska
     <string name="click_to_switch">Tryck för att visa</string>
     <string name="confirm_main_space_password">Bekräfta lösenordet för det primära utrymmet</string>
     <string name="create_space_loading">Skapar Sekundära utrymme…</string>
+    <string name="close_second_space">Tog bort Sekundära utrymmet</string>
     <string name="close_second_space_success">Tog bort Sekundära utrymmet</string>
     <string name="enable">Aktivera</string>
     <string name="disable">Avaktivera</string>
@@ -258,6 +260,17 @@ för att logga in från låsskärmen"</string>
     <string name="xpsace_guide_button">Skapa</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
+    <string name="xspace_weixin_title">WeChat</string>
+    <string name="weixin_pay">WeChat Pay</string>
+    <string name="weixin_share">Dela till minnen</string>
+    <string name="xspace_weibo_title">Weibo</string>
+    <string name="weibo_send">Skicka till Weibo</string>
+    <string name="xspace_qq_title">QQ</string>
+    <string name="qq_send">Skicka till QQ vänner/enheter</string>
+    <string name="xspace_default_setting_label">Standardapp</string>
+    <string name="xspace_default_app_title">Standardapp</string>
+    <string name="xspace_default_app_summary">Ställ in standardapp för betalningar, delningar, favoriter och mer.</string>
+    <string name="xspace_default_setting_dialog_title">Standard</string>
     <string name="space_name_default">Arbetsutrymme</string>
     <string name="space_des_default">Isolerat utrymme med krypterad data</string>
     <string name="create_work_space">Skapa ett Arbetsutrymme</string>
@@ -286,7 +299,7 @@ för att logga in från låsskärmen"</string>
     <string name="function_not_support">Stöds inte på denna enhet</string>
     <string name="can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
     <string name="can_not_delete_when_calling">Det går inte att ta bort utrymmen under samtal</string>
-    <string name="support_desc">Säkerhetsfunktioner tillhandahålls av Graphite</string>
+    <string name="support_desc">Säkerhetsfunktioner tillhandahålls av Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">Viktig uppdatering</string>
     <string name="sdcardfs_dialog_message">MIUI 9 har ett nytt filsystem. Gammal data kan vara inkompatibel med det. För att lösa detta problem, följ stegen för att installera en uppdatering. Din enhet kommer starta om två gånger under uppdateringen.</string>
     <string name="do_not_ask">Fråga inte igen</string>

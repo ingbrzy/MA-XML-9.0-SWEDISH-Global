@@ -52,7 +52,7 @@
     <string name="status_installing">Installerar</string>
     <string name="app_already_exist">App finns redan</string>
     <string name="loading_desktop">Vänta lite...</string>
-    <string name="loading_wallpaper">Bara en sekund…</string>
+    <string name="loading_wallpaper">Vänta lite…</string>
     <string name="start_activity_failed">Kan ej starta launcher</string>
     <string name="gadget_error_text">Kan inte ladda widget</string>
     <string name="mtzgadget_missing_text">Widget är ej tillgänglig</string>
@@ -111,7 +111,7 @@
     <string name="wallpaper">Bakgrund</string>
     <string name="mi_wallpaper">MIUI Tema Butik</string>
     <string name="show_all">Visa alla</string>
-    <string name="local_wallpaper">Nedladdadat</string>
+    <string name="local_wallpaper">Nedladdat</string>
     <string name="setting_wallpaper_tip">Nyp eller svep för att justera</string>
     <string name="apply_as_wallpaper">Ställ in som Hemskärm</string>
     <string name="apply_as_lock_screen">Ange som låsskärm</string>

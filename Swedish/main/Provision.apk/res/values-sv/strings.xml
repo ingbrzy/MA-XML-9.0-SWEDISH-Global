@@ -68,9 +68,6 @@ Du måste godkänna våra användarvillkor och vår integritetspolicy innan du k
     <string name="enable_accessibility_dialog_negative_btn">Avbryt</string>
     <string name="cm_terms_title">Operatörens avtal för mobilt nätverk</string>
     <string name="cm_terms_content">För att kunna förbättra funktionerna för dig kan din mobiloperatör ladda upp din personliga data och information om din enhet till sina servrar via Wi-Fi eller mobildataanslutning. Informationen kommer endast att använda i statistiskt syfte för att förbättra kvalitén på funktionerna och ge mer personliga innehåll. Informationen kommer inte användas för att mot dig personligen och kommer inte skickas till tredje part.</string>
-    <string name="two_dimensional_code_scan">Skanna QR-kod</string>
-    <string name="user_strayed_warning">Denna sida är gjord för fabrikstest. Tryck på \"Bakåt\" för att avsluta.</string>
-    <string name="fail_to_generate_qr_code">Kunde inte generera QR-kod. Öppna sidan igen.</string>
     <string name="enable_accessibility_canceled">Tillgänglighet avbruten.</string>
     <string name="accessibility_enabled">Tillgänglighet aktiverad.</string>
     <string name="continue_to_enable_accessibility">Fortsätt hålla ner två fingrar för att aktivera tillgänglighet.</string>

@@ -35,6 +35,7 @@
     <string name="action_menu_text_copy_url">Kopiera URL</string>
     <string name="action_menu_text_create_qr_code">QR-kod</string>
     <string name="action_menu_text_download">Hantera nedladdningar</string>
+    <string name="action_menu_text_drop">Avsluta menyn</string>
     <string name="action_menu_text_exit">Avsluta</string>
     <string name="action_menu_text_find_in_page">Hitta på sida</string>
     <string name="action_menu_text_fullscreen">Full skärm</string>
@@ -65,16 +66,16 @@
     <string name="add_favorites_to">Lägg till i favoriter</string>
     <string name="add_new_bookmark">Lägg till bokmärke</string>
     <string name="add_new_quicklink">Lägg till på startsida</string>
-    <string name="add_pwa_to_homescreen">Skapa e genväg på hemskärmen?</string>
+    <string name="add_pwa_to_homescreen">Skapa en genväg på Hemskärmen?</string>
     <string name="add_ql_bm_title">Spara</string>
     <string name="add_quicklink_to_popular">Lägg till på startskärm</string>
     <string name="add_quicklinks">Lägg till</string>
     <string name="add_shortcut">Lägg till genväg</string>
     <string name="add_shortcut_success">Genväg tillagd</string>
     <string name="add_to_bookmark">Bokmärken</string>
-    <string name="add_to_desk">Lägg till på startskärmen</string>
+    <string name="add_to_desk">Lägg till på Hemskärmen</string>
     <string name="add_to_desk_lite_mode_toast">Kan inte lägga till hemskärm i Lite läge</string>
-    <string name="add_to_desk_success">Tillagd på hemskärmen</string>
+    <string name="add_to_desk_success">Tillagd på Hemskärmen</string>
     <string name="add_to_quicklink">Startsida</string>
     <string name="added_to_bookmarks">Tillagd i bokmärken</string>
     <string name="adjust_text_zoom_toast">Ändring av text zoom kan få vissa webbsidor att sluta fungera</string>
@@ -114,6 +115,7 @@
     <string name="bookmark_cannot_save_url">Denna URL kan inte bokmärkas.</string>
     <string name="bookmark_folder_needs_title">Ange ett gruppnamn</string>
     <string name="bookmark_group_lable">Grupp</string>
+    <string name="bookmark_move_to">Flytta till</string>
     <string name="bookmark_needs_title">Bokmärket måste ha ett namn</string>
     <string name="bookmark_needs_url">Bokmärket måste innehålla en URL</string>
     <string name="bookmark_not_saved">Misslyckades med att spara bokmärke</string>
@@ -140,6 +142,8 @@
     <string name="cancel">Avbryt</string>
     <string name="cancle_sync_cloud_tabs">Avbryt synkronisering</string>
     <string name="cannot_download">Kan endast ladda ner \"http\" eller \"https\" URL</string>
+    <string name="check_security_tip_privacy_policy">Integritetspolicy</string>
+    <string name="check_security_tip_user_agreement">Användarvillkor</string>
     <string name="choosertitle_sharevia">Dela via</string>
     <string name="clear_history">Rensa historik</string>
     <string name="clear_most_visited">Tidigare historik</string>
@@ -174,6 +178,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentar</string>
     <string name="comment_description">Kommentar</string>
     <string name="comment_hint">Kommentar</string>
@@ -203,17 +208,15 @@
     <string name="contextmenu_webpage_capture">Skärmdump</string>
     <string name="contextmenu_webpage_html">Spara som HTML fil</string>
     <string name="contextmenu_webpage_snapshot">Spara sida</string>
-    <string name="copy_to_clipboard_failure_message">Kopiering till utklipp misslyckades</string>
+    <string name="copy_to_clipboard_failure_message">Det gick inte att kopiera till urklipp.</string>
     <string name="copy_url">Kopiera URL</string>
     <string name="create_qr_code">QR-kod</string>
     <string name="current_version_pad">Platta</string>
     <string name="current_version_pc">Skrivbord</string>
     <string name="current_version_phone">Telefon</string>
     <string name="custom_head_card_text">Tro alltid att något underbart kommer hända</string>
-    <string name="custom_head_card_text_incognito">"Du är inkognito!
-Sidor som du ser kommer inte med i historik."</string>
-    <string name="data_traffic_prompt_change">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
-    <string name="data_traffic_prompt_message">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
+    <string name="data_traffic_prompt_change">Att använda din mobila dataanslutning för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
+    <string name="data_traffic_prompt_message">Att använda din mobila dataanslutning för att leta efter videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
     <string name="data_traffic_prompt_message_short">Att använda mobildata för att strömma video kan förbruka din datamängd.</string>
     <string name="data_traffic_prompt_title">Varning för dataanvändning</string>
     <string name="date_picker_dialog_clear">Rensa</string>
@@ -223,6 +226,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="date_time_picker_dialog_title">Ange datum och tid</string>
     <string name="delete">Radera</string>
     <string name="delete_bookmark">Ta bort</string>
+    <string name="delete_bookmark_action_warning">Ta bort bokmärken?</string>
     <string name="delete_bookmark_group_warning">Ta bort \"%s\"? Alla bokmärken i denna grupp kommer tas bort.</string>
     <string name="delete_bookmark_warning">Radera bokmärke \"%s\"?</string>
     <string name="delete_download">Radera</string>
@@ -258,9 +262,9 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="download_default_path_txt">Kom ihåg detta val</string>
     <string name="download_dialog_default_path_invalid">Nedladdningsplatsen du valt är felaktig. Sparar till standardplats…</string>
     <string name="download_dialog_file_length_hint_txt">"Filstorlek: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">mindre än 1K</string>
+    <string name="download_dialog_file_length_lessthan1kb">Mindre än 1 kB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Kunde inte ladda ned</string>
-    <string name="download_dialog_file_length_nolength_txt">Bara en sekund…</string>
+    <string name="download_dialog_file_length_nolength_txt">Vänta en stund…</string>
     <string name="download_failed">Nedladdningen kunde inte slutföras</string>
     <string name="download_filter_all">Alla</string>
     <string name="download_filter_apk">Apk</string>
@@ -281,7 +285,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="download_pending">Startar nedladdning…</string>
     <string name="download_phone_tip">Telefon</string>
     <string name="download_router_tip">Hämta till Mi Router</string>
-    <string name="download_sdcard_busy_dlg_msg">SD-kortet är upptagen. För att tillåta nedladdningar, stäng av USB-lagring i rullgardinsmenyn.</string>
+    <string name="download_sdcard_busy_dlg_msg">SD-kortet är upptagen. För att tillåta nedladdningar, stäng av USB-lagring i meddelandepanelen.</string>
     <string name="download_sdcard_busy_dlg_title">SD-kortet är inte tillgängligt</string>
     <string name="download_status_failed">Det gick inte att ladda ner</string>
     <string name="download_status_pending">Väntar</string>
@@ -291,7 +295,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="edit">Redigera</string>
     <string name="edit_bookmark">Redigera bokmärke</string>
     <string name="edit_quicklink">Redigera</string>
-    <string name="empty_app_name">annan app</string>
+    <string name="empty_app_name">En annan app</string>
     <string name="empty_bookmark">Tom</string>
     <string name="empty_cloud_tab_login_hint">Inga molnflikar</string>
     <string name="empty_cloud_tab_logout_hint">"Logga in på ditt Mi-konto
@@ -338,11 +342,12 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="geolocation_settings_page_summary_allowed">Den här sidan kan se din plats</string>
     <string name="geolocation_settings_page_summary_not_allowed">Den här sidan kan inte se din plats</string>
     <string name="geolocation_settings_page_title">Rensa platsåtkomst</string>
+    <string name="go_back_descirption">Gå tillbaka</string>
     <string name="go_supermarket_button">Gå</string>
     <string name="go_supermarket_title">Flera appar, snabbare hastighet, och mindre dataanvändning i App Butiken</string>
     <string name="gold_medals">Guldmedaljer</string>
     <string name="google_bookmarks">Google</string>
-    <string name="have_sent_bookmark_to_home_screen">Placerad på startskärmen</string>
+    <string name="have_sent_bookmark_to_home_screen">Placerad på Hemskärmen</string>
     <string name="hint">Tips</string>
     <string name="history">Historik</string>
     <string name="home_description">Hem</string>
@@ -354,7 +359,6 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="homepage_search_hint">Sök</string>
     <string name="homepage_top_card_menu">Överst</string>
     <string name="ignore_add_pwa_dialog_today">Visa inte idag</string>
-    <string name="in_incognito">Du är inkognito! Webbsidor du visar i den här fliken visas inte i webbläsarhistoriken.</string>
     <string name="in_secureaccess">Webbläsaren ändrade till Felsäkert läge</string>
     <string name="isReplacePage">Filen existerar redan, ersätta?</string>
     <string name="is_first_history_item">Detta är första sidan i webbläsarhistoriken</string>
@@ -379,7 +383,7 @@ Lämna denna sida?"</string>
     <string name="loading_tips">Dra nedåt för att uppdatera</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Kunde inte logga in, uppdatera och försök igen</string>
-    <string name="low_memory_error">Misslyckades slutföra den tidigare operationen eftersom det finns för lite minne kvar</string>
+    <string name="low_memory_error">Det gick inte att slutföra den tidigare operationen eftersom det finns för lite minne kvar.</string>
     <string name="low_memory_toast">Kan inte använda Webbläsare på grund av lågt minne</string>
     <string name="max_tabs_warning">Kan inte öppna fler flikar</string>
     <string name="maximum_input_alert">Kan inte skriva in mer än 2048 symboler</string>
@@ -393,16 +397,16 @@ Lämna denna sida?"</string>
     <string name="media_error_timeout">Nätverksanslutning timed out</string>
     <string name="media_error_video_not_exist">Video existerar inte</string>
     <string name="media_player_error_button">OK</string>
-    <string name="media_player_error_text_invalid_progressive_playback">Tyvärr, denna video är inte giltig för att strömmas till denna enhet.</string>
-    <string name="media_player_error_text_unknown">Tyvärr, denna video kan inte spelas.</string>
-    <string name="media_player_error_title">Kan inte spela video</string>
+    <string name="media_player_error_text_invalid_progressive_playback">Denna video är inte giltig för att strömmas till denna enhet.</string>
+    <string name="media_player_error_text_unknown">Kan inte spela upp videon.</string>
+    <string name="media_player_error_title">Kan inte spela upp video</string>
     <string name="media_player_loading_video">Laddar video</string>
-    <string name="menu_addtodesk">Lägg till på startskärmen</string>
+    <string name="menu_addtodesk">Lägg till på Hemskärmen</string>
     <string name="menu_exit_nightmode">Lämna</string>
     <string name="menu_hv_swap">V/H skärm</string>
     <string name="menu_nightmode">Nattläge</string>
     <string name="menu_preferences">Inställningar</string>
-    <string name="menu_theme_setting">Temainställningar</string>
+    <string name="menu_theme_setting">Inställningar för Teman</string>
     <string name="menu_title_clear_all">Rensa alla</string>
     <string name="menu_title_open_file_management">Öppna Filutforskaren</string>
     <string name="menu_title_pause_all">Pausa alla</string>
@@ -420,7 +424,7 @@ Lämna denna sida?"</string>
     <string name="miui_content_select_all">Välj alla</string>
     <string name="miui_content_share">Dela</string>
     <string name="miui_content_web_search">Sök</string>
-    <string name="miui_quicksearch_enable_pref_summary">Visa länk till sökruta i rullgardinsmenyn</string>
+    <string name="miui_quicksearch_enable_pref_summary">Visa länk till sökruta i meddelandepanelen</string>
     <string name="miui_quicksearch_enable_pref_title">Sökruta i meddelandepanelen</string>
     <string name="miui_search_notification_message">Tryck för att öppna sökrutan.</string>
     <string name="miui_search_notification_title">Söka</string>
@@ -450,39 +454,11 @@ Lämna denna sida?"</string>
     <string name="miuichromium_error_page_problem_access_denied">Åtkomsten till %s0 nekades</string>
     <string name="miuichromium_error_page_problem_cache_miss">Den cachade versionen av sidan kan inte laddas</string>
     <string name="miuichromium_error_page_problem_cannot_open_page">Sidan kan inte öppnas</string>
-    <string name="miuichromium_error_page_problem_cannot_reach_site">Sidan kan inte nås</string>
-    <string name="miuichromium_error_page_problem_connection_interrupted">Anslutningen avbröts</string>
-    <string name="miuichromium_error_page_problem_file_not_found">Det gick inte att hitta filen</string>
     <string name="miuichromium_error_page_problem_gateway_timed_out">Det tog för lång tid för %s0 att svara</string>
     <string name="miuichromium_error_page_problem_network_access_denied">Begränsad nätverksåtkomst</string>
-    <string name="miuichromium_error_page_problem_no_internet_connection">Kunde inte ansluta till Internet</string>
     <string name="miuichromium_error_page_problem_page_moved">Denna sidan %s0 har kanske flyttats eller tagits bort</string>
     <string name="miuichromium_error_page_problem_page_not_found">Kunde inte hitta denna sidan på %s0</string>
-    <string name="miuichromium_error_page_problem_page_not_working">Sidan fungerar inte</string>
-    <string name="miuichromium_error_page_problem_security_error">Sidan har inte en säker anslutning</string>
     <string name="miuichromium_error_page_problem_server_fault">%s0 kan för närvarande inte hantera begäran</string>
-    <string name="miuichromium_error_page_reason_bad_client_cert">" eftersom %s0 inte accepterade ditt certifikat"</string>
-    <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 inte är ansluten till säkerhetsstandarderna</string>
-    <string name="miuichromium_error_page_reason_blocked_by_response">. åtkomsten är blockerad av %s0</string>
-    <string name="miuichromium_error_page_reason_connection_closed">. %s0 anslutning avbröts</string>
-    <string name="miuichromium_error_page_reason_connection_refused">. %s0 anslöt inte</string>
-    <string name="miuichromium_error_page_reason_connection_reset">. Anslutningen återställdes</string>
-    <string name="miuichromium_error_page_reason_device_slept">" när din enhet går ner i strömsparläge"</string>
-    <string name="miuichromium_error_page_reason_empty_response">" eftersom %s0 skickade någon data"</string>
-    <string name="miuichromium_error_page_reason_invalid_address">. Ip-adress eller portnummer är felaktig</string>
-    <string name="miuichromium_error_page_reason_invalid_response">" eftersom %s0 skickade ett ogiltigt svar"</string>
-    <string name="miuichromium_error_page_reason_invalid_url">" för att URL:en är felaktig"</string>
-    <string name="miuichromium_error_page_reason_moved_or_deleted">. Den har kanske flyttats eller tagits bort</string>
-    <string name="miuichromium_error_page_reason_name_collision">. Den här sidan på intrnätet har samma URL som en extern webbsida</string>
-    <string name="miuichromium_error_page_reason_name_not_resolved">. Kunde inte hitta DNS-adress för %s0</string>
-    <string name="miuichromium_error_page_reason_network_changed">" på grund av nätverksändring"</string>
-    <string name="miuichromium_error_page_reason_proxy_error">. Något är fel med proxyservern, eller är adressen för proxyservern felaktig</string>
-    <string name="miuichromium_error_page_reason_site_unreachable">. %s0 kan inte nås för tillfället</string>
-    <string name="miuichromium_error_page_reason_timed_out">. %s0 svarade inte i tid</string>
-    <string name="miuichromium_error_page_reason_too_many_redirects">" eftersom %s0 har skickat dig vidare för många gånger"</string>
-    <string name="miuichromium_error_page_reason_unsafe_port">. %s0 använder ett osäkert portnummer</string>
-    <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 skickar dig vidare på ett osäkert sätt</string>
-    <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 använder ett protokoll som inte stöds</string>
     <string name="miuichromium_error_page_reload">Uppdatera</string>
     <string name="miuichromium_error_page_safe_network">Säkert läge</string>
     <string name="miuichromium_error_page_server_error">Alltför många enheter försöker ansluta</string>
@@ -525,9 +501,13 @@ Lämna denna sida?"</string>
     <string name="more_option">Fler alternativ</string>
     <string name="nav_bottom_bar_back">Tillbaka</string>
     <string name="nav_bottom_bar_close_all">Stäng alla</string>
+    <string name="nav_bottom_bar_close_description">Stäng</string>
     <string name="nav_bottom_bar_new_tab">Ny flik</string>
     <string name="nav_screen_container_tab_incognito">Inkognitoflik</string>
     <string name="nav_screen_container_tab_normal">Normalflik</string>
+    <string name="nav_screen_incognito_message">"Din surf- och sökhistorik kommer inte att sparas i Inkognitoläge.
+Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer att sparas."</string>
+    <string name="nav_screen_incognito_title">Inkognitoläge</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Avbryt</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gå</string>
     <string name="navigationbar_rightbutton_actiontext_search">Sök</string>
@@ -549,7 +529,7 @@ Lämna denna sida?"</string>
     <string name="open_app_confirm_message">Tillåt denna sida att öppna %s?</string>
     <string name="open_file_explorer_failed">Kan inte öppna Filutforskaren</string>
     <string name="open_voice_permission">Tillåt mikrofonen att ansluta till internet</string>
-    <string name="opening_file_error">Misslyckades med att öppna vald fil</string>
+    <string name="opening_file_error">Det gick inte att öppna vald fil</string>
     <string name="page_info">Sidinfo</string>
     <string name="page_info_address">Adress:</string>
     <string name="page_info_view">Visa sidinfo</string>
@@ -593,7 +573,7 @@ Lämna denna sida?"</string>
     <string name="pref_content_auto_light_mode">Automatisk ljusstyrka</string>
     <string name="pref_content_block_popups">Blockera pop-up</string>
     <string name="pref_content_cloud_speedup">Ladda innehåll snabbare genom att använda proxy servrar</string>
-    <string name="pref_content_fontsize_setting">Fontinställningar</string>
+    <string name="pref_content_fontsize_setting">Inställningar för teckensnitt</string>
     <string name="pref_content_homepage">Ange startsida</string>
     <string name="pref_content_javascript">Aktivera JavaScript</string>
     <string name="pref_content_night_read_mode">Nattläge</string>
@@ -672,8 +652,8 @@ Lämna denna sida?"</string>
     <string name="pref_version_info">Versionsinformation</string>
     <string name="pref_volume_key_action">Scrolla med volymknapparna</string>
     <string name="private_browsing_warning">Den här funktionen stöds inte i denna version av Android.</string>
-    <string name="profiler_error_toast">Misslyckades att starta profileringen</string>
-    <string name="profiler_no_storage_toast">Kan inte starta profilering för att det externa lagringsutrymmet inte är redo</string>
+    <string name="profiler_error_toast">Det gick inte att starta profilering.</string>
+    <string name="profiler_no_storage_toast">Kan inte starta profilering för att det externa lagringsutrymmet inte är redo.</string>
     <string name="profiler_started_toast">Profilering startad</string>
     <string name="profiler_stopped_toast">Profilering klar. Resultatet finns i %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">Använder bakgrund…</string>
@@ -701,7 +681,7 @@ Lämna denna sida?"</string>
     <string name="readmode_login">Logga in</string>
     <string name="readmode_login_message">Du behöver logga in för att läsa vidare.</string>
     <string name="readmode_page_load_error">Kan inte ladda sidan</string>
-    <string name="readmode_page_loading">Bara en sekund…</string>
+    <string name="readmode_page_loading">Vänta en stund…</string>
     <string name="readmode_pay">Köp kapitel</string>
     <string name="readmode_pay_message">Du måste betala för att läsa nästa kapitel.</string>
     <string name="readmode_reach_last_page">Det här är sista sidan</string>
@@ -747,8 +727,8 @@ Lämna denna sida?"</string>
     <string name="save_to_camera">Spara till Galleri</string>
     <string name="save_to_camera_failed">Kunde inte spara bilden</string>
     <string name="save_to_camera_success">Sparat till Galleri</string>
-    <string name="scanner_uninstalled_text">Installera skannern för att fortsätta</string>
-    <string name="scanner_uninstalled_title">Skanner har blivit avinstallerat</string>
+    <string name="scanner_uninstalled_text">Installera Scannern för att fortsätta</string>
+    <string name="scanner_uninstalled_title">Scanner har blivit avinstallerat</string>
     <string name="sdcard_error">Kontrollera ditt SD-kort</string>
     <string name="search">Söka</string>
     <string name="search_baidu">Baidu</string>
@@ -782,18 +762,25 @@ Lämna denna sida?"</string>
     <string name="send_comment_title">Kommentar</string>
     <string name="senddesktop">Hemskärm</string>
     <string name="sendstartpage">Startsida</string>
+    <string name="sequence_bookmark_description">Tryck och håll för att ändra om bokmärkena</string>
     <string name="share_image_text">Titta vad jag delade! @MIUI</string>
     <string name="share_page_text">Titta vad jag delade: %1$s @MIUI| %2$s</string>
-    <string name="show_check_security_url_check_tip_dialog_description">Webbläsaren behöver för att ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer, låta webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">Webbläsaren behöver för att ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer, låta webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
-    <string name="show_security_tip_dialog_title">Användarvillkor</string>
-    <string name="show_weather_location_getter_tip_dialog_description">Webbläsaren behöver för att ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer och väderinformation, låta webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
+    <string name="show_check_security_url_check_tip_dialog_description">"Vi kommer samla in och använda din personliga data om väljer att använda våra tjänster.
+Denna data kommer vi att samla in:
+1. Säkra URLs: Vi kommer samla in URLs av webbsidor som du besöker medans du använder våra tjänster.
+2. Platsinformation: Vi kommer ha tillgång till din platsinformation.
+ Såhär använder vi datan vi samlar in:
+1. Säkerhet: Vi använder din data när vi skyddar din enhet från bedrägeri och virus, även för lagringsutrymme och säkerhetskopieringsorsaker.
+2. Innehåll: Din data hjälper oss att förse dig med relevanta lokala nyheter.
+Webbläsaren behöver att vara ansluten till internet för att fungera normalt. Du måste godkänna %2$s och %1$s för att kunna använda Webbläsaren."</string>
+    <string name="show_security_tip_dialog_title">Integritetspolicy</string>
     <string name="sign_in_to" formatted="false">Logga in på %s1 %s2\"</string>
     <string name="skip_button_label">Hoppa över</string>
     <string name="skip_current_version">Hoppa över denna version</string>
     <string name="snapshot">Lokal</string>
     <string name="snapshot_failed">Det gick inte att spara sidan</string>
     <string name="snapshot_successed">Öppna Bokmärken &amp; Historik -> LOKAL för att se sidan</string>
+    <string name="soft_toast_see_view">Visa</string>
     <string name="ssl_bad_clock_date_settings">Ange datum</string>
     <string name="ssl_bad_clock_warning" formatted="false">En privat ansluting till %s1kan inte uppehållas på grund av din enhets datum och tid (%s2är inkorrekta.</string>
     <string name="ssl_certificate">Säkerhetscertifikat</string>
@@ -823,14 +810,14 @@ Lämna denna sida?"</string>
     <string name="suggest_access_item_app_mark">APP</string>
     <string name="suggest_access_item_app_size">%.2fMB</string>
     <string name="suggest_access_item_app_update">Uppdatera: %s</string>
-    <string name="suggest_access_item_book_mark">BOK</string>
-    <string name="suggest_access_item_mina_mark">DIREKTTJÄNST</string>
+    <string name="suggest_access_item_book_mark">BÖCKER</string>
+    <string name="suggest_access_item_mina_mark">INSTANT APPS</string>
     <string name="suggest_access_item_music_mark">MUSIK</string>
     <string name="suggest_access_item_singer_albums">%d album</string>
     <string name="suggest_access_item_singer_pop">%d populära låtar</string>
     <string name="suggest_access_item_site_mark">SIDOR</string>
-    <string name="suggest_access_item_video_mark">VIDEO</string>
-    <string name="suggest_access_item_website_mark">WEBBSIDA</string>
+    <string name="suggest_access_item_video_mark">VIDEOR</string>
+    <string name="suggest_access_item_yellow_mark">GULA SIDORNA</string>
     <string name="suggest_access_music">Mi Musik</string>
     <string name="suggest_item_delete_text">Ta bort</string>
     <string name="suggest_open_app_failed">Kunde inte öppna denna app</string>
@@ -851,6 +838,8 @@ Lämna denna sida?"</string>
     <string name="title_bar_loading">Laddar…</string>
     <string name="too_many_windows_dialog_message">Webbläsaren kan inte öppna en ny flik tills du stänger en annan flik</string>
     <string name="too_many_windows_dialog_title">Kan inte öppna fler flikar</string>
+    <string name="transfer_prompt_0">Spela upp video</string>
+    <string name="transfer_restart">Starta om</string>
     <string name="unSwitchText">NEJ</string>
     <string name="undo">Ångra</string>
     <string name="unknown_title">Okänd</string>
@@ -893,9 +882,10 @@ Lämna denna sida?"</string>
     <string name="video_activity_name">Favoriter</string>
     <string name="video_buffering_percent">"Buffrar "</string>
     <string name="video_buffering_percent_string">"Buffrar "</string>
-    <string name="video_collect_cancel">Ta bort favorit</string>
+    <string name="video_collect_cancel">Ta bort från favoriter</string>
     <string name="video_collect_success">Tillagd i favoriter</string>
-    <string name="video_download_complete">Nedladdning klar.</string>
+    <string name="video_doenload_complete">Laddat ner Mi Video</string>
+    <string name="video_download_complete">Nedladdning lyckades</string>
     <string name="video_download_empty">Inga videor</string>
     <string name="video_download_error">Fel</string>
     <string name="video_download_error_http_gone">Det gick inte att hitta filen</string>
@@ -905,7 +895,7 @@ Lämna denna sida?"</string>
     <string name="video_download_finding_address">Hämtar URL</string>
     <string name="video_download_pause">Pausad</string>
     <string name="video_download_start">Laddar ner…</string>
-    <string name="video_download_success">Komplett</string>
+    <string name="video_download_success">Nedladdning lyckades</string>
     <string name="video_download_unknown_name">Okänt namn</string>
     <string name="video_download_unknown_size">Okänd storlek</string>
     <string name="video_download_unsupport">Stöds ej</string>
@@ -931,6 +921,7 @@ Lämna denna sida?"</string>
     <string name="video_push_multi_message">%1$d uppdateringar tillgängliga.</string>
     <string name="video_push_multi_title">Uppdatering tillgänglig</string>
     <string name="video_push_single_message">Klick för att uppdatera till %1$d.</string>
+    <string name="video_service_notification_title">Spelar upp pop-up video</string>
     <string name="video_subtitle_last_message1">Mindre än 1minut kvar</string>
     <string name="video_subtitle_prefix1">Se</string>
     <string name="video_subtitle_prefix2">"Sedd: "</string>
@@ -958,4 +949,33 @@ Lämna denna sida?"</string>
     <string name="webview_find_on_page">Hitta på sida</string>
     <string name="webviewchromium_private_browsing_warning">Den här funktionen stöds inte i denna version av Android.</string>
     <string name="week_picker_dialog_title">Ange vecka</string>
+    <string name="miuichromium_error_page_problem_cannot_reach_site">Sidan kan inte nås</string>
+    <string name="miuichromium_error_page_problem_connection_interrupted">Anslutningen avbröts</string>
+    <string name="miuichromium_error_page_problem_file_not_found">Det gick inte att hitta filen</string>
+    <string name="miuichromium_error_page_problem_no_internet_connection">Kunde inte ansluta till Internet</string>
+    <string name="miuichromium_error_page_problem_page_not_working">Sidan fungerar inte</string>
+    <string name="miuichromium_error_page_problem_security_error">Sidan har inte en säker anslutning</string>
+    <string name="miuichromium_error_page_reason_bad_client_cert">" eftersom %s0 inte accepterade ditt certifikat"</string>
+    <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 inte är ansluten till säkerhetsstandarderna</string>
+    <string name="miuichromium_error_page_reason_blocked_by_response">. åtkomsten är blockerad av %s0</string>
+    <string name="miuichromium_error_page_reason_connection_closed">. %s0 anslutning avbröts</string>
+    <string name="miuichromium_error_page_reason_connection_refused">. %s0 anslöt inte</string>
+    <string name="miuichromium_error_page_reason_connection_reset">. Anslutningen återställdes</string>
+    <string name="miuichromium_error_page_reason_device_slept">" när din enhet går ner i strömsparläge"</string>
+    <string name="miuichromium_error_page_reason_empty_response">" eftersom %s0 skickade någon data"</string>
+    <string name="miuichromium_error_page_reason_invalid_address">. Ip-adress eller portnummer är felaktig</string>
+    <string name="miuichromium_error_page_reason_invalid_response">" eftersom %s0 skickade ett ogiltigt svar"</string>
+    <string name="miuichromium_error_page_reason_invalid_url">" för att URL:en är felaktig"</string>
+    <string name="miuichromium_error_page_reason_moved_or_deleted">. Den har kanske flyttats eller tagits bort</string>
+    <string name="miuichromium_error_page_reason_name_collision">. Den här sidan på intrnätet har samma URL som en extern webbsida</string>
+    <string name="miuichromium_error_page_reason_name_not_resolved">. Kunde inte hitta DNS-adress för %s0</string>
+    <string name="miuichromium_error_page_reason_network_changed">" på grund av nätverksändring"</string>
+    <string name="miuichromium_error_page_reason_proxy_error">. Något är fel med proxyservern, eller är adressen för proxyservern felaktig</string>
+    <string name="miuichromium_error_page_reason_site_unreachable">. %s0 kan inte nås för tillfället</string>
+    <string name="miuichromium_error_page_reason_timed_out">. %s0 svarade inte i tid</string>
+    <string name="miuichromium_error_page_reason_too_many_redirects">" eftersom %s0 har skickat dig vidare för många gånger"</string>
+    <string name="miuichromium_error_page_reason_unsafe_port">. %s0 använder ett osäkert portnummer</string>
+    <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 skickar dig vidare på ett osäkert sätt</string>
+    <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 använder ett protokoll som inte stöds</string>
+    <string name="nav_screen_incognito_time">En ny sida kommer automatiskt skapas efter %s sekunder</string>
 </resources>

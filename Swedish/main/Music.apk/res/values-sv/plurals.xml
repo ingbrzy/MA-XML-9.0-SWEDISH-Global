@@ -96,6 +96,10 @@
         <item quantity="other">%d följare</item>
         <item quantity="one">%d följare</item>
     </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
+    </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">%1$d låtar har inte säkerhetskopierats (%2$.1fMB)\"</item>
         <item quantity="one">%1$d låt har inte säkerhetskopierats (%2$.1fMB)</item>
@@ -123,5 +127,13 @@
     <plurals name="skipped_online_songs_tips">
         <item quantity="other">Hoppade över %d låtar. Aktivera onlinetjänster i inställningar för att lyssna på dem.</item>
         <item quantity="one">Hoppade över %d låt. Aktivera onlinetjänster i inställningar för att lyssna på den.</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">Har stängt av optimering av album och låttexter. Vill du återställa optimerad information av album och låttexter för %d låtar?</item>
+        <item quantity="one">Har stängt av optimering av album och låttexter. Vill du återställa optimerad information av album och låttexter för %d låt?</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Matchar album och låttext (%1$d/%2$d låtar)</item>
+        <item quantity="one">Matchar album och låttext (%1$d/%2$d låt)</item>
     </plurals>
 </resources>

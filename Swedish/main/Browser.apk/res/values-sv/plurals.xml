@@ -5,8 +5,8 @@
         <item quantity="one">%d blockerat objekt</item>
     </plurals>
     <plurals name="find_on_page_matches">
-        <item quantity="other">%d passar</item>
-        <item quantity="one">%d passar</item>
+        <item quantity="other">%d träffar</item>
+        <item quantity="one">%d träff</item>
     </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Senaste %d dagar</item>
@@ -15,6 +15,10 @@
     <plurals name="matches_found">
         <item quantity="other">%1$d av %2$d</item>
         <item quantity="one">1 matchning</item>
+    </plurals>
+    <plurals name="transfer_prompt">
+        <item quantity="other">Spela upp video om %1$d sekunder</item>
+        <item quantity="one">Spela upp video om %1$d sekund</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d valda</item>

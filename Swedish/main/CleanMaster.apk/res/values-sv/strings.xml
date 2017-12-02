@@ -184,8 +184,8 @@
     <string name="toast_backup_uninstall_success">Säkerhetskopiering och avinstallering klar</string>
     <string name="activity_title_cache_data">App data</string>
     <string name="deepclean_cache_header_left">Datafiler: %d</string>
-    <string name="notification_title_of_garbage_cleanup">Skräpstorlek</string>
-    <string name="notification_summary_of_garbage_cleanup">Din skräpstorlek är över %s.</string>
+    <string name="notification_title_of_garbage_cleanup">%s av skräpfiler</string>
+    <string name="notification_summary_of_garbage_cleanup">Tryck för att frigöra utrymme.</string>
     <string name="notification_summary_after_auto_cleanup">Rengjord %s.</string>
     <string name="toast_uninstall_success">Avinstallering Färdig</string>
     <string name="toast_app_no_residual_on_sdcard">App har inte några filer som lagrats på ditt SD kort</string>
@@ -281,7 +281,7 @@
     <string name="recommended">Utvalda</string>
     <string name="hot">Populär</string>
     <string name="share">Dela</string>
-    <string name="garbage_month">Rengjort %s this month</string>
+    <string name="garbage_month">Städade %s den här månaden</string>
     <string name="garbage_clean_detail">Detaljer</string>
     <string name="there_is_no">Allt ser bra ut, kom tillbaka senare</string>
     <string name="no_network">Det gick inte att ansluta till nätverket, försök igen senare</string>
@@ -308,7 +308,7 @@
     <string name="seton_immediately">Sätt på</string>
     <string name="notify_when">Få en notifikation när skräpstorleken når 100mb</string>
     <string name="goto_set">Ange</string>
-    <string name="virus_scan">Virussökning</string>
+    <string name="virus_scan">Säkerhetssökning</string>
     <string name="tips_of_virus_scan">Skanna din enhet efter virus regelbundet för att hålla den säker</string>
     <string name="conn_of_function_safe">Nätverksanslutning för säkerhet</string>
     <string name="tips_of_connect">Anslut till internet för att använda Säkerhets finesserna full ut</string>

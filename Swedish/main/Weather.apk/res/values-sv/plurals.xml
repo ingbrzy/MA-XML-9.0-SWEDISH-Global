@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">%1$s Dygnsprognos</item>
-        <item quantity="one">%1$s Dygnprognos</item>
+        <item quantity="other">%1$s-dygnsprognos</item>
+        <item quantity="one">%1$s-dygnsprognos</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
         <item quantity="other">%d minuter sedan</item>

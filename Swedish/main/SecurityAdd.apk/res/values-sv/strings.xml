@@ -12,7 +12,7 @@
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="no_network_btn">Försök igen</string>
     <string name="main_toolbar_purchase">Fyll upp</string>
-    <string name="usage_sorted_loading_text">Bara en sekund…</string>
+    <string name="usage_sorted_loading_text">Vänta lite…</string>
     <string name="month_report_activity_label">Månadsrapport</string>
     <string name="month_report_disconnect_tip">Kan inte ansluta till nätverket</string>
     <string name="month_report_click_reconnect_network">Försök igen</string>
@@ -22,7 +22,7 @@
     <string name="month_report_history_activity_label">Rapporthistoriken</string>
     <string name="month_report_result_share">Dela</string>
     <string name="month_report_share_img_fail">Kunde inte dela</string>
-    <string name="month_report_share_loading">Bara en sekund…</string>
+    <string name="month_report_share_loading">Vänta lite…</string>
     <string name="month_report_network_dialog_title">Kan inte hämta rapport info</string>
     <string name="month_report_network_dialog_description">Tillåt den här appen att ansluta till internet för att hämta rapport info?</string>
     <string name="month_report_network_dialog_positive">Tillåt</string>

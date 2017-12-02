@@ -30,11 +30,11 @@
     </string-array>
     <string-array name="traffic_type">
         <item>"Mobiladata "</item>
-        <item>"Wi-Fi-användning "</item>
+        <item>"Wi-Fi "</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"Mobildata "</item>
-        <item>"Wi-Fi-användning "</item>
+        <item>"Wi-Fi "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Visa varning</item>
@@ -49,6 +49,11 @@
         <item>När enheten är låst</item>
         <item>När enheten är låst eller efter en app avslutas</item>
         <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
+    </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
     </string-array>
     <string-array name="sort_type">
         <item>Status</item>

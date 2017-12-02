@@ -15,4 +15,9 @@
         <item>Appdata kommer försvinna efter att apparna flyttas till det nuvarande utrymmet.</item>
         <item>Appar används i båda utrymmena.</item>
     </string-array>
+    <string-array name="choose_ask_type">
+        <item>Fråga alltid</item>
+        <item>Standardapp</item>
+        <item>Dual app</item>
+    </string-array>
 </resources>

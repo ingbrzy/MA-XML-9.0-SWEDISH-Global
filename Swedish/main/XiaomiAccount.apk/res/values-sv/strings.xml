@@ -54,7 +54,7 @@
     <string name="passport_change_phone_number">Växla nummer</string>
     <string name="passport_forget_password"><u>Glömt lösenord</u></string>
     <string name="passport_forget_password_no_underline">Glömt lösenord</string>
-    <string name="passport_reg_type_email">Använd e-postadress</string>
+    <string name="passport_reg_type_email">E-postadress</string>
     <string name="passport_register_by_email"><u>Skapa ett konto med e-postadress</u></string>
     <string name="passport_account_not_actived">Ditt konto har inte blivit aktiverat</string>
     <string name="passport_active_email_visit">Kontrollera din inkorg på %s</string>
@@ -257,6 +257,7 @@ För att aktivera ditt konto, följ
     <string name="account_limit_update_birthday">Kan inte uppdatera födelsedag nu</string>
     <string name="account_user_other_info">Fler källor</string>
     <string name="account_user_region">Region</string>
+    <string name="account_global_region">Utomlands</string>
     <string name="account_user_location">Plats</string>
     <string name="account_user_location_title">Välj nuvarande plats</string>
     <string name="account_user_education">Utbildning</string>
@@ -286,10 +287,6 @@ För att aktivera ditt konto, följ
     <string name="confirm_unbundled_phone_dialog_message">Telefonnumret %1$s associerar med Mi-Kontot %2$s. Det kommer inte associerar med Mi-kontot %3$s om du fortsätter. Fortsätta?</string>
     <string name="change_phone_number">Ändra telefonnummer</string>
     <string name="change_email_address">Ändra e-postadress</string>
-    <string name="checking_phone_num_availible">Verifierar telefon…</string>
-    <string name="account_binded_phone">Telefon %d</string>
-    <string name="account_bind_new_phone">Lägg till ny telefon</string>
-    <string name="account_bind_phone_notice">Använd det här telefonnumret för att logga in på ditt konto, återställa ditt lösenord eller ändra säkerhetsinställningar.</string>
     <string name="continue_action">Fortsätt</string>
     <string name="replace_binded_phone">Ersätt telefon</string>
     <string name="delete_action">Ta bort</string>
@@ -299,7 +296,7 @@ För att aktivera ditt konto, följ
     <string name="error_dup_binded_email">Detta telefonnummer är redan kopplat till ett annat Mi-konto.</string>
     <string name="error_invalid_bind_address">Denna epostadress är ogiltig.</string>
     <string name="get_phone_bind_exceed_limit">Du kan associerar upp till 5 Mi-Konton med ett telefonummer. Kan inte lägga till ett nytt konto.</string>
-    <string name="just_a_second">Bara en sekund…</string>
+    <string name="just_a_second">Vänta en stund…</string>
     <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats tlll det här numret. Vänta 24 tim och försök igen.</string>
     <string name="mi_account_identity_title">Verifiera din identitet</string>
     <string name="exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Mi-konto.</string>
@@ -314,6 +311,15 @@ För att aktivera ditt konto, följ
     <string name="resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
     <string name="update_email_address_dialog_title">Uppdatera e-post</string>
     <string name="update_email_address_dialog_message">Du behöver verifiera din identitet innan du kan uppdatera e-postadress.</string>
+    <string name="update_phone_notice">Ändra säkerhetsinställningar</string>
+    <string name="no_phone">Inget telefonnummer</string>
+    <string name="action_update_phone">Ändra telefonnummer</string>
+    <string name="action_add_phone">Lägg till telefonnummer</string>
+    <string name="phone_num_use_for">Telefonnummer används för:</string>
+    <string name="sign_in">Loggar in</string>
+    <string name="get_back_pwd">Återställer lösenord</string>
+    <string name="identity">Identifiering</string>
+    <string name="set_success">Ändrad</string>
     <string name="account_user_details">Personlig information</string>
     <string name="account_security">Kontosäkerhet</string>
     <string name="account_mibi_center">Mi Credits</string>

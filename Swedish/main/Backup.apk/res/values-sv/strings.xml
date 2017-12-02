@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att Hämtningar-appen fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -15,6 +18,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="button_cancel">Avbryt</string>
     <string name="button_send">Skicka</string>
     <string name="backup_empty">Inga säkerhetskopieringar.</string>
+    <string name="data_detail_description">Detaljer</string>
     <string name="comma_seperator">", "</string>
     <string name="backup_failed">Kunde inte säkerhetskopiera</string>
     <string name="sdcard_unmounted">Sätt SD-kort nu</string>
@@ -46,8 +50,8 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="settings_summary">Telefon och meddelandeinställningar</string>
     <string name="camera_summary">Kamerainställningar (foton räknas inte)</string>
     <string name="account_summary">Säkerhetskopiera Google Konto, Mi Konto och annan användardata</string>
-    <string name="cloud_app_name">Mi Moln Säkerhetskopiering</string>
-    <string name="cloud_home_title">Mi Moln</string>
+    <string name="cloud_app_name">Mi Cloud Säkerhetskopiering</string>
+    <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Läser…</string>
     <string name="prompt_sending">Laddar upp…</string>
     <string name="prompt_writing">Sparar…</string>
@@ -55,17 +59,17 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="backup_update">Uppdatera</string>
     <string name="backup_delete">Radera:</string>
     <string name="findlost_contact">Återställ kontakter</string>
-    <string name="findlost_contact_online">Återställ kontakter ifrån Mi Molnet</string>
+    <string name="findlost_contact_online">Återställ kontakter ifrån Mi Cloud</string>
     <string name="cloud_backup_login">Logga in på ditt Mi Konto</string>
     <string name="cloud_backup_hint">För att komma åt dina säkerhetskopieringar, logga in nu</string>
-    <string name="cloud_backup_window_title">Mi Moln Säkerhetskopiering</string>
-    <string name="cloud_restore_window_title">Mi Molns återställning</string>
+    <string name="cloud_backup_window_title">Mi Cloud Säkerhetskopiering</string>
+    <string name="cloud_restore_window_title">Mi Cloud återställning</string>
     <string name="cloud_restore_title">Återställ säkerhetskopierad data</string>
     <string name="local_backup_window_title">Lokal säkerhetskopiering</string>
     <string name="local_restore_window_title">Lokal återställning</string>
     <string name="account_login">Logga in</string>
     <string name="miliao_account_login">Logga in med Mi Talk</string>
-    <string name="miliao_account_guide">Använd ditt Mi konto för att logga in på Mi Molnet, MIUI teman Butik och andra Mi tjänster, varsomhelst.</string>
+    <string name="miliao_account_guide">Använd ditt Mi konto för att från varsomhelst logga in på Mi Cloud, MIUI Teman Butik och andra Mi tjänster.</string>
     <string name="auto_backup">Schemalägg säkerhetskopiering</string>
     <string name="contact_title">Kontakter</string>
     <string name="call_title">Samtalshistorik</string>
@@ -125,7 +129,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="button_finish">Slutför</string>
     <string name="progress_backup_hint">Säkerhetskopierar…</string>
     <string name="cancel_backup">Stoppa</string>
-    <string name="cancel_restore">Stopp</string>
+    <string name="cancel_restore">Stoppa</string>
     <string name="restore_contact">Återställ kontakter</string>
     <string name="restore_contact_content">Återställa kan skapa dubblett kontakter.</string>
     <string name="progress_restore_hint">Återställning…</string>
@@ -170,8 +174,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="deselect_all">Avmarkera alla</string>
     <string name="reverse_all">Rensa alla</string>
     <string name="refresh">Uppdatera</string>
-    <string name="cloud_item_info_summary">" (Lokal: %1$s | Mi Moln: %2$s)"</string>
-    <string name="total_num">%dobjekt,</string>
+    <string name="cloud_item_info_summary">" (Lokal: %1$s | Mi Cloud: %2$s)"</string>
     <string name="cloud_restore_guide">För att återställa användardata %s, tryck Återställa</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Ladda ner Mi Talk appen och logga in.
 \u0009http://www.miliao.com
@@ -219,13 +222,14 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="router_backup_hint">Håll enheten påslagen</string>
     <string name="see_backup_files_on_router">Se Säkerhetskopieringar på Mi Router %s</string>
-    <string name="page_loading">Bara en sekund…</string>
+    <string name="page_loading">Vänta en stund…</string>
     <string name="file_uploading">Laddar upp…</string>
     <string name="new_backup">Säkerhetskopiering</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte kypterad</string>
-    <string name="state_waiting">Bara en sekund…</string>
+    <string name="digit_percent">%</string>
+    <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
     <string name="abort_restore_confirm">Återställning är ej slutförst. Avsluta ändå?</string>
@@ -261,7 +265,6 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="notif_trans_wait_for_reconnecting">Anslutningen avbröts. Anslut igen.</string>
     <string name="notif_trans_auto_reconnecting_title">Anslutningen avbröts. Automatisk återanslutning…</string>
     <string name="notif_trans_auto_reconnecting_content">Du kan avbryta den nuvarande tråden vid behov.</string>
-    <string name="custom_progress">%d objekt</string>
     <string name="remote_receive">Ta emot</string>
     <string name="click_to_view">Tryck för att visa</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
@@ -342,7 +345,7 @@ Välj filer igen eller rensa %s utrymme på den nya enheten"</string>
     <string name="trans_native_no_space">"Inte tillräckligt med utrymme på den nya enheten.
 Rensa minst %s."</string>
     <string name="trans_calculating_app_sd_size">Beräknar data storlek: %s</string>
-    <string name="trans_please_waiting">Bara en sekund…</string>
+    <string name="trans_please_waiting">Vänta en stund…</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -359,26 +362,26 @@ Rensa minst %s."</string>
     <string name="user_notice_declaration_ignore">Visa inte igen</string>
     <string name="total_size">, %s</string>
     <string name="trans_intro_title">FAQ</string>
-    <string name="trans_intro_question_1">1. Hur använder Mi Mover för att flytta data från en iOS-enhet?</string>
+    <string name="trans_intro_question_1">%d. Hur använder Mi Mover för att flytta data från en iOS-enhet?</string>
     <string name="trans_intro_desc_1">På en Mi-telefon, anslut till Wi-Fi och tryck \"Jag är en mottagare\". Välj din iOS-enhet, logga in på iCloud och importera data.</string>
-    <string name="trans_intro_question_2">2. Hur använder Mi Mover för att flytta data från en Androidenhet?</string>
+    <string name="trans_intro_question_2">%d. Hur använder Mi Mover för att flytta data från en Androidenhet?</string>
     <string name="trans_intro_title_new">På en ny telefon:</string>
     <string name="trans_intro_desc_new">Tryck \"Jag är en mottagare\". En QR-kod kommer att genereras.</string>
     <string name="trans_intro_title_old">På en gammal telefon:</string>
     <string name="trans_intro_desc_old">Tryck \"Jag är en avsändare\". Skanna QR-koden på den nya telefonen, vänta tills Mi Mover listar ut vilken fil som ska skickas och tryck på \"Sänd\".</string>
-    <string name="trans_intro_question_3">3. Vad ska jag göra om Mi Mover fastnar på ett steg?</string>
+    <string name="trans_intro_question_3">%d. Vad ska jag göra om Mi Mover fastnar på ett steg?</string>
     <string name="trans_intro_desc_3">Avbryt överföringen, avsluta Mi Mover och börja om. Dupplicerade filer kommer skrivas över under den nya överföringen.</string>
-    <string name="trans_intro_question_4">4. Varför kan jag inte använda Wi-Fi under tiden överföringen genomförs?</string>
+    <string name="trans_intro_question_4">%d. Varför kan jag inte använda Wi-Fi under tiden överföringen genomförs?</string>
     <string name="trans_intro_desc_4">Mi Mover använder Wi-Fi för att överföra filer. Därför kan du inte ansluta till internet med Wi-Fi på någon av enheterna under tiden överföringen genomförs. Du kan fortfarande mobildata. Men på vissa nya enheter (till exempel Mi 6) kan fortfarande ansluta till internet med Wi-Fi under tiden överföringen genomförs.</string>
-    <string name="trans_intro_question_5">5. Varför berättar Mi Mover att det inte är tillräckligt med utrymme på min gamla telefon?</string>
+    <string name="trans_intro_question_5">%d. Varför berättar Mi Mover att det inte är tillräckligt med utrymme på min gamla telefon?</string>
     <string name="trans_intro_desc_5">Lagringsutrymme på gamla enheter används för att skapa överföringspaket. Se till att du har minst 500 MB - 1 GB tillgängligt utrymme på din gamla telefon innan du påbörjar en överföring.</string>
-    <string name="trans_intro_question_6">6. Varför misslyckas överföringen av vissa appar?</string>
+    <string name="trans_intro_question_6">%d. Varför misslyckas överföringen av vissa appar?</string>
     <string name="trans_intro_desc_6">Det finns flera orsaker till varför det kan hända: kompatibilitetsproblem med system och appversion, nätverksproblem, kompatibilitetsproblem men vissa enheter, etc.</string>
-    <string name="trans_intro_question_7">7. Varför startar inte vissa appar på min nya enhet?</string>
+    <string name="trans_intro_question_7">%d. Varför startar inte vissa appar på min nya enhet?</string>
     <string name="trans_intro_desc_7">Vissa approfiler (internetbank, finans, etc) associeras med specifika enheter på grund av säkerhetsorsaker. Försök rensa appdata eller installera om appen på den nya enheten.</string>
-    <string name="trans_intro_question_8">8. Varför överförs all historik på WeChat?</string>
+    <string name="trans_intro_question_8">%d. Varför överförs all historik på WeChat?</string>
     <string name="trans_intro_desc_8">Data och chatthistorik från WeChat kanske inte kan överföras helt med Mi Mover. Gå till inställningar för WeChat och logga ut från ditt konto för att öka chansen för en lyckad överföring.</string>
-    <string name="trans_intro_question_9">9. Vilka objekt kan inte överföras?</string>
+    <string name="trans_intro_question_9">%d. Vilka objekt kan inte överföras?</string>
     <string name="trans_intro_title_account">Konto och lösenord:</string>
     <string name="trans_intro_desc_account">Du behöver logga in igen på dina konton (t ex. Mi Account, Exchange, Google, etc) på din nya enhet på grund av säkerhetsorsaker.</string>
     <string name="trans_intro_title_private">Dolt album:</string>
@@ -417,13 +420,15 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="icloud_how_to_backup_tip_title">Tips:</string>
     <string name="icloud_how_to_backup_tip_summary">För att importera från iOS, måste du först skapa en iCloud backup.</string>
     <string name="icloud_how_to_backup_tip_steps">"1. Öppna Inställningar på din iOS-enhet och välj iCloud. 
-2. Växla till Kontakter. 
-3. Välj Bilder och växla till iCloud Bilderbibliotek."</string>
+2. välj Kontakter och andra objekt.
+3. Välj Bilder och växla till iCloud bibliotek för bilder."</string>
     <string name="user_name">Apple-ID är eller E-post</string>
     <string name="password">Lösenord</string>
     <string name="user_name_null">Användarnamn får inte vara tomt</string>
     <string name="password_null">Lösenord får inte vara tomt</string>
     <string name="name_password_not_consistent">Användarnamn eller lösenord är felaktiga</string>
+    <string name="view_password_description">Visa lösenord</string>
+    <string name="hide_password_description">Dölj lösenord</string>
     <string name="login">Logga in</string>
     <string name="logining">Loggar in…</string>
     <string name="login_failed">Kunde inte logga in. Försök igen.</string>
@@ -460,7 +465,8 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="icloud_need_sync">"För att importera från iOS,
  ska du först skapa en iCloud backup."</string>
     <string name="import_tip_title">Tips:</string>
-    <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra kontakter och bilder från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>
@@ -468,6 +474,8 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="select_item_contacts">Kontakter</string>
     <string name="select_item_photos">Bilder</string>
     <string name="select_item_empty_summary">Inga objekt</string>
+    <string name="select_item_calendar">Kalender</string>
+    <string name="select_item_notes">Anteckningar</string>
     <string name="cancel_moving_dialog_title">Avsluta importeringen</string>
     <string name="cancel_moving_dialog_message">Avsluta importeringen?</string>
     <string name="notif_icloud_saving_summary">Återställer data…</string>
@@ -478,4 +486,7 @@ Frigör minst %s."</string>
     <string name="save_finish_with_failing_items">"Överföringen blev avbruten.
  Datan som inte importerades måste importeras igen."</string>
     <string name="import_again">Importera igen</string>
+    <string name="error_permissions">Denna app har inte korrekt behörighet för att ha tillgång till Kalendern. Gå in i Inställningar och kontrollera behörigheter för att fortsätta.</string>
+    <string name="succ_description">Lyckades</string>
+    <string name="failed_description">Misslyckades</string>
 </resources>

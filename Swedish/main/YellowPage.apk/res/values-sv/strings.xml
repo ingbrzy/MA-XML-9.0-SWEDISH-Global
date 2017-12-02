@@ -30,7 +30,7 @@
     <string name="callrecordview_item_newcontact">Ny kontakt</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$dm %2$ds</string>
     <string name="callrecordview_item_op_time_missed">Ej ansluten</string>
-    <string name="callrecordview_item_op_time_only_minutes">%d min</string>
+    <string name="callrecordview_item_op_time_only_minutes">%d minuter</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sek</string>
     <string name="callrecordview_item_op_time_rejected">Nekad</string>
     <string name="callrecordview_item_op_time_short_incoming">"Inkommande: "</string>
@@ -41,7 +41,7 @@
     <string name="confirm_delete_call_log_title">Radera samtalshistorik?</string>
     <string name="confirm_to_add_blacklist">Blockera detta nummer?</string>
     <string name="confirm_to_remove_blacklist">Avblockera detta nummer?</string>
-    <string name="confirm_to_send_to_desktop">Placera %s på hemskärm?</string>
+    <string name="confirm_to_send_to_desktop">Placera %s på Hemskärmen?</string>
     <string name="contact_detail_calllog_call_note_tips">Samtals anteckningar</string>
     <string name="contact_detail_calllog_call_record_tips">Inspelade samtal</string>
     <string name="content_desc_send_sms">Sicka SMS</string>
@@ -189,6 +189,7 @@
     <string name="quick_yellow_page_tab_phones">Telefon</string>
     <string name="recharge_actual_price">Pris:</string>
     <string name="recharge_charge_range">Pris: RMB %1$s-%2$s</string>
+    <string name="recharge_charge_value">Pris: RMB %s</string>
     <string name="recharge_follow_name">Fyll upp</string>
     <string name="recharge_history">Påfyllningshistorik</string>
     <string name="recharge_history_empty">Tom</string>
@@ -226,12 +227,13 @@ Totalt: RMB %3$s"</string>
     <string name="rmb">RMB</string>
     <string name="scan">Genomsök</string>
     <string name="select_package_before_buy">Välj paket</string>
-    <string name="send_shortcut_already_exists">Home screen already exists</string>
+    <string name="send_shortcut_already_exists">Hemskärmen finns redan</string>
     <string name="send_shortcut_failed">Det gick inte att skicka</string>
-    <string name="send_shortcut_success">Placerad på hemskärmen</string>
+    <string name="send_shortcut_success">Placerad på Hemskärmen</string>
     <string name="sending_shortcut">Skickar…</string>
     <string name="service_unavailiable">Service otillgänglig</string>
     <string name="share">Dela</string>
+    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">Nummerpresentation</string>
     <string name="toast_finish_delete_call_log">Samtalshistorik raderad</string>
     <string name="toast_text_copied">Text kopierad</string>
@@ -240,10 +242,10 @@ Totalt: RMB %3$s"</string>
     <string name="turn_off_phone_event_hint">Du kommer inte ha möjlighet att se flagginfo om okända telefonnummer.</string>
     <string name="turn_off_smart_antispam_hint">Du kommer inte ha möjlighet att se flagginfo om inkommande samtal från okända telefonnummer.</string>
     <string name="turn_on_online_antispam_enable">Aktivera</string>
-    <string name="turn_on_online_antispam_summary">Turn on Caller ID to recognize unknown numbers.</string>
+    <string name="turn_on_online_antispam_summary">Aktivera Caller ID för att identifiera okända nummer.</string>
     <string name="turn_on_online_antispam_title">Aktivera nummerpresentation</string>
     <string name="turn_on_phone_event_dialog_title">Uppdatera nummerpresentationsdatabas</string>
-    <string name="turn_on_phone_event_summary">Allow Yellow pages to receive and upload the service info of the verified service providers.</string>
+    <string name="turn_on_phone_event_summary">Tillåt Gula sidorna att få motta och ladda upp information om tjänster av verifierade leverantörer.</string>
     <string name="turn_on_phone_event_title">Ta emot serviceinfo</string>
     <string name="turn_on_smart_antispam_hint">Identifiera samtal från okända nummer</string>
     <string name="turn_on_smart_antispam_summary">Ladda upp och identifiera okända telefonnummer från samtalshistorik och SMS</string>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">Blockeringslista</string>
+    <string name="fw_oversea">Blockera alla inkommande utlandssamtal</string>
     <string name="fw_blocked_count">"Blockerad "</string>
     <string name="fw_blocked_join">" och "</string>
+    <string name="fw_oversea_content">Blockera inkommande samtal från okända telefonnummer</string>
     <string name="tab_title">Blockeringslista</string>
     <string name="tab_blacklist">Blockeringslista</string>
     <string name="tab_sms">SMS</string>
@@ -132,6 +134,7 @@
     <string name="call_contact_block">Blockera samtal från kontakter</string>
     <string name="call_transfer_block">Blockera vidarekopplade samtal</string>
     <string name="call_cloud_block">Blockeringlista för molntjänster</string>
+    <string name="call_oversea_block">Blockera alla inkommande utlandssamtal</string>
     <string name="mark_fraud_block">Rapportera som bluff</string>
     <string name="mark_agent_block">Rapportera som myndigheter</string>
     <string name="mark_sell_block">Rapporterad som telefonförsäljare</string>
@@ -270,6 +273,7 @@
     <string name="st_call_settings">Blockeringslista för samtal</string>
     <string name="st_call_intercept_stranger">Blockera samtal från okända</string>
     <string name="st_call_intercept_forwarding">Blockera vidarekopplade samtal</string>
+    <string name="st_call_intercept_oversea">Blockera alla inkommande utlandssamtal</string>
     <string name="st_call_intercept_reported">Blockera samtal från rapporterade nummer</string>
     <string name="st_call_intercept_contacts">Blockera samtal från kontakter</string>
     <string name="st_call_intercept_unknown">Blockera samtal från dolda nummer</string>
@@ -281,6 +285,7 @@
     <string name="st_confirm_dialog_btn_open">Öppna</string>
     <string name="st_confirm_dialog_summary_stranger_call">Alla samtal från okända kommer blockeras.</string>
     <string name="st_confirm_dialog_summary_contact_call">Alla samtal från kontakter kommer blockeras.</string>
+    <string name="st_confirm_dialog_summary_oversea_call">Aktivera att blockera alla inkommande samtal från okända telefonnummer.</string>
     <string name="cta_dialog_title">Internetanslutning</string>
     <string name="cta_dialog_msg">Säkerhet behöver Internetuppkoppling för att få uppdateringar, och även din plats för att fungera normalt.</string>
     <string name="cta_settings">Tillåt internetuppkoppling</string>
@@ -384,6 +389,7 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Gräns för mobildata</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -447,7 +453,7 @@ ska svara"</string>
     <string name="input_used_max_hint">Ange datagräns (lägre än %s)</string>
     <string name="text_day" />
     <string name="text_cycle_day">%s</string>
-    <string name="settings">Inställningar för dataanvändning</string>
+    <string name="settings">Inställningar för mobildataanvändning</string>
     <string name="adjust_traffic_data">Ange dataanvändning</string>
     <string name="per_month_pkg_traffic_settings">Ange datagräns</string>
     <string name="free_time_traffic_settings">Lågtrafik dataanvändningsgräns</string>
@@ -822,7 +828,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="status_bar_network_flow_phone_balance">"   Saldo:%1$s "</string>
     <string name="status_bar_network_flow_exceed_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; | Överskridit dataabonnemang: &lt;font color=%2$s>%3$s&lt;/font></string>
     <string name="status_bar_network_flow_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Återstår: %2$s</string>
-    <string name="status_bar_network_flow_content_not_setting">Idag: %1$s &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp | Denna månad: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denna månad: %2$s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
     <string name="optimize_manage_title">Öka hastigheten</string>
     <string name="cpu_usage_android_system">Androidsystem</string>
@@ -885,6 +891,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -963,7 +970,7 @@ din enhet"</string>
     <string name="battery_history_seconds">%1$ds</string>
     <string name="delete">Ta bort</string>
     <string name="every_day">Varje dag</string>
-    <string name="legal_workday">Helg</string>
+    <string name="legal_workday">Arbetsdagar</string>
     <string name="never">1 gång</string>
     <string name="power_20s_shutdown">Enheten kommer att stängas av om %d sekunder</string>
     <string name="boot_reminder">Slå på din enhet vid en schemalagd tidpunkt</string>
@@ -1273,6 +1280,7 @@ din enhet"</string>
     <string name="keywords_gamebooster">Spel;Öka hastighet;King of Glory;Prestandaläge;Tyst läge;Spel;Spelhastighet;Öka</string>
     <string name="path_gamebooster">Systemappar/Säkerhet/Öka spelhastighet</string>
     <string name="app_name_securitycenter">Säkerhet</string>
+    <string name="back_description_securitycenter">Bakåt</string>
     <string name="ok">OK</string>
     <string name="exit">Avsluta</string>
     <string name="cancel">Avbryt</string>
@@ -1286,6 +1294,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1367,7 +1376,7 @@ din enhet"</string>
     <string name="pref_category_title_securitycenter_settings">Allmänt</string>
     <string name="pref_category_title_module_settings">Inställningar för funktioner</string>
     <string name="Settings_title_garbage_cleanup">Inställningar för Städaren</string>
-    <string name="Settings_title_network_assistants">Inställningar för mobildata användning</string>
+    <string name="Settings_title_network_assistants">Inställningar för mobildataanvändning</string>
     <string name="Settings_title_anti_spam">Inställningar för blockeringslista</string>
     <string name="Settings_title_power_center">Batteriinställningar</string>
     <string name="Settings_title_anti_virus">Inställningar för säkerhetssökning</string>
@@ -1646,6 +1655,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1841,11 +1851,9 @@ din enhet"</string>
     <string name="app_manager_details_electric_title">Batteri</string>
     <string name="app_manager_card_permission_title">Behörigheter</string>
     <string name="app_manager_permission_startself_title">Autostart</string>
-    <string name="app_manager_permission_startself_summary">Apparna som automatiskt tar upp RAM och drar mycket batteri</string>
     <string name="app_manager_permission_manager_title">Behörigheter</string>
     <string name="app_manager_permission_notify_title">Notifikationer</string>
     <string name="app_manager_permission_power_saving_title">Batterisparare</string>
-    <string name="app_manager_permission_power_saving_summary">MIUI batterisparfunktioner</string>
     <string name="app_manager_default_open_title">Rensa standard</string>
     <string name="app_manager_default_close_summary">Inga standardvärden är satta.</string>
     <string name="app_manager_default_open_summary">Du har valt att använda denna app som standard för vissa åtgärder.</string>
@@ -1871,7 +1879,6 @@ din enhet"</string>
     <string name="app_manager_stop_wakepath_success">Begränsad</string>
     <string name="app_maanger_app_uninstalled_toast">Den här appen är avinstallerad</string>
     <string name="app_manager_start_by">Startad av %s</string>
-    <string name="app_manager_not_record">Det gick inte att hitta appar som behöver behörigheter</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation av en dual app kommer ta bort all applikationsdata för alla instanser av appen.</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av den Dual app kommer tas bort samt all applikationsdata.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera dual app?</string>
@@ -1885,7 +1892,6 @@ din enhet"</string>
     <string name="app_manager_menu_clear_data">Rensa data</string>
     <string name="app_manager_clear_data_dlg_title">Ta bort appdata?</string>
     <string name="app_manager_clear_data_dlg_message">Alla applikationer’s data kommer tas bort permanent. Detta inkluderar alla filer, inställningar, konton, databaser osv.</string>
-    <string name="app_manager_clear_failed_dlg_title">Rensa data</string>
     <string name="app_manager_clear_failed_dlg_message">Kunde inte rensa data för app.</string>
     <string name="app_manager_manage_space">Hantera utrymme</string>
     <string name="app_manager_permission_summary_reject">Begränsa alla</string>
@@ -1893,7 +1899,6 @@ din enhet"</string>
     <string name="app_manager_powerkeeper_miui_auto">MIUI batterisparfunktioner</string>
     <string name="app_manager_powerkeeper_restrict_bg">Begränsa bakgrundsappar</string>
     <string name="app_manager_powerkeeper_no_bg">Begränsa bakgrundsaktivitet</string>
-    <string name="app_manager_sort">Sortera efter</string>
     <string name="app_manager_instruction">Instruktion</string>
     <string name="app_manager_app_storage">"Lagring: "</string>
     <string name="app_manager_app_traffic">"Dataanvänding: "</string>
@@ -2097,4 +2102,9 @@ din enhet"</string>
     <string name="game_booster_close">Game Speed Booster av</string>
     <string name="databooster_tips_title">Uppmärksamma</string>
     <string name="databooster_tips_message">Aktivera att begränsa alla SIM-kort utom kortet för mobildata. Avaktivera denna funktion om fel inträffar när du spelar spel.</string>
+    <string name="app_manager_permission_startself_summary">Apparna som automatiskt tar upp RAM och drar mycket batteri</string>
+    <string name="app_manager_permission_power_saving_summary">MIUI batterisparfunktioner</string>
+    <string name="app_manager_not_record">Det gick inte att hitta appar som behöver behörigheter</string>
+    <string name="app_manager_clear_failed_dlg_title">Rensa data</string>
+    <string name="app_manager_sort">Sortera efter</string>
 </resources>

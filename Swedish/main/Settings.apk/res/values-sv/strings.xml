@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Inga</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -320,7 +322,7 @@
     <string name="show_mem_info_title">Visa minnesanvändning</string>
     <string name="status_bar_and_notification_bar">Notifikationspanel och statusfält</string>
     <string name="status_bar_settings_manage_notification">App notifikationer</string>
-    <string name="status_bar_settings_all_app_display_loading">Bara en sekund…</string>
+    <string name="status_bar_settings_all_app_display_loading">Vänta lite…</string>
     <string name="status_bar_settings_enable_notification">Visa notifikationer</string>
     <string name="status_bar_settings_notification_priority">Prioritet</string>
     <string name="status_bar_settings_notification_priority_summary">Visa aviseringar vid toppen av listan</string>
@@ -679,6 +681,7 @@ Den här inställningen påverkar samtliga användare."</string>
     <string name="security_enable_widgets_title">Aktivera widgetar</string>
     <string name="security_enable_widgets_disabled_summary">Har inaktiverats av administratören</string>
     <string name="owner_info_settings_summary">Ingen</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
     <string name="user_info_settings_title">Användarinfo</string>
     <string name="show_profile_info_on_lockscreen_label">Visa profilinfo på den låsta skärmen</string>
@@ -940,6 +943,7 @@ Om du vill fortsätta använda mobilen måste du återställa standardinställni
     <string name="wifi_display_options_name">Namn</string>
     <string name="wifi_band_24ghz">2,4 GHz</string>
     <string name="wifi_band_5ghz">5 GHz</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">Tillåt datautbyte när mobilen vidrör en annan enhet</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2206,6 +2210,7 @@ Om enheten används av flera personer kan genvägen på låsskärmen tillfällig
     <string name="gadget_title">Strömkontroll</string>
     <string name="gadget_toggle_wifi">Uppdaterar Wi-Fi inställning</string>
     <string name="gadget_toggle_bluetooth">Uppdatera Bluetooth-inställningar</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">på</string>
     <string name="gadget_state_off">av</string>
     <string name="gadget_state_turning_on">aktiverar</string>
@@ -2383,6 +2388,7 @@ En funktion i Google som du kan använda om du vill synkronisera så att du komm
     <string name="delete">Ta bort</string>
     <string name="misc_files">Misc-filer</string>
     <string name="misc_files_selected_count">%1$d av %2$d har valts</string>
+    <string name="misc_files_selected_count_bytes">%1$s av %2$s</string>
     <string name="select_all">Markera alla</string>
     <string name="data_usage_summary_title">Dataanvändning</string>
     <string name="data_usage_app_summary_title">Appens dataanvändning</string>
@@ -2629,6 +2635,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="nfc_payment_no_apps">Betala med mobilen i butiker</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">Använd standard</string>
     <string name="nfc_payment_favor_default">Alltid</string>
     <string name="nfc_payment_favor_open">Förutom när en annan betalningsapp är öppen</string>
@@ -2689,6 +2696,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_settings_title">SIM-kort</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_cards_changed_message">SIM-kort har ändrats</string>
     <string name="sim_cards_changed_message_summary">Tryck om du vill ange aktiviteter</string>
     <string name="sim_cellular_data_unavailable">Det finns ingen mobildata tillgänglig</string>
@@ -2809,6 +2817,7 @@ Alla användare kan uppdatera appar för samtliga användares räkning."</string
     <string name="zen_mode_option_important_interruptions">Bara prioriterade</string>
     <string name="zen_mode_option_alarms">Endast alarm</string>
     <string name="zen_mode_option_no_interruptions">Helt tyst</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Blockera synliga störningar</string>
     <string name="configure_notification_settings">Konfigurera aviseringar</string>
     <string name="advanced_section_header">Avancerat</string>
@@ -2902,6 +2911,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="zen_mode_schedule_alarm_title">Alarm kan åsidosätta sluttiden</string>
     <string name="zen_mode_schedule_alarm_summary">Stäng av vid sluttiden eller nästa alarm, beroende på vad som kommer först</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="zen_mode_calls">Samtal</string>
     <string name="zen_mode_messages">Meddelanden</string>
@@ -3083,6 +3093,8 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="memory_avg_use">Genomsnittlig</string>
     <string name="memory_max_desc">Högsta: %1$s</string>
     <string name="memory_avg_desc">Genomsnittlig: %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Batterioptimering</string>
     <string name="high_power_filter_on">Inte optimerade</string>
     <string name="high_power_on">Inte optimerad</string>
@@ -3359,6 +3371,7 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="dndm_auto_setting_group">Planerad</string>
     <string name="dndm_auto_button_title">Upprepa stör ej tid</string>
     <string name="dndm_auto_time_setting">Ange tid</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">Från</string>
     <string name="dndm_auto_time_turn_on_title">Slå automatiskt på stör ej</string>
     <string name="dndm_auto_time_turn_off">Till</string>
@@ -3592,6 +3605,9 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="upload_debug_log_title">Skicka diagnosdata automatiskt</string>
     <string name="upload_debug_log_summary">Diagnosdata kan inkludera information om din användning av hårdvara, operativsystem och applikationer. Uppgifterna kommer att användas för att lokalisera och analysera problemen i systemet och kommer aldrig att användas för att identifiera dig personligen.</string>
     <string name="sound_vibrate_settings">Ljud &amp; vibration</string>
+    <string name="settings_notify_phone_recycled">Ditt telefonnummer har återanvänts. Tryck för att lägga till ett annat telefonnummer.</string>
+    <string name="settings_notify_need_backup">Säkerhetskopiera din inställningar till Mi Cloud för att få tillgång till dem efter du bytt telefon.</string>
+    <string name="model_name">Modellnamn</string>
     <string name="my_device">Min enhet</string>
     <string name="device_miui_version">MIUI version</string>
     <string name="device_miui_version_update">MIUI uppdatering finns tillgänglig</string>
@@ -3664,6 +3680,7 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="xiaomi_cloud_service_description">Mi Cloud synkroniserar kontakter, bilder och andra objekt mellan dina enheter. \"Hitta enhet\" kräver också att Mi Cloud fungerar normalt.</string>
     <string name="sure_sync_now">Synkronisera dina objekt nu?</string>
     <string name="sync_now">Synkronisera</string>
+    <string name="suggestion_for_phone_recycled">Lägg till ett annat telefonnummer</string>
     <string name="sms_received_sound_title">Meddelande mottaget</string>
     <string name="sms_delivered_sound_title">Meddelande levererat</string>
     <string name="sms_received_sound_dialog_title">Välj text mottaget ljud</string>
@@ -3757,6 +3774,7 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="go_to_sleep">Stäng av skärmen</string>
     <string name="turn_on_torch">Starta ficklampa</string>
     <string name="close_app">Stäng nuvarande app</string>
+    <string name="split_screen">Starta delad skärm</string>
     <string name="show_menu">Visa meny</string>
     <string name="launch_recents">Starta senaste</string>
     <string name="long_press_menu_key_when_lock">Långtryck på Menyknappen på Låsskärmen</string>
@@ -3813,7 +3831,7 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="battery_indicator_style">Batteriindikator</string>
     <string name="power_usage_history">Batterianvändning</string>
     <string name="default_usb_mode">USB anslutning</string>
-    <string name="wifi_tether_settings_title">Personlig hotspot</string>
+    <string name="wifi_tether_settings_title">Portabel hotspot</string>
     <string name="tether_and_hotspot_title">Internetdelning &amp; portabel hotspot</string>
     <string name="lock_settings">Låsskärm &amp; lösenord</string>
     <string name="second_space">Sekundärt utrymme</string>
@@ -3970,6 +3988,9 @@ Detta innebär ett extra skydd för data på en borttappad eller stulen enhet."<
     <string name="volume_restore">Återställ nivåer</string>
     <string name="volume_restore_alert">Återställ alla volymnivåer till standard inställningar?</string>
     <string name="music_equalizer">Equalizer</string>
+    <string name="voice_helper_title">Röstassistent</string>
+    <string name="system_shortcut_wake">Väck telefonen med knappgenvägar</string>
+    <string name="bluetooth_wake">Väck telefonen med Bluetoothljud</string>
     <string name="font_size_preview">MIUI</string>
     <string name="font_size_summary1">"Om textstorleken i systemet fortfarande är för liten, testa "</string>
     <string name="font_size_summary2">Lite läge.</string>
@@ -4082,20 +4103,6 @@ Välj ditt operativsystem:"</string>
     <string name="device_name_usage_point">Andra närliggande enheter kan se detta namn.</string>
     <string name="device_name_input_error">Kunde inte spara enhetsnamn</string>
     <string name="device_name_input_overlength">Du översteg gränsen för antal tecken</string>
-    <string name="drive_mode">Billäge</string>
-    <string name="enable_drive_mode">Billäge</string>
-    <string name="drive_mode_title">Billäge</string>
-    <string name="drive_mode_settings">Billäge inställningar</string>
-    <string name="drive_mode_voice_report">Text-till-tal</string>
-    <string name="drive_mode_phone_report">Inkommande samtalsinfo</string>
-    <string name="drive_mode_sms_report">Meddelanden</string>
-    <string name="drive_mode_invert_stop_report">Vänd telefon för att tysta</string>
-    <string name="drive_mode_auto_reply">Snabbsvar</string>
-    <string name="drive_mode_calling_auto_sms_reply">Svara på samtal</string>
-    <string name="drive_mode_sms_auto_sms_reply">Svara på SMS</string>
-    <string name="drive_mode_only_contact_reply">Svara bara till kontakter</string>
-    <string name="drive_mode_auto_sms_reply_content">Kör nu... Jag ringer senare</string>
-    <string name="drive_mode_auto_sms_reply_content_title">Snabbsvar</string>
     <string name="clear_activities_summary">Använd appen som standard för vissa aktiviteter</string>
     <string name="permission_detail_info">Detaljer</string>
     <string name="permission_detail_info_summary">%1$d säkerhet | %2$d integritet | %3$d andra</string>
@@ -4149,7 +4156,7 @@ Välj ditt operativsystem:"</string>
     <string name="screen_paper_mode_local_title">Valda appar</string>
     <string name="screen_paper_mode_local_summary">Använd Läsläge för valda appar</string>
     <string name="screen_paper_mode_set_apps_title">Läsläges appar</string>
-    <string name="screen_paper_mode_apps_loading">Bara en sekund…</string>
+    <string name="screen_paper_mode_apps_loading">Vänta en stund…</string>
     <string name="screen_monochrome_mode_title">Monokromt läge</string>
     <string name="screen_monochrome_mode_summary">Växla till Monokromt läge för att förlänga batteritiden</string>
     <string name="screen_monochrome_mode_global_title">Alla appar</string>
@@ -4210,7 +4217,7 @@ för Sekundära utrymmet"</string>
     <string name="wifi_tether_setting_title">Inställningar</string>
     <string name="audio_profile_settings_title">Ljudprofiler</string>
     <string name="enable_wifi_display">Trådlös bildskärm</string>
-    <string name="xiaomi_cloud_service">Mi Moln</string>
+    <string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="xiaomi_money_service">Mi Kredit</string>
     <string name="wifi_auto_connect">Auto anslutning</string>
     <string name="select_ssid_type_title">Välj SSID</string>
@@ -4289,7 +4296,7 @@ kan du använda andras nätverk också"</string>
     <string name="block_list_diaglog_cancle">Avbryt</string>
     <string name="block_list_no_device">Inga anslutna enheter i blocklist</string>
     <string name="no_connected_devices">Inga anslutna enheter</string>
-    <string name="tether_settings_disabled">Personlig hotspot är av</string>
+    <string name="tether_settings_disabled">Portabel hotspot är av</string>
     <string name="hdmi_3dplay_settings_title">HDMI</string>
     <string name="hdmi_3dplay_control_text">3D uteffekt</string>
     <string name="hdmi_3dplay_control_enable_subtext">3D stereoskopisk uteffekt till extern 3D-skärm är på</string>
@@ -4402,20 +4409,7 @@ kan du använda andras nätverk också"</string>
     <string name="need_reboot_now">Starta om för att installera uppdatering.</string>
     <string name="welcome">Välkommen</string>
     <string name="resolver_settings_label">Sortera</string>
-    <string name="status_bar_screen_button_key_force_immersive">Dölj skärmknappar</string>
-    <string name="status_bar_screen_button_force_immersive_desc">Svep från underkanten av skärmen för att visa skärmknapparna</string>
-    <string name="screen_max_aspect_ratio_title">Helskärmsläge</string>
-    <string name="screen_max_aspect_ratio_desc">Tillåt valda appar att använda helskärmsläge</string>
-    <string name="switch_screen_button_order">Spegla knappar</string>
-    <string name="switch_screen_button_order_desc">Spegla tillbaka och menyknapparna</string>
-    <string name="unrestrict_max_aspect_ratio_title">Dessa appar är optimerade för helskärmsläge</string>
-    <string name="suggest_unrestrict_max_aspect_ratio_title">Dessa appar fungerar bäst i helskärmsläge</string>
-    <string name="restrict_max_aspect_ratio_title">Dessa appar fungerar inte i helskärmsläge</string>
-    <string name="max_aspect_settings_all_app_display_loading">Vänta en stund…</string>
-    <string name="force_immersive_compatibility_hint_title">Kompatibilitetsproblem</string>
-    <string name="force_immersive_compatibility_hint_message">Vissa appar fungerar kanske inte korrekt om du väljer att dölja skärmknapparna.</string>
-    <string name="force_immersive_compatibility_hide">Dölj</string>
-    <string name="force_immersive_compatibility_dont_hide">Dölj inte</string>
+    <string name="infinity_display_title">Helskärm</string>
     <string name="launching_pho">Startar telefoninfo, vänta.</string>
     <string name="launching_cit">Startar CIT</string>
     <string name="launching_rep">Rapporterar…</string>
@@ -4435,7 +4429,7 @@ kan du använda andras nätverk också"</string>
     <string name="google_backup_enable">Slå på säkerhetskopior</string>
     <string name="local_auto_backup_on">På</string>
     <string name="local_auto_backup_off">Av</string>
-    <string name="cloud_backup_section_title">Mi Moln Säkerhetskopiering</string>
+    <string name="cloud_backup_section_title">Mi Cloud Säkerhetskopiering</string>
     <string name="cloud_restore_section_title">Återställ från Mi Cloud</string>
     <string name="cloud_restore_section_summary">Återställ appar, Hemskärmutseende och system inställningar</string>
     <string name="cloud_backup_settings_section_title">Säkerhetskopieringsinställningar</string>
@@ -4835,6 +4829,7 @@ kan du använda andras nätverk också"</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">ASDiv Status:</string>
     <string name="app_factory_reset_dlg_title">Avinstallera uppdateringar?</string>
     <string name="app_factory_reset_dlg_text">Alla uppdateringar till denna Androids systemappar kommer avinstalleras.</string>
@@ -4959,6 +4954,7 @@ kan du använda andras nätverk också"</string>
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_capsule">Mi Capsule</string>
     <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
+    <string name="music_dirac_mode_reduction_noise">Reducera brus av Typ C</string>
     <string name="music_audio_effect_settings">Effektinställningar</string>
     <string name="music_equalizer_summary">Justera individuella nivåer beroende på typ av musik</string>
     <string name="music_unsupport_effect_summary">USB-headset stöds inte</string>
@@ -5149,6 +5145,7 @@ kan du använda andras nätverk också"</string>
     <string name="lock_screen_secure_after_timeout_summary">Kräv lösenord för: %1$s</string>
     <string name="lock_screen_secure_after_timeout_immediately_summary">Lösenord krävs omedelbart.</string>
     <string name="lock_screen_secure_after_timeout_immediately_never">Kräv aldrig lösenord</string>
+    <string name="fingerprint_payment">Betalningar med fingeravtryck</string>
     <string name="print_settings_title">Utskriftstjänster</string>
     <string name="dirac_control">Optimera ljudkvalitet</string>
     <string name="dirac_mode_off">Dirac av</string>
@@ -5185,6 +5182,20 @@ kan du använda andras nätverk också"</string>
     <string name="dolby_eq_enter_alert_msg">Sätt på Dolby Music läge för att använda EQ?</string>
     <string name="equalizer">EQ</string>
     <string name="virtual_sim_search_title">Virtuell SIM</string>
+    <string name="drive_mode">Billäge</string>
+    <string name="enable_drive_mode">Billäge</string>
+    <string name="drive_mode_title">Billäge</string>
+    <string name="drive_mode_settings">Billäge inställningar</string>
+    <string name="drive_mode_voice_report">Text-till-tal</string>
+    <string name="drive_mode_phone_report">Inkommande samtalsinfo</string>
+    <string name="drive_mode_sms_report">Meddelanden</string>
+    <string name="drive_mode_invert_stop_report">Vänd telefon för att tysta</string>
+    <string name="drive_mode_auto_reply">Snabbsvar</string>
+    <string name="drive_mode_calling_auto_sms_reply">Svara på samtal</string>
+    <string name="drive_mode_sms_auto_sms_reply">Svara på SMS</string>
+    <string name="drive_mode_only_contact_reply">Svara bara till kontakter</string>
+    <string name="drive_mode_auto_sms_reply_content">Kör nu... Jag ringer senare</string>
+    <string name="drive_mode_auto_sms_reply_content_title">Snabbsvar</string>
     <string name="auto_startup_count">%d apps are allowed to autostart</string>
     <string name="lockpassword_pin_fixed_length">PIN must be %d digits</string>
     <string name="internal_media_format_final_desc">Rensa interna lagringen? Du kan inte ångra detta! Telefonen startas om efter att lagringen har rensats.</string>
@@ -5275,6 +5286,8 @@ kan du använda andras nätverk också"</string>
     <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
     <string name="status_bar_screen_button_key_can_hide">Screen buttons can be hidden</string>
     <string name="status_bar_screen_button_desc">Swipe down to hide screen buttons</string>
+    <string name="switch_screen_button_order">Spegla knappar</string>
+    <string name="switch_screen_button_order_desc">Spegla tillbaka och menyknapparna</string>
     <string name="suspension_ball_enable">Quick ball shortcut</string>
     <string name="suspension_ball_enable_desc">Turn Quick ball on and off using the shortcut</string>
     <string name="setup_add_fingerprint_failed_retry_text">Kunde inte lägga till fingeravtryck</string>

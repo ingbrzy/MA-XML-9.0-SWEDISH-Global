@@ -42,7 +42,6 @@
     <string name="onscreen_audio_mode_handset">Hörlur</string>
     <string name="onscreen_audio_mode_headset">Hörlurar</string>
     <string name="onscreen_audio_mode_speaker">Högtalare</string>
-    <string name="onscreen_audio_switch_mode">Växla ljud</string>
     <string name="onscreen_call_record">Spela in</string>
     <string name="sip_call_not_support_record">Kan inte spela in SIP samtal</string>
     <string name="onscreen_hold_text">Parkera</string>
@@ -56,7 +55,6 @@
     <string name="conference_call_description" formatted="false">%s,%s osv. totalt %s</string>
     <string name="conference_call_single_description" formatted="false">%s osv. totalt %s</string>
     <string name="separate_from_conference">Separat samtal</string>
-    <string name="callUnanswered_forwarded">Vidarebefordrat obesvarat samtal</string>
     <string name="caller_manage_header">Konferenssamtal %s</string>
     <string name="incall_call_type_label_sip">Internetsamtal</string>
     <string name="incoming_call_forwarded_title">Vidarebefordra inkommande samtal</string>
@@ -65,7 +63,6 @@
     <string name="card_title_conf_call">Konferenssamtal</string>
     <string name="card_title_video_conf_call">Videokonferenssamtal</string>
     <string name="card_title_threeway_call">Trevägs samtal</string>
-    <string name="card_title_incoming_call">Inkommande samtal</string>
     <string name="card_title_answering">Besvara samtal</string>
     <string name="card_title_answering_time_out">Kunde inte besvara samtal, försök igen.</string>
     <string name="card_title_call_ended">"Samtal avslutat "</string>
@@ -79,7 +76,6 @@
     <string name="card_title_in_video">Video</string>
     <string name="card_video_hold_swap">Byta</string>
     <string name="onscreenEndCallText">Lägg på</string>
-    <string name="calling_via_template">Ringer via %s</string>
     <string name="respond_via_sms_custom_message">Anpassat SMS</string>
     <string name="manageConferenceLabel">Hantera konferenssamtal</string>
     <string name="emergency_call_dialog_number_for_display">Nödnummer</string>
@@ -123,7 +119,7 @@
 "</string>
     <string name="pause_prompt_yes">Ja</string>
     <string name="pause_prompt_no">Nej</string>
-    <string name="waiting_close_airplane_mode">Bara en sekund…</string>
+    <string name="waiting_close_airplane_mode">Vänta en stund…</string>
     <string name="unlock_phone">Lås upp enhet</string>
     <string name="remind_unlock_message">Din enhet är nu låst. \"%s\" kommer vara tillgänglig efter att du låst din enhet. Lås upp nu?</string>
     <string name="user_locked_prompt">Lås upp enhet för få tillträde till kontakter.</string>
@@ -152,12 +148,6 @@
     <string name="antispam_provider">Identifierad av %s</string>
     <string name="antispam_notification_title">Okänt nummer</string>
     <string name="suspect_info">Var försiktig med din personliga information.</string>
-    <string name="ivr_menu_list_title">Samtalsmeny</string>
-    <string name="ivr_menu_dialing_msg">Vidarebefordrar…</string>
-    <string name="ivr_menu_dialing_msg_no_mute">Gå till vald tjänst…[Automatisk felsökning är aktiverad]</string>
-    <string name="ivr_menu_list_sub_menu_count_format">Tryck %s</string>
-    <string name="non_ivr_menu_view_menu">Visa meny</string>
-    <string name="non_ivr_menu_collapse_menu">Fäll ihop meny</string>
     <string name="livetalk_dial">Använder Fyll-på paket</string>
     <string name="areacode_set_default">Ange som standard</string>
     <string name="default_area_code_setting">Standard riktnummer</string>
@@ -166,9 +156,6 @@
     <string name="not_activate_sim_card_content_with_operator">Verifiera SIM %1$s (%2$s) för att ringa med Fyll-på paket. Du kan fortfarande ringa som vanligt, men kommer bli debiterad av din operatör.</string>
     <string name="dialog_call_ordinary_telephone">Normalt samtal</string>
     <string name="dialog_activate_livetalk">Verifiera nummer</string>
-    <string name="no_balance_title">Otillräckligt med pengar</string>
-    <string name="no_balance_message">Inte tillräckligt med pengar kvar i din top-up paket. Du kan försöka att göra ett vanligt samtal i stället.</string>
-    <string name="dialog_purchase">Fyll på</string>
     <string name="not_support_title">Nummer stöds inte</string>
     <string name="not_support_message">Top-up paket stödjer för närvarande ej sådana siffror. Du kan försöka att göra ett vanligt samtal i stället.</string>
     <string name="livetalk_hangup">Lägg på</string>
@@ -182,7 +169,6 @@
     <string name="can_not_call_oneself">Kan inte ringa numret</string>
     <string name="card_title_video_call_paused">Video pausad</string>
     <string name="card_title_incoming_conference_call">Inkommande konferenssamtal</string>
-    <string name="video_switch_to_voice_call_prompt">Växla till röstsamtal</string>
     <string name="onscreen_change_to_voice">Röstsamtal</string>
     <string name="onscreen_change_to_video">Videosamtal</string>
     <string name="onscreen_switch_camera">Byt</string>
@@ -194,9 +180,7 @@
     <string name="notification_incoming_video_call">Inkommande videosamtal</string>
     <string name="onscreen_message_text">Meddelanden</string>
     <string name="onscreen_close_preview_camera">Stäng</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Stäng av TTY-läge först</string>
     <string name="upgrade_vt_prompt">Byt till videosamtal?</string>
-    <string name="conference_caller_name_me">Jag</string>
     <string name="incoming_answer_voice_text">Röstsvar</string>
     <string name="picking_participant">Hämtar kontaktinformation…</string>
     <string name="conference_caller_info_name">%1$ss konferenssamtal</string>
@@ -240,5 +224,6 @@
     <string name="dial_with_gsm_phone">Normalt samtal</string>
     <string name="livetalk_left_minute">%s min kvar</string>
     <string name="miprofile_stranger_card">Främlingskort</string>
+    <string name="no_balance_message">Inte tillräckligt med pengar kvar i din top-up paket. Du kan försöka att göra ett vanligt samtal i stället.</string>
     <string name="purchase_now">Fyll upp</string>
 </resources>

@@ -90,13 +90,13 @@
     <string name="people_page_unname">Namnlös</string>
     <string name="face_album_rename_hint">Ange namn</string>
     <string name="face_album_use_tip">Sortera bilder av de människor som är i dem automatiskt.</string>
-    <string name="face_album_detecting_tip">Bara en sekund…</string>
+    <string name="face_album_detecting_tip">Vänta lite…</string>
     <string name="face_album_empty">"Inte tillräckligt med bilder för att känna igen personer.
 Ta fler bilder av dina vänner!"</string>
     <string name="face_album_empty_syncing">Synkroniserar data, återkom om ett ögonblick</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Anslut till nätverk för att synkronisera information</string>
     <string name="start_to_use_face_albumset">Sortera efter personer</string>
-    <string name="enabling_face_feature">Bara en sekund…</string>
+    <string name="enabling_face_feature">Vänta lite…</string>
     <string name="face_album_pending_enable_tip">Kommer att sortera foton när enheten är ansluten till WiFi</string>
     <string name="view_queuing_status">Kolla status</string>
     <string name="setup_network_connection">Nätverksinställningar</string>
@@ -123,6 +123,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="more_face">Fler människor som liknar varandra</string>
     <string name="face_confirm">Detta är samma person</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_name_edit">Redigera</string>
     <string name="confirm_hidden_recommend_group">OK</string>
@@ -133,7 +134,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="empty_recommend_back">Tillbaka</string>
     <string name="pick_from_contact">Välj från kontakter</string>
     <string name="create_new_face">Ny person</string>
-    <string name="preparing_data">Bara en sekund…</string>
+    <string name="preparing_data">Vänta lite…</string>
     <string name="ignore_face">Ignorera denna person</string>
     <string name="change_to_visible">Återställ den här personen?</string>
     <string name="who_is_this">Vem är det?</string>
@@ -259,7 +260,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="hybrid_locating_fail">Kunde inte hitta din plats</string>
     <string name="hybrid_pull_to_refresh_pull_label">Dra för att uppdatera…</string>
     <string name="hybrid_pull_to_refresh_release_label">Släpp för att uppdatera…</string>
-    <string name="hybrid_pull_to_refresh_refreshing_label">Bara en sekund…</string>
+    <string name="hybrid_pull_to_refresh_refreshing_label">Vänta en stund…</string>
     <string name="album_videos_name">Videor</string>
     <string name="album_pano_name">Panorama</string>
     <string name="album_faces_name">Människor</string>
@@ -411,16 +412,18 @@ Ta fler bilder av dina vänner!"</string>
     <string name="app_is_launching">%s startas…</string>
     <string name="app_is_launching_common">Startar app…</string>
     <string name="title_warn">Varning</string>
+    <string name="title_tip">Tips</string>
     <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
-    <string name="tip_capture_time">Tagen vid:</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+    <string name="tip_capture_time">Tagen:</string>
     <string name="tip_file_info">Filinformation:</string>
     <string name="tip_capture_params">EXIF data:</string>
-    <string name="tip_file_path">Lokal del:</string>
+    <string name="tip_file_path">Lokal sökväg:</string>
     <string name="tip_capture_location">Plats:</string>
     <string name="detail_title">Detaljerad information</string>
     <string name="tip_screenshot_package_info">Namn på app:</string>
@@ -596,6 +599,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="welcome_to_slim">Optimera lokalt utrymme</string>
     <string name="slim_introduce">Byt bilder i full upplösning med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Full upplösning objekt kommer fortfarande att finnas i Mi Cloud.</string>
     <string name="slim_introduce_with_specific_size">Byt bilder i full upplösning med optimerade versioner efter att de har säkerhetskopierats till Mi Cloud. Full upplösning objekt kommer fortfarande att finnas i Mi Cloud. Detta kan spara upp till %1$s av lokal lagring (Mi konto krävs).</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Säkerhetskopiera bilder och videor automatiskt (Mi konto krävs)</string>
     <string name="next">Nästa</string>
     <string name="login_and_enable_service">Logga in med Mi konto</string>
@@ -673,6 +677,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="cloud_storage_ok_append_desc">Tillgängligt %s</string>
     <string name="cloud_storage_warn_title">Inte tillräckligt med Mi Cloud utrymme</string>
     <string name="cloud_storage_warn_desc">Köp Cloud VIP för extra utrymme</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Utöka molnlagring</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
@@ -783,6 +788,8 @@ Ta fler bilder av dina vänner!"</string>
     <string name="search_request_open">Gå med i testgruppen</string>
     <string name="search_request_applied">Tillämpad</string>
     <string name="search_title_more">Mer</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="search_mark_feedback_false_positive_title">Lös</string>
     <string name="search_mark_feedback_false_negative_title">OK</string>
     <string name="search_feedback_false_negative_title">Valda objekt är \"%s\"</string>
@@ -791,17 +798,22 @@ Ta fler bilder av dina vänner!"</string>
     <string name="search_feedback_false_positive_text">Ta bort bilder från \"%s\"?</string>
     <string name="search_feedback_false_negative_text">Lägg till bilder till \"%s\"?</string>
     <string name="search_feedback_contribute">Lägg till bilder i databasen AI algorithm</string>
-    <string name="search_feedback_task_finish_title">Tryck för att motta en belöning!</string>
+    <string name="search_feedback_task_progress">Uppdrag %1$d/%2$d</string>
+    <string name="search_feedback_task_complete">Alla uppdrag är slutförda</string>
     <string name="search_feedback_likely_title">Det verkar som att de här bilderna har \"%s\"</string>
     <string name="search_feedback_likely_check_title">Kontrollera</string>
     <string name="search_feedback_false_positive_title">Det verkar som de här är \"%s\"</string>
     <string name="search_feedback_task_requesting_award">Motta belöning…</string>
     <string name="search_feedback_task_request_award_failed">Kunde inte motta belöning. Försök igen senare.</string>
+    <string name="search_feedback_user_policy">Integritetspolicy för MIUI Gallery AI Algorithm Program</string>
+    <string name="search_feedback_user_notice">Jag har läst och godkänner %s.</string>
     <string name="grant_permission_title">Tillåt åtkomst</string>
     <string name="grant_permission_text">"Gallery behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Set\" för att gå till Tillstånd."</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_unlock_and_set">Lås upp och ställ in</string>
     <string name="loading">Vänta lite</string>
     <string name="loading_dots">Vänta lite…</string>
     <string name="load_failed">Kunde inte ladda info, tryck för att försöka igen</string>
@@ -830,7 +842,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="error_external_sdcard_write_msg">Gå till Inställningar > Lagring, växla lagring och försök igen.</string>
     <string name="error_external_sdcard_write_action">Växla lagring</string>
     <string name="error_internal_sdcard_write_tip">Ett fel har inträffat. Starta om din enhet och försök igen.</string>
-    <string name="error_decode_tip">Formatet stöds inte, eller så är filen korrupt.</string>
+    <string name="error_decode_tip">Formatet stöds inte eller så är filen korrupt.</string>
     <string name="error_network_restrict_tip">Kan inte ansluta till nätverket.</string>
     <string name="error_network_restrict_msg">Tillåt Galleri att ansluta till nätverket.</string>
     <string name="error_network_restrict_action">Visa detaljer</string>
