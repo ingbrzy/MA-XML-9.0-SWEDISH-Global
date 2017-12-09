@@ -134,4 +134,5 @@
     <string name="face_unlock_rise">Sänk huvudet</string>
     <string name="face_unlock_down">Höj huvudet</string>
     <string name="face_unlock_quality">Kunde inte se ditt ansikte tydligt</string>
+    <string name="lock_screen_no_sim_card">Inget SIM-kort</string>
 </resources>

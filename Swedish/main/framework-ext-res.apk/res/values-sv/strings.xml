@@ -26,8 +26,8 @@
     <string name="screen_rotation_freeze_message">Auto-rotering inaktiverad.</string>
     <string name="perm_send_push_dspt">Tillåt Mi push-meddelanden</string>
     <string name="perm_send_push_lab">Skicka push-meddelande</string>
-    <string name="select">Välj</string>
-    <string name="select_all">Välj alla</string>
+    <string name="select">Markera</string>
+    <string name="select_all">Markera allt</string>
     <string name="cut">Klipp ut</string>
     <string name="copy">Kopiera</string>
     <string name="paste">Klistra in</string>
@@ -54,7 +54,7 @@
     <string name="global_actions_shutdown">Stäng av</string>
     <string name="global_actions_silent_mode">Tyst läge</string>
     <string name="reboot_info_auto_boot">Enheten är schemalagd att starta vid %s</string>
-    <string name="reboot_info_shutdown_alarm">Nästa larm: %s</string>
+    <string name="reboot_info_shutdown_alarm">Nästa alarm: %s</string>
     <string name="key_btn_space">Mellanrum</string>
     <string name="key_btn_ok">OK</string>
     <string name="lockscreen_access_pattern_start">Mönster startat</string>
@@ -105,7 +105,7 @@
     <string name="set_password_action">Välj lösenord</string>
     <string name="set_password_title">Ange ett lösenord</string>
     <string name="set_password_message">Ange ett lösenord för att använda denna funktion.</string>
-    <string name="apply_password_confirm_dlg_title">%slösenord</string>
+    <string name="apply_password_confirm_dlg_title">%s lösenord</string>
     <string name="apply_password_confirm_dlg_msg">Använd ditt nuvarande lösenord till låsskärmen för att nå inställningar till %s.</string>
     <string name="apply_password_action">OK</string>
     <string name="subinfo_default_name">SIM %d</string>
@@ -170,5 +170,5 @@
     <string name="miui_screen_ratio_hint_go_to_settings">Gå till Inställningar</string>
     <string name="switching_tv">Byter…</string>
     <string name="switch_desc_tv">Två utrymmen. En enhet.</string>
-    <string name="switch_brand_desc_tv">Säkerhetsfunktioner tillhandahålls av Graphite</string>
+    <string name="switch_brand_desc_tv">Säkerhetsfunktioner tillhandahålls av Spaces Mobile</string>
 </resources>

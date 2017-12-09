@@ -310,14 +310,14 @@
     <string name="main_alert_message_no_imsi">Inget SIM-kort upptäckt</string>
     <string name="main_primary_message_traffic_remain">Mobildata</string>
     <string name="main_primary_message_traffic_warning">Varning för mobildata</string>
-    <string name="main_primary_message_traffic_overlimit">Gick över datagränsen</string>
+    <string name="main_primary_message_traffic_overlimit">Överskred datagränsen</string>
     <string name="main_primary_message_leisure_remain">Lågtrafik dataanvändning</string>
     <string name="main_primary_message_leisure_alert">Lågtrafik dataanvändnings varning</string>
     <string name="main_primary_message_leisure_overlimit">Gick över lågtrafiksgräns för data</string>
     <string name="main_alert_message_open_traffic_ctrl">Vi rekommenderar att begränsa dataanvändningen</string>
     <string name="main_open_traffic_ctrl_button">Begränsa dataanvändning</string>
     <string name="main_today_used">Använt idag</string>
-    <string name="main_month_used">Datagräns</string>
+    <string name="main_month_used">Mobildataabonnemang</string>
     <string name="main_leisure_remained">Återstående lågtrafikdata</string>
     <string name="main_bill_remained">Saldo</string>
     <string name="main_used_bill">%s CNY</string>
@@ -325,7 +325,7 @@
     <string name="guide_quck_open">Aktivera</string>
     <string name="guide_wait_setting">Inte nu</string>
     <string name="guide_operator_text">"Din nuvarande operatör: "</string>
-    <string name="guide_second_text">Efter att du angett operatör kommre MIUI övervaka dagliga mobildataanvändning genom att skicka dagliga SMS gratis. När MIUI upptäckter att du överskridit din datagräns kommer MIUI koppla ifrån nätverket och meddela dig.</string>
+    <string name="guide_second_text">Efter att du angett operatör kommer MIUI övervaka din mobildataanvändning genom att skicka dagliga SMS gratis. När MIUI upptäckter att du överskridit din datagräns kommer MIUI koppla ifrån nätverket och meddela dig.</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Fel Operatör?&lt;/U>&lt;/font>"</string>
     <string name="card_tc_failed">Kunde inte att kalibrera</string>
     <string name="card_tc_failed_content">"Möjliga orsaker:
@@ -350,10 +350,8 @@ ska svara"</string>
     <string name="main_button_mi_sim_open">Visa detaljer</string>
     <string name="firewall_activity_lable">Begränsa dataanvändning för app</string>
     <string name="firewall_applist">Appar</string>
-    <string name="firewall_rule_group_title_mobile">Mobil</string>
-    <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
-    <string name="firewall_fragment_tab_title_nonsys">Installerat</string>
-    <string name="firewall_fragment_tab_title_sys">System</string>
+    <string name="firewall_mobile">Mobil</string>
+    <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Tom</string>
     <string name="firewall_fragment_nonesys_listempty">Tom</string>
     <string name="firewall_restrict_notify_title">%s kan inte använda nätverket</string>
@@ -367,6 +365,7 @@ ska svara"</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="firewall_mobile_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med mobildata när denna funktion är av.</string>
     <string name="firewall_wifi_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med Wi-Fi när denna funktion är av.​</string>
+    <string name="firewall_system_title">Brandvägg</string>
     <string name="usage_sorted_activity_lable">Dataanvändning</string>
     <string name="usage_sorted_loading_text">Vänta lite…</string>
     <string name="usage_sorted_empty_text">Tom</string>
@@ -389,6 +388,7 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Gräns för mobildata</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -401,7 +401,7 @@ ska svara"</string>
     <string name="pref_title_upload_data_usage">Rapportera dataanvändning</string>
     <string name="pref_summary_upload_data_usage">Rapportera din dataanvändning för att hjälpa oss att förbättra MIUI. Att rapportera överensstämmer med vår Integritetspolicy.</string>
     <string name="pref_manual_adjust">Ange statistik för mobildata manuellt</string>
-    <string name="pref_daily_adjust">Ange maximal dataanvändning</string>
+    <string name="pref_daily_adjust">Ange mängden mobildata som ingår abonnemanget</string>
     <string name="pref_free_adjust">Ange lågtrafik för dataanvändning</string>
     <string name="pref_automatic_adjust">Synkronisera operatörens dataanvändning</string>
     <string name="pref_open_adjust_traffic">Uppdatera dataanvändning varje dag med information från din operatör</string>
@@ -423,8 +423,8 @@ ska svara"</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Uppdaterad för över en månad sedan</string>
     <string name="left_precent">60%</string>
     <string name="right_precent">100%</string>
-    <string name="pref_avaible_traffic">Datagräns</string>
-    <string name="pref_daily_traffic">Maximal datagräns</string>
+    <string name="pref_avaible_traffic">Mobildataabonnemang</string>
+    <string name="pref_daily_traffic">Mobildata som ingår abonnemanget</string>
     <string name="pref_special_package_setting">Anpassad datagräns</string>
     <string name="pref_data_usage_not_set">Okänd datagräns</string>
     <string name="pref_operator_not_set">Ingen operatör vald</string>
@@ -438,7 +438,7 @@ ska svara"</string>
     <string name="begin_date">Återställningsdatum för dataanvändning</string>
     <string name="tips_dialog_title">Vet inte gränsen</string>
     <string name="tips_message">För att se ditt abonnemangs detaljer, ring %2$s (%1$s).</string>
-    <string name="daily_pkg_traffic">Maximal datagräns</string>
+    <string name="daily_pkg_traffic">Mobildata som ingår abonnemanget</string>
     <string name="input_aviable_traffic">Ange gräns för dataanvändning</string>
     <string name="pkg_traffic">Ange gräns för dataanvändning</string>
     <string name="free_traffic_settings">Lågtrafik dataanvändningsinställningar</string>
@@ -642,7 +642,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="three_percent_total_pkg">%s (3%% av månatlig data)</string>
     <string name="five_percent_total_pkg">%s (5%% av månatlig data)</string>
     <string name="ten_percent_total_pkg">%s (10%% av månatlig data)</string>
-    <string name="customize_limit_pkg">%s (anpassad)</string>
+    <string name="customize_limit_pkg">%s (angivet manuellt)</string>
     <string name="lock_screen_warning_category">Notifikationer på Låsskärmen</string>
     <string name="lock_screen_warning_switch_title">Visa varningar på låsskärmen</string>
     <string name="lock_screen_warning_switch_summary">Visa varningar på låsskärmen när dataanvändning överskrider en viss gräns</string>
@@ -690,8 +690,8 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="replace_dns">Ersätt DNS automatiskt</string>
     <string name="notify_weekly_traffic_title">Använt %s den här veckan</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s använde %2$s den här veckan</string>
-    <string name="notify_weekly_traffic_body">För att begränsa dataanvändning automatiskt, ställ in ditt abonnemang.</string>
-    <string name="notify_daily_data_usage_body">För att begränsa dataanvändning automatiskt, ställ in ditt abonnemang.</string>
+    <string name="notify_weekly_traffic_body">För att begränsa dataanvändning automatiskt, ställ in hur mycket mobildata som ingår i ditt mobilabonnemang.</string>
+    <string name="notify_daily_data_usage_body">För att begränsa dataanvändning automatiskt, ställ in hur mycket mobildata som ingår i ditt mobilabonnemang.</string>
     <string name="notify_month_traffic_title">Använt %s den här månaden</string>
     <string name="notify_month_traffic_title_for_slotnum">%1$s använde %2$s den här månaden</string>
     <string name="notify_month_traffic_body">Ange datagräns för att undvika att du överskrider ditt abonnemang.</string>
@@ -868,7 +868,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_lock_app_locked_app">Låst</string>
     <string name="om_lock_app_unlocked_app">Olåst</string>
     <string name="om_lock_app_locked_app_occupy_memory">Att låsa för många appar minskar din telefons prestanda</string>
-    <string name="om_lock_app_tip_msg">Klicka för att låsa</string>
+    <string name="om_lock_app_tip_msg">Tryck för att låsa</string>
     <string name="om_notify_cpu_load_too_high_title">CPU-användningen av %s är för hög</string>
     <string name="om_notify_cpu_load_too_high_summary">Begränsa bakgrundaktivitet för att öka hastigheten</string>
     <string name="om_notify_need_clean_memory_title">App cachestorlek nådde %s</string>
@@ -890,6 +890,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1292,6 +1293,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1341,8 +1343,8 @@ din enhet"</string>
     <string name="title_usb_no">USB felsökning på</string>
     <string name="title_usb_yes">USB felsökning av</string>
     <string name="summary_usb">Förhindra skadlig programvara från att spridas via USB</string>
-    <string name="title_virus_update_no">Auto-uppdateringar för virus definitioner av</string>
-    <string name="title_virus_update_yes">Auto-uppdateringar för virus definitioner på</string>
+    <string name="title_virus_update_no">Automatisk uppdatering för virusdefinitioner av</string>
+    <string name="title_virus_update_yes">Automatisk uppdatering för virusdefinitioner på</string>
     <string name="summary_virus_update">Hämta de senaste virus definitionerna automatiskt</string>
     <string name="title_system_auto_download">Uppdateringar laddas ner automatiskt</string>
     <string name="title_install_virus_no">Installationsövervakare av</string>
@@ -1353,7 +1355,7 @@ din enhet"</string>
     <string name="title_dev_no">Utvecklaralternativ på</string>
     <string name="summary_dev">Undvik virus och skydda personlig data</string>
     <string name="item_usb_debug">USB felsökning</string>
-    <string name="item_virus_lib">Uppdatera virus definitioner automatiskt</string>
+    <string name="item_virus_lib">Uppdatera virusdefinitioner automatiskt</string>
     <string name="item_system_auto_download">Hämta uppdateringar automatiskt</string>
     <string name="item_install_monitor">Installera övervakare</string>
     <string name="item_app_permission">Appbehörigheter</string>
@@ -1539,7 +1541,7 @@ din enhet"</string>
     <string name="title_flow_rank">Användning mobildata</string>
     <string name="title_consume_power_rank">Batterianvändning</string>
     <string name="title_payment_protection">Betalningar är säker</string>
-    <string name="title_payment_risk">Risker med betalningen funnen</string>
+    <string name="title_payment_risk">Risker med betalningen upptäckta</string>
     <string name="summary_payment_risk">Det ser ut som om betalningsmiljön inte är säker</string>
     <string name="title_garbage_less">Appcache är liten</string>
     <string name="title_garbage_clean">App cachestorlek nådde%s</string>
@@ -1586,7 +1588,7 @@ din enhet"</string>
     <string name="handle_title_privacy">Sekretess &amp; säkerhet</string>
     <string name="risk_count_suffix" />
     <string name="virus_auto_update_engine">Uppdatera automatiskt: %s</string>
-    <string name="hints_scan_danger_result">Risk hittad, åtgärda nu</string>
+    <string name="hints_scan_danger_result">Risk upptäckt, åtgärda nu</string>
     <string name="ss_activity_main_support_text">Drivs av %s</string>
     <string name="hints_virus_app_summary">%s (app)</string>
     <string name="hints_virus_apk_summary">%s (apk)</string>
@@ -1652,6 +1654,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1810,7 +1813,7 @@ din enhet"</string>
     <string name="optimize_result_summary_system_default_settings">Med användning av standard MIUI appar ökar nivån av systemets stabilitet och säkerhet.</string>
     <string name="optimize_result_toast_system_default_settings">Återställde standardinställningar</string>
     <string name="optimize_result_toast_system_no_item_selected">Inga objekt valda</string>
-    <string name="optimize_result_title_sucurity_risk">Säkerhetsrisker funna</string>
+    <string name="optimize_result_title_sucurity_risk">Säkerhetsrisker upptäckta</string>
     <string name="optimize_result_summary_sucurity_risk">Vissa säkerhetsfunktioner är avstängda. Aktivera dessa funktioner för att göra enheten säkrare:</string>
     <string name="optimize_result_ads_close_text">Annons</string>
     <string name="information_setting">Rekommendationer</string>
@@ -1886,8 +1889,9 @@ din enhet"</string>
     <string name="app_usage_recently">Nyligen använd</string>
     <string name="app_manager_have_not_consume">Inget</string>
     <string name="app_manager_menu_clear_data">Rensa data</string>
-    <string name="app_manager_clear_data_dlg_title">Ta bort appdata?</string>
-    <string name="app_manager_clear_data_dlg_message">Alla applikationer’s data kommer tas bort permanent. Detta inkluderar alla filer, inställningar, konton, databaser osv.</string>
+    <string name="app_manager_clear_data_dlg_title">Ta bort all data?</string>
+    <string name="app_manager_clear_data_dlg_message">All appdata, inklusive filer, inställningar, konton, databaser och cache kommer permanent tas bort.</string>
+    <string name="app_manager_clear_dlg_title">Rensa data</string>
     <string name="app_manager_clear_failed_dlg_message">Kunde inte rensa data för app.</string>
     <string name="app_manager_manage_space">Hantera utrymme</string>
     <string name="app_manager_permission_summary_reject">Begränsa alla</string>
@@ -1956,6 +1960,15 @@ din enhet"</string>
     <string name="app_manager_install_other_app">Installera appar från okända källor</string>
     <string name="app_manager_disabled_by_admin">Inaktiverad av admin</string>
     <string name="app_manager_advanced_setting">Avancerade inställningar</string>
+    <string name="app_manager_total_size">Totalt</string>
+    <string name="app_manager_code_size">Appstorlek</string>
+    <string name="app_manager_data_size">Användardata</string>
+    <string name="app_manager_cache_size">Cache</string>
+    <string name="app_manager_clear_all_data">Rensa all data</string>
+    <string name="app_manager_dlg_clear_cache_title">Rensa cache?</string>
+    <string name="app_manager_support_uninstall">Du kan avinstallera dessa appar</string>
+    <string name="app_manager_not_support_uninstall">K inte att avinstallera den här appen</string>
+    <string name="app_manager_comuting_size">Räknar…</string>
     <string name="ad_btn_default_text">Läs mer</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="low_memory_warning_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -2080,7 +2093,6 @@ din enhet"</string>
     <string name="net_booster_overdue_notification">Sessionen med ökad hastighet på nätverket är snart slut</string>
     <string name="net_booster_overdue_notification_tip">Sessionen med ökad hastighet på nätverket är snart slut. Förnya sessionen?</string>
     <string name="net_booster_expire_notification">Sessionen med ökad hastighet på nätverket är snart slut</string>
-    <string name="net_booster_expire_notification_tip">%d d återstår innan session av ökad nätverkshastighet går ut. Förnya sessionen för att undvika problem med hastigheten på ditt nätverk.</string>
     <string name="xunyou_pay_webview">Tjänster från Xunyou</string>
     <string name="xunyou_server_expired">Sessionen har gått ut.</string>
     <string name="game_anti_disturb_msg">Tyst läge för spel</string>
@@ -2098,9 +2110,5 @@ din enhet"</string>
     <string name="game_booster_close">Game Speed Booster av</string>
     <string name="databooster_tips_title">Uppmärksamma</string>
     <string name="databooster_tips_message">Aktivera att begränsa alla SIM-kort utom kortet för mobildata. Avaktivera denna funktion om fel inträffar när du spelar spel.</string>
-    <string name="app_manager_permission_startself_summary">Apparna som automatiskt tar upp RAM och drar mycket batteri</string>
-    <string name="app_manager_permission_power_saving_summary">MIUI batterisparfunktioner</string>
-    <string name="app_manager_not_record">Det gick inte att hitta appar som behöver behörigheter</string>
-    <string name="app_manager_clear_failed_dlg_title">Rensa data</string>
-    <string name="app_manager_sort">Sortera efter</string>
+    <string name="net_booster_expire_notification_tip">%d d återstår innan session av ökad nätverkshastighet går ut. Förnya sessionen för att undvika problem med hastigheten på ditt nätverk.</string>
 </resources>

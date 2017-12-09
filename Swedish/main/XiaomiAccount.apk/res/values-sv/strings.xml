@@ -189,11 +189,15 @@ För att aktivera ditt konto, följ
     <string name="passport_user_reg_region_warning">Du kan inte ändra land/region när kontot är skapat.</string>
     <string name="passport_sync_account_data">Synkronisera kontoinformation…</string>
     <string name="passport_sync_account_data_failed_warning">Ditt konto synkroniseras nu, du kan logga in med ditt ID för Mi-Kontot. Om du vill logga in använd din telefon eller E-post och vänta till informationen är helt synkroniserat.</string>
-    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Ser ut som om&lt;/font> numret %s har återvunnits av din operatör och det finns ett Mi-konto kopplat till det. Är dett konto ditt?</string>
     <string name="passport_login_recycle_account_yes">Ja</string>
     <string name="passport_login_recycle_account_no">Nej</string>
     <string name="passport_reg_recycle_account_yes">Ja</string>
     <string name="passport_reg_recycle_account_no">Nej</string>
+    <string name="passport_get_innetdate_title">Undersök när numret blev aktivt</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>Ser ut som om&lt;/font> numret %s har återvunnits av din operatör. Kontrollera när numret blev aktivt?</string>
+    <string name="passport_get_innetdate_agree">Kontrollera</string>
+    <string name="passport_get_innetdate_disagree">Nej</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud, Kontoinställningar, Mi Pay, Logga ut</string>
@@ -253,6 +257,7 @@ För att aktivera ditt konto, följ
     <string name="account_error_invalid_user_name">Namn kan inte innehålla &lt;, >, /</string>
     <string name="account_error_shorter_user_name">Namnet måste vara längre än 2 karaktärer</string>
     <string name="account_error_longer_user_name">Namnet kan inte vara längre än 20 karaktärer</string>
+    <string name="account_error_user_name">Namnet som du har angett är ogiltigt</string>
     <string name="account_error_user_birthday">Födelsedagen som du har angivit är ogilltig</string>
     <string name="account_limit_update_birthday">Kan inte uppdatera födelsedag nu</string>
     <string name="account_user_other_info">Fler källor</string>
@@ -445,5 +450,9 @@ För att aktivera ditt konto, följ
     <string name="account_token_expired_msg">"Verifieringskoden har gått ut, börja om eller logga ut
  Ditt kontoID: %s"</string>
     <string name="bind_safe_phone_msg">Lägg till ditt telefonnummer för att kunna logga in på Mi-Konto nästa gång.</string>
-    <string name="account_notification_message">Sessionen löpte ut, logga in igen.</string>
+    <string name="account_notification_message">>Sessionen löpte ut. Logga in igen.</string>
+    <string name="sim_changed_notification_title">Ändrat telefonnummer?</string>
+    <string name="sim_changed_notification_msg">Tryck för att uppdatera din återställda telefon och behålla ditt konto ännu mer säkert.</string>
+    <string name="recycle_phone_notification_title">Säkerhetsrisk för Mi-konto</string>
+    <string name="recycle_phone_notification_msg">Det ser ut som att ditt telefonnummer har blivit återvunnet. Tryck för att uppdatera.</string>
 </resources>

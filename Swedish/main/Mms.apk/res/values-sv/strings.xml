@@ -61,7 +61,7 @@
     <string name="cannot_send_message_reason">Ditt meddelande har inga giltiga mottagare.</string>
     <string name="card_insert_to_contact">Importera kontakt</string>
     <string name="change_duration_activity">Ändra varaktighet</string>
-    <string name="check_all">Markera alla</string>
+    <string name="check_all">Välj alla</string>
     <string name="class_0_message_activity">Klass 0-meddelande</string>
     <string name="close">Stäng</string>
     <string name="cloud_recommend_msg">Tryck för att synkronisera meddelanden mot Mi Cloud.</string>
@@ -121,7 +121,7 @@
     <string name="delete_phrase">Ta bort svar</string>
     <string name="delete_unlocked">Radera låsta meddelanden</string>
     <string name="delete_wild_sims">Radera nummer</string>
-    <string name="delete_wild_sims_confirm">Alla meddelanden som tillhör markerade nummer kommer att raderas på den här telefonen. Du kan återställa dem på i.mi.com.</string>
+    <string name="delete_wild_sims_confirm">Alla meddelanden som tillhör valda nummer kommer att raderas på den här telefonen. Du kan återställa dem på i.mi.com.</string>
     <string name="delete_wild_sims_title">Radera markerade nummer</string>
     <string name="delivery_report_activity">Leveransrapport</string>
     <string name="delivery_toast_body">Meddelande mottagen av %s</string>
@@ -179,6 +179,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickad: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>

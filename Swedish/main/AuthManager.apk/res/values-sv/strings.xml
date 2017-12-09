@@ -23,7 +23,7 @@
     <string name="HIPS_Perm_CallLog_Desc">skriv och radera samtalshistorik</string>
     <string name="HIPS_Perm_ROOT">Få tillgång till root</string>
     <string name="HIPS_Perm_ROOT_Desc">få tillgång till root</string>
-    <string name="HIPS_Perm_Settings">Modifiera system inställningar</string>
+    <string name="HIPS_Perm_Settings">Ändra systeminställningar</string>
     <string name="HIPS_Perm_Settings_Desc">ändra systeminställningar</string>
     <string name="HIPS_Perm_VideoRecorder">Kameraåtkomst</string>
     <string name="HIPS_Perm_VideoRecorder_Desc">använda kameran för bildtagning eller videoinspelning</string>

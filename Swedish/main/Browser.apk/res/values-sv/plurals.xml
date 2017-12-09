@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="adblock_notification">
+        <item quantity="other">%d annonser blockerade</item>
+        <item quantity="one">%d annons blockerad</item>
+    </plurals>
     <plurals name="adblock_rules_number_text">
-        <item quantity="other">%d blockerade objekt</item>
-        <item quantity="one">%d blockerat objekt</item>
+        <item quantity="other">%d objekt blockerade</item>
+        <item quantity="one">%d objekt blockerade</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Ta bort %d uppgifter?</item>
+        <item quantity="one">Ta bort %d uppgift?</item>
     </plurals>
     <plurals name="find_on_page_matches">
         <item quantity="other">%d träffar</item>
@@ -14,11 +22,23 @@
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d av %2$d</item>
-        <item quantity="one">1 matchning</item>
+        <item quantity="one">1 träff</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Spela upp video om %1$d sekunder</item>
-        <item quantity="one">Spela upp video om %1$d sekund</item>
+    <plurals name="pref_adblock_counts">
+        <item quantity="other">%d blockerade</item>
+        <item quantity="one">%d blockerad</item>
+    </plurals>
+    <plurals name="suggest_access_item_album_songs">
+        <item quantity="other">%d låtar</item>
+        <item quantity="one">%d låt</item>
+    </plurals>
+    <plurals name="suggest_access_item_singer_albums">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="suggest_access_item_singer_pop">
+        <item quantity="other">%d populära låtar</item>
+        <item quantity="one">%d populär låt</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d valda</item>
@@ -33,15 +53,19 @@
         <item quantity="one">Rensa %1$d video?</item>
     </plurals>
     <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d objekt bort från historien.</item>
-        <item quantity="one">%1$d objekt bort från historien.</item>
+        <item quantity="other">%1$d objekt borttagen från historiken.</item>
+        <item quantity="one">%1$d objekt borttagen från historiken.</item>
     </plurals>
     <plurals name="video_history_clear_prompt">
-        <item quantity="other">Radera %1$d objeken från historiken?</item>
-        <item quantity="one">Radera %1$d objekt från historiken?</item>
+        <item quantity="other">Ta bort %1$d objekt från historiken?</item>
+        <item quantity="one">Ta bort %1$d objekt från historiken?</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minuter återstår</item>
         <item quantity="one">%d minut återstår</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Klart</item>
+        <item quantity="one">Soligt</item>
     </plurals>
 </resources>

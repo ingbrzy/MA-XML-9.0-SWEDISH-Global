@@ -42,6 +42,7 @@
     <string name="wifi_required_body" formatted="false">"Du måste använda Wi-Fi för att slutföra denna %s nedladdning. 
 licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
+    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">Nedladdningsstorlek kräver Wi-Fi.</string>
     <string name="download_unknown_title">&lt;Okänd></string>
     <string name="root_downloads">Nedladdningar</string>
@@ -71,7 +72,7 @@ licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."
     <string name="keep_queued_download">Behåll</string>
     <string name="cancel_running_download">Avbryt</string>
     <string name="retry_download">Försök igen</string>
-    <string name="deselect_all">Avmarkera alla</string>
+    <string name="deselect_all">Välj ingen</string>
     <string name="selected_count">%1$d av %2$d valda</string>
     <string name="download_share_dialog">Dela med</string>
     <string name="action_settings">Inställningar</string>
@@ -557,8 +558,8 @@ licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."
     <string name="upgrade_immediate">Uppdatera nu</string>
     <string name="i_know_it">OK</string>
     <string name="atmd_music">Ultimate</string>
-    <string name="select_all">Markera alla</string>
-    <string name="select_none">Avmarkera alla</string>
+    <string name="select_all">Välj alla</string>
+    <string name="select_none">Välj ingen</string>
     <string name="please_select_song">Välj en låt först</string>
     <string name="home_tab_online">Upptäck</string>
     <string name="home_tab_local">Min musik</string>

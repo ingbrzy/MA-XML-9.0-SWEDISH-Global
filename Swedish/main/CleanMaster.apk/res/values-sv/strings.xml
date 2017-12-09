@@ -230,7 +230,7 @@
     <string name="activity_title_similar_image">Dubbletter foton</string>
     <string name="label_preserve_the_best_image">Spara den bästa bilden</string>
     <string name="button_text_select_all_photos">Välj alla</string>
-    <string name="button_text_deselect_all_photos">Avmarkera alla</string>
+    <string name="button_text_deselect_all_photos">Välj ingen</string>
     <string name="button_text_photo_selected">Valda</string>
     <string name="label_image_list_none">Inga</string>
     <string name="hints_privacy_header_left">Integritet: %d</string>
@@ -423,7 +423,6 @@
     <string name="wechat_cache_files">WeChat cache</string>
     <string name="qq_cache_files">QQ cache</string>
     <string name="wechat_qq_chat_files">Chathistorik</string>
-    <string name="wechat_chat_clean_done">Allt ser bra ut</string>
     <string name="analying">Analyserar…</string>
     <string name="open_file_error">Kunde inte hitta appen som öppnar denna fil</string>
     <string name="location_not_found">Det gick inte att hitta filen</string>
@@ -474,4 +473,5 @@
     <string name="app_description_title">Om Städaren</string>
     <string name="app_description_content">Städaren hittar skräp på din enhet och frigör lagringsutrymme. Se till att klarar dig utan dessa funktioner innan du avinstallera appen.</string>
     <string name="engine_init">Initierar…</string>
+    <string name="wechat_chat_clean_done">Allt ser bra ut</string>
 </resources>

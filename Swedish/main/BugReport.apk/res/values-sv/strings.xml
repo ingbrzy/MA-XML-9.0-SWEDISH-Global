@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -152,7 +153,7 @@
     <string name="network_err">Can inte ansluta till nätverket.</string>
     <string name="refresh">Uppdatera</string>
     <string name="announcement">Uppmärksamma</string>
-    <string name="app_empty">Du har inte laddat ned några appar.</string>
+    <string name="app_empty">Kunde inte hitta appar.</string>
     <string name="screen_lock">Skärmlås</string>
     <string name="systemui">Meddelandepanel</string>
     <string name="cta_dialog_title">Internet anslutning</string>
@@ -279,6 +280,7 @@
     <string name="title_answer_feedback_main">Vi hittade svar!</string>
     <string name="title_same_question_feedback_main">Liknande frågor i MIUI forum</string>
     <string name="related_question_answer_details">Relaterat problem</string>
+    <string name="issue_search">Sök</string>
     <string name="module_item_more">Mer</string>
     <string name="module_item_less">Dölj</string>
     <string name="feedback_guess">Vår gissning</string>
@@ -296,6 +298,7 @@
     <string name="module_more">Mer</string>
     <string name="module_search">Sök</string>
     <string name="module_google_apps">Google apps</string>
+    <string name="app_search">Sök efter appar</string>
     <string name="feedback_submit_hint">Rapportera fel varje gång du stöter på problem för att hjälpa oss att lösa dem snabbare.</string>
     <string name="feedback_submit_hint_gone">Meddelande stängt</string>
     <string name="toast_post_deleted">Det här ämnet finns inte, har tagits bort eller redigeras.</string>

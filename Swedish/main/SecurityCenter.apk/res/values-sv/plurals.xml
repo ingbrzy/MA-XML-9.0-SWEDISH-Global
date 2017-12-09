@@ -57,8 +57,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">%d app kan inte använda data roaming</item>
     </plurals>
     <plurals name="hints_roaming_found_app_count_title">
-        <item quantity="other">%d appar funna</item>
-        <item quantity="one">%d app funnen</item>
+        <item quantity="other">%d appar hittades</item>
+        <item quantity="one">%d app hittad</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d app fungerar inte korrekt och drar mycket ström</item>
@@ -229,8 +229,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">Sök bland %d app</item>
     </plurals>
     <plurals name="found_apps_title">
-        <item quantity="other">%d appar funna</item>
-        <item quantity="one">%d app funnen</item>
+        <item quantity="other">%d appar hittade</item>
+        <item quantity="one">%d app hittad</item>
     </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d låsta appar väntar på att rensas</item>
