@@ -42,7 +42,6 @@
     <string name="wifi_required_body" formatted="false">"Du måste använda Wi-Fi för att slutföra denna %s nedladdning. 
 licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
-    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">Nedladdningsstorlek kräver Wi-Fi.</string>
     <string name="download_unknown_title">&lt;Okänd></string>
     <string name="root_downloads">Nedladdningar</string>
