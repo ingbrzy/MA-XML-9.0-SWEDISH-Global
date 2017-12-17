@@ -73,8 +73,8 @@
         <item quantity="one">Kunde inte exportera %d videofiler. Frigör minne och försök igen.</item>
     </plurals>
     <plurals name="wechat_empty_files">
-        <item quantity="other">（%1$d empty files）%2$s</item>
-        <item quantity="one">（%1$d empty files）%2$s</item>
+        <item quantity="other">(%1$d tomma filer)</item>
+        <item quantity="one">(%1$d tom fil)</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Har inte använts på %d dagar</item>

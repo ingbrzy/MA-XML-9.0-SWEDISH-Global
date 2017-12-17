@@ -3,7 +3,7 @@
     <string name="dialog_insufficient_space_on_external">Kan inte slutföra nedladdningen. inte tillräckligt med utrymme på SD-kortet.</string>
     <string name="dialog_insufficient_space_on_cache">Kan inte slutföra nedladdningen. inte tillräckligt med utrymme på internlagringen.</string>
     <string name="auto_restart_under_wifi">Filen kommer laddas ned när enheten ansluts till Wi-Fi</string>
-    <string name="task_already_exist">Uppgiften finns redan</string>
+    <string name="task_already_exist">Nedladdningen finns redan</string>
     <string name="privacy_tip_title">Använd Xunlei Accelerator?</string>
     <string name="privacy_tip_content">Använd Xunlei Accelerator för att påskynda nedladdningar? Webbadressen kommer att laddas upp till Xunlei servrar. Ditt Mi-kontos uppgifter kommer också att laddas upp för att kontrollera att du har ett aktivt abonnemang hos denna tjänst.</string>
     <string name="privacy_tip_cancel">Avbryt</string>
@@ -30,7 +30,7 @@
     <string name="recommended_no_file_size_download_in_mobile">Använd din mobil dataanslutning för att ladda ned den här filen?</string>
     <string name="button_wait_for_wifi">Vänta</string>
     <string name="button_download_now">Ladda ned nu</string>
-    <string name="insufficient_space">Inte tillräckligt med utrymme på din interna lagringsenhet</string>
+    <string name="insufficient_space">Inte tillräckligt med utrymme på det interna lagringsutrymmet</string>
     <string name="enter_garbage_clean">Städa upp internt lagringsutrymme.</string>
     <string name="download_apk_desktop_pending">Väntar</string>
     <string name="download_apk_desktop_pause">Pausad</string>
@@ -42,6 +42,7 @@
     <string name="wifi_required_body" formatted="false">"Du måste använda Wi-Fi för att slutföra denna %s nedladdning. 
 licka på %s för att starta nedladdningen nästa gång du ansluter till Wi-Fi."</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
+    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">Nedladdningsstorlek kräver Wi-Fi.</string>
     <string name="download_unknown_title">&lt;Okänd></string>
     <string name="root_downloads">Nedladdningar</string>

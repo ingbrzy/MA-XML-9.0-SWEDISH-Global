@@ -164,7 +164,7 @@
     <string name="configure_input_methods">Välj tangentbord</string>
     <string name="miui_upgrading_notification_title">Laddar systemet, vissa funktioner kan vara otillgängliga.</string>
     <string name="miui_screen_ratio_hint">Problem med skärmförhållande</string>
-    <string name="miui_screen_ratio_hint_message">Denna app tillåts att köra i helskärmsläge, vilket kan göra att den visas inkorrekt. Du kan ändra detta i Inställhingar > Ytterligare inställningar > Knappar.</string>
+    <string name="miui_screen_ratio_hint_message">Denna app tillåts att köra i helskärmsläge, vilket kan göra att den visas inkorrekt. Du kan ändra detta i Inställningar > Helskärm.</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Visa inte igen</string>
     <string name="miui_screen_ratio_hint_ok">OK</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Gå till Inställningar</string>

@@ -20,7 +20,7 @@
     <string name="select_item">Välj objekt</string>
     <string name="action_mode_title_empty">Välj objekt</string>
     <string name="action_mode_select_all">Välj alla</string>
-    <string name="action_mode_deselect_all">Välja bort</string>
+    <string name="action_mode_deselect_all">Välj ingen</string>
     <string name="select_all">Välj alla</string>
     <string name="deselect_all">Välj ingen</string>
     <string name="instruction">Instruktioner</string>
@@ -45,6 +45,7 @@
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="date_time_done">Klar</string>
     <string name="date_picker_dialog_title">Ange datum</string>
     <string name="time_picker_dialog_title">Ange tid</string>

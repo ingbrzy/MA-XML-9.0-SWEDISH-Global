@@ -37,8 +37,8 @@
     <string name="storage_internal">Intern lagring</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
-    <string name="dialog_confirm_delete_downloads_message">Ta bort %d aktiviteter?</string>
-    <string name="dialog_confirm_delete_the_download_item_message">Ta bort dessa aktiviteter</string>
+    <string name="dialog_confirm_delete_downloads_message">Ta bort %d objekt?</string>
+    <string name="dialog_confirm_delete_the_download_item_message">Ta bort dessa objekt</string>
     <string name="dialog_confirm_delete_checkbox_message">Ta bort även lokala filer</string>
     <string name="download_when_network_connected">Använd dataanslutning vid nedladdning</string>
     <string name="show_more">Visa %s mer</string>
@@ -106,6 +106,7 @@
     <string name="package_filter">Paket</string>
     <string name="other_filter">Övrigt</string>
     <string name="xunlei_brand">Drivs med Xunlei</string>
+    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">Xunlei nedladdningsmotor</string>
     <string name="turn_off_xunlei_title">Stäng av Xunlei</string>
     <string name="turn_off_xunlei_message">Du kanske upplever långsammare nedladdningshastigheter.</string>
@@ -239,7 +240,7 @@ accelererar nedladdningar på samtliga enheter."</string>
     <string name="engine_open">Öppna</string>
     <string name="torrent_file_error">Det gick inte att tolka denna torrentfil</string>
     <string name="torrent_no_subfile">Inga underfiler i den här torrenten</string>
-    <string name="no_file_hint">Nedladdningsuppgift för den här filen finns redan</string>
+    <string name="no_file_hint">En nedladdning för den här filen finns redan</string>
     <string name="file_exist_hint">Filen finns redan</string>
     <string name="only_support_torrent">Endast torrentfiler stöds</string>
     <string name="task_detail_notfound_confirm">OK</string>
@@ -331,6 +332,8 @@ accelererar nedladdningar på samtliga enheter."</string>
     <string name="xl_vip_open">Köp</string>
     <string name="xl_vip_pay">Förläng</string>
     <string name="xl_vip_overdue">Utgången</string>
+    <string name="download_num_size">%1$s | %2$s</string>
+    <string name="app_size">%1$s</string>
     <string name="ad_title">Användare har också laddat ner dessa med  %1$s </string>
     <string name="rank_data_empty">Ingen rankning</string>
     <string name="net_error">Kan inte ansluta till nätverket, försök igen</string>

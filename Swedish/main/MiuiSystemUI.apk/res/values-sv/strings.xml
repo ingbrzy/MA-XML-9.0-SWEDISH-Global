@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Inga</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -124,7 +126,7 @@
     <string name="tts_reset_speech_pitch_title">Återställ talets tonhöjd</string>
     <string name="tts_reset_speech_pitch_summary">Återställ tonhöjden för talet till normal.</string>
     <string name="choose_profile">Välj profil</string>
-    <string name="category_personal">Personliga</string>
+    <string name="category_personal">Personligt</string>
     <string name="category_work">Arbete</string>
     <string name="development_settings_title">Utvecklaralternativ</string>
     <string name="development_settings_enable">Aktivera utvecklaralternativ</string>
@@ -445,8 +447,8 @@ Dra ner för att låsa"</string>
     <string name="status_bar_recent_guide_top">Skjut upp för att stänga</string>
     <string name="status_bar_recent_guide_bottom">Dra ner för att låsa</string>
     <string name="share">Dela</string>
-    <string name="description_direction_up">Dra upp för%s.</string>
-    <string name="description_direction_left">Dra vänster för%s.</string>
+    <string name="description_direction_up">Dra upp för att %s.</string>
+    <string name="description_direction_left">Dra vänster för att %s.</string>
     <string name="description_target_search">Sök</string>
     <string name="status_bar_date_format_12">"EEEE
 MMMM d"</string>
@@ -536,6 +538,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB-lagring ansluten</string>
     <string name="ext_media_mountable_notification_message">Tryck för att öppna i Utforskaren.</string>
     <string name="ext_media_safe_remove">Säker borttagning</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">Kb/s</string>
     <string name="megabyte_per_second">Mb/s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
@@ -614,6 +617,7 @@ MMMM d"</string>
     <string name="notification_header_title">Notifikationer</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">Skrolla</string>
     <string name="screenshot_edit">Redigera</string>
     <string name="screenshot_send">Skicka</string>
@@ -656,4 +660,7 @@ MMMM d"</string>
     <string name="unimportant_desc">Alla oviktiga notifikationer kommer visas i en egen mapp.</string>
     <string name="important_desc">Alla viktiga notifikationer kommer synas direkt i meddelandepanelen.</string>
     <string name="cancel">Avbryt</string>
+    <string name="search_hint">Sök efter webbsidor, appar, kontakter och videor</string>
+    <string name="description_image_button_reject">Avböj</string>
+    <string name="description_image_button_answer">Svara</string>
 </resources>

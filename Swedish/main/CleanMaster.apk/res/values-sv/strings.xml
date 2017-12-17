@@ -456,7 +456,7 @@
     <string name="wechat_copy_video_failed_dialog_title">Kunde inte exportera</string>
     <string name="wechat_copying_video_success">Export lyckades</string>
     <string name="wechat_copying_video_dialog_title">Export till Galleri</string>
-    <string name="wechat_copying_video_dialog_msg">Filerna kommer att sparas i denna folder: /DCIM/WeChat</string>
+    <string name="wechat_copying_video_dialog_msg">Filerna kommer att sparas i denna mapp: %s</string>
     <string name="wechat_copying_video_dialog_checkbox">Radera filer efter export</string>
     <string name="wechat_copying_video_empty">Inga videofiler att exportera</string>
     <string name="wechat_content_empty">Inga filer att exportera</string>
@@ -473,5 +473,23 @@
     <string name="app_description_title">Om Städaren</string>
     <string name="app_description_content">Städaren hittar skräp på din enhet och frigör lagringsutrymme. Se till att klarar dig utan dessa funktioner innan du avinstallera appen.</string>
     <string name="engine_init">Initierar…</string>
-    <string name="wechat_chat_clean_done">Allt ser bra ut</string>
+    <string name="unlike">Nej tack</string>
+    <string name="wechat_qq_celan_tab_video">Video</string>
+    <string name="wechat_qq_celan_tab_voice">Röst</string>
+    <string name="wechat_qq_celan_tab_image">Bild</string>
+    <string name="wechat_qq_celan_tab_file">Fil</string>
+    <string name="wechat_qq_deep_clean_button_text">Storstädning</string>
+    <string name="wechat_clean_finish_summary">De valda filerna är borttagna</string>
+    <string name="qq_clean_finish_summary">De valda filerna är borttagna</string>
+    <string name="wechat_clean_finish_empty_summary">Allt ser bra ut</string>
+    <string name="wechat_clean_canceled_empty_summary">Städningen färdigställdes aldrig, börja om.</string>
+    <string name="wqfile_group_chat_pic">Chattbild</string>
+    <string name="wqfile_group_chat_video">Chattvideo</string>
+    <string name="wqfile_group_chat_voice">Chattröst</string>
+    <string name="wqfile_group_chat_file">Annan fil</string>
+    <string name="wq_deep_clean_filter_all">Alla</string>
+    <string name="wq_deep_clean_filter_week_ago">En vecka sedan</string>
+    <string name="wq_deep_clean_filter_month_ago">En månad sedan</string>
+    <string name="wq_deep_clean_filter_three_month_ago">Tre månader sedan</string>
+    <string name="wq_deep_clean_filter_years_ago">Ett halvår sedan</string>
 </resources>

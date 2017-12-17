@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentera</string>
     <string name="comment_description">Kommentera</string>
     <string name="comment_hint">Kommentera</string>
@@ -219,7 +220,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="delete_download">Ta bort</string>
     <string name="dialog_cannot_resume">Nedladdningen avbruten</string>
     <string name="dialog_confirm_delete_checkbox_message">Ta bort filer i internt minne</string>
-    <string name="dialog_confirm_delete_the_download_item_message">Ta bort denna uppgift?</string>
+    <string name="dialog_confirm_delete_the_download_item_message">Radera detta objekt?</string>
     <string name="dialog_failed_body">Försök igen senare eller ta bort denna fil från nedladdningskön?</string>
     <string name="dialog_file_already_exists">Du har redan laddat ner denna fil</string>
     <string name="dialog_file_missing_body">Kunde inte hitta filen. Är den flyttad eller borttagen?</string>
@@ -437,49 +438,21 @@ Lämna denna sida?"</string>
     <string name="miuichromium_error_page_problem_access_denied">Åtkomsten till %s0 nekades</string>
     <string name="miuichromium_error_page_problem_cache_miss">Den cachade versionen av sidan kan inte laddas</string>
     <string name="miuichromium_error_page_problem_cannot_open_page">Sidan kan inte öppnas</string>
-    <string name="miuichromium_error_page_problem_cannot_reach_site">Sidan kan inte nås</string>
-    <string name="miuichromium_error_page_problem_connection_interrupted">Anslutningen avbröts</string>
-    <string name="miuichromium_error_page_problem_file_not_found">Det gick inte att hitta filen</string>
     <string name="miuichromium_error_page_problem_gateway_timed_out">Det tog för lång tid för %s0 att svara</string>
     <string name="miuichromium_error_page_problem_network_access_denied">Begränsad nätverksåtkomst</string>
-    <string name="miuichromium_error_page_problem_no_internet_connection">Kunde inte ansluta till Internet</string>
     <string name="miuichromium_error_page_problem_page_moved">Denna sidan %s0 har kanske flyttats eller tagits bort</string>
     <string name="miuichromium_error_page_problem_page_not_found">Kunde inte hitta denna sidan på %s0</string>
-    <string name="miuichromium_error_page_problem_page_not_working">Sidan fungerar inte</string>
-    <string name="miuichromium_error_page_problem_security_error">Sidan har inte en säker anslutning</string>
     <string name="miuichromium_error_page_problem_server_fault">%s0 kan för närvarande inte hantera begäran</string>
-    <string name="miuichromium_error_page_reason_bad_client_cert">" eftersom %s0 inte accepterade ditt certifikat"</string>
-    <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 inte är ansluten till säkerhetsstandarderna</string>
-    <string name="miuichromium_error_page_reason_blocked_by_response">. åtkomsten är blockerad av %s0</string>
-    <string name="miuichromium_error_page_reason_connection_closed">. %s0 anslutning avbröts</string>
-    <string name="miuichromium_error_page_reason_connection_refused">. %s0 anslöt inte</string>
-    <string name="miuichromium_error_page_reason_connection_reset">. Anslutningen återställdes</string>
-    <string name="miuichromium_error_page_reason_device_slept">" när din enhet går ner i strömsparläge"</string>
-    <string name="miuichromium_error_page_reason_empty_response">" eftersom %s0 skickade någon data"</string>
-    <string name="miuichromium_error_page_reason_invalid_address">. Ip-adress eller portnummer är felaktig</string>
-    <string name="miuichromium_error_page_reason_invalid_response">" eftersom %s0 skickade ett ogiltigt svar"</string>
-    <string name="miuichromium_error_page_reason_invalid_url">" för att URL:en är felaktig"</string>
-    <string name="miuichromium_error_page_reason_moved_or_deleted">. Den har kanske flyttats eller tagits bort</string>
-    <string name="miuichromium_error_page_reason_name_collision">. Den här sidan på intrnätet har samma URL som en extern webbsida</string>
-    <string name="miuichromium_error_page_reason_name_not_resolved">. Kunde inte hitta DNS-adress för %s0</string>
-    <string name="miuichromium_error_page_reason_network_changed">" på grund av nätverksändring"</string>
-    <string name="miuichromium_error_page_reason_proxy_error">. Något är fel med proxyservern, eller är adressen för proxyservern felaktig</string>
-    <string name="miuichromium_error_page_reason_site_unreachable">. %s0 kan inte nås för tillfället</string>
-    <string name="miuichromium_error_page_reason_timed_out">. %s0 svarade inte i tid</string>
-    <string name="miuichromium_error_page_reason_too_many_redirects">" eftersom %s0 har skickat dig vidare för många gånger"</string>
-    <string name="miuichromium_error_page_reason_unsafe_port">. %s0 använder ett osäkert portnummer</string>
-    <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 skickar dig vidare på ett osäkert sätt</string>
-    <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 använder ett protokoll som inte stöds</string>
     <string name="miuichromium_error_page_reload">Uppdatera</string>
     <string name="miuichromium_error_page_safe_network">Säkert läge</string>
     <string name="miuichromium_error_page_server_error">Alltför många enheter försöker ansluta</string>
     <string name="miuichromium_error_page_suggestion_check_app_proxy">Kontrollera inställningar för proxy-appar som är installerade på din enhet.</string>
     <string name="miuichromium_error_page_suggestion_check_connetion">Kontrollera din internetanslutning.</string>
-    <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(Mobildata) Återställ dina %s1APN -inställningar%s2.</string>
+    <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(Mobildata) Återställ dina %s1APN-inställningar%s2.</string>
     <string name="miuichromium_error_page_suggestion_check_url">Kontrollera URL:en du angivit.</string>
     <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(Wi-Fi) Kontrollera dina %s1 inställningar för proxy%s2.</string>
-    <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">Rensa cache (%s1Inställningar%s2 Rensa data).</string>
-    <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Rensa cache och cookies (%s1Inställningar%s2 Rensa data, din kontoinformation kanske försvinner).</string>
+    <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">Rensa cache (%s1Inställningar%s2 - Rensa data).</string>
+    <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Rensa cache och cookies (%s1Inställningar%s2 - Rensa data, din kontoinformation kanske försvinner).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Rensa cache och cookies (din kontoinformation kanske försvinner).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Rensa cache.</string>
     <string name="miuichromium_error_page_suggestion_connect_and_retry">Ladda om sidan när du är ansluten till internet.</string>
@@ -783,7 +756,7 @@ Lämna denna sida?"</string>
     <string name="snapshot_failed">Kunde inte spara sidan</string>
     <string name="snapshot_successed">Öppna Bokmärken/Historik -> LOKAL för att se sidan</string>
     <string name="ssl_bad_clock_date_settings">Ange datum</string>
-    <string name="ssl_bad_clock_warning" formatted="false">En privat ansluting till %s1kan inte uppehållas på grund av din enhets datum och tid (%s2) är inkorrekta.</string>
+    <string name="ssl_bad_clock_warning" formatted="false">En privat ansluting till %s1 kan inte uppehållas på grund av din enhets datum och tid (%s2) är inkorrekta.</string>
     <string name="ssl_certificate">Säkerhetscertifikat</string>
     <string name="ssl_certificate_is_valid">Certifikatet är giltigt.</string>
     <string name="ssl_continue">Fortsätt</string>
@@ -798,7 +771,7 @@ Lämna denna sida?"</string>
     <string name="ssl_warnings_header">Det finns problem med säkerhetscertifikatet för den här webbplatsen.</string>
     <string name="start_save_page_capture">Sparar skärmdump…</string>
     <string name="storage_internal">Intern lagring</string>
-    <string name="storage_permission_request_toast">Nedladdningar kräver åtkomst till din enhets lagring</string>
+    <string name="storage_permission_request_toast">Nedladdningar kräver åtkomst till din enhets lagringsutrymme</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
     <string name="suggest_access_appstore">Mi App Store</string>
@@ -904,7 +877,6 @@ Lämna denna sida?"</string>
     <string name="video_project_button">Stoppa</string>
     <string name="video_project_msg">Video överförs till %s</string>
     <string name="video_project_title">Överför video</string>
-    <string name="video_push_multi_message">%1$d uppdateringar tillgängliga.</string>
     <string name="video_push_multi_title">Uppdatering tillgänglig</string>
     <string name="video_push_single_message">Tryck för att uppdatera till %1$d.</string>
     <string name="video_service_notification_title">Spelar upp pop-up video…</string>
@@ -934,4 +906,32 @@ Lämna denna sida?"</string>
     <string name="webview_find_on_page">Hitta på sida</string>
     <string name="webviewchromium_private_browsing_warning">Den här funktionen stöds inte i denna version av Android.</string>
     <string name="week_picker_dialog_title">Ange vecka</string>
+    <string name="miuichromium_error_page_problem_cannot_reach_site">Sidan kan inte nås</string>
+    <string name="miuichromium_error_page_problem_connection_interrupted">Anslutningen avbröts</string>
+    <string name="miuichromium_error_page_problem_file_not_found">Det gick inte att hitta filen</string>
+    <string name="miuichromium_error_page_problem_no_internet_connection">Kunde inte ansluta till Internet</string>
+    <string name="miuichromium_error_page_problem_page_not_working">Sidan fungerar inte</string>
+    <string name="miuichromium_error_page_problem_security_error">Sidan har inte en säker anslutning</string>
+    <string name="miuichromium_error_page_reason_bad_client_cert">" eftersom %s0 inte accepterade ditt certifikat"</string>
+    <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 inte är ansluten till säkerhetsstandarderna</string>
+    <string name="miuichromium_error_page_reason_blocked_by_response">. åtkomsten är blockerad av %s0</string>
+    <string name="miuichromium_error_page_reason_connection_closed">. %s0 anslutning avbröts</string>
+    <string name="miuichromium_error_page_reason_connection_refused">. %s0 anslöt inte</string>
+    <string name="miuichromium_error_page_reason_connection_reset">. Anslutningen återställdes</string>
+    <string name="miuichromium_error_page_reason_device_slept">" när din enhet går ner i strömsparläge"</string>
+    <string name="miuichromium_error_page_reason_empty_response">" eftersom %s0 skickade någon data"</string>
+    <string name="miuichromium_error_page_reason_invalid_address">. Ip-adress eller portnummer är felaktig</string>
+    <string name="miuichromium_error_page_reason_invalid_response">" eftersom %s0 skickade ett ogiltigt svar"</string>
+    <string name="miuichromium_error_page_reason_invalid_url">" för att URL:en är felaktig"</string>
+    <string name="miuichromium_error_page_reason_moved_or_deleted">. Den har kanske flyttats eller tagits bort</string>
+    <string name="miuichromium_error_page_reason_name_collision">. Den här sidan på intrnätet har samma URL som en extern webbsida</string>
+    <string name="miuichromium_error_page_reason_name_not_resolved">. Kunde inte hitta DNS-adress för %s0</string>
+    <string name="miuichromium_error_page_reason_network_changed">" på grund av nätverksändring"</string>
+    <string name="miuichromium_error_page_reason_proxy_error">. Något är fel med proxyservern, eller är adressen för proxyservern felaktig</string>
+    <string name="miuichromium_error_page_reason_site_unreachable">. %s0 kan inte nås för tillfället</string>
+    <string name="miuichromium_error_page_reason_timed_out">. %s0 svarade inte i tid</string>
+    <string name="miuichromium_error_page_reason_too_many_redirects">" eftersom %s0 har skickat dig vidare för många gånger"</string>
+    <string name="miuichromium_error_page_reason_unsafe_port">. %s0 använder ett osäkert portnummer</string>
+    <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 skickar dig vidare på ett osäkert sätt</string>
+    <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 använder ett protokoll som inte stöds</string>
 </resources>

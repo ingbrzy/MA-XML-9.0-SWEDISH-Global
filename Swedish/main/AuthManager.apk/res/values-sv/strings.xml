@@ -58,7 +58,7 @@
     <string name="HIPS_Perm_Read_Contact">Se dina kontakter</string>
     <string name="HIPS_Perm_Read_Contact_Desc">se dina kontakter</string>
     <string name="HIPS_Perm_External_Storage">Få tillgång och ändra filer på det interna minnet</string>
-    <string name="HIPS_Perm_External_Storage_Desc">lägg till och ta bort filer på enhetens interna lagring</string>
+    <string name="HIPS_Perm_External_Storage_Desc">lägg till och ta bort filer på enhetens interna lagringsutrymme</string>
     <string name="HIPS_Perm_Body_Sensors">Kroppssensorer</string>
     <string name="HIPS_Perm_Body_Sensors_Desc">kroppssensorer (t.ex Pulssensor)</string>
     <string name="HIPS_Perm_get_accounts">Få tillgång till konton på enheten</string>

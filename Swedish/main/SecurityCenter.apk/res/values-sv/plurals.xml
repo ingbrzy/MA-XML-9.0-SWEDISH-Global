@@ -149,8 +149,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">%d app kan starta automatiskt</item>
     </plurals>
     <plurals name="hints_auto_start_disable_title">
-        <item quantity="other">%d appar kan inte starta automatiskt</item>
-        <item quantity="one">%d app kan inte starta automatiskt</item>
+        <item quantity="other">%d appar tillåts inte starta automatiskt</item>
+        <item quantity="one">%d app tillåts inte starta automatiskt</item>
     </plurals>
     <plurals name="hints_apps_perm_count">
         <item quantity="other">%d behörigheter</item>
@@ -177,8 +177,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">Har inte synkroniserat dataanvändningen från operatören på %d dag</item>
     </plurals>
     <plurals name="summary_app_update">
-        <item quantity="other">Uppdateringar tillängliga för %d appar.</item>
-        <item quantity="one">Uppdatering tillänglig för %d app.</item>
+        <item quantity="other">Uppdateringar tillgängliga för %d appar.</item>
+        <item quantity="one">Uppdatering tillgänglig för %d app.</item>
     </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d dagar sedan den senaste kollen</item>

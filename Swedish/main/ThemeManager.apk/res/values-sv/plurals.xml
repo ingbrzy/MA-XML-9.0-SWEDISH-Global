@@ -5,7 +5,7 @@
         <item quantity="one">Uppdatering tillänglig för %1$d tema</item>
     </plurals>
     <plurals name="theme_batch_has_update_text">
-        <item quantity="other">Uppdateringar tillängliga för %1$d teman.</item>
+        <item quantity="other">Uppdateringar tillgängliga för %1$d teman.</item>
         <item quantity="one">Uppdatering tillänglig för %1$d tema.</item>
     </plurals>
 </resources>

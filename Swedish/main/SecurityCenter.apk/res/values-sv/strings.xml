@@ -222,7 +222,7 @@
     <string name="mark_harass">Blockera rapporterade olägenheter</string>
     <string name="mark_number_info">Notera att ibland kan dessa samtal vara användbara (t.ex när du faktiskt söker en ny lägenhet). Blockera endast nummer du aldrig vill ha samtal ifrån.</string>
     <string name="dlg_title_not_open_stranger_identify">Nummerpresentation</string>
-    <string name="dlg_message_not_open_stranger_identify">För att sätta på denna funktion, gå till Inställningar > Telefon.</string>
+    <string name="dlg_message_not_open_stranger_identify">För att slå på denna funktion, gå till Inställningar > Telefon.</string>
     <string name="button_to_setting">Inställningar</string>
     <string name="special_number_group">Blockera rapporterade nummer</string>
     <string name="st_title_markednumber_group">Blockera rapporterade nummer</string>
@@ -350,7 +350,7 @@ ska svara"</string>
     <string name="main_button_mi_sim_open">Visa detaljer</string>
     <string name="firewall_activity_lable">Begränsa dataanvändning för app</string>
     <string name="firewall_applist">Appar</string>
-    <string name="firewall_mobile">Mobil</string>
+    <string name="firewall_mobile">Mobildata</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Tom</string>
     <string name="firewall_fragment_nonesys_listempty">Tom</string>
@@ -365,7 +365,7 @@ ska svara"</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="firewall_mobile_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med mobildata när denna funktion är av.</string>
     <string name="firewall_wifi_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med Wi-Fi när denna funktion är av.​</string>
-    <string name="firewall_system_title">Brandvägg</string>
+    <string name="firewall_system_title">Dataanvändning av systemappar</string>
     <string name="usage_sorted_activity_lable">Dataanvändning</string>
     <string name="usage_sorted_loading_text">Vänta lite…</string>
     <string name="usage_sorted_empty_text">Tom</string>
@@ -388,6 +388,7 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Gräns för mobildata</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -651,6 +652,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="traffic_warning_purchase_title">Varning för mobildata användning</string>
     <string name="traffic_purchase_body">Tryck för att fylla på ditt saldo.</string>
     <string name="traffic_over_purchase_link">"Du har nått gränsen för ditt abonnemang.&lt;br/>Om du överskrider ditt abonnemangs gräns kan din operatör debitera extra avgifter för detta.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Try för att fylla på ditt saldo.&lt;/U>&lt;/font>"</string>
+    <string name="more_settings">Mer</string>
     <string name="repair_loading_text">Vänta lite…</string>
     <string name="network_diagnostics">Testa nätverk</string>
     <string name="btn_start_diagnostic">Testa nätverk</string>
@@ -828,6 +830,16 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="status_bar_network_flow_content">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Återstår: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Idag: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Denna månad: %2$s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
+    <string name="pref_key_tethering_setting">Sätt datagräns en gång</string>
+    <string name="pref_key_tethering_title">Sätt datagräns en gång</string>
+    <string name="tether_limit_value_custom">Anpassad</string>
+    <string name="tether_limit_dialog_title">Gräns för mobildata</string>
+    <string name="tether_custom_dialog_title">Gräns för mobildata</string>
+    <string name="tether_over_limit_warning_notify_title">Nådde gränsen för data över hotspot</string>
+    <string name="tether_over_limit_warning_notify_message">Avaktivera portabel hotspot.</string>
+    <string name="tether_over_limit_dialog_title">Varning för dataanvändning</string>
+    <string name="tether_over_limit_dialog_message">Du nådde gränsen för data över hotspot.</string>
+    <string name="tether_over_limit_dialog_cancle_btn">Återställ hotspot</string>
     <string name="optimize_manage_title">Öka hastigheten</string>
     <string name="cpu_usage_android_system">Androidsystem</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre än 1 minut</string>
@@ -889,6 +901,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1291,6 +1304,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1515,7 +1529,7 @@ din enhet"</string>
     <string name="summary_auto_update">MIUI väljer den lämpligaste tid att ladda ner och installera uppdateringar.</string>
     <string name="title_miui_update_latest">MIUI är aktuell</string>
     <string name="title_miui_update">Uppdatering tillgänglig</string>
-    <string name="summary_miui_update">Uppdatering tillänglig för %s.</string>
+    <string name="summary_miui_update">Uppdatering tillgänglig för %s.</string>
     <string name="title_virus_cloudscan">Virusskanning i molnet</string>
     <string name="summary_virus_cloudscan">Ladda upp appnamn och detaljer och skanna med hjälp av virusdefinitioner från internet</string>
     <string name="title_cleaner_cloudscan">Papperskorg i Molnet</string>
@@ -1651,6 +1665,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2106,5 +2121,4 @@ din enhet"</string>
     <string name="game_booster_close">Game Speed Booster av</string>
     <string name="databooster_tips_title">Uppmärksamma</string>
     <string name="databooster_tips_message">Aktivera att begränsa alla SIM-kort utom kortet för mobildata. Avaktivera denna funktion om fel inträffar när du spelar spel.</string>
-    <string name="net_booster_expire_notification_tip">%d d återstår innan session av ökad nätverkshastighet går ut. Förnya sessionen för att undvika problem med hastigheten på ditt nätverk.</string>
 </resources>

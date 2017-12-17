@@ -84,8 +84,8 @@ För att aktivera ditt konto, följ
     <string name="passport_delete_account">Logga ut</string>
     <string name="passport_vcode_notification_title">Ditt inloggnings verifikation är ofullständig</string>
     <string name="passport_account_name">Konto: %1$s</string>
-    <string name="passport_account_hint_text">E-postadress, telefonnummer eller ID för Mi-Konto</string>
-    <string name="passport_email_or_id_hint_text">Email adress eller Mi konto ID</string>
+    <string name="passport_account_hint_text">Email/Telefonnummer/Mi Account ID</string>
+    <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
     <string name="passport_phone_num_hint_text">Telefonnummer</string>
     <string name="passport_input_password_hint">Ange lösenord</string>
     <string name="passport_input_captcha_hint">Ange kod</string>

@@ -9,8 +9,8 @@
         <item quantity="one">%d objekt blockerade</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">Ta bort %d uppgifter?</item>
-        <item quantity="one">Ta bort %d uppgift?</item>
+        <item quantity="other">Ta bort %d objekt?</item>
+        <item quantity="one">Ta bort %d objekt?</item>
     </plurals>
     <plurals name="find_on_page_matches">
         <item quantity="other">%d träffar</item>
@@ -59,6 +59,10 @@
     <plurals name="video_history_clear_prompt">
         <item quantity="other">Ta bort %1$d objekt från historiken?</item>
         <item quantity="one">Ta bort %1$d objekt från historiken?</item>
+    </plurals>
+    <plurals name="video_push_multi_message">
+        <item quantity="other">%1$d uppdateringar är tillgängliga.</item>
+        <item quantity="one">%1$d uppdatering är tillgänglig.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minuter återstår</item>

@@ -51,6 +51,8 @@
     <string name="self_phone">Den här telefonen</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="device_xiaomi">Mi Telefon</string>
+    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
+    <string name="size_unknown">Size unknown</string>
     <string name="recovering">Återställer %s</string>
     <string name="start_recover">Återställa %s</string>
     <string name="latest_backup_time_loading">Laddar…</string>
@@ -58,7 +60,6 @@
     <string name="backing_up_to_micloud">Säkerhetskopierar…</string>
     <string name="restore_from_cloud">Återställ från Mi Cloud backup</string>
     <string name="backup_to_cloud">Säkerhetskopiera app</string>
-    <string name="restoring_file_tile">Återställer %d filer</string>
     <string name="menu_item_sort">Sortera efter</string>
     <string name="menu_item_sort_name">Namn</string>
     <string name="menu_item_sort_size">Storlek</string>
@@ -78,7 +79,7 @@
     <string name="open_wifi">Sätt Wi-Fi på nu</string>
     <string name="open_wifi_description">Anslut till ett Wi-Fi nätverk för att återställa appen</string>
     <string name="open_wifi_setting">Wi-Fi-inställningar</string>
-    <string name="name_model">"%1$s's%2$s"</string>
+    <string name="name_model">"%1$s's %2$s"</string>
     <string name="download_settings">Laddar ner Hemskärmsinställningar %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm MM/dd/yyyy</string>
     <string name="recover_home_settings">Återställ inställningar för Hemskärmen</string>
