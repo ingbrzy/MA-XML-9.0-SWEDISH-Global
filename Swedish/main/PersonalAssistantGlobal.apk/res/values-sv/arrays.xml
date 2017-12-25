@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stock_color_schema">
+        <item>Röd - upp, grön - ner</item>
+        <item>Grön - upp, röd - ner</item>
+    </string-array>
+</resources>

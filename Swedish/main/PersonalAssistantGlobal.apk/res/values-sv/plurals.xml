@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="assistant_day">
+        <item quantity="other">Om %d dagar</item>
+        <item quantity="one">Om %d dag</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d dagar sedan</item>
+        <item quantity="one">%1$d dag sedan</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d timmar sedan</item>
+        <item quantity="one">%1$d timme sedan</item>
+    </plurals>
+    <plurals name="main_delete_desc">
+        <item quantity="other">Ta bort %s objekt från favoriter?</item>
+        <item quantity="one">Ta bort %s objekt från favoriter?</item>
+    </plurals>
+    <plurals name="main_mark_fav_num">
+        <item quantity="other">Märk %s objekt som viktigt</item>
+        <item quantity="one">Märk %s objekt som viktigt</item>
+    </plurals>
+    <plurals name="main_mark_select_num">
+        <item quantity="other">Valda %s objekt</item>
+        <item quantity="one">Valda %s objekt</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d minuter sedan</item>
+        <item quantity="one">%1$d minut sedan</item>
+    </plurals>
+    <plurals name="sms_hour_suffix">
+        <item quantity="other">Om %d timmar</item>
+        <item quantity="one">Om %d timme</item>
+    </plurals>
+    <plurals name="sms_minute_suffix">
+        <item quantity="other">Om %d minuter</item>
+        <item quantity="one">Om %d minut</item>
+    </plurals>
+    <plurals name="sms_title_hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="sms_title_minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="step_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d|steg</item>
+        <item quantity="one">%d|steg</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">%d timmar sedan</item>
+        <item quantity="one">%d timme sedan</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">%d minut sedan</item>
+    </plurals>
+</resources>
