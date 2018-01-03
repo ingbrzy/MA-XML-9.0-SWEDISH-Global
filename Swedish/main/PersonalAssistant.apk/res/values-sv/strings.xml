@@ -297,9 +297,7 @@
     <string name="express_booking_txt">Beställ expressleverans</string>
     <string name="express_code_txt">Kod:</string>
     <string name="express_complete">Accepterat</string>
-    <string name="express_complete_flag">3</string>
     <string name="express_delivery">Levererad</string>
-    <string name="express_delivery_flag">5</string>
     <string name="express_icon_tip">Hämta spårningsinformation om din expressleveranser med ditt telefonnummer och orderinformation.</string>
     <string name="express_icon_tip_link">Säkerhet &amp; integritet</string>
     <string name="express_install_cainiao_description">%s behöver att appen Cainiao är installerad. Installera nu?</string>
@@ -546,7 +544,6 @@
     <string name="payment_total_today_desc">Idag</string>
     <string name="payment_unit_cny">CNY</string>
     <string name="personalAssistant_mainpage">Hemsida</string>
-    <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
     <string name="place_label">Frekventa platser</string>
     <string name="plan">Schemalagd</string>
     <string name="preferences">Inställningar</string>
@@ -694,7 +691,6 @@
     <string name="steps_vip_des">Räkna steg utan att installera en app från tredje part.</string>
     <string name="stock_card_add">Lägg till företag</string>
     <string name="stock_card_title">Aktier</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Färgschema</string>
     <string name="stock_list_empty_text">Du följer inte några företag.</string>
     <string name="stock_search_empty">Inga resultat</string>
