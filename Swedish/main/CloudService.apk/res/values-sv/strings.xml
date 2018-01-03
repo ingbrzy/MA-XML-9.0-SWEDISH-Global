@@ -65,6 +65,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Synkronisera</string>
     <string name="sync_dspt_provision">"Synkronisera dina foto, kontakter, anteckningar, och mycket mer genom alla din enheter eller nå dem "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan starta eller stanna denna funktion närsomhelst i Inställningar.
 "</string>
     <string name="sync_dspt_entrance_provision">Mi Cloud hjälper dig att synkronisera bilder, kontakter och andra objekt för flera enheter. Du kan nå objekten som synkroniserade överallt på %s.</string>
@@ -76,6 +78,8 @@
     <string name="sync_dspt_entrance_provision_skip">Hoppa över detta steg</string>
     <string name="sync_dspt_entrance_provision_network">Denna app behöver vara ansluten till Internet för att fungerar normalt. För att synkronisera data behövs mobildataanslutning och att Wi-Fi är aktiverat.</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till %s för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. Du kan slå på eller av denna funktion närsomhelst i Inställningar.</string>
     <string name="find_device_dspt_provision_4">Om du byter SIM kort kommer ett meddelande automatiskt skickas för att återaktivera denna funktion.</string>
     <string name="find_device_send_sms_alert">Om du byter SIM kort kommer ett meddelande automatiskt skickas för att återaktivera denna funktion.</string>
@@ -127,6 +131,7 @@ Denna funktion krypterar och sänder din enhets ID till MI's servrar."</string>
     <string name="find_device_error_server">Server fel</string>
     <string name="find_device_success_title">Hitta enhet</string>
     <string name="find_device_notice_p1">Gå till</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
 Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
     <string name="i_know">OK</string>
@@ -398,7 +403,7 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="micloud_storage">Lagring</string>
     <string name="micloud_member">Mi Cloud medlemsskap</string>
     <string name="micloud_buy_member">Köp Mi Cloud medlemskap</string>
-    <string name="micloud_buy_member_safe">Köp Mi Cloud medlemskap</string>
+    <string name="micloud_buy_member_safe">Utöka utrymmet på Mi Cloud</string>
     <string name="micloud_website">Mi Cloud objekt</string>
     <string name="micloud_member_advantage">Skaffa mer utrymme.</string>
     <string name="micloud_main_title_sync_fail">Kan inte synkronisera</string>
@@ -409,6 +414,7 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="micloud_main_error_network_disallowed">Se till att du har behörighet att ansluta till internet.</string>
     <string name="micloud_main_error_activated_fail">Aktivera SIM kort.</string>
     <string name="micloud_main_error_permission_limit">Tillåt att Mi Cloud att få tillgång till lagringsutrymmet.</string>
+    <string name="micloud_manage_space_data">Hantera data i Mi Cloud</string>
     <string name="micloud_confusion_no">Nej</string>
     <string name="micloud_confusion_yes">Ja</string>
     <string name="micloud_confusion_cancel">Avbryt</string>
@@ -479,6 +485,8 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="micloud_find_device_opened">Hitta enheten påslagen</string>
     <string name="micloud_find_device_open_fail">Kunde inte starta Hitta enheten</string>
     <string name="micloud_find_device_opened_content">Hitta din enhet på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">Kunde inte avaktivera Hitta Enhet</string>
     <string name="micloud_find_device_close_fail">Kunde inte stänga av Hitta enhet</string>
     <string name="micloud_find_device_finish">Klar</string>
@@ -513,6 +521,17 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="soundrecorder_sync_records">Synkronisera med Mi Cloud</string>
     <string name="soundrecorder_sync_only_in_wifi">Använd endast Wi-Fi för att synkronisera</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">Inspelningar kommer inte använda mobildata för att ladda ner eller ladda upp inspelningar</string>
+    <string name="micloud_wipe_data_confirm_label">Ta bort data från Mi Cloud</string>
+    <string name="micloud_wipe_data_confirm_title">Ta bort objekt synkroniserade med Mi Cloud från telefonen när du har loggat ut?</string>
+    <string name="micloud_wipe_data_retain">Behåll</string>
+    <string name="micloud_wipe_data_remove">Ta bort</string>
+    <string name="wipe_data_dialog_title">Några objekt har inte blivit synkroniserade</string>
+    <string name="wipe_data_dialog_msg">%s synkroniserades inte och kommer stanna på telefonen.</string>
+    <string name="wipe_data_dialog_button_check_sync">Kontrollera om synkroniserad</string>
+    <string name="wipe_data_dialog_msg_and_on">, och några andra objekt</string>
+    <string name="wipe_secret_photo_dialog_title">Dolda bilder är inte synkroniserade</string>
+    <string name="confirm_delete">Ta bort</string>
+    <string name="confirm_save">Behåll</string>
     <string name="micloud_request_permission_title">Mi Cloud behöver behörigheter</string>
     <string name="micloud_request_permission_content">Mi Cloud behöver behörigheter för att synkronisera data. Tillåt Mi Cloud att komma åt kalender, kontakter, Mi konto, SIM-kort, samtalshistorik och meddelanden.</string>
     <string name="micloud_request_permission_confirm">Jag förstår</string>
@@ -539,25 +558,21 @@ Senaste säkerhetskopieringen var %2$s"</string>
     <string name="passed_synced_time_hour">Synkroniserad %1$dh %2$dm sedan</string>
     <string name="passed_synced_time_day">Synkroniserad för %d dagar sedan</string>
     <string name="cloud_storage_is_full">Full</string>
-    <string name="micloud_wipe_data_confirm_label">Ta bort data från Mi Cloud</string>
-    <string name="micloud_wipe_data_confirm_title">Ta bort objekt synkroniserade med Mi Cloud från telefonen när du har loggat ut?</string>
-    <string name="micloud_wipe_data_retain">Behåll</string>
-    <string name="micloud_wipe_data_remove">Ta bort</string>
-    <string name="wipe_data_dialog_title">Objekt är inte synkroniserade</string>
-    <string name="wipe_data_dialog_msg">Vissa objekt (%s) är inte synkroniserade. De kommer sparas på din enhet och inte bli borttagna.</string>
-    <string name="wipe_data_dialog_button_check_sync">Kontrollera om synkroniserad</string>
-    <string name="wipe_data_dialog_msg_and_on">, och några andra objekt</string>
-    <string name="wipe_secret_photo_dialog_title">Dolda bilder är inte synkroniserade</string>
-    <string name="confirm_delete">Ta bort</string>
-    <string name="confirm_save">Behåll</string>
     <string name="micloud_dialog_sync_now_title">Anslut till Wi-Fi för att synkronisera</string>
     <string name="micloud_dialog_sync_now_message">Anslut till Wi-Fi för att undvika mobildata avgifter</string>
     <string name="micloud_dialog_sync_now_negative">Inte nu</string>
     <string name="micloud_dialog_sync_now_positive">Använd mobildata</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Papperskorgen</string>
+    <string name="micloud_main_head_menu_recycle_bin_summary">Säkerhetskopiera Kontakter och Foton igen</string>
+    <string name="micloud_main_head_menu_cloud_backup">Moln Säkerhetskopiering</string>
+    <string name="micloud_main_head_menu_state_open">Öppnade</string>
+    <string name="micloud_main_head_menu_state_close">Stängda</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betalningar med fingeravtryck</string>
     <string name="ks_name_fido">FIDO</string>
-    <string name="ks_name_alipay">Alipay</string>
-    <string name="ks_name_soter">WeChat</string>
+    <string name="ks_name_alipay">IFAA</string>
+    <string name="ks_name_soter">Soter</string>
     <string name="ks_status_available">Tillgänglig</string>
     <string name="ks_status_unavailable">Inte tillgänglig</string>
     <string name="ks_fingerprint_status">Status för betalning</string>

@@ -13,7 +13,7 @@
         <item quantity="one">%d meddelande blev inte synkroniserade</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Ta bort %1$s valda konversationer?</item>
+        <item quantity="other">Ta bort %1$s valda konversation?</item>
         <item quantity="one">Ta bort %1$s vald konversation?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">

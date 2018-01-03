@@ -97,6 +97,7 @@
     <string name="call_sim_menu_title_suffix">(Primär)</string>
     <string name="call_telex">Ring telex</string>
     <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Ring jobb</string>
     <string name="call_work_mobile">Ring jobbmobil</string>
@@ -142,7 +143,7 @@
     <string name="callrecordview_menu_show_all">Alla samtal</string>
     <string name="callrecordview_menu_show_called">Utgående samtal</string>
     <string name="callrecordview_menu_show_missed">Missade samtal</string>
-    <string name="callrecordview_menu_show_new">Nya kontaker</string>
+    <string name="callrecordview_menu_show_new">Nya kontakter</string>
     <string name="callrecordview_menu_show_sim">%s samtal</string>
     <string name="callrecordview_menu_show_stranger">Samtal från okända nummer</string>
     <string name="callrecordview_menu_show_title">Visa samtalshistorik</string>
@@ -179,7 +180,7 @@
     <string name="cloud_antispam_marked">Flaggade</string>
     <string name="cloud_antispam_title">Nummerpresentation</string>
     <string name="cloud_recommend_msg">Tryck för att synkronisera kontakter med Mi Cloud.</string>
-    <string name="cloud_state_disabled">Synkronisera med Mi Cloud är av</string>
+    <string name="cloud_state_disabled">Synkronisera kontakter med Mi Cloud</string>
     <string name="cloud_state_loading">Vänta en stund…</string>
     <string name="cloud_state_sync_finished">Synkroniserat med Mi Cloud</string>
     <string name="cloud_state_syncing">Synkroniserat med Mi Cloud</string>
@@ -214,8 +215,8 @@
     <string name="contact_detail_miprofile_accept_fail_toast">Det gick inte att byta kontakt kort</string>
     <string name="contact_detail_miprofile_accept_success_toast">Växla kontakt kort</string>
     <string name="contact_detail_miprofile_binded_label">Verifierad</string>
-    <string name="contact_detail_miprofile_exchange_closed">"Ingen telefon nummer är kopplat till detta Mi Konto
-Kontakt kort är avstängda"</string>
+    <string name="contact_detail_miprofile_exchange_closed">"Inget telefonnummer är kopplat till detta Mi-Konto
+Kontaktkort är avstängda"</string>
     <string name="contact_detail_miprofile_privacy_settings">Kräv tillstånd för att visa</string>
     <string name="contact_detail_miprofile_request">Byt kontaktkort</string>
     <string name="contact_detail_miprofile_request_fail_toast">Kunde inte sända begäran</string>
@@ -350,7 +351,7 @@ Kontakt kort är avstängda"</string>
     <string name="device_bluetooth_title">Överför kontakter</string>
     <string name="device_import_account_dialog_title">Välj ett konto</string>
     <string name="device_import_account_dialog_title_suffix">"
-(fann %1$s kontakter)"</string>
+(hittade %1$s kontakter)"</string>
     <string name="device_import_failed_message">Kunde inte importera</string>
     <string name="device_import_local_account">Lokalt konto</string>
     <string name="device_import_message">Importerar</string>
@@ -388,7 +389,7 @@ Kontakt kort är avstängda"</string>
     <string name="dialer_digits_copy_number_label">Kopierat nummer</string>
     <string name="dialer_empty_text_loading">Vänta lite…</string>
     <string name="dialer_empty_text_no_call_log">Inga nyligen använda kontakter</string>
-    <string name="dialer_empty_text_no_search_result">Inga kontakter funna</string>
+    <string name="dialer_empty_text_no_search_result">Inga kontakter hittades</string>
     <string name="dialer_menu_description">Visa menyer</string>
     <string name="dialer_menu_title">Menyalternativ</string>
     <string name="dialer_returnToInCallScreen">Återgå till pågående samtal</string>
@@ -481,6 +482,7 @@ Orsak: \"%s\""</string>
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="foundTooManyContacts">Fler än %d hittade.</string>
     <string name="frequentList">Frekvent</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Säkrar dina kontakter även om du tappar din telefon: synkronisera med en onlinetjänst.</string>
@@ -606,14 +608,14 @@ Orsak: \"%s\""</string>
     <string name="menu_bar_group_ringtone_largeui">Ringsignal</string>
     <string name="menu_bar_group_sms">SMS</string>
     <string name="menu_call">Ring kontakt</string>
-    <string name="menu_callNumber">Ring%s</string>
+    <string name="menu_callNumber">Ring %s</string>
     <string name="menu_call_ip_number">Ring ett IP samtal (slå ett nummer %s)</string>
     <string name="menu_clear_frequents">Rensa ofta kontaktade</string>
     <string name="menu_contacts_filter">Kontakter att visa</string>
     <string name="menu_copy">Kopiera</string>
     <string name="menu_copyContact">Kopiera till mina kontakter</string>
     <string name="menu_create_contact_shortcut">Placera på Hemskärmen</string>
-    <string name="menu_deleteContact">Radera kontakt</string>
+    <string name="menu_deleteContact">Ta bort kontakt</string>
     <string name="menu_deleteGroup">Radera</string>
     <string name="menu_dial_ip_number">Ring IP samtal</string>
     <string name="menu_dialpad_text">Knappsats</string>
@@ -663,6 +665,7 @@ Orsak: \"%s\""</string>
     <string name="miprofile_contact_header">Kontakter med kontakt kort</string>
     <string name="miprofile_contact_meaasge">Lokala kontakter</string>
     <string name="miprofile_contact_verifying">Verifierar</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontakt kort</string>
     <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -814,6 +817,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
@@ -906,7 +911,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="profileSavedErrorToast">Kunde inte spara mina profiländringar</string>
     <string name="profileSavedToast">Profil sparad</string>
     <string name="profile_binded_numbers">%s</string>
-    <string name="profile_delete_toast">Ta bortde profil framgångsrikt</string>
+    <string name="profile_delete_toast">Profilen borttagen</string>
     <string name="profile_display_name">Sätt upp min profil</string>
     <string name="profile_name">Min profil</string>
     <string name="profile_name_photo">Foto</string>
@@ -1047,6 +1052,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="sim_unloaded">SIM kortet är inte installerat</string>
     <string name="sina_weibo">Importera Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1128,8 +1134,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="type_voicemail">Röstbrevlåda</string>
     <string name="unable_get_device_id">Det går inte att få fram IMEI</string>
     <string name="unfold_all">Visa alla</string>
-    <string name="unknow_phone_number_call_failed">Det går inte att ringa okänt nummer</string>
-    <string name="unknow_phone_number_mms_failed">Det går inte att skicka meddelande till okänt nummer</string>
+    <string name="unknow_phone_number_call_failed">Det går inte att ringa okända nummer</string>
+    <string name="unknow_phone_number_mms_failed">Det går inte att skicka meddelanden till okända nummer</string>
     <string name="unknown">Okänd</string>
     <string name="unknown_contact_name">Okänd kontakt</string>
     <string name="unknown_details_add_to_contact">Existerande</string>
@@ -1178,6 +1184,7 @@ Välj en av följande alternativ:"</string>
     <string name="voip_audio_description">VoIP samtal</string>
     <string name="voip_video_description">VoIP video samtal</string>
     <string name="websiteLabelsGroup">Webbsida</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Rensa data</string>
     <string name="yellowPageNavigationIconLabel">Gula Sidorna</string>
     <string name="yellowPageNavigationLabel">Gula Sidorna</string>
@@ -1188,7 +1195,7 @@ Välj en av följande alternativ:"</string>
     <string name="yellowpage_navigation_clear_search_history">Rensa historik</string>
     <string name="yellowpage_navigation_more_items">Mer</string>
     <string name="yellowpage_navigation_more_items_title">Fler tjänster</string>
-    <string name="yellowpage_navigation_no_content">Fann ingenting</string>
+    <string name="yellowpage_navigation_no_content">Hittade ingenting</string>
     <string name="yellowpage_navigation_search_city_name_hint">Stad</string>
     <string name="yellowpage_navigation_search_history">Historik</string>
     <string name="yellowpage_navigation_search_offline_hint">Du är offline</string>

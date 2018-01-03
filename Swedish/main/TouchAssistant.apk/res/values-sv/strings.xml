@@ -5,9 +5,9 @@
     <string name="applications">Appar</string>
     <string name="category_others">Övriga</string>
     <string name="category_setting">Inställningar</string>
-    <string name="close_panel">Avaktivera Snabboll</string>
+    <string name="close_panel">Avaktivera Snabbmeny</string>
     <string name="customize_entries">Välj genvägar</string>
-    <string name="enable_touch_assistant">Aktivera Snabboll</string>
+    <string name="enable_touch_assistant">Aktivera Snabbmeny</string>
     <string name="enabled_for_pad_hint">Fungerar när \"Blocka navigeringsknapparna i landskapsläge\" är påslagen</string>
     <string name="function_settings">Genvägsinställningar</string>
     <string name="handy_mode_default_to_close_whether_open">Enhandsläge är av som standard. Vill du aktivera Enhandsläge?</string>
@@ -40,7 +40,7 @@
     <string name="nfc_trans_card_not_in_use">Transportkort är inte aktiverat</string>
     <string name="not_working">%s (Fungerar inte)</string>
     <string name="open">Aktivera</string>
-    <string name="open_panel">Aktivera Snabboll</string>
+    <string name="open_panel">Aktivera Snabbmeny</string>
     <string name="pay_entry_dialog_title_select">Välj app att öppna</string>
     <string name="pay_entry_dialog_title_setting">Välj app</string>
     <string name="pref_category_mipay">NFC-genväg</string>

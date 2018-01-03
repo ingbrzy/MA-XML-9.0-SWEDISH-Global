@@ -129,11 +129,11 @@
         <item quantity="one">Hoppade över %d låt. Aktivera onlinetjänster i inställningar för att lyssna på den.</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Har stängt av optimering av album och låttexter. Vill du återställa optimerad information av album och låttexter för %d låtar?</item>
-        <item quantity="one">Har stängt av optimering av album och låttexter. Vill du återställa optimerad information av album och låttexter för %d låt?</item>
+        <item quantity="other">Du kan automatisk välja att inte hitta skivomslag och låttexter för lokala låtar. Ta bort information för %d låtar?</item>
+        <item quantity="one">Du kan automatisk välja att inte hitta skivomslag och låttexter för lokala låtar. Ta bort information för %d låt?</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">Matchar album och låttext (%1$d/%2$d låtar)</item>
-        <item quantity="one">Matchar album och låttext (%1$d/%2$d låt)</item>
+        <item quantity="other">Söker efter skivomslag och låttexter (%1$d/%2$d)</item>
+        <item quantity="one">Söker efter skivomslag och låttexter (%1$d/%2$d)</item>
     </plurals>
 </resources>

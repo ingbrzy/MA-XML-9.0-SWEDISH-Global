@@ -29,7 +29,7 @@
     <string name="cloud_back_up_no_network_warn">Kan inte ansluta till Wi-Fi</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_frequence_choice_title">Backup schema</string>
-    <string name="cloud_back_up_frequence_long">Var 7: de dag</string>
+    <string name="cloud_back_up_frequence_long">Var 7:e dag</string>
     <string name="cloud_back_up_frequence_short">Varje dag</string>
     <string name="cloud_back_up_share_activity_title">Upgradera Mi Kontot</string>
     <string name="cloud_back_up_share_activity_discription">Få mer lagringsutrymme, dagliga säkerhetskopior, och mer.</string>
@@ -51,8 +51,8 @@
     <string name="self_phone">Den här telefonen</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="device_xiaomi">Mi Telefon</string>
-    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
-    <string name="size_unknown">Size unknown</string>
+    <string name="device_corrupt">Mi Phone (Data är korrupt)</string>
+    <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
     <string name="start_recover">Återställa %s</string>
     <string name="latest_backup_time_loading">Laddar…</string>
@@ -126,9 +126,12 @@
     <string name="btn_back">Bakåt</string>
     <string name="btn_continue">Fortsätt</string>
     <string name="btn_skip">Hoppa över detta steg</string>
+    <string name="btn_retry">Kolla igen</string>
     <string name="can_not_restore_in_lite_mode">Det går inte att återställa i begränsat läge</string>
     <string name="can_not_backup_in_lite_mode">Det går inte att backa upp i begränsat läge</string>
     <string name="restore_data_title">Återställa data</string>
+    <string name="provision_error_connect_msg">Du kan testa nätverket och försöka igen. Det går inte att skapa em säkerhetskopia utan ett fungerande nätverk.</string>
+    <string name="provision_error_connect_title">Kan inte ansluta</string>
     <string name="authentication_failed">Kunde inte verifiera konto.</string>
     <string name="no_account">Inte inloggad till Mi-konto.</string>
     <string name="no_backup">Hittade inga säkerhetskopior i Mi Cloud.</string>

@@ -46,8 +46,8 @@ Du måste godkänna våra användarvillkor och vår integritetspolicy innan du k
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Ställer in region…</string>
     <string name="agree_terms">Jag har läst och samtycker med användarvillkoren och integritetspolicyn.</string>
-    <string name="miui_terms_no_network">Du har ingen internet anslutning. Visa användarvillkoren på %s.</string>
-    <string name="miui_privacy_policy_no_network">Du har ingen internet anslutning. Visa integritetspolicyn på %s.</string>
+    <string name="miui_terms_no_network">Du har ingen internetanslutning. Visa användarvillkoren på %s.</string>
+    <string name="miui_privacy_policy_no_network">Du har ingen internetanslutning. Visa integritetspolicyn på %s.</string>
     <string name="locale_picker_title">Välj din region</string>
     <string name="install_preinstall_app">Laddar appar…</string>
     <string name="title_fingerprint">Ange lösenord</string>

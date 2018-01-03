@@ -10,6 +10,7 @@
     <string name="passport_skip_login">Hoppa över</string>
     <string name="passport_skip_setup_account_title">Hoppa över setup</string>
     <string name="passport_skip_setup_account_msg">Du kan ställa in en Mi-konto senare i Inställningar.</string>
+    <string name="passport_confirm_login">Fortsätt</string>
     <string name="passport_find_password_on_web_msg">Besök account.mi.com för att återställa ditt lösenord.</string>
     <string name="passport_title_reg">Skapa ett konto</string>
     <string name="passport_reg_prompt">Har du inte ett Mi konto? Skapa ett gratis.</string>
@@ -94,13 +95,13 @@ För att aktivera ditt konto, följ
     <string name="passport_vcode_prompt_long">Fyll i verifieringskod</string>
     <string name="passport_input_phone_hint">Ange telefonnummer</string>
     <string name="passport_error_empty_username">Fyll i ditt konto-ID</string>
-    <string name="passport_error_invalid_phone_num">Ogiltligt telefonnummer</string>
+    <string name="passport_error_invalid_phone_num">Ogiltigt telefonnummer</string>
     <string name="passport_error_empty_phone_num">Ange telefonnummer</string>
     <string name="passport_wrong_phone_number_format">Formatet på det telefonnummer som du angav är ogiltigt</string>
     <string name="passport_error_empty_email">Skriv in din e-postadress</string>
     <string name="passport_error_email">Den e-postadress du angav är ogiltig</string>
     <string name="passport_error_empty_pwd">Ange ditt lösenord</string>
-    <string name="passport_error_illegal_pwd">Ogiltligt lösenord</string>
+    <string name="passport_error_illegal_pwd">Ogiltigt lösenord</string>
     <string name="passport_error_empty_captcha_code">Ange captcha</string>
     <string name="passport_error_empty_vcode">Fyll i verifieringskod</string>
     <string name="passport_i_know">Jag förstår</string>
@@ -141,14 +142,14 @@ För att aktivera ditt konto, följ
     <string name="passport_verification_failed">Autentiseringen misslyckades</string>
     <string name="passport_reset_fail_title">Kunde inte återställa</string>
     <string name="passport_identification_expired">Verifieringkod gått ut, starta om</string>
-    <string name="passport_bad_authentication">Ogiltligt användarnamn eller lösenord</string>
+    <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
     <string name="passport_error_user_name">Användarnamnet du angav är ogiltigt.</string>
     <string name="passport_access_denied">Nekat tillträde</string>
     <string name="passport_wrong_captcha">Koden du angav är felaktig</string>
     <string name="passport_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_error_device_id">Kan inte hämta enhets-Id</string>
     <string name="passport_error_invalid_dev_id">Ditt enhets ID är ogiltigt.</string>
-    <string name="passport_error_phone_error">Ogiltligt telefonnummer</string>
+    <string name="passport_error_phone_error">Ogiltigt telefonnummer</string>
     <string name="passport_error_sim_not_ready">Kan inte hitta SIM-kortet</string>
     <string name="passport_error_network">Kan inte ansluta till nätverket</string>
     <string name="passport_error_ssl_hand_shake">Det gick inte att ansluta till servern</string>
@@ -166,6 +167,7 @@ För att aktivera ditt konto, följ
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
     <string name="passport_barcode_add_account_prompt">För att ansluta ett konto, skanna QR-koden igen efter du har loggat in.</string>
     <string name="passport_password_phone_login">Logga in med Mi konto</string>
+    <string name="passport_sms_verification_code_login">SMS verification code login</string>
     <string name="passport_login_other_account">Annat konto</string>
     <string name="passport_reg_new_account">Skapa konto</string>
     <string name="passport_select_the_login_account">Välj kontot för att logga in</string>
@@ -300,7 +302,7 @@ För att aktivera ditt konto, följ
     <string name="restart_action">Börja om</string>
     <string name="error_dup_binded_email">Detta telefonnummer är redan kopplat till ett annat Mi-konto.</string>
     <string name="error_invalid_bind_address">Denna epostadress är ogiltig.</string>
-    <string name="get_phone_bind_exceed_limit">Du kan associerar upp till 5 Mi-Konton med ett telefonummer. Kan inte lägga till ett nytt konto.</string>
+    <string name="get_phone_bind_exceed_limit">Du kan associerar upp till 5 Mi-Konton med ett telefonnummer. Kan inte lägga till ett nytt konto.</string>
     <string name="just_a_second">Vänta en stund…</string>
     <string name="get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats tlll det här numret. Vänta 24 tim och försök igen.</string>
     <string name="mi_account_identity_title">Verifiera din identitet</string>
@@ -399,7 +401,7 @@ För att aktivera ditt konto, följ
     <string name="delete_browser">Ta bort webbläsare</string>
     <string name="confirm_delete_device_message">Efter när du har raderat den här enheten, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
     <string name="confirm_delete_app_message">Efter när du har raderat den här app, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
-    <string name="confirm_delete_browser_message">Efter när du har raderat den här webläsare, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
+    <string name="confirm_delete_browser_message">Efter när du har raderat den här webbläsare, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
     <string name="delete_lock_device_success">Raderats</string>
     <string name="verify_phone_title">Verifiera telefonnummer</string>
     <string name="verify_phone_prompt">Välj telefonnummer för att verifiera</string>

@@ -21,7 +21,7 @@
     <string name="error_app_internal">Kontrollera om en annan app för närvarande använder inspelningsfunktionen.</string>
     <string name="error_app_internal_title">Ljudinspelnings fel</string>
     <string name="error_file_access">Filen finns inte eller har blivit skadad</string>
-    <string name="delete_dialog_message">Radera inspelning?</string>
+    <string name="delete_dialog_message">Ta bort inspelning?</string>
     <string name="notification_recording">Inspelning…</string>
     <string name="notification_recording_ticker">Telefon tystad</string>
     <string name="notification_playback">Spelar…</string>
@@ -35,8 +35,8 @@
     <string name="record_list_cloud_call">Synkronisera inspelade samtal</string>
     <string name="call_record">Inspelade samtal</string>
     <string name="no_file">Tom</string>
-    <string name="alert_message_delete_record_title">Radera inspelning?</string>
-    <string name="alert_message_delete_record">Radera inspelning från enheten kommer också att ta bort denna inspelning från Mi Cloud. Radera nu?</string>
+    <string name="alert_message_delete_record_title">Ta bort inspelning?</string>
+    <string name="alert_message_delete_record">Om inspelningen tas bort från enheten kommer också att tas bort denna inspelning från Mi Cloud. Ta bort nu?</string>
     <string name="share">Dela</string>
     <string name="rename">Byt namn</string>
     <string name="delete">Ta bort</string>

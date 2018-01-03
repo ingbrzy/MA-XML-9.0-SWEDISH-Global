@@ -33,8 +33,8 @@
         <item quantity="one">%1$d min sedan</item>
     </plurals>
     <plurals name="batch_delete_msg">
-        <item quantity="other">Ta bort%1$d kontakter?</item>
-        <item quantity="one">Ta bort%1$d kontakt?</item>
+        <item quantity="other">Ta bort %1$d kontakter?</item>
+        <item quantity="one">Ta bort %1$d kontakt?</item>
     </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">Ta bort %1$d kontakter</item>
@@ -125,8 +125,8 @@
         <item quantity="one">%1$d vald</item>
     </plurals>
     <plurals name="num_contacts_in_group">
-        <item quantity="other">%1$dpersoner från%2$s</item>
-        <item quantity="one">%1$dperson från%2$s</item>
+        <item quantity="other">%1$d personer från %2$s</item>
+        <item quantity="one">%1$d person från %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
         <item quantity="other">%0$d grupper</item>

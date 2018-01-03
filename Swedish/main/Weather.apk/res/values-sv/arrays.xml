@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="aqi_detail_title">
+        <item>Bra</item>
+        <item>Måttlig</item>
+        <item>Ohälsosamt för känsliga grupper</item>
+        <item>Ohälsosamt</item>
+        <item>Mycket ohälsosamt</item>
+        <item>Mycket farlig</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Bra</item>
+        <item>Tillfredsställande</item>
+        <item>Måttligt förorenat</item>
+        <item>Dålig</item>
+        <item>Mycket dålig</item>
+        <item>Svår</item>
+        <item>Överstiger index</item>
+    </string-array>
+    <string-array name="breeze">
+        <item>&lt;Styrka 2</item>
+        <item>&lt;6.0km/h</item>
+        <item>&lt;1.7m/s</item>
+        <item>&lt;3.7mph</item>
+        <item>&lt;3.2kn</item>
+    </string-array>
     <string-array name="hot_city">
         <item>Peking</item>
         <item>Shanghai</item>
@@ -25,37 +73,32 @@
         <item>Seoul</item>
         <item>Kuala Lumpur</item>
     </string-array>
-    <string-array name="aqi_title_prefix">
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
+    <string-array name="indices_car_wash">
+        <item>Lämpligt</item>
+        <item>Olämpligt</item>
     </string-array>
-    <string-array name="aqi_title_append">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
+    <string-array name="indices_sport">
+        <item>Lämplig</item>
+        <item>Olämpligt</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
-    <string-array name="aqi_detail_title">
-        <item>Bra</item>
+    <string-array name="indices_uv_level">
+        <item>Låg</item>
         <item>Måttlig</item>
-        <item>Ohälsosamt för känsliga grupper</item>
-        <item>Ohälsosamt</item>
-        <item>Mycket ohälsosamt</item>
-        <item>Mycket farlig</item>
+        <item>Hög</item>
+    </string-array>
+    <string-array name="minute_rain_array">
+        <item>Tung</item>
+        <item>Måttlig</item>
+        <item>Lätt</item>
+    </string-array>
+    <string-array name="pollution_level_desc_arr">
+        <item>Utmärkt</item>
+        <item>Bra</item>
+        <item>Lätt förorenat</item>
+        <item>Måttligt förorenat</item>
+        <item>Kraftigt förorenat</item>
+        <item>Allvarligt förorenat</item>
+        <item>Överstiger index</item>
     </string-array>
     <string-array name="weather_type">
         <item>Klart</item>
@@ -70,7 +113,7 @@
         <item>Kraftigt regnfall</item>
         <item>Måttligt regn</item>
         <item>Duggregn</item>
-        <item>Snöblandat regn</item>
+        <item>Regn och snö blandat</item>
         <item>Snöstorm</item>
         <item>Snö</item>
         <item>Tung snö</item>
@@ -85,19 +128,6 @@
         <item>Dis</item>
         <item>Frysande regn</item>
         <item></item>
-    </string-array>
-    <string-array name="indices_uv_level">
-        <item>Låg</item>
-        <item>Måttlig</item>
-        <item>Hög</item>
-    </string-array>
-    <string-array name="indices_sport">
-        <item>Lämplig</item>
-        <item>Olämpligt</item>
-    </string-array>
-    <string-array name="indices_car_wash">
-        <item>Lämpligt</item>
-        <item>Olämpligt</item>
     </string-array>
     <string-array name="wind_direction">
         <item>Norr</item>
@@ -134,29 +164,6 @@
         <item>11</item>
         <item>12</item>
     </string-array>
-    <string-array name="aqi_value">
-        <item>Bra</item>
-        <item>Tillfredsställande</item>
-        <item>Måttligt förorenat</item>
-        <item>Dålig</item>
-        <item>Mycket dålig</item>
-        <item>Svår</item>
-        <item>Överstiger index</item>
-    </string-array>
-    <string-array name="wind_unit_simple">
-        <item>Beaufortskalan</item>
-        <item>km/h</item>
-        <item>m/s</item>
-        <item>mph</item>
-        <item>kn</item>
-    </string-array>
-    <string-array name="breeze">
-        <item>&lt;Styrka 2</item>
-        <item>&lt;6.0km/h</item>
-        <item>&lt;1.7m/s</item>
-        <item>&lt;3.7mph</item>
-        <item>&lt;3.2kn</item>
-    </string-array>
     <string-array name="wind_unit_detail">
         <item>Beaufortskalan</item>
         <item>Kilometer per timme (km/h)</item>
@@ -171,18 +178,11 @@
         <item>%1$smph</item>
         <item>%1$skn</item>
     </string-array>
-    <string-array name="minute_rain_array">
-        <item>Tung</item>
-        <item>Måttlig</item>
-        <item>Lätt</item>
-    </string-array>
-    <string-array name="pollution_level_desc_arr">
-        <item>Utmärkt</item>
-        <item>Bra</item>
-        <item>Lätt förorenat</item>
-        <item>Måttligt förorenat</item>
-        <item>Kraftigt förorenat</item>
-        <item>Allvarligt förorenat</item>
-        <item>Överstiger index</item>
+    <string-array name="wind_unit_simple">
+        <item>Beaufortskalan</item>
+        <item>km/h</item>
+        <item>m/s</item>
+        <item>mph</item>
+        <item>kn</item>
     </string-array>
 </resources>

@@ -32,6 +32,14 @@
         <item quantity="other">%d appar</item>
         <item quantity="one">%d app</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network in the background</item>
+        <item quantity="one">%d app can connect to the network in the background</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network in the background"</item>
+        <item quantity="one">"%d app can't connect to the network in the background"</item>
+    </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Du har överskridit din %s dagliga datagräns.</item>
         <item quantity="one">Du har överskridit din %s dagliga datagräns.</item>
@@ -59,6 +67,10 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">%d appar hittades</item>
         <item quantity="one">%d app hittad</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d app fungerar inte korrekt och drar mycket ström</item>
@@ -259,10 +271,6 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="app_manager_start_count">
         <item quantity="other">%d gånger</item>
         <item quantity="one">%d gång</item>
-    </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">Blockerad %d gånger</item>
-        <item quantity="one">Blockerad %d gång</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Använd för %d dagar sedan</item>

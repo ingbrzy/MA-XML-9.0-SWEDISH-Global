@@ -65,7 +65,7 @@
     <string name="class_0_message_activity">Klass 0-meddelande</string>
     <string name="close">Stäng</string>
     <string name="cloud_recommend_msg">Tryck för att synkronisera meddelanden mot Mi Cloud.</string>
-    <string name="cloud_state_disabled">Synkronisering mot Mi Cloud är avstängt</string>
+    <string name="cloud_state_disabled">Slå på synkronisering med Mi Cloud för att synkronisera meddelande</string>
     <string name="cloud_state_sync_finished">Synkroniserat med Mi Cloud</string>
     <string name="cloud_state_syncing">Synkroniserar mot Mi Cloud…</string>
     <string name="compressing">Bilden är för stor. Komprimerar...</string>
@@ -74,7 +74,7 @@
     <string name="confirm_delete_SIM_message">Radera det här meddelandet på SIM-kortet?</string>
     <string name="confirm_delete_all_SIM_messages">Radera alla meddelanden på SIM-kort?</string>
     <string name="confirm_delete_all_conversations">Ta bort alla konversationer?</string>
-    <string name="confirm_delete_conversation">Radera hela tråden?</string>
+    <string name="confirm_delete_conversation">Ta bort den här konversationen?</string>
     <string name="confirm_delete_group_message">Radera gruppmeddelanden?</string>
     <string name="confirm_delete_locked_message">Radera låst meddelande?</string>
     <string name="confirm_delete_message">Radera detta meddelande?</string>
@@ -159,7 +159,7 @@
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">Meddelandestorleksgräns har nåtts.</string>
     <string name="exceed_message_size_limitation_add_slide">Meddelandestorleken är inte tillräcklig för att lägga till en bild</string>
-    <string name="exceed_message_text_limitation">Meddelandelängdsgräns har nåtts.</string>
+    <string name="exceed_message_text_limitation">Max antal tecken i Meddelandet har nåtts.</string>
     <string name="expire_on">Utgår: %s</string>
     <string name="exporting_progress_private_message">Exporterar…</string>
     <string name="fail_to_add_attachment">Kunde inte bifoga</string>
@@ -179,6 +179,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -271,7 +272,7 @@
     <string name="msg_type_hint_mms_omit">MMS</string>
     <string name="msg_type_hint_mx">Mi Message</string>
     <string name="msg_type_hint_mx_omit">Mi Msg</string>
-    <string name="msg_type_hint_sms">Textmeddelande</string>
+    <string name="msg_type_hint_sms">Skicka meddelande</string>
     <string name="msg_type_hint_sms_omit">SMS</string>
     <string name="msglist_continue_to_pull_for_more">Svep nedåt för att se mera</string>
     <string name="msglist_more_refreshing">Uppdaterar…</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickad: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -544,7 +546,7 @@
     <string name="sim_copy_to_phone_memory">Kopiera till telefonens minne</string>
     <string name="sim_delete">Radera</string>
     <string name="sim_empty">Inga textmeddelanden på SIM-kortet</string>
-    <string name="sim_full_body">Radera några meddelande för att göra plats för fler.</string>
+    <string name="sim_full_body">Ta bort några meddelande för att göra plats för fler.</string>
     <string name="sim_full_title">SIM-kortet fullt</string>
     <string name="sim_manage_messages_title">Textmeddelanden på SIM-kortet</string>
     <string name="sim_view">Visa</string>

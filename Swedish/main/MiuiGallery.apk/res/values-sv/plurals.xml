@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="add_secret_ensure_message">
-        <item quantity="other">Dölja filerna?</item>
-        <item quantity="one">Dölja filen?</item>
+        <item quantity="other">Dölj filerna?</item>
+        <item quantity="one">Dölj filen?</item>
     </plurals>
     <plurals name="add_to_album_cloud_photo_count_tip">
         <item quantity="other">Lade till %d bilder i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
@@ -62,10 +62,10 @@
     </plurals>
     <plurals name="cloud_storage_photo_num">
         <item quantity="other">%d foton</item>
-        <item quantity="one">%d foton</item>
+        <item quantity="one">%d foto</item>
     </plurals>
     <plurals name="cloud_storage_video_num">
-        <item quantity="other">%d video</item>
+        <item quantity="other">%d videor</item>
         <item quantity="one">%d video</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
@@ -197,8 +197,8 @@
         <item quantity="one">Hoppade över ett foto som inte finns på enheten.</item>
     </plurals>
     <plurals name="quickly_discovery_message_format">
-        <item quantity="other">Fann %1$d nya foton</item>
-        <item quantity="one">Fann ett nytt foto</item>
+        <item quantity="other">Hittade %1$d nya foton</item>
+        <item quantity="one">Hittade ett nytt foto</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">Totalt %d bilder</item>

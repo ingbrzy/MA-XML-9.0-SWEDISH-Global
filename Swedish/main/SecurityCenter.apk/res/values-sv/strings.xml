@@ -36,7 +36,8 @@
     <string name="dlg_clear_current_call">Rensa alla blockerade samtal från detta nummer?</string>
     <string name="dlg_clear_all_ok">Rensa allt</string>
     <string name="dlg_clear_current_ok">Rensa</string>
-    <string name="dlg_no_block">Häv blockering av detta nummer och återställ samtal till samtalshistoriken?</string>
+    <string name="dlg_no_block">"Unblock this phone number ?
+It will be added to exceptions, but previously blocked items won't appear in call history."</string>
     <string name="dlg_no_block_ok">Ta bort blockering</string>
     <string name="dlg_add_blacklist_title">Lägg till i blockeringslistan</string>
     <string name="dlg_add_blacklist">Blockera detta nummer?</string>
@@ -62,6 +63,14 @@
     <string name="dlg_antispam_mode_delete_message">Du kan inte återställa regler efter att de har raderats.</string>
     <string name="dlg_antispam_using_mode_delete_message">Ta bort reglerna du för närvarande använder och ändra tillbaka till blockeringslistans standardregler?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">Ta bort reglerna du för närvarande använder och ändra tillbaka till blockeringslistans standardregler?</string>
+    <string name="back_sound_success">Success!</string>
+    <string name="back_sound_fail">Failed！</string>
+    <string name="back_sound_support">"The current network operators doesn't support it！"</string>
+    <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
+    <string name="dlg_move_to_white">Add to exceptions</string>
+    <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
+    <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
+    <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
     <string name="menu_call">Ring</string>
     <string name="menu_sms">Skicka meddelande</string>
     <string name="menu_bl_call_log">Visa blockerade samtal</string>
@@ -73,6 +82,7 @@
     <string name="menu_remove">Ta bort</string>
     <string name="st_settings_name">Inställningar för blockeringslista</string>
     <string name="st_filter_keywords_setting_summary1">Meddelanden från okända nummer som innehåller orden i denna listan kommer att blockeras.</string>
+    <string name="st_filter_keywords_setting_summary3">Meddelanden från okända nummer som innehåller orden i denna listan kommer att tillåtas.</string>
     <string name="st_filter_keywords_setting_summary2">"
 (Använd ett kommatecken för att separera flera nyckelord)"</string>
     <string name="label_callwait">Notifikation om att samtal väntar</string>
@@ -163,7 +173,8 @@
     <string name="st_title_open_antispam">Blockeringslista</string>
     <string name="st_title_antispam_mode">Regler</string>
     <string name="st_sub_title_whiteblack_list_group">Blockeringslista</string>
-    <string name="st_title_keywords_blacklist">Nyckelordsfilter</string>
+    <string name="st_title_keywords_blacklist">Svartlista för nyckelord</string>
+    <string name="st_title_keywords_whitelist">Vitlista för nyckelord</string>
     <string name="st_title_blacklist_numbers">Blockerade nummer</string>
     <string name="st_title_whitelist_numbers">Undantag</string>
     <string name="st_title_backsound_group">Frånvaromeddelande</string>
@@ -181,7 +192,7 @@
     <string name="st_antispam_title_contactandanoy_group">Inställningar</string>
     <string name="st_antispam_title_contact_sms">Meddelanden från kontakter</string>
     <string name="st_antispam_title_contact_incoming">Samtal från kontakter</string>
-    <string name="st_antispam_title_anoy_sms">Meddelanden från främlingar</string>
+    <string name="st_antispam_title_anoy_sms">Meddelanden från okända</string>
     <string name="st_antispam_title_anoy_incoming">Samtal från främlingar</string>
     <string name="st_antispam_title_null_incoming">Privata nummer</string>
     <string name="st_antispam_title_service_sms">Notifikation för tjänster</string>
@@ -269,7 +280,9 @@
     <string name="st_msg_intercept_contacts">Blockera SMS från kontakter</string>
     <string name="st_msg_stranger_group">Blockera SMS från okända</string>
     <string name="st_msg_other_group">Övrigt</string>
-    <string name="st_msg_keyword_group">Blockeringslista för nyckelord</string>
+    <string name="st_msg_keyword_group">Nyckelord</string>
+    <string name="st_msg_keyword_black">Blockeringslista för nyckelord</string>
+    <string name="st_msg_keyword_white">Undantag för nyckelord</string>
     <string name="st_call_settings">Blockeringslista för samtal</string>
     <string name="st_call_intercept_stranger">Blockera samtal från okända</string>
     <string name="st_call_intercept_forwarding">Blockera vidarekopplade samtal</string>
@@ -335,7 +348,7 @@
  4. Det kan vara ett fel i datan från operatören. Försök med operatörsdiagnostik för lösa det.
  5. Hjälper inget? Tryck \"Rapportera via SMS\" för skicka din feedback till Xiaomi i ett meddelande."</string>
     <string name="card_sms_report">Rapportera via SMS</string>
-    <string name="main_normal_data_usage">Använd mobildata</string>
+    <string name="main_normal_data_usage">Mobildata som har använts</string>
     <string name="main_tc_send_sms">"Skicka SMS
 för att kalibrera"</string>
     <string name="main_tc_wait_result">"Väntar på att operatören
@@ -361,6 +374,7 @@ ska svara"</string>
     <string name="firewall_restrict_android_dialog_content">För att din enhet ska fungera normalt kommer några av Androids systemappar att fortfarande ansluta till internet. Dessa appar kommer använda anslutningen för mobildata och kan generera mindre kostnader från din operatör.</string>
     <string name="background_restrict_app_dialog_message">Att begränsa tillgång till nätverket i bakgrunden för denna appen kan gör det omöjligt för appen att fungera normalt, ta emot meddelande, ladda ner innehåll, etc. Begränsa ändå?</string>
     <string name="firewall_allow_network">Tillåt</string>
+    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
     <string name="firewall_network_allow">Tillåt %1$s att använda %2$s anslutning</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="firewall_mobile_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med mobildata när denna funktion är av.</string>
@@ -388,7 +402,8 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
-    <string name="pref_package_traffic_settings">Gräns för mobildata</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
+    <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
     <string name="pref_title_update_notification">Notifikation om användning av mobildata</string>
@@ -396,6 +411,7 @@ ska svara"</string>
     <string name="pref_title_traffic_speed_state">Visa nätverkshastighet</string>
     <string name="pref_title_declaration">Viktig friskrivning</string>
     <string name="pref_new_installed_preconfig_title">Nya appars standardinställningar</string>
+    <string name="pref_bg_network_title">Background connection</string>
     <string name="pref_mi_sim_settings">Mi SIM-inställningar</string>
     <string name="pref_title_upload_data_usage">Rapportera dataanvändning</string>
     <string name="pref_summary_upload_data_usage">Rapportera din dataanvändning för att hjälpa oss att förbättra MIUI. Att rapportera överensstämmer med vår Integritetspolicy.</string>
@@ -631,7 +647,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">Tillåt mobildata roaming?</string>
     <string name="title_limit_traffic_per_day">Daglig gräns för dataanvändning</string>
-    <string name="daily_limit_and_lock_screen">Datagräns &amp; notifikationer</string>
+    <string name="daily_limit_and_lock_screen">Varning för dataanvändning</string>
     <string name="pref_title_traffic_limit_number">Storlek</string>
     <string name="pref_title_over_traffic_limit_warning">Vid överskridelse</string>
     <string name="reach_daily_limit_value_title">Daglig datagräns nådd</string>
@@ -646,7 +662,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="lock_screen_warning_switch_title">Visa varningar på låsskärmen</string>
     <string name="lock_screen_warning_switch_summary">Visa varningar på låsskärmen när dataanvändning överskrider en viss gräns</string>
     <string name="lock_screen_warning_value">Varning för dataanvändning</string>
-    <string name="pref_normal_traffic_limit">När din dagliga datagräns överskrids</string>
+    <string name="pref_normal_traffic_limit">När din data i ditt mobildataabonnemang överskrids</string>
     <string name="pref_over_traffic_limit">När du överskrider din gräns för dataanvändning</string>
     <string name="traffic_warning_purchase_title">Varning för mobildata användning</string>
     <string name="traffic_purchase_body">Tryck för att fylla på ditt saldo.</string>
@@ -661,14 +677,14 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="main_toolbar_internet_by_wifi">Wi-Fi</string>
     <string name="main_toolbar_internet_by_mobiledata">Mobildata</string>
     <string name="connect_internet_by_usbshare">Delade internet över USB</string>
-    <string name="connect_internet_by_mobiledata">Mobildata anslutning</string>
+    <string name="connect_internet_by_mobiledata">Anslutning för mobildata</string>
     <string name="connect_internet_by_wifi">Wi-Fi</string>
     <string name="unable_connect_internet">Ingen internetanslutning</string>
     <string name="enable_network">Aktivera nätverket först</string>
     <string name="disable_air_mode">Avaktivera flygplansläge först</string>
     <string name="repair">Reparera</string>
     <string name="check_network_state">Testa nätverk</string>
-    <string name="current_network_state_not_need_diagnose">Internet anslutningen är normal.</string>
+    <string name="current_network_state_not_need_diagnose">Internetanslutningen är normal.</string>
     <string name="apn_exception_title">Kontrollera APN</string>
     <string name="apn_exception_summary">Testa operatörens accesspunkt (APN)</string>
     <string name="dns_exception_title">Kontrollera DNS inställningar</string>
@@ -744,8 +760,8 @@ Läs instruktionerna till din router för att återställa den till fabriksinst�
 
 "<b>5. Kontrollera att din router är ansluten</b>"
 Försök med en annan nätverkskabel. Om du misstänker att det är ett problem med anslutningen, kontakta din internetleverantör."</string>
-    <string name="permission_exception_title">Visa nätverksbehörigheter</string>
-    <string name="permission_exception_summary">Vissa appar har inte tillstånd att ansluta till internet</string>
+    <string name="permission_exception_title">Restricted connection for apps</string>
+    <string name="bg_network_exception_title">Restricted background connection</string>
     <string name="networkchanged_exception_title">Anslutning ändrad</string>
     <string name="networkchanged_exception_summary">Nätverksanslutningen har ändrats. Försök igen.</string>
     <string name="network_test_speed">Testa hastigheten på Wi-Fi</string>
@@ -802,8 +818,6 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="diagnostic_attention_dialog_message">Diagnostik för %1$s körs. Vänta tills den är färdig och försök igen.</string>
     <string name="correction_attention_dialog_message">Justerar inställningar nu. Vänta tills det är färdigt och försök igen.</string>
     <string name="text_button">Jag förstår</string>
-    <string name="vpn_unbale_get_phonenum">Kan inte hämta telefonnumret med designerad datagräns</string>
-    <string name="vpn_disabled_by_user">Designerad dataanslutning är av</string>
     <string name="btn_back">Tillbaka</string>
     <string name="firewall_allow_data">Tillåt mobildataanvändning</string>
     <string name="firewall_restrict_data">Begränsa mobildataanvändning</string>
@@ -865,8 +879,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="optimize_result_available_memory_info">Tillgängligt minne</string>
     <string name="optimize_result_title_uninstall_apps">Appar</string>
     <string name="om_settings_title">Optimeringsinställningar</string>
-    <string name="om_settings_lock_app_manage">Låsappar</string>
-    <string name="om_settings_lock_app">Låsappar</string>
+    <string name="om_settings_lock_app_manage">Låsta appar</string>
+    <string name="om_settings_lock_app">Låsta appar</string>
     <string name="om_settings_speed_up_auto">Automatisk hastighetsökning</string>
     <string name="om_settings_memory_clean_lock_screen">Rensa cache när enheten är låst</string>
     <string name="om_settings_notify_manage">Notifikationer</string>
@@ -900,6 +914,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1254,7 +1269,7 @@ din enhet"</string>
     <string name="resource_antivirus">Virussökning</string>
     <string name="keywords_antivirus">Virus;Risk;Antivirus;Scan;Kontrollera betalningssäkerhet;betalningssäkerhet;säker betalning;säkra betalningar;betalningsskydd;skydda betalningar;betalningsskydd;säker zon;betalningszon</string>
     <string name="path_antivirus">Systemappar/Säkerhet/Virus sökning</string>
-    <string name="resource_powercenter">Batteri användning</string>
+    <string name="resource_powercenter">Batterianvändning</string>
     <string name="keywords_powercenter">Spara batteri;Överhettning;Avaktivera;Aktivera;Batteri;Dränera;Batteri;Batteriproblem;Ström;Dränerar;Överhettning;Batterisparare;Spara ström;Strömsparare;Spara Batteri</string>
     <string name="path_powercenter">Systemappar/Säkerhet/Batterianvändning</string>
     <string name="resource_auto_restart">Hantera autostart</string>
@@ -1302,6 +1317,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1532,7 +1548,7 @@ din enhet"</string>
     <string name="title_cleaner_cloudscan">Papperskorg i Molnet</string>
     <string name="summary_cleaner_cloudscan">Ladda upp och jämför mappnamn med definitioner från internet</string>
     <string name="title_xiaomi_roaming">Mi Roaming</string>
-    <string name="summary_xiaomi_roaming">CNY 0.01/MB för mobil data roaming.</string>
+    <string name="summary_xiaomi_roaming">CNY 0.01/MB för mobildata roaming.</string>
     <string name="toast_network_switch">Den här appen kan inte ansluta till Internet</string>
     <string name="toast_flow_notification">Aktiverade notifikationer om dataanvändning</string>
     <string name="toast_auto_traffic_correct">Dataanvändning justeras automatiskt</string>
@@ -1662,6 +1678,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1869,28 +1886,11 @@ din enhet"</string>
     <string name="app_manager_force_stop_dlg_text">Om du tvingar en app att avsluta kan leda till att den inte kommer fungera korrekt.</string>
     <string name="app_manager_dlg_ok">OK</string>
     <string name="app_manager_dlg_cancel">Avbryt</string>
-    <string name="app_manager_wake_path_card_title">Historik för kedjestart (2 dagar)</string>
     <string name="app_manager_show_detail_infos">Visa alla</string>
-    <string name="app_manager_wakepath_dialog_title">Om kedjestart</string>
-    <string name="app_manager_wakepath_dialog_summary">Kedjestart innebär att en app startar en annan app i bakgrunden. Det kan dra mycket batteri och försämra prestandan för systemet. MIUI blockerar normalt kedjestarter.</string>
-    <string name="app_manager_wakepath_dialog_buttontext">Jag förstår</string>
-    <string name="app_manager_stop_wakepath_dialog_title">Begränsa kedjestart</string>
-    <string name="app_manager_stop_wakepath_dialog_summary">Avinstallera %s för att begränsa kedjestarter?</string>
-    <string name="app_manager_stop_wakepath_dlg_msg_with_xspace_app">Att avinstallera denna appen kommer begränsa en kedjestart. Den andra instansen av Dual app kommer också avinstalleras. Avinstallera %s?</string>
-    <string name="app_manager_stop_wp_dialog_cancel">Avbryt</string>
-    <string name="app_manager_stop_wp_dialog_uninstall">Avinstallera</string>
-    <string name="app_manager_reduce_wakepath_dialog">Minimera kedjestarter</string>
-    <string name="app_manager_reduce_wakepath_summary">Begränsa automatiska starter kommer minimera kedjestarter. Begränsa automatisk start för %s?</string>
-    <string name="app_manager_rebide_wakepath">Begränsa</string>
-    <string name="app_manager_stop_wakepath_success">Begränsad</string>
-    <string name="app_maanger_app_uninstalled_toast">Den här appen är avinstallerad</string>
     <string name="app_manager_start_by">Startad av %s</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation av en dual app kommer ta bort all applikationsdata för alla instanser av appen.</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av den Dual app kommer tas bort samt all applikationsdata.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera dual app?</string>
-    <string name="app_manager_reject_count_over">Blockered 100000+ gånger</string>
-    <string name="app_manager_start_count_over">100000+ gånger</string>
-    <string name="app_manager_loading_data">Laddar data…</string>
     <string name="app_manager_appupdate_remind">Meddela om uppdateringar</string>
     <string name="app_usage_never">Aldrig använd</string>
     <string name="app_usage_recently">Nyligen använd</string>
@@ -1906,7 +1906,6 @@ din enhet"</string>
     <string name="app_manager_powerkeeper_miui_auto">MIUI batterisparfunktioner</string>
     <string name="app_manager_powerkeeper_restrict_bg">Begränsa bakgrundsappar</string>
     <string name="app_manager_powerkeeper_no_bg">Begränsa bakgrundsaktivitet</string>
-    <string name="app_manager_instruction">Instruktion</string>
     <string name="app_manager_app_storage">"Lagring: "</string>
     <string name="app_manager_app_traffic">"Dataanvänding: "</string>
     <string name="app_manager_app_power">"Batterianvänding: "</string>
@@ -1976,6 +1975,9 @@ din enhet"</string>
     <string name="app_manager_support_uninstall">Du kan avinstallera dessa appar</string>
     <string name="app_manager_not_support_uninstall">K inte att avinstallera den här appen</string>
     <string name="app_manager_comuting_size">Räknar…</string>
+    <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
+    <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
+    <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
     <string name="ad_btn_default_text">Läs mer</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="low_memory_warning_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -2049,6 +2051,8 @@ din enhet"</string>
     <string name="more_game">Fler spel</string>
     <string name="sys_title_gamebooster_unit_gb">G</string>
     <string name="sys_title_gamebooster_unit_mb">M</string>
+    <string name="gmscore_support_service">Google Services</string>
+    <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
     <string name="google_base_app_install_choice">\"%s\" kräver Google Service Framework för att fungera normalt, ladda ned och installera dem?</string>
     <string name="application_item_disable">Begränsad</string>
     <string name="application_item_already_permission">Tillåten</string>
@@ -2066,6 +2070,8 @@ din enhet"</string>
     <string name="scan_installed_games">Kontrollerar installerade spel…</string>
     <string name="boostering">Ökar hastigheten…</string>
     <string name="booster_suc">Ökad framgångsrikt</string>
+    <string name="auto_booster_suc">Boosted successfully</string>
+    <string name="auto_back_booster">Stop boosting</string>
     <string name="support_game_booster_tips">Öka hastighet &amp; förbättra spelupplevelse</string>
     <string name="setting">Inställningar</string>
     <string name="loading">Vänta en stund…</string>
@@ -2102,7 +2108,7 @@ din enhet"</string>
     <string name="net_booster_expire_notification">Sessionen med ökad hastighet på nätverket är snart slut</string>
     <string name="xunyou_pay_webview">Tjänster från Xunyou</string>
     <string name="xunyou_server_expired">Sessionen har gått ut.</string>
-    <string name="game_anti_disturb_msg">Tyst läge för spel</string>
+    <string name="game_anti_disturb_msg">Stör ej för spel</string>
     <string name="gamebooster_main_activity_back">Tillbaka</string>
     <string name="data_booster_title">Stabilisera dataanslutning</string>
     <string name="data_booster_desc">Avaktivera den andra SIM-platsen för att hålla anslutningen stabil</string>
@@ -2117,4 +2123,10 @@ din enhet"</string>
     <string name="game_booster_close">Game Speed Booster av</string>
     <string name="databooster_tips_title">Uppmärksamma</string>
     <string name="databooster_tips_message">Aktivera att begränsa alla SIM-kort utom kortet för mobildata. Avaktivera denna funktion om fel inträffar när du spelar spel.</string>
+    <string name="gb_description_image_button_answer">Answer</string>
+    <string name="gb_description_image_button_video_answer">Video call</string>
+    <string name="gb_description_image_button_reject">Decline</string>
+    <string name="gs_autobooster">Boost automatically</string>
+    <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
+    <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
 </resources>

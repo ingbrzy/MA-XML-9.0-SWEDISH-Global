@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Inga</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -442,7 +444,7 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
 MMMM d"</string>
     <string name="status_bar_recent_guide_all">"Dra upp för att stänga
 Dra ner för att låsa"</string>
-    <string name="status_bar_recent_guide_top">Skjut upp för att stänga</string>
+    <string name="status_bar_recent_guide_top">Dra upp för att stänga</string>
     <string name="status_bar_recent_guide_bottom">Dra ner för att låsa</string>
     <string name="share">Dela</string>
     <string name="description_direction_up">Dra upp för att %s.</string>
@@ -536,6 +538,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB-lagring ansluten</string>
     <string name="ext_media_mountable_notification_message">Tryck för att öppna i Utforskaren.</string>
     <string name="ext_media_safe_remove">Säker borttagning</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">Kb/s</string>
     <string name="megabyte_per_second">Mb/s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
@@ -579,7 +582,7 @@ MMMM d"</string>
     <string name="mdb_entering">Startar…</string>
     <string name="status_bar_recording_back">Återvänd till Recorder</string>
     <string name="status_bar_recording_pause">Recorder pausad</string>
-    <string name="usb_share_net_info">Använd datorns internet anslutning</string>
+    <string name="usb_share_net_info">Använd datorns internetanslutning</string>
     <string name="battery_profiles">Använd batteriprofiler</string>
     <string name="enable_power_save_mode">Aktivera batterisparare</string>
     <string name="save_mode_btn_ok">OK</string>
@@ -614,6 +617,7 @@ MMMM d"</string>
     <string name="notification_header_title">Notifikationer</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">Skrolla</string>
     <string name="screenshot_edit">Redigera</string>
     <string name="screenshot_send">Skicka</string>
@@ -659,4 +663,22 @@ MMMM d"</string>
     <string name="search_hint">Sök efter webbsidor, appar, kontakter och videor</string>
     <string name="description_image_button_reject">Avböj</string>
     <string name="description_image_button_answer">Svara</string>
+    <string name="screenshot_feedback_txt">Feedback</string>
+    <string name="screenshot_toalbum_txt">Preview</string>
+    <string name="how_to_use_fsg">How to use full-screen gesture?</string>
+    <string name="how_to_back_home">How to back to home</string>
+    <string name="how_to_switch_recents">How to switch to recents</string>
+    <string name="fsg_demo_back">Back</string>
+    <string name="fsg_demo_go_on">Go on</string>
+    <string name="fs_gesture_back_home_summary">Slide from bottom quickly</string>
+    <string name="fs_gesture_switch_recents_summary">Slide from bottom and wait a second</string>
+    <string name="fs_gesture_back_ready_title">How to go back last page?</string>
+    <string name="fs_gesture_left_back_ready_summary">Swipe left from screen</string>
+    <string name="fs_gesture_right_back_ready_summary">Swipe right from screen</string>
+    <string name="fs_gesture_skip">Back</string>
+    <string name="fs_gesture_finish">Nice!</string>
+    <string name="fs_gesture_final_title">Finish studying</string>
+    <string name="fs_gesture_final_summary">You can set in [Settings-Full screen]</string>
+    <string name="fs_gesture_final_restart">Study again</string>
+    <string name="fs_gesture_final_over">Finish</string>
 </resources>

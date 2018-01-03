@@ -22,13 +22,14 @@
     <string name="find_device_noise_title">Hitta enhet larm</string>
     <string name="find_device_success_title">Hitta enhet</string>
     <string name="find_device_notice_p1">Gå till</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
 Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Kan inte ansluta till nätverk</string>
     <string name="unlock_error_device_id">Kan inte hämta enhets-Id</string>
     <string name="unlock_error_ssl_hand_shake">Kunde inte ansluta till server, försök att ställa in datum och tid manuellt.</string>
-    <string name="unlock_bad_authentication">Ogiltligt användarnamn eller lösenord</string>
+    <string name="unlock_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
     <string name="unlock_error_server">Server fel</string>
     <string name="unlock_access_denied">Nekat tillträde</string>
     <string name="unlock_wrong_captcha">Koden du angav är felaktig</string>
