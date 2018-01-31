@@ -209,7 +209,6 @@
     <string name="continue_backup">Fortsätt</string>
     <string name="cp_info_first">"Online musikstreamingtjänst
 is huvudsakligen av Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Kunde inte slutföra ordern. Försök igen.</string>
     <string name="create_playlist">Skapa spellista</string>
     <string name="create_playlist_failure">Kunde inte skapa spellista</string>
@@ -329,7 +328,6 @@ is huvudsakligen av Ultimate Inc."</string>
     <string name="download_paused">Nedladdning pausad</string>
     <string name="download_paused_in_power_save_mode">Nerladdningar pausas när Batterisparläge är på</string>
     <string name="download_pending">Nedladdning avvaktar</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laddar ned…</string>
     <string name="download_quality">Nedladdningskvalitet</string>
     <string name="download_quality_summary">Ytterligare inställningar för låtar du laddar ned</string>
