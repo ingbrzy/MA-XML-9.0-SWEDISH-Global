@@ -8,6 +8,14 @@
         <item quantity="other">Lade till %d bilder i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
         <item quantity="one">Lade till %d bild i molnet, stäng av \"Visa endast lokala album\" för att visa.</item>
     </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">%2$d objekt kan inte läggas till i album. %1$s.</item>
+        <item quantity="one">%2$d objekt kan inte läggas till i album. %1$s.</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">%2$d objekt kan inte läggas till i dolda album. %1$s.</item>
+        <item quantity="one">%2$d objekt kan inte läggas till i dolda album. %1$s.</item>
+    </plurals>
     <plurals name="age_day">
         <item quantity="other">%d dagar</item>
         <item quantity="one">%d dag</item>
@@ -120,6 +128,10 @@
         <item quantity="other">Totalt %d foton</item>
         <item quantity="one">Totalt %d foto</item>
     </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">Berarbetar foton…</item>
+        <item quantity="one">Berarbetar foto…</item>
+    </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">Hoppade över %1$d foton som inte kunde renderas.</item>
         <item quantity="one">Hoppade över ett foto som inte kunde renderas.</item>
@@ -204,6 +216,10 @@
         <item quantity="other">Totalt %d bilder</item>
         <item quantity="one">Totalt %d bild</item>
     </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">%2$d objekt kan inte flyttas från dolda album. %1$s.</item>
+        <item quantity="one">%2$d objekt kan inte flyttas från dolda album. %1$s.</item>
+    </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">La till %1$d bilder från \"%2$s\" och la till i databasen.</item>
         <item quantity="one">La till %1$d bild från \"%2$s\" och la till i databasen.</item>
@@ -219,6 +235,22 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">Tog bort %1$d bilder från \"%2$s\".</item>
         <item quantity="one">Tog bort %1$d bild från \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">Det gick inte att dela. Bearbetar fortfarande %d foton…</item>
+        <item quantity="one">Det gick inte att dela. Bearbetar fortfarande %d foto…</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">Optimerade %d bilder</item>
+        <item quantity="one">Optimerade %d bild</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">%d bilder har inte optimerats. Avsluta nu?</item>
+        <item quantity="one">%d bild har inte optimerats. Avsluta nu?</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">%d bilder återstår</item>
+        <item quantity="one">%d bild återstår</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">Har inte säkerhetskopierat %d foto eller video</item>

@@ -107,7 +107,7 @@
     <string name="namecard_vendor_info">Drivs av CamCard</string>
     <string name="nickname">Smeknamn:</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
-    <string name="no_storage">Ingen intern lagring</string>
+    <string name="no_storage">Inget internt lagringsutrymme</string>
     <string name="not_insert_contact">Kan inte lägga till kontakt</string>
     <string name="not_recommend_access_web_url">Gå ändå</string>
     <string name="not_tips">Visa inte igen</string>
@@ -117,7 +117,7 @@
     <string name="phone">Telefon:</string>
     <string name="picker_lable">Foto</string>
     <string name="place_barcode_into_rectangle">Placera koden på insidan av ramen</string>
-    <string name="preparing_sd">Förbereder intern lagring…</string>
+    <string name="preparing_sd">Förbereder internt lagringsutrymme…</string>
     <string name="previous">Tillbaka</string>
     <string name="qr_code_details">Detaljer för QR-kod:</string>
     <string name="recognition_error_download_cancel">Senare</string>

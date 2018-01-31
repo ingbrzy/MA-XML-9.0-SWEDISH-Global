@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_calllog_detail">Detaljer för samtalshistoriken</string>
     <string name="accessibility_contact_detail">Kontaktdetaljer</string>
     <string name="account_container_title">Importerad från</string>
@@ -97,6 +98,7 @@
     <string name="call_sim_menu_title_suffix">(Primär)</string>
     <string name="call_telex">Ring telex</string>
     <string name="call_tty_tdd">Ring TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Ring jobb</string>
     <string name="call_work_mobile">Ring jobbmobil</string>
@@ -338,6 +340,7 @@ Kontaktkort är avstängda"</string>
     <string name="description_minus_button">Minus</string>
     <string name="description_plus_button">Plus</string>
     <string name="description_quick_contact_for">Snabbkontakt för %1$s</string>
+    <string name="description_quick_dial_button">Quick dial</string>
     <string name="description_search_button">Sök</string>
     <string name="description_send_message">Skicka meddelande till %1$s</string>
     <string name="description_send_text_message">Skicka sms till %1$s</string>
@@ -389,6 +392,7 @@ Kontaktkort är avstängda"</string>
     <string name="dialer_empty_text_loading">Vänta lite…</string>
     <string name="dialer_empty_text_no_call_log">Inga nyligen använda kontakter</string>
     <string name="dialer_empty_text_no_search_result">Inga kontakter hittades</string>
+    <string name="dialer_firewall_entry_name">Blocked call logs</string>
     <string name="dialer_menu_description">Visa menyer</string>
     <string name="dialer_menu_title">Menyalternativ</string>
     <string name="dialer_returnToInCallScreen">Återgå till pågående samtal</string>
@@ -481,6 +485,7 @@ Orsak: \"%s\""</string>
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="foundTooManyContacts">Fler än %d hittade.</string>
     <string name="frequentList">Frekvent</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Namn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Säkrar dina kontakter även om du tappar din telefon: synkronisera med en onlinetjänst.</string>
@@ -663,6 +668,7 @@ Orsak: \"%s\""</string>
     <string name="miprofile_contact_header">Kontakter med kontakt kort</string>
     <string name="miprofile_contact_meaasge">Lokala kontakter</string>
     <string name="miprofile_contact_verifying">Verifierar</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Redigera profil</string>
     <string name="miprofile_error_accept_self">Kan inte växla ditt eget kontakt kort</string>
     <string name="miprofile_error_no_miaccount">Logga in på ditt Mi Konto</string>
@@ -806,6 +812,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="path_key_rebuild_t9_index_title">Systemappar/Kontakter/Organisera kontakter/Bygg om index data</string>
     <string name="path_key_sim_manage">Systemappar/Kontakter/Organisera kontakter/SIM kort</string>
     <string name="path_preference_contacts_filter">Systemappar/Kontakter/Visningsinställningar/Konfigurera kontaktlista</string>
+    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
     <string name="path_remove_duplicate">Systemappar/Kontakter/Organisera kontakter/Slå ihop likadana kontakter</string>
     <string name="path_share_visible_contacts">Systemappar/Kontakter/Importera/Exportera kontakter/Dela kontakter</string>
     <string name="path_sim_capacity">Systemappar/Kontakter/SIM kortsutrymme</string>
@@ -814,6 +821,8 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="path_wipe_data">Systemappar/Kontakter/Organisera kontakter/Rensa data</string>
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
@@ -915,6 +924,12 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="pull_to_refresh_release_label">Släpp för att uppdatera</string>
     <string name="qr_card_card">QR-kod</string>
     <string name="qrcode_card_title">QR-kod</string>
+    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
+    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
+    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
+    <string name="quick_dial_setting_title">Quick dial</string>
     <string name="quickcontact_missing_app">Det finns ingen app som kan hantera denna åtgärd</string>
     <string name="quit_dialog_confirm_message">Du har inte slagit ihop några kontakter</string>
     <string name="quit_dialog_confirm_title">Ångra kopplade kontakter</string>
@@ -983,6 +998,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="search_key_rebuild_t9_index_title">Organisera;Kontakter;t9</string>
     <string name="search_key_sim_manage">Organisera;Kontakter</string>
     <string name="search_preference_contacts_filter">Kontakter;Visning</string>
+    <string name="search_quick_dial_setting">Contacts</string>
     <string name="search_remove_duplicate">Organisera;Kontakter</string>
     <string name="search_results_searching">Söker…</string>
     <string name="search_settings_description">Namn på dina kontakter</string>
@@ -1047,6 +1063,7 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="sim_unloaded">SIM kortet är inte installerat</string>
     <string name="sina_weibo">Importera Weibo</string>
     <string name="single_group_list_empty">Inga gruppmedlemmar</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Företag</string>
     <string name="smart_group_company_unavailable">Ingen företagsinformation</string>
     <string name="smart_group_frequency_1">Inom den senaste månaden</string>
@@ -1178,6 +1195,7 @@ Välj en av följande alternativ:"</string>
     <string name="voip_audio_description">VoIP samtal</string>
     <string name="voip_video_description">VoIP video samtal</string>
     <string name="websiteLabelsGroup">Webbsida</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Rensa data</string>
     <string name="yellowPageNavigationIconLabel">Gula Sidorna</string>
     <string name="yellowPageNavigationLabel">Gula Sidorna</string>

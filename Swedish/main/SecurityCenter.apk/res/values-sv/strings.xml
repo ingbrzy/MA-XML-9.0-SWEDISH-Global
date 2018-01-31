@@ -36,8 +36,8 @@
     <string name="dlg_clear_current_call">Rensa alla blockerade samtal från detta nummer?</string>
     <string name="dlg_clear_all_ok">Rensa allt</string>
     <string name="dlg_clear_current_ok">Rensa</string>
-    <string name="dlg_no_block">"Unblock this phone number ?
-It will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="dlg_no_block">"Avblockera detta nummer?
+ Det kommer läggas till som undantag men tidigare objekt som blockerats kommer inte synas i samtalshistoriken."</string>
     <string name="dlg_no_block_ok">Ta bort blockering</string>
     <string name="dlg_add_blacklist_title">Lägg till i blockeringslistan</string>
     <string name="dlg_add_blacklist">Blockera detta nummer?</string>
@@ -63,14 +63,16 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dlg_antispam_mode_delete_message">Du kan inte återställa regler efter att de har raderats.</string>
     <string name="dlg_antispam_using_mode_delete_message">Ta bort reglerna du för närvarande använder och ändra tillbaka till blockeringslistans standardregler?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">Ta bort reglerna du för närvarande använder och ändra tillbaka till blockeringslistans standardregler?</string>
-    <string name="back_sound_success">Success!</string>
-    <string name="back_sound_fail">Failed！</string>
-    <string name="back_sound_support">"The current network operators doesn't support it！"</string>
-    <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-    <string name="dlg_move_to_white">Add to exceptions</string>
-    <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
-    <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
-    <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="back_sound_success">Angivet</string>
+    <string name="back_sound_fail">Det gick inte att ställa in. Operatörens inställning är ändrad. Ställ in det nuvarande SIM-kortet som ditt kort för mobildata, anslut till nätverket och försök igen.</string>
+    <string name="back_sound_support">Din operatörs nätverk stöder in denna inställning.</string>
+    <string name="back_sound_data">Aktivera mobildata och försök igen.</string>
+    <string name="dlg_move_to_white">Lägg till i undantag</string>
+    <string name="dlg_add_white">Nya samtal och meddelande från nummer som är tillagda som undantag kommer visas i samtalshistoriken och i meddelanden. Men objekt som tidigare blockerats kommer inte visas där, Lägg till valda nummer som undantag?</string>
+    <string name="dlg_not_block_sms">"Avblockera valda nummer?
+ De kommer läggas till som undantag men tidigare objekt som blockerats kommer inte synas bland meddelanden."</string>
+    <string name="dlg_not_block_call">"Avblockera valda nummer?
+ De kommer läggas till som undantag men tidigare objekt som blockerats kommer inte synas i samtalshistoriken."</string>
     <string name="menu_call">Ring</string>
     <string name="menu_sms">Skicka meddelande</string>
     <string name="menu_bl_call_log">Visa blockerade samtal</string>
@@ -80,6 +82,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_add">Lägg till</string>
     <string name="menu_edit">Redigera</string>
     <string name="menu_remove">Ta bort</string>
+    <string name="menu_white">Utom</string>
     <string name="st_settings_name">Inställningar för blockeringslista</string>
     <string name="st_filter_keywords_setting_summary1">Meddelanden från okända nummer som innehåller orden i denna listan kommer att blockeras.</string>
     <string name="st_filter_keywords_setting_summary3">Meddelanden från okända nummer som innehåller orden i denna listan kommer att tillåtas.</string>
@@ -169,12 +172,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_sub_title_customize_mode_name">Namn</string>
     <string name="read_all_sms">Läs alla</string>
     <string name="loding">Laddar data</string>
-    <string name="action_source_sms_title">Blockerade SMS</string>
+    <string name="action_source_sms_title">Blockerade meddelanden</string>
+    <string name="action_source_call_title">Blockerade samtal</string>
     <string name="st_title_open_antispam">Blockeringslista</string>
     <string name="st_title_antispam_mode">Regler</string>
     <string name="st_sub_title_whiteblack_list_group">Blockeringslista</string>
-    <string name="st_title_keywords_blacklist">Svartlista för nyckelord</string>
-    <string name="st_title_keywords_whitelist">Vitlista för nyckelord</string>
+    <string name="st_title_keywords_blacklist">Blockeringslista för nyckelord</string>
+    <string name="st_title_keywords_whitelist">Undantag för nyckelord</string>
     <string name="st_title_blacklist_numbers">Blockerade nummer</string>
     <string name="st_title_whitelist_numbers">Undantag</string>
     <string name="st_title_backsound_group">Frånvaromeddelande</string>
@@ -357,7 +361,7 @@ ska svara"</string>
     <string name="main_purchase_tips">Marknadsförning</string>
     <string name="main_month_total_used">Använt den här månaden</string>
     <string name="main_daily_package">Daglig dataplan</string>
-    <string name="main_indicator_title">Väntar på aktivering</string>
+    <string name="main_indicator_title">Aktivering</string>
     <string name="main_tobe_added_desc">Mobildata från ¥0.03/MB</string>
     <string name="main_button_mi_sim_close">Aktivera Mi SIM</string>
     <string name="main_button_mi_sim_open">Visa detaljer</string>
@@ -374,12 +378,13 @@ ska svara"</string>
     <string name="firewall_restrict_android_dialog_content">För att din enhet ska fungera normalt kommer några av Androids systemappar att fortfarande ansluta till internet. Dessa appar kommer använda anslutningen för mobildata och kan generera mindre kostnader från din operatör.</string>
     <string name="background_restrict_app_dialog_message">Att begränsa tillgång till nätverket i bakgrunden för denna appen kan gör det omöjligt för appen att fungera normalt, ta emot meddelande, ladda ner innehåll, etc. Begränsa ändå?</string>
     <string name="firewall_allow_network">Tillåt</string>
-    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
+    <string name="app_bg_restrict_dialog_message">Begränsa nätverksanslutning i bakgrunden kan hindra appen att fungera som den ska. Till exempel kan den inte ta emot meddelande eller uppdatera innehåll.</string>
     <string name="firewall_network_allow">Tillåt %1$s att använda %2$s anslutning</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="firewall_mobile_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med mobildata när denna funktion är av.</string>
     <string name="firewall_wifi_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med Wi-Fi när denna funktion är av.​</string>
     <string name="firewall_system_title">Dataanvändning av systemappar</string>
+    <string name="firewall_temp_rule_reason">%2$s begränsad internetanslutning för %1$s​</string>
     <string name="usage_sorted_activity_lable">Dataanvändning</string>
     <string name="usage_sorted_loading_text">Vänta lite…</string>
     <string name="usage_sorted_empty_text">Tom</string>
@@ -402,6 +407,7 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -410,7 +416,7 @@ ska svara"</string>
     <string name="pref_title_traffic_speed_state">Visa nätverkshastighet</string>
     <string name="pref_title_declaration">Viktig friskrivning</string>
     <string name="pref_new_installed_preconfig_title">Nya appars standardinställningar</string>
-    <string name="pref_bg_network_title">Background connection</string>
+    <string name="pref_bg_network_title">Anslutning i bakgrunden</string>
     <string name="pref_mi_sim_settings">Mi SIM-inställningar</string>
     <string name="pref_title_upload_data_usage">Rapportera dataanvändning</string>
     <string name="pref_summary_upload_data_usage">Rapportera din dataanvändning för att hjälpa oss att förbättra MIUI. Att rapportera överensstämmer med vår Integritetspolicy.</string>
@@ -759,11 +765,13 @@ Läs instruktionerna till din router för att återställa den till fabriksinst�
 
 "<b>5. Kontrollera att din router är ansluten</b>"
 Försök med en annan nätverkskabel. Om du misstänker att det är ett problem med anslutningen, kontakta din internetleverantör."</string>
-    <string name="permission_exception_title">Restricted connection for apps</string>
-    <string name="bg_network_exception_title">Restricted background connection</string>
+    <string name="permission_exception_title">Begränsa anslutning för appar</string>
+    <string name="bg_network_exception_title">Begränsa anslutning i bakgrunden</string>
     <string name="networkchanged_exception_title">Anslutning ändrad</string>
     <string name="networkchanged_exception_summary">Nätverksanslutningen har ändrats. Försök igen.</string>
     <string name="network_test_speed">Testa hastigheten på Wi-Fi</string>
+    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
+    <string name="network_changed_noti_summary">Using mobile data</string>
     <string name="network_speed_for_apps_title">Anslutning</string>
     <string name="network_speed_for_apps_total">Anslutningshastighet</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Tvinga avslutning av den här appen?</string>
@@ -913,6 +921,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -928,7 +937,8 @@ din enhet"</string>
     <string name="om_ill_proc_type_radio_title">Appen ansluter till nätverket ofta och drar mycket batteri</string>
     <string name="om_ill_proc_type_radio_detail">Åtgärda nätverksanslutningproblem</string>
     <string name="om_ill_proc_activity_title">Problem</string>
-    <string name="power_center_title">Energi</string>
+    <string name="power_center_title">Batterianvändning</string>
+    <string name="power_center_back">Tillbaka till Batterianvändning</string>
     <string name="power_center_auto_shutdown">Schemalägg när enheten ska startas och stängas av</string>
     <string name="power_center_ontime_boot">Tid när enheten ska startas</string>
     <string name="power_center_time_to_boot">Tid när enheten ska startas</string>
@@ -1088,7 +1098,7 @@ din enhet"</string>
     <string name="settings_category_overheat">Överhettning</string>
     <string name="settings_category_other">Andra inställningar</string>
     <string name="settings_choice_no_notification">Av</string>
-    <string name="settings_power_save_ontime_title">Schema</string>
+    <string name="settings_power_save_ontime_title">Schemalägg</string>
     <string name="power_save_mode_ontime_enabled">Schemalägg tid för att byta mellan läge</string>
     <string name="power_save_mode_start_time">Början</string>
     <string name="power_save_mode_end_time">Slut</string>
@@ -1248,6 +1258,7 @@ din enhet"</string>
     <string name="dialog_no_longer_alert">Visa inte igen</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">Varning för publikt Wi-Fi</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Du är ansluten till ett publikt Wi-Fi-nätverk som kan vara osäkert. Se till att din betalning är skyddad innan du slutför den.</string>
+    <string name="sc_warning_updater_not_found">Det gick inte att hitta appen Uppdaterare.</string>
     <string name="sp_background_risk_dialog_title">Uppmärksamhet</string>
     <string name="sp_background_risk_dialog_summary">, Kontrollera och åtgärda betalningsproblem.</string>
     <string name="sp_background_risk_type_wifi">Detta Wi-Fi-nätverk är farlig</string>
@@ -1315,6 +1326,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1629,12 +1641,12 @@ din enhet"</string>
     <string name="virus_scan_process_pre">%</string>
     <string name="try_recommended_function">Skydda enheten med nya säkerhetsfunktioner</string>
     <string name="activity_title_white_list">Undantag</string>
-    <string name="uninstall_danagerous_title">Avinstallera skadlig app</string>
+    <string name="uninstall_danagerous_title">Avinstallera skadliga appar</string>
     <string name="uninstall_danagerous_desc">\"%s\" kan skada din enhet</string>
     <string name="uninstall_danagerous_msg">\"%s\" kan skada din enhet, sänka prestandan eller orsaka omstarter.</string>
     <string name="still_retain_btn">Behåll</string>
     <string name="uninstall_danagerous_btn">Avinstallera</string>
-    <string name="app_install_tips_install_success">Installerad %1$s framgångsrikt</string>
+    <string name="app_install_tips_install_success">Installerade %1$s</string>
     <string name="open_app">Öppna</string>
     <string name="hot_today">Populärt idag</string>
     <string name="recommended">Utvalda</string>
@@ -1665,7 +1677,7 @@ din enhet"</string>
     <string name="preferred_app_entries_music">Musik</string>
     <string name="preferred_app_entries_email">E-post</string>
     <string name="card_main_applock_title">Applås</string>
-    <string name="card_main_applock_summary">Skydda privata objekt med Applås</string>
+    <string name="card_main_applock_summary">Skydda meddelande, foton och andra objekt med ett lösenord.</string>
     <string name="card_main_applock_action">Aktivera</string>
     <string name="card_main_deepclean_title">Storstädning</string>
     <string name="card_main_deepclean_summary">Ta bort onödiga filer</string>
@@ -1675,6 +1687,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1695,8 +1708,10 @@ din enhet"</string>
     <string name="card_main_xspace_summary">Skapa dubbla konton appar</string>
     <string name="card_main_xspace_action">Skapa</string>
     <string name="card_main_overscroll_tips">Säkerhet bäst</string>
-    <string name="card_main_gamebooster_title">Hastighetsökning för spel</string>
+    <string name="card_main_gamebooster_title">Speloptimering</string>
     <string name="skin_change_close_toast">Förändringar kommer att tillämpas nästa gång du startar Säkerhet</string>
+    <string name="password_type">Ändra lösenord</string>
+    <string name="password_type_underline"><u>Ändra lösenord</u></string>
     <string name="Setting_lock">Inställningar</string>
     <string name="more_lock">Mer</string>
     <string name="app_name">Applås</string>
@@ -1717,7 +1732,11 @@ din enhet"</string>
     <string name="ac_summaryOff">Avaktiverad, lösenord krävs inte för att öppna appar</string>
     <string name="lockpattern_tutorial_cancel_label">Avbryt</string>
     <string name="lockpattern_tutorial_continue_label">Nästa</string>
+    <string name="lockpattern_tutorial_continue_label_next">Tryck \"Nästa\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">Tryck \"OK\"</string>
     <string name="lockpattern_retry_button_text">Rita igen</string>
+    <string name="numeric_retry_button_text">Avbryt</string>
+    <string name="mixed_retry_button_text">Avbryt</string>
     <string name="lockpattern_continue_button_text">Nästa</string>
     <string name="lockpattern_confirm_button_text">OK</string>
     <string name="modifypassword">Ändra lösenord</string>
@@ -1740,22 +1759,36 @@ din enhet"</string>
     <string name="passwordIncorrect">Användarnamn eller lösenord är felaktiga</string>
     <string name="access_control_app_is_launching">Appen startar</string>
     <string name="access_control_need_to_unlock_nofingerprint">Ange App lås lösenord</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">Rita ditt upplåsningsmönster för att använda ett nytt fingeravtryck</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">Ange ett lösenord innan du låser upp med ett nytt figneravtryck</string>
     <string name="access_control_fingerprint_not_identified_msg">Kunde inte läsa fingeravtryck.</string>
     <string name="access_control_need_password">"%s tillagd
 "</string>
     <string name="privacy_mode_dialog_title">Gästläge</string>
     <string name="lockpattern_settings_help_how_to_record">Rita ett mönster</string>
+    <string name="numeric_settings_help_how_to_record">Hur du anger en PIN-kod</string>
+    <string name="mixed_settings_help_how_to_record">Hur du anger ett lösenord</string>
     <string name="lockpattern_recording_incorrect_too_short">Anslut åtminstone %d punkter</string>
+    <string name="numeric_recording_incorrect_too_short">Ange minst %d tecken.</string>
+    <string name="mixed_recording_incorrect_too_short">Ange minst %d tecken.</string>
     <string name="lockpattern_recording_intro_header">Anslut åtminstone 4 punkter för att skapa ett mönster</string>
+    <string name="numeric_recording_intro_header">Ange lösenord</string>
+    <string name="mixed_recording_intro_header">Ange minst 4 tecken</string>
     <string name="lockpattern_pattern_entered_header">Mönster tillagt</string>
+    <string name="numeric_pattern_entered_header">PIN Angiven</string>
+    <string name="mixed_pattern_entered_header">Lösenord angivet</string>
     <string name="lockpattern_need_to_confirm">Rita mönstret igen för att bekräfta</string>
+    <string name="numeric_need_to_confirm">Ange igen för att bekräfta</string>
+    <string name="mixed_need_to_confirm">Ange igen för att bekräfta</string>
     <string name="unlock_pattern_to_bind_fingerprint">Ange lösenord för att aktivera fingeravtryck</string>
     <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">Kände inte igen fingeravtrycket, försök igen.</string>
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">Lösenordet är felaktigt, försök igen.</string>
     <string name="lockpattern_need_to_unlock_wrong">Lösenorden matchar inte. Försök igen.</string>
     <string name="lockpattern_recording_inprogress">Lyft ditt finger när du är klar</string>
     <string name="lockpattern_pattern_confirmed_header">Nytt upplåsningsmönster</string>
+    <string name="numeric_password_confirmed_header_continue">Angivet. Tryck \"Nästa\".</string>
+    <string name="numeric_password_confirmed_header_confirm">Angivet. Tryck för att bekräfta.</string>
+    <string name="mixed_password_confirmed_header_continue">Angivet. Tryck \"Nästa\".</string>
+    <string name="mixed_password_confirmed_header_confirm">Angivet. Tryck för att bekräfta.</string>
     <string name="forget_pattern"><u>Glömt lösenord</u></string>
     <string name="unlock_pattern"><u>Mönster</u></string>
     <string name="modify_password_mode"><u>Ändra lösenordstyp</u></string>
@@ -1788,6 +1821,19 @@ din enhet"</string>
     <string name="applock_close_dialog_title">Avaktivera Applås?</string>
     <string name="applock_close_dialog_summary">Appar kommer inte längre vara skyddade och ditt lösenord kommer tas bort att du avaktiverat Applås.</string>
     <string name="applock_header_text_less_than_half">För liten. Dra ut lite till.</string>
+    <string name="quite_all_string">Avbryt</string>
+    <string name="delete_input">Ta bort</string>
+    <string name="input_password_hint_text">Ange lösenord</string>
+    <string name="wrong_password">Felaktigt lösenord</string>
+    <string name="unlock_set_unlock_pattern_title">Mönster</string>
+    <string name="unlock_set_unlock_pin_title">PIN</string>
+    <string name="unlock_set_unlock_password_title">Lösenord</string>
+    <string name="unlock_set_unlock_pattern_summary">Anslut åtminstone 4 punkter</string>
+    <string name="unlock_set_unlock_pin_summary">Ange 4 siffror</string>
+    <string name="unlock_set_unlock_password_summary">Kombinera olika tecken</string>
+    <string name="set_pattern_password_name">Ange mönster</string>
+    <string name="set_numeric_password_name">Ange PIN</string>
+    <string name="set_mixed_password_name">Ange lösenord</string>
     <string name="wakepath_confirm_start_activity">Tillåt %1$s att öppna %2$s?</string>
     <string name="unlike">Nej tack</string>
     <string name="toast_network_eror">Kan inte ansluta till nätverket</string>
@@ -1906,7 +1952,7 @@ din enhet"</string>
     <string name="app_manager_app_traffic">"Dataanvänding: "</string>
     <string name="app_manager_app_power">"Batterianvänding: "</string>
     <string name="app_manager_net_control_title">Begränsa dataanvändning</string>
-    <string name="app_manager_net_mobile">Data</string>
+    <string name="app_manager_net_mobile">Mobildata</string>
     <string name="app_manager_net_wifi">Wi-Fi</string>
     <string name="app_manger_des_separator">", "</string>
     <string name="app_manager_disable">Tillåt inte</string>
@@ -1928,7 +1974,7 @@ din enhet"</string>
     <string name="app_manager_show_all_apps">Visa alla appar</string>
     <string name="app_manager_hide_system_server">Dölj systemtjänster</string>
     <string name="app_manager_back">Tillbaka</string>
-    <string name="app_manager_defaults_setting">Standard</string>
+    <string name="app_manager_defaults_setting">Standardappar</string>
     <string name="app_manager_clear_cache">Rensa cache</string>
     <string name="app_manager_reset_app_preferences">Återställ inställningar för applikationer</string>
     <string name="app_manager_reset_app_preferences_title">Återställ inställningar för applikationerna?</string>
@@ -1969,11 +2015,13 @@ din enhet"</string>
     <string name="app_manager_clear_all_data">Rensa all data</string>
     <string name="app_manager_dlg_clear_cache_title">Rensa cache?</string>
     <string name="app_manager_support_uninstall">Du kan avinstallera dessa appar</string>
-    <string name="app_manager_not_support_uninstall">K inte att avinstallera den här appen</string>
-    <string name="app_manager_comuting_size">Räknar…</string>
-    <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
-    <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
-    <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
+    <string name="app_manager_not_support_uninstall">Kan inte att avinstallera dessa appar</string>
+    <string name="app_manager_comuting_size">Beräknar…</string>
+    <string name="app_manager_show_all_apps_opened">Visa resultat från alla appar…</string>
+    <string name="app_manager_search_prompt">Hittade inget resultat? Försöker visa resultat från alla appar.</string>
+    <string name="app_manager_open_show_all_apps_immediate">Visa alla resultat</string>
+    <string name="app_manager_mobile_slot1">Mobildata (SIM 1)</string>
+    <string name="app_manager_mobile_slot2">Mobildata (SIM 2)</string>
     <string name="ad_btn_default_text">Läs mer</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="low_memory_warning_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -1983,7 +2031,7 @@ din enhet"</string>
     <string name="app_error_tip_for_launcher">Din enhets hårdvarukomponenter och Androidversion kan skapa kompatibilitetsproblem och vissa appar kommer inte fungera korrekt, frysa eller tvingas att avsluta. Dela med dig till apputvecklarna om det händer dig.</string>
     <string name="app_error_tip_for_store">Din enhets hårdvarukomponenter och Androidversion kan skapa kompatibilitetsproblem kan resultera i att vissa appar inte kan installeras. Om det händer dig att vissa appar kommer inte fungera korrekt, frysa eller tvingas att avsluta, vänta till apputvecklarna har löst problemet och installera sedan appen igen.</string>
     <string name="pc_activity_title">Optimera batteri</string>
-    <string name="game_booster">Speloptimering</string>
+    <string name="game_booster">Game speed booster</string>
     <string name="game_booster_title">Öka</string>
     <string name="top_game">Populära spel</string>
     <string name="game_booster_tab_top">Populära</string>
@@ -1998,7 +2046,7 @@ din enhet"</string>
     <string name="gs_forbid_autosync">Begränsa synkronisering av bakgrundsdata</string>
     <string name="gs_app_back_self_start">Batterisparare</string>
     <string name="gs_only_self_start_for_list">Begränsa bakgrundsprocesser för att spara batteri för spel</string>
-    <string name="gs_game_shortcut">Njut av en mer flytande spelkänsla</string>
+    <string name="gs_game_shortcut">Förbättra din spelupplevelse</string>
     <string name="gs_game_net_priority">Anslutningsprioritering</string>
     <string name="gs_game_net_priority_detail">Begränsa nedladdningshastighet för att ha tillräckligt med bandbredd för spel</string>
     <string name="gs_performance_mode">Prestandaläge</string>
@@ -2022,7 +2070,7 @@ din enhet"</string>
     <string name="add_done">Tillagd</string>
     <string name="boost_done">Ökad framgångsrikt</string>
     <string name="boost_stop">Avaktivera hastighetsökning</string>
-    <string name="already_close_gamebooster">Hastighetsökning för spel är av</string>
+    <string name="already_close_gamebooster">Game Speed Booster är av</string>
     <string name="no_game">Kunde inte hitta några spel</string>
     <string name="gamebooster_network_dialog_title">Vissa funktioner är inte tillgängliga</string>
     <string name="gamebooster_network_dialog_message">Tillåt appen Säkerhet att ansluta till ett nätverk för att kunna använda alla funktioner av Game speed booster?</string>
@@ -2040,15 +2088,14 @@ din enhet"</string>
     <string name="intro_improve">Öka din spelupplevelse på systemnivå</string>
     <string name="i_know">Jag förstår</string>
     <string name="dialog_text">Skapa en genväg på Hemskärmen för Game speed booster</string>
-    <string name="anim_gamebooster_text">Vänta en stund…</string>
     <string name="intro_skip">Hoppa över</string>
     <string name="open_game">Öppna</string>
     <string name="try_game">Försök</string>
     <string name="more_game">Fler spel</string>
     <string name="sys_title_gamebooster_unit_gb">G</string>
     <string name="sys_title_gamebooster_unit_mb">M</string>
-    <string name="gmscore_support_service">Google Services</string>
-    <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
+    <string name="gmscore_support_service">Googletjänster</string>
+    <string name="gmscore_support_remind">Aktivera denna funktion om du upplever problem med Gmail, Google Maps och andra Google appar. Det kommer dra lite mer batteri.</string>
     <string name="google_base_app_install_choice">\"%s\" kräver Google Service Framework för att fungera normalt, ladda ned och installera dem?</string>
     <string name="application_item_disable">Begränsad</string>
     <string name="application_item_already_permission">Tillåten</string>
@@ -2066,8 +2113,8 @@ din enhet"</string>
     <string name="scan_installed_games">Kontrollerar installerade spel…</string>
     <string name="boostering">Ökar hastigheten…</string>
     <string name="booster_suc">Ökad framgångsrikt</string>
-    <string name="auto_booster_suc">Boosted successfully</string>
-    <string name="auto_back_booster">Stop boosting</string>
+    <string name="auto_booster_suc">Ökad framgångsrikt</string>
+    <string name="auto_back_booster">Stoppa ökning</string>
     <string name="support_game_booster_tips">Öka hastighet &amp; förbättra spelupplevelse</string>
     <string name="setting">Inställningar</string>
     <string name="loading">Vänta en stund…</string>
@@ -2119,10 +2166,14 @@ din enhet"</string>
     <string name="game_booster_close">Game Speed Booster av</string>
     <string name="databooster_tips_title">Uppmärksamma</string>
     <string name="databooster_tips_message">Aktivera att begränsa alla SIM-kort utom kortet för mobildata. Avaktivera denna funktion om fel inträffar när du spelar spel.</string>
-    <string name="gb_description_image_button_answer">Answer</string>
-    <string name="gb_description_image_button_video_answer">Video call</string>
-    <string name="gb_description_image_button_reject">Decline</string>
-    <string name="gs_autobooster">Boost automatically</string>
-    <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
-    <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
+    <string name="gb_description_image_button_answer">Svara</string>
+    <string name="gb_description_image_button_video_answer">Videosamtal</string>
+    <string name="gb_description_image_button_reject">Avböj</string>
+    <string name="gs_autobooster">Öka automatiskt</string>
+    <string name="gs_autobooster_detail">Öka hastigheten för valda spel automatiskt</string>
+    <string name="gs_autobooster_dialog_message">Om du använder Xunyou speed boost ska du starta spelen på avsedd plats.</string>
+    <string name="accessibility_gameboosterservice_description">Aktivera att tysta inkommande samtal från WeChat när du spelar spel</string>
+    <string name="gb_cutoff">|</string>
+    <string name="gb_ad_game_size">MB</string>
+    <string name="gb_new_feature">Nya funktion</string>
 </resources>

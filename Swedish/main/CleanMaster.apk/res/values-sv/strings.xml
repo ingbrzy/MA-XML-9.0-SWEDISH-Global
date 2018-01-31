@@ -59,7 +59,7 @@
     <string name="pref_title_manual_check_cleanup_db_update">Sök efter uppdateringar</string>
     <string name="pref_category_title_garbage_cleanup_check">Meddelanden</string>
     <string name="pref_summary_garbage_cleanup_check_time">Schemalägg en rutinbelagd städning</string>
-    <string name="pref_title_garbage_cleanup_check_time">Schema</string>
+    <string name="pref_title_garbage_cleanup_check_time">Schemalägg</string>
     <string name="pref_summary_garbage_cleanup_check_size">Rensa automatiskt när skräp når en viss storlek</string>
     <string name="pref_title_garbage_cleanup_check_size">Gräns för skräpstorlek</string>
     <string name="pref_title_garbage_cleanup_size">Gräns för skräpstorlek</string>
@@ -71,11 +71,11 @@
     <string name="pref_summary_auto_clean_and_alert">Schemalägg att Städaren ska köra automatiskt</string>
     <string name="pref_category_title_other_clean_settings">Ytterligare inställningar</string>
     <string name="pref_summary_garbage_process_mode">Ställ in meddelanden för när städningen körs</string>
-    <string name="pref_summary_garbage_auto_clean_content">Välj vilka objekt att rengöra automatiskt</string>
+    <string name="pref_summary_garbage_auto_clean_content">Välj vilka objekt att städa automatiskt</string>
     <string name="pref_content_cleanup_white_list_none">Ingen</string>
     <string name="pref_title_open_optimizer_cloud_scan">Ladda upp filnamn</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Ladda upp och jämföra okända filnamn med online definitioner</string>
-    <string name="pref_title_auto_clean_content_choose">Välj objekt att rengöra</string>
+    <string name="pref_title_auto_clean_content_choose">Välj objekt att städa</string>
     <string name="activity_title_settings">Inställningar</string>
     <string name="activity_title_news">Nyheter</string>
     <string name="activity_title_white_list">Undantag</string>
@@ -250,7 +250,7 @@
     <string name="privacy_browser_desc">Genomsökta objekt</string>
     <string name="title_delete_clipboard">Urklipp innehåll</string>
     <string name="empty_content_no_privacy">Tom</string>
-    <string name="hints_storage_clean_size">Frigjort %s intern lagring</string>
+    <string name="hints_storage_clean_size">Frigjort %s i det interna lagringsutrymmet</string>
     <string name="hints_storage_news">Säkerhet nyheter</string>
     <string name="hints_list_item_clean">Städa</string>
     <string name="hints_list_item_keep">Behåll</string>
@@ -394,7 +394,7 @@
     <string name="long_click_dialog_title">Märka</string>
     <string name="long_click_dialog_summary">Håll inne för att lägga till undantag.</string>
     <string name="function_app_lock_title">%d appar innehåller intigritetsrisker</string>
-    <string name="deep_clean_uninstall_completed_tips">Avinstallation lyckades</string>
+    <string name="deep_clean_uninstall_completed_tips">Avinstallationen lyckades</string>
     <string name="deep_clean_completed_tips">Rensning lyckades</string>
     <string name="deepclean_normal_item_summary_empty">Allt ser bra ut, inget att radera</string>
     <string name="low_memory_clean_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -422,6 +422,7 @@
     <string name="wechat_qq_normal_files">Skräp</string>
     <string name="wechat_cache_files">WeChat cache</string>
     <string name="qq_cache_files">QQ cache</string>
+    <string name="wechat_qq_activity_title">Storstädning</string>
     <string name="wechat_qq_chat_files">Chathistorik</string>
     <string name="analying">Analyserar…</string>
     <string name="open_file_error">Kunde inte hitta appen som öppnar denna fil</string>
@@ -492,4 +493,8 @@
     <string name="wq_deep_clean_filter_month_ago">1 månad sedan</string>
     <string name="wq_deep_clean_filter_three_month_ago">3 månader sedan</string>
     <string name="wq_deep_clean_filter_years_ago">6 månader sedan</string>
+    <string name="auto_clean_time_every_day">Varje dag</string>
+    <string name="auto_clean_time_three_day">Var 3:e dag</string>
+    <string name="auto_clean_time_seven_day">Var 7:e dag</string>
+    <string name="auto_clean_time_fifteen_day">Var 15:e dag</string>
 </resources>

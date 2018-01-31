@@ -28,4 +28,5 @@
     <string name="call_log_provider_label">Samtalshistorik</string>
     <string name="third_party_delete_contact_info">\"%s\" försöker ta bort dina kontakter. Denna åtgärd kan inte utföras av tredje parts app. Om du vill radera kontakter, använder MIUI inbyggda Kontakter app istället.</string>
     <string name="low_memory_toast">Det går inte att använda den här funktionen på grund av för lite minne.</string>
+    <string name="update_accounts_changed">Konton ändrats</string>
 </resources>

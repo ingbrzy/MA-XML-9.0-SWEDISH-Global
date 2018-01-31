@@ -17,6 +17,14 @@
     <string name="agree_to_turn_on">Samtycker</string>
     <string name="all_services">Alla</string>
     <string name="allow">Tillåt</string>
+    <string name="antispam_curr_version">Aktuell version: %d</string>
+    <string name="antispam_data_downloading">Ladda ner information om nummer ID. Detta kan 3-5 sekunder.</string>
+    <string name="antispam_data_downloading_error">Det gick inte att ansluta till nätverket</string>
+    <string name="antispam_local_newest">Aktuell version är uppdaterad.</string>
+    <string name="antispam_network_remind_summary">Ladda ner uppdateringar med mobildata?</string>
+    <string name="antispam_network_remind_title">Varning för dataanvändning</string>
+    <string name="antispam_pull_newest">Uppdaterad till version %d utan problem</string>
+    <string name="antispam_update_version">Sök efter uppdateringar</string>
     <string name="app_label">Gula Sidorna</string>
     <string name="app_recommendation_install">Installera</string>
     <string name="average_price">Genomsnitt %d RMB</string>
@@ -190,6 +198,7 @@
     <string name="quick_yellow_page_tab_phones">Telefon</string>
     <string name="recharge_actual_price">Pris:</string>
     <string name="recharge_charge_range">Pris: RMB %1$s-%2$s</string>
+    <string name="recharge_charge_value">Pris: RMB %s</string>
     <string name="recharge_follow_name">Fyll upp</string>
     <string name="recharge_history">Påfyllningshistorik</string>
     <string name="recharge_history_empty">Tom</string>
@@ -233,6 +242,7 @@ Totalt: RMB %3$s"</string>
     <string name="sending_shortcut">Skickar…</string>
     <string name="service_unavailiable">Service otillgänglig</string>
     <string name="share">Dela</string>
+    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">Nummerpresentation</string>
     <string name="toast_finish_delete_call_log">Samtalshistorik raderad</string>
     <string name="toast_text_copied">Text kopierad</string>

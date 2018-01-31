@@ -24,7 +24,7 @@
     <string name="connect_peripheral_failed">Kunde inte ansluta %1$s</string>
     <string name="disconnecting_peripheral">Koppla från %1$s</string>
     <string name="disconnected_peripheral">Kopplade från %1$s</string>
-    <string name="pairing_peripheral">Parar %1$s</string>
+    <string name="pairing_peripheral">Sammankopplar %1$s</string>
     <string name="pairing_peripheral_failed">Kunde inte para %1$s</string>
     <string name="failed_to_enable_bt">Kunde inte aktivera Bluetooth</string>
     <string name="confirm_pairing">Är du säker på att du vill sammankoppla Bluetoothenheterna %1$s?</string>

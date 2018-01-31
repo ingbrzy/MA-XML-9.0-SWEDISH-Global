@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_info">Spelar in, tryck för att stoppa</string>
     <string name="app_name">Skärminspelare</string>
+    <string name="app_notification_info">Screen Recorder is working in the background</string>
     <string name="app_notification_title">Skärminspelare</string>
     <string name="auto_stop_title">Video sparad</string>
     <string name="battery_not_allowed" formatted="false">Kan inte spela när batterinivån är lägre än 3%. Se till att batterinivån är över 20%.</string>
@@ -18,7 +18,9 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="deselect_all">Avmarkera alla</string>
+    <string name="description_content">Skärminspelning kan spela in på systemnivå. Detta betyder att du kommer stänga av funktionen skärminspelning. Bekräfta för att fortsätta.</string>
+    <string name="description_title">Om Skärminspelare</string>
+    <string name="deselect_all">Välj ingen</string>
     <string name="error_open_file_failed_no_app_found">Kunde inte hitta en app som öppnar denna fil</string>
     <string name="frames">Antal bilder</string>
     <string name="frames_summary">Högre fps minskar suddiga rörelser</string>
@@ -35,8 +37,7 @@
     <string name="low_battery">Ladda telefonen innan du startar inspelning</string>
     <string name="low_battery_title">Låg batterinivå</string>
     <string name="low_battery_warning">Batterinivån är för låg. Stoppa inspelningen och spara videon.</string>
-    <string name="low_memory">Du har mindre än 200 MB i tillgängligt utrymme. Du kan spela in upp till 5 minuter nu.</string>
-    <string name="low_memory_dior">Du har mindre än 500 MB i tillgängligt utrymme. Du kan spela in upp till 12 minuter nu.</string>
+    <string name="low_memory">You have less than 1GB of available storage. You can record up to 20 minutes now.</string>
     <string name="low_memory_title">Inte tillräckligt med lagringsutrymme</string>
     <string name="low_momery_warning">Inte tillräckligt med utrymme. Stoppa inspelningen och spara videon.</string>
     <string name="memory_not_allowed">Inget utrymme är tillgängligt. Frigör utrymme för att spela in.</string>
@@ -49,13 +50,14 @@
     <string name="quit_recording">Lämna Skärminspelare</string>
     <string name="recording_failure">Kunde inte spela in, börja om</string>
     <string name="recording_max_size">Inspelningen stoppades och sparades eftersom videofilen överskred storleksgränsen. Starta inspelningen där du slutade om du inte är färdig än.</string>
+    <string name="recording_without_mic">Microphone is occupied and microphone sound cannot be recorded</string>
     <string name="resolution">Upplösning</string>
     <string name="resolution_summary">Videos med högre upplösning blir skarpare</string>
     <string name="screen_orientation">Orientering</string>
     <string name="screen_orientation_summary">Skärmorientering av inspelade videor</string>
     <string name="screen_record_option">Inspelningsalternativ</string>
     <string name="screen_record_params">Inspelningsparametrar</string>
-    <string name="select_all">Markera alla</string>
+    <string name="select_all">Välj alla</string>
     <string name="show_hard_key">Visualisera navigeringsknapparna</string>
     <string name="show_hard_key_summary">Visa en skylt när Hem-, Meny- och Tillbakaknappen blir nedtryckta</string>
     <string name="show_screen_touch">Visa pekgester</string>

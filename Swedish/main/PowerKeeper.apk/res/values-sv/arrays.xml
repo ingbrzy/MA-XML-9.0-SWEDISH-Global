@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="hmode_app_groups">
+        <item>Anpassad</item>
+        <item>Batterisparare</item>
+    </string-array>
+    <string-array name="thermal_entries">
+        <item>Standardläge för temperaturreglering</item>
+        <item>Prestandaläge</item>
+    </string-array>
+    <string-array name="thermal_summaries">
+        <item>Nuvarande läge för temperaturreglering</item>
+        <item>Nuvarande prestandaläge</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Prestanda</item>
+        <item>Balanserad</item>
+    </string-array>
     <string-array name="group_name_translate">
         <item>Standard</item>
         <item>Osynligt läge</item>
@@ -49,10 +65,6 @@
         <item>Inte vald</item>
         <item>I andra lägen väljs</item>
     </string-array>
-    <string-array name="hmode_app_groups">
-        <item>Anpassad</item>
-        <item>Batterisparare</item>
-    </string-array>
     <string-array name="power_checker_group_prefix">
         <item>Nu</item>
         <item>Bakgrund</item>
@@ -78,17 +90,5 @@
         <item></item>
         <item></item>
         <item></item>
-    </string-array>
-    <string-array name="thermal_entries">
-        <item>Standardläge för temperaturreglering</item>
-        <item>Prestandaläge</item>
-    </string-array>
-    <string-array name="thermal_summaries">
-        <item>Nuvarande läge för temperaturreglering</item>
-        <item>Nuvarande prestandaläge</item>
-    </string-array>
-    <string-array name="power_mode_entries">
-        <item>Prestanda</item>
-        <item>Balanserad</item>
     </string-array>
 </resources>

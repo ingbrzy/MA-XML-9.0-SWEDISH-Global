@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">Hitta enhet larm</string>
     <string name="find_device_success_title">Hitta enhet</string>
     <string name="find_device_notice_p1">Gå till</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
 Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
     <string name="i_know">OK</string>
@@ -64,10 +65,10 @@ Gå till id.mi.com att återställa ditt lösenord
 
 Andra skäl
 Logga in på i.mi.com och försöka låsa upp din enhet därifrån"</string>
-    <string name="passport_vcode_prompt_long">Fyll i verifieringskod</string>
+    <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
     <string name="passport_trust_device">Lita på den här enheten</string>
     <string name="passport_verify">Verifiera</string>
-    <string name="passport_error_empty_vcode">Fyll i verifieringskod</string>
+    <string name="passport_error_empty_vcode">Ange verifieringskod</string>
     <string name="passport_checking_vcode">Kontroll lösenord…</string>
     <string name="unlock_error_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_notification_processing">Berarbetar…</string>

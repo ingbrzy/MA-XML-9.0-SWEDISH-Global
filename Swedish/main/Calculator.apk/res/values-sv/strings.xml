@@ -46,6 +46,13 @@
     <string name="percentDesc">procent</string>
     <string name="menuDesc">meny</string>
     <string name="settingsDesc">inställningar</string>
+    <string name="secondFunctionDesc">Växla till den andra funktionen</string>
+    <string name="degDesc">Grader</string>
+    <string name="radDesc">Radian</string>
+    <string name="reverceDesc">arc</string>
+    <string name="switchDesc">Växla</string>
+    <string name="scannerDesc">Scanner</string>
+    <string name="reciprocalDesc">Reciprok</string>
     <string name="home_title_calculator">Kalkylator</string>
     <string name="item_title_calculator">Kalkylator</string>
     <string name="item_title_scientific_calculator">Vetenskaplig</string>
@@ -62,6 +69,10 @@
     <string name="item_title_time_conversion">Tid</string>
     <string name="item_title_dress_size">Klädstorlek</string>
     <string name="item_title_aa_payment">Dela på notan</string>
+    <string name="scanner_had_been_uninstalled">Scanner är avinstallerad</string>
+    <string name="install_scanner_to_continued_use">Scanner är avinstallerad. Installera den igen?</string>
+    <string name="cancel">Avbryt</string>
+    <string name="install">Installera</string>
     <string name="loan_interest_rate">Ränta</string>
     <string name="loan_edittext_hint_commercial">Ange belopp</string>
     <string name="loan_edittext_hint_fund">Ange belopp</string>
@@ -149,15 +160,15 @@
     <string name="cal_paste">Klistra in</string>
     <string name="cal_convert_to_word_figure">Omvandla till finansiella bokstäver</string>
     <string name="cal_text_copied">Text kopierad</string>
-    <string name="convertion_unit">Enhets-omvandlare</string>
-    <string name="convertion_unit_length">Längd-omvandlare</string>
-    <string name="convertion_unit_area">Area-omvandlare</string>
-    <string name="convertion_unit_volume">Volym-omvandlare</string>
-    <string name="convertion_unit_weight">Mass-omvandlare</string>
-    <string name="convertion_unit_velocity">Hastighets-omvandlare</string>
-    <string name="convertion_unit_temperature">Temperatur-omvandlare</string>
-    <string name="convertion_unit_time">Tids-omvandlare</string>
-    <string name="convert_currency">Valuta-omvandlare</string>
+    <string name="convertion_unit">Enhetsomvandlare</string>
+    <string name="convertion_unit_length">Längdomvandlare</string>
+    <string name="convertion_unit_area">Areaomvandlare</string>
+    <string name="convertion_unit_volume">Volymomvandlare</string>
+    <string name="convertion_unit_weight">Massomvandlare</string>
+    <string name="convertion_unit_velocity">Hastighetsomvandlare</string>
+    <string name="convertion_unit_temperature">Temperaturomvandlare</string>
+    <string name="convertion_unit_time">Tidsomvandlare</string>
+    <string name="convert_currency">Valutaomvandlare</string>
     <string name="currency_update_time_format">Valutakurser tillhandahålls av Webull (%s)</string>
     <string name="choose_unit">Välj enhet</string>
     <string name="choose_currency">Välj valuta</string>
@@ -239,7 +250,7 @@
     <string name="unit_data_display_weight_g">Gram</string>
     <string name="unit_data_display_weight_mg">Milligram</string>
     <string name="unit_data_display_weight_ug">Mikrogram</string>
-    <string name="unit_data_display_weight_q">Quintal</string>
+    <string name="unit_data_display_weight_q">Centner</string>
     <string name="unit_data_display_weight_ct">Karat</string>
     <string name="unit_data_display_weight_lb">Skålpund</string>
     <string name="unit_data_display_weight_oz">Uns</string>
@@ -270,8 +281,8 @@
     <string name="unit_data_display_time_week">Vecka</string>
     <string name="unit_data_display_time_yr">År</string>
     <string name="network_confirm_title">Tillstånd krävs</string>
-    <string name="network_confirm_content">Currency converter, tax and mortgage calculators need to connect to the internet and access location services to work normally.</string>
-    <string name="global_network_confirm_content">Currency converter needs to connect to the internet to work normally.</string>
+    <string name="network_confirm_content">Valutaomvandlare, skatt- och lånkalkylator behöver använda din enhets nätverksanslutning samt platstjänst för att kunna fungera normalt.</string>
+    <string name="global_network_confirm_content">Valutaomvandlaren måste ansluta till internet för att fungera normalt.</string>
     <string name="word_figure_zheng">整</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_number_0">零</string>
@@ -311,7 +322,7 @@
     <string name="times" />
     <string name="year" />
     <string name="preference_settings">Inställningar</string>
-    <string name="preference_use_degress_title">Använd vinklar</string>
+    <string name="preference_use_degress_title">Grader/Radianer</string>
     <string name="preference_use_degress_summary">Ersätt radianer med vinklar i trigonometriska funktioner</string>
     <string name="preference_about_calculator">Om Kalkylator</string>
     <string name="preference_check_update_title">Sök efter uppdateringar</string>
@@ -326,6 +337,6 @@
     <string name="preference_follow_qq_group">QQ Grupp:523274279</string>
     <string name="preference_check_update_summary_current_version">Aktuell version: %s</string>
     <string name="preference_check_update_summary_new_version">Uppdatering tillgänglig: %s</string>
-    <string name="description_title">About Calculator</string>
-    <string name="description_content">Besides its basic features, Calculator also works as a multifunctional converter, mortgage, and tax calculator.Make sure you can do without these features before you uninstall the app.</string>
+    <string name="description_title">Om Kalkylator</string>
+    <string name="description_content">Förutom vanliga funktioner, så är Kalkylatorn en multifunktionell konverterare, lån- och skatuträknare. Se till att du kan vara utan dessa funktioner innan du avinstallera appen.</string>
 </resources>

@@ -53,7 +53,7 @@
         <item quantity="one">Rensa %1$d video?</item>
     </plurals>
     <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d objekt borttagen från historiken.</item>
+        <item quantity="other">%1$d objekt borttagna från historiken.</item>
         <item quantity="one">%1$d objekt borttagen från historiken.</item>
     </plurals>
     <plurals name="video_history_clear_prompt">

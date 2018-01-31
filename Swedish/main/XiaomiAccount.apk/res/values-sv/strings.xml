@@ -90,9 +90,9 @@ För att aktivera ditt konto, följ
     <string name="passport_phone_num_hint_text">Telefonnummer</string>
     <string name="passport_input_password_hint">Ange lösenord</string>
     <string name="passport_input_captcha_hint">Ange kod</string>
-    <string name="passport_input_vcode_hint">Fyll i verifieringskod</string>
+    <string name="passport_input_vcode_hint">Ange verifieringskod</string>
     <string name="passport_email">E-postadress</string>
-    <string name="passport_vcode_prompt_long">Fyll i verifieringskod</string>
+    <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
     <string name="passport_input_phone_hint">Ange telefonnummer</string>
     <string name="passport_error_empty_username">Fyll i ditt konto-ID</string>
     <string name="passport_error_invalid_phone_num">Ogiltigt telefonnummer</string>
@@ -103,7 +103,7 @@ För att aktivera ditt konto, följ
     <string name="passport_error_empty_pwd">Ange ditt lösenord</string>
     <string name="passport_error_illegal_pwd">Ogiltigt lösenord</string>
     <string name="passport_error_empty_captcha_code">Ange captcha</string>
-    <string name="passport_error_empty_vcode">Fyll i verifieringskod</string>
+    <string name="passport_error_empty_vcode">Ange verifieringskod</string>
     <string name="passport_i_know">Jag förstår</string>
     <string name="passport_retry">Försök igen</string>
     <string name="passport_back">Bakåt</string>
@@ -167,7 +167,7 @@ För att aktivera ditt konto, följ
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
     <string name="passport_barcode_add_account_prompt">För att ansluta ett konto, skanna QR-koden igen efter du har loggat in.</string>
     <string name="passport_password_phone_login">Logga in med Mi konto</string>
-    <string name="passport_sms_verification_code_login">SMS verification code login</string>
+    <string name="passport_sms_verification_code_login">Logga in med SMS</string>
     <string name="passport_login_other_account">Annat konto</string>
     <string name="passport_reg_new_account">Skapa konto</string>
     <string name="passport_select_the_login_account">Välj kontot för att logga in</string>

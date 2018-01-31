@@ -2,6 +2,7 @@
 <resources>
     <string name="welcome">Välkommen</string>
     <string name="app_name">Tillhandahållande</string>
+    <string name="system_navigation_mode">Navigera i systemet</string>
     <string name="input_method_setting">Välj tangentbord</string>
     <string name="input_method_category">Välj standardtangentbort som du kommer användas för att skriva meddelanden, anteckningar och annat. Du kan installera ett tredjepartstangentbord senare.</string>
     <string name="provision_inputmethod_policy_description">"
@@ -13,6 +14,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="sim_card_detecting_title">Kontrollera efter SIM kort</string>
     <string name="sim_card_detection_info">Att sätta in SIM-kortet, läs instruktionerna som följde med enheten.</string>
     <string name="sim_card_detecting">Söker efter SIM kort…</string>
+    <string name="sim_card_detecting_check">Det gick inte att hitta SIM-kortet. Se till att SIM-kortet är rätt installerat och att du har tillräckligt med pengar på kortet.</string>
     <string name="other_settings">Ytterligare inställningar</string>
     <string name="other_settings_location">Plats</string>
     <string name="other_settings_location_summary">Tillåt appar att få åtkomst till din plats.</string>
@@ -28,6 +30,7 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="sim_dectection_next">Fortsätt</string>
     <string name="shut_down">Stäng av</string>
     <string name="sim_redetection">Kolla igen</string>
+    <string name="navigation_picker_gesture_guide">Guide för gester</string>
     <string name="congratulation_title">Inställningsguide klar</string>
     <string name="congratulation_label">Du är redo att rocka!​</string>
     <string name="pref_title_voice_slot">Föredragit röst SIM-kort</string>
@@ -36,9 +39,12 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="ime_privacy_policy">Integritetspolicy för det valda tangentbordet</string>
     <string name="ime_privacy_policy_no_network">Ingen anslutning. Visa integritetspolicy för tangentbordet på %s.</string>
     <string name="terms_of_use">Villkor</string>
-    <string name="terms_of_use_label">"Din integritet är väldigt viktig för oss. Vänligen läs våra användarvillkor och vår integritetspolicy för att förstå vilken information som vi samlar in, hur vi använder den och vilka alternativ som är tillgängliga för dig.
+    <string name="terms_of_use_label">"Din integritet är viktig för oss. Läs våra Användarvillkor och Integritetspolicy för att förstå vilken information vi samlar in, använder och vilka alternativ som är tillgängliga för dig.
 
-Du måste godkänna våra användarvillkor och vår integritetspolicy innan du kan använda MIUI. Mi tjänster, Mi SIM aktvering, Mi Cloud, Hitta enhet, Hemskärmen, Spelcenter, Systemkomponent MSA och statistiska komponenter kommer att ansluta till internet och finna din plats."</string>
+Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan använda MIUI. Tjänster från MI, aktivera MI SIM tjänster, MI Cloud, Hitta enhet, snabbkort, statistik, smartkort, MI Link, och komponenter för MI-konto kommer ansluta till internet för hämta din platsinformation."</string>
+    <string name="terms_of_use_label_gms">"Din integritet är viktig för oss. Läs våra Användarvillkor och Integritetspolicy för att förstå vilken information vi samlar in, använder och vilka alternativ som är tillgängliga för dig.
+
+Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan använda MIUI. Tjänster från MI, aktivera MI SIM tjänster, MI Cloud, Hitta enhet, Hemskärm, MAB, MIUI Daemon och MSA System, webappar, App valv, statistik, smartkort, MI Link, komponenter för MI-konto och Google Play services kommer ansluta till internet för hämta din platsinformation."</string>
     <string name="user_agreement">Användarvillkor</string>
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="application_permissions">Appbehörigheter</string>
@@ -63,6 +69,9 @@ Du måste godkänna våra användarvillkor och vår integritetspolicy innan du k
     <string name="content_description_complete">Färdig</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
     <string name="language_settings">Välj språk</string>
+    <string name="navigation_picker_radio_text_full_screen">Helskärmsläge</string>
+    <string name="navigation_picker_radio_text_virtual_key">Virtuella tangenter</string>
+    <string name="congratulation_swipe">Svep för gå in i systemet</string>
     <string name="enable_accessibility_dialog_message">Du aktiverade TalkBack genom att trycka på skärmen med två fingrar i över 10 sekunder. TalkBack ger röståterkoppling med personer med nedsatt syn. Om du aktiverade det av misstag, tryck på Avbryt och dubbeltryck sedan på skärmen.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="enable_accessibility_dialog_negative_btn">Avbryt</string>
@@ -71,4 +80,6 @@ Du måste godkänna våra användarvillkor och vår integritetspolicy innan du k
     <string name="enable_accessibility_canceled">Tillgänglighet avbruten.</string>
     <string name="accessibility_enabled">Tillgänglighet aktiverad.</string>
     <string name="continue_to_enable_accessibility">Fortsätt hålla ner två fingrar för att aktivera tillgänglighet.</string>
+    <string name="voice_assist_title">Väck med röst</string>
+    <string name="voice_assist_desp">Säg \"Mi AI\" i din telefon. Mi AI kommer känna igen din röst och du kommer kunna styra din enhet.</string>
 </resources>

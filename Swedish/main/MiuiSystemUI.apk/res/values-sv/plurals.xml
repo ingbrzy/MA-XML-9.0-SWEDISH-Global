@@ -28,6 +28,10 @@
         <item quantity="other">Klart</item>
         <item quantity="one">Soligt</item>
     </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">Väder: %d grader</item>
+        <item quantity="one">Väder: %d grad</item>
+    </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d oviktiga notifikationer</item>
         <item quantity="one">%d oviktig notifikation</item>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%ddagar före</item>
-        <item quantity="one">%ddag före</item>
+        <item quantity="other">%d dagar före</item>
+        <item quantity="one">%d dag före</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="other">%d timmar före</item>
@@ -33,7 +33,7 @@
         <item quantity="one">%d vecka före</item>
     </plurals>
     <plurals name="anniversary_day">
-        <item quantity="other">%1$sdagar</item>
+        <item quantity="other">%1$s dagar</item>
         <item quantity="one">%1$s dag</item>
     </plurals>
     <plurals name="anniversary_notify_before_3_day_title">
@@ -61,24 +61,24 @@
         <item quantity="one">%1$s-år gammal</item>
     </plurals>
     <plurals name="countdown_day">
-        <item quantity="other">%1$sdagar kvar</item>
-        <item quantity="one">%1$sdag kvar</item>
+        <item quantity="other">%1$s dagar kvar</item>
+        <item quantity="one">%1$s dag kvar</item>
     </plurals>
     <plurals name="date_calculate_days_after">
-        <item quantity="other">%1$ddagar före</item>
-        <item quantity="one">%1$ddag före</item>
+        <item quantity="other">%1$d dagar efter</item>
+        <item quantity="one">%1$d dag efter</item>
     </plurals>
     <plurals name="date_calculate_days_ago">
-        <item quantity="other">%1$ddagar före</item>
-        <item quantity="one">%1$ddag före</item>
+        <item quantity="other">%1$d dagar före</item>
+        <item quantity="one">%1$d dag före</item>
     </plurals>
     <plurals name="date_calculate_direction_backward">
         <item quantity="other">Om %1$d dagar</item>
         <item quantity="one">Om %1$d dag</item>
     </plurals>
     <plurals name="date_calculate_direction_forward">
-        <item quantity="other">%1$ddagar före</item>
-        <item quantity="one">%1$ddag före</item>
+        <item quantity="other">%1$d dagar före</item>
+        <item quantity="one">%1$d dag före</item>
     </plurals>
     <plurals name="edit_date_calculate_days_error_hint">
         <item quantity="other">Du kan skriva in upp till %1$d dagar</item>

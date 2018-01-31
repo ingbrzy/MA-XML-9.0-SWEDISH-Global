@@ -26,7 +26,6 @@
     <string name="notification_recording_ticker">Telefon tystad</string>
     <string name="notification_playback">Spelar…</string>
     <string name="notification_stopped">Inspelningen stoppad</string>
-    <string name="notification_warning">Lite lagringsutrymme (mindre än %d minuter)</string>
     <string name="record_list">Inspelningar</string>
     <string name="record_list_fm">FM inspelningar</string>
     <string name="record_list_call">Inspelade samtal</string>
@@ -73,6 +72,7 @@
     <string name="message_file_size_error">Inspelningen har nått den högsta tillåtna längden som stöds av %s</string>
     <string name="pause">Pausa</string>
     <string name="back">Tillbaka</string>
+    <string name="menu">Meny</string>
     <string name="toast_uninstall_fileexplorer">Utforskaren är inte installerad</string>
     <string name="record_download">Ladda ned från Mi Cloud</string>
     <string name="record_download_msg">Inspelningar kan endast spelas upp efter att de har laddats ned.</string>
@@ -141,10 +141,8 @@
     <string name="recognition_error_downloading">Laddar ned</string>
     <string name="recognition_status_downloading">Laddar ned</string>
     <string name="runtime_permission_ungranted">Kan inte använda Inspelaren på grund av otillräcklig behörighet</string>
-    <string name="btn_clear_records">Ta bort inspelningar (%d objekt)</string>
     <string name="alert_message_clear_records">Ta bort markerade inspelningar?</string>
     <string name="clear_records">Radera synkroniserade inspelningar</string>
-    <string name="choose_call_records_count">%d objekt</string>
     <string name="network_tip_dialog_title">Internetanslutning krävs</string>
     <string name="network_tip_dialog_content">Inspelare behöver vara ansluten till internet och kunna läsa din kontakter för att kunna fungera normalt. Godkänn?</string>
     <string name="network_tip_dialog_ok">Samtycker</string>

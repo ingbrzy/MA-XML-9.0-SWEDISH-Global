@@ -190,7 +190,7 @@
     <string name="close_camera_requesting">Avaktiverar kamera…</string>
     <string name="close_camera_failed">Kunde inte avaktiverar kamera…</string>
     <string name="change_to_voice_tips_when_background">Den andra parten han växlat till röstsamtal</string>
-    <string name="video_crbt_title">%s Color ring back tone</string>
+    <string name="video_crbt_title">%s VRBT</string>
     <string name="call_button_tools_text">Funktioner</string>
     <string name="call_button_dialer_text">Tangentbord</string>
     <string name="call_button_mute_text">Tyst</string>

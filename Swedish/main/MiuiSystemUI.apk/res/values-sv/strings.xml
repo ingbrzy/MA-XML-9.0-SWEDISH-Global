@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Inga</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -424,7 +426,6 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
     <string name="recents_multistack_add_stack_dialog_split_custom">Anpassad</string>
     <string name="recents_multi_window_mode">Dela skärm</string>
     <string name="recents_exit_multi_window_mode">Avsluta</string>
-    <string name="keyboard_shortcut_group_system_recents">Senaste</string>
     <string name="accessibility_divider">Delad skärm</string>
     <string name="accessibility_action_divider_left_full">Helskärm till vänster</string>
     <string name="accessibility_action_divider_left_70">Vänster 70%</string>
@@ -438,8 +439,112 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
     <string name="accessibility_action_divider_bottom_full">Helskärm nedåt</string>
     <string name="dock_forced_resizable">Denna app fungerar kanske inte Delad skärm</string>
     <string name="dock_non_resizeble_failed_to_dock_text">Denna appen stöder inte Delad skärm</string>
+    <string name="accessibility_desc_work_lock">Låsskärm för Arbete</string>
+    <string name="keyboard_key_button_template">Knapp %1$s</string>
+    <string name="keyboard_key_home">Hem</string>
+    <string name="keyboard_key_back">Tillbaka</string>
+    <string name="keyboard_key_dpad_up">Upp</string>
+    <string name="keyboard_key_dpad_down">Ner</string>
+    <string name="keyboard_key_dpad_left">Vänster</string>
+    <string name="keyboard_key_dpad_right">Höger</string>
+    <string name="keyboard_key_dpad_center">Center</string>
+    <string name="keyboard_key_tab">Tab</string>
+    <string name="keyboard_key_space">Space</string>
+    <string name="keyboard_key_enter">Enter</string>
+    <string name="keyboard_key_backspace">Backspace</string>
+    <string name="keyboard_key_media_play_pause">Play/Pause</string>
+    <string name="keyboard_key_media_stop">Stoppa</string>
+    <string name="keyboard_key_media_next">Nästa</string>
+    <string name="keyboard_key_media_previous">Föregående</string>
+    <string name="keyboard_key_media_rewind">Spola tillbaka</string>
+    <string name="keyboard_key_media_fast_forward">Snabbspola</string>
+    <string name="keyboard_key_page_up">Page Up</string>
+    <string name="keyboard_key_page_down">Page Down</string>
+    <string name="keyboard_key_forward_del">Ta bort</string>
+    <string name="keyboard_key_move_home">Hem</string>
+    <string name="keyboard_key_move_end">End</string>
+    <string name="keyboard_key_insert">Infoga</string>
+    <string name="keyboard_key_num_lock">Num Lock</string>
+    <string name="keyboard_key_numpad_template">Numpad %1$s</string>
+    <string name="keyboard_shortcut_group_system">System</string>
+    <string name="keyboard_shortcut_group_system_home">Hem</string>
+    <string name="keyboard_shortcut_group_system_recents">Senaste</string>
+    <string name="keyboard_shortcut_group_system_back">Tillbaka</string>
+    <string name="keyboard_shortcut_group_system_notifications">Notifikationer</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Genvägar</string>
+    <string name="keyboard_shortcut_group_system_switch_input">Växla inmatningsmetod</string>
+    <string name="keyboard_shortcut_group_applications">Applikationer</string>
+    <string name="keyboard_shortcut_group_applications_assist">Assist</string>
+    <string name="keyboard_shortcut_group_applications_browser">Webbläsare</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Kontakter</string>
+    <string name="keyboard_shortcut_group_applications_email">E-post</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_im">IM</string>
+    <string name="keyboard_shortcut_group_applications_music">Musik</string>
+    <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Kalender</string>
+    <string name="legacy_vpn_name">VPN</string>
+    <string name="monitoring_button_view_policies">Visa Policyer</string>
+    <string name="monitoring_description_ca_certificate">En Certifikatutfärdare är installerad på denna enhet. Din säkra nätverkstrafik kan vara övervakad eller har blivit modifierad.</string>
+    <string name="monitoring_description_named_management">"Din enhet hanteras av %1$s.
+
+Din administratör kan övervaka och hantera inställningar, åtkomst, appar, data associerad med din enhet, och din enhets platsinformation.
+
+Kontakta din administratör för mer information."</string>
+    <string name="monitoring_description_managed_profile_ca_certificate">Din organisation installerade en Certifikatutfärdare i din arbetsprofil. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
+    <string name="monitoring_description_management">"Din enhet hanteras av din organisation.
+
+Din administratör kan övervaka och hantera inställningar, åtkomst, appar, data associerad med din enhet, och din enhets platsinformation.
+
+Kontakta din administratör för mer information."</string>
+    <string name="monitoring_description_management_ca_certificate">Din organisation installerade en Certifikatutfärdare på denna enhet. Din säkra nätverkstrafik kan övervakas eller modifieras.</string>
+    <string name="monitoring_description_managed_profile_named_vpn">Din arbetsprofil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
+    <string name="monitoring_description_management_network_logging">Din administratör har aktiverat nätverksloggning som övervakar trafiken på din enhet.</string>
+    <string name="monitoring_description_named_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
+    <string name="monitoring_description_personal_profile_named_vpn">Din personliga profil är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
+    <string name="monitoring_description_two_named_vpns">Du är ansluten till %1$s och %2$s som kan övervaka din aktivitet på nätverket, inklusive e-post, appar och websidor.</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
+    <string name="monitoring_description_vpn_settings">Öppna inställningar för VPN</string>
+    <string name="monitoring_title">Nätverksövervakning</string>
+    <string name="monitoring_subtitle_ca_certificate">CA-certifikat</string>
+    <string name="monitoring_subtitle_network_logging">Nätverksloggning</string>
+    <string name="monitoring_subtitle_vpn">VPN</string>
+    <string name="monitoring_title_device_owned">Enhetshantering</string>
+    <string name="quick_settings_done">Klar</string>
+    <string name="quick_settings_disclosure_management_monitoring">Din organisation hanterar denna enhet och kan övervaka nätverkstrafiken</string>
+    <string name="quick_settings_disclosure_named_management_monitoring">%1$s hanterar denna enhet och kan övervaka nätverkstrafiken</string>
+    <string name="quick_settings_disclosure_management_named_vpn">Enheten hanteras av din organisation och är ansluten till %1$s</string>
+    <string name="quick_settings_disclosure_named_management_named_vpn">Enheten hanteras av %1$s är ansluten till %2$s</string>
+    <string name="quick_settings_disclosure_management">Enheten hanteras av din organisation</string>
+    <string name="quick_settings_disclosure_named_management">Enheten hanteras av %1$s</string>
+    <string name="quick_settings_disclosure_management_vpns">Enheten hanteras av din organisation och är ansluten via VPNs</string>
+    <string name="quick_settings_disclosure_named_management_vpns">Enheten hanteras av %1$s och är ansluten via VPNs</string>
+    <string name="quick_settings_disclosure_managed_profile_monitoring">Din organisation kan övervaka nätverkstrafiken på din arbetsprofil</string>
+    <string name="quick_settings_disclosure_named_managed_profile_monitoring">%1$s kan övervaka nätverkstrafiken på din arbetsprofil</string>
+    <string name="quick_settings_disclosure_monitoring">Nätverket kan vara övervakat</string>
+    <string name="quick_settings_disclosure_vpns">Enheten ansluten till VPNs</string>
+    <string name="quick_settings_disclosure_managed_profile_named_vpn">Arbetsprofilen ansluten till %1$s</string>
+    <string name="quick_settings_disclosure_personal_profile_named_vpn">Personliga profilen ansluten till %1$s</string>
+    <string name="quick_settings_disclosure_named_vpn">Enhet ansluten till %1$s</string>
     <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
+    <string name="monitoring_title_profile_owned">Profilövervakning</string>
+    <string name="monitoring_description_do_body_vpn">Du är ansluten till %1$s som kan övervaka din aktivitet på nätverket, inklusive e-postmeddelanden, appar och webbplatser.</string>
+    <string name="monitoring_description_network_logging">"Administratören har aktiverat nätverksloggning som övervakar trafik på enheten.
+
+Kontakta administratören om du vill veta mer."</string>
+    <string name="monitoring_description_vpn">"Du har gett en app behörighet att upprätta en VPN-anslutning.
+
+Appen kan bevaka aktivitet på enheten och nätverket, inklusive e-post, appar och webbplatser."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Jobbprofilen hanteras av %1$s.
+
+Administratören kan övervaka nätverksaktivitet, till exempel e-postmeddelanden, appar och webbplatser.
+
+Kontakta administratören om du vill veta mer.
+
+Du är även ansluten till ett VPN som kan övervaka nätverksaktivitet."</string>
+    <string name="monitoring_description_app">Du är ansluten till %1$s som kan bevaka din nätverksaktivitet, exempelvis e-post, appar och webbplatser.</string>
+    <string name="monitoring_description_app_personal">Du är ansluten till %1$s, som kan bevaka din privata aktivitet på nätverket, inklusive e-post, appar och webbplatser.</string>
     <string name="status_bar_recent_guide_all">"Dra upp för att stänga
 Dra ner för att låsa"</string>
     <string name="status_bar_recent_guide_top">Dra upp för att stänga</string>
@@ -457,6 +562,9 @@ MMMM d"</string>
     <string name="accessibility_recent_task_memory_info">Total RAM: %2$s | Tillgängliga RAM: %1$s. Dubbeltryck för att rensa.</string>
     <string name="accessibility_recent_task_locked">Låst, dra ner för att låsa upp.</string>
     <string name="accessibility_recent_task_unlocked">Upplåst</string>
+    <string name="accessibility_recent_task_locked_state">Låst</string>
+    <string name="accessibility_recent_task_unlocked_state">Olåst</string>
+    <string name="accessibility_drag_hint_message">Dra objekt till överkanten av skärmen</string>
     <string name="nav_guide_title">Dölj skärmknappar</string>
     <string name="nav_guide_message">Använd gester för att dölja/visa skärmknappar.</string>
     <string name="nav_guide_cancel">Ignorera</string>
@@ -536,6 +644,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB-lagring ansluten</string>
     <string name="ext_media_mountable_notification_message">Tryck för att öppna i Utforskaren.</string>
     <string name="ext_media_safe_remove">Säker borttagning</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">Kb/s</string>
     <string name="megabyte_per_second">Mb/s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
@@ -614,6 +723,19 @@ MMMM d"</string>
     <string name="notification_header_title">Notifikationer</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
+    <string name="accessibility_desc_notification_shade">Meddelandepanel</string>
+    <string name="accessibility_desc_quick_settings">Snabbinställningar</string>
+    <string name="accessibility_desc_details_page">%1$s detaljsida</string>
+    <string name="accessibility_desc_block_notification">Dölj notifikationer</string>
+    <string name="accessibility_desc_select_block_notification">Välj notifikationer som ska döljas</string>
+    <string name="accessibility_desc_confirm_block">Dölj</string>
+    <string name="accessibility_desc_reconfirm_block">Dölj nu?</string>
+    <string name="accessibility_desc_cancel_block">Dölj inte</string>
+    <string name="accessibility_desc_app_allow_block">%1$s notifikationer kan döljas</string>
+    <string name="accessibility_desc_app_unallow_block">%1$s notifikationer kan inte döljas</string>
+    <string name="accessibility_desc_check_block_notification">"Välj %1$s's notifikationer"</string>
+    <string name="accessibility_desc_uncheck_block_notification">"Välj inte %1$s's notifikationers"</string>
     <string name="screenshot_long_screenshot">Skrolla</string>
     <string name="screenshot_edit">Redigera</string>
     <string name="screenshot_send">Skicka</string>
@@ -634,7 +756,6 @@ MMMM d"</string>
     <string name="notification_manager">Hantera notifikationer</string>
     <string name="notification_manager_des">Filtrera och hantera notifikationer</string>
     <string name="quick_settings_more_settings">Fler inställningar</string>
-    <string name="quick_settings_done">Klar</string>
     <string name="quick_settings_wifi_detail_empty_text">Inga Wi-Fi nätverk är tillgängliga</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_nearby">Välj ett närliggande nätverk</string>
@@ -660,21 +781,29 @@ MMMM d"</string>
     <string name="description_image_button_reject">Avböj</string>
     <string name="description_image_button_answer">Svara</string>
     <string name="screenshot_feedback_txt">Feedback</string>
-    <string name="screenshot_toalbum_txt">Preview</string>
-    <string name="how_to_use_fsg">How to use full-screen gesture?</string>
-    <string name="how_to_back_home">How to back to home</string>
-    <string name="how_to_switch_recents">How to switch to recents</string>
-    <string name="fsg_demo_back">Back</string>
-    <string name="fsg_demo_go_on">Go on</string>
-    <string name="fs_gesture_back_home_summary">Slide from bottom quickly</string>
-    <string name="fs_gesture_switch_recents_summary">Slide from bottom and wait a second</string>
-    <string name="fs_gesture_back_ready_title">How to go back last page?</string>
-    <string name="fs_gesture_left_back_ready_summary">Swipe left from screen</string>
-    <string name="fs_gesture_right_back_ready_summary">Swipe right from screen</string>
-    <string name="fs_gesture_skip">Back</string>
+    <string name="screenshot_toalbum_txt">Förhandsvisning</string>
+    <string name="please_slide_agian">Svep igen</string>
+    <string name="how_to_use_fsg">Du kan genomföra dessa åtgärder med gester:</string>
+    <string name="how_to_back_home">Gå till Hemskärmen</string>
+    <string name="how_to_switch_recents">Öppna senaste använda appar</string>
+    <string name="fsg_demo_back">Tillbaka</string>
+    <string name="fsg_demo_go_on">Lär dig</string>
+    <string name="fs_gesture_back_home_summary">Svep från underkanten snabbt</string>
+    <string name="fs_gesture_switch_recents_summary">Svep från underkanten och pausa</string>
+    <string name="fs_gesture_back_ready_title">Gå tillbaka</string>
+    <string name="fs_gesture_left_back_ready_summary">Svep från höger från kanten</string>
+    <string name="fs_gesture_right_back_ready_summary">Svep från vänster från kanten</string>
+    <string name="fs_gesture_skip">Tillbaka</string>
     <string name="fs_gesture_finish">Nice!</string>
-    <string name="fs_gesture_final_title">Finish studying</string>
-    <string name="fs_gesture_final_summary">You can set in [Settings-Full screen]</string>
-    <string name="fs_gesture_final_restart">Study again</string>
-    <string name="fs_gesture_final_over">Finish</string>
+    <string name="fs_gesture_final_title">Du är redo att rocka!</string>
+    <string name="fs_gesture_final_summary">Du kan växla tillbaka till att använda knappar i Inställningar > Helskärm</string>
+    <string name="fs_gesture_final_restart">En gång till</string>
+    <string name="fs_gesture_final_over">Jag är färdig</string>
+    <string name="monitoring_description_do_header_generic">Enheten hanteras av %1$s.</string>
+    <string name="monitoring_description_do_header_with_name">%1$s hanterar enheten med hjälp av %2$s.</string>
+    <string name="monitoring_description_do_body">Administratören kan övervaka och hantera inställningar, företagsåtkomst, appar, data med koppling till enheten och enhetens plats.</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
+    <string name="monitoring_description_do_learn_more">Läs mer</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
+    <string name="monitoring_description_ca_cert_settings">Öppna betrodda användaruppgifter</string>
 </resources>

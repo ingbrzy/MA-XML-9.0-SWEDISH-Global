@@ -348,7 +348,7 @@
     <string name="voice_report_incoming_call">Inkommande samtal</string>
     <string name="voice_report_unknown_num">Okänt nummer</string>
     <string name="incall_error_call_failed">Kunde inte ringa.</string>
-    <string name="notification_missedCall_call_back_miui">Samtal</string>
+    <string name="notification_missedCall_call_back_miui">Ring upp</string>
     <string name="dial_vt_fail_prompt">Nuvarande nätverk stödjer inte VoLTE. Växla till vanligt röstsamtal?</string>
     <string name="dial_conference_fail_prompt">Det går inte att ringa konferenssamtal direkt eftersom nuvarande nätverk inte stödjer VoLTE.</string>
     <string name="can_not_dial_while_vt_prompt">Det går inte att ringa under ett pågående videosamtal</string>

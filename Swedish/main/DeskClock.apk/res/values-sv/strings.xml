@@ -81,6 +81,7 @@
     <string name="birthday_alarm_summary">Spela \"Happy Birthday\" istället för den vanliga alarmsignalen på din födelsedag</string>
     <string name="turn_off_a_repeat_alarm">Stäng av en upprepande alarm</string>
     <string name="skip_alarm_once_hint">Stäng av en gång %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">Stäng av detta upprepande alarm</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>

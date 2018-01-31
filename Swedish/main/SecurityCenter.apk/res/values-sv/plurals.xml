@@ -4,6 +4,10 @@
         <item quantity="other">%1$d samtal från: %2$s och andra</item>
         <item quantity="one">%1$d samtal från: %2$s</item>
     </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d samtal från: %2$s och andra</item>
+        <item quantity="one">%1$d samtal från: %2$s</item>
+    </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d meddelanden</item>
         <item quantity="one">%d meddelande</item>
@@ -33,12 +37,12 @@
         <item quantity="one">%d app</item>
     </plurals>
     <plurals name="bg_network_allow_count">
-        <item quantity="other">%d apps can connect to the network in the background</item>
-        <item quantity="one">%d app can connect to the network in the background</item>
+        <item quantity="other">%d appar kan ansluta till nätverket i bakgrunden</item>
+        <item quantity="one">%d app kan ansluta till nätverket i bakgrunden</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
-        <item quantity="other">"%d apps can't connect to the network in the background"</item>
-        <item quantity="one">"%d app can't connect to the network in the background"</item>
+        <item quantity="other">%d appar kan inte ansluta till nätverket i bakgrunden</item>
+        <item quantity="one">%d app kan inte ansluta till nätverket i bakgrunden</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Du har överskridit din %s dagliga datagräns.</item>
@@ -69,8 +73,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">%d app hittad</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
-        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
+        <item quantity="other">"Nätverksåtkomst är begränsad för &lt;font color='#ff0000'>%d&lt;/font> appar"</item>
+        <item quantity="one">"Nätverksåtkomst är begränsad för &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d app fungerar inte korrekt och drar mycket ström</item>
@@ -115,6 +119,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
     <plurals name="people_million">
         <item quantity="other">Nerladdad av %1$d människor</item>
         <item quantity="one">Nerladdad av %1$d människa</item>
+    </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d personer spelar</item>
+        <item quantity="one">%1$d person spelar</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d personer spelar</item>
+        <item quantity="one">%1$d person spelar</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d visningar</item>

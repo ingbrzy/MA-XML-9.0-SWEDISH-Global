@@ -12,12 +12,6 @@
         <item>Ofta använt</item>
         <item>Storlek</item>
     </string-array>
-    <string-array name="auto_clean_time">
-        <item>Varje dag</item>
-        <item>Var tredje dag</item>
-        <item>Var 7: de dag</item>
-        <item>Var 15:e dag</item>
-    </string-array>
     <string-array name="auto_clean_size">
         <item>100 MB</item>
         <item>300 MB</item>

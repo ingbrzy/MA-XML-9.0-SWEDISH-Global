@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentera</string>
     <string name="comment_description">Kommentera</string>
     <string name="comment_hint">Kommentera</string>
@@ -194,7 +195,7 @@
     <string name="contextmenu_webpage_capture">Spara som skärmdump</string>
     <string name="contextmenu_webpage_html">Spara som HTML-fil</string>
     <string name="contextmenu_webpage_snapshot">Spara sida</string>
-    <string name="copy_to_clipboard_failure_message">Kopiering till utklipp misslyckades</string>
+    <string name="copy_to_clipboard_failure_message">Det gick inte att kopiera till urklipp.</string>
     <string name="copy_url">Kopiera URL</string>
     <string name="create_qr_code">QR-kod</string>
     <string name="current_version_pad">Platta</string>
@@ -204,7 +205,7 @@
     <string name="custom_head_card_text_incognito">"Du är inkognito!
 Sidor som du ser kommer inte med i historik."</string>
     <string name="data_traffic_prompt_change">Att använda din mobila dataanslutning för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
-    <string name="data_traffic_prompt_message">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
+    <string name="data_traffic_prompt_message">Att använda din mobila dataanslutning för att leta efter videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
     <string name="data_traffic_prompt_message_short">Att använda mobildata för att strömma video kan förbruka din datamängd.</string>
     <string name="data_traffic_prompt_title">Varning för dataanvändning</string>
     <string name="date_picker_dialog_clear">Klar</string>
@@ -333,6 +334,8 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="hint">Tips</string>
     <string name="history">Historik</string>
     <string name="home_description">Hem</string>
+    <string name="home_page_news_feed">Nyhetsflöde</string>
+    <string name="home_page_top_sites">Toppsidor</string>
     <string name="homepage_delete_card_menu">Ta bort</string>
     <string name="homepage_get_location">Hämta plats</string>
     <string name="homepage_get_location_failed">Kunde inte få information, välj en stad</string>
@@ -366,7 +369,7 @@ Lämna denna sida?"</string>
     <string name="loading_tips">Dra nedåt för att uppdatera</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Kunde inte logga in, uppdatera och försök igen</string>
-    <string name="low_memory_error">Misslyckades slutföra den tidigare operationen eftersom det finns för lite minne kvar</string>
+    <string name="low_memory_error">Det gick inte att slutföra den tidigare operationen eftersom det finns för lite minne kvar.</string>
     <string name="low_memory_toast">Kan inte använda Webbläsare på grund av lågt minne</string>
     <string name="max_tabs_warning">Kan inte öppna fler flikar</string>
     <string name="maximum_input_alert">Kan inte skriva in mer än 2048 tecken</string>
@@ -380,9 +383,9 @@ Lämna denna sida?"</string>
     <string name="media_error_timeout">Nätverksanslutning frånkopplad</string>
     <string name="media_error_video_not_exist">Video existerar inte</string>
     <string name="media_player_error_button">OK</string>
-    <string name="media_player_error_text_invalid_progressive_playback">Tyvärr, denna video är inte giltig för att strömmas till denna enhet.</string>
-    <string name="media_player_error_text_unknown">Tyvärr, denna video kan inte spelas.</string>
-    <string name="media_player_error_title">Det går inte spela upp video</string>
+    <string name="media_player_error_text_invalid_progressive_playback">Denna video är inte giltig för att strömmas till denna enhet.</string>
+    <string name="media_player_error_text_unknown">Kan inte spela upp videon.</string>
+    <string name="media_player_error_title">Kan inte spela upp video</string>
     <string name="media_player_loading_video">Laddar video</string>
     <string name="menu_addtodesk">Lägg till på Hemskärmen</string>
     <string name="menu_exit_nightmode">Avsluta</string>
@@ -478,7 +481,7 @@ Lämna denna sida?"</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Rensa cache och cookies (%s1Inställningar%s2 - Rensa data, din kontoinformation kanske försvinner).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Rensa cache och cookies (din kontoinformation kanske försvinner).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Rensa cache.</string>
-    <string name="miuichromium_error_page_suggestion_connect_and_retry">Ladda om sidan när du är ansluten till internet.</string>
+    <string name="miuichromium_error_page_suggestion_connect_and_retry">Ladda om sidan när du är ansluten till internet</string>
     <string name="miuichromium_error_page_suggestion_contact_admin">Kontakta din systemadministratör.</string>
     <string name="miuichromium_error_page_suggestion_correct_url">Kontrollera adressen du angivit och försök igen med korrekt URL.</string>
     <string name="miuichromium_error_page_suggestion_grant_permission">Ladda om sidan efter att appen Webbläsare har beviljats tillgång till internet.</string>
@@ -652,7 +655,7 @@ Lämna denna sida?"</string>
     <string name="pref_version_info">Versionsinformation</string>
     <string name="pref_volume_key_action">Scrolla med volymknapparna</string>
     <string name="private_browsing_warning">Den här funktionen stöds inte i denna version av Android.</string>
-    <string name="profiler_error_toast">Misslyckades att starta profileringen</string>
+    <string name="profiler_error_toast">Det gick inte att starta profilering.</string>
     <string name="profiler_no_storage_toast">Kan inte starta profilering för att det externa lagringsutrymmet inte är redo</string>
     <string name="profiler_started_toast">Profilering startad</string>
     <string name="profiler_stopped_toast">Profilering klar. Resultatet finns i %1$s.</string>
@@ -793,7 +796,7 @@ Lämna denna sida?"</string>
     <string name="ssl_untrusted">Certifikatet är inte från en betrodd källa.</string>
     <string name="ssl_warnings_header">Det finns problem med säkerhetscertifikatet för den här webbplatsen.</string>
     <string name="start_save_page_capture">Sparar skärmdump…</string>
-    <string name="storage_internal">Intern lagring</string>
+    <string name="storage_internal">Internt lagringsutrymme</string>
     <string name="storage_permission_request_toast">Nedladdningar kräver åtkomst till din enhets lagringsutrymme</string>
     <string name="storage_sd_card">SD-kort</string>
     <string name="storage_usb">USB-lagring</string>
@@ -829,7 +832,7 @@ Lämna denna sida?"</string>
     <string name="unsecurity_url_toast">Denna webbplats är inte säker</string>
     <string name="up_to_loading_tips">Släpp för att uppdatera</string>
     <string name="update_no_network_toast">Kan inte ansluta till nätverket</string>
-    <string name="updating_chrome">Uppdaterar Chrome...</string>
+    <string name="updating_chrome">Uppdaterar Chrome‧</string>
     <string name="uploads_disabled">Filuppladdningar är inaktiverade</string>
     <string name="url_copy_done">URL har kopierats till urklipp</string>
     <string name="url_find_on_page_result">Öppna i webbläsaren</string>

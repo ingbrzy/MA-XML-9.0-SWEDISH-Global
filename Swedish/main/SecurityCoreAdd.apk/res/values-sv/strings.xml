@@ -77,13 +77,13 @@ Vissa Dual appar kräver support för Google Services Framework. I de fallen ska
     <string name="xspace_install_failed">Kunde inte skapa</string>
     <string name="xspace_uninstalling">Avinstallerar…</string>
     <string name="xspace_install_completed">Ikon tillagd på hemskärmen</string>
-    <string name="xspace_uninstall_completed">Dubbel app avinstallerad</string>
+    <string name="xspace_uninstall_completed">Dual app avinstallerad</string>
     <string name="xspace_uninstall_dialog_title">Avinstallera dual app</string>
     <string name="xspace_uninstall_dialog_content">Avinstallation av en dual app kommer ta bort all applikationsdata för alla instanser av appen.</string>
     <string name="loading_apps">Laddar appar…</string>
-    <string name="loading_success">Laddades framgångsriskt</string>
+    <string name="loading_success">Laddad</string>
     <string name="switching">Flyttar…</string>
-    <string name="switch_success">Flyttades framgångsriskt</string>
+    <string name="switch_success">Flyttad</string>
     <string name="switch_failed">Kunde inte flytta</string>
     <string name="passwordProtect">Lösenord</string>
     <string name="PassWordGuard">Sekundärt utrymme lösenord</string>
@@ -255,14 +255,14 @@ för att logga in från låsskärmen"</string>
     <string name="scanner_fingerprint">Skannar fingeravtryck…</string>
     <string name="scanner_fingerprint_enter_second">"Skanna Sekundära utrymmets fingeravtryck
  för att gå till Sekundära utrymmet från Låsskärmen"</string>
-    <string name="xspace_guide_title">Skapa Dual app för %s</string>
+    <string name="xspace_guide_title">Skapa en dual app</string>
     <string name="xspace_guide_des">Använd två konton utan att behöva växla</string>
     <string name="xpsace_guide_button">Skapa</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
-    <string name="weixin_share">Dela till minnen</string>
+    <string name="weixin_share_sign">Logga in och dela</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Skicka till Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -271,6 +271,9 @@ för att logga in från låsskärmen"</string>
     <string name="xspace_default_app_title">Standardapp</string>
     <string name="xspace_default_app_summary">Ställ in standardapp för betalningar, delningar, favoriter och mer.</string>
     <string name="xspace_default_setting_dialog_title">Standard</string>
+    <string name="xspace_default_guide_notification_content">Tryck för att ändra</string>
+    <string name="xspace_default_guide_notification_main_title">Använd standardapp</string>
+    <string name="xspace_default_guide_notification_xspace_title">Använd dual app</string>
     <string name="space_name_default">Arbetsutrymme</string>
     <string name="space_des_default">Isolerat utrymme med krypterad data</string>
     <string name="create_work_space">Skapa ett Arbetsutrymme</string>
