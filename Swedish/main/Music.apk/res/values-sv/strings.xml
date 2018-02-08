@@ -68,7 +68,6 @@
     <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="s7">Testannons</string>
     <string name="search_menu_title">Sök</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="about">Om Mi Music</string>
     <string name="account">Konto</string>
     <string name="account_and_cloud">Konto</string>
@@ -759,7 +758,6 @@ is huvudsakligen av Ultimate Inc."</string>
     <string name="privacy_notif_content">Tryck för att visa detaljer.</string>
     <string name="privacy_notif_title">Xunlei Download Accelerator är på</string>
     <string name="privacy_policy">Privacy Policy</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="privacy_tip_cancel">Avbryt</string>
     <string name="privacy_tip_content">Använd Xunlei Accelerator för att påskynda nedladdningar? Webbadressen kommer att laddas upp till Xunlei servrar. Ditt Mi-kontos uppgifter kommer också att laddas upp för att kontrollera att du har ett aktivt abonnemang hos denna tjänst.</string>
     <string name="privacy_tip_ok">OK</string>
@@ -1003,7 +1001,6 @@ is huvudsakligen av Ultimate Inc."</string>
     <string name="upgrade_to">Uppgradera till</string>
     <string name="upgrade_waringing">"You'll only be able to listen to music stored on your device."</string>
     <string name="user_agreement">User Agreement</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="valid_period">Giltig: %s</string>
     <string name="version_info">Version</string>
     <string name="vip_after_tomorrow_auto_renew_message">Din Musik prenumeration förnyas automatiskt imorgonkväll. Kontrollera att du har tillräckligt med Mi Krediter på ditt konto för att fullfölja betalningen.</string>
