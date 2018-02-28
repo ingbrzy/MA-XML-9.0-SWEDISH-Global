@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">Obs!</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Videon kan tyvärr inte spelas upp i den här enheten.</string>
     <string name="selectTextMode">Markera text</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Ikon för fingeravtryck</string>
     <string name="month_day_year" formatted="false">%-e %B %Y</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
@@ -35,7 +34,6 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="durationDays">%1$d dagar</string>
     <string name="durationDayHours">%1$d dag %2$d tim</string>
     <string name="durationDayHour">%1$d dag %2$d tim</string>
@@ -1327,7 +1325,6 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
     <string name="zen_mode_alarm">Till %1$s (nästa alarm)</string>
     <string name="zen_mode_forever">Tills du inaktiverar detta</string>
     <string name="zen_mode_forever_dnd">Tills du inaktiverar Stör ej</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="toolbar_collapse_description">Komprimera</string>
     <string name="zen_mode_feature_name">Stör ej</string>
     <string name="zen_mode_downtime_feature_name">Avbrottstid</string>
@@ -1353,7 +1350,6 @@ Batterisparläget inaktiveras automatiskt när enheten laddas."</string>
     <string name="floating_toolbar_close_overflow_description">Dölj utökat verktygsfält</string>
     <string name="maximize_button_text">Maximera</string>
     <string name="close_button_text">Stäng</string>
-    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="importance_from_user">Du anger hur viktiga aviseringarna är.</string>
     <string name="importance_from_person">Detta är viktigt på grund av personerna som deltar.</string>
     <string name="user_creation_account_exists">Tillåter du att %1$s skapar en ny användare för %2$s?</string>
