@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Weibo-kontot har gått ut, lägg till kontot igen.</string>
     <string name="sina_token_invalid_warning">Weibo-kontot är ogiltigt, lägg till kontot igen.</string>
     <string name="sina_share_fail_content_repeat">Du har redan delat detta.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
     <string name="search_path_notes">Systemappar/Anteckningar</string>
     <string name="dlg_move_message">Flyttar…</string>
@@ -69,7 +70,7 @@
     <string name="dialog_share_title">Dela anteckning</string>
     <string name="dialog_share_as_text">Dela anteckning som text</string>
     <string name="dialog_share_as_pic">Dela anteckning som bild</string>
-    <string name="note_description_title">Om anteckningar</string>
+    <string name="note_description_title">Om Anteckningar</string>
     <string name="note_description_content">Appen Anteckningar är mycket bra verktyg för att spela in dina idéer. Den har inbyggda påminnelser och synkroniserar objekt till Mi Cloud så du kan få tillgång till dem överallt. Se till att du klarar dig utan dessa funktioner innan du ta bort appen.</string>
     <string name="db_downgrade_clear_date_reminder">Byta till en annan version av MIUI kräver att all appdata rensas för Anteckningar. Innan du gör det se till att du har säkerhetskopierat dina anteckningar till Mi Cloud.</string>
     <string name="db_downgrade_clear_button">Rensa applikationsdata</string>
@@ -119,6 +120,7 @@
     <string name="error_unsupport_content">Anteckningen har innehåll som inte stöds, tryck här för att uppdatera</string>
     <string name="error_contact_not_exist">Kontakt existerar inte</string>
     <string name="sync_tips">Tryck för att synkronisera anteckningar med Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">Textstorlek</string>
     <string name="call_folder_name">Samtalsanteckningar</string>
     <string name="trash_folder_name">Skräp</string>

@@ -109,7 +109,7 @@
     <string name="yearly">Årlig (varje %s)</string>
     <string name="yearly_plain">Årlig</string>
     <string name="account_and_calendar">Konton</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">Beräkna datum</string>
     <string name="action_bar_more_menu_view_description">Mer</string>
     <string name="action_bar_return">Bakåt</string>
     <string name="action_text_card_manager">Kanal</string>
@@ -165,7 +165,7 @@
     <string name="date_calculate_description">Räkna ut vilket datum det är efter ett antal dagar</string>
     <string name="date_calculate_direction">Riktning</string>
     <string name="date_calculate_direction_content_description">Nuvarande riktning: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Se vilket datum det är efter ett antal dagar</string>
     <string name="date_calculate_result">Resultat</string>
     <string name="date_calculate_tab">Beräkna datum</string>
     <string name="date_calculate_today">0 dagar</string>
@@ -398,7 +398,7 @@ Du kan också lägga till påminneler så du inte missar något viktigt."</strin
     <string name="travel_item_reminder_overdue">Påminnelse</string>
     <string name="travel_item_trafic">Trafik</string>
     <string name="travel_item_virtual_sim">Mi Virtual SIM</string>
-    <string name="travel_item_weather_forecast">Destination prognos</string>
+    <string name="travel_item_weather_forecast">Väderprognos vid din destination</string>
     <string name="travel_item_weather_now">Destination väder</string>
     <string name="travel_load_failed">Det gick inte att läsa</string>
     <string name="travel_loaded">Powered by Veryzhun</string>

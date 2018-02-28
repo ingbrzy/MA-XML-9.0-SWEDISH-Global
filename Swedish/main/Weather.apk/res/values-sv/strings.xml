@@ -65,7 +65,7 @@
     <string name="button_add_city">Lägg till plats</string>
     <string name="button_allow">OK</string>
     <string name="button_confirm">Tillåt</string>
-    <string name="button_exit">Utgång</string>
+    <string name="button_exit">Avsluta</string>
     <string name="button_not_allow">Avbryt</string>
     <string name="button_sure_abandon">Kasta ändringar?</string>
     <string name="card_vote_item_vs">VS</string>
@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">Lägg till stad</string>
     <string name="content_desc_activity_main_add_city_manage">Hantera städer</string>
     <string name="content_desc_activity_main_more_settings">Fler inställningar</string>
+    <string name="content_desc_back_button">Tillbaka</string>
+    <string name="content_desc_close_button">Stäng</string>
+    <string name="content_desc_edit_city_manage">Hantera städer</string>
     <string name="daily_forcast_drawer_on_bottom">Dölj</string>
     <string name="daily_forcast_no_stable_direction">Vind</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -87,6 +90,7 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Prognosdetaljer</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunde inte hämta information
 Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</string>
     <string name="data_provided_by">Data försedd av</string>
@@ -102,12 +106,14 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="feedback_sand">Sand</string>
     <string name="feedback_sunny">Soligt</string>
     <string name="first_start_network_msg">Denna app behöver ansluta till Internet och få tillgång din plats för att fungera normalt.</string>
-    <string name="first_start_network_title">Internet-anslutning och platsåtkomst</string>
+    <string name="first_start_network_title">Internetanslutning och platsåtkomst</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">Nuvarande position</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
-    <string name="hourly_forecast_title">Timmesprognos</string>
+    <string name="hourly_forecast_title">Timme för timme</string>
     <string name="index_item_experience_now">Installera nu</string>
     <string name="index_item_install_dialog" />
     <string name="index_item_install_dialog_cancel" />
@@ -130,11 +136,13 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="information_manager_extension">Väder förlängning</string>
     <string name="information_views" />
     <string name="install">Installera</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">Detaljer</string>
     <string name="international_details_pressure_title">LUFTTRYCK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV INDEX</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer att regna</string>
     <string name="locate_fail_detail_err">"Kan inte hitta enhet
@@ -143,7 +151,9 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="lunar_calendar" />
     <string name="menu_add_city">Ändra platser</string>
     <string name="menu_location">Platser</string>
+    <string name="menu_speaker">Röst</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">Minut för minut</string>
     <string name="minute_rain_after_an_hour">Om 1 timme</string>
     <string name="minute_rain_after_two_hour">Om 2 timmar</string>
     <string name="minute_rain_feedback_subtitle">Berätta hur vädret är.</string>
@@ -155,6 +165,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Dra nedåt för att uppdatera</string>
     <string name="minute_rain_refreshing_now">Uppdaterar…</string>
+    <string name="missing_required_permission">Du har inaktiverat ett obligatoriskt tillstånd.</string>
     <string name="more_details">Mer detaljer</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="network_unavailable">Kan inte ansluta till nätverket.</string>
@@ -170,15 +181,15 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="particulate_matter_exceeded">Hög</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">För hög</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">Tung</string>
+    <string name="precipitation_degree_four">Stark</string>
+    <string name="precipitation_degree_one">Inga</string>
+    <string name="precipitation_degree_three">Måttlig</string>
+    <string name="precipitation_degree_two">Lätt</string>
     <string name="pressure_connect">%1$s mb</string>
     <string name="pull_fresh_updated">Uppdaterats</string>
     <string name="pull_fresh_updating">Uppdaterar…</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">Radarkarta</string>
     <string name="rainfall_settings_summary">Varning vid kraftigt regn</string>
     <string name="rainfall_settings_title">Regn</string>
     <string name="real_time_sunrise">Soluppgång: %1$s</string>
@@ -190,6 +201,8 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="refresh_fail">Det gick inte att ansluta till nätverket</string>
     <string name="reminder_from_xiaomi_weather_app">Mi Vädervarningar</string>
     <string name="retry">Försök igen</string>
+    <string name="search_weather">Väder</string>
+    <string name="search_weather_keywords">Temperatur;Väderprognos;Väder;Luftkvalitet;Föroreningsgrad;Luftfuktighet</string>
     <string name="set">Inställningar</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -203,6 +216,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="share_subject">Dela</string>
     <string name="share_title">Dela väder</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="some_where_on_earth">Någonstans på jorden</string>
@@ -254,11 +268,4 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="xiaomi_weather_description_title">Om Väder</string>
     <string name="yes_vote_ratio">För %1$s%%</string>
     <string name="your_location">Din plats</string>
-    <string name="information_manager_default_weather_bg">Standardbakgrund för väder</string>
-    <string name="information_manager_information">Väderinformation</string>
-    <string name="information_manager_wlan">Visa vid anslutning till Wi-Fi</string>
-    <string name="information_menu_title" />
-    <string name="information_set">Andra inställningar</string>
-    <string name="menu_minute_rain">2-timmars nederbördsprognos</string>
-    <string name="menu_speeker">Röst</string>
 </resources>

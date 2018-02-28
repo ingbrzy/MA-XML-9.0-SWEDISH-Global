@@ -14,10 +14,10 @@
     </plurals>
     <plurals name="notif_summary_active">
         <item quantity="other">%d filer laddas ner</item>
-        <item quantity="one">1 fil laddas ner</item>
+        <item quantity="one">%d fil laddas ner</item>
     </plurals>
     <plurals name="notif_summary_waiting">
         <item quantity="other">%d filer väntar</item>
-        <item quantity="one">1 fil väntar</item>
+        <item quantity="one">%d fil väntar</item>
     </plurals>
 </resources>

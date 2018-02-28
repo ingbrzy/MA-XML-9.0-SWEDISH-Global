@@ -184,15 +184,15 @@
     <string name="toast_backup_uninstall_success">Säkerhetskopiering och avinstallering klar</string>
     <string name="activity_title_cache_data">App data</string>
     <string name="deepclean_cache_header_left">Datafiler: %d</string>
-    <string name="notification_title_of_garbage_cleanup">%s av skräpfiler</string>
+    <string name="notification_title_of_garbage_cleanup">Skräpfiler utgör %s</string>
     <string name="notification_summary_of_garbage_cleanup">Tryck för att frigöra utrymme.</string>
     <string name="notification_summary_after_auto_cleanup">Rengjord %s.</string>
     <string name="toast_uninstall_success">Avinstallering Färdig</string>
-    <string name="toast_app_no_residual_on_sdcard">App har inte några filer som lagrats på ditt SD kort</string>
+    <string name="toast_app_no_residual_on_sdcard">App har inga filer lagrade på ditt SD-kort</string>
     <string name="last_check_canceled">Tidigare skanning avbröts</string>
     <string name="default_cache_type">Data Filer</string>
     <string name="deepclean_normal_title">Städa automatiskt</string>
-    <string name="deepclean_normal_item_desc1">Skräpstorlek</string>
+    <string name="deepclean_normal_item_desc1">Skräpfiler</string>
     <string name="deepclean_normal_item_desc2">"Städaren's aktivitet kommer inte att påverka systemets prestanda"</string>
     <string name="deepclean_1_k_clean">Snabbstädning</string>
     <string name="similar_image_title">Foton</string>
@@ -306,7 +306,7 @@
     <string name="clear_safe_notify">Notifikationspanel widget</string>
     <string name="nb_clear_set">Rensa cache, visa batteri och blockeringslista i meddelandepanelen</string>
     <string name="seton_immediately">Sätt på</string>
-    <string name="notify_when">Få en notifikation när skräpstorleken når 100mb</string>
+    <string name="notify_when">Få en notifikation när skräpstorleken når 100MB</string>
     <string name="goto_set">Ange</string>
     <string name="virus_scan">Säkerhetssökning</string>
     <string name="tips_of_virus_scan">Skanna din enhet efter virus regelbundet för att hålla den säker</string>
@@ -324,7 +324,7 @@
     <string name="title_of_package_set">Data plan Inställningar</string>
     <string name="tips_of_package_set">Ställ in dataabonnemang och kontrollera mängden trafik du använder</string>
     <string name="title_of_garbage_cloud_scan">Cloud scanning</string>
-    <string name="tips_of_garbage_cloud_scan">Hitta dolda skräp med Cloud scan</string>
+    <string name="tips_of_garbage_cloud_scan">Hitta dolt skräp med Cloud scan</string>
     <string name="title_of_operators_set">Operatörsinställningar</string>
     <string name="tips_of_operators_set">Justera dataanvändningsstatistik automatiskt</string>
     <string name="set_immediately">Ange</string>

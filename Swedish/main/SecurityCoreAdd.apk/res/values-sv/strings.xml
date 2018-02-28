@@ -266,7 +266,7 @@ för att logga in från låsskärmen"</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Skicka till Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Skicka till QQ vänner/enheter</string>
+    <string name="qq_send">Skicka till QQ vänner/datorer</string>
     <string name="xspace_default_setting_label">Standardapp</string>
     <string name="xspace_default_app_title">Standardapp</string>
     <string name="xspace_default_app_summary">Ställ in standardapp för betalningar, delningar, favoriter och mer.</string>

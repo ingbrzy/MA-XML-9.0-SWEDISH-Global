@@ -3,7 +3,7 @@
     <string name="passport_account_label">Mi Konto</string>
     <string name="passport_notification_title">Inloggningsfel för %1$s</string>
     <string name="passport_login_prompt">Ett Mi konto. Alla Mi tjänster.</string>
-    <string name="passport_login_using_other_ways"><u>Andra sätt att logga in</u></string>
+    <string name="passport_login_using_other_ways">Andra sätt att logga in</string>
     <string name="passport_login_title">Logga in på ditt Mi-Konto</string>
     <string name="passport_login">Logga in</string>
     <string name="passport_relogin">Logga in igen</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">Återställ lösenord</string>
     <string name="passport_auto_generate_pwd">Generera säkert lösenord</string>
     <string name="passport_pwd_generate_failure">Det gick inte att generera lösenord</string>
-    <string name="passport_use_generated_pwd_title">Kom ihåg lösenord</string>
+    <string name="passport_use_generated_pwd_title">Kom ihåg ditt lösenord!</string>
     <string name="passport_use_generated_pwd_message">Se till att du kommer ihåg ditt lösenord. Du kan använda den för att logga in på andra Mi tjänster.</string>
     <string name="passport_register_restricted_title">Kan inte använda detta nummer</string>
     <string name="passport_register_restricted">För många konton har associerats med detta nummer, välj ett annat</string>
@@ -94,6 +94,7 @@ För att aktivera ditt konto, följ
     <string name="passport_email">E-postadress</string>
     <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
     <string name="passport_input_phone_hint">Ange telefonnummer</string>
+    <string name="passport_input_voice_captcha_hint">Ange koden för röstverifikation</string>
     <string name="passport_error_empty_username">Fyll i ditt konto-ID</string>
     <string name="passport_error_invalid_phone_num">Ogiltigt telefonnummer</string>
     <string name="passport_error_empty_phone_num">Ange telefonnummer</string>
@@ -217,11 +218,12 @@ För att aktivera ditt konto, följ
     <string name="app_name">Mi Konto</string>
     <string name="account">Konto</string>
     <string name="logout_failed">Det går inte att logga ut</string>
+    <string name="turning_off_find_device">Stäng av Hitta enhet…</string>
     <string name="turn_off_find_device_failed_title">Kan inte stänga av Hitta enhet</string>
     <string name="no_response_retry">Inget svar, försök igen.</string>
     <string name="removing_account">Loggar ut…</string>
-    <string name="delete_bank_card_title">Raderar ditt bankkort</string>
-    <string name="delete_bank_card_message">Ditt bankkort kommer raderas av säkerhetsskäl efter att du loggar ut</string>
+    <string name="delete_bank_card_title">Uppmärksamma</string>
+    <string name="delete_bank_card_message">Mi Pay bankkort and NFC kort kommer att raderas när du loggats ut.</string>
     <string name="bind_settings">Konton</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Anslut Sina Weibo Konto</string>
@@ -359,13 +361,16 @@ För att aktivera ditt konto, följ
     <string name="device_delete_success_title">Utloggad</string>
     <string name="device_delete_success_message">Om du inte loggade in på enheten, ändra ditt lösenord omedelbart.</string>
     <string name="change_password">Ändra lösenord</string>
-    <string name="completed">Allt klart</string>
+    <string name="completed">Allt klart!</string>
     <string name="no_network_title">Can inte ansluta till nätverket.</string>
     <string name="no_network_btn">Uppdatera</string>
     <string name="get_device_list_failed">Kan inte hämta enheter</string>
     <string name="delete_device_failed">Kan inte ta bort enhet</string>
     <string name="empty_device_list_notice">Inga enheter</string>
     <string name="device_name">Enhetsnamn</string>
+    <string name="multi_user_not_show_sync_activity_title">Sätt inte på synkronisering mot Mi Cloud</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Det verkar som att du använder ditt Primära utrymmes Mi konto.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">Om så är fallet kommer all information att synkroniseras till det Sekundära utrymmet. För att undvika detta, aktivera inte synkronisering för Mi Cloud.</string>
     <string name="find_device_access_denied">Kan inte hämta status, tillgång nekad</string>
     <string name="find_device_account_error">Kan inte hämta status på grund av kontofel</string>
     <string name="find_device_null_credential_error">Kan inte hämta enhetsinformation, kontakta Xiaomis kundservice</string>
@@ -381,14 +386,11 @@ För att aktivera ditt konto, följ
     <string name="find_device_operation_failed_error_unknown">Ett fel uppstod, försök igen senare</string>
     <string name="find_device_remote_exception">RPC-fel</string>
     <string name="io_error_title">Bekräfta ditt nätverk</string>
-    <string name="login_check_find_device_failed_title">Kunde inte kolla. Hitta enhetsstatus</string>
-    <string name="multi_user_not_show_sync_activity_title">Sätt inte på synkronisering mot Mi Cloud</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Det verkar som att du använder ditt Primära utrymmes Mi konto.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">Om så är fallet kommer all information att synkroniseras till det Sekundära utrymmet. För att undvika detta, aktivera inte synkronisering för Mi Cloud.</string>
+    <string name="login_check_find_device_failed_title">Det gick inte att kontrollera enhetssäkerhet info</string>
     <string name="notify_network_restricted_title">Mi kontot kunde inte ansluta till nätverket</string>
-    <string name="notify_network_restricted_content_hidden_state">Mi kontots bakgrundsaktivitet är begränsad. Knacka för att tillåta.</string>
-    <string name="notify_network_restricted_content_bg_network">Mi kontots internet åtkomst är begränsad. Knacka för att tillåta.</string>
-    <string name="notify_network_restricted_content_mobile_network">Mi kontots internet åtkomst är begränsad. Knacka för att tillåta.</string>
+    <string name="notify_network_restricted_content_hidden_state">Mi kontots bakgrundsaktivitet är begränsad. Tryck för att tillåta.</string>
+    <string name="notify_network_restricted_content_bg_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
+    <string name="notify_network_restricted_content_mobile_network">Mi kontots internet åtkomst är begränsad. Tryck för att tillåta.</string>
     <string name="login_guard_prompt">Kräver telefonnummer verifiering när du loggar in på ditt Mi-konto på en okänd enhet eller i en okänd app för första gången.</string>
     <string name="verified_devices">Verifierade enheter</string>
     <string name="verified_apps">Verifierade appar</string>
@@ -412,12 +414,11 @@ För att aktivera ditt konto, följ
     <string name="find_device_prompt_message">Enheten är låst. SMS:a %1$s.</string>
     <string name="find_device_activate_account">Aktivera konto</string>
     <string name="login_check_find_device">Hämtar enhetssäkerhet info…</string>
-    <string name="unlock_help_notice">"Hjälp:.
-·Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
-·Om du inte kan låsa upp enheten, gå till i.mi.com att stänga Sök enhet.
-·tala om detta låsa numret till kundtjänst:%s"</string>
-    <string name="find_device_display_id">Lås up nummer:%s</string>
-    <string name="login_find_device_bind">Denna enhet är förknippad med befintligt Mi konto-ID (%s). Logga in för att aktivera den här enheten.</string>
+    <string name="unlock_help_notice">"Hjälp:
+· Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
+· Om du inte kan låsa upp enheten, gå till i.mi.com att stänga av Hitta enhet.
+·Ditt upplåsningsnummer: %s"</string>
+    <string name="login_find_device_bind">Denna enhet är kopplad till befintliga Mi konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, associerat telefonnummer: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, associerad e-postadress: %s</string>
     <string name="oauth_title">Logga in med Mi konto</string>

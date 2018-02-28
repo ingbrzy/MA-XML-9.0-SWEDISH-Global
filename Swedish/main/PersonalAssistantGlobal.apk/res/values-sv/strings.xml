@@ -91,7 +91,7 @@
     <string name="calc_parent">Miniräknare</string>
     <string name="calendar_name">Lägg till händelse</string>
     <string name="calendar_parent">Kalender</string>
-    <string name="card_hint_noteboard">Tryck här för att ta en notering.</string>
+    <string name="card_hint_noteboard">Tryck här för att skriva en anteckning.</string>
     <string name="card_menu_edit">Redigera</string>
     <string name="card_menu_setting">Inställningar</string>
     <string name="card_note_finish">Klar</string>
@@ -99,7 +99,7 @@
     <string name="card_settings">Anpassa</string>
     <string name="card_settings_rule">Kortorderinställningar</string>
     <string name="card_title_funclaunch">Genvägar</string>
-    <string name="card_title_noteboard">En kort notering</string>
+    <string name="card_title_noteboard">En liten anteckning</string>
     <string name="check_network">Kontrollera nätverksinställningar</string>
     <string name="check_network_retry">Kontrollera nätverksinställningarna och försök igen</string>
     <string name="cleanup_garbage">Städaren</string>
@@ -244,7 +244,7 @@
     <string name="setting_launch_select_other_app">Välj andra appar</string>
     <string name="setting_list_guide">Guide</string>
     <string name="setting_list_guide_desc">Lägg till ofta använda funktioner och info här.</string>
-    <string name="setting_note">En kort notering</string>
+    <string name="setting_note">En liten anteckning</string>
     <string name="setting_note_brief">Notera kortfattat.</string>
     <string name="setting_place">Lägg till besökta platser för att se trafik och vägförslag</string>
     <string name="setting_place_next">Nästa</string>

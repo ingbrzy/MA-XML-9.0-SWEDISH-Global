@@ -4,10 +4,6 @@
         <item quantity="other">Totalt %d låtar</item>
         <item quantity="one">Totalt %d låt</item>
     </plurals>
-    <plurals name="Nartists_count">
-        <item quantity="other">%d artister</item>
-        <item quantity="one">%d artist</item>
-    </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">Söker efter albumomslag och texter (%1$d/%2$d)</item>
         <item quantity="one">Söker efter albumomslag och texter (%1$d/%2$d)</item>
@@ -15,18 +11,6 @@
     <plurals name="Nbackup_songs">
         <item quantity="other">Säkerhetskopierar låtar, %1$d låtar återstår (%2$.1fMB)</item>
         <item quantity="one">Säkerhetskopierar låtar, %1$d låt återstår (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Nexpired_remind">
-        <item quantity="other">%d dagar kvar</item>
-        <item quantity="one">%d dag kvar</item>
-    </plurals>
-    <plurals name="Ngroups_count">
-        <item quantity="other">%d band</item>
-        <item quantity="one">%d band</item>
-    </plurals>
-    <plurals name="Nnew_tracks_count">
-        <item quantity="other">%d nya låtar</item>
-        <item quantity="one">%d ny låt</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Spelaren kommer stoppas om %d minuter</item>
@@ -55,10 +39,6 @@
     <plurals name="Ntracks_remove_from_playlist">
         <item quantity="other">%d låtar borttagna från spellistan</item>
         <item quantity="one">%d låt borttagen från spellistan</item>
-    </plurals>
-    <plurals name="Ntracks_search_result">
-        <item quantity="other">%d låtar hittade</item>
-        <item quantity="one">%d låt hittad</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d liknande låtar</item>
@@ -103,10 +83,6 @@
     <plurals name="download_running">
         <item quantity="other">&lt;font color==\"red\">%d låtar&lt;/font> laddas ned</item>
         <item quantity="one">&lt;font color==\"red\">%d låt&lt;/font> laddas ned</item>
-    </plurals>
-    <plurals name="folder_songs_count">
-        <item quantity="other">%d låtar</item>
-        <item quantity="one">%d låt</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d objekt valda</item>

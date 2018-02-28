@@ -50,6 +50,7 @@
     <string name="actionbar_share">Dela</string>
     <string name="actionbar_textselection_title">Textmarkering</string>
     <string name="actionbar_web_search">Webbsökning</string>
+    <string name="ad_btn_default_text">Installera</string>
     <string name="adblock_force_updating_rules_toast">Uppdaterar reklamblockerare</string>
     <string name="adblock_rules_not_updated_toast">Kunde inte uppdatera</string>
     <string name="adblock_rules_restore">Ta bort blockering</string>
@@ -133,6 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">Anslutningsfel</string>
     <string name="cancel">Avbryt</string>
     <string name="cannot_download">Kan endast ladda ner \"http\" eller \"https\" URL</string>
+    <string name="card_setting_close_recommend">Ta emot rekommendationer</string>
     <string name="choosertitle_sharevia">Dela via</string>
     <string name="clear_history">Rensa historik</string>
     <string name="clear_most_visited">Tidigare historik</string>
@@ -167,6 +169,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentera</string>
     <string name="comment_description">Kommentera</string>
     <string name="comment_hint">Kommentera</string>
@@ -203,8 +206,8 @@
     <string name="custom_head_card_text">Tro alltid att något underbart kommer hända</string>
     <string name="custom_head_card_text_incognito">"Du är inkognito!
 Sidor som du ser kommer inte med i historik."</string>
-    <string name="data_traffic_prompt_change">Att använda din mobila dataanslutning för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
-    <string name="data_traffic_prompt_message">Att använda din mobila dataanslutning för att leta efter videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
+    <string name="data_traffic_prompt_change">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
+    <string name="data_traffic_prompt_message">Att använda mobildata för att leta efter videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
     <string name="data_traffic_prompt_message_short">Att använda mobildata för att strömma video kan förbruka din datamängd.</string>
     <string name="data_traffic_prompt_title">Varning för dataanvändning</string>
     <string name="date_picker_dialog_clear">Klar</string>
@@ -513,6 +516,10 @@ Lämna denna sida?"</string>
     <string name="nav_bottom_bar_new_tab">Ny flik</string>
     <string name="nav_screen_container_tab_incognito">Inkognitoflik</string>
     <string name="nav_screen_container_tab_normal">Normalflik</string>
+    <string name="nav_screen_incognito_message">"Din surf- och sökhistorik kommer inte att sparas i Inkognitoläge.
+Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer att sparas."</string>
+    <string name="nav_screen_incognito_title">Inkognitoläge</string>
+    <string name="navigation_delete_all">svep till vänster och höger för att stänga alla flikar</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Avbryt</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gå</string>
     <string name="navigationbar_rightbutton_actiontext_search">Sök</string>
@@ -562,6 +569,7 @@ Lämna denna sida?"</string>
     <string name="pref_adblock_title">Annonsblockerare</string>
     <string name="pref_auto_update_under_wifi">Uppdatera över WiFi</string>
     <string name="pref_automatic_matching_searchengines_title">Växla till den vanliga sökmotorn</string>
+    <string name="pref_card_setting">Toppsides ordning</string>
     <string name="pref_category_hint">Kategori</string>
     <string name="pref_check_security_url_summary">"Skicka webbsidans URL till Mi's servrar för att kontrollera om den är säker"</string>
     <string name="pref_check_security_url_summary_international">Tillåt webbläsaren att komma åt webbadresserna på de webbplatser du besöker för att få mer relevanta rekommendationer.</string>
@@ -588,7 +596,7 @@ Lämna denna sida?"</string>
     <string name="pref_enable_videos">Videor</string>
     <string name="pref_extras_reset_default">Återställ till standardvärden</string>
     <string name="pref_extras_reset_default_dlg">Återställ standardinställningar?</string>
-    <string name="pref_extras_reset_default_summary">Återställ standardinställningar</string>
+    <string name="pref_extras_reset_default_summary">Återställ till standardordning</string>
     <string name="pref_extras_reset_default_title">Övrigt</string>
     <string name="pref_extras_send_feedback">Skicka feedback</string>
     <string name="pref_extras_title">Avancerat</string>
@@ -774,7 +782,7 @@ Lämna denna sida?"</string>
     <string name="show_security_tip_dialog_title">Användarvillkor</string>
     <string name="show_weather_location_getter_tip_dialog_description">Webbläsaren behöver för att ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer och väderinformation, låta webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
     <string name="sign_in_to" formatted="false">Logga in på %s1 %s2\"</string>
-    <string name="site_sort_des">Dra objekten för att ändra ordning</string>
+    <string name="site_sort_des">Ordna om objekten</string>
     <string name="skip_button_label">Hoppa över</string>
     <string name="skip_current_version">Hoppa över denna version</string>
     <string name="snapshot">Lokal</string>

@@ -24,6 +24,10 @@
         <item quantity="other">%1$d av %2$d</item>
         <item quantity="one">1 träff</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">En ny sida kommer automatiskt skapas efter %d sekunder</item>
+        <item quantity="one">En ny sida kommer automatiskt skapas efter %d sekund</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d blockerade</item>
         <item quantity="one">%d blockerad</item>

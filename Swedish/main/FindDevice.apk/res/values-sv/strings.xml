@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">Hitta enhet larm</string>
     <string name="find_device_success_title">Hitta enhet</string>
     <string name="find_device_notice_p1">Gå till</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
 Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
     <string name="i_know">OK</string>
@@ -38,6 +39,7 @@ Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återa
     <string name="unlock_error_rpc">RPC fel</string>
     <string name="unlock_error_abort">Avbrutet av användare</string>
     <string name="unlock_error_passport_sdk_timeout">Mi konto SDK svarar inte</string>
+    <string name="open_wifi_settings">Öppna inställningar för Wi-Fi</string>
     <string name="activate_xiaomi_account">Aktivera enhet</string>
     <string name="login_extra_steps">Logga in verifikation</string>
     <string name="phone_locked">Denna enhet är förknippad med befintligt Mi konto-Id (%s). Logga in för att aktivera den här enheten.</string>

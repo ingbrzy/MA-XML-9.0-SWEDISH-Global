@@ -19,7 +19,7 @@
     <string name="status_bar_toggle_quiet_mode">Stör ej</string>
     <string name="status_bar_toggle_paper_mode">Läsläge</string>
     <string name="status_bar_toggle_midrop">Mi Drop</string>
-    <string name="status_bar_toggle_cast">Kasta</string>
+    <string name="status_bar_toggle_cast">Casta</string>
     <string name="status_bar_toggle_edit">Sortera</string>
     <string name="status_bar_toggle_battery_saver">Batterisparare</string>
     <string name="status_bar_toggle_nfc">NFC</string>
@@ -109,7 +109,7 @@
     <string name="apply_password_confirm_dlg_msg">Använd ditt nuvarande lösenord till låsskärmen för att nå inställningar till %s.</string>
     <string name="apply_password_action">OK</string>
     <string name="subinfo_default_name">SIM %d</string>
-    <string name="ignore_home_when_fingerprint_enrolling_msg">Placera ditt finger på hemknappen</string>
+    <string name="ignore_home_when_fingerprint_enrolling_msg">Placera ditt finger på Hemknappen</string>
     <string name="maml_component_customization_title">Inställningar</string>
     <string name="default_name">Standard</string>
     <string name="resource_select">Välj</string>
@@ -123,10 +123,10 @@
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Inte nu</string>
     <string name="auto_disable_screenbuttons_float_text">Tryck för att inaktivera navigationsknapparna</string>
     <string name="auto_disable_screenbuttons_enable_toast_text">Navigeringsknapparna aktiverade</string>
-    <string name="auto_disable_screenbuttons_disable_toast_text">Navigationsknapparna avaktiverade, dubbelknacka på någon knapp för att aktivera</string>
+    <string name="auto_disable_screenbuttons_disable_toast_text">Navigationsknapparna avaktiverade, dubbeltryck på någon knapp för att aktivera</string>
     <string name="auto_disable_screenbuttons_tap_again_exit_toast_text">Tryck igen för att avsluta</string>
     <string name="auto_disable_screenbuttons_prompts_title">Inaktivera navigationsknapparna?</string>
-    <string name="auto_disable_screenbuttons_prompts_message">Dubbelknacka på någon knapp för att aktivera navigationen igen.</string>
+    <string name="auto_disable_screenbuttons_prompts_message">Dubbeltryck på någon knapp för att aktivera navigationen igen.</string>
     <string name="auto_disable_screenbuttons_prompts_ok">OK</string>
     <string name="auto_disable_screenbuttons_prompts_not_show_again">Visa inte igen</string>
     <string name="start_security_permission_verify_text">Verifiera åtkomst med ditt Mi-konto</string>

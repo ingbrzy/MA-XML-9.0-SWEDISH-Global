@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Inga</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -85,7 +87,7 @@
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">USB-tethering</string>
-    <string name="tether_settings_title_wifi">Portabel hotspot</string>
+    <string name="tether_settings_title_wifi">Internetdelning</string>
     <string name="tether_settings_title_bluetooth">Bluetoothdelning</string>
     <string name="tether_settings_title_usb_bluetooth">Delning</string>
     <string name="tether_settings_title_all">Internetdelning &amp; portabel hotspot</string>
@@ -469,7 +471,7 @@ Om du aktiverar data igen, kan du bli debiterad av operatören."</string>
     <string name="keyboard_shortcut_group_system_recents">Senaste</string>
     <string name="keyboard_shortcut_group_system_back">Tillbaka</string>
     <string name="keyboard_shortcut_group_system_notifications">Notifikationer</string>
-    <string name="keyboard_shortcut_group_system_shortcuts_helper">Genvägar</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Knappgenvägar</string>
     <string name="keyboard_shortcut_group_system_switch_input">Växla inmatningsmetod</string>
     <string name="keyboard_shortcut_group_applications">Applikationer</string>
     <string name="keyboard_shortcut_group_applications_assist">Assist</string>
@@ -630,7 +632,7 @@ MMMM d"</string>
     <string name="ext_media_checking_notification_title">Förbereder USB-lagring</string>
     <string name="ext_media_checking_notification_message">Söker efter fel.</string>
     <string name="ext_media_nofs_notification_title">Tom USB-lagring</string>
-    <string name="ext_media_nofs_notification_message">USB-lagring är tom eller har ett filsystem som inte stödjs.</string>
+    <string name="ext_media_nofs_notification_message">USB-lagring är tom eller har ett filsystem som inte stöds.</string>
     <string name="ext_media_unmountable_notification_title">Skadad USB-lagring</string>
     <string name="ext_media_unmountable_notification_message">USB-lagringen är skadad. Du kan behöva formatera om det.</string>
     <string name="ext_media_badremoval_notification_title">USB-lagring togs oväntat bort</string>
@@ -640,8 +642,9 @@ MMMM d"</string>
     <string name="ext_media_nomedia_notification_title">Borttagen USB-lagring</string>
     <string name="ext_media_nomedia_notification_message">USB-lagring borttagen. Sätt in nytt media.</string>
     <string name="ext_media_mountable_notification_title">USB-lagring ansluten</string>
-    <string name="ext_media_mountable_notification_message">Tryck för att öppna i Utforskaren.</string>
+    <string name="ext_media_mountable_notification_message">Tryck för att öppna Mi File Manager.</string>
     <string name="ext_media_safe_remove">Säker borttagning</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">Kb/s</string>
     <string name="megabyte_per_second">Mb/s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
@@ -720,6 +723,7 @@ MMMM d"</string>
     <string name="notification_header_title">Notifikationer</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">Meddelandepanel</string>
     <string name="accessibility_desc_quick_settings">Snabbinställningar</string>
     <string name="accessibility_desc_details_page">%1$s detaljsida</string>
@@ -786,6 +790,8 @@ MMMM d"</string>
     <string name="fsg_demo_go_on">Lär dig</string>
     <string name="fs_gesture_back_home_summary">Svep från underkanten snabbt</string>
     <string name="fs_gesture_switch_recents_summary">Svep från underkanten och pausa</string>
+    <string name="how_to_use_drawer">Så här används svepfunktionen för appar</string>
+    <string name="how_to_use_drawer_summary">Svep uppifrån vänster</string>
     <string name="fs_gesture_back_ready_title">Gå tillbaka</string>
     <string name="fs_gesture_left_back_ready_summary">Svep från höger från kanten</string>
     <string name="fs_gesture_right_back_ready_summary">Svep från vänster från kanten</string>

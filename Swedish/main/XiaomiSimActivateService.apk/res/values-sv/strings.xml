@@ -115,4 +115,6 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s"</st
     <string name="phone_get_text">Tillåt %1$s att få ditt telefonnummer (%2$s)?</string>
     <string name="phone_get_processing">Hämtar…</string>
     <string name="agree">Tillåt</string>
+    <string name="privacy_revoke_tips">Om du upphäver kommer inte Sms synkronisering kunna användas</string>
+    <string name="privacy_revoke_failed_msg">integritet upphävd, kan inte hämta telefonnummer, aktiveringen misslyckades</string>
 </resources>

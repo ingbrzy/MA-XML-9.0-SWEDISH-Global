@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att Hämtningar-appen fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -134,7 +137,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="local_select_sysdata">System</string>
     <string name="local_select_userapp">Appar</string>
     <string name="local_select_account_contact">Konton &amp; kontakter</string>
-    <string name="local_select_files">SD kort</string>
+    <string name="local_select_files">SD-kort</string>
     <string name="local_select_image">Bilder</string>
     <string name="local_select_audio">Ljud filer</string>
     <string name="local_select_video">Videor</string>
@@ -225,6 +228,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte kypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
     <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
@@ -282,8 +286,9 @@ Väntar på att den gamla enheten ska ansluta…"</string>
     <string name="trans_restoring">Återställer…</string>
     <string name="trans_sender_time_remained">"%s kvar.
 Stäng inte av WiFi. Håll enheterna nära varandra."</string>
-    <string name="trans_receiver_time_remained">"%s kvar.
-Stäng inte av WiFi hotspot. Håll enheterna nära varandra."</string>
+    <string name="trans_receiver_time_remained">"%s Återstår.
+Stäng inte av WiFi hotspot.
+Håll enheterna nära varandra."</string>
     <string name="trans_time_spent">"
 Förbrukad tid: %s"</string>
     <string name="trans_restoring_no_items">Synkroniserar objekt</string>
@@ -318,8 +323,8 @@ Förbrukad tid: %s"</string>
     <string name="trans_progress_subdescript_transing_receiver">Ta emot %1$s, %2$s completed</string>
     <string name="trans_progress_subdescript_transingsd_sender">Skickar filer, %s färdigt</string>
     <string name="trans_progress_subdescript_transingsd_receiver">Tar emot filer, %s färdigt</string>
-    <string name="trans_progress_subdescript_transingsddata_sender">Skicka %1$s SD kort filer, %2$s färdigt</string>
-    <string name="trans_progress_subdescript_transingsddata_receiver">Mottager %1$s SD kort filer, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_transingsddata_sender">Skickar %1$s filer till SD-kort, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_transingsddata_receiver">Mottager %1$s filer från SD-kort, %2$s färdigt</string>
     <string name="trans_progress_subdescript_br_sender">Säkerhetskopierar %1$s, %2$s färdigt</string>
     <string name="trans_progress_subdescript_br_receiver">Återställer %1$s, %2$s färdigt</string>
     <string name="trans_progress_subdescript_waiting">Väntar på ta emot %s</string>
@@ -332,6 +337,7 @@ Förbrukad tid: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Anslutningen avbröts. Anslut igen för att fortsätta.</string>
     <string name="trans_device_auto_reconnecting">Enhet frånkopplad. Återansluter automatiskt…</string>
     <string name="trans_connecting_toast">Ansluter…</string>
+    <string name="trans_switching_5g">Växlar till 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Det gick inte att ansluta</string>
     <string name="trans_generate_qr_code_failed">Det gick inte att skapa QR-kod</string>
     <string name="trans_scan_invalid_qrcode">QR-kod ogiltig</string>
@@ -485,6 +491,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>
@@ -507,6 +514,7 @@ Frigör minst %s."</string>
     <string name="error_permissions">Denna app har inte korrekt behörighet för att ha tillgång till Kalendern. Gå in i Inställningar och kontrollera behörigheter för att fortsätta.</string>
     <string name="succ_description">Lyckades</string>
     <string name="failed_description">Misslyckades</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite försöker ansluta till din enhet</string>
     <string name="notif_connect_miasist">Ansluten till Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Inte ansluten till Mi PC Suite</string>
     <string name="notif_sending_transingsd">Skickar %1$s (%2$s)…</string>

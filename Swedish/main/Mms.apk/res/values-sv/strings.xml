@@ -128,8 +128,8 @@
     <string name="disable_notifications_dialog_message">Stoppa duplicerade textmeddelande-notifikationer från Meddelande-appen?</string>
     <string name="disabled">Av</string>
     <string name="discard">Kassera</string>
-    <string name="discard_message">Förkasta</string>
-    <string name="discard_message_reason">Ditt meddelande kommer att kastas eftersom det inte har några giltiga mottagare.</string>
+    <string name="discard_message">Ta bort</string>
+    <string name="discard_message_reason">Ditt meddelande kommer att tas bort eftersom det inte har några giltiga mottagare.</string>
     <string name="discard_slideshow">Släng bildspel</string>
     <string name="dl_failure_notification">Kunde inte ladda ner meddelande %1$s from %2$s.</string>
     <string name="done">Klar</string>
@@ -178,6 +178,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -485,7 +486,7 @@
     <string name="saved_ringtone">Ringsignal sparad</string>
     <string name="saved_ringtone_fail">Kunde inte spara ringsignal</string>
     <string name="saved_to_sim">Sparat</string>
-    <string name="sdcard_has_not_enough_space">Otillräckligt utrymmer på SD kort</string>
+    <string name="sdcard_has_not_enough_space">Inte tillräckligt med utrymme på SD-kort</string>
     <string name="search">Meddelanden</string>
     <string name="search_empty">Inga träffar</string>
     <string name="search_hint">Sök i meddelanden</string>
@@ -525,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickad: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -654,7 +656,4 @@ Försök har gjorts: %s."</string>
     <string name="wild_msg_title">Välj telefonnummer att synkronisera</string>
     <string name="yes">OK</string>
     <string name="yesterday">Igår</string>
-    <string name="about_smart_sms_title">Smarta Sms partner</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
-    <string name="pref_title_about_smart_sms">Om Smart meddelanden partner</string>
 </resources>

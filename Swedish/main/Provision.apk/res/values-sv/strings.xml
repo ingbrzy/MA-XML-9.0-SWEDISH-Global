@@ -24,6 +24,8 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="other_settings_upload_debug_log_summary">Informationen vi samlar in kommer att användas för att lokalisera och analysera problemen i systemet och kan innehålla personuppgifter. Inga data kommer att användas för att identifiera dig personligen.</string>
     <string name="other_settings_auto_update">Installera automatiskt</string>
     <string name="other_settings_auto_update_summary">MIUI väljer när det passar bäst att installera uppdateringar.</string>
+    <string name="other_settings_ad_enable">Personlig reklam</string>
+    <string name="other_settings_ad_enable_summary">Personlig reklam baserad på din användardata</string>
     <string name="back">Tillbaka</string>
     <string name="next">Nästa</string>
     <string name="skip_underline">Hoppa över detta steg</string>
@@ -69,8 +71,8 @@ Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan an
     <string name="content_description_complete">Färdig</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
     <string name="language_settings">Välj språk</string>
-    <string name="navigation_picker_radio_text_full_screen">Helskärmsläge</string>
-    <string name="navigation_picker_radio_text_virtual_key">Virtuella tangenter</string>
+    <string name="navigation_picker_radio_text_full_screen">Helskärmsgester</string>
+    <string name="navigation_picker_radio_text_virtual_key">Knappar</string>
     <string name="congratulation_swipe">Svep för gå in i systemet</string>
     <string name="enable_accessibility_dialog_message">Du aktiverade TalkBack genom att trycka på skärmen med två fingrar i över 10 sekunder. TalkBack ger röståterkoppling med personer med nedsatt syn. Om du aktiverade det av misstag, tryck på Avbryt och dubbeltryck sedan på skärmen.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

@@ -82,7 +82,7 @@
     <string name="menu_add">Lägg till</string>
     <string name="menu_edit">Redigera</string>
     <string name="menu_remove">Ta bort</string>
-    <string name="menu_white">Utom</string>
+    <string name="menu_white">Lägg till i undantag</string>
     <string name="st_settings_name">Inställningar för blockeringslista</string>
     <string name="st_filter_keywords_setting_summary1">Meddelanden från okända nummer som innehåller orden i denna listan kommer att blockeras.</string>
     <string name="st_filter_keywords_setting_summary3">Meddelanden från okända nummer som innehåller orden i denna listan kommer att tillåtas.</string>
@@ -407,6 +407,7 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -452,7 +453,7 @@ ska svara"</string>
     <string name="pref_pkg_begin_date">Återställningsdatum för dataanvändning</string>
     <string name="pref_more_settings">Ytterligare inställningar</string>
     <string name="pref_data_usage_ignore_settings">Ignorera dataanvändning</string>
-    <string name="pref_data_usage_ignore_settings_summary">Spåra inte valda appars dataanvändning</string>
+    <string name="pref_data_usage_ignore_settings_summary">Spåra inte dataanvändningen för valda appar</string>
     <string name="input_traffic_pkg">Ange datagräns</string>
     <string name="begin_date">Återställningsdatum för dataanvändning</string>
     <string name="tips_dialog_title">Vet inte gränsen</string>
@@ -617,7 +618,7 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="tc_sms_report_type">Rapportera typ</string>
     <string name="privacy_declare_dialog_title">Användarvillkor</string>
     <string name="sc_allow_network_dialog_tiltle">Kan inte använda funktionen</string>
-    <string name="sc_allow_network_dialog_message">Denna app behöver ansluta till Internet för att fungera fullt ut.</string>
+    <string name="sc_allow_network_dialog_message">Du begränsade nätverksanslutningen och tillgång till platsinformation för appen Säkerhet. Ge appen Säkerhet de behörigheter som behövs för att använda funktionen.</string>
     <string name="privacy_prompt_upload">Ladda upp</string>
     <string name="privacy_prompt_traffic_adjust_message">"Efter att du börjat kalibrera kommer MIUI att ansluta till nätverket, kryptera din operatörs information, telefonnummer, IMEI och Mi-kontot och ladda upp dessa objekt till Mi sevrar. Detta gör för att samla in operatörens mall för att kalibrera och se om det är möjligt att köpa data på din plats.
 
@@ -769,8 +770,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="networkchanged_exception_title">Anslutning ändrad</string>
     <string name="networkchanged_exception_summary">Nätverksanslutningen har ändrats. Försök igen.</string>
     <string name="network_test_speed">Testa hastigheten på Wi-Fi</string>
-    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
-    <string name="network_changed_noti_summary">Using mobile data</string>
+    <string name="network_changed_noti_title">Frånkopplad från Wi-Fi</string>
+    <string name="network_changed_noti_summary">Använder mobildata</string>
     <string name="network_speed_for_apps_title">Anslutning</string>
     <string name="network_speed_for_apps_total">Anslutningshastighet</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Tvinga avslutning av den här appen?</string>
@@ -854,10 +855,10 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="tether_limit_value_custom">Anpassad</string>
     <string name="tether_limit_dialog_title">Gräns för mobildata</string>
     <string name="tether_custom_dialog_title">Gräns för mobildata</string>
-    <string name="tether_over_limit_warning_notify_title">Nådde gränsen för data över hotspot</string>
-    <string name="tether_over_limit_warning_notify_message">Avaktivera portabel hotspot.</string>
+    <string name="tether_over_limit_warning_notify_title">Gränsen för data över hotspot överskreds</string>
+    <string name="tether_over_limit_warning_notify_message">Avaktivera internetdelning.</string>
     <string name="tether_over_limit_dialog_title">Varning för dataanvändning</string>
-    <string name="tether_over_limit_dialog_message">Du nådde gränsen för data över hotspot.</string>
+    <string name="tether_over_limit_dialog_message">Du överskred gränsen för data över hotspot.</string>
     <string name="tether_over_limit_dialog_cancle_btn">Återställ hotspot</string>
     <string name="optimize_manage_title">Öka hastigheten</string>
     <string name="cpu_usage_android_system">Androidsystem</string>
@@ -920,6 +921,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1324,6 +1326,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1568,7 +1571,7 @@ din enhet"</string>
     <string name="permission_with_SMS_and_MMS">SMS och MMS behörigheter</string>
     <string name="call_and_contact">Samtal och kontakter</string>
     <string name="permission_with_call_and_contact">Telefonsamtal, kontaktinfo och samtalshistoriks behörigheter.</string>
-    <string name="title_flow_rank">Användning mobildata</string>
+    <string name="title_flow_rank">Mobildataanvändning</string>
     <string name="title_consume_power_rank">Batterianvändning</string>
     <string name="title_payment_protection">Betalningar är säker</string>
     <string name="title_payment_risk">Risker med betalningen upptäckta</string>
@@ -1674,7 +1677,7 @@ din enhet"</string>
     <string name="preferred_app_entries_music">Musik</string>
     <string name="preferred_app_entries_email">E-post</string>
     <string name="card_main_applock_title">Applås</string>
-    <string name="card_main_applock_summary">Skydda meddelande, foton och andra objekt med ett lösenord.</string>
+    <string name="card_main_applock_summary">Skydda valda appar med lösenord.</string>
     <string name="card_main_applock_action">Aktivera</string>
     <string name="card_main_deepclean_title">Storstädning</string>
     <string name="card_main_deepclean_summary">Ta bort onödiga filer</string>
@@ -1684,6 +1687,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1712,14 +1716,18 @@ din enhet"</string>
     <string name="more_lock">Mer</string>
     <string name="app_name">Applås</string>
     <string name="back_app_name">Gå tillbaka till Applås</string>
-    <string name="notification_item">Skydda appar med Applås</string>
+    <string name="ac_notification_contentTitle">Skydda appar med Applås</string>
+    <string name="ac_pre_notification_contentTitle">Prova Applås</string>
+    <string name="ac_post_notification_contentTitle">Aktivera Applås</string>
     <string name="notification_masked_item">Dölj notifikationer</string>
     <string name="lock_mode_title">Låsinställningar</string>
     <string name="after_the_lock_screen">Lås appar tillsammans med skärmen</string>
     <string name="set_applock_password">Välj lösenord</string>
     <string name="ac_firstUseApplock_title">Ange ett lösenord för att skydda dina appar</string>
     <string name="ac_firstUseApplock_subTitle">Använd ett bättre säkerhetsverktyg på systemnivå</string>
-    <string name="notification_subtitle">Tryck för att aktivera</string>
+    <string name="ac_notification_contentText">Tryck för att aktivera</string>
+    <string name="ac_pre_notification_contentText">Skydda din personliga information</string>
+    <string name="ac_post_notification_contentText">Få skydd på systemnivå</string>
     <string name="notification_masked_subtitle">Dölj notifikationer från appar med Applås</string>
     <string name="ac_enter_applock">Gå in i Applås</string>
     <string name="ac_mask_all_apps">Dölj för alla appar</string>
@@ -2058,7 +2066,7 @@ din enhet"</string>
     <string name="sys_cpu_title">CPU-Användning</string>
     <string name="sys_freememory_title">Tillgänglig</string>
     <string name="net_delay_title">Fördröjning</string>
-    <string name="top_load_fail_detail">Det gick inte att ladda, knacka för att försöka igen</string>
+    <string name="top_load_fail_detail">Det gick inte att ladda, tryck för att försöka igen</string>
     <string name="top_no_network_detial">Kunde inte ladda, kolla nätverksanslutningen och försök igen</string>
     <string name="boosting">Ökar hastigheten…</string>
     <string name="get_sys_info">Hämtar info…</string>
