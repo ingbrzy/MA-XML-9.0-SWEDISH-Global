@@ -106,7 +106,6 @@
     <string name="sort_dimension_summary">Översikt</string>
     <string name="sort_direction_ascending">Stigande</string>
     <string name="sort_direction_descending">Fallande</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="title_open">Öppna från</string>
     <string name="title_save">Spara till</string>
     <string name="toast_failed_delete">Det gick inte att radera vissa dokument</string>
