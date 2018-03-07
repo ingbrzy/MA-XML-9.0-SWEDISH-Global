@@ -30,6 +30,7 @@
     <string name="pws_other_message_identifiers">Varning om nödsituation</string>
     <string name="cb_other_message_identifiers">Cell Broadcast</string>
     <string name="emergency_alert_settings_title">Inställningar för varningar om nödsituationer</string>
+    <string name="notification_channel_broadcast_messages">Sändningsmeddelanden</string>
     <string name="enable_emergency_alerts_title">Aktivera meddelanden</string>
     <string name="enable_emergency_alerts_summary">Visa sändningar av varningsmeddelanden</string>
     <string name="alert_reminder_interval_title">Påminnelse</string>
@@ -91,5 +92,4 @@
     <string name="cmas_opt_out_dialog_text">Du får för närvarande varningsmeddelanden. Vill du fortsätta ta emot varningsmeddelanden?</string>
     <string name="cmas_opt_out_button_yes">Ja</string>
     <string name="cmas_opt_out_button_no">Nej</string>
-    <string name="alert_sound_duration_title">Varaktighet för varningsljud</string>
 </resources>

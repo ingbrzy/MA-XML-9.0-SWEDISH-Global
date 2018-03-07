@@ -67,9 +67,10 @@
     <string name="button_confirm">Tillåt</string>
     <string name="button_exit">Avsluta</string>
     <string name="button_not_allow">Avbryt</string>
-    <string name="button_sure_abandon">Kasta ändringar?</string>
+    <string name="button_sure_abandon">Ignorera ändringar?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Kontrollera din nätverksanslutning och försök igen</string>
+    <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s and %2$s.This app needs to connect to the internet and access your location to work normally."</string>
     <string name="city_exceeded_warning">Du kan lägga till upp till 10 städer</string>
     <string name="commercial">Kommersiell</string>
     <string name="common_loading_text">Vänta lite…</string>
@@ -90,6 +91,7 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Prognosdetaljer</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunde inte hämta information
 Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</string>
     <string name="data_provided_by">Data försedd av</string>
@@ -109,6 +111,8 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">Nuvarande position</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="hourly_forecast_title">Timme för timme</string>
     <string name="index_item_experience_now">Installera nu</string>
@@ -133,11 +137,13 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="information_manager_extension">Väder förlängning</string>
     <string name="information_views" />
     <string name="install">Installera</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">Detaljer</string>
     <string name="international_details_pressure_title">LUFTTRYCK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV INDEX</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer att regna</string>
     <string name="locate_fail_detail_err">"Kan inte hitta enhet
@@ -148,7 +154,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="menu_location">Platser</string>
     <string name="menu_speaker">Röst</string>
     <string name="mi_pad2">latte</string>
-    <string name="minute_rain">Minut för minut</string>
+    <string name="minute_rain">Nederbördsprognos</string>
     <string name="minute_rain_after_an_hour">Om 1 timme</string>
     <string name="minute_rain_after_two_hour">Om 2 timmar</string>
     <string name="minute_rain_feedback_subtitle">Berätta hur vädret är.</string>
@@ -211,6 +217,7 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="share_subject">Dela</string>
     <string name="share_title">Dela väder</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="some_where_on_earth">Någonstans på jorden</string>
@@ -262,4 +269,5 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="xiaomi_weather_description_title">Om Väder</string>
     <string name="yes_vote_ratio">För %1$s%%</string>
     <string name="your_location">Din plats</string>
+    <string name="international_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s.This app needs to connect the network, upload the city information you entered in order to obtain the corresponding city weather data. Click agree to continue."</string>
 </resources>

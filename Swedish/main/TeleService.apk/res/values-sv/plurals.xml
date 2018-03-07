@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Ingen dataanslutning för %s minuter</item>
-        <item quantity="one">Ingen dataanslutning för %s minut</item>
-    </plurals>
     <plurals name="alert_dialog_exit_ecm">
         <item quantity="other">Telefonen kommer att vara i läget för nödsamtal för %s minuter. I detta läge kommer inga appar som använder en dataanslutning kan användas. Vill du avsluta nu?</item>
         <item quantity="one">Telefonen kommer att vara i läget för nödsamtal för %s minut. I detta läge kommer inga appar som använder en dataanslutning kan användas. Vill du avsluta nu?</item>
@@ -33,5 +29,9 @@
 %d försök återstår."</item>
         <item quantity="one">"
 %d försök återstår."</item>
+    </plurals>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ingen dataanslutning för %s minuter</item>
+        <item quantity="one">Ingen dataanslutning för %s minut</item>
     </plurals>
 </resources>

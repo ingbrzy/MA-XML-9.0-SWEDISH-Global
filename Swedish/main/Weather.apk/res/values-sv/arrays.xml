@@ -101,7 +101,7 @@
         <item>Överstiger index</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Klar</item>
+        <item>Klart</item>
         <item>Molnigt</item>
         <item>Mulet</item>
         <item>Dimmigt</item>

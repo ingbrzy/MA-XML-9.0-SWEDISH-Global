@@ -53,6 +53,7 @@
     <string name="switchDesc">Växla</string>
     <string name="scannerDesc">Scanner</string>
     <string name="reciprocalDesc">Reciprok</string>
+    <string name="negDesc">Växla mellan temperaturer under och över nollan</string>
     <string name="home_title_calculator">Kalkylator</string>
     <string name="item_title_calculator">Kalkylator</string>
     <string name="item_title_scientific_calculator">Vetenskaplig</string>
@@ -131,8 +132,8 @@
     <string name="tax_unemployment">Arbetslöshet</string>
     <string name="tax_injury">Skada</string>
     <string name="tax_birth">Född</string>
-    <string name="tax_income_error">Fyll i inkomst</string>
-    <string name="tax_param_error">Fyll i försäkringsränta</string>
+    <string name="tax_income_error">Ange inkomst</string>
+    <string name="tax_param_error">Ange försäkringsränta</string>
     <string name="tax_city_error">Ange korrekt stad</string>
     <string name="tax_result_real_get">Efter skatt</string>
     <string name="tax_income_before_tax">Före skatt</string>
@@ -142,8 +143,8 @@
     <string name="tax_income_number">Inkomst</string>
     <string name="tax_annual_bonus_number">Bonus</string>
     <string name="tax_last_salary_number">Inkomst</string>
-    <string name="tax_fixed_salary_hint">Fyll i din inkomst före skatt</string>
-    <string name="tax_annual_bonus_hint">Fyll i din inkomst efter skatt</string>
+    <string name="tax_fixed_salary_hint">Ange inkomst före skatt</string>
+    <string name="tax_annual_bonus_hint">Ange din bonus före skatt</string>
     <string name="tax_last_salary_hint">Ange din inkomst</string>
     <string name="tax_thershold_native">%s (Kinesiska fastlandet)</string>
     <string name="tax_thershold_foreign">%s (Utländska nationaliteter)</string>

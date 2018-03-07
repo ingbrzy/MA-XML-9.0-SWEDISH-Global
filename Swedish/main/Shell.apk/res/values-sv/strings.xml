@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Skal</string>
+    <string name="bugreport_notification_channel">Felrapporter</string>
     <string name="bugreport_in_progress_title">Felrapporten #%d genereras</string>
     <string name="bugreport_finished_title">Felrapporten #%d har skapats</string>
     <string name="bugreport_updating_title">Lägger till information i felrapporten</string>
@@ -22,4 +23,5 @@
     <string name="bugreport_info_title">Felets titel</string>
     <string name="bugreport_info_description">Sammanfattning av felet</string>
     <string name="save">Spara</string>
+    <string name="bugreport_intent_chooser_title">Dela felrapporten</string>
 </resources>

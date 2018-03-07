@@ -33,6 +33,7 @@
     <string name="attach_sound">Ljud</string>
     <string name="attach_subject">Ämne</string>
     <string name="attach_take_photo">Ta bild</string>
+    <string name="attach_transaction">Skicka pengar</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Kunde ej ladda ner ljud</string>
     <string name="audio_message_expired">Detta röstmeddelande har löpt ut.</string>
@@ -178,6 +179,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -511,6 +513,7 @@
     <string name="select_local_audio">Välj ljud</string>
     <string name="select_local_video">Välj video</string>
     <string name="select_message_send_sim">Välj SIM-kort</string>
+    <string name="select_phone_number">Välj telefonnummer</string>
     <string name="select_recipient">Välj mottagare</string>
     <string name="select_sim">Välj SIM kort</string>
     <string name="select_top_text">Text i toppen</string>
@@ -525,6 +528,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickad: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>

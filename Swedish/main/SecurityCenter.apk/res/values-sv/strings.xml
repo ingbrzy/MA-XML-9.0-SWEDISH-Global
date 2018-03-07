@@ -306,6 +306,7 @@
     <string name="cta_dialog_title">Internetanslutning</string>
     <string name="cta_dialog_msg">Säkerhet behöver Internetuppkoppling för att få uppdateringar, och även din plats för att fungera normalt.</string>
     <string name="cta_settings">Tillåt internetuppkoppling</string>
+    <string name="gdpr_msg"><Data>"In order to use the basic features of Security, you must agree that Xiaomi will collect, process, and use your personal data, including information about the ways you use Security's features (e.g., mobile data usage stats, info about malware, as well as basic info about your device) and other types of information specified in our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="app_name_na">Dataanvändning</string>
     <string name="list_empty_text">Tom</string>
     <string name="dialog_title_attention">Uppmärksamma</string>
@@ -385,6 +386,12 @@ ska svara"</string>
     <string name="firewall_wifi_dialog_message">Den installerade appen kommer inte kunna ansluta till internet med Wi-Fi när denna funktion är av.​</string>
     <string name="firewall_system_title">Dataanvändning av systemappar</string>
     <string name="firewall_temp_rule_reason">%2$s begränsad internetanslutning för %1$s​</string>
+    <string name="dialog_restrict_all_wlan_title">Restrict Wi-Fi connection</string>
+    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restriced for all apps after this.</string>
+    <string name="dialog_restrict_all_mobile_title">Restrict %s mobile data connection</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restriced for all apps after this.</string>
+    <string name="dialog_restrict_positive">Cancel</string>
+    <string name="dialog_restrict_negative">Restrict</string>
     <string name="usage_sorted_activity_lable">Dataanvändning</string>
     <string name="usage_sorted_loading_text">Vänta lite…</string>
     <string name="usage_sorted_empty_text">Tom</string>
@@ -407,6 +414,7 @@ ska svara"</string>
     <string name="detail_app_button">Appinformation</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -519,6 +527,12 @@ ska svara"</string>
     <string name="leisure_usage_dialog_message">"Du har nått datagränsen vid lågtrafik.
 
 Din operatör kan debitera för ytterligare kostnader om du använder mobildataanslutningen igen."</string>
+    <string name="data_usage_protected_notify_title">"You've already used 5GB of mobile data"</string>
+    <string name="data_usage_protected_notify_message">MIUI turned off mobile data to prevent you from generating additional carrier fees.</string>
+    <string name="data_usage_mobile_dialog_title">"You've already used 5GB of mobile data. MIUI turned off mobile data."</string>
+    <string name="data_usage_protected_dialog_message">"MIUI turned off mobile data to prevent you from generating additional carrier fees.
+
+Your carrier may charge you extra fees if you turn on mobile data again."</string>
     <string name="lock_screen_traffic_warn_title">Notifikationer på Låsskärmen</string>
     <string name="lock_screen_traffic_notify_body">Låst för %2$s vid %1$s, data använt %3$s</string>
     <string name="timeshow_s">%ds</string>
@@ -920,6 +934,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1324,6 +1339,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1684,6 +1700,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>

@@ -8,7 +8,8 @@
     <string-array name="date_of_traffic">
         <item>"Igår "</item>
         <item>"Idag "</item>
-        <item>"Denna månaden "</item>
+        <item>"Senaste månaden "</item>
+        <item>"Denna månad "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"Denna Vecka: "</item>
@@ -18,15 +19,18 @@
     <string-array name="date_of_traffic_prefix">
         <item>"Igår: "</item>
         <item>"Idag: "</item>
+        <item>"Senaste månaden: "</item>
         <item>"Denna månad: "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>Igår (data)</item>
         <item>Idag (data)</item>
+        <item>Senaste månaden (data)</item>
         <item>Denna månad (data)</item>
-        <item>Igår Wi-Fi</item>
-        <item>Idag Wi-Fi</item>
-        <item>Denna månad Wi-Fi</item>
+        <item>Wi-Fi som användes igår</item>
+        <item>Wi-Fi som användes idag</item>
+        <item>Wi-Fi som användes senaste månaden</item>
+        <item>Wi-Fi som användes denna månad</item>
     </string-array>
     <string-array name="traffic_type">
         <item>"Mobildata "</item>
@@ -49,6 +53,11 @@
         <item>När enheten är låst</item>
         <item>När enheten är låst eller efter en app avslutas</item>
         <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
+    </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
     </string-array>
     <string-array name="sort_type">
         <item>Status</item>

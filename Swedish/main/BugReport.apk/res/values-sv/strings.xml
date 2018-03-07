@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -162,9 +163,9 @@
     <string name="cta_confirm">OK</string>
     <string name="submit_dialog_title">Skicka rapport</string>
     <string name="submit_dialog_content">Din feedback, tillsammans med bilagor och loggar, kommer att skickas till MIUIs servrar. Den kan innehålla personlig information och dina platstjänster.</string>
-    <string name="submit_dialog_content_global">Din feedback, tillsammans med bilagor (om det finns några) och loggar (du kan bocka ut de objekt som du inte vill ladda upp) kommer skickas till MIUIs servrar och en begränsad del av MIUI Forum för utvecklare, analys och vidare kommunikation. Loggar kan innehålla personlig information och din platsinformation.</string>
-    <string name="submit_dialog_cancel">Avbryt</string>
-    <string name="submit_dialog_confirm">Skicka</string>
+    <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers. The information about your threads and forum activity will also be collected for analysis and further communication. Logs may contain personal info and your location data."</string>
+    <string name="submit_dialog_cancel">Godkänn inte</string>
+    <string name="submit_dialog_confirm">Godkänn</string>
     <string name="mobile_data_note_dialog_title">Varning för dataanvändning</string>
     <string name="mobile_data_note_dialog_content">Användning av mobildata för att ladda upp loggar kan generera ytterligare avgifter.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">Ladda upp loggar med mobildata kräver %s MB av data.</string>

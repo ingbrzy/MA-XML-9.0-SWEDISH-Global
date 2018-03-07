@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Batteriet laddat</string>
     <string name="unlockscreen_low_battery">Anslut laddare nu</string>
     <string name="lockscreen_charging_msg">Laddar</string>
+    <string name="reset_device_tip">Långsam laddning, var god att flytta telefonen</string>
+    <string name="reset_device_detail_tip">Trådlös laddning, justera laddstationen för att säkerställa laddningshastigheten.</string>
+    <string name="wireless_charge_stop">Trådlös laddning har stoppats</string>
+    <string name="change_to_ac_charging">Växla till trådlös laddning</string>
+    <string name="wireless_charge_dialog_title">Enheten är inte på rätt plats, var god att flytta den</string>
+    <string name="wireless_charge_dialog_cancel">Avbryt</string>
     <string name="emergency_call_string">Nödsituation</string>
     <string name="forget_password_string">Glömt lösenord</string>
     <string name="input_puk_code">Mata in PUK</string>
@@ -47,6 +53,7 @@
     <string name="fingerprint_try_again_msg">Det gick inte att tyda fingeravtrycket, försök igen.</string>
     <string name="fingerprint_not_identified_title">Ange lösenord</string>
     <string name="fingerprint_not_identified_msg">För många misslyckade försök. Ange lösenord eller försök med fingeravtryck om ett par sekunder.</string>
+    <string name="fingerprint_not_identified_msg_lock">För många misslyckade försök. Ange lösenord nu.</string>
     <string name="fingerprint_again_identified_msg">Ditt fingeravtryck är aktivt nu. Använd det för att låsa upp, eller ange lösenord.</string>
     <string name="fingerprint_add_title">Lägg till fingeravtryck</string>
     <string name="fingerprint_add_text">Fingeravtrycks-gränssnittet har uppdaterats. Lägg till ditt fingeravtryck igen.</string>
@@ -58,19 +65,16 @@
     <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
     <string name="input_password_handle_sdcard_fs">Kan inte gå in i Sekundära utrymmet från Låsskärmen. Gå in från Primära utrymmet.</string>
-    <string name="accessibility_enter_lock_wallpaper">Knacka för att öppna bakrunder</string>
+    <string name="accessibility_enter_lock_wallpaper">Tryck för att öppna Bakgrundskarusellen</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Släpp för att visa detaljer</string>
     <string name="lock_wallpaper_learn_more">Mer</string>
     <string name="lock_wallpaper_enter">Ange</string>
     <string name="custom_lock_wallpaper_enter">Ange</string>
     <string name="fingerprint_enter_second_psw_title">Ange Sekundära utrymmets lösenord</string>
-    <string name="fingerprint_enter_second_psw_msg">Ange Sekundära utrymmets lösenord efter omstart av enheten för att kunna använda fingeravtrycksigenkänning</string>
+    <string name="fingerprint_enter_second_psw_msg">Ange Sekundära utrymmets lösenord för att kunna använda fingeravtrycksigenkänning</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Du kan inte gå in i Sekundära utrymmet i Enkelt läge</string>
     <string name="keyguard_charging_info_click_to_detail">Visa detaljer</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Snabbladdning. Tryck för visa detaljer.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Snabbladdning…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Fulladdad</string>
-    <string name="keyguard_charging_info_charging_text">Laddar</string>
     <string name="keyguard_charging_info_last_charge_today_time">Idag %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Igår %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
@@ -91,13 +95,17 @@
     <string name="face_data_introduction_title">Ansiktsigenkänning</string>
     <string name="face_data_introduction_msg">Ansiktsdata kan användas för att låsa upp din enhet eller verifiera din identitet. Lägg till lösenord för Låsskärmen innan du lägger till din ansiktsdata.</string>
     <string name="face_data_introduction_next">Nästa</string>
-    <string name="face_data_suggesstion_first">Att låsa upp din enhet med din ansiktsdata är mindre säkert än att använda ett lösenord för Låsskärmen. Din enhet kan kanske bli upplåst av personer som ser är lik dig.</string>
+    <string name="face_data_siggesstion_next">Nästa</string>
+    <string name="face_data_siggesstion_next_time">Nästa (%ds)</string>
+    <string name="face_data_suggesstion_first">Säkerhetsproblem: Ansiktsupplåsning är mindre säkert än en PIN-kod, lösenord eller mönster. Din enhet kan kanske låsas upp med ett foto och av människor eller objekt med liknande drag.</string>
     <string name="face_data_suggesstion_second">Se till att alla delar av ditt ansikte är synliga och inte täckta. Ditt ansikte ska även vara belyst.</string>
     <string name="face_data_input_camera_fail">Det gick inte att starta kameran</string>
     <string name="face_data_input_camera_ok">Startar Kamera…</string>
     <string name="face_data_input_msg">Placera ditt ansikte inom ramen</string>
     <string name="face_data_input_ok_title">Tillagd</string>
     <string name="face_data_input_ok_msg">Aktivera att låsa upp din enhet med din ansiktsdata.</string>
+    <string name="face_data_input_ok_msg_angle">"Lås upp enheten med ditt ansikte när skärmen är på.
+(Spela in din ansiktsdata inklusive alla vinklar som behövs)"</string>
     <string name="face_data_input_cancel">Avbryt</string>
     <string name="face_data_input_cancel_msg">Kunde inte läsa ansiktsdata</string>
     <string name="face_data_input_ok">Klart</string>
@@ -135,4 +143,10 @@
     <string name="face_unlock_down">Höj huvudet</string>
     <string name="face_unlock_quality">Kunde inte se ditt ansikte tydligt</string>
     <string name="lock_screen_no_sim_card">Inget SIM-kort</string>
+    <string name="do_disclosure_generic">Denna enhet hanteras av din organisation</string>
+    <string name="do_disclosure_with_name">Denna enhet hanteras av %s</string>
+    <string name="face_unlock_reenter_title">Spela in din ansiktsdata igen.</string>
+    <string name="face_unlock_reenter_content">Algoritmen för ansiktsupplåsningen uppdateras. Tryck för att spela in ansiktsdata igen.</string>
+    <string name="digital_clock_dot">:</string>
+    <string name="keyguard_left_view_lock_wallpaper">Bakgrundsbildskarusell</string>
 </resources>

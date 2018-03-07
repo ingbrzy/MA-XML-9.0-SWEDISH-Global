@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Weibo-kontot har gått ut, lägg till kontot igen.</string>
     <string name="sina_token_invalid_warning">Weibo-kontot är ogiltigt, lägg till kontot igen.</string>
     <string name="sina_share_fail_content_repeat">Du har redan delat detta.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Anteckningar;Memo</string>
     <string name="search_path_notes">Systemappar/Anteckningar</string>
     <string name="dlg_move_message">Flyttar…</string>
@@ -119,6 +120,7 @@
     <string name="error_unsupport_content">Anteckningen har innehåll som inte stöds, tryck här för att uppdatera</string>
     <string name="error_contact_not_exist">Kontakt existerar inte</string>
     <string name="sync_tips">Tryck för att synkronisera anteckningar med Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">Textstorlek</string>
     <string name="call_folder_name">Samtalsanteckningar</string>
     <string name="trash_folder_name">Skräp</string>
@@ -198,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Anteckningen är för stor för att dela.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Vänta till anteckningen har laddats och försök igen.</string>
     <string name="toast_reach_text_limit_checkbox">Kan inte lägga till en checkbox eftersom anteckningen är för lång</string>
+    <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
 </resources>
