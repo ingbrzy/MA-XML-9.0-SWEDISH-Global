@@ -556,7 +556,6 @@
     <string name="you_liao_goddess_desc">Ladda upp videor regelbundet och expandera din beundrardatabas för att uppnå damstatus</string>
     <string name="default_user_desc">Den här personen har inte angett en beskrivning ännu</string>
     <string name="recommend">Rekommenderade</string>
-    <string name="topic_message">&lt;font color=#fc7050>%1$s:&lt;/font>%2$s</string>
     <string name="message_my_received_praise">Mina gillningar</string>
     <string name="message_comment_prefix">"Kommentar: "</string>
     <string name="message_reply_prefix">Svar</string>

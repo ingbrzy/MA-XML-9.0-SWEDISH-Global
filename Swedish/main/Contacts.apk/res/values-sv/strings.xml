@@ -563,7 +563,6 @@ Orsak: \"%s\""</string>
     <string name="keep_local">Synkronisera inte</string>
     <string name="keep_local_btn">Använd telefonens lagringsutrymme</string>
     <string name="label_custom_type">Anpassad</string>
-    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Inga dubbletter funna</string>
     <string name="label_notes">Noteringar</string>
     <string name="label_sip_address">Internetsamtal</string>
@@ -820,7 +819,6 @@ För att lägga till en kontakt i din lista av favoriter:
     <string name="payphone">Betalnummer</string>
     <string name="people">Kontakter</string>
     <string name="phoneLabelsGroup">Telefon</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Numret är för långt</string>
     <string name="phone_primary">Primär</string>
     <string name="photoPickerNotFoundText">Inga bilder finns tillgängliga på telefonen.</string>
