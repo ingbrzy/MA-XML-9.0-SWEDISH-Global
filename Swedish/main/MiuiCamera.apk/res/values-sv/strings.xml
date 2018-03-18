@@ -379,7 +379,6 @@
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">HÖG PIXEL</string>
-    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Porträttläge</string>
     <string name="pref_camera_portrait_mode_entry_off">Porträttläge av</string>
     <string name="pref_camera_portrait_mode_entry_on">Porträttläge på</string>
