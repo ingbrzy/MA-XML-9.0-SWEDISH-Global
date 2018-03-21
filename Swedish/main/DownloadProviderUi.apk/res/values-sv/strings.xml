@@ -205,7 +205,6 @@
     <string name="add_flow_fail_vip_msg">Xunlei-nedladdningsaccelerator är på</string>
     <string name="all_the_internet">Alla nätverk</string>
     <string name="app_downloads">%s nedladdningar</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei konto</string>
     <string name="bind_xunlei_account">Lägg till Xunlei-konto</string>
     <string name="bt_download">Ladda ner</string>
@@ -231,7 +230,6 @@
     <string name="download_list_open_xl_message">Xunlei accelerator kommer att påskynda nedladdningar.</string>
     <string name="download_list_open_xl_title">Xunlei nedladdningsaccelerator</string>
     <string name="download_list_title_browser">Nedladdningar</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="dredge_xunlei_account">Skapa ett Xunlei-konto</string>
     <string name="edit_hint"> Ange http, torrent eller eMule adress</string>
     <string name="engine_open">Öppna</string>
@@ -404,7 +402,6 @@ accelererar nedladdningar på samtliga enheter."</string>
     <string name="xl_vip_semiannual">6 Månader: %1$s Mi Krediter × 6</string>
     <string name="xunlei_account_has_unbind_message">Xunlei-konto togs bort</string>
     <string name="xunlei_brand">Drivs med Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">Aktivera</string>
     <string name="xunlei_close_tips_content">Xunlei nedladdnings accelerator.</string>
     <string name="xunlei_close_tips_title">Accelerera dina nedladdningar</string>

@@ -411,7 +411,6 @@
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">NORMAL</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">SVAGT LJUS</string>
-    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Porträttläge</string>
     <string name="pref_camera_portrait_mode_entry_off">Porträttläge av</string>
     <string name="pref_camera_portrait_mode_entry_on">Porträttläge på</string>
@@ -421,7 +420,6 @@
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och för fram personerna förgrunden."</string>
-    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -436,7 +434,6 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
