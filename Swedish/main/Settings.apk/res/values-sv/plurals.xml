@@ -176,6 +176,10 @@
         <item quantity="other">%d behörigheter har getts</item>
         <item quantity="one">%d behörighet har getts</item>
     </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d utskriftsjobb</item>
+        <item quantity="one">1 utskriftsjobb</item>
+    </plurals>
     <plurals name="print_settings_summary">
         <item quantity="other">%1$d utskriftstjänster är aktiverade</item>
         <item quantity="one">1 utskriftstjänst är aktiverad</item>

@@ -444,12 +444,14 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
     <string name="family_member_invitation_text">Andra familjemedlemmar</string>
     <string name="fast_share_auto_render">Försköna</string>
     <string name="fast_share_auto_render_finish">Förskönad</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -508,6 +510,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Gallery behöver tillgång till 
 %s
  för att fungera normalt, tryck på \"Set\" för att gå till Tillstånd."</string>
@@ -701,6 +704,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -914,6 +918,8 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -995,6 +1001,9 @@ för att göra galleriet personligt"</string>
     <string name="sticker_spring">Vår</string>
     <string name="sticker_summer">Sommar</string>
     <string name="sticker_words">Ord</string>
+    <string name="storage_description_primary">Internt lagringsutrymme</string>
+    <string name="storage_description_sdcard">SD-kort</string>
+    <string name="storage_description_xspace">Data för Dual appar</string>
     <string name="storage_no_space">Inte tillräckligt med utrymme</string>
     <string name="sub_discard_confirm_message">Spara ändringar?</string>
     <string name="sub_discard_negative_btn">Ta bort</string>
@@ -1134,6 +1143,7 @@ för att göra galleriet personligt"</string>
     <string name="view_by_gallery_tip">MIUI Galleri</string>
     <string name="view_face_album">Visa album</string>
     <string name="view_queuing_status">Kolla status</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>

@@ -1262,7 +1262,6 @@ Vi föreslår att du anger en något lägre gräns eftersom dataanvändningen m�
     <string name="debug_networking_category">Nätverk</string>
     <string name="debug_view_attributes">Aktivera inspektion av visningsattribut</string>
     <string name="decline_remote_bugreport_action">Avvisa</string>
-    <string name="defalut_launcher_title">Hemskärmsapp</string>
     <string name="default_admin_support_msg">Åtgärden har inaktiverats. Kontakta organisationens administratör om du vill veta mer.</string>
     <string name="default_app">(Standard)</string>
     <string name="default_apps_title">Standardinställning</string>
@@ -1946,6 +1945,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="key_gesture_function_preview">Förhandsvisning för knappar och gester</string>
     <string name="key_gesture_function_shortcut">Praktiska genvägar</string>
     <string name="key_none">Inga</string>
+    <string name="key_operation_diagram">Driftdiagram</string>
     <string name="key_position_cat">Knappositioner</string>
     <string name="key_settings">Genvägar för knappar och gester</string>
     <string name="key_settings_title">Genvägar för knappar och gester</string>
@@ -2033,7 +2033,6 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="launch_google_search">Starta Google Assistant</string>
     <string name="launch_recents">Starta senaste</string>
     <string name="launch_voice_assistant">Starta Röstassistans</string>
-    <string name="launcher_auto_fill_empty_title">Fyll tomma celler</string>
     <string name="launcher_title">Hemskärm &amp; senast använda appar</string>
     <string name="launching_cit">Startar CIT</string>
     <string name="launching_pho">Startar telefoninformation…</string>
@@ -2055,6 +2054,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="loading_notification_apps">Läser in appar ...</string>
     <string name="local_auto_backup_off">Av</string>
     <string name="local_auto_backup_on">På</string>
@@ -2134,7 +2134,6 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lock_profile_wipe_warning_content_pattern">Om du anger fel grafiskt lösenord under det här försöket kommer jobbprofilen och den data som har kopplats till profilen att tas bort från enheten.</string>
     <string name="lock_profile_wipe_warning_content_pin">Om du anger fel pinkod under det här försöket kommer jobbprofilen och den data som har kopplats till profilen att tas bort från enheten.</string>
     <string name="lock_profile_wipe_warning_title">Sista försöket</string>
-    <string name="lock_screen_cells_title">Lås Hemskärmens utseende</string>
     <string name="lock_screen_intro_skip_dialog_text">Funktionerna för enhetsskydd aktiveras inte. Det innebär att du inte kan hindra andra från att använda mobilen om du tappar den eller om den blir stulen.</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">Funktioner för enhetsskydd aktiveras inte. Det innebär att du inte kan hindra andra från att använda mobilen om du tappar den eller om den blir stulen eller rensad.</string>
     <string name="lock_screen_notifications_interstitial_message">Hur vill du att aviseringar visas när enheten är låst?</string>
@@ -2387,9 +2386,12 @@ Det finns andra användare på enheten.
     <string name="memory_settings_title">Minne</string>
     <string name="memory_size">Totalt utrymme</string>
     <string name="memory_summary">Genomsnittlig minnesanvändning: %1$s av %2$s</string>
+    <string name="memory_system_rom">Lagringsutrymme för System</string>
+    <string name="memory_system_space">Lagringsutrymme för System</string>
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="menu_cancel">Släng</string>
     <string name="menu_check">Upplev</string>
@@ -2434,7 +2436,6 @@ Det finns andra användare på enheten.
     <string name="miui_lab_slogan">Lära. Utforska. Upptäck.</string>
     <string name="miui_lab_taplus_desc">Tryck och håll på objekten för att starta</string>
     <string name="miui_master_clear_summary">Rensar all data på telefonen</string>
-    <string name="miui_screen_config_title">Inställningar för Hemskärm</string>
     <string name="miui_updater">Systemuppdatering</string>
     <string name="mms_breathing_light_color_title">Lampfärg för meddelande</string>
     <string name="mms_breathing_light_freq_title">Pulseringsfrekvens för meddelanden</string>
@@ -2595,10 +2596,11 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Betala vid en kassaterminal</string>
     <string name="nfc_more_title">Mer ...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
-    <string name="nfc_payment_favor_default">Alltid</string>
-    <string name="nfc_payment_favor_open">Förutom när en annan betalningsapp är öppen</string>
+    <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
+    <string name="nfc_payment_favor_open">Ersätt standardapp när en annan betalningsapp är öppen</string>
     <string name="nfc_payment_how_it_works">Så fungerar det</string>
     <string name="nfc_payment_no_apps">Betala med mobilen i butiker</string>
     <string name="nfc_payment_pay_with">Vid en Tryck och betala-terminal betalar du med:</string>
@@ -2769,11 +2771,6 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="open_demo_mode_warning_message">När Demoläge är aktiverat kommer klockan i statusfältet inte fungera, batteri- och signalikoner visas fullt ut. Du kan stänga av Demoläge eller starta om enheten för att ändra detta.</string>
     <string name="open_miui_optimization_title">Aktivera MIUI-optimering</string>
     <string name="open_miui_optimization_warning_message">Enheten kommer startas om för att tillämpa ändringen.</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
-    <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få sina uppdateringar. Stäng av nu?</string>
-    <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
-    <string name="open_personal_assistant_title">Aktivera App vault</string>
     <string name="open_wifi_connect_summary">Tryck för att visa detaljer.</string>
     <string name="open_wifi_connect_title">Ansluten till %1$s</string>
     <string name="opening_paragraph_delete_profile_unknown_company">Den här jobbprofilen hanteras av:</string>
@@ -2791,6 +2788,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="overlay_display_devices_title">Simulera sekundär skärm</string>
     <string name="overlay_settings">Visa ovanpå andra appar</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Inget</string>
     <string name="owner_info_settings_title">Låsskärmssignatur</string>
     <string name="owner_space">Primära utrymmet</string>
@@ -2985,9 +2983,10 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="priority_storage_settings_summary">Om inget SD-kort upptäcks kommer din information att sparas på enhetens interna lagringsutrymme automatiskt</string>
     <string name="priority_storage_summary">Välj var du vill spara dina data</string>
     <string name="priority_storage_title">Lagringsinställningar</string>
-    <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authotization for Mi Cloud services (including sync and backups)."</string>
+    <string name="privacy_authorize_cloud_msg">För att säkerställa ditt kontos säkerhet, logga in på i.mi.com om du vill återkalla autotisering för Mi Cloud-tjänster (inklusive synkronisering och säkerhetskopiering).</string>
     <string name="privacy_authorize_dialog_agree">Samtycker</string>
     <string name="privacy_authorize_dialog_exit">Avsluta</string>
+    <string name="privacy_authorize_dialog_message"><Data>"För att kunna använda de grundläggande funktionerna i Mi Cloud-tjänster måste du vara överens om att Xiaomi ska samla, bearbeta, och använd dina personuppgifter. Se vår sekretesspolicy för att lära dig hur vi samlar in och behandlar personuppgifter. Att välja Acceptera\" betyder att du har läst och godkänt vår         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Integritetspolicy&lt;/a> och &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Användarvillkor&lt;/a>."</Data></string>
     <string name="privacy_authorize_network_error">Anslut till nätverket och försök igen.</string>
     <string name="privacy_authorize_privacy_policy">Integritetspolicy</string>
     <string name="privacy_authorize_revoke">Upphäva</string>
@@ -3061,6 +3060,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="private_sms_recording_intro_header">Rita ett upplåsningsmönster:</string>
     <string name="private_sms_reset_by_account">För att återställa ditt lösenord, logga in på ditt Mi-konto</string>
     <string name="process_dex2oat_label">Appoptimering</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="process_provider_in_use_description">Leverantören %1$s används.</string>
     <string name="process_service_in_use_description">Tjänsten %1$s används.</string>
     <string name="process_stats_bg_ram_use">RAM-användning (bakgrund)</string>
@@ -3081,6 +3081,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="profile_section_header">Jobbaviseringar</string>
     <string name="progress_scanning">Söker</string>
     <string name="provider_label">Push-prenumerationer</string>
+    <string name="provision_activation">Aktiv</string>
     <string name="provision_back">Tillbaka</string>
     <string name="provision_next">Nästa</string>
     <string name="provision_page_layout_confirm_message">Din enhet måste starta om för att tillämpa ändringarna. Detta tar ungefär 1 minut.</string>
@@ -3177,7 +3178,6 @@ UT-gränssnitt: %5$s"</string>
     <string name="receiver_clean">Frigör utrymme</string>
     <string name="recent_location_requests_summary">Visa appar som begär tillgång till din platsinfo</string>
     <string name="recent_location_requests_title">Platsåtkomst</string>
-    <string name="recents_config_title">Senast använda appar</string>
     <string name="recommend_item_1">Mobilskal</string>
     <string name="recommend_item_3">Strömbank</string>
     <string name="recommend_item_4">Hörlurar</string>
@@ -3299,7 +3299,6 @@ Den här inställningen påverkar samtliga användare."</string>
     <string name="screen">Skärm</string>
     <string name="screen_button">Skärmknappar</string>
     <string name="screen_button_tips">Dra ner för att dölja skärmknappar</string>
-    <string name="screen_cells_config_title">Hemskärmens utseende</string>
     <string name="screen_color_and_optimize">Färger &amp; kontrast</string>
     <string name="screen_color_and_optimize_disabled">Kan inte justera färgtemperatur i Läsläge</string>
     <string name="screen_color_temperature">Färger</string>
@@ -3803,7 +3802,6 @@ Obs! Det går inte att låsa upp den här enheten med ett fingeravtryck. Kontakt
     <string name="show_ime">Visa virtuellt tangentbord</string>
     <string name="show_ime_summary">Ha kvar den på skärmen när det fysiska tangentbordet används</string>
     <string name="show_magnifier_when_input">Förstorningsglas för text</string>
-    <string name="show_mem_info_title">Visa minnesanvändning</string>
     <string name="show_menu">Visa meny</string>
     <string name="show_non_rect_clip">Felsök icke-rektangulära urklippsåtgärder</string>
     <string name="show_notification_channel_warnings">Visa varningar om aviseringskanal</string>
@@ -3889,6 +3887,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
     <string name="sim_select_card">Välj ett SIM-kort</string>
     <string name="sim_selection_required_pref">Du måste välja något</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">SIM-kortet är tomt</string>
@@ -3955,6 +3954,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_app_enable_keyguard">Låsskärm</string>
     <string name="status_bar_app_enable_message">Märken</string>
     <string name="status_bar_key_position_custom">Ändra knapplägen</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">Svep från underkanten av skärmen för att visa skärmknapparna</string>
     <string name="status_bar_screen_button_key_force_immersive">Dölj skärmknappar</string>
     <string name="status_bar_screen_key_back">Bakåtknapp</string>
@@ -3983,7 +3983,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_settings_show_floating_notification">Svävande notifikationer</string>
     <string name="status_bar_settings_show_floating_notification_summary">Svävande notifikationer försvinner automatiskt efter att de visas på toppen av skärmen</string>
     <string name="status_bar_settings_show_flow_info">Visa datanvändning</string>
-    <string name="status_bar_settings_show_home_message">Appikon bricka</string>
+    <string name="status_bar_settings_show_home_message">Aktivitetsikon</string>
     <string name="status_bar_settings_show_keyguard_notification">Notifikationer på låsskärmen</string>
     <string name="status_bar_settings_show_network_speed">Visa anslutningshastighet</string>
     <string name="status_bar_settings_show_notification_icon">Visa ikoner för notifikationer</string>
@@ -4178,6 +4178,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="suggestion_remove">Ta bort</string>
     <string name="suggestions_title">Förslag</string>
     <string name="sum_carrier_select">Välj en nätverksoperatör</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="supl_not_set">&lt;Inte angiven></string>
     <string name="support_account_picker_add_account">Lägg till ett konto</string>
@@ -4296,7 +4297,6 @@ En funktion i Google som du kan använda om du vill synkronisera så att du komm
     <string name="title_font_current2">Teckensnitt för systemet</string>
     <string name="title_font_size">Teckenstorlek</string>
     <string name="title_hdmi_color_calibration">Förinställd färgkorrigering</string>
-    <string name="title_jeejen">Jeejen Hemskärm</string>
     <string name="title_layout_current">Textstorlek</string>
     <string name="title_layout_current2">Textstorlek</string>
     <string name="toast_lockscreen_glogin_empty_password">Ange lösenord</string>
@@ -4481,7 +4481,7 @@ Dina sparade fingeravtryck tas dessutom bort från profilen och du kan inte län
     <string name="untitled_apn">Namnlös</string>
     <string name="update_new_version">Uppdatering finns tillgänglig</string>
     <string name="update_progress_for_updates">Uppdaterar (%s)</string>
-    <string name="upload_debug_log_summary">Diagnosdata kan inkludera information om din användning av hårdvara, operativsystem och applikationer. Uppgifterna kommer att användas för att lokalisera och analysera problemen i systemet och kommer aldrig att användas för att identifiera dig personligen.</string>
+    <string name="upload_debug_log_summary">Användningsstatistik som hjälper oss att lokalisera och lösa problem kan innehålla personlig information</string>
     <string name="upload_debug_log_title">Skicka data för diagnostik automatiskt</string>
     <string name="usage">Användning</string>
     <string name="usage_access">Åtkomst till användningsdata</string>
@@ -4629,7 +4629,7 @@ Tryck på plus att lägga till ord."</string>
     <string name="user_exit_guest_dialog_remove">Ta bort</string>
     <string name="user_exit_guest_title">Ta bort gäst</string>
     <string name="user_experience_program">Program för Användarupplevelse</string>
-    <string name="user_experience_program_summary">Hjälp oss att förbättra MIUI genom att skicka anonyma användardata</string>
+    <string name="user_experience_program_summary">Hjälp oss förbättra våra produkter och tjänster genom att dela din användarstatistik med oss</string>
     <string name="user_experience_program_title">Program för Användarupplevelse</string>
     <string name="user_guest">Gäst</string>
     <string name="user_image_choose_photo">Välj ett foto från galleriet</string>
@@ -4849,6 +4849,9 @@ Tryck på plus att lägga till ord."</string>
     <string name="wfd_menu_teardown">Avbryt</string>
     <string name="wfd_settings_description">Anslut till en skärm över Wi-Fi</string>
     <string name="wfd_settings_title">Trådlös bildskärm</string>
+    <string name="wfd_status_dialog_disconnect">Koppla från</string>
+    <string name="wfd_status_dialog_message">Skärminnehåll visas på en annan enhets skärm via en trådlös anslutning</string>
+    <string name="wfd_status_dialog_title">Trådlös bildskärm</string>
     <string name="wfd_wps_keypad">Använd knappsats</string>
     <string name="wfd_wps_pbc">Ange PIN</string>
     <string name="whetstone_level_reboot">Denna inställning träder i kraft när du startar om din enhet.</string>
@@ -5338,9 +5341,5 @@ kan du använda andras nätverk också"</string>
     <string name="zone_auto_summaryOn">Använd nätverkets tidszon</string>
     <string name="zone_list_menu_sort_alphabetically">Sortera i bokstavsordning</string>
     <string name="zone_list_menu_sort_by_timezone">Sortera efter tidszon</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Kräv aldrig lösenord</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Kräv lösenord direkt</string>
-    <string name="lock_screen_secure_after_timeout_summary">Kräv lösenord för: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_title">Kräv lösenord</string>
     <string name="master_clear_summary">Det interna lagringsutrymmet och all data återställs</string>
 </resources>

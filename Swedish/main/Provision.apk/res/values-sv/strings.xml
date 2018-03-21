@@ -19,9 +19,10 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="other_settings_location">Plats</string>
     <string name="other_settings_location_summary">Tillåt appar att få åtkomst till din plats.</string>
     <string name="other_settings_user_experience">Användarupplevelse Program</string>
-    <string name="other_settings_user_experience_summary">Hjälp oss förbättra våra produkter och tjänster genom att skicka anonym användardata.</string>
+    <string name="other_settings_user_experience_summary">Hjälp oss förbättra våra produkter och tjänster genom att dela din användarstatistik med oss. Detaljer</string>
+    <string name="other_settings_user_experience_summary_index">Detaljer</string>
     <string name="other_settings_upload_debug_log_title">Skicka data för diagnostik automatiskt</string>
-    <string name="other_settings_upload_debug_log_summary">Informationen vi samlar in kommer att användas för att lokalisera och analysera problemen i systemet och kan innehålla personuppgifter. Inga data kommer att användas för att identifiera dig personligen.</string>
+    <string name="other_settings_upload_debug_log_summary">Användningsstatistik som hjälper oss att lokalisera och lösa problem kan innehålla personlig information</string>
     <string name="other_settings_auto_update">Installera automatiskt</string>
     <string name="other_settings_auto_update_summary">MIUI väljer när det passar bäst att installera uppdateringar.</string>
     <string name="other_settings_ad_enable">Personlig reklam</string>

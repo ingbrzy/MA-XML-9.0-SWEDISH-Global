@@ -201,6 +201,7 @@ För att aktivera ditt konto, följ
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Ser ut som om&lt;/font> numret %s har återvunnits av din operatör. Kontrollera när numret blev aktivt?</string>
     <string name="passport_get_innetdate_agree">Kontrollera</string>
     <string name="passport_get_innetdate_disagree">Nej</string>
+    <string name="passport_extra_gdpr_license">Att skapa ditt Mi-konto betyder att du godkänner att Xiaomi kommer samla in, processa och använda din personliga data, inklusive verifikationsdata (t ex verifikationskoder), data i Sekundära utrymmet (t ex information om hur du använder det Sekundära utrymmet, ID använda i Primära och Sekundära utrymmet) och annan data som är specifierad i vår Integritetspolicy. Läs vår Integritetspolicy för att använder och processa personlig data.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud, Kontoinställningar, Mi Pay, Logga ut</string>
@@ -415,9 +416,9 @@ För att aktivera ditt konto, följ
     <string name="find_device_activate_account">Aktivera konto</string>
     <string name="login_check_find_device">Hämtar enhetssäkerhet info…</string>
     <string name="unlock_help_notice">"Hjälp:
-· Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
-· Om du inte kan låsa upp enheten, gå till i.mi.com att stänga av Hitta enhet.
-·Ditt upplåsningsnummer: %s"</string>
+1. Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
+2. Om du inte kan låsa upp enheten, gå till i.mi.com att stänga av Hitta enhet.
+3. Ditt upplåsningsnummer: %s"</string>
     <string name="login_find_device_bind">Denna enhet är kopplad till befintliga Mi konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, associerat telefonnummer: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, associerad e-postadress: %s</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
@@ -81,6 +82,7 @@
     <string name="current_preview">Förhandsvisning</string>
     <string name="current_wallpaper">Nuvarande</string>
     <string name="custom_wallpaper_picker">Bläddra</string>
+    <string name="defalut_launcher_title">Hemskärmsapp</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Spel</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
@@ -179,13 +181,16 @@
     <string name="invalid_contact_shortcut">Ogiltig kontakt</string>
     <string name="is_setting_wallpaper_message">Använder bakgrund…</string>
     <string name="is_system_wallpaper_message">Kan inte ta bort systemresurser</string>
+    <string name="launcher_auto_fill_empty_title">Fyll tomma celler</string>
     <string name="launcher_not_exist">Ett fel uppstod, gå tillbaka till Hemskärmen och försök igen.</string>
+    <string name="launcher_title">Hemskärm &amp; senast använda appar</string>
     <string name="like">Favorit</string>
     <string name="liked">Favorit</string>
     <string name="loading_desktop">Vänta lite...</string>
     <string name="loading_wallpaper">Vänta lite…</string>
     <string name="local_wallpaper">Nedladdat</string>
     <string name="lock_screen">Låsskärm</string>
+    <string name="lock_screen_cells_title">Lås Hemskärmens utseende</string>
     <string name="lock_screen_failed_message">Det går ställa in bakgrund till Låsskärmen</string>
     <string name="lock_screen_success_message">Tillämpat till Låsskärmen</string>
     <string name="lock_screen_wallpaper">Bakgrund på Låsskärmen</string>
@@ -212,6 +217,7 @@
     <string name="menu_wallpaper">Bakgrund</string>
     <string name="menu_workspace_preview">Förhandsvisa Hemskärm</string>
     <string name="mi_wallpaper">MIUI Tema Butik</string>
+    <string name="miui_screen_config_title">Inställningar för Hemskärm</string>
     <string name="mtzgadget_missing_text">Widget är ej tillgänglig</string>
     <string name="multi_selecting_tips">För att plocka upp en app, dra ikonen och släpp här</string>
     <string name="no_detail_page">Ingen detaljsida</string>
@@ -220,6 +226,11 @@
     <string name="notification_installed">Installerat</string>
     <string name="notification_open_button">Öppen</string>
     <string name="online_wallpaper">Online</string>
+    <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
+    <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
+    <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få sina uppdateringar. Stäng av nu?</string>
+    <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
+    <string name="open_personal_assistant_title">Aktivera App vault</string>
     <string name="out_of_space">Ingen mer plats på Hemskärmen</string>
     <string name="permdesc_install_shortcut">Tillåt en app att lägga till genvägar utan att åtgärd från användaren.</string>
     <string name="permdesc_install_widget">Tillåt en app att lägga till widgets utan att åtgärd från användaren.</string>
@@ -249,6 +260,8 @@
     <string name="pref_wallpaper_scroll_type_title">Bakgrundsorientering</string>
     <string name="preferences_general_title">Ytterligare inställningar</string>
     <string name="preferences_title">Launcherinställningar</string>
+    <string name="preferred_app_settings_not_selected">Inte vald</string>
+    <string name="recents_config_title">Senast använda appar</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Tom</string>
     <string name="recommend_apps_no_data">Ingen data</string>
@@ -258,6 +271,7 @@
     <string name="recommend_apps_tips">Denna funktion kräver anslutning till internet för att fungera normalt. För att stänga av denna funktion, tryck på mappens namn.</string>
     <string name="recommend_loading">Laddar</string>
     <string name="reset_scene_prompt">Skärmen kommer att återställas till standardlayout.</string>
+    <string name="screen_cells_config_title">Hemskärmens utseende</string>
     <string name="screen_locked_toast">Hemskärmens utseende är låst</string>
     <string name="screen_number">%d skärm</string>
     <string name="select_all">Välj alla</string>
@@ -268,6 +282,7 @@
     <string name="settings_shortcut">Inställningar</string>
     <string name="share">Dela</string>
     <string name="show_all">Visa alla</string>
+    <string name="show_mem_info_title">Visa minnesanvändning</string>
     <string name="sort_by_abc">Sortera efter namn</string>
     <string name="sort_by_frequency">Sortera efter användande</string>
     <string name="sort_by_not_defined">Sortera automatiskt</string>
@@ -278,6 +293,7 @@
     <string name="status_installing">Installerar</string>
     <string name="status_paused">Paus</string>
     <string name="status_pending">Väntar</string>
+    <string name="title_jeejen">Jeejen Hemskärm</string>
     <string name="title_select_live_folder">Välj mapp</string>
     <string name="title_select_shortcut">Välj genväg</string>
     <string name="toast_screen_icons_misplaced">Återställd från en annan källa, några ikoner kan vara felplacerade</string>
@@ -314,18 +330,4 @@
     <string name="widget_gadget_player">Musik</string>
     <string name="widget_global_search">Sök</string>
     <string name="widget_quick_function">Snabbfunktioner</string>
-    <string name="defalut_launcher_title">Hemskärmsapp</string>
-    <string name="launcher_auto_fill_empty_title">Fyll tomma celler</string>
-    <string name="launcher_title">Hemskärm &amp; senast använda appar</string>
-    <string name="lock_screen_cells_title">Lås Hemskärmens utseende</string>
-    <string name="miui_screen_config_title">Inställningar för Hemskärm</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
-    <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få sina uppdateringar. Stäng av nu?</string>
-    <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
-    <string name="open_personal_assistant_title">Aktivera App vault</string>
-    <string name="recents_config_title">Senast använda appar</string>
-    <string name="screen_cells_config_title">Hemskärmens utseende</string>
-    <string name="show_mem_info_title">Visa minnesanvändning</string>
-    <string name="title_jeejen">Jeejen Hemskärm</string>
 </resources>

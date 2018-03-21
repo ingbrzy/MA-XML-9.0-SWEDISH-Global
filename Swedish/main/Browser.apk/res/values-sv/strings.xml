@@ -113,7 +113,7 @@
     <string name="bookmark_needs_url">Bokmärket måste innehålla en URL</string>
     <string name="bookmark_not_saved">Misslyckades med att spara bokmärke</string>
     <string name="bookmark_rename_group">Byt namn på gruppen</string>
-    <string name="bookmark_saved">Sparad till bokmärken</string>
+    <string name="bookmark_saved">Tillagd i bokmärken</string>
     <string name="bookmark_title">Namn på bokmärke</string>
     <string name="bookmark_title_lable">Titel</string>
     <string name="bookmark_url">URL http://</string>
@@ -169,6 +169,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentera</string>
     <string name="comment_description">Kommentera</string>
     <string name="comment_hint">Kommentera</string>
@@ -518,7 +519,7 @@ Lämna denna sida?"</string>
     <string name="nav_screen_incognito_message">"Din surf- och sökhistorik kommer inte att sparas i Inkognitoläge.
 Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer att sparas."</string>
     <string name="nav_screen_incognito_title">Inkognitoläge</string>
-    <string name="navigation_delete_all">svep till vänster och höger för att stänga alla flikar</string>
+    <string name="navigation_delete_all">Svep till vänster eller höger för att stänga alla flikar</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Avbryt</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gå</string>
     <string name="navigationbar_rightbutton_actiontext_search">Sök</string>

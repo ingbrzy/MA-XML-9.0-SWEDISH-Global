@@ -115,6 +115,6 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s"</st
     <string name="phone_get_text">Tillåt %1$s att få ditt telefonnummer (%2$s)?</string>
     <string name="phone_get_processing">Hämtar…</string>
     <string name="agree">Tillåt</string>
-    <string name="privacy_revoke_tips">Om du upphäver kommer inte Sms synkronisering kunna användas</string>
-    <string name="privacy_revoke_failed_msg">integritet upphävd, kan inte hämta telefonnummer, aktiveringen misslyckades</string>
+    <string name="privacy_revoke_tips">När du upphävt befogenheterna kommer appen Meddelande sluta samla in data och all data kommer tas bort från servrarna. Synkronisera med Mi Cloud, Mi Message och andra meddelandefunktioner kommer inte vara tillgängliga. Upphäv befogenheter ändå?</string>
+    <string name="privacy_revoke_failed_msg">Aktivering kräver att befogenheter är beviljade så att Meddelande kan få ditt telefonnummer.</string>
 </resources>

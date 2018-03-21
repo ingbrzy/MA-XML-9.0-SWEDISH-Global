@@ -74,7 +74,7 @@
         <item>Följ Olympiska spelen med Mi</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Soligt</item>
+        <item>Klart</item>
         <item>Molnigt</item>
         <item>Mulet</item>
         <item>Dimmigt</item>

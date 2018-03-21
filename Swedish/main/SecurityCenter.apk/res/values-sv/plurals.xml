@@ -308,4 +308,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">%d dagar återstår innan session av ökad nätverkshastighet går ut. Förnya sessionen för att undvika problem med hastigheten på ditt nätverk.</item>
         <item quantity="one">%d dag återstår innan session av ökad nätverkshastighet går ut. Förnya sessionen för att undvika problem med hastigheten på ditt nätverk.</item>
     </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Incheckad %d dagar i rad</item>
+        <item quantity="one">Incheckad %d gång</item>
+    </plurals>
 </resources>

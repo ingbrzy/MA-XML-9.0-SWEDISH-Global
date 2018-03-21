@@ -41,7 +41,7 @@
     <string name="HIPS_SecurityPrompt_Title">%1$s försöker att %2$s</string>
     <string name="HIPS_SecurityPrompt_Reject">Neka (%d)</string>
     <string name="Su_Package_Forbidden2">har inte root-åtkomst.</string>
-    <string name="permisson_reject_notice_toast_text2">har inte tillstånd till %1$s.</string>
+    <string name="permisson_reject_notice_toast_text2">har inte behörighet till %1$s.</string>
     <string name="HIPS_Action_Reject_Once">Neka en gång</string>
     <string name="HIPS_Action_Accept_Once">Tillåt en gång</string>
     <string name="HIPS_SecurityPrompt_Reject_Once">Neka en gång (%d)</string>
