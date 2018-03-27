@@ -1368,6 +1368,5 @@ Vill du stänga sidan?"</string>
     <string name="zen_mode_feature_name">Stör ej</string>
     <string name="zen_mode_forever">Tills du inaktiverar Stör ej</string>
     <string name="zen_mode_forever_dnd">Tills du inaktiverar Stör ej</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Till kl. %1$s</string>
 </resources>

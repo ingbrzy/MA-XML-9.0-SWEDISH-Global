@@ -352,7 +352,6 @@
     <string name="choose_report_reason">Varför rapporterar du detta videoklipp?</string>
     <string name="input_memo_hint">Ange ytterligare skäl (valfritt)</string>
     <string name="network_dialog_checkbox_tip">Visa inte igen</string>
-    <string name="video_tag">\# %s #</string>
     <string name="remote_video_report_success">Tack för din återkoppling! Vi återkommer så snart som möjligt.</string>
     <string name="video_status_review">Att ses över</string>
     <string name="video_status_reject">Nekad</string>
@@ -437,7 +436,6 @@
     <string name="video_publish_hint">En bra beskrivning kommer att hjälpa andra människor att hitta din video</string>
     <string name="video_publish_hint2">Beskrivning</string>
     <string name="video_comment_limit">%1$s tecken saknas</string>
-    <string name="video_tag_search_lead">\#</string>
     <string name="video_data_consumption_dialog_title">Mobildata varning</string>
     <string name="video_data_consumption_dialog_message">Uppladdning kommer att kräva %1$s av mobildata</string>
     <string name="video_data_consumption_confirm">OK</string>
@@ -567,7 +565,6 @@
     <string name="message_praise_comment">" gillade den här kommentaren"</string>
     <string name="get_user_info_err">Kunde inte hitta info om denna person</string>
     <string name="choose_report_comment_reason">Varför rapporterar du denna kommentar?</string>
-    <string name="add_one">+1</string>
     <string name="no_comment">Inga kommentarer</string>
     <string name="no_topic">Inga ämnen</string>
     <string name="no_message">Inga meddelanden</string>
