@@ -65,7 +65,7 @@
     <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Det går inte att växla mellan utrymmena när green guard är aktiv</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
     <string name="input_password_handle_sdcard_fs">Kan inte gå in i Sekundära utrymmet från Låsskärmen. Gå in från Primära utrymmet.</string>
     <string name="accessibility_enter_lock_wallpaper">Tryck för att öppna Bakgrundskarusellen</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Släpp för att visa detaljer</string>
@@ -149,5 +149,6 @@
     <string name="do_disclosure_with_name">Denna enhet hanteras av %s</string>
     <string name="face_unlock_reenter_title">Spela in din ansiktsdata igen.</string>
     <string name="face_unlock_reenter_content">Algoritmen för ansiktsupplåsningen uppdateras. Tryck för att spela in ansiktsdata igen.</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrundsbildskarusell</string>
 </resources>

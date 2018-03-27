@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">Hitta enhet larm</string>
     <string name="find_device_success_title">Hitta enhet</string>
     <string name="find_device_notice_p1">Gå till</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
 Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
     <string name="i_know">OK</string>
@@ -69,7 +70,7 @@ Logga in på i.mi.com och försöka låsa upp din enhet därifrån"</string>
     <string name="passport_trust_device">Lita på den här enheten</string>
     <string name="passport_verify">Verifiera</string>
     <string name="passport_error_empty_vcode">Ange verifieringskod</string>
-    <string name="passport_checking_vcode">Kontroll lösenord…</string>
+    <string name="passport_checking_vcode">Kontrollerar lösenord…</string>
     <string name="unlock_error_wrong_vcode">Koden du angav är felaktig</string>
     <string name="passport_notification_processing">Berarbetar…</string>
     <string name="passport_notification_need_unlock_again">Försök att låsa upp igen</string>
@@ -78,6 +79,8 @@ Logga in på i.mi.com och försöka låsa upp din enhet därifrån"</string>
     <string name="default_lock_msg_words_with_phone">Hej! Jag har förlorat min telefon. Kan du kontakta mej? Tack!</string>
     <string name="default_lock_msg_words">Denna enhet är associerad med ett befintligt Mi konto. Av säkerhetsskäl måste du ange lösenord för att kontrollera enheten.</string>
     <string name="lock_msg_phone">Kontaktinformation: %s</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="return_to_call">Return to Call</string>
     <string name="default_debt_msg_words">"Den här enheten är låst på grund av en försenad avbetalning.
 Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="sys_notification_async_verify_title">Återaktivera Hitta enhet</string>

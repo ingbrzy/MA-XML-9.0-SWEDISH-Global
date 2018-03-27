@@ -118,7 +118,7 @@ För att aktivera ditt konto, följ
     <string name="passport_continue">Fortsätt</string>
     <string name="passport_loading">Laddar…</string>
     <string name="passport_reging">Skapar konto…</string>
-    <string name="passport_checking_account">Kontroll lösenord…</string>
+    <string name="passport_checking_account">Kontrollerar lösenord…</string>
     <string name="passport_checking_input">Kontrollera ingång…</string>
     <string name="passport_activing_account">Aktiverar…</string>
     <string name="passport_pwd_generating">Genererar…</string>
@@ -417,7 +417,7 @@ För att aktivera ditt konto, följ
     <string name="login_check_find_device">Hämtar enhetssäkerhet info…</string>
     <string name="unlock_help_notice">"Hjälp:
 1. Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
-2. Om du inte kan låsa upp enheten, gå till i.mi.com att stänga av Hitta enhet.
+2. Om du inte kan återställa enheten eller om nån har låst din enhet, gå till i.mi.com för att låsa upp den.
 3. Ditt upplåsningsnummer: %s"</string>
     <string name="login_find_device_bind">Denna enhet är kopplad till befintliga Mi konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, associerat telefonnummer: %s</string>
@@ -450,7 +450,7 @@ För att aktivera ditt konto, följ
     <string name="mipay_identity">ID-kontroll</string>
     <string name="mipay_indentity_done">Verifierad</string>
     <string name="mipay_identitiy_no">Inte verifierad</string>
-    <string name="account_token_expired_title">Autentiseringen misslyckades</string>
+    <string name="account_token_expired_title">Det gick inte att autentisera</string>
     <string name="account_token_expired_msg">"Verifieringskoden har gått ut, börja om eller logga ut
  Ditt kontoID: %s"</string>
     <string name="bind_safe_phone_msg">Lägg till ditt telefonnummer för att kunna logga in på Mi-Konto nästa gång.</string>

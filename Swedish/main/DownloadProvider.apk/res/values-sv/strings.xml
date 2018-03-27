@@ -3,6 +3,7 @@
     <string name="paused_waiting_for_network">Väntar på nätverk</string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laddar ned %1$s</string>
+    <string name="download_filesize_unknown">Unknown</string>
     <string name="app_label">Nedladdningar</string>
     <string name="permlab_downloadManager">Få tillgång till Nedladdningshanteraren.</string>
     <string name="permdesc_downloadManager">Tillåt appen att få tillgång till nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>

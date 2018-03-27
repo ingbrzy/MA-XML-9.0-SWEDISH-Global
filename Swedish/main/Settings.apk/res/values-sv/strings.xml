@@ -2054,6 +2054,7 @@ Du kan ändra detta senare under Inställningar > Appar och aviseringar."</strin
     <string name="lift_to_wake_title">Gå ur viloläget vid lyft</string>
     <string name="line_breaking_summary">Optimera radbrytning för paragrafer</string>
     <string name="line_breaking_title">Optimera meddelande</string>
+    <string name="link_speed">%1$d Mbit/s</string>
     <string name="loading_notification_apps">Läser in appar ...</string>
     <string name="local_auto_backup_off">Av</string>
     <string name="local_auto_backup_on">På</string>
@@ -2390,6 +2391,7 @@ Det finns andra användare på enheten.
     <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">%1$s genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="menu_cancel">Släng</string>
     <string name="menu_check">Upplev</string>
@@ -2594,6 +2596,7 @@ Välj ditt operativsystem:"</string>
     <string name="nfc_how_it_works_got_it">OK</string>
     <string name="nfc_how_it_works_title">Betala vid en kassaterminal</string>
     <string name="nfc_more_title">Mer ...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp för betalning</string>
     <string name="nfc_payment_default_not_set">Har inte angetts</string>
     <string name="nfc_payment_favor_default">Använd alltid standardapp</string>
@@ -2658,7 +2661,7 @@ Välj ditt operativsystem:"</string>
     <string name="no_updates_warning2">Vi berättar när en uppdatering är tillgänglig.</string>
     <string name="no_vr_listeners">Inga installerade appar har begärt att få köras som hjälptjänster för VR.</string>
     <string name="noise_suppression">Omgivande brusdämpning</string>
-    <string name="normal">Normal</string>
+    <string name="normal">Avaktivera</string>
     <string name="normal_info">Alla ljud kommer fungera normalt</string>
     <string name="normal_smartcover_title">Ogenomskinlig frontlucka</string>
     <string name="not_battery_optimizing">Batterioptimering används inte</string>
@@ -2728,7 +2731,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="notification_show_lights_title">Blinkande ljus</string>
     <string name="notification_sound_default">Standardljud för aviseringar</string>
     <string name="notification_sound_dialog_title">Standardljud för meddelanden</string>
-    <string name="notification_sound_title">Standard notifikationsljud</string>
+    <string name="notification_sound_title">Standardljud för notifikationer</string>
     <string name="notification_suggestion_summary">Visa eller dölja innehåll i aviseringar</string>
     <string name="notification_suggestion_title">Hantera aviseringar på låsskärmen</string>
     <string name="notification_summary_level">Nivå %d</string>
@@ -2785,6 +2788,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="overlay_display_devices_title">Simulera sekundär skärm</string>
     <string name="overlay_settings">Visa ovanpå andra appar</string>
     <string name="owner_info_settings_edit_text_hint">T.ex. Jockes Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Inget</string>
     <string name="owner_info_settings_title">Låsskärmssignatur</string>
     <string name="owner_space">Primära utrymmet</string>
@@ -3056,6 +3060,7 @@ Appen kan också aktivera eller inaktivera Stör ej och ändra relaterade instä
     <string name="private_sms_recording_intro_header">Rita ett upplåsningsmönster:</string>
     <string name="private_sms_reset_by_account">För att återställa ditt lösenord, logga in på ditt Mi-konto</string>
     <string name="process_dex2oat_label">Appoptimering</string>
+    <string name="process_kernel_label">Operativsystemet Android</string>
     <string name="process_provider_in_use_description">Leverantören %1$s används.</string>
     <string name="process_service_in_use_description">Tjänsten %1$s används.</string>
     <string name="process_stats_bg_ram_use">RAM-användning (bakgrund)</string>
@@ -3602,7 +3607,7 @@ Så här fäster du skärmen:
     <string name="search_vpn_enable">Aktivera VPN;VPN</string>
     <string name="search_vpn_settings_password">VPN lösenord;Skydda VPN</string>
     <string name="search_vpn_settings_title">VPN; Lägg till VPN; Aktivera VPN</string>
-    <string name="search_wakeup_for_keyguard_notification_title">Väck Låsskärmen vid aviseringar;Väck skärmen;Väck enheten;väck telefonen</string>
+    <string name="search_wakeup_for_keyguard_notification_title">Väck Låsskärmen vid notifikationer;Väck skärmen;Väck enheten;väck telefonen</string>
     <string name="search_wallpaper_settings_title">Bakgrund;Hemskärm;Låsskärm</string>
     <string name="search_wfd_settings_title">Trådlös Skärm;Aktivera Trådlös Skärm</string>
     <string name="search_wifi_advanced_ip_address_title">IP-address;IP</string>
@@ -3882,6 +3887,7 @@ Du kan ha angett fel PIN-kod."</string>
     <string name="sim_reenter_new">Skriv in ny pinkod igen</string>
     <string name="sim_select_card">Välj ett SIM-kort</string>
     <string name="sim_selection_required_pref">Du måste välja något</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">SIM-kortet är tomt</string>
@@ -3943,11 +3949,12 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_awaiting_tap">Tryck på en etikett för att skriva ...</string>
     <string name="status_awake_time">Aktiveringstid</string>
     <string name="status_bar_and_notification_bar">Notifikationspanel och statusfält</string>
-    <string name="status_bar_app_disable_notification">Aviseringar dolda</string>
+    <string name="status_bar_app_disable_notification">Dolda notifikationer</string>
     <string name="status_bar_app_enable_floating">Svävande notifikationer</string>
     <string name="status_bar_app_enable_keyguard">Låsskärm</string>
     <string name="status_bar_app_enable_message">Märken</string>
     <string name="status_bar_key_position_custom">Ändra knapplägen</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_bar_screen_button_force_immersive_desc">Svep från underkanten av skärmen för att visa skärmknapparna</string>
     <string name="status_bar_screen_button_key_force_immersive">Dölj skärmknappar</string>
     <string name="status_bar_screen_key_back">Bakåtknapp</string>
@@ -3969,7 +3976,7 @@ Detta är möjligt eftersom betrodda autentiseringsuppgifter har installerats p�
     <string name="status_bar_settings_notification_bar">Meddelandepanelen</string>
     <string name="status_bar_settings_notification_led">Notifikationslampa</string>
     <string name="status_bar_settings_notification_priority">Prioritet</string>
-    <string name="status_bar_settings_notification_priority_summary">Visa aviseringar vid toppen av listan</string>
+    <string name="status_bar_settings_notification_priority_summary">Visa notifikationer vid toppen av listan</string>
     <string name="status_bar_settings_notification_sound">Ljud</string>
     <string name="status_bar_settings_show_carrier">Visa operatörsnamn</string>
     <string name="status_bar_settings_show_carrier_summary">Operatörsnamn visas fortfarande på Låsskärmen och i meddelandepanelen när denna funktion är av</string>
@@ -4171,6 +4178,7 @@ Du kan fortsätta, men appar som har flyttats till den här platsen kan vara ryc
     <string name="suggestion_remove">Ta bort</string>
     <string name="suggestions_title">Förslag</string>
     <string name="sum_carrier_select">Välj en nätverksoperatör</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">%1$s till %2$s</string>
     <string name="supl_not_set">&lt;Inte angiven></string>
     <string name="support_account_picker_add_account">Lägg till ett konto</string>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Inga</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -86,6 +88,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi två barer.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi tre staplar.</string>
     <string name="accessibility_wifi_signal_full">Full Wi-Fi-signal.</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="data_usage_uninstalled_apps">Borttagna appar</string>
     <string name="data_usage_uninstalled_apps_users">Borttagna appar och användare</string>
     <string name="tether_settings_title_usb">USB-tethering</string>
@@ -321,7 +324,7 @@ uppspelningskvalitet"</string>
     <string name="install_other_apps">Installera okända appar</string>
     <string name="home">Inställningar för Hemskärm</string>
     <string name="charge_length_format">%1$s ago</string>
-    <string name="remaining_length_format">%1$s left</string>
+    <string name="remaining_length_format">%1$s återstår</string>
     <string name="screen_zoom_summary_small">Liten</string>
     <string name="screen_zoom_summary_default">Standard</string>
     <string name="screen_zoom_summary_large">Stor</string>
@@ -681,6 +684,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB-lagring ansluten</string>
     <string name="ext_media_mountable_notification_message">Tryck för att öppna Utforskaren</string>
     <string name="ext_media_safe_remove">Säker borttagning</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">Kb/s</string>
     <string name="megabyte_per_second">Mb/s</string>
     <string name="status_bar_network_flow_today">Idag: %1$s</string>
@@ -732,6 +736,9 @@ MMMM d"</string>
     <string name="notification_low_battery_open_save_mode">Aktivera batterisparläge</string>
     <string name="notification_low_battery_action_btn">Aktivera</string>
     <string name="notification_low_battery_need_charge">Batterinivån är låg. Ladda din enhet.</string>
+    <string name="low_temperature_warning_title">Varning låg temperatur</string>
+    <string name="low_temperature_warning_message">Temperaturen är för låg. Din telefon kan stängas av närsomhelst. Se till att spara alla viktiga ändringar.</string>
+    <string name="low_temperature_button_ok">Jag förstår</string>
     <string name="oldman_airplane_mode_text">Flygplan</string>
     <string name="oldman_incall_text">Tillbaka till samtal</string>
     <string name="demo_mode">Demoläge</string>
@@ -759,6 +766,7 @@ MMMM d"</string>
     <string name="notification_header_title">Notifikationer</string>
     <string name="weather_publish_time">Uppdaterad %1$s</string>
     <string name="no_weather_description">Hämta väderinfo ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">Meddelandepanel</string>
     <string name="accessibility_desc_quick_settings">Snabbinställningar</string>
     <string name="accessibility_desc_details_page">%1$s detaljsida</string>
