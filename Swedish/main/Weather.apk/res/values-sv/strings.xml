@@ -95,13 +95,11 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Prognosdetaljer</string>
     <string name="daily_forecast_detail_date">d/M</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunde inte hämta väderinformation
 Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</string>
     <string name="data_provided_by">Data försedd av</string>
     <string name="edit_alert_city_title">Hantera rapporter</string>
     <string name="edit_city">Hantera stad</string>
-    <string name="empty">" "</string>
     <string name="eu_region_version_first_start_network_msg">"Genom att använda denna produkt godkänner du att Xiaomi kommer att samla, bearbeta och använda dig av personlig information, inklusive koordinaterna för de städer du söker och andra typer av data som anges i vår integritetspolicy. Se vår sekretesspolicy för att lära dig hur vi samlar och behandlar information. Genom att trycka på \"acceptera\" accepterar du Xiaomi's %1$s och %2$s."</string>
     <string name="feedback_heavy_rain">Kraftigt regn</string>
     <string name="feedback_heavy_snow">Snö</string>
@@ -116,8 +114,6 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">Nuvarande position</string>
     <string name="hourly_forcast_now">Nu</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="hourly_forecast_title">Timme för timme</string>
     <string name="index_item_experience_now">Installera nu</string>
@@ -142,13 +138,11 @@ Dra neråt för att uppdatera eller kontrollera nätverksinställningarna"</stri
     <string name="information_manager_extension">Väder förlängning</string>
     <string name="information_views" />
     <string name="install">Installera</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">Detaljer</string>
     <string name="international_details_pressure_title">LUFTTRYCK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Detaljer</string>
     <string name="international_details_uv_index_title">UV INDEX</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer att regna</string>
     <string name="locate_fail_detail_err">"Kan inte hitta enhet
@@ -228,7 +222,6 @@ Tryck på skärmen för att manuellt lägga till eller ändra stad"</string>
     <string name="share_subject">Dela</string>
     <string name="share_title">Dela väder</string>
     <string name="share_weather_desc">\#MIUI Väder#Idag %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Det gick inte att ta skärmdump</string>
     <string name="some_where_on_earth">Någonstans på jorden</string>
