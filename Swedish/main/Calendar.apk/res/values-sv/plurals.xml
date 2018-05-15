@@ -21,12 +21,12 @@
         <item quantity="one">Vecka %d</item>
     </plurals>
     <plurals name="Ndays_after_at">
-        <item quantity="other">After %1$d dagar på %2$s</item>
-        <item quantity="one">After %1$d dag på %2$s</item>
+        <item quantity="other">Efter %1$d dagar kl. %2$s</item>
+        <item quantity="one">Efter %1$d dag kl. %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d dagar sedan på %2$s</item>
-        <item quantity="one">%1$d dag sedan på %2$s</item>
+        <item quantity="other">%1$d dagar innan kl %2$s</item>
+        <item quantity="one">%1$d dag innan kl %2$s</item>
     </plurals>
     <plurals name="Nweeks">
         <item quantity="other">%d veckor före</item>
@@ -37,12 +37,12 @@
         <item quantity="one">%1$s dag</item>
     </plurals>
     <plurals name="anniversary_notify_before_3_day_title">
-        <item quantity="other">Jubileum: %2$d år före %1$s om 3 dagar</item>
-        <item quantity="one">Jubileum: %2$d år före %1$s om 3 dagar</item>
+        <item quantity="other">Årsdag: %2$d år sedan %1$s om 3 dagar</item>
+        <item quantity="one">Årsdag: %2$d år sedan %1$s om 3 dagar</item>
     </plurals>
     <plurals name="anniversary_notify_title">
-        <item quantity="other">Jubileum: %2$d år sedan %1$s</item>
-        <item quantity="one">Jubileum: %2$d år sedan %1$s</item>
+        <item quantity="other">Årsdag: %2$d år sedan %1$s</item>
+        <item quantity="one">Årsdag: %2$d år sedan %1$s</item>
     </plurals>
     <plurals name="anniversary_year">
         <item quantity="other">%1$s år</item>
@@ -57,24 +57,24 @@
         <item quantity="one">%1$d dag till</item>
     </plurals>
     <plurals name="birthday_notification_age_term">
-        <item quantity="other">%1$s-år gammal</item>
-        <item quantity="one">%1$s-år gammal</item>
+        <item quantity="other">%1$s år gammal</item>
+        <item quantity="one">%1$s år gammal</item>
     </plurals>
     <plurals name="countdown_day">
         <item quantity="other">%1$s dagar kvar</item>
         <item quantity="one">%1$s dag kvar</item>
     </plurals>
     <plurals name="date_calculate_days_after">
-        <item quantity="other">%1$d dagar efter</item>
-        <item quantity="one">%1$d dag efter</item>
+        <item quantity="other">%1$d dagar</item>
+        <item quantity="one">%1$d dag</item>
     </plurals>
     <plurals name="date_calculate_days_ago">
         <item quantity="other">%1$d dagar före</item>
         <item quantity="one">%1$d dag före</item>
     </plurals>
     <plurals name="date_calculate_direction_backward">
-        <item quantity="other">Om %1$d dagar</item>
-        <item quantity="one">Om %1$d dag</item>
+        <item quantity="other">%1$d dagar</item>
+        <item quantity="one">%1$d dag</item>
     </plurals>
     <plurals name="date_calculate_direction_forward">
         <item quantity="other">%1$d dagar före</item>

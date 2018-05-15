@@ -13,8 +13,8 @@
         <item quantity="one">Nyligen öppnade, tillgänglig app: %d. Dra upp för att ta bort genom att dra nedåt för att låsa.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d växlare kommer visas i meddelandepanelen</item>
-        <item quantity="one">%1$d växlare kommer visas i meddelandepanelen</item>
+        <item quantity="other">%1$d snabbknappar kommer visas i Notifikationspanelen</item>
+        <item quantity="one">%1$d snabbknapp kommer visas i Notifikationspanelen</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">Dölj notifikationer för %d appar?</item>

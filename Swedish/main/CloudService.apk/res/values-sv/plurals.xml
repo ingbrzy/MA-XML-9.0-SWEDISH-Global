@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="sync_items_close">
-        <item quantity="other">%d är av</item>
-        <item quantity="one">%d är av</item>
-    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Objekt som väntar på synk: %d</item>
         <item quantity="one">Objekt som väntar på synk: %d</item>
-    </plurals>
-    <plurals name="items_waiting_to_sync">
-        <item quantity="other">%d objekt väntar på att synkronisera</item>
-        <item quantity="one">%d objekt väntar på att synkronisera</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d kontakter</item>

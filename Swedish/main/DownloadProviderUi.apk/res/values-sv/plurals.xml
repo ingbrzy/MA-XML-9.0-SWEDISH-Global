@@ -4,6 +4,10 @@
         <item quantity="other">%d nedladdningar kommer att tas bort.</item>
         <item quantity="one">%d nedladdning kommer att tas bort.</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Ta bort %d objekt?</item>
+        <item quantity="one">Ta bort %d objekt?</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%1$d nedladdningar borttagna</item>
         <item quantity="one">%1$d nedladdning borttagen</item>

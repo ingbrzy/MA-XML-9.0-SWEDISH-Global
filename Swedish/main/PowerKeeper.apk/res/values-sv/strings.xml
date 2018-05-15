@@ -22,11 +22,14 @@
     <string name="sleep_config_enhance_description">När MIUI upptäcker att du sover kommer MIUI stänga appar som är bakgrunden, begränsa NFC, Bluetooth, GPS, mobildata, Wi-Fi och skärmen kommer inte tändas upp av notifikationer.</string>
     <string name="sleep_config_enhance_description_non_nfc">När MIUI upptäcker att du sover kommer MIUI stänga appar som är bakgrunden, begränsa Bluetooth, GPS, mobildata, Wi-Fi och skärmen kommer inte tändas upp av notifikationer.</string>
     <string name="nonui_mode_config_title">Läge för Noninteractive</string>
-    <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifieringar, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
+    <string name="nonui_mode_config_description">Tänd inte upp skärmen för notifikationer, avaktivera LED-lampor, fingeravtrycksensorn och tryck för att spara batteri när MIUI märker att du inte använder din enhet.</string>
     <string name="power_center">Ström</string>
     <string name="power_usage">Strömanvändning</string>
     <string name="power_mode">Ströminställningar</string>
     <string name="performance_category">Prestanda</string>
+    <string name="pref_config_title">Optimering av Prestanda</string>
+    <string name="app_preload_policies_title">AI laddas i förväg</string>
+    <string name="app_preload_policies_summary">Använd maskininlärning för att förutse vilken app du kommer använda och förbered resurser i förväg.</string>
     <string name="scenario_policies_warmcontrol">Temperaturreglering</string>
     <string name="warm_configure">Inställningar för temperaturreglering</string>
     <string name="important_warning">Uppmärksamma</string>
@@ -45,7 +48,7 @@
     <string name="config_restrict_function_title">Begränsa bakgrundsappar</string>
     <string name="config_restrict_running_title">Begränsa bakgrundsaktivitet</string>
     <string name="config_restrict_running_warning">Appar i bakgrunden kommer stängas. Detta kan göra att de inte fungerar normalt.</string>
-    <string name="config_description">MIUI kan identifiera apps med specifika bakgrundsprocesser (messaging och navigering apps, mediaspelare), och tillämpa batterisparare på ett sätt som inte påverka viktiga bakgrunden aktivitet.</string>
+    <string name="config_description">MIUI kan identifiera appar med specifika bakgrundsprocesser (Meddelanden och navigationsappar, mediaspelare), och tillämpa Batterisparare på ett sätt som inte kommer påverka viktiga bakgrundsaktiviteter.</string>
     <string name="config_suggest_description">"Identifiera appar och aktiviteter för att hålla viktiga processer igång.
 Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="config_no_restrict_description">Batterisparfunktionen begränsar inte appaktivitet</string>
@@ -59,7 +62,7 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="power_checker_mobile_radio_title">%1$s använder nätverket ofta</string>
     <string name="power_checker_partial_wakelock_multi_apps_title">%1$s stoppar MIUI från att gå till strömsparläge</string>
     <string name="power_checker_wifi_scan_multi_apps_title">%1$s söker efter Wi-Fi ofta</string>
-    <string name="power_checker_background_gps_multi_apps_title">%1$s får platstjänstinformation ofta</string>
+    <string name="power_checker_background_gps_multi_apps_title">%1$s hämtar platstjänstinformation ofta</string>
     <string name="power_checker_background_cpu_multi_apps_title">%1$s fungerar onormalt</string>
     <string name="power_checker_wakeup_alarm_multi_apps_title">%1$s startar ofta</string>
     <string name="power_checker_mobile_radio_multi_apps_title">%1$s använder nätverket ofta</string>
@@ -72,18 +75,18 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="update_profile_sucess">Uppdaterad från server</string>
     <string name="update_profile_failture_not_connect_wifi">Kunde inte uppdatera. Anslut till Wi-Fi och försök igen.</string>
     <string name="sucess">Klart</string>
-    <string name="failure">Misslyckades</string>
+    <string name="failure">Fel</string>
     <string name="cloud_addr_info">Molninformation</string>
     <string name="lasttime_feature_cloud">Uppdaterade funktion:</string>
     <string name="lasttime_applist_cloud">Uppdaterade appar:</string>
     <string name="base_info">Basinformation</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
     <string name="search_result_text">Kunde inte hitta några appar</string>
-    <string name="power_consume_abnormal_night">In night power consume abnormal</string>
-    <string name="enable_sleep_mode">Enabling sleep mode to optimize night standby</string>
-    <string name="sleepmode_privacy_title">Sleep mode</string>
-    <string name="sleepmode_privacy_content">This feature will use your phone system and device information data, which will not be uploaded to the server</string>
-    <string name="sleepmode_privacy_link">Detailed security and privacy</string>
-    <string name="sleepmode_disclaimer_cancel">Cancle</string>
-    <string name="sleepmode_disclaimer_agree">Agree</string>
+    <string name="power_consume_abnormal_night">Mycket batteri töms under natten</string>
+    <string name="enable_sleep_mode">Aktivera Viloläge för att optimera batterianvändning under natten</string>
+    <string name="sleepmode_privacy_title">Viloläge</string>
+    <string name="sleepmode_privacy_content">Denna funktion kommer använda din telefons system och enhetsinformationsdata, vilket inte kommer laddas upp till servern.</string>
+    <string name="sleepmode_privacy_link">Läs mer om integritet och säkerhet</string>
+    <string name="sleepmode_disclaimer_cancel">Avbryt</string>
+    <string name="sleepmode_disclaimer_agree">Samtycker</string>
 </resources>

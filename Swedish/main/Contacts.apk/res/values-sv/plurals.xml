@@ -29,8 +29,8 @@
         <item quantity="one">Just nu</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%1$d min sedan</item>
-        <item quantity="one">%1$d min sedan</item>
+        <item quantity="other">%1$d minuter sedan</item>
+        <item quantity="one">%1$d minut sedan</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Ta bort %1$d kontakter?</item>
@@ -41,16 +41,16 @@
         <item quantity="one">Ta bort %1$d kontakt</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
-        <item quantity="other">Ringde %1$d gånger</item>
-        <item quantity="one">Ringde %1$d gång</item>
+        <item quantity="other">Ringde %1$d signaler</item>
+        <item quantity="one">Ringde %1$d signal</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kontakter eller foton har inte blivit synkade</item>
         <item quantity="one">%1$d kontakt eller foto har inte blivit synkat</item>
     </plurals>
     <plurals name="confirm_delete_sim_entry_miui">
-        <item quantity="other">Ta bort %1$d kontakter ifrån SIM kortet?</item>
-        <item quantity="one">Ta bort %1$d kontakt ifrån SIM kortet?</item>
+        <item quantity="other">Ta bort %1$d kontakter ifrån SIM-kortet?</item>
+        <item quantity="one">Ta bort %1$d kontakt ifrån SIM-kortet?</item>
     </plurals>
     <plurals name="contacts_count">
         <item quantity="other">%1$d kontakter</item>
@@ -69,8 +69,8 @@
         <item quantity="one">Avblockera %1$d telefonnummer?</item>
     </plurals>
     <plurals name="export_sim_contacts_dialog_message">
-        <item quantity="other">SIM kortet kan spara %1$d kontakter.</item>
-        <item quantity="one">SIM kortet kan spara %1$d kontakt.</item>
+        <item quantity="other">SIM-kortet kan spara %1$d kontakter.</item>
+        <item quantity="one">SIM-kortet kan spara %1$d kontakt.</item>
     </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d kontakter tillagda</item>

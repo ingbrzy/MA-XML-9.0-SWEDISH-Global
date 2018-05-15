@@ -8,13 +8,14 @@
     <string name="provision_inputmethod_policy_description">"
 Se den valda tangentbords sekretesspolicyn."</string>
     <string name="provision_inputmethod_policy_description1">Integritetspolicy</string>
-    <string name="multisim_settings_title">2 SIM kort upptäckta</string>
+    <string name="multisim_settings_title">2 SIM-kort upptäckta</string>
     <string name="multisim_settings_category">Inställningar för SIM-kort</string>
-    <string name="sim_card_detection">Sätt in SIM kort</string>
-    <string name="sim_card_detecting_title">Kontrollera efter SIM kort</string>
+    <string name="sim_card_detection">Sätt in SIM-kort</string>
+    <string name="sim_card_detecting_title">Sök efter SIM-kort</string>
     <string name="sim_card_detection_info">Att sätta in SIM-kortet, läs instruktionerna som följde med enheten.</string>
-    <string name="sim_card_detecting">Söker efter SIM kort…</string>
+    <string name="sim_card_detecting">Söker efter SIM-kort…</string>
     <string name="sim_card_detecting_check">Det gick inte att hitta SIM-kortet. Se till att SIM-kortet är rätt installerat och att du har tillräckligt med pengar på kortet.</string>
+    <string name="sim_card_detecting_confirm_turn_on_network">Tillåt anslutning till nätverk för mobildata? Om du tillåter det kommer SIM-kortet du sätter in att ansluta till nätverk för mobildata.</string>
     <string name="other_settings">Ytterligare inställningar</string>
     <string name="other_settings_location">Plats</string>
     <string name="other_settings_location_summary">Tillåt appar att få åtkomst till din plats</string>

@@ -63,7 +63,7 @@
     <string name="add_stock">Lägg till</string>
     <string name="address_name_spell">Ange adress</string>
     <string name="agenda_assistant">Kalenderhändelser</string>
-    <string name="agenda_assistant_add">Lägg till event</string>
+    <string name="agenda_assistant_add">Lägg till händelse</string>
     <string name="agenda_assistant_allday">Hela dagen</string>
     <string name="agenda_assistant_empty">Inga händelser för idag.</string>
     <string name="agenda_assistant_finish">Inga fler händelser idag.</string>
@@ -73,7 +73,7 @@
     <string name="agenda_setting_brief_detail">Visa planerade händelser och påminnelser på födelsedagen.</string>
     <string name="agenda_settings_account">Hantera kalenderkonton</string>
     <string name="agenda_settings_birthday">Visa födelsedatum påminnelser</string>
-    <string name="app_label">App valv</string>
+    <string name="app_label">Appvalv</string>
     <string name="apps_label">Appar</string>
     <string name="assistant_place">Känn igen besökta platser</string>
     <string name="ball_CricketMatch_title">Cricket</string>
@@ -156,7 +156,7 @@
     <string name="list_icon_drag">Ordna om</string>
     <string name="live">LIVE</string>
     <string name="locating_fail">Kunde inte hämta positionen</string>
-    <string name="locations_preferences">Adress</string>
+    <string name="locations_preferences">Adresser</string>
     <string name="map_empty_btn">Du har inte lagt till några adresser</string>
     <string name="map_install_tip">Installera Google Maps för att använda den här funktionen</string>
     <string name="map_taxi">TAXI</string>
@@ -199,12 +199,13 @@
     <string name="ola_trip">Ring en taxi</string>
     <string name="ola_trip_content">Beräkna priset och ring en Ola</string>
     <string name="ola_trip_content_detail">Beräkna den ungefärliga priset och ringa en Ola.</string>
+    <string name="phone_check">Optimization</string>
     <string name="place_label">Frekventa platser</string>
     <string name="record_name">Spela in</string>
     <string name="record_parent">Inspelning</string>
     <string name="red_dowm_blue_grow">Grön - upp, röd - ner</string>
     <string name="red_grow_blue_dowm">Röd - upp, grön - ner</string>
-    <string name="req_no_data">Det gick inte att få info</string>
+    <string name="req_no_data">Kunde inte hämta information</string>
     <string name="req_no_sdata">Det gick inte att hitta resultat</string>
     <string name="retry">Försök igen</string>
     <string name="scan_card">Företags kort</string>
@@ -239,7 +240,7 @@
     <string name="setting_football_loading">Ettögonblick…</string>
     <string name="setting_football_select_title" formatted="false">Välj lag som du vill följa (%d/%d)</string>
     <string name="setting_football_toast_max">Du kan välja upp till 4 lag</string>
-    <string name="setting_home_label">Lägg till hem adress</string>
+    <string name="setting_home_label">Lägg till hemadress</string>
     <string name="setting_launch_all_added">Kan inte lägga till fler objekt</string>
     <string name="setting_launch_select_other_app">Välj andra appar</string>
     <string name="setting_list_guide">Guide</string>
@@ -248,7 +249,7 @@
     <string name="setting_note_brief">Notera kortfattat.</string>
     <string name="setting_place">Lägg till besökta platser för att se trafik och vägförslag</string>
     <string name="setting_place_next">Nästa</string>
-    <string name="setting_school_label">Lägg till hemadress</string>
+    <string name="setting_school_label">Lägg till arbetsadress</string>
     <string name="setting_stock">Aktier</string>
     <string name="setting_stock_brief">Kontrollera viktiga uppdateringar från de företag som du följer</string>
     <string name="setting_stock_brief_list">Övervakar</string>
@@ -259,6 +260,7 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Färgschema</string>
     <string name="stock_list_empty_text">Du följer inte några företag.</string>
+    <string name="stock_provider">Citat från aktiemarknaden tillhandahålls av Webull</string>
     <string name="stock_search_empty">Kunde inte hitta låt.</string>
     <string name="stock_title">Aktier</string>
     <string name="stock_title_schema">Sparar visningsalternativ</string>
@@ -266,7 +268,7 @@
     <string name="stock_web_lable">Aktier</string>
     <string name="time_just_now">Just nu</string>
     <string name="time_month">MM/dd</string>
-    <string name="time_year">Yyyy/MM/dd/yyyy</string>
+    <string name="time_year">dd/MM/yyyy</string>
     <string name="title_schema_code">Markera kod</string>
     <string name="title_schema_title">Markera namn</string>
     <string name="toast_function_add_not_allowed">Du kan lägga till upp till 8 genvägar</string>
@@ -301,8 +303,9 @@
     <string name="upgrade_now">Uppdatera</string>
     <string name="user_id">Användar-ID: %s</string>
     <string name="walk">Promenera</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">Hur kommer du normalt till din destination?</string>
     <string name="year_month_day_all_format_en">Yyyy/MM/dd/ HH:mm:ss</string>
-    <string name="year_month_day_format">Yyyy/MM/dd</string>
+    <string name="year_month_day_format">MM/dd/yyyy</string>
     <string name="yesterday">Igår</string>
 </resources>

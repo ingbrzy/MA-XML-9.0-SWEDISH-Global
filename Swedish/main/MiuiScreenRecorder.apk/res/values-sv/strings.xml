@@ -13,8 +13,10 @@
     <string name="button_confirm">OK</string>
     <string name="button_goon_recorder">Återuppta</string>
     <string name="cancel_edit">Avbryt</string>
+    <string name="cannot_change_frames">Bildhastigheten kan endast anpassa inspelningar med konstant bildhastighet.</string>
     <string name="cannot_change_parames">Kunde inte ändra parametrar medan inspelning pågår</string>
     <string name="cannot_record">Det gick inte att spela in, försök igen senare.</string>
+    <string name="close_screen_record">Inspelningen stoppad</string>
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
@@ -22,10 +24,12 @@
     <string name="description_title">Om Skärminspelare</string>
     <string name="deselect_all">Välj ingen</string>
     <string name="error_open_file_failed_no_app_found">Kunde inte hitta en app som öppnar denna fil</string>
+    <string name="fixed_frame_rate">Konstant bildhastighet</string>
+    <string name="fixed_frame_rate_summary">Spela in videor med konstant bildhastighet förbättrar uppspelningen på sociala medier och reducerar batteriförbrukningen.</string>
     <string name="frames">Antal bilder</string>
-    <string name="frames_summary">Högre fps minskar suddiga rörelser</string>
+    <string name="frames_summary">Högre fps minskar rörelseoskärpa</string>
     <string name="frequently_click_toast">Vänta lite…</string>
-    <string name="gleam_led_while_recording">Blinka med notifieringslampan vid inspelning</string>
+    <string name="gleam_led_while_recording">Blinka med notifikationslampan vid inspelning</string>
     <string name="hint_back">Tillbaka</string>
     <string name="hint_home">Hem</string>
     <string name="hint_menu">Meny</string>
@@ -33,6 +37,9 @@
     <string name="hint_volume_down">Sänk volymen</string>
     <string name="hint_volume_up">Höj volymen</string>
     <string name="home_title_none">Välj objekt</string>
+    <string name="is_checked">Valda</string>
+    <string name="is_go_home">Gå tillbaka till Skärminspelaren</string>
+    <string name="is_go_home_summary">Öppna Skärminspelarens startsida efter att avslutat inspelningen</string>
     <string name="loopback_sound">Högtalare</string>
     <string name="low_battery">Ladda telefonen innan du startar inspelning</string>
     <string name="low_battery_title">Låg batterinivå</string>
@@ -47,7 +54,7 @@
     <string name="no_sound">Tyst</string>
     <string name="operation_delete">Radera</string>
     <string name="operation_send">Skicka</string>
-    <string name="quit_recording">Lämna Skärminspelare</string>
+    <string name="quit_recording">Avsluta Skärminspelare</string>
     <string name="recording_failure">Kunde inte spela in, börja om</string>
     <string name="recording_max_size">Inspelningen stoppades och sparades eftersom videofilen överskred storleksgränsen. Starta inspelningen där du slutade om du inte är färdig än.</string>
     <string name="recording_without_mic">Mikrofonen är upptagen och kan inte spela in ljud nu.</string>
@@ -58,6 +65,7 @@
     <string name="screen_record_option">Inspelningsalternativ</string>
     <string name="screen_record_params">Inspelningsparametrar</string>
     <string name="select_all">Välj alla</string>
+    <string name="settings">Inställningar</string>
     <string name="show_hard_key">Visualisera navigeringsknapparna</string>
     <string name="show_hard_key_summary">Visa en skylt när Hem-, Meny- och Tillbakaknappen blir nedtryckta</string>
     <string name="show_screen_touch">Visa pekgester</string>
@@ -70,5 +78,8 @@
     <string name="stop_record_while_locking">Lås skärmen för att avsluta</string>
     <string name="stop_record_while_locking_summary">Avsluta inspelning och spara video när skärmen är låst</string>
     <string name="stop_recording">Stoppa inspelningen</string>
+    <string name="storage_location">Lagring</string>
+    <string name="storage_location_summary">Välj lagringsplats</string>
     <string name="timer_format">%s</string>
+    <string name="unchecked">Inte vald</string>
 </resources>

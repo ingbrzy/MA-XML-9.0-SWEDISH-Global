@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>Döpa om</item>
-        <item>Ta bort</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>Kamera</item>
         <item>Galleri</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>Efter skapandedatum</item>
-        <item>Efter ändringsdatum</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Namn</item>
@@ -25,11 +17,19 @@
         <item>Adress</item>
         <item>Anteckning</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>Döpa om</item>
+        <item>Ta bort</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>Liten</item>
         <item>Medium</item>
         <item>Stor</item>
         <item>Enorm</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>Efter skapandedatum</item>
+        <item>Efter ändringsdatum</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>"Välkommen till Anteckningar

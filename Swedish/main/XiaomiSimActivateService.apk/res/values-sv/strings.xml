@@ -7,9 +7,9 @@
     <string name="explain_send_sms_permission_button">Verifiera</string>
     <string name="activate_phone_failed_notif_title">Kan inte aktivera SIM-kort</string>
     <string name="activate_phone_failed_notif_title_msim">Kan inte aktivera SIM-Kort %d</string>
-    <string name="activate_phone_success_notif_title">SIM kort aktiverat</string>
+    <string name="activate_phone_success_notif_title">SIM-kort aktiverat</string>
     <string name="activate_phone_success_notif_title_msim">SIM-kort %d aktiverat</string>
-    <string name="activate_phone_cancel_notif_title">SIM kort aktivering avbruten</string>
+    <string name="activate_phone_cancel_notif_title">SIM-kort aktivering avbruten</string>
     <string name="activate_phone_cancel_notif_title_msim">Aktivering av SIM-kort %d avbruten</string>
     <string name="activate_status_title_activating">Aktiverar SIM kort…</string>
     <string name="activate_status_title_activating_msim">Aktiverar SIM-kort %d…</string>
@@ -109,12 +109,12 @@ Ange telefonnumret kopplat till ditt nya SIM-kort för att återaktivera %s"</st
     <string name="activate_history_multisim_canceled_overview">Aktiverat SIM-kort %2$d med framgång. Aktivering triggas av %1$s\".</string>
     <string name="activate_history_sms">SMS har skickats under aktiveringen.</string>
     <string name="phone_verify_title">Tillåt %1$s att verifiera ditt telefonnummer</string>
-    <string name="phone_verify_text">%1$s Kommer inte få ditt telefonnummer. Det kommer kontrollera att nunmret är giltigt. Godkänn?</string>
+    <string name="phone_verify_text">%1$s Kommer inte få tillgång till ditt telefonnummer. Det kommer bara kontrollera att numret är giltigt. Godkänn?</string>
     <string name="phone_verify_processing">Verifierar…</string>
-    <string name="phone_get_title">Tillåt %1$s att verifiera ditt telefonnummer</string>
-    <string name="phone_get_text">Tillåt %1$s att få ditt telefonnummer (%2$s)?</string>
+    <string name="phone_get_title">Tillåt %1$s att få tillgång till ditt telefonnummer</string>
+    <string name="phone_get_text">Tillåt %1$s att få tillgång till ditt telefonnummer (%2$s)?</string>
     <string name="phone_get_processing">Hämtar…</string>
     <string name="agree">Tillåt</string>
-    <string name="privacy_revoke_tips">När du upphävt befogenheterna kommer appen Meddelande sluta samla in data och all data kommer tas bort från servrarna. Synkronisera med Mi Cloud, Mi Message och andra meddelandefunktioner kommer inte vara tillgängliga. Upphäv befogenheter ändå?</string>
+    <string name="privacy_revoke_tips">När du upphävt befogenheterna kommer appen sluta samla in data och all data kommer tas bort från servrarna. Synkronisera med Mi Cloud, Mi Message och andra meddelandefunktioner kommer inte vara tillgängliga. Upphäv befogenheter ändå?</string>
     <string name="privacy_revoke_failed_msg">Aktivering kräver att befogenheter är beviljade så att Meddelande kan få ditt telefonnummer.</string>
 </resources>

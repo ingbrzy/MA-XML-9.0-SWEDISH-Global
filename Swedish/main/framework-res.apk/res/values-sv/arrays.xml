@@ -6,6 +6,16 @@
         <item>Övrigt</item>
         <item>Anpassad</item>
     </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
     <string-array name="organizationTypes">
         <item>Arbete</item>
         <item>Övrigt</item>
@@ -28,6 +38,7 @@
         <item>Anpassad</item>
     </string-array>
     <array name="fingerprint_acquired_vendor" />
+    <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
         <item>Hem</item>
         <item>Arbete</item>

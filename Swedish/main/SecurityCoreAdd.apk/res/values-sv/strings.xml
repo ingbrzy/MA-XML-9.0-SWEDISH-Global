@@ -24,6 +24,7 @@
     <string name="title_switch_file">Ta bort dessa filer?</string>
     <string name="msg_switch_photo">Ta bort dessa foton i det Primära utrymmet efter att de har flyttats?</string>
     <string name="msg_switch_file">Ta bort dessa filer i det Primära utrymmet efter att de har flyttats?</string>
+    <string name="msg_switch_file_second">Ta bort dessa filer i det Sekundära utrymmet efter att de har flyttats?</string>
     <string name="delete_src_photo">Ta bort foton</string>
     <string name="delete_src_file">Ta bort filer</string>
     <string name="retain_src_photo">Behåll foton</string>
@@ -58,6 +59,8 @@
     <string name="wating">Vänta lite…</string>
     <string name="Active">Aktiv</string>
     <string name="ok_button">OK</string>
+    <string name="remove_button">Ta bort och starta om</string>
+    <string name="remove_button_time">Ta bort och starta om (%ds)</string>
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
     <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, Skapa dual appar och försök igen.</string>
@@ -65,6 +68,8 @@
     <string name="xspace_setting_label">Inställningar för Dual app</string>
     <string name="xspace_account">Konton för Dual app</string>
     <string name="declare_dialog_title">Om Dual app</string>
+    <string name="stop_xspace_alert_title">Ta bort konton för dual appen</string>
+    <string name="stop_xspace_alert_content">Du har tagit bort alla dual appar. Ta bort konton för dual appar and appdata också? Om detta görs måste du skapa dual appar igen när du behöver dem.</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
     <string name="xspace_header">Dual appar</string>
     <string name="xspace_introduce">Rekommenderad</string>
@@ -77,6 +82,7 @@ Vissa Dual appar kräver support för Google Services Framework. I de fallen ska
     <string name="xspace_install_failed">Kunde inte skapa</string>
     <string name="xspace_uninstalling">Avinstallerar…</string>
     <string name="xspace_install_completed">Ikon tillagd på hemskärmen</string>
+    <string name="xspace_install_completed_global">Ikon tillagd i lådan</string>
     <string name="xspace_uninstall_completed">Dual app avinstallerad</string>
     <string name="xspace_uninstall_dialog_title">Avinstallera dual app</string>
     <string name="xspace_uninstall_dialog_content">Avinstallation av en dual app kommer ta bort all applikationsdata för alla instanser av appen.</string>
@@ -108,7 +114,7 @@ Vissa Dual appar kräver support för Google Services Framework. I de fallen ska
     <string name="changePassword">Ändra lösenord</string>
     <string name="passWordGuardSummary">Gå in i Sekundära utrymmet från låsskärmen med ett lösenord</string>
     <string name="notificationTitle">Notifikationspanel genväg</string>
-    <string name="notificationSummary">Byt mellan utrymmena från Meddelandepanelen</string>
+    <string name="notificationSummary">Byt mellan utrymmena från Notifikationspanelen</string>
     <string name="otherSettings">Andra inställningar</string>
     <string name="privacyContactsTitle">Privata meddelanden och kontakter</string>
     <string name="privacyContactsSummary">Visa privata object i Sekundära utrymmet</string>
@@ -177,6 +183,10 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
     <string name="notification_from_second_user">Visa notifikationer från det Sekundära utrymmet</string>
     <string name="radio_button_icon_switch_title">Använd en genväg</string>
     <string name="radio_button_password_switch_title">Använd ett lösenord</string>
+    <string name="reset_password_dialog_title">Kan inte dölja genväg till det Sekundära utrymmet</string>
+    <string name="reset_password_dialog_message">Du använder olika lösenordstyper för det Primära och Sekundära utrymmet. Det Sekundära utrymmet måste använda samma lösenordstyp som det Primära för att genvägen ska döljas.</string>
+    <string name="reset_password_dialog_positve_btn_title">Ändra</string>
+    <string name="entrance_reopen_toast_msg">Visar genvägen till det Sekundära utrymmet på grund av olika lösenordstyper</string>
     <string name="settings_cross_notification_title">Meddelanden</string>
     <string name="settings_cross_notification_summary">Ta emot meddelande från det andra utrymmet</string>
     <string name="settings_switch_shortcut_summary">Visa hemskärmsgenväg i primära utrymme</string>
@@ -279,6 +289,7 @@ för att logga in från låsskärmen"</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Logga in och dela</string>
+    <string name="use_xiaoai_open">Väck med röstassistent</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Skicka till Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -340,7 +351,7 @@ för att logga in från låsskärmen"</string>
     <string name="show_noti_from_owner">Notifikationer från det andra utrymmet</string>
     <string name="show_noti_from_owner_detail">Ta emot notifikationer i det nuvarande utrymmet när det kommer till ett annat utrymme</string>
     <string name="show_noti_quick_switch_icon">Notifikationspanel genväg</string>
-    <string name="show_noti_quick_switch_icon_detail">Visa en genväg för att byta mellan utrymmena i meddelandepanelen</string>
+    <string name="show_noti_quick_switch_icon_detail">Visa en genväg för att byta mellan utrymmena i Notifikationspanelen</string>
     <string name="show_decktop_quick_switch_icon">Genväg på hemskärmen</string>
     <string name="show_decktop_quick_switch_icon_detail">Visa en genväg för att byta mellan utrymmena på Hemskärmen i det Primära utrymmet</string>
     <string name="has_created_second_space">"Du kan öppna det Sekundära utrymmet nu.
@@ -358,13 +369,13 @@ Om du inte uppdaterar kommer dual apps inte fungerar som det ska."</string>
     <string name="sdcradfs_dialog_in_sec_message">"För att uppdatera ska du ta bort ditt Sekundära utrymme och sedan skapar det igen. Flytta data från Sekundära utrymmet till det Primära utrymmet och starta om enheten för att slutföra uppdateringen.
 Om du inte uppdaterar kommer dual apps inte fungerar som det ska."</string>
     <string name="space_created_success">Sekundärt utrymme skapat</string>
-    <string name="encrypt_space_delete_dialog_title">Attention</string>
-    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
-    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
-    <string name="encrypt_space_delete_notification_title">Second space</string>
-    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
+    <string name="encrypt_space_delete_dialog_title">Uppmärksamma</string>
+    <string name="encrypt_space_delete_dialog_message">Du ska snart uppdatera Android. Efter uppdateringen kommer det data i det Sekundära utrymmet bli inkompatibel. För att undvika detta, flytta all data till det Primära utrymmet, ta bort det Sekundära utrymmet och skapa det igen.</string>
+    <string name="encrypt_space_delete_dialog_click_message">*Om du inte behöver flytta data, %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">ta bort eller skapa det Sekundära utrymmet nu.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Flytta data</string>
+    <string name="encrypt_space_delete_notification_title">Sekundära utrymmet</string>
+    <string name="encrypt_space_delete_notification_message">Ta bort ditt Sekundära utrymme och skapa ett nytt för att uppdatera din enhet.</string>
     <string name="space_create_guide_title_1">Skydda din integritet</string>
     <string name="space_create_guide_desc_1">Spara appar och foton säkert</string>
     <string name="space_create_guide_title_2">Skapa när som helst</string>
@@ -385,4 +396,7 @@ Om du inte uppdaterar kommer dual apps inte fungerar som det ska."</string>
     <string name="experience_more_features">Lägg till en enhet för att visa alla funktioner</string>
     <string name="can_not_switch_when_green_kid_active">Att växla till det Sekundära utrymmet är begränsat av föräldrakontroll</string>
     <string name="need_network_when_bind">Anslut till nätverket innan enheter läggs till</string>
+    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
+    <string name="agree">Samtycker</string>
+    <string name="disagree">"Don't agree"</string>
 </resources>

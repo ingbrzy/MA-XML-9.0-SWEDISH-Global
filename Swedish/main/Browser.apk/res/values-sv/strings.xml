@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">Aktivera</string>
+    <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
+    <string name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
+    <string name="common_google_play_services_install_button">Installera</string>
+    <string name="common_google_play_services_install_text">%1$s kan inte köras utan Google Play-tjänsterna, som saknas på enheten.</string>
+    <string name="common_google_play_services_install_title">Hämta Google Play-tjänster</string>
+    <string name="common_google_play_services_notification_ticker">Fel på Google Play-tjänster</string>
     <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten.</string>
+    <string name="common_google_play_services_update_button">Uppdatera</string>
+    <string name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
+    <string name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
+    <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="common_open_on_phone">Öppna på mobilen</string>
+    <string name="common_signin_button_text">Logga in</string>
+    <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="s1">Spara bild</string>
+    <string name="s2">Tillåter du att annonsen sparar bilden i Bildgalleriet?</string>
+    <string name="s3">Godkänn</string>
+    <string name="s4">Godkänn inte</string>
+    <string name="s5">Skapa kalenderhändelse</string>
+    <string name="s6">Tillåter du att annonsen skapar en kalenderhändelse?</string>
     <string name="abc_action_bar_home_description">Gå till startsidan</string>
     <string name="abc_action_bar_up_description">Gå upp</string>
     <string name="abc_action_menu_overflow_description">Mer</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">Textmarkering</string>
     <string name="actionbar_web_search">Webbsökning</string>
     <string name="ad_btn_default_text">Installera</string>
+    <string name="ad_mark">Reklam</string>
+    <string name="ad_sponsored">Sponsrade</string>
     <string name="adblock_force_updating_rules_toast">Uppdaterar reklamblockerare</string>
     <string name="adblock_rules_not_updated_toast">Kunde inte uppdatera</string>
     <string name="adblock_rules_restore">Ta bort blockering</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">Måttlig</string>
     <string name="aqi_quality_index_pure">Utmärkt</string>
     <string name="aqi_quality_index_unhealthy">Ohälsosamt</string>
+    <string name="articles_updated">Uppdaterade %1$d objekt</string>
     <string name="autoSwithcingSearchEngineTips">Växlad till den vanliga sökmotorn</string>
     <string name="autofill_keyboard_accessory_content_description">Förslag tillgängliga</string>
     <string name="autofill_popup_content_description">Visar popup för automatisk ifyllnad</string>
@@ -135,11 +160,14 @@
     <string name="cancel">Avbryt</string>
     <string name="cannot_download">Kan endast ladda ner \"http\" eller \"https\" URL</string>
     <string name="card_setting_close_recommend">Ta emot rekommendationer</string>
+    <string name="channels_edit">Redigera</string>
+    <string name="channels_finish">Slutförd</string>
     <string name="choosertitle_sharevia">Dela via</string>
     <string name="clear_history">Rensa historik</string>
     <string name="clear_most_visited">Tidigare historik</string>
     <string name="clear_search_history">Rensa historik</string>
     <string name="clear_video_download">Rensa videor</string>
+    <string name="click_to_refresh">Stoppade här förra gången, tryck för uppdatera</string>
     <string name="clip_dialog_title">Öppna den kopierade webbadressen?</string>
     <string name="close_ads_choice_no">Tillåta</string>
     <string name="close_ads_choice_yes">Blockera</string>
@@ -169,6 +197,7 @@
     <string name="color_picker_dialog_title">Välj färg</string>
     <string name="color_picker_hue">Nyans</string>
     <string name="color_picker_saturation">Mättnad</string>
+    <string name="color_picker_value">Värde</string>
     <string name="comment_app_menu">Kommentera</string>
     <string name="comment_description">Kommentera</string>
     <string name="comment_hint">Kommentera</string>
@@ -198,6 +227,7 @@
     <string name="contextmenu_webpage_snapshot">Spara sida</string>
     <string name="copy_to_clipboard_failure_message">Det gick inte att kopiera till urklipp.</string>
     <string name="copy_url">Kopiera URL</string>
+    <string name="could_not_load_data">Kunde inte ladda data, uppdatera och försök igen</string>
     <string name="create_qr_code">QR-kod</string>
     <string name="current_version_pad">Platta</string>
     <string name="current_version_pc">Skrivbord</string>
@@ -205,8 +235,9 @@
     <string name="custom_head_card_text">Tro alltid att något underbart kommer hända</string>
     <string name="custom_head_card_text_incognito">"Du är inkognito!
 Sidor som du ser kommer inte med i historik."</string>
-    <string name="data_traffic_prompt_change">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
-    <string name="data_traffic_prompt_message">Att använda mobildata för att leta efter videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
+    <string name="data_error">Datafel</string>
+    <string name="data_traffic_prompt_change">Att använda din mobila dataanslutning för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din leverantör komma att fakturera dig för detta.</string>
+    <string name="data_traffic_prompt_message">Att använda mobildata för att se på videor medför ökad dataanvändning. Om du överskrider gränsen för ditt abonnemang kan din operatör komma att fakturera dig för detta.</string>
     <string name="data_traffic_prompt_message_short">Att använda mobildata för att strömma video kan förbruka din datamängd.</string>
     <string name="data_traffic_prompt_title">Varning för dataanvändning</string>
     <string name="date_picker_dialog_clear">Klar</string>
@@ -255,14 +286,14 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="download_dialog_file_length_nolength_txt">Vänta en stund…</string>
     <string name="download_failed">Nedladdningen kunde inte slutföras</string>
     <string name="download_filter_all">Alla</string>
-    <string name="download_filter_apk">Apk</string>
+    <string name="download_filter_apk">APK</string>
     <string name="download_filter_application">Appar</string>
     <string name="download_filter_audio">Musik</string>
     <string name="download_filter_image">Bilder</string>
     <string name="download_filter_others">Övrigt</string>
-    <string name="download_filter_text">Filer</string>
+    <string name="download_filter_text">Dokument</string>
     <string name="download_filter_video">Videor</string>
-    <string name="download_filter_zip">Zip</string>
+    <string name="download_filter_zip">ZIP</string>
     <string name="download_in_process">Laddar ner…</string>
     <string name="download_list_open_xl_ok">OK</string>
     <string name="download_memory_info_avai">" tillgänglig %s|"</string>
@@ -273,7 +304,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="download_pending">Startar nedladdning…</string>
     <string name="download_phone_tip">Telefon</string>
     <string name="download_router_tip">Ladda ner till Mi Router</string>
-    <string name="download_sdcard_busy_dlg_msg">SD-kortet är upptagen. För att tillåta nedladdningar, stäng av USB-lagring i meddelandepanelen.</string>
+    <string name="download_sdcard_busy_dlg_msg">SD-kortet är upptaget. För att tillåta nedladdningar, stäng av USB-lagring i Notifikationspanelen.</string>
     <string name="download_sdcard_busy_dlg_title">SD-kortet är inte tillgängligt</string>
     <string name="download_status_failed">Kunde inte ladda ned</string>
     <string name="download_status_pending">Väntar</string>
@@ -336,7 +367,7 @@ Sidor som du ser kommer inte med i historik."</string>
     <string name="history">Historik</string>
     <string name="home_description">Hem</string>
     <string name="home_page_news_feed">Nyhetsflöde</string>
-    <string name="home_page_top_sites">Toppsidor</string>
+    <string name="home_page_top_sites">Utvalda sidor</string>
     <string name="homepage_delete_card_menu">Ta bort</string>
     <string name="homepage_get_location">Hämta plats</string>
     <string name="homepage_get_location_failed">Kunde inte få information, välj en stad</string>
@@ -366,10 +397,10 @@ Lämna denna sida?"</string>
     <string name="keep_queued_download">Behåll</string>
     <string name="last_month">Senaste månaden</string>
     <string name="license_activity_title">System WebView-licenser</string>
-    <string name="load_more">Visa mer</string>
     <string name="loading_tips">Dra nedåt för att uppdatera</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Kunde inte logga in, uppdatera och försök igen</string>
+    <string name="long_press_edit">Långtryck för att redigera</string>
     <string name="low_memory_error">Det gick inte att slutföra den tidigare operationen eftersom det finns för lite minne kvar.</string>
     <string name="low_memory_toast">Kan inte använda Webbläsare på grund av lågt minne</string>
     <string name="max_tabs_warning">Kan inte öppna fler flikar</string>
@@ -387,7 +418,7 @@ Lämna denna sida?"</string>
     <string name="media_player_error_text_invalid_progressive_playback">Denna video är inte giltig för att strömmas till denna enhet.</string>
     <string name="media_player_error_text_unknown">Kan inte spela upp videon.</string>
     <string name="media_player_error_title">Kan inte spela upp video</string>
-    <string name="media_player_loading_video">Laddar video</string>
+    <string name="media_player_loading_video">Vänta en stund…</string>
     <string name="menu_addtodesk">Lägg till på Hemskärmen</string>
     <string name="menu_exit_nightmode">Avsluta</string>
     <string name="menu_hv_swap">V/H skärm</string>
@@ -395,7 +426,7 @@ Lämna denna sida?"</string>
     <string name="menu_preferences">Inställningar</string>
     <string name="menu_theme_setting">Temainställningar</string>
     <string name="menu_title_clear_all">Rensa allt</string>
-    <string name="menu_title_open_file_management">Öppna Filutforskaren</string>
+    <string name="menu_title_open_file_management">Öppna Utforskaren</string>
     <string name="menu_title_pause_all">Pausa alla</string>
     <string name="menu_title_resume_all">Starta alla</string>
     <string name="miui_autologin_bar_error">Kan inte logga in</string>
@@ -411,8 +442,8 @@ Lämna denna sida?"</string>
     <string name="miui_content_select_all">Välj alla</string>
     <string name="miui_content_share">Dela</string>
     <string name="miui_content_web_search">Sök</string>
-    <string name="miui_quicksearch_enable_pref_summary">Visa länk till sökruta i meddelandepanelen</string>
-    <string name="miui_quicksearch_enable_pref_title">Sökruta i meddelandepanelen</string>
+    <string name="miui_quicksearch_enable_pref_summary">Visa länk till sökruta i Notifikationspanelen</string>
+    <string name="miui_quicksearch_enable_pref_title">Sökruta i Notifikationspanelen</string>
     <string name="miui_search_notification_message">Tryck för att öppna sökrutan.</string>
     <string name="miui_search_notification_title">Söka</string>
     <string name="miui_startpage">Startsida</string>
@@ -510,6 +541,7 @@ Lämna denna sida?"</string>
     <string name="month_picker_dialog_title">Ange månad</string>
     <string name="more_description">Meny</string>
     <string name="more_option">Fler alternativ</string>
+    <string name="my_cahnnel">Mina kanaler</string>
     <string name="nav_bottom_bar_back">Bakåt</string>
     <string name="nav_bottom_bar_close_all">Stäng alla</string>
     <string name="nav_bottom_bar_new_tab">Ny flik</string>
@@ -522,11 +554,16 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="navigationbar_rightbutton_actiontext_cancle">Avbryt</string>
     <string name="navigationbar_rightbutton_actiontext_go">Gå</string>
     <string name="navigationbar_rightbutton_actiontext_search">Sök</string>
+    <string name="net_error">Nätverksfel</string>
     <string name="network_show_wifi_setting_tip_dialog_description">Hittade ett Wi-Fi-hotspot i närheten. Försök att ansluta?</string>
     <string name="network_show_wifi_setting_tip_dialog_title">Wi-Fi-nätverk är tillgängligt</string>
+    <string name="news_load_failed">Tryck för att försöka igen</string>
+    <string name="news_loading">Laddar…</string>
     <string name="next_button_label">Nästa</string>
     <string name="no_app_open_document">Det finns ingen app hittades som kan hantera denna åtgärd</string>
+    <string name="no_items">Inga fler objekt att visa, försök med en annan kategori.</string>
     <string name="no_matches">Inga träffar</string>
+    <string name="no_network">Kontrollera din nätverksanslutning och försök igen.</string>
     <string name="no_space_alert_cancel">Senare</string>
     <string name="no_space_alert_clean">Frigör utrymme</string>
     <string name="no_space_alert_text">Inte tillräckligt med lagringsutrymme</string>
@@ -541,10 +578,10 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="onews__category_cricket">Kricket</string>
     <string name="onews__category_reddit">Reddit</string>
     <string name="open_app_confirm_message">Tillåt denna sida att öppna %s?</string>
-    <string name="open_file_explorer_failed">Kan inte öppna Filutforskaren</string>
-    <string name="open_private_folder">Släpp för att visa dolda mappar</string>
+    <string name="open_file_explorer_failed">Kan inte öppna Utforskaren</string>
     <string name="open_voice_permission">Tillåt mikrofonen att ansluta till internet</string>
     <string name="opening_file_error">Det gick inte att öppna vald fil.</string>
+    <string name="other_channel">Tryck för att lägga till fler kanaler.</string>
     <string name="page_info">Sidinfo</string>
     <string name="page_info_address">Adress:</string>
     <string name="page_info_view">Visa sidinfo</string>
@@ -558,7 +595,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="pay_failed_toast">Kunde inte genomföra betalningen</string>
     <string name="pay_success_toast">Betalning genomförd</string>
     <string name="permission_alert_window">Tillåt pop-up fönster att använda denna funktion</string>
-    <string name="permission_unknown">Okänd handling</string>
+    <string name="permission_unknown">Okänd åtgärd</string>
     <string name="popup_window_attempt">Tillåt denna webbplats att öppna ett popup-fönster?</string>
     <string name="positive_confirm_message">Avaktivera ändå</string>
     <string name="pref_accessibility">Tillgänglighet</string>
@@ -566,7 +603,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="pref_accessibility_url_shortcut_enter_summary">Vanliga teckenkombinationer kan matas in med hjälp av ett tryck i adressrutan</string>
     <string name="pref_accessibility_url_shortcut_enter_title">Snabb URL-inmatning</string>
     <string name="pref_adblock_title">Annonsblockerare</string>
-    <string name="pref_auto_update_under_wifi">Uppdatera över WiFi</string>
+    <string name="pref_auto_update_under_wifi">Uppdatera över Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Växla till den vanliga sökmotorn</string>
     <string name="pref_card_setting">Toppsides ordning</string>
     <string name="pref_category_hint">Kategori</string>
@@ -589,6 +626,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="pref_content_night_read_mode">Nattläge</string>
     <string name="pref_content_search_engine">Sökmotor i adressfältet</string>
     <string name="pref_content_search_engine_summary">Välj en sökmotor</string>
+    <string name="pref_develop_mode">Utvecklarläge</string>
     <string name="pref_enable_adblock_notification">Visa notifikationer för annonsblockerare</string>
     <string name="pref_enable_news">Nyheter</string>
     <string name="pref_enable_novels">Böcker</string>
@@ -666,6 +704,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="profiler_started_toast">Profilering startad</string>
     <string name="profiler_stopped_toast">Profilering klar. Resultatet finns i %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">Använder bakgrund…</string>
+    <string name="pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="pull_to_refresh_pull_label">Dra för att uppdatera</string>
     <string name="pull_to_refresh_release_label">Släpp för att uppdatera</string>
     <string name="qr_code_title">QR-kod</string>
@@ -696,6 +735,11 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="readmode_recommend_message">Du har redan läst denna bok. :)</string>
     <string name="readmode_refresh">Uppdatera</string>
     <string name="readmodelist_bookmarks_to_show">Läslista</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="refresh_fail">Kunde inte ladda information</string>
+    <string name="refresh_success">Hittade %1$d objekt som du kanske gillar</string>
+    <string name="refreshing">Uppdaterar…</string>
+    <string name="release_to_refresh">Släpp för att uppdatera</string>
     <string name="remember_passwords_confirm_message">Stängs denna funktion av kan användandet påverkas.</string>
     <string name="remove_bookmark">Ta bort bokmärke</string>
     <string name="remove_bookmark_group">Ta bort grupp</string>
@@ -709,11 +753,6 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="retry_after_network_available">Kan inte ansluta till nätverket</string>
     <string name="retry_download">Försök igen</string>
     <string name="return_to_homepage">Gå tillbaka till startsidan</string>
-    <string name="rlv_last_refreshing_time">Updaterad %1$s</string>
-    <string name="rlv_loading_more">Vänta en stund…</string>
-    <string name="rlv_pull_to_refresh">Dra nedåt för att uppdatera</string>
-    <string name="rlv_refreshing">Uppdaterar…</string>
-    <string name="rlv_release_to_refresh">Släpp för att uppdatera</string>
     <string name="rlz_access_point">Y1</string>
     <string name="root_folder_lable">Ingen</string>
     <string name="router_download_exist">Filen finns redan</string>
@@ -723,13 +762,13 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="same_folder_name_warning">En grupp med samma namn finns redan</string>
     <string name="save_button_text">Spara</string>
     <string name="save_dialog_title">Spara</string>
-    <string name="save_file">Spara %s fil</string>
+    <string name="save_file">Spara %s</string>
     <string name="save_file_already_exist_alert_message">En fil med samma namn finns redan, ersätta den?</string>
     <string name="save_file_already_exist_alert_title">Ersätta fil?</string>
     <string name="save_form_data_confirm_message">Stängs denna funktion av kan användandet påverkas.</string>
     <string name="save_image_failed">Kunde inte spara bilden</string>
     <string name="save_image_success">Bild sparad</string>
-    <string name="save_page_capture_tip">Öppna meddelandepanelen för att se skärmdumpen.</string>
+    <string name="save_page_capture_tip">Öppna Notifikationspanelen för att se skärmdumpen.</string>
     <string name="save_page_capture_to_camera">Skärmdump sparad</string>
     <string name="save_password_message">Kom ihåg detta lösenord?</string>
     <string name="save_password_never">Aldrig</string>
@@ -776,10 +815,6 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="sendstartpage">Startsida</string>
     <string name="share_image_text">Titta vad jag delade! @MIUI</string>
     <string name="share_page_text">Titta vad jag delade: %1$s @MIUI| %2$s</string>
-    <string name="show_check_security_url_check_tip_dialog_description">Webbläsaren behöver ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer, tillåt webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">Webbläsaren behöver ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer, tilllåt webbläsare att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
-    <string name="show_security_tip_dialog_title">Användarvillkor</string>
-    <string name="show_weather_location_getter_tip_dialog_description">Webbläsaren behöver för att ansluta till Internet för att fungera normalt. Att förbättra säkerheten och få mer relevanta rekommendationer och väderinformation, låta webbläsare för att få webbadresserna för de webbplatser du besöker och få tillgång till din platsinformation.</string>
     <string name="sign_in_to" formatted="false">Logga in på %s1 %s2\"</string>
     <string name="site_sort_des">Ordna om objekten</string>
     <string name="skip_button_label">Hoppa över</string>
@@ -829,6 +864,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="time_picker_dialog_pm">PM</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">Ange tid</string>
+    <string name="tip_drag">Långtryck för att redigera och dra för att sortera.</string>
     <string name="title_bar_loading">Laddar…</string>
     <string name="too_many_windows_dialog_message">Webbläsaren kan inte öppna en ny flik tills du stänger en annan flik</string>
     <string name="too_many_windows_dialog_title">Kan inte öppna fler flikar</string>
@@ -838,7 +874,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="unsecurity_url_toast">Denna webbplats är inte säker</string>
     <string name="up_to_loading_tips">Släpp för att uppdatera</string>
     <string name="update_no_network_toast">Kan inte ansluta till nätverket</string>
-    <string name="updating_chrome">Uppdaterar Chrome‧</string>
+    <string name="updating_chrome">Uppdaterar Chrome…</string>
     <string name="uploads_disabled">Filuppladdningar är inaktiverade</string>
     <string name="url_copy_done">URL har kopierats till urklipp</string>
     <string name="url_find_on_page_result">Öppna i webbläsaren</string>
@@ -866,7 +902,7 @@ Kom ihåg att filer som du laddar ner och bokmärken som du lägger till kommer 
     <string name="version_check_button_no_network">Kan inte ansluta till nätverket</string>
     <string name="version_check_button_resume_download">Återuppta nedladdning</string>
     <string name="version_check_button_update">Uppdatera</string>
-    <string name="version_check_failed">Uppdateringskontrollen misslyckades</string>
+    <string name="version_check_failed">Kunde inte kolla efter uppdateringar</string>
     <string name="version_dialog_buttion_ok">OK</string>
     <string name="version_dialog_buttion_update">Uppdatera</string>
     <string name="version_update_file_download_toast">Laddar ned</string>

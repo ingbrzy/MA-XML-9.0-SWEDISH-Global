@@ -15,15 +15,16 @@
     <string name="find_device_error_account_unknown_error">Mi Konto fel (%s).</string>
     <string name="find_device_crash">Hitta enhet stängdes oväntat.</string>
     <string name="find_device_storage_corrupted">Hitta enheten lagring skadad. Din enhet är osäker nu.</string>
-    <string name="find_device_telephony_fault">Hitta enhet: Telephony fel (%s).</string>
+    <string name="find_device_telephony_fault">Hitta enhet: Telefonfel (%s).</string>
     <string name="time_correction_success">Tid justerad</string>
     <string name="time_correction_failure">Det gick inte att justera tiden (%s)</string>
     <string name="find_device_stop_noise">Tryck på OK för att tysta</string>
     <string name="find_device_noise_title">Hitta enhet larm</string>
     <string name="find_device_success_title">Hitta enhet</string>
     <string name="find_device_notice_p1">Gå till</string>
-    <string name="find_device_notice_p3">"för att hitta, låsa, eller återställa din telefon.
-Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återaktivera denna funktion."</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">för att hitta, låsa eller återställa din enhet.</string>
+    <string name="find_device_notice_sms_alert">Om du byter SIM-kort kommer kanske ett SMS skickas för att automatiskt återaktivera denna funktion.</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Kan inte ansluta till nätverk</string>
     <string name="unlock_error_device_id">Kan inte hämta enhets-Id</string>
@@ -40,7 +41,7 @@ Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återa
     <string name="unlock_error_passport_sdk_timeout">Mi konto SDK svarar inte</string>
     <string name="open_wifi_settings">Öppna inställningar för Wi-Fi</string>
     <string name="activate_xiaomi_account">Aktivera enhet</string>
-    <string name="login_extra_steps">Logga in verifikation</string>
+    <string name="login_extra_steps">Logga in för att verifiera</string>
     <string name="phone_locked">Denna enhet är förknippad med befintligt Mi konto-Id (%s). Logga in för att aktivera den här enheten.</string>
     <string name="phone_locked_account_email">, tillhörande e-post: %s</string>
     <string name="phone_locked_account_phone">, tillhörande telefonnummer: %s</string>
@@ -58,13 +59,13 @@ Om du byter SIM kort kommer ett nytt SMS att skickas automatiskt för att återa
     <string name="change_find_device_status_failed">Kunde inte låsa upp. %s.</string>
     <string name="unlock_help_title">Låsa upp hjälp:</string>
     <string name="unlock_help">"Håll kontakten med nätverket
-Se till att du har installerat ett fungerande SIM-kort, och enheten inte är ansluten till en ineffektiv trådlöst nätverk
+Se till att du har installerat ett fungerande SIM-kort (om din enhet stöder detta) och att enheten inte är ansluten till en ineffektiv trådlöst nätverk
 
 Glömt lösenord?
 Gå till id.mi.com att återställa ditt lösenord
 
 Andra skäl
-Logga in på i.mi.com och försöka låsa upp din enhet därifrån"</string>
+Logga in på i.mi.com och försöka låsa upp din enhet därifrån."</string>
     <string name="passport_vcode_prompt_long">Ange verifieringskod</string>
     <string name="passport_trust_device">Lita på den här enheten</string>
     <string name="passport_verify">Verifiera</string>
@@ -78,8 +79,8 @@ Logga in på i.mi.com och försöka låsa upp din enhet därifrån"</string>
     <string name="default_lock_msg_words_with_phone">Hej! Jag har förlorat min telefon. Kan du kontakta mej? Tack!</string>
     <string name="default_lock_msg_words">Denna enhet är associerad med ett befintligt Mi konto. Av säkerhetsskäl måste du ange lösenord för att kontrollera enheten.</string>
     <string name="lock_msg_phone">Kontaktinformation: %s</string>
-    <string name="emergency_call">Emergency Call</string>
-    <string name="return_to_call">Return to Call</string>
+    <string name="emergency_call">Nödsamtal</string>
+    <string name="return_to_call">Återgå till samtal</string>
     <string name="default_debt_msg_words">"Den här enheten är låst på grund av en försenad avbetalning.
 Kontakta ditt försäljningsagent för detaljer."</string>
     <string name="sys_notification_async_verify_title">Återaktivera Hitta enhet</string>

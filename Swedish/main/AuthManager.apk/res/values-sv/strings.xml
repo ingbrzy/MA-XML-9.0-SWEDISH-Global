@@ -10,7 +10,7 @@
     <string name="HIPS_Perm_Call">Ringa telefonsamtal</string>
     <string name="HIPS_Perm_Call_Desc">ring telefonnummer direkt</string>
     <string name="HIPS_Perm_Location">Hämta platsinfo</string>
-    <string name="HIPS_Perm_Location_Desc">få din exakta position (GPS och nätverks-baserad)</string>
+    <string name="HIPS_Perm_Location_Desc">få din exakta position (GPS och nätverksbaserad)</string>
     <string name="HIPS_Perm_PhoneID">Hämta enhetsinformation</string>
     <string name="HIPS_Perm_PhoneID_Desc">Få tillgång till telefonnummer, IMEI och IMSI</string>
     <string name="HIPS_Perm_Contact">Ändra och ta bort kontakter</string>
@@ -75,8 +75,8 @@
     <string name="HIPS_Perm_get_tasks_Desc">hämta uppgifter</string>
     <string name="HIPS_Perm_show_when_locked">Visa på låsskärmen</string>
     <string name="HIPS_Perm_show_when_locked_Desc">visas på låsskärmen</string>
-    <string name="HIPS_Perm_background_start_activity">Starta i bakgrunden</string>
-    <string name="HIPS_Perm_background_start_activity_Desc">starta i bakgrunden</string>
+    <string name="HIPS_Perm_background_start_activity">Köra i bakgrunden</string>
+    <string name="HIPS_Perm_background_start_activity_Desc">köra i bakgrunden</string>
     <string name="HIPS_Perm_get_installed_apps">Hämta information om installerade appar</string>
     <string name="HIPS_Perm_get_installed_apps_Desc">hämta information om appar som är installerade på denna enheten</string>
     <string name="HIPS_Perm_service_foreground">Förgrunds tjänster</string>
@@ -86,7 +86,7 @@
     <string name="permission_group_title_media_related">Multimedia</string>
     <string name="permission_group_title_settings_related">Inställningar</string>
     <string name="ok">OK</string>
-    <string name="default_permission_description">genomför okända handlingar</string>
+    <string name="default_permission_description">utför okända åtgärder</string>
     <string name="location_settings">Platsinställningar</string>
     <string name="location_warning">%1$s är en leverantör av platstjänster för denna enhet. Platsåtkomst kan ändras från platsinställningar.</string>
     <string name="permission_warning_template">Tillåt %1$s till %2$s?</string>

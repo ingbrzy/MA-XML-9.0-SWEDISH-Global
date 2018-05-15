@@ -31,7 +31,7 @@
     <string name="passport_get_verify_code">Hämta kod</string>
     <string name="passport_re_get_verify_code">Hämta kod igen</string>
     <string name="passport_getting_verify_code">Hämtar</string>
-    <string name="passport_send_too_many_code">För många verifikationskoder har skickats från detta nummer. Vänta 24 tim och försök igen.</string>
+    <string name="passport_send_too_many_code">För många verifieringskoder har skickats från detta nummer. Vänta 24 tim och försök igen.</string>
     <string name="passport_restart_register_title">Skapa en Mi-konto</string>
     <string name="passport_restart_register_prompt">Ett annat verifieringsmeddelande kan krävas för att skapa ditt konto.</string>
     <string name="passport_wait_for_sms_prompt">Börja om nu? Verifieringsmeddelanden kan ta 10 minuter att levereras när telefonen är inom räckhåll för operatörens nätverk.</string>
@@ -83,7 +83,7 @@ För att aktivera ditt konto, följ
     <string name="passport_quick_login_dialog_title">Verifiera lösenord</string>
     <string name="passport_quick_login_dialog_step2_title">2-stegsverifiering</string>
     <string name="passport_delete_account">Logga ut</string>
-    <string name="passport_vcode_notification_title">Ditt inloggnings verifikation är ofullständig</string>
+    <string name="passport_vcode_notification_title">Ditt inloggningsverifiering är ofullständig</string>
     <string name="passport_account_name">Konto: %1$s</string>
     <string name="passport_account_hint_text">Email/Telefonnummer/Mi Account ID</string>
     <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
@@ -164,7 +164,7 @@ För att aktivera ditt konto, följ
     <string name="passport_relogin_notice">Du måste logga in igen</string>
     <string name="passport_copy_message_text_success">Kopiering lyckades</string>
     <string name="passport_copy_message_vcode">Kopiera kod</string>
-    <string name="passport_message_dialog_title">SMS med verifikationskoder</string>
+    <string name="passport_message_dialog_title">SMS med verifieringskoder</string>
     <string name="passport_trust_device">Lägg till denna enhet som verifierad enhet</string>
     <string name="passport_barcode_add_account_prompt">För att ansluta ett konto, skanna QR-koden igen efter du har loggat in.</string>
     <string name="passport_password_phone_login">Logga in med Mi konto</string>
@@ -201,7 +201,7 @@ För att aktivera ditt konto, följ
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Ser ut som om&lt;/font> numret %s har återvunnits av din operatör. Kontrollera när numret blev aktivt?</string>
     <string name="passport_get_innetdate_agree">Kontrollera</string>
     <string name="passport_get_innetdate_disagree">Nej</string>
-    <string name="passport_extra_gdpr_license">Att skapa ditt Mi-konto betyder att du godkänner att Xiaomi kommer samla in, processa och använda din personliga data, inklusive verifikationsdata (t ex verifikationskoder), data i Sekundära utrymmet (t ex information om hur du använder det Sekundära utrymmet, ID använda i Primära och Sekundära utrymmet) och annan data som är specifierad i vår Integritetspolicy. Läs vår Integritetspolicy för att använder och processa personlig data.</string>
+    <string name="passport_extra_gdpr_license">Att skapa ditt Mi-konto betyder att du godkänner att Xiaomi kommer samla in, processa och använda din personliga data, inklusive verifieringsdata (t ex verifieringskoder), data i Sekundära utrymmet (t ex information om hur du använder det Sekundära utrymmet, ID använda i Primära och Sekundära utrymmet) och annan data som är specifierad i vår Integritetspolicy. Läs vår Integritetspolicy för att använder och processa personlig data.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud, Kontoinställningar, Mi Pay, Logga ut</string>
@@ -358,7 +358,7 @@ För att aktivera ditt konto, följ
     <string name="delete_device_btn">Ta bort</string>
     <string name="phone_activated">%s aktiverad</string>
     <string name="no_sim_card_or_unactivated">SIM-kortet är inte installerat eller aktiverat</string>
-    <string name="remove_device_success_notice">Om du tar bort enheten från betrodda enheter kommer du behöva starta om verifikationsprocessen igen när du loggar in.​</string>
+    <string name="remove_device_success_notice">Om du tar bort enheten från betrodda enheter kommer du behöva starta om verifieringsprocessen igen när du loggar in.​</string>
     <string name="device_delete_success_title">Utloggad</string>
     <string name="device_delete_success_message">Om du inte loggade in på enheten, ändra ditt lösenord omedelbart.</string>
     <string name="change_password">Ändra lösenord</string>
@@ -404,7 +404,7 @@ För att aktivera ditt konto, följ
     <string name="delete_browser">Ta bort webbläsare</string>
     <string name="confirm_delete_device_message">Efter när du har raderat den här enheten, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
     <string name="confirm_delete_app_message">Efter när du har raderat den här app, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
-    <string name="confirm_delete_browser_message">Efter när du har raderat den här webbläsare, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
+    <string name="confirm_delete_browser_message">När du har Tagit bort Webbläsaren, måste du verifiera ditt telefonnummer nästa gång du loggar in på ditt Mi-konto.</string>
     <string name="delete_lock_device_success">Raderats</string>
     <string name="verify_phone_title">Verifiera telefonnummer</string>
     <string name="verify_phone_prompt">Välj telefonnummer för att verifiera</string>
@@ -414,7 +414,7 @@ För att aktivera ditt konto, följ
     <string name="find_device_owner_phone">Enheten är låst. Ring %1$s.</string>
     <string name="find_device_prompt_message">Enheten är låst. SMS:a %1$s.</string>
     <string name="find_device_activate_account">Aktivera konto</string>
-    <string name="login_check_find_device">Hämtar enhetssäkerhet info…</string>
+    <string name="login_check_find_device">Hämtar säkerhetsinformation om enheten…</string>
     <string name="unlock_help_notice">"Hjälp:
 1. Om du har glömt ditt lösenord, gå till id.mi.com att återställa det
 2. Om du inte kan återställa enheten eller om nån har låst din enhet, gå till i.mi.com för att låsa upp den.
@@ -424,7 +424,7 @@ För att aktivera ditt konto, följ
     <string name="find_device_locked_account_email" formatted="false">%s, associerad e-postadress: %s</string>
     <string name="oauth_title">Logga in med Mi konto</string>
     <string name="oauth_getting_scopes">Verifiera konto…</string>
-    <string name="oauth_get_scopes_failed">Kunde inte hämta konto-info</string>
+    <string name="oauth_get_scopes_failed">Kunde inte hämta kontoinfo</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> kommer att få följande behörigheter: &lt;br> &lt;br> %3$s</string>
     <string name="guest_account_label">Mi gästkontot</string>
     <string name="push_notification_title">Du loggade in på ditt Mi konto på en okänd enhet</string>

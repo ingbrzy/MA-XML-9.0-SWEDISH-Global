@@ -169,8 +169,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">Raderade %d virus</item>
     </plurals>
     <plurals name="hints_auto_start_enable_title">
-        <item quantity="other">%d appar kan starta automatiskt</item>
-        <item quantity="one">%d app kan starta automatiskt</item>
+        <item quantity="other">%d appar tillåts att starta automatiskt</item>
+        <item quantity="one">%d app tillåts att starta automatiskt</item>
     </plurals>
     <plurals name="hints_auto_start_disable_title">
         <item quantity="other">%d appar tillåts inte starta automatiskt</item>

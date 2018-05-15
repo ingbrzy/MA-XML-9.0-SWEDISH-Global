@@ -16,6 +16,10 @@
         <item quantity="other">om %d dagar</item>
         <item quantity="one">om %d dag</item>
     </plurals>
+    <plurals name="duration_days_shortest">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
     <plurals name="duration_days_shortest_future">
         <item quantity="other">om %d d</item>
         <item quantity="one">om %d d</item>
@@ -28,6 +32,10 @@
         <item quantity="other">om %d timmar</item>
         <item quantity="one">om %d timme</item>
     </plurals>
+    <plurals name="duration_hours_shortest">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
     <plurals name="duration_hours_shortest_future">
         <item quantity="other">om %d h</item>
         <item quantity="one">om %d h</item>
@@ -39,6 +47,10 @@
     <plurals name="duration_minutes_relative_future">
         <item quantity="other">om %d minuter</item>
         <item quantity="one">om %d minut</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
     </plurals>
     <plurals name="duration_minutes_shortest_future">
         <item quantity="other">om %d m</item>

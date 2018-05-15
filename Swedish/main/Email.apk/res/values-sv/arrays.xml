@@ -5,8 +5,8 @@
         <item>Feb</item>
         <item>Mar</item>
         <item>Apr</item>
-        <item>May</item>
-        <item>Jun</item>
+        <item>Maj</item>
+        <item>Juni</item>
         <item>Jul</item>
         <item>Aug</item>
         <item>Sep</item>
@@ -15,17 +15,17 @@
         <item>Dec</item>
     </string-array>
     <string-array name="calendar_remind_string_array">
-        <item>Tonight</item>
-        <item>Tomorrow</item>
-        <item>Weekend</item>
-        <item>Next week</item>
-        <item>Next month</item>
-        <item>Pick date</item>
+        <item>Ikväll</item>
+        <item>Imorgon</item>
+        <item>Helgen</item>
+        <item>Nästa vecka</item>
+        <item>Nästa månad</item>
+        <item>Välj datum</item>
     </string-array>
     <string-array name="compose_modes">
-        <item>Reply</item>
-        <item>Reply all</item>
-        <item>Forward</item>
+        <item>Svara</item>
+        <item>Svara alla</item>
+        <item>Framåt</item>
     </string-array>
     <string-array name="general_preference_text_zoom_summary_array">
         <item>Mycket liten</item>
@@ -35,42 +35,42 @@
         <item>Enorm</item>
     </string-array>
     <string-array name="menu_att_mgr_sort_string_array">
-        <item>Recently viewed</item>
-        <item>Format</item>
-        <item>Name</item>
-        <item>Sender</item>
-        <item>Date received</item>
+        <item>Nyligen visad</item>
+        <item>Formatera</item>
+        <item>Namn</item>
+        <item>Avsändare</item>
+        <item>Data mottagen</item>
     </string-array>
     <string-array name="moveto_folder_sections">
         <item>System</item>
-        <item>Frequently Used</item>
-        <item>All Folders</item>
+        <item>Ofta använda</item>
+        <item>Alla Mappar</item>
     </string-array>
     <string-array name="prefEntries_autoAdvance">
-        <item>Newer message</item>
-        <item>Older message</item>
-        <item>Inbox</item>
+        <item>Nytt meddelande</item>
+        <item>Äldre meddelande</item>
+        <item>Inkorg</item>
     </string-array>
     <string-array name="signature_normal_string_array_next">
-        <item>Address:</item>
+        <item>Adress:</item>
         <item>Tel:</item>
-        <item>Name:</item>
-        <item>Email:</item>
-        <item>Mobile:</item>
+        <item>Namn:</item>
+        <item>E-post:</item>
+        <item>Mobil:</item>
         <item>WeChat:</item>
         <item>Fax:</item>
-        <item>Postal Code:</item>
+        <item>Postnummer:</item>
     </string-array>
     <string-array name="signature_special_string_array_next">
-        <item>Thanks,</item>
-        <item>Best Regards</item>
-        <item>Sent from my</item>
+        <item>Tack,</item>
+        <item>Vänliga hälsningar</item>
+        <item>Skickat från min</item>
         <item>Original email</item>
-        <item>Sent from my</item>
-        <item>Sent from</item>
-        <item>From</item>
-        <item>This email</item>
-        <item>Disclaimer</item>
-        <item>Email Disclaimer</item>
+        <item>Skickat från min</item>
+        <item>Skickat från</item>
+        <item>Från</item>
+        <item>Det här emailet</item>
+        <item>Ansvarsfriskrivning</item>
+        <item>Email Ansvarsfriskrivning</item>
     </string-array>
 </resources>

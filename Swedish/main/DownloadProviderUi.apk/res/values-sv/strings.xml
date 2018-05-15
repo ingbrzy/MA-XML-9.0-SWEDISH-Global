@@ -71,7 +71,7 @@
     <string name="doc_filter">Dokument</string>
     <string name="download">Nedladdningar</string>
     <string name="download_auth">Få tillstånd…</string>
-    <string name="download_complete">Nedladdad</string>
+    <string name="download_complete">Slutförda nedladdningar</string>
     <string name="download_detail">Detaljer</string>
     <string name="download_error_download_file_not_exists">Filen existerar inte</string>
     <string name="download_error_insufficient_space">Inte tillräckligt med utrymme</string>
@@ -98,16 +98,16 @@
     <string name="downloading">Laddar ned…</string>
     <string name="downloading_empty">Tom</string>
     <string name="downloads_operating">Arbetar…</string>
-    <string name="durationDayHour">%1$d dag %2$d tim</string>
-    <string name="durationDayHours">%1$d dag %2$d tim</string>
-    <string name="durationHourMinute">%1$d tim %2$d min</string>
-    <string name="durationHourMinutes">%1$d tim %2$d min</string>
-    <string name="durationMinute">%1$d min</string>
-    <string name="durationMinuteSecond">%1$d min %2$d sek</string>
-    <string name="durationMinuteSeconds">%1$d min %2$d sek</string>
-    <string name="durationMinutes">%1$d min</string>
-    <string name="durationSecond">%1$d sek</string>
-    <string name="durationSeconds">%1$d sek</string>
+    <string name="durationDayHour">%1$d dag %2$d timme</string>
+    <string name="durationDayHours">%1$d dag %2$d timmar</string>
+    <string name="durationHourMinute">%1$d timme %2$d minuter</string>
+    <string name="durationHourMinutes">%1$d timme %2$d minuter</string>
+    <string name="durationMinute">%1$d minut</string>
+    <string name="durationMinuteSecond">%1$d minut %2$d sekund</string>
+    <string name="durationMinuteSeconds">%1$d minut %2$d sekunder</string>
+    <string name="durationMinutes">%1$d minuter</string>
+    <string name="durationSecond">%1$d sekund</string>
+    <string name="durationSeconds">%1$d sekunder</string>
     <string name="editmode_menu_delete">Ta bort</string>
     <string name="editmode_menu_share">Dela</string>
     <string name="extend">Mer</string>
@@ -117,7 +117,7 @@
     <string name="hint">Uppmärksamma</string>
     <string name="info_flow_only_load_wifi">Ladda endast innehåll vid anslutning till Wi-Fi</string>
     <string name="info_flow_setting">Innehållsinställningar</string>
-    <string name="info_flow_show">Visa rekommenderas innehåll</string>
+    <string name="info_flow_show">Visa rekommenderat innehåll</string>
     <string name="install">Installera</string>
     <string name="installing">Installerar…</string>
     <string name="insufficient_space">Inte tillräckligt med utrymme</string>
@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">Anslut till Wi-Fi för att ladda ner detta objekt</string>
     <string name="total_speedup">Fartökning (totalt)</string>
     <string name="version">Version %s</string>
-    <string name="app_downloads">%sdownloads</string>
-    <string name="dialog_confirm_delete_downloads_message">Ta bort markerade objekt?</string>
+    <string name="get_data_failed">Det gick inte att hämta informationen. Vänta en minut eller två och försök igen.</string>
+    <string name="load_finish_hint">Det är allt för tillfället.</string>
+    <string name="loading">Vänta en stund…</string>
+    <string name="net_error">Anslut till nätverket och försök igen</string>
+    <string name="rank_app_list">Populära nedladdningar</string>
 </resources>

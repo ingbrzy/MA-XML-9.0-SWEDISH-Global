@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Keyguard</string>
     <string name="delete">Ta bort</string>
     <string name="unlockscreen_recharging_message">Laddar %d%%</string>
     <string name="unlockscreen_recharge_completed">Batteriet laddat</string>
     <string name="unlockscreen_low_battery">Anslut laddare nu</string>
     <string name="lockscreen_charging_msg">Laddar</string>
-    <string name="reset_device_tip">Långsam laddning. Justera din enhet.</string>
-    <string name="reset_device_detail_tip">Placera din enhet på den trådlösa laddaren korrekt för att säkerställa hög laddningshastighet.</string>
+    <string name="reset_device_tip">Laddningen går långsamt. Flytta din enhet lite.</string>
+    <string name="reset_device_detail_tip">Se till att din enhet ligger korrekt på laddningsbasplattan</string>
     <string name="wireless_charge_stop">Avslutade trådlös laddning</string>
-    <string name="change_to_ac_charging">Växla till trådlös laddning</string>
-    <string name="wireless_charge_dialog_title">Justera din enhet på den trådlösa laddaren</string>
-    <string name="wireless_charge_dialog_cancel">Avbryt</string>
-    <string name="wireless_current_charge">Nuvarande laddning</string>
+    <string name="change_to_ac_charging">Växlat till trådbunden laddning</string>
+    <string name="wireless_charge_dialog_title">Placera din enhet på mitten av laddningsbasplattan</string>
+    <string name="wireless_charge_dialog_cancel">Jag förstår</string>
+    <string name="wireless_current_charge">Laddar</string>
     <string name="emergency_call_string">Nödsituation</string>
     <string name="forget_password_string">Glömt lösenord</string>
     <string name="input_puk_code">Mata in PUK</string>
-    <string name="unlocking_sim_card">Upplåsning SIM kort</string>
+    <string name="unlocking_sim_card">Låser upp SIM-kort</string>
     <string name="input_pin_code">Ange PIN</string>
     <string name="incorrect_pukcode">Felaktig PUK kod</string>
     <string name="incorrect_pincode">Felaktig PIN-kod</string>
+    <string name="kg_password_pin_failed">Inloggning med PIN-kod för SIM-kortet misslyckades!</string>
     <string name="lock_screen_date">EEEE, MMMM d</string>
     <string name="lock_screen_date_12">EEEE, MMMM d</string>
     <string name="phone_locked_string">Telefonen har låsts</string>
@@ -34,7 +36,7 @@
     <string name="lockscreen_access_pattern_start">Mönster startat</string>
     <string name="lockscreen_access_pattern_cleared">Mönster rensat</string>
     <string name="lockscreen_access_pattern_cell_added">Cell tillagd</string>
-    <string name="lockscreen_access_pattern_detected">Möster färdigt</string>
+    <string name="lockscreen_access_pattern_detected">Mönster slutfört</string>
     <string name="default_lockscreen_unlock_hint_text">Dra upp för att låsa upp</string>
     <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Du har skrivit fel lösenord %d gånger. Efter %d fler gånger, kommer du att tillfrågas om att låsa upp din telefon med ditt Mi konto.
 
@@ -65,7 +67,7 @@
     <string name="input_password_after_boot_msg">För att låsa upp enheten, ange ditt lösenord</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">När du har startat om enheten måste du först flytta till primära utrymmet</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Det går inte att växla mellan utrymmen under samtal</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Det går inte att växla mellan utrymmena när föräldrakontroll är aktiv</string>
     <string name="input_password_handle_sdcard_fs">Kan inte gå in i Sekundära utrymmet från Låsskärmen. Gå in från Primära utrymmet.</string>
     <string name="accessibility_enter_lock_wallpaper">Tryck för att öppna Bakgrundskarusellen</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Släpp för att visa detaljer</string>
@@ -149,5 +151,9 @@
     <string name="do_disclosure_with_name">Denna enhet hanteras av %s</string>
     <string name="face_unlock_reenter_title">Spela in din ansiktsdata igen.</string>
     <string name="face_unlock_reenter_content">Algoritmen för ansiktsupplåsningen uppdateras. Tryck för att spela in ansiktsdata igen.</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrundsbildskarusell</string>
+    <string name="gxzw_try_more_again">Försök igen</string>
+    <string name="gxzw_use_password">Använd ditt lösenord för att låsa upp</string>
+    <string name="gxzw_press_harder">Trycka lite hårdare</string>
 </resources>

@@ -15,7 +15,7 @@
     <string name="status_bar_toggle_vibrate">Vibrera</string>
     <string name="status_bar_toggle_wifi">Wi-Fi</string>
     <string name="status_bar_toggle_power_mode">Prestanda</string>
-    <string name="status_bar_toggle_wifi_ap">Hotspot</string>
+    <string name="status_bar_toggle_wifi_ap">Internetdelning</string>
     <string name="status_bar_toggle_quiet_mode">Stör ej</string>
     <string name="status_bar_toggle_paper_mode">Läsläge</string>
     <string name="status_bar_toggle_midrop">Mi Drop</string>
@@ -45,7 +45,7 @@
     <string name="call_record_sample_prefix_miui">Ring</string>
     <string name="call_record_or">" eller "</string>
     <string name="caller_info_name_delimiter">" eller "</string>
-    <string name="first_back_long_press_message">För att anpassa tryck &amp; håll åtgärder för navigationsknapparna, gå till inställningar > Ytterligare inställningar > Knappar</string>
+    <string name="first_back_long_press_message">För att anpassa tryck &amp; långtryck för navigationsknapparna, gå till Inställningar > Ytterligare inställningar > Knappar</string>
     <string name="force_exit_message">Tvingad avslutning %1$s</string>
     <string name="force_exit_skip_message">Kan ej avsluta %1$s för att den behövs av systemet.</string>
     <string name="fm_record_smaple_prefix_miui">FM inspelning</string>
@@ -60,7 +60,7 @@
     <string name="lockscreen_access_pattern_start">Mönster startat</string>
     <string name="lockscreen_access_pattern_cleared">Mönster rensat</string>
     <string name="lockscreen_access_pattern_cell_added">Cell tillagd</string>
-    <string name="lockscreen_access_pattern_detected">Möster färdigt</string>
+    <string name="lockscreen_access_pattern_detected">Mönster slutfört</string>
     <string name="memory_clear_result">%1$sB frigjort</string>
     <string name="memory_clear_nothing_result">Inget att rensa i cache</string>
     <string name="shutdown_confirm_title">Stänga av enheten nu?</string>
@@ -76,7 +76,7 @@
     <string name="screen_paper_mode_enter_toast">Läsläge är på. För att stänga av denna funktion, gå till Inställningar > Skärm > Läsläge.</string>
     <string name="sim_added_reboot_title">SIM-kortet aktiveras när du startar om din enhet.</string>
     <string name="sim_added_reboot_confirm">Starta om</string>
-    <string name="softap_notifif_title">Hotspot \"%s\" är på</string>
+    <string name="softap_notifif_title">Internetdelning \"%s\" är på</string>
     <string name="softap_notifif_summary">%d ansluten</string>
     <string name="turn_off">Stäng av</string>
     <string name="unknown_caller">Okänt nummer</string>

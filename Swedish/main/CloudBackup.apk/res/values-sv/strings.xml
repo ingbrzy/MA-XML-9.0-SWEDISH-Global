@@ -27,13 +27,13 @@
     <string name="cloud_back_up_frequence_choice_title">Schemalägg säkerhetskopiering</string>
     <string name="cloud_back_up_frequence_long">Var 7:e dag</string>
     <string name="cloud_back_up_frequence_short">Varje dag</string>
-    <string name="cloud_back_up_share_activity_title">Upgradera Mi Kontot</string>
+    <string name="cloud_back_up_share_activity_title">Uppgradera Mi Kontot</string>
     <string name="cloud_back_up_share_activity_discription">Få mer lagringsutrymme, dagliga säkerhetskopior, och mer.</string>
     <string name="cloud_back_up_share_activity_confirm">Uppgradera</string>
     <string name="cloud_back_up_detail_discription">"Dessa kommer att säkerhetskopieras till Mi Cloud när enheten är ansluten till Wi-Fi: 
 *\u0009\u0009\u0009\u0009Appar, utseende på Hemskärmen, och bakgrundsbilder 
 *\u0009\u0009\u0009\u0009Alarm, klocka, och tidsinställningar 
-*\u0009\u0009\u0009\u0009Meddelande inställningar 
+*\u0009\u0009\u0009\u0009Notifikationsinställningar 
 *\u0009\u0009\u0009\u0009MIUI och systeminställningar 
 \"Note: Data för appar som du har installerat kommer inte att säkerhetskopieras till Mi Cloud.\""</string>
     <string name="cloud_app_no_data">Inga säkerhetskopieringar</string>
@@ -42,12 +42,13 @@
     <string name="cloud_app_backup_success">Säkerhetskopiering framgångsrikt skapat</string>
     <string name="cloud_app_check_data">Pratar med Mi Cloud…</string>
     <string name="cloud_app_no_network">Kan inte ansluta till nätverket</string>
-    <string name="button_delete">Radera</string>
+    <string name="button_delete">Ta bort</string>
     <string name="customization"><u>Skräddarsy</u></string>
+    <string name="home_hint_global_launcher">Poco Hemskärm</string>
     <string name="self_phone">Den här telefonen</string>
+    <string name="self_phone_home">Den här telefonen: %s</string>
     <string name="process_whole_recovery">Återställer \"%s\"</string>
     <string name="device_xiaomi">Mi Telefon</string>
-    <string name="device_corrupt">Mi Phone (Data är korrupt)</string>
     <string name="size_unknown">Okänd storlek</string>
     <string name="recovering">Återställer %s</string>
     <string name="start_recover">Återställa %s</string>
@@ -69,7 +70,7 @@
     <string name="desktop_downloading">Laddar ner</string>
     <string name="desktop_installing">Installerar</string>
     <string name="desktop_wait_wifi">Väntar</string>
-    <string name="desktop_failed">Misslyckades</string>
+    <string name="desktop_failed">Fel</string>
     <string name="recover_from_micloud">Återställ från Mi Cloud backup</string>
     <string name="click_try_to_restore_again">Tryck för att försöka igen</string>
     <string name="open_wifi">Sätt Wi-Fi på nu</string>
@@ -86,10 +87,10 @@
     <string name="download_settings_fail">Kunde inte ladda hem inställningar för Hemskärm</string>
     <string name="backup_fail_wifi_needed">Det gick inte att säkerhetskopiera, Wi-Fi behövs.</string>
     <string name="backup_success">Säkerhetskopiering framgångsrikt skapat</string>
-    <string name="cloud_task_in_process">Stoppa %s och ta bort denna säkerhetskopiering? Du kan inte omvända denna åtgärd.</string>
+    <string name="cloud_task_in_process">Stoppa %s och ta bort denna säkerhetskopiering? Du kan inte ångra denna åtgärd.</string>
     <string name="cloud_back_up_task">Säkerhetskopierar…</string>
     <string name="cloud_restore_task">Återställer…</string>
-    <string name="cloud_restore_from_other_device">Stoppa återställning från %s och ta bort denna säkerhetskopiering? Du kan inte omvända denna åtgärd.</string>
+    <string name="cloud_restore_from_other_device">Stoppa återställning från %s och ta bort denna säkerhetskopiering? Du kan inte ångra denna åtgärd.</string>
     <string name="back_up_task_in_process">Säkerhetskopierar…</string>
     <string name="restore_task_in_process">Återställer…</string>
     <string name="restore_task_cancelling">Avbryter…</string>
@@ -132,6 +133,8 @@
     <string name="no_account">Inte inloggad till Mi-konto.</string>
     <string name="no_backup">Hittade inga säkerhetskopior i Mi Cloud.</string>
     <string name="download_meta_failed">Kunde inte ladda data.</string>
+    <string name="home_restore_error">Kunde inte återställa Hemskärmen</string>
+    <string name="get_device_id_error">Kunde inte hämta enhets-ID</string>
     <string name="download_home_data">Laddar ner utseende på Hemskärmen…</string>
     <string name="restore_home_failed">Kunde inte återställa Hemskärmen.</string>
     <string name="arrange_restore_order">Ändrar om appar…</string>

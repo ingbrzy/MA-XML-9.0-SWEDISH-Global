@@ -18,7 +18,7 @@
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Alltid</item>
-        <item>Först när ringsignalen tystnar</item>
+        <item>Endast när ringsignalen tystnar</item>
         <item>Aldrig</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
@@ -38,7 +38,7 @@
         <item>Midwayöarna</item>
         <item>Hawaii</item>
         <item>Alaska</item>
-        <item>Pacific Time</item>
+        <item>Stillahavstid</item>
         <item>Tijuana</item>
         <item>Arizona</item>
         <item>Chihuahua</item>
@@ -55,7 +55,7 @@
         <item>Manaus</item>
         <item>Santiago</item>
         <item>Newfoundland</item>
-        <item>Brasilien</item>
+        <item>Brasilia</item>
         <item>Buenos Aires</item>
         <item>Grönland</item>
         <item>Montevideo</item>
@@ -126,7 +126,7 @@
     </string-array>
     <string-array name="aries_info">
         <item>väduren</item>
-        <item>Aries</item>
+        <item>Väduren</item>
         <item>3/21 - 4/19</item>
     </string-array>
     <string-array name="bundesliga">
@@ -135,7 +135,7 @@
     </string-array>
     <string-array name="cancer_info">
         <item>kräftan</item>
-        <item>Cancer</item>
+        <item>Kräftan</item>
         <item>6/22 - 7/22</item>
     </string-array>
     <string-array name="capricorn_info">
@@ -158,9 +158,13 @@
         <item>2 dagar innan</item>
         <item>1 vecka innan</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>tvillingarna</item>
-        <item>Gemini</item>
+        <item>Tvillingarna</item>
         <item>5/21 - 6/21</item>
     </string-array>
     <string-array name="la_liga">
@@ -169,12 +173,12 @@
     </string-array>
     <string-array name="leo_info">
         <item>lejonet</item>
-        <item>Leo</item>
+        <item>Lejonet</item>
         <item>7/23 - 8/22</item>
     </string-array>
     <string-array name="libra_info">
         <item>vågen</item>
-        <item>Libra</item>
+        <item>Vågen</item>
         <item>9/23 - 10/23</item>
     </string-array>
     <string-array name="ligue_1">
@@ -187,21 +191,21 @@
         <item>2/19 - 3/20</item>
     </string-array>
     <string-array name="repeat_choose_day">
-        <item>1</item>
-        <item>2: a</item>
-        <item>3: e</item>
-        <item>4: e</item>
-        <item>5: e</item>
-        <item>6: e</item>
-        <item>7: e</item>
-        <item>8: e</item>
+        <item>1:a</item>
+        <item>2:a</item>
+        <item>3:e</item>
+        <item>4:e</item>
+        <item>5:e</item>
+        <item>6:e</item>
+        <item>7:e</item>
+        <item>8:e</item>
         <item>9:e</item>
-        <item>10: e</item>
-        <item>11: e</item>
-        <item>12: e</item>
-        <item>13: e</item>
+        <item>10:e</item>
+        <item>11:e</item>
+        <item>12:e</item>
+        <item>13:e</item>
         <item>14:e</item>
-        <item>15: e</item>
+        <item>15:e</item>
         <item>16:e</item>
         <item>17:e</item>
         <item>18:e</item>
@@ -228,7 +232,7 @@
         <item>Jan</item>
         <item>Feb</item>
         <item>Mars</item>
-        <item>Apr</item>
+        <item>April</item>
         <item>Maj</item>
         <item>Juni</item>
         <item>Juli</item>
@@ -261,8 +265,8 @@
     </string-array>
     <string-array name="repeat_countdown">
         <item>Aldrig</item>
-        <item>Månadsvis</item>
-        <item>Årlig</item>
+        <item>Varje månad</item>
+        <item>Varje år</item>
     </string-array>
     <string-array name="repeat_frequency_spinner">
         <item>dag</item>
@@ -272,12 +276,12 @@
     </string-array>
     <string-array name="sagittarius_info">
         <item>skytten</item>
-        <item>Sagittarius</item>
+        <item>Skytten</item>
         <item>11/23 - 12/21</item>
     </string-array>
     <string-array name="scorpio_info">
         <item>skorpionen</item>
-        <item>Scorpio</item>
+        <item>Skorpionen</item>
         <item>10/24 - 11/22</item>
     </string-array>
     <string-array name="serie_a">
@@ -286,19 +290,19 @@
     </string-array>
     <string-array name="taurus_info">
         <item>oxen</item>
-        <item>Taurus</item>
+        <item>Oxen</item>
         <item>4/20 - 5/20</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
         <item>3 timmar innan</item>
         <item>4 timmar innan</item>
-        <item>5 timmar före</item>
+        <item>5 timmar innan</item>
         <item>6 timmar innan</item>
         <item>1 dag innan</item>
     </string-array>
     <string-array name="virgo_info">
         <item>jungfrun</item>
-        <item>Virgo</item>
+        <item>Jungfrun</item>
         <item>8/23 - 9/22</item>
     </string-array>
     <string-array name="week_header_name">

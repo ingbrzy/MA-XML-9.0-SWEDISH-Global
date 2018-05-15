@@ -9,12 +9,12 @@
         <item quantity="one">Ta bort %1$d bakgrund?</item>
     </plurals>
     <plurals name="editing_mode_title">
-        <item quantity="other">%1$d valda</item>
-        <item quantity="one">%1$d vald</item>
+        <item quantity="other">%1$d objekt valda</item>
+        <item quantity="one">%1$d objekt valt</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">sida %1$d, %2$d appar</item>
-        <item quantity="one">sida %1$d, %2$d app</item>
+        <item quantity="other">Sida %1$d, %2$d appar.</item>
+        <item quantity="one">Sida %1$d, %2$d app.</item>
     </plurals>
     <plurals name="uninstall_dialog_title_multi_format">
         <item quantity="other">Avinstallera %1$d appar?</item>
@@ -26,6 +26,6 @@
     </plurals>
     <plurals name="uninstall_result_multi_succeeded">
         <item quantity="other">%1$d appar avinstallerade</item>
-        <item quantity="one">%1$d app avinstallerade</item>
+        <item quantity="one">%1$d app avinstallerad</item>
     </plurals>
 </resources>

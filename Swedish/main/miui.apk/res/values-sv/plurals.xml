@@ -53,8 +53,8 @@
         <item quantity="one">Om en halvtimma</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d min sedan</item>
-        <item quantity="one">1 min sedan</item>
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">1 minut sedan</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minuter sedan</item>

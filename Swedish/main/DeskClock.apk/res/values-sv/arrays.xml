@@ -29,10 +29,24 @@
         <item>25 minuter</item>
         <item>30 minuter</item>
     </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
     <string-array name="volume_button_setting_entries">
         <item>Gör inget</item>
         <item>Snooze</item>
         <item>Stäng av</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="alarm_in_furture">
         <item>Alarm om mindre än 1 minut</item>
@@ -46,7 +60,7 @@
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>En gång</item>
-        <item>Dagligen</item>
+        <item>Varje dag</item>
         <item>Arbetsdagar</item>
         <item>Lediga dagar</item>
         <item>Mån till fre</item>
@@ -54,7 +68,7 @@
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>En gång</item>
-        <item>Dagligen</item>
+        <item>Varje dag</item>
         <item>Mån till fre</item>
         <item>Anpassad</item>
     </string-array>

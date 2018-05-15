@@ -3,10 +3,10 @@
     <string name="paused_waiting_for_network">Väntar på nätverk</string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_single_downloading">Laddar ned %1$s</string>
-    <string name="download_filesize_unknown">Unknown</string>
+    <string name="download_filesize_unknown">Okänd</string>
     <string name="app_label">Nedladdningar</string>
     <string name="permlab_downloadManager">Få tillgång till Nedladdningshanteraren.</string>
-    <string name="permdesc_downloadManager">Tillåt appen att få tillgång till nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>
+    <string name="permdesc_downloadManager">Tillåt appen att få tillgång till Nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>
     <string name="permlab_downloadManagerAdvanced">Avancerade funktioner för Nedladdningar.</string>
     <string name="permdesc_downloadManagerAdvanced">Tillåt appen att få tillgång till nedladdningshanteraren och använda den för att ladda ner filer. Skadliga appar kan använda detta för avbryta nedladdningar och få tillgång till privat information.</string>
     <string name="permlab_downloadCompletedIntent">Skicka notifikationer för nedladdningar.</string>
@@ -35,7 +35,7 @@ Tryck %s för att starta nedladdningen nästa gång du är ansluten till Wi-Fi n
     <string name="button_queue_for_wifi">Kö</string>
     <string name="button_cancel_download">Avbryt</string>
     <string name="button_start_now">Börja nu</string>
-    <string name="download_remaining">%s kvar</string>
+    <string name="download_remaining">%s återstår</string>
     <string name="download_no_application_title">Kan inte öppna filen</string>
     <string name="root_downloads">Nedladdningar</string>
     <string name="download_queued">Köad</string>

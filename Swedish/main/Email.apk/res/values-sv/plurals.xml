@@ -9,8 +9,8 @@
         <item quantity="one">%1$d oläst</item>
     </plurals>
     <plurals name="confirm_archive_conversation">
-        <item quantity="other">Arkiv dessa %1$d konversationer?</item>
-        <item quantity="one">Arkiv arkivera det här samtalet?</item>
+        <item quantity="other">Arkivera dessa %1$d meddelande?</item>
+        <item quantity="one">Arkivera detta meddelande?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">Radera %1$d konversationer?</item>
@@ -29,7 +29,7 @@
         <item quantity="one">%d valda</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">&lt;b>%1$d&lt;/b> arkiveras.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> arkiverade.</item>
         <item quantity="one">&lt;b>%1$d&lt;/b> arkiverad.</item>
     </plurals>
     <plurals name="conversation_deleted">
@@ -45,24 +45,24 @@
         <item quantity="one">+%1$d andra personer</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">%1$d dämpad</item>
-        <item quantity="one">%1$d dämpad.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> dämpad</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> dämpad.</item>
     </plurals>
     <plurals name="conversation_not_important">
         <item quantity="other">&lt;b>%1$d&lt;/b>" meddelanden som tagits bort från 'viktig' mapp"</item>
         <item quantity="one">&lt;b>%1$d&lt;/b>" borttagen från 'viktig' mapp"</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">%1$d borttagen från mappen \"spam\"</item>
-        <item quantity="one">%1$d borttagen från mappen \"spam\"</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> borttagen från mappen \"spam\"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> borttagen från mappen \"spam\"</item>
     </plurals>
     <plurals name="conversation_phished">
         <item quantity="other">&lt;b>%1$d&lt;/b> Meddelanden rapporteras som skräppost</item>
         <item quantity="one">&lt;b>%1$d&lt;/b> Meddelande rapporteras som skräppost</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">%1$d markerad som spam skräppost</item>
-        <item quantity="one">%1$d markerad som spam skräppost</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> markerad som spam skräppost</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> markerad som spam skräppost</item>
     </plurals>
     <plurals name="day">
         <item quantity="other">%d dagar</item>
@@ -89,8 +89,8 @@
         <item quantity="one">Dölj %1$d bilaga</item>
     </plurals>
     <plurals name="local_search_result">
-        <item quantity="other">%s resultera i synkroniserade meddelanden</item>
-        <item quantity="one">%s resultera i synkroniserade meddelanden</item>
+        <item quantity="other">%s resultat i synkroniserade meddelanden</item>
+        <item quantity="one">%s resultat i synkroniserade meddelanden</item>
     </plurals>
     <plurals name="month">
         <item quantity="other">%d månader</item>
@@ -101,7 +101,7 @@
         <item quantity="one">%1$d kvarstående bilaga</item>
     </plurals>
     <plurals name="move_conversation">
-        <item quantity="other">Flytta konversationer</item>
+        <item quantity="other">Flytta %1$d konversationer</item>
         <item quantity="one">Flytta konversation</item>
     </plurals>
     <plurals name="new_incoming_messages_many">
@@ -118,11 +118,11 @@
     </plurals>
     <plurals name="quick_reply_hint">
         <item quantity="other">Svara på %1$d personer</item>
-        <item quantity="one">Svara på %1$d person</item>
+        <item quantity="one">Svar på %1$d person</item>
     </plurals>
     <plurals name="remote_search_result">
-        <item quantity="other">%s resultera i alla konton</item>
-        <item quantity="one">%s resultera i alla konton</item>
+        <item quantity="other">%s resultat i alla konton</item>
+        <item quantity="one">%s resultat i alla konton</item>
     </plurals>
     <plurals name="show_messages_read">
         <item quantity="other">%1$d äldre meddelanden</item>

@@ -92,11 +92,11 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">AI Kamera</string>
+    <string name="pref_camera_ai_scene_title">AI kamera</string>
     <string name="pref_camera_front_ai_scene_entry_on">AI kamera</string>
     <string name="pref_camera_front_ai_scene_entry_off">AI kamera är avstängd</string>
-    <string name="ai_scene_mode_use_hint_text">"Öppna Ai-Scene för kameran, identifiera bildscenen för dig 
- och optimera bilden baserat på scenen"</string>
+    <string name="ai_scene_mode_use_hint_text">"AI kamera upptäcker scenarier automatiskt
+och optimerar dina foton baserat på denna information"</string>
     <string name="pref_camera_coloreffect_entry_none">Normal</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Färg pop</string>
@@ -143,6 +143,9 @@
     <string name="portait_effect_entry_maze">Labyrint</string>
     <string name="portait_effect_entry_cool">Mynta</string>
     <string name="portait_effect_entry_blackwhite">B&amp;W</string>
+    <string name="portait_effect_entry_story">Berättelse</string>
+    <string name="portait_effect_entry_riddle">Gåta</string>
+    <string name="portait_effect_entry_movie">Film</string>
     <string name="pref_camera_touchafaec_entry_off">Av</string>
     <string name="pref_camera_touchafaec_entry_on">På</string>
     <string name="pref_camera_multilevel_entry_lowest">Lägsta</string>
@@ -243,6 +246,7 @@
     <string name="pref_camera_video_duration_entry_120">Ingen gräns</string>
     <string name="pref_camera_zsl_entry_off">Av</string>
     <string name="pref_camera_zsl_entry_on">På</string>
+    <string name="pref_camera_facedetection_title">Ansiktsigenkänning</string>
     <string name="camera_facedetection_sub_option_hint">Experimentell funktion</string>
     <string name="pref_camera_hand_night_title">HHT</string>
     <string name="camera_settings_label">Kamera</string>
@@ -411,6 +415,7 @@
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">NORMAL</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">SVAGT LJUS</string>
+    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Porträttläge</string>
     <string name="pref_camera_portrait_mode_entry_off">Porträttläge av</string>
     <string name="pref_camera_portrait_mode_entry_on">Porträttläge på</string>
@@ -419,7 +424,8 @@
     <string name="portrait_mode_too_far_hint">Placera objekt inom 2,5 meter</string>
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
- och för fram personerna förgrunden."</string>
+ och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -434,6 +440,7 @@
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -486,7 +493,7 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
     <string name="user_agree">Samtycker</string>
-    <string name="do_not_remind_me">Visa ej igen</string>
+    <string name="do_not_remind_me">Visa inte igen</string>
     <string name="user_notice_identify_summary_format">"Genom att använda denna tjänsten, godkänner du Xiaomi's %1$s och %2$s."</string>
     <string name="user_notice_title">Villkor</string>
     <string name="install_confirmed">Installera</string>
@@ -503,4 +510,6 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
 om du roterar din telefon"</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+    <string name="pref_camera_asd_popup_title">Meddela när blixten behövs</string>
+    <string name="pref_video_captrue_ability_title">Ta bilder under inspelning</string>
 </resources>

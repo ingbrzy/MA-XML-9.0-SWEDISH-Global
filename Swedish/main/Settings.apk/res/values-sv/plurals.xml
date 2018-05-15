@@ -36,6 +36,14 @@
         <item quantity="other">%d appar tillåts att starta automatiskt</item>
         <item quantity="one">%d app tillåts att starta automatiskt</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d appar får ansluta till nätverket</item>
+        <item quantity="one">%d app får ansluta till nätverket</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d appar får inte ansluta till nätverket</item>
+        <item quantity="one">%d app får inte ansluta till nätverket</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d enheter</item>
         <item quantity="one">%d enhet</item>
@@ -83,6 +91,10 @@
     <plurals name="enterprise_privacy_number_packages_lower_bound">
         <item quantity="other">Minst %d appar</item>
         <item quantity="one">Minst %d app</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Begränsad anslutning för %s appar</item>
+        <item quantity="one">Begränsad anslutning för %s app</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d användare ansluten</item>
@@ -205,8 +217,8 @@
         <item quantity="one">Visa %d dolt objekt</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d snabbknappar kommer synas i meddelandepanelen</item>
-        <item quantity="one">%1$d snabbknapp kommer synas i meddelandepanelen</item>
+        <item quantity="other">%1$d snabbknappar kommer synas i Notifikationspanelen</item>
+        <item quantity="one">%1$d snabbknapp kommer synas i Notifikationspanelen</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Du är %1$d steg från att gå in i CIT.</item>

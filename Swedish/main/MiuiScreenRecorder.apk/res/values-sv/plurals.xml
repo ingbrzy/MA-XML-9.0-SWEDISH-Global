@@ -5,7 +5,7 @@
         <item quantity="one">Ta bort denna skärminspelning?</item>
     </plurals>
     <plurals name="home_title_selected">
-        <item quantity="other">Valda %1$d objekt</item>
-        <item quantity="one">Valda %1$d objekt</item>
+        <item quantity="other">%1$d objekt valda</item>
+        <item quantity="one">%1$d objekt valt</item>
     </plurals>
 </resources>

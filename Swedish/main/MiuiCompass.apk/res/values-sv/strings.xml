@@ -30,6 +30,7 @@
     <string name="direction_north_west">NW</string>
     <string name="direction_south_east">SE</string>
     <string name="direction_south_west">SW</string>
+    <string name="unit_degree">Grader</string>
     <string name="guide_toast">För att kalibrera, rör din telefon i rörelsen nedan.</string>
     <string name="mobiledata_alert_dialog_title">Varning för dataanvändning</string>
     <string name="mobiledata_alert_dialog_message">Anslut till internet för att kalibrerar höjden?</string>

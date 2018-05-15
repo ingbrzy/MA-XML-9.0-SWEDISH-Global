@@ -2,6 +2,7 @@
 <resources>
     <string name="accept">Acceptera</string>
     <string name="accept_or_deny">%1$s delade album %2$s med dej.</string>
+    <string name="actionbar_overflow_item_desc">Fler alternativ</string>
     <string name="add_automatically_alert_msg">Lägg till bilder från \"%1$s\" till detta album automatiskt?</string>
     <string name="add_automatically_alert_title">Lägg till bild automatiskt</string>
     <string name="add_secret_ensure_title">Dölj</string>
@@ -19,6 +20,7 @@
     <string name="add_to_secret_failed_with_reason">Kan inte lägga till i dolda album. %1$s.</string>
     <string name="add_to_secret_successful">Lagt till i dolda album</string>
     <string name="add_to_share_album_not_delete">Foto kan inte tas bort från Delade Album</string>
+    <string name="added_to_favorites">Tillagd i favoriter</string>
     <string name="added_to_favorites_tip">Lägger till som \"Favoritalbum\"</string>
     <string name="adding">Lägger till…</string>
     <string name="adding_recipients">Lägg till mottagare…</string>
@@ -67,7 +69,7 @@
     <string name="album_share_subtitle_normal">Delad av %1$s</string>
     <string name="album_share_subtitle_not_ready">Saknar album-information</string>
     <string name="album_share_subtitle_quitting">Avslutar…</string>
-    <string name="album_share_subtitle_requesting">Tar emot album-information…</string>
+    <string name="album_share_subtitle_requesting">Hämtar information om album…</string>
     <string name="album_share_title_new_album">Dela nya album</string>
     <string name="album_show_local_only">Visa endast lokala album</string>
     <string name="album_show_local_only_summary">Aktivera för att visa och ta bort bilder endast på enheten</string>
@@ -90,6 +92,7 @@
     <string name="app_name">Galleri</string>
     <string name="app_name_view_picture">Visa bilder</string>
     <string name="app_name_view_video">Se videoklipp</string>
+    <string name="application_icon">Appikon</string>
     <string name="apply">Tillämpa</string>
     <string name="assistant_page_label">Assistent</string>
     <string name="associate_face_album">Välj ett album</string>
@@ -109,11 +112,13 @@
     <string name="baby_album_needs_auto_backup_tip">Kan inte stänga av automatisk säkerhetskopiering för Bebisalbum</string>
     <string name="baby_album_new_photo_remind">Det finns nya bilder i ditt bebisalbum.</string>
     <string name="baby_album_setting_title">Bebisinfo</string>
+    <string name="baby_album_settings">Inställningar för Bebisalbum</string>
     <string name="baby_album_sharer_accept_dialog_msg">"Kära %1$s's %2$s,
 %3$s's %4$s delad %5$s's album tillsammans med dig"</string>
     <string name="baby_album_sharer_recommand_face">Lägg till existerande bilder av %1$s?</string>
     <string name="baby_album_sharers_page_title">Dela med familjen</string>
     <string name="baby_birthday">Födelsedag</string>
+    <string name="baby_face_desc">Bebisalbum</string>
     <string name="baby_lock_wallpaper">Bakgrund på Låsskärmen</string>
     <string name="baby_lock_wallpaper_cancelled">Ändrad till standardbakgrunden på Låsskärmen</string>
     <string name="baby_lock_wallpaper_save_settings_msg">Tillämpa nuvarande inställningar?</string>
@@ -125,6 +130,7 @@
     <string name="baby_nick_name">Smeknamn</string>
     <string name="baby_sexy">Kön</string>
     <string name="baby_suffix">bebis</string>
+    <string name="back">Bakåt</string>
     <string name="backup_automatically_summary">Säkerhetskopiera bilder och video från alla enheter till Mi Cloud. Således kan du både bläddra, sortera, redigera och dela foton och videor på alla dina enheter.</string>
     <string name="backup_automatically_title">Säkerhetskopiera automatiskt</string>
     <string name="backup_battery_low_desc">Du kan fortfarande välja att fortsätta med säkerhetskopieringen</string>
@@ -223,6 +229,8 @@
     <string name="cleaner_stop_scan">Sluta skanna</string>
     <string name="click_download_gif">Tryck för att ladda ner GIF</string>
     <string name="click_top_right">Tryck på ikonen</string>
+    <string name="close">Stäng</string>
+    <string name="close_dialog_desc">Stäng dialogruta</string>
     <string name="cloud_camera_display_name">Kamera foton</string>
     <string name="cloud_guide_auto_backup_title">Välj album för säkerhetskopiering</string>
     <string name="cloud_guide_login_title">Säkerhetskopiera bilder och videor automatiskt</string>
@@ -245,6 +253,7 @@
     <string name="cloudfolder_contain_invalidate_char">"Albumnamn kan inte innehålla '%s'"</string>
     <string name="cloudfolder_name_cannot_empty">Ange ett albumnamn</string>
     <string name="cloudfolder_name_reserved">Albumnamn är reserverad</string>
+    <string name="collage__talkback_effect">%d effekt</string>
     <string name="collage_choose">Välj</string>
     <string name="collage_margin_text">Marginaler</string>
     <string name="collage_mirror">Spegel</string>
@@ -282,6 +291,9 @@
     <string name="context_menu_add_contact">Lägg till i kontakter</string>
     <string name="context_menu_copy">Kopiera</string>
     <string name="context_menu_copy_notice">Kopierad till urklipp</string>
+    <string name="correct_photo_time">Korrekt datum för datum och tid för bilder</string>
+    <string name="correct_time_success">Korrigerad</string>
+    <string name="correct_time_tip">Korrigerar datum och tid…</string>
     <string name="create_baby_album">Skapa ett Bebisalbum</string>
     <string name="create_baby_album_dialog_msg">Skapa ett album för \"%s\"?</string>
     <string name="create_baby_album_later_toast">Skapa ett Bebisalbum närsomhelst i Inställningar</string>
@@ -295,6 +307,7 @@
     <string name="custom_select_title_quickly_share">Dela</string>
     <string name="custom_select_title_select_all">Välj alla</string>
     <string name="custom_select_title_select_item">Välj objekt</string>
+    <string name="debugging_info">Debuginfo har genererats. Tryck OK för öppna mappen.</string>
     <string name="debugging_tip">Genererar debug data</string>
     <string name="default_relation_name">Ny grupp</string>
     <string name="define_by_user">Anpassad</string>
@@ -424,6 +437,7 @@
     <string name="exit_share_in_process">Lämna album \"%s\"…</string>
     <string name="exit_share_successfully">Avslutad %1$s</string>
     <string name="exit_video_play">Avsluta</string>
+    <string name="expand_desc">Mer</string>
     <string name="expand_people">Visa fler människor</string>
     <string name="face_album_detecting_tip">Vänta lite…</string>
     <string name="face_album_empty">"Inte tillräckligt med bilder för att känna igen personer.
@@ -444,12 +458,15 @@ Ta fler bilder av dina vänner!"</string>
     <string name="face_name_edit">Redigera</string>
     <string name="face_name_input">Ange namn</string>
     <string name="face_recommend">Rekommendationer</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunde inte slutföra åtgärden</string>
     <string name="fail_to_pick_email">Ogiltig e-postadress</string>
     <string name="fail_to_sync_album">Kunde inte synkronisera album. Kolla din datakoppling och försök igen.</string>
     <string name="family_member_invitation_text">Andra familjemedlemmar</string>
+    <string name="fancy_color_desc">Färger</string>
     <string name="fast_share_auto_render">Försköna</string>
     <string name="fast_share_auto_render_finish">Förskönad</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
     <string name="filter_bi_pink">Rosa</string>
@@ -463,6 +480,7 @@ Ta fler bilder av dina vänner!"</string>
     <string name="filter_bi_young">Ung</string>
     <string name="filter_category_film">Film</string>
     <string name="filter_category_food">Mat</string>
+    <string name="filter_category_master">Master</string>
     <string name="filter_category_portrait">Porträtt</string>
     <string name="filter_category_scene">Landskap</string>
     <string name="filter_film_blackwhite">B&amp;W</string>
@@ -481,15 +499,23 @@ Ta fler bilder av dina vänner!"</string>
     <string name="filter_food_latte">Latte</string>
     <string name="filter_food_softdrink">Läsk</string>
     <string name="filter_food_wholemeal">Spannmål</string>
+    <string name="filter_master_hazy">Disigt</string>
+    <string name="filter_master_mellow">Mogen</string>
+    <string name="filter_master_memoire">Biografi</string>
+    <string name="filter_master_rise">Öka</string>
+    <string name="filter_master_somber">Dyster</string>
     <string name="filter_original">Inga</string>
     <string name="filter_people_fairytale">Barn</string>
     <string name="filter_people_heart">Känslor</string>
     <string name="filter_people_japanese">Fräsch</string>
     <string name="filter_people_maze">Labyrint</string>
     <string name="filter_people_mint">Mynta</string>
+    <string name="filter_people_movie">Film</string>
     <string name="filter_people_nature">Naturlig</string>
     <string name="filter_people_pink">Rodna</string>
+    <string name="filter_people_riddle">Gåta</string>
     <string name="filter_people_roman">Romantisk</string>
+    <string name="filter_people_story">Berättelse</string>
     <string name="filter_scene_city">Stad</string>
     <string name="filter_scene_df">Dimma</string>
     <string name="filter_scene_koizora">Kärlek</string>
@@ -502,15 +528,17 @@ Ta fler bilder av dina vänner!"</string>
     <string name="finish_fill_baby">Skapa</string>
     <string name="flash_off">Ingen blixt</string>
     <string name="flash_on">Blixt använd</string>
+    <string name="free_view_desc">3D vy</string>
     <string name="gallery_setting">Inställningar</string>
     <string name="gallery_sync_disable_toast">Synk är avstängd för galleri</string>
-    <string name="get_album_info_in_process">Få delade albums detaljer…</string>
+    <string name="get_album_info_in_process">Hämtar detaljer för delade album…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Ange</string>
-    <string name="grant_permission_text">"Gallery behöver tillgång till 
+    <string name="grant_permission_item">\"%s\"</string>
+    <string name="grant_permission_text">"Galleri behöver tillgång till 
 %s
- för att fungera normalt, tryck på \"Set\" för att gå till Tillstånd."</string>
+ för att fungera normalt, tryck på \"Tillämpa\" för att gå till Behörigheter."</string>
     <string name="grant_permission_title">Tillåt åtkomst</string>
     <string name="grant_permission_unlock_and_set">Lås upp och ställ in</string>
     <string name="has_invalid_recipient">Ogiltig mottagare: %1$s</string>
@@ -626,7 +654,7 @@ för att göra galleriet personligt"</string>
     <string name="need_to_turn_on_wlan">Anslut till Wi-Fi först</string>
     <string name="network_connected_rescan">Kan inte ansluta till nätverket</string>
     <string name="new_album_invalid_char">Namn kan inte innehålla \"%s\", fyll i en bokstav eller ett nummer.</string>
-    <string name="new_album_invalid_name">\"%s\" är ett systemalbum, vänligen döp om det.</string>
+    <string name="new_album_invalid_name">\"%s\" är ett systemalbum, vänligen byt namn på det.</string>
     <string name="new_album_invalid_prefix">Använd inte \".\" eller \"_\" i början av albumets namn.</string>
     <string name="new_relation_invalid_char">Gruppnamn kan inte innehålla “%s”. Använd bostäver, siffror eller tecken.</string>
     <string name="new_relation_invalid_name">“%s”grupp finns redan, ge denna grupp nytt namn.</string>
@@ -638,7 +666,7 @@ för att göra galleriet personligt"</string>
     <string name="no_network_connected">Inget nätverk upptäckt</string>
     <string name="not_ask_any_more">Fråga inte igen efter \"%s\" svar</string>
     <string name="not_is">Nej</string>
-    <string name="not_remind_again">Visa ej igen</string>
+    <string name="not_remind_again">Visa inte igen</string>
     <string name="not_remind_any_more">Visa inte igen</string>
     <string name="ok">OK</string>
     <string name="onekey_auto">Auto</string>
@@ -701,6 +729,7 @@ för att göra galleriet personligt"</string>
     <string name="people_mark_mode_title_no_mark_name">Välj en person</string>
     <string name="people_page_label">Människor</string>
     <string name="people_page_unname">Namnlös</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Sällskapsdjursfoton</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Foton</string>
@@ -746,6 +775,27 @@ för att göra galleriet personligt"</string>
     <string name="photo_editor_rotate">Rotera</string>
     <string name="photo_editor_saving">Sparar…</string>
     <string name="photo_editor_sticker">Klistermärke</string>
+    <string name="photo_editor_talkback_cancel">Avbryt</string>
+    <string name="photo_editor_talkback_confirm">Bekräfta</string>
+    <string name="photo_editor_talkback_crop_16_9">16:9</string>
+    <string name="photo_editor_talkback_crop_1_1">1:1</string>
+    <string name="photo_editor_talkback_crop_3_4">3:4</string>
+    <string name="photo_editor_talkback_crop_4_3">4:3</string>
+    <string name="photo_editor_talkback_crop_9_16">9:16</string>
+    <string name="photo_editor_talkback_crop_free">Gratis</string>
+    <string name="photo_editor_talkback_crop_mirror">Spegel</string>
+    <string name="photo_editor_talkback_crop_original">Original</string>
+    <string name="photo_editor_talkback_crop_rotate">Rotera</string>
+    <string name="photo_editor_talkback_doodle_arrow">Pil</string>
+    <string name="photo_editor_talkback_doodle_circular">Cirkel</string>
+    <string name="photo_editor_talkback_doodle_line">Linje</string>
+    <string name="photo_editor_talkback_doodle_path">Pensel</string>
+    <string name="photo_editor_talkback_doodle_rectangle">Rektangel</string>
+    <string name="photo_editor_talkback_effect">%d effekt</string>
+    <string name="photo_editor_talkback_eraser">Ta bort</string>
+    <string name="photo_editor_talkback_recently">Nyligen använda</string>
+    <string name="photo_editor_talkback_redo">Göra om</string>
+    <string name="photo_editor_talkback_undo">Ångra</string>
     <string name="photo_editor_text">Text</string>
     <string name="photo_page_save_uri_image_fail">Kunde inte spara till Galleri</string>
     <string name="photo_page_save_uri_image_ok">Bilder sparade till Galleri</string>
@@ -753,7 +803,7 @@ för att göra galleriet personligt"</string>
     <string name="photo_print_package_finish">Laddad</string>
     <string name="photo_print_package_installing">Laddar plug-in…</string>
     <string name="photo_save_to_msg">Sparad till %s</string>
-    <string name="photomovie_audio_custom">Lokal</string>
+    <string name="photomovie_audio_custom">Lokalt</string>
     <string name="photomovie_audio_none">Ingen</string>
     <string name="photomovie_cancel_download">Avbryt</string>
     <string name="photomovie_delete_disable">Du behöver minst 3 bilder för att skapar ett klipp.</string>
@@ -795,6 +845,8 @@ för att göra galleriet personligt"</string>
     <string name="picker_title_specify_format_one">Välj %d bild</string>
     <string name="picker_title_unlimit">Välj bilder</string>
     <string name="places_album_empty_title">Bilder kan sorteras med avseende på plats</string>
+    <string name="play_gif_desc">Spela upp GIF</string>
+    <string name="play_video_desc">Spela upp video</string>
     <string name="preparing_data">Vänta lite…</string>
     <string name="projection_cancel">Avbryt</string>
     <string name="projection_checkbox_text">Kom ihåg denna skärm</string>
@@ -819,7 +871,20 @@ för att göra galleriet personligt"</string>
     <string name="recovery_merge">Slå ihop</string>
     <string name="recovery_merge_or_rename">Slå ihop album</string>
     <string name="recovery_merge_or_rename_message">Det finns ett existerande album med detta namn. Sammanfoga nu?</string>
-    <string name="recovery_rename">Döpa om</string>
+    <string name="recovery_rename">Byt namn</string>
+    <string name="refocus_desc">Fokusera igen</string>
+    <string name="refocus_discard_confirm_message">Spara ändringar?</string>
+    <string name="refocus_discard_negative_btn">Ta bort</string>
+    <string name="refocus_discard_positive_btn">Spara</string>
+    <string name="refocus_photo_not_support">Kan inte göra göra bilden oskarp</string>
+    <string name="refocus_save_cancel">Avbryt</string>
+    <string name="refocus_save_title">Välj format</string>
+    <string name="refocus_save_to_photo">Spara som bild</string>
+    <string name="refocus_save_to_video">Spara som video</string>
+    <string name="refocus_saving">Sparar…</string>
+    <string name="refocus_title">Oskärpa</string>
+    <string name="refocus_type_static">Nivå för oskärpa</string>
+    <string name="refocus_type_video">Ljusspår</string>
     <string name="relation_text_empty_alert">Lägg till relationsinfo</string>
     <string name="relation_text_family">Familjemedlem</string>
     <string name="relation_text_father">Fader</string>
@@ -906,6 +971,7 @@ för att göra galleriet personligt"</string>
     <string name="search_setting_title">Hitta bilder i Galleri</string>
     <string name="search_syncing">Synkroniserar data, återkom om ett ögonblick</string>
     <string name="search_title_album">Album</string>
+    <string name="search_title_app_screenshot">Appskärmbild</string>
     <string name="search_title_history">Sökhistorik</string>
     <string name="search_title_location">Platser</string>
     <string name="search_title_more">Mer</string>
@@ -914,6 +980,9 @@ för att göra galleriet personligt"</string>
     <string name="search_title_recommend">Rekommenderad</string>
     <string name="search_title_suggestion">Förslag</string>
     <string name="search_title_tag">Objekt</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Söker efter projektor…</string>
     <string name="secret_album_card_description">Bästa platsen för alla dina små hemligheter</string>
     <string name="secret_album_card_title">Försök dolda album</string>
@@ -934,8 +1003,11 @@ för att göra galleriet personligt"</string>
     <string name="see_ignore_faces">Visa personer du har ignorerat</string>
     <string name="select_item_face">"Är detta '%s'?"</string>
     <string name="select_origin_tip">Originalfil (%s)</string>
+    <string name="send_file_beautify_failed">Kunde inte dela</string>
     <string name="send_multiple_files_hint_format">Skicka (%s)</string>
     <string name="send_public_url">Skicka album URL</string>
+    <string name="send_secret_file_failed">Kunde inte dela</string>
+    <string name="send_secret_file_space_low">Inte tillräckligt med lagringsutrymme</string>
     <string name="send_too_many_files_error">Kan skicka upp till %d objekt åt gången</string>
     <string name="set_as_baby_lock_wallpaper">Använd som bakgrund på Låsskärmen</string>
     <string name="set_as_wallpaper_description">Denna bild är en miniatyr, ladda originalet?</string>
@@ -951,6 +1023,7 @@ för att göra galleriet personligt"</string>
     <string name="share">Dela</string>
     <string name="share_album">Dela album</string>
     <string name="share_album_needs_auto_upload_tip">Kan inte stänga av säkerhetskopiering för delade album</string>
+    <string name="share_album_qr_code">QR-kod Album</string>
     <string name="share_by_email_start">Dela %1$s i bakgrunden</string>
     <string name="share_by_email_successfully">Delad %1$s</string>
     <string name="share_public_url_text">Jag har delat albumet %1$s med dej. Se det på %2$s</string>
@@ -1136,7 +1209,9 @@ för att göra galleriet personligt"</string>
     <string name="video_not_exist">Video existerar inte</string>
     <string name="view_by_gallery_tip">MIUI Galleri</string>
     <string name="view_face_album">Visa album</string>
+    <string name="view_more_face_desc">Visa fler människor</string>
     <string name="view_queuing_status">Kolla status</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Välkommen till Mi Cloud</string>
     <string name="where_is_barcode">Var är QR-koden?</string>
     <string name="who_is_this">Vem är det?</string>
