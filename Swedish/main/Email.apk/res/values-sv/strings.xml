@@ -818,10 +818,8 @@ to få påminnelser om betalningar och resor"</string>
     <string name="recognize_hotel_other_money">Andra kostnader %1$s</string>
     <string name="recognize_hotel_reverse_date">Checka in före %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Rum</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Hotellbokning</string>
     <string name="recognize_hotel_user_names">Gäst</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Resor-inställningar</string>
     <string name="recognize_ticket_air_notification_content">Njut av din flygresa!</string>
     <string name="recognize_ticket_air_notification_title">Flyg %3$s (%1$s/%2$s) kommer att lyfta snart. Dubbelkolla flyginformation.</string>
