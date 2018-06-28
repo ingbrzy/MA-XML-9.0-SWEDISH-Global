@@ -8,6 +8,10 @@
         <item quantity="other">%d objekt blockerade</item>
         <item quantity="one">%d objekt blockerade</item>
     </plurals>
+    <plurals name="articles_updated_amount">
+        <item quantity="other">%1$d objekt uppdaterade för dig</item>
+        <item quantity="one">%1$d objekt uppdaterade för dig</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Ta bort %d objekt?</item>
         <item quantity="one">Ta bort %d objekt?</item>
@@ -15,14 +19,6 @@
     <plurals name="find_on_page_matches">
         <item quantity="other">%d träffar</item>
         <item quantity="one">%d träff</item>
-    </plurals>
-    <plurals name="last_num_days">
-        <item quantity="other">Senaste %d dagar</item>
-        <item quantity="one">Senaste %d dag</item>
-    </plurals>
-    <plurals name="matches_found">
-        <item quantity="other">%1$d av %2$d</item>
-        <item quantity="one">1 träff</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">En ny sida kommer automatiskt skapas efter %d sekunder</item>
@@ -43,6 +39,10 @@
     <plurals name="suggest_access_item_singer_pop">
         <item quantity="other">%d populära låtar</item>
         <item quantity="one">%d populär låt</item>
+    </plurals>
+    <plurals name="transfer_prompt">
+        <item quantity="other">Spela upp video i %1$d andra</item>
+        <item quantity="one">Spela upp video i %1$d andra</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d valda</item>
@@ -65,12 +65,16 @@
         <item quantity="one">Ta bort %1$d objekt från historiken?</item>
     </plurals>
     <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d uppdateringar är tillgängliga.</item>
-        <item quantity="one">%1$d uppdatering är tillgänglig.</item>
+        <item quantity="other">%1$d uppdateringar tillgängliga.</item>
+        <item quantity="one">%1$d uppdatering tillgänglig.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minuter återstår</item>
         <item quantity="one">%d minut återstår</item>
+    </plurals>
+    <plurals name="videos_updated_amount">
+        <item quantity="other">%1$d objekt uppdaterad för dig</item>
+        <item quantity="one">%1$d objekt uppdaterade för dig</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Klart</item>

@@ -92,6 +92,14 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="other">"%d minuter "</item>
         <item quantity="one">"%d minut "</item>
     </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">Om %1$d minuter</item>
         <item quantity="one">Om %1$d minut</item>
@@ -173,8 +181,8 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">%d app tillåts att starta automatiskt</item>
     </plurals>
     <plurals name="hints_auto_start_disable_title">
-        <item quantity="other">%d appar tillåts inte starta automatiskt</item>
-        <item quantity="one">%d app tillåts inte starta automatiskt</item>
+        <item quantity="other">%d appar tillåts inte att starta automatiskt</item>
+        <item quantity="one">%d app tillåts inte att starta automatiskt</item>
     </plurals>
     <plurals name="hints_apps_perm_count">
         <item quantity="other">%d behörigheter</item>
@@ -217,7 +225,7 @@ Om du aktiverar mobildata igen kan din operatör debitera dig ytterligare avgift
         <item quantity="one">%d trojan,</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
-        <item quantity="other">Farlig appar: %d</item>
+        <item quantity="other">Farliga appar: %d</item>
         <item quantity="one">Farlig app: %d</item>
     </plurals>
     <plurals name="white_list_trojan_header">

@@ -20,6 +20,14 @@
         <item quantity="other">%d objekt</item>
         <item quantity="one">%d objekt</item>
     </plurals>
+    <plurals name="trans_failed_summary">
+        <item quantity="other">Det gick inte att överföra %d objekt. Tryck för visa detaljer.</item>
+        <item quantity="one">Det gick inte att överföra %d objekt. Tryck för visa detaljer.</item>
+    </plurals>
+    <plurals name="trans_item_failed_summary">
+        <item quantity="other">Det gick inte att överföra %d objekt.</item>
+        <item quantity="one">Det gick inte att överföra %d objekt.</item>
+    </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d minuter</item>
         <item quantity="one">%d minut</item>

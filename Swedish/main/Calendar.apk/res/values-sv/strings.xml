@@ -34,7 +34,7 @@
     <string name="delete_this_event_title">Ta bort denna händelse?</string>
     <string name="directory_searching_fmt">Söker %s…</string>
     <string name="discard_label">Avbryt</string>
-    <string name="does_not_repeat">Aldrig (Engångshändelse)</string>
+    <string name="does_not_repeat">Aldrig (engångshändelse)</string>
     <string name="done">Retur</string>
     <string name="edit_event_all_day_label">Hela dagen</string>
     <string name="edit_event_calendar_label">Kalender</string>
@@ -67,8 +67,8 @@
     <string name="modify_event">Ändra bara denna händelse</string>
     <string name="month_view">Månad</string>
     <string name="monthly">Varje månad</string>
-    <string name="monthly_on_day">Månadsvis (Samma datum)</string>
-    <string name="monthly_on_day_count">Varje månad (%1$s %2$sen)</string>
+    <string name="monthly_on_day">Månadsvis (samma datum)</string>
+    <string name="monthly_on_day_count">Varje månad (%1$s %2$sdagen)</string>
     <string name="more_string">+%1$s</string>
     <string name="new_event_dialog_label">Ny händelse</string>
     <string name="new_event_dialog_option">Ny händelse</string>
@@ -209,7 +209,7 @@
     <string name="edit_event_tab_birthday">Födelsedag</string>
     <string name="edit_event_tab_countdown">Nedräkning</string>
     <string name="edit_event_tab_event">Händelse</string>
-    <string name="email_install_hint">Epost har avinstallerats. Installera Epost igen för återställa kalenderkonton eller skapa en ny.</string>
+    <string name="email_install_hint">E-post har avinstallerats. Installera E-post igen för återställa kalenderkonton eller skapa en ny.</string>
     <string name="english_premium_league">Premier league</string>
     <string name="event_account">Konto</string>
     <string name="event_action_delete">Ta bort</string>
@@ -244,7 +244,7 @@
     <string name="insert_event_dialog_btn_negative">Nej</string>
     <string name="insert_event_dialog_btn_positive">Ja</string>
     <string name="insert_event_dialog_message">Lägga till händelse i kalendern?</string>
-    <string name="insert_event_dialog_title">Uppmärksamhet</string>
+    <string name="insert_event_dialog_title">Uppmärksamma</string>
     <string name="insert_event_toast_add_failed">Kunde inte lägga till</string>
     <string name="insert_event_toast_add_success">Händelse skapad</string>
     <string name="install_email_app">Installera E-post</string>

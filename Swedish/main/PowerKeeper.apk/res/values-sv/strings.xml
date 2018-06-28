@@ -9,10 +9,7 @@
     <string name="power_config_apps">Batterisparare</string>
     <string name="app_list_title">Välj appar</string>
     <string name="power_hide_mode_app_list_summary">Sparar ström i bakgrunden</string>
-    <string name="enable_hide_mode">Aktivera batterisparläge</string>
-    <string name="disable_hide_mode">Stäng av Batterisparare</string>
     <string name="about_hide_mode">Om Batterisparare</string>
-    <string name="disable_hide_mode_warning">Att avaktivera Batterispararen kan öka din enhets strömförbrukning.</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="hide_system_app">Dölj systemapplikationer</string>
     <string name="scenario_policies_title">Intelligenta scenarier</string>
@@ -42,7 +39,7 @@
     <string name="extreme_power_config_mode_desc">Byt till extremläge för stänga av synkronisering, Bluetooth, GPS, NFC, dubbeltrycka, knapplampor, väck Låsskärmen för notifikationen och notifikationslampan. MIUI kommer fokusera på att spara batteriet.</string>
     <string name="empty_title_apps_container_list">Inga appar</string>
     <string name="hints_loading_text">Bara en sekund…</string>
-    <string name="config_mode_title">Bakgrundsinställningar</string>
+    <string name="config_mode_title">Inställningar för bakgrundsaktivitet</string>
     <string name="config_suggest_suffix_title">Batterispare (rekommenderas)</string>
     <string name="config_no_restrict_title">Inga restriktioner</string>
     <string name="config_restrict_function_title">Begränsa bakgrundsappar</string>
@@ -88,5 +85,5 @@ Batterisparfunktionen kommer att behandla viktiga appar selektivt."</string>
     <string name="sleepmode_privacy_content">Denna funktion kommer använda din telefons system och enhetsinformationsdata, vilket inte kommer laddas upp till servern.</string>
     <string name="sleepmode_privacy_link">Läs mer om integritet och säkerhet</string>
     <string name="sleepmode_disclaimer_cancel">Avbryt</string>
-    <string name="sleepmode_disclaimer_agree">Samtycker</string>
+    <string name="sleepmode_disclaimer_agree">Godkänn</string>
 </resources>

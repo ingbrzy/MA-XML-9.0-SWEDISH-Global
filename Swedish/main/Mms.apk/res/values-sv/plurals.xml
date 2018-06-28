@@ -13,8 +13,8 @@
         <item quantity="one">%d meddelande blev inte synkroniserade</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Ta bort %1$s valda konversation?</item>
-        <item quantity="one">Ta bort %1$s vald konversation?</item>
+        <item quantity="other">Radera %1$d valda samtal?</item>
+        <item quantity="one">Radera %1$d vald samtal?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d valda</item>
@@ -54,7 +54,7 @@
     </plurals>
     <plurals name="timed_message_expired_title">
         <item quantity="other">%d tidsinställda meddelanden har ej skickats</item>
-        <item quantity="one">%d tidsinställt meddelandet har ej skickats</item>
+        <item quantity="one">%d tidsinställt meddelande har ej skickats</item>
     </plurals>
     <plurals name="timed_message_in_total">
         <item quantity="other">(%d meddelanden)</item>

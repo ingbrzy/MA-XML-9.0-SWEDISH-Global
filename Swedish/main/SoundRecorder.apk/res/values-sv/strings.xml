@@ -145,7 +145,7 @@
     <string name="clear_records">Radera synkroniserade inspelningar</string>
     <string name="network_tip_dialog_title">Internetanslutning krävs</string>
     <string name="network_tip_dialog_content">Inspelare behöver vara ansluten till internet och kunna läsa din kontakter för att kunna fungera normalt. Godkänn?</string>
-    <string name="network_tip_dialog_ok">Samtycker</string>
+    <string name="network_tip_dialog_ok">Godkänn</string>
     <string name="network_tip_dialog_cancel">Avbryt</string>
     <string name="head_set_tip_dialog_title">Använd inbyggd mikrofon</string>
     <string name="head_set_tip_dialog_msg">Koppla ifrån din hörlurar för kunna spela in ljud med speciella förval (t ex Musik, Röst).</string>

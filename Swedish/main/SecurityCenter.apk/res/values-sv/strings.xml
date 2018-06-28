@@ -419,10 +419,10 @@ ska svara"</string>
     <string name="deleted_apps">Borttagna appar</string>
     <string name="root">Root tillgång</string>
     <string name="app_detail">Detaljer</string>
-    <string name="app_version">Version</string>
+    <string name="app_version">Version:</string>
     <string name="app_mobile">Mobil</string>
     <string name="app_wifi">Wi-Fi</string>
-    <string name="traffic_none">Inga</string>
+    <string name="traffic_none">Inget</string>
     <string name="sorted_dialog_title">Sortera efter</string>
     <string name="cancel_button">Avbryt</string>
     <string name="ok_button">OK</string>
@@ -434,6 +434,7 @@ ska svara"</string>
     <string name="managed_user_title">Alla arbetsappar</string>
     <string name="pref_about_traffic_title">Inställningar för mobildataanvändning</string>
     <string name="pref_traffic_manage_title">Dataanvändning</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
     <string name="pref_adjust_traffic_data">Ange datagräns</string>
     <string name="pref_category_title_other">Ytterligare inställningar</string>
@@ -683,7 +684,7 @@ Under tiden du kalibrerar kommer MIUI skicka ett meddelande till din operatör f
     <string name="roaming_limit_dialog_message">Daglig roaming data gräns nådd.</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">Tillåt mobildata roaming?</string>
-    <string name="dialog_roaming_warning_message">Operatören debiterar dig en avgift när du aktiverar internationell dataroaming. Slå på ändå?</string>
+    <string name="dialog_roaming_warning_message">Operatören kan debitera dig en avgift när du aktiverar internationell dataroaming. Slå på ändå?</string>
     <string name="dialog_roaming_warning_checkbox">Visa inte igen</string>
     <string name="dialog_roaming_warning_ok">Aktivera</string>
     <string name="title_limit_traffic_per_day">Daglig gräns för dataanvändning</string>
@@ -900,7 +901,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="cpu_usage_android_system">Androidsystem</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre än 1 minut</string>
     <string name="cpu_usage_view_action_btn_text">Tryck för att visa</string>
-    <string name="cpu_usage_app_bg_restrict_title">Bakgrundsinställningar</string>
+    <string name="cpu_usage_app_bg_restrict_title">Inställningar för bakgrundsaktivitet</string>
     <string name="cpu_usage_app_bg_restrict_default">Auto (Rekommenderat)</string>
     <string name="cpu_usage_app_bg_restrict_no_limit">Begränsa inte</string>
     <string name="cpu_usage_app_bg_restrict_partly">Efter %s</string>
@@ -921,7 +922,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="optimize_result_header_view_summary">Hastighetsökning</string>
     <string name="optimize_result_available_memory_info">Tillgängligt minne</string>
     <string name="optimize_result_title_uninstall_apps">Appar</string>
-    <string name="om_settings_title">Optimeringsinställningar</string>
+    <string name="om_settings_title">Inställningar</string>
     <string name="om_settings_lock_app_manage">Låsta appar</string>
     <string name="om_settings_lock_app">Låsta appar</string>
     <string name="om_settings_speed_up_auto">Automatisk hastighetsökning</string>
@@ -957,6 +958,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denna app kan sakta ner
 din enhet"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallera %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstallera denna appen för att lösa problem med batterianvändningen.</string>
     <string name="om_ill_proc_type_wakelock_title">Denna appen blockerar strömsparläge och drar mycket batteri</string>
@@ -1015,6 +1017,7 @@ din enhet"</string>
     <string name="usage_type_data_send">Mobildata skickad</string>
     <string name="usage_type_no_coverage">Tid utan signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skärm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1293,7 +1296,7 @@ din enhet"</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">Varning för publikt Wi-Fi</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Du är ansluten till ett publikt Wi-Fi-nätverk som kan vara osäkert. Se till att din betalning är skyddad innan du slutför den.</string>
     <string name="sc_warning_updater_not_found">Det gick inte att hitta appen Uppdaterare.</string>
-    <string name="sp_background_risk_dialog_title">Uppmärksamhet</string>
+    <string name="sp_background_risk_dialog_title">Uppmärksamma</string>
     <string name="sp_background_risk_dialog_summary">, Kontrollera och åtgärda betalningsproblem.</string>
     <string name="sp_background_risk_type_wifi">Detta Wi-Fi-nätverk är farlig</string>
     <string name="sp_background_risk_type_messaging">Systemets meddelande-app har ersatts</string>
@@ -1360,6 +1363,7 @@ din enhet"</string>
     <string name="menu_text_networkassistants">Dataanvändning</string>
     <string name="menu_text_networkassistants_remain">%s kvar</string>
     <string name="menu_text_networkassistants_danger">%s över</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1371,7 +1375,7 @@ din enhet"</string>
     <string name="menu_text_power_manager">Batterianvändning</string>
     <string name="menu_text_power_percent_title">Batteri %s</string>
     <string name="menu_text_power_percent_title_default">Batteri</string>
-    <string name="last_check_canceled">Tidigare skanning avbröts</string>
+    <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="examination_score_100">Allt ser bra ut!</string>
     <string name="examination_score_80_100">Några objekt kan optimeras</string>
     <string name="examination_score_80_60">Några objekt kan optimeras</string>
@@ -1399,8 +1403,8 @@ din enhet"</string>
     <string name="title_virus_no">Virus hittade</string>
     <string name="title_virus_yes">Inga virus hittade</string>
     <string name="summary_virus">Ta bort virus för att göra din enhet säker</string>
-    <string name="title_permission_no">Tillståndshanterare avstängd</string>
-    <string name="title_permission_yes">Tillståndshanterare påslagen</string>
+    <string name="title_permission_no">Behörighetshanterare avstängd</string>
+    <string name="title_permission_yes">Behörighetshanterare påslagen</string>
     <string name="summary_permission">Undvik oönskade betalningar och skydda din personliga data</string>
     <string name="title_mms_no">Meddelandefilter är avstängt</string>
     <string name="title_mms_yes">Meddelandefilter är påslaget</string>
@@ -1455,7 +1459,7 @@ din enhet"</string>
     <string name="hints_virus_app_list_item_summary">app</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
     <string name="hints_loading_text">Laddar…</string>
-    <string name="activity_title_auto_start_manager">Autostart</string>
+    <string name="activity_title_auto_start_manager">Starta automatiskt</string>
     <string name="activity_title_permission_manager">Behörigheter</string>
     <string name="activity_title_other_permission_manager">Andra behörigheter</string>
     <string name="activity_title_root_manager">Root åtkomst</string>
@@ -1467,7 +1471,7 @@ din enhet"</string>
     <string name="virus_ad_icon_text">Annons</string>
     <string name="activity_title_apps_manager">Appar</string>
     <string name="activity_title_permissions_manager">Behörigheter</string>
-    <string name="dialog_title_auto_start_declare">Om autostart</string>
+    <string name="dialog_title_auto_start_declare">Om starta automatiskt</string>
     <string name="dialog_msg_auto_start_declare">Vissa appar kan inkorrekt indikera att MIUI har förhindrat dem från att starta. Kontrollera behörigheter för individuella appar under Inställningar > Appar.</string>
     <string name="button_text_known">OK</string>
     <string name="empty_title_perm_apps">Inga appar har denna behörighet.</string>
@@ -1477,7 +1481,7 @@ din enhet"</string>
     <string name="confirm_prompt_all_permission">Fråga efter behörighet för alla appar?</string>
     <string name="show_system_app">Visa systemapplikationer</string>
     <string name="hide_system_app">Dölj systemapplikationer</string>
-    <string name="about_autostart">Om autostart</string>
+    <string name="about_autostart">Om starta automatiskt</string>
     <string name="permission_action_accept">Acceptera</string>
     <string name="permission_action_prompt">Meddela</string>
     <string name="permission_action_reject">Neka</string>
@@ -1498,12 +1502,12 @@ din enhet"</string>
     <string name="button_text_next_step_timer">Nästa steg (%d)</string>
     <string name="toast_root_apply_accept">Rootåtkomst tillåten till %s</string>
     <string name="toast_root_apply_reject">Nekade rootåtkomst för %s</string>
-    <string name="menu_item_app_permissions_control">Tillståndshanterare</string>
+    <string name="menu_item_app_permissions_control">Behörighetshanterare</string>
     <string name="menu_item_control_app_permissions">Tillfråga dig innan appar kan läsa dina kontakter, se samtalshistorik, ändra systeminställningar, eller få tillgång till kameran och andra enhetsresurser</string>
     <string name="menu_item_install_debug_package">Installera debug-paket</string>
     <string name="permission_close_permission_control_dialog_title">Avaktivera?</string>
-    <string name="permission_close_permission_control_dialog_msg">När tillståndshanteraren är avstängd kommer inte appar fråga om tillgång till att lästa kontakter, se samtalshistorik, ändra systeminställningar, eller tillgång till kameran och andra enhetsresurser.</string>
-    <string name="permission_permission_control_closed_desc_dialog_title">Tillståndshanterare</string>
+    <string name="permission_close_permission_control_dialog_msg">När Behörighetshanterare är avstängd kommer inte appar fråga om tillgång till att lästa kontakter, se samtalshistorik, ändra systeminställningar, eller tillgång till kameran och andra enhetsresurser.</string>
+    <string name="permission_permission_control_closed_desc_dialog_title">Behörighetshanterare</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Appar kommer inte fråga efter tillstånd att läsa dina kontakter, se samtalshistorik, ändra systeminställningar, eller tillgång till kameran och andra enhetsresurser. Du kan aktivera den här funktionen i Tillståndsinställningar.</string>
     <string name="scanning_bar_number">%d%%</string>
     <string name="hints_scanning_text">Skannar…</string>
@@ -1513,7 +1517,7 @@ din enhet"</string>
     <string name="pm_auto_start_by_system">Starta appar</string>
     <string name="pm_auto_start_by_system_event">Tillåt appar att startas automatiskt</string>
     <string name="pm_auto_start_by_other">Utlöst start</string>
-    <string name="pm_auto_start_by_other_app">Tillåt appen att startas av andra appar</string>
+    <string name="pm_auto_start_by_other_app">Tillåt att appen kan startas av andra appar</string>
     <string name="pm_auto_start_proc_is_running">Kör</string>
     <string name="empty_app">Inga appar</string>
     <string name="pm_remember_choice">Kom ihåg mitt val</string>
@@ -1553,7 +1557,7 @@ din enhet"</string>
     <string name="title_data_flow">Kontroll mobildata</string>
     <string name="summary_data_flow">Kontrollera mobildataanvändning för att undvika ytterligare avgifter</string>
     <string name="title_telecom_operator">Autojustera</string>
-    <string name="summary_telecom_operator">Hämta månadsvis din dataanvändning från din operatör</string>
+    <string name="summary_telecom_operator">Hämta din dataanvändning månadsvis från din operatör</string>
     <string name="title_flow_verify">Jämför beräkning</string>
     <string name="summary_never_flow_verify">Numret har inte verifierats hos din operatör</string>
     <string name="title_flow_verify_failed">Har inte kunnat kalibrera 5 dagar i rad</string>
@@ -1677,7 +1681,7 @@ din enhet"</string>
     <string name="button_text_clear">Rensa</string>
     <string name="antivirus_main_activity_back">Tillbaka</string>
     <string name="toast_removed_from_virus_white_list">Borttagen från undantag. Objektet kommer skannas nästa gång.</string>
-    <string name="long_click_dialog_title">Uppmärksamhet</string>
+    <string name="long_click_dialog_title">Uppmärksamma</string>
     <string name="long_click_dialog_summary">Håll resultaten i listan för att lägga till dem till undantag</string>
     <string name="button_text_let_me_select">Jag förstår</string>
     <string name="toast_add_virus_white_list_no_need_repeat">Undantag viruset redan finns</string>
@@ -1704,9 +1708,9 @@ din enhet"</string>
     <string name="start_downloading_app">Startar nedladdning: %1$s</string>
     <string name="clear_immediately">Städa nu</string>
     <string name="title_of_app_manage">Appar</string>
-    <string name="tips_of_app_manage">Radera sällan använda program för att spara minne</string>
-    <string name="title_of_auto_launch_manage">Autostart</string>
-    <string name="tips_of_auto_launch_manage">Förhindra sällan använda appar ifrån att starta automatiskt</string>
+    <string name="tips_of_app_manage">Spara lagringsutrymme genom att ta bort appar som sällan används</string>
+    <string name="title_of_auto_launch_manage">Starta automatiskt</string>
+    <string name="tips_of_auto_launch_manage">Förhindra appar som sällan används ifrån att starta automatiskt</string>
     <string name="close">Stäng</string>
     <string name="clear_garbage">Rensa skräp för att frigöra utrymme</string>
     <string name="booster_immediately">Boosta</string>
@@ -1734,6 +1738,7 @@ din enhet"</string>
     <string name="card_main_deepclean_wechat_action">Rensa</string>
     <string name="card_main_sectool_title">Verktyg</string>
     <string name="card_main_monthreport_action">Visa</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Testa nätverk</string>
     <string name="card_main_netcheck_summary">Testa anslutningen för nätverksproblem</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1750,8 +1755,8 @@ din enhet"</string>
     <string name="card_main_private_space_title">Sekundärt utrymme</string>
     <string name="card_main_private_space_summary">Att använda det Sekundära utrymmet är som att ha två enheter</string>
     <string name="card_main_private_space_action">Skapa</string>
-    <string name="card_main_xspace_title">Dual appar</string>
-    <string name="card_main_xspace_summary">Skapa dubbla konton appar</string>
+    <string name="card_main_xspace_title">Dual Apps</string>
+    <string name="card_main_xspace_summary">Skapa dubbla konton för appar</string>
     <string name="card_main_xspace_action">Skapa</string>
     <string name="card_main_overscroll_tips">Säkerhet bäst</string>
     <string name="card_main_gamebooster_title">Speloptimering</string>
@@ -1774,6 +1779,7 @@ din enhet"</string>
     <string name="ac_notification_contentTitle">Skydda appar med Applås</string>
     <string name="ac_pre_notification_contentTitle">Prova Applås</string>
     <string name="ac_post_notification_contentTitle">Aktivera Applås</string>
+    <string name="midrop_post_notification_contentTitle">Behöver du överföra filer?</string>
     <string name="notification_masked_item">Dölj notifikationer</string>
     <string name="lock_mode_title">Låsinställningar</string>
     <string name="after_the_lock_screen">Lås appar tillsammans med skärmen</string>
@@ -1783,6 +1789,7 @@ din enhet"</string>
     <string name="ac_notification_contentText">Tryck för att aktivera</string>
     <string name="ac_pre_notification_contentText">Skydda din personliga information</string>
     <string name="ac_post_notification_contentText">Få skydd på systemnivå</string>
+    <string name="midrop_post_notification_contentText">Testa Mi Drop. Det är snabbt och reklamfritt.</string>
     <string name="notification_masked_subtitle">Dölj notifikationer från appar med Applås</string>
     <string name="ac_enter_applock">Gå in i Applås</string>
     <string name="ac_mask_all_apps">Dölj för alla appar</string>
@@ -1868,7 +1875,7 @@ din enhet"</string>
     <string name="lockscreen_access_pattern_start">Mönster startat</string>
     <string name="lockscreen_access_pattern_cleared">Mönster rensat</string>
     <string name="lockscreen_access_pattern_cell_added">Cell tillagd</string>
-    <string name="lockscreen_access_pattern_detected">Möster färdigt</string>
+    <string name="lockscreen_access_pattern_detected">Mönster slutfört</string>
     <string name="applock_add_account_setting">Konto &amp; integritet</string>
     <string name="applock_add_account_info">Lägg till ditt Mi-Konto för att kunna återställa lösenordet om du skulle glömma det.</string>
     <string name="applock_exit_account_info">Kontot kommer automatiskt tas bort när du loggar ut</string>
@@ -1952,7 +1959,7 @@ din enhet"</string>
     <string name="bind_xiaomi_account_cancel">Avbryt</string>
     <string name="bind_xiaomi_account_confirm">Lägg till</string>
     <string name="password_promotion_title">Lägg till Mi-Konto</string>
-    <string name="password_forget_pattern_title">Uppmärksamhet</string>
+    <string name="password_forget_pattern_title">Uppmärksamma</string>
     <string name="password_forget_pattern_reset">Återställ</string>
     <string name="password_forget_pattern_message">På grund av säkerhetsorsakser, kan du bara nollställa lösenordet efter fabriksåterställning. Tryck för att nollställa.</string>
     <string name="password_forget_pattern_message_none">Apparna är inte låsta. Du kan återställa ditt lösenord.</string>
@@ -1967,20 +1974,20 @@ din enhet"</string>
     <string name="add_game_notification_summary">Tryck för att starta &amp; Öka prestanda</string>
     <string name="app_manager_title">Hantera appar</string>
     <string name="app_manager_uninstall">Avinstallera</string>
-    <string name="app_manager_bipartition">Dubbla appar</string>
+    <string name="app_manager_bipartition">Dual Apps</string>
     <string name="app_manager_perm">Behörigheter</string>
     <string name="app_manager_app_update">Uppdateringar</string>
     <string name="app_manager_details_storage_title">Lagring</string>
     <string name="app_manager_details_traffic_title">Dataanvändning</string>
     <string name="app_manager_details_electric_title">Batteri</string>
     <string name="app_manager_card_permission_title">Behörigheter</string>
-    <string name="app_manager_permission_startself_title">Autostart</string>
+    <string name="app_manager_permission_startself_title">Starta automatiskt</string>
     <string name="app_manager_permission_manager_title">Behörigheter</string>
     <string name="app_manager_permission_notify_title">Notifikationer</string>
     <string name="app_manager_permission_power_saving_title">Batterisparare</string>
-    <string name="app_manager_default_open_title">Rensa standard</string>
-    <string name="app_manager_default_close_summary">Inga standardvärden är satta.</string>
-    <string name="app_manager_default_open_summary">Du har valt att använda denna app som standard för vissa åtgärder.</string>
+    <string name="app_manager_default_open_title">Rensa standardappar</string>
+    <string name="app_manager_default_close_summary">Används inte standardapp.</string>
+    <string name="app_manager_default_open_summary">Appen används som standardapp för vissa åtgärder.</string>
     <string name="app_manager_app_version_name">Version:</string>
     <string name="app_manager_unstall_application">Avinstallera</string>
     <string name="app_manager_force_stop_dlg_title">Tvinga avslutning?</string>
@@ -1989,9 +1996,9 @@ din enhet"</string>
     <string name="app_manager_dlg_cancel">Avbryt</string>
     <string name="app_manager_show_detail_infos">Visa alla</string>
     <string name="app_manager_start_by">Startad av %s</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation av en dual app kommer ta bort all applikationsdata för alla instanser av appen.</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av den Dual app kommer tas bort samt all applikationsdata.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera dual app?</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation av en Dual App kommer ta bort all applikationsdata.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av Dual Apps kommer tas bort samt all applikationsdata.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera Dual App?</string>
     <string name="app_manager_appupdate_remind">Meddela om uppdateringar</string>
     <string name="app_usage_never">Aldrig använd</string>
     <string name="app_usage_recently">Nyligen använd</string>
@@ -2053,7 +2060,7 @@ din enhet"</string>
     <string name="app_manager_disabled">Inaktiverad</string>
     <string name="app_manager_enabled">Aktiverad</string>
     <string name="app_manager_globel_perm_title">Appbehörigheter</string>
-    <string name="app_manager_globel_perm_summary">Hantera behörigheter i samband med plats, lagring, telefon, meddelanden och kontakter.</string>
+    <string name="app_manager_globel_perm_summary">Hantera behörigheter relaterade till plats, lagring, telefon, meddelanden och kontakter.</string>
     <string name="app_manager_globel_other_perm_title">Andra behörigheter</string>
     <string name="app_manager_uninstall_protected_dlg_title">Avinstallerar systemappar</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Avinstallera systemappar kan förhindra att vissa delar av MIUI fungerar korrekt. Avinstallera ändå?</string>
@@ -2079,6 +2086,7 @@ din enhet"</string>
     <string name="app_manager_open_show_all_apps_immediate">Visa alla resultat</string>
     <string name="app_manager_mobile_slot1">Mobildata (SIM 1)</string>
     <string name="app_manager_mobile_slot2">Mobildata (SIM 2)</string>
+    <string name="app_manager_details_title">Information om appen</string>
     <string name="ad_btn_default_text">Läs mer</string>
     <string name="open_activity_err">Applikationen hittades inte</string>
     <string name="low_memory_warning_dialog_title">Inte tillräckligt med lagringsutrymme</string>
@@ -2100,6 +2108,8 @@ din enhet"</string>
     <string name="gs_anto_clean_memory_whitelist">Undantag</string>
     <string name="gs_call_handsfree">Besvara samtal med hands free</string>
     <string name="gs_call_handsfree_mute">Tyst läge</string>
+    <string name="gs_gamebox">Genvägar i spel</string>
+    <string name="gs_gamebox_detail">Visa panelen för genvägar i spel</string>
     <string name="gs_forbid_autosync">Begränsa synkronisering av bakgrundsdata</string>
     <string name="gs_app_back_self_start">Batterisparare</string>
     <string name="gs_only_self_start_for_list">Begränsa bakgrundsprocesser för att spara batteri för spel</string>
@@ -2157,7 +2167,7 @@ din enhet"</string>
     <string name="application_item_disable">Begränsad</string>
     <string name="application_item_already_permission">Tillåten</string>
     <string name="man_add_application">Lägg till appar som autostartas manuellt</string>
-    <string name="power_autorun_apps_empty">Inga appar som autostartas</string>
+    <string name="power_autorun_apps_empty">Inga appar som startar automatiskt</string>
     <string name="shield_keyboard_title">Stäng av knapparna</string>
     <string name="shield_keyboard_detail">Dubbeltryck på knapparna för att aktivera dem igen</string>
     <string name="anti_disturb_msg_title">Stör ej</string>
@@ -2256,7 +2266,15 @@ din enhet"</string>
     <string name="gb_msg_quickly_answer">Tillåt snabbsvar</string>
     <string name="gb_msg_transparent_dispaly">Notifikationer med transparent bakgrung</string>
     <string name="gb_msg_completely_shielded_summary">Dölj</string>
+    <string name="gb_msg_not_shielded_summary">Visa</string>
     <string name="gb_msg_quickly_answer_summary">Snabbsvar</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="exit_dialog_homepage_optimise_message">Din enhets prestandapoäng är lägre än 80 poäng. Optimera nu?</string>
+    <string name="screenrecord_not_find">Installera den senaste versionen av Skärminspelaren och försök igen.</string>
+    <string name="gamebox_qq_not_find">Installera QQ och försök igen.</string>
+    <string name="gamebox_wechat_not_find">Installera WeChat och försök igen.</string>
+    <string name="gamebox_type_close">Visa inte</string>
+    <string name="gamebox_type_float">Fast genväg</string>
+    <string name="gamebox_type_gesture">Svep för att visa</string>
+    <string name="notify_channel_name_security">System security</string>
 </resources>

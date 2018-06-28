@@ -53,4 +53,6 @@
     <string name="show_on_keyguard">Visa på låsskärmen</string>
     <string name="theme_manager_not_supported">Temahanteraren stöds inte.</string>
     <string name="three_seconds_auto_hide">Håll på kanten efter 3 sekunder av inaktivitet</string>
+    <string name="mi_wallet_summary">Transporter kort/Mi lön/nyckel kort</string>
+    <string name="name_mi_wallet">Mi plånbok</string>
 </resources>

@@ -46,6 +46,7 @@
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="date_time_done">Klar</string>
     <string name="date_picker_dialog_title">Ange datum</string>
     <string name="time_picker_dialog_title">Ange tid</string>
@@ -65,6 +66,7 @@
     <string name="error_forbidden">Synkroniseringen har stängts av på grund av problem med ditt Mi Account.</string>
     <string name="error_not_acceptable">Synkronisering ar stängts av.</string>
     <string name="more">Mer</string>
+    <string name="empty" />
     <string name="solar_term_slight_cold">Slight Cold</string>
     <string name="solar_term_great_cold">Great Cold</string>
     <string name="solar_term_spring_begins">Spring Begins</string>
@@ -576,7 +578,7 @@
     <string name="country_name_kg">KG</string>
     <string name="country_name_uz">UZ</string>
     <string name="permlab_sendSmsNoConfirmation">Tillåt SMS-meddelanden i bakgrunden</string>
-    <string name="permdesc_sendSmsNoConfirmation">App kan skicka SMS meddelanden utan att fråga om tillåtelse. Din leverantör kan debitera dej för dessa.</string>
+    <string name="permdesc_sendSmsNoConfirmation">App kan skicka SMS meddelanden utan att fråga om tillåtelse. Din operatör kan debitera dej för dessa.</string>
     <string name="web_sso_login_message">Loggar in…</string>
     <string name="web_sso_login_fail">Du måste logga in igen</string>
     <string name="no_network">Kan inte ansluta till nätverket</string>
@@ -589,4 +591,9 @@
     <string name="actionbar_immersion_button_more_description">Mer</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
+    <string name="cancel_description">Avbryt</string>
+    <string name="confirm_description">Bekräfta</string>
+    <string name="select_all_description">Välj alla</string>
+    <string name="deselect_all_description">Välj ingen</string>
+    <string name="delete_description">Ta bort</string>
 </resources>

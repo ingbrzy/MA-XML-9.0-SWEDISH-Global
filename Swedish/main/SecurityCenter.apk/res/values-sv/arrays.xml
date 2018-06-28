@@ -25,7 +25,7 @@
     <string-array name="date_of_app_all">
         <item>Igår (data)</item>
         <item>Idag (data)</item>
-        <item>Senaste månaden (data)</item>
+        <item>Förra månaden (data)</item>
         <item>Denna månad (data)</item>
         <item>Wi-Fi som användes igår</item>
         <item>Wi-Fi som användes idag</item>
@@ -54,6 +54,11 @@
         <item>När enheten är låst eller efter en app avslutas</item>
         <item>När enheten är låst eller efter 1 minut som en app avslutas</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>Status</item>
         <item>Namn på app</item>
@@ -62,11 +67,17 @@
         <item>Installationstid</item>
     </string-array>
     <string-array name="sort_title">
-        <item>Sortera efter datum</item>
+        <item>Sortera efter status</item>
         <item>Sortera efter namn</item>
         <item>Sortera efter användningsfrekvens</item>
         <item>Sortera efter använt utrymme</item>
         <item>Sortera efter installationstid</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="title_app_info">
         <item>Installationskälla</item>

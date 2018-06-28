@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_firewall_setting">Blockeringslista</string>
     <string name="activity_not_found">Det finns ingen app som kan hantera denna åtgärd</string>
     <string name="activity_not_found_uri">Det finns ingen app som kan hantera denna åtgärd</string>
@@ -15,7 +16,7 @@
     <string name="add_slide_before">Lägg till introbildspel</string>
     <string name="add_slide_hint">Tryck för att skapa ny bild</string>
     <string name="add_smiley">Uttryckssymbol</string>
-    <string name="add_timing">Tidsinställd</string>
+    <string name="add_timing">Tidsinställt</string>
     <string name="add_to_browser_favorite_failed">Kunde inte lägga till</string>
     <string name="add_to_browser_favorite_success">Tillagd</string>
     <string name="add_video">Lägg till video</string>
@@ -51,11 +52,11 @@
     <string name="bookmark_confirm_delete_message">Ta bort markerade meddelanden från favoriter?</string>
     <string name="bookmark_empty">Inga favoritmeddelanden</string>
     <string name="bookmark_list_title">Favoriter</string>
-    <string name="button_emoji_creature">Emoji - Varelse</string>
-    <string name="button_emoji_lifestyle">Emoji - Livsstil</string>
-    <string name="button_emoji_smiley">Emoji - Smiley</string>
-    <string name="button_emoji_symbol">Emoji - Symbol</string>
-    <string name="button_emoji_text">Emoji - Text</string>
+    <string name="button_emoji_creature">Emojis - Djur</string>
+    <string name="button_emoji_lifestyle">Emojis - Livsstil</string>
+    <string name="button_emoji_smiley">Emojis - Ansikten</string>
+    <string name="button_emoji_symbol">Emojis - Symboler</string>
+    <string name="button_emoji_text">Emojis - Text</string>
     <string name="button_fold">Vik ihop</string>
     <string name="button_next_slide">Nästa</string>
     <string name="button_pre_slide">Föregående</string>
@@ -135,7 +136,9 @@
     <string name="delete_wild_sims_title">Ta bort markerade nummer</string>
     <string name="delivery_report_activity">Leveransrapport</string>
     <string name="delivery_toast_body">Meddelande mottagen av %s</string>
+    <string name="dialog_message_fake_cell_detect_error">Rätta information om detta meddelande? För att göra det behöver MIUI ladda upp telefonnumret (%1$s), innehållet i meddelandet och information om platsen till servrarna.</string>
     <string name="dialog_message_sms_report">"Spammeddelanden och information om sändaren kommer laddas upp till MIUI när du rapportera dem. De kommer endast att använda för att förbättra MIUI's spamfilter."</string>
+    <string name="dialog_title_fake_cell_detect_error">Rättning</string>
     <string name="disable_notifications_dialog_message">Stoppa duplicerade textmeddelande-notifikationer från Meddelande-appen?</string>
     <string name="disabled">Av</string>
     <string name="discard">Ignorera</string>
@@ -165,7 +168,6 @@
     <string name="error_state">Inkonsekvent</string>
     <string name="error_state_text">Statusen för trådar och mottagare är inkonsekvent. Vänligen fånga en buggrapport och rapportera via http://go/droidanizer</string>
     <string name="error_timed_msg">Ogiltig tid.</string>
-    <string name="ex_type_guide">Information</string>
     <string name="ex_type_mx">Mi Message</string>
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">Meddelandestorleksgräns har nåtts.</string>
@@ -177,6 +179,7 @@
     <string name="fail_to_view_attachment">Bilaga ej tillgänglig</string>
     <string name="failed_to_add_media">Du kan inte lägga till den här %1$s till ditt meddelande.</string>
     <string name="failed_to_resize_image">Bilden är inte storleksändrad.</string>
+    <string name="fake_cell_alert_detect_error">Detta skickades inte från falsk basstation</string>
     <string name="fake_cell_alert_hint">Detta meddelande skickades från ett annat nummer än det som visas. Var uppmärksam på SMS som innehåller ansökan om finansiering.</string>
     <string name="fake_cell_checking_hint">Kontrollera säkerhet…</string>
     <string name="fake_cell_safe_hint">Detta meddelande är säkert</string>
@@ -189,6 +192,7 @@
     <string name="file_size">Storlek:</string>
     <string name="file_title">Namn:</string>
     <string name="file_width_height">Storlek:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Nytt meddelande</string>
     <string name="forward_from">Vidarebefordra från:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -344,7 +348,7 @@
     <string name="networking_allow_continue">Tillåta</string>
     <string name="networking_allow_desc">Mi Message behöver ansluta till internet för att fungera normalt. För att kunna ge gratis meddelande- och rösttjänster, känna igen okända nummer, filtrera spam och aktivera andra funktioner, behöver Mi Message använda Gula sidorna. Tillåt Gula sidorna att ansluta till internet, hämta din position och läsa dina kontakter?</string>
     <string name="networking_allow_desc_without_mx">Mi Message behöver ansluta till internet för att fungera normalt. För att kunna känna igen okända nummer, filtrera spam och aktivera andra funktioner, behöver Mi Message använda Gula sidorna. Tillåt Gula sidorna att ansluta till internet, hämta din position och läsa dina kontakter?</string>
-    <string name="networking_allow_title">Uppmärksamhet</string>
+    <string name="networking_allow_title">Uppmärksamma</string>
     <string name="new_message">Skapa meddelande</string>
     <string name="new_message_arrived">Du har ett nytt meddelande</string>
     <string name="new_phrase">Lägg till svar</string>
@@ -357,6 +361,9 @@
     <string name="no_subject_view">(Inget ämne)</string>
     <string name="non_english_subject_limit">Gräns 13 tecken</string>
     <string name="nosend_message">Skicka ej</string>
+    <string name="notification_channel_description">Meddelanden från meddelanden</string>
+    <string name="notification_channel_name">Meddelanden</string>
+    <string name="notification_copy">Kopiera OTP</string>
     <string name="notification_failed_multiple">%s meddelande kunde inte skickas</string>
     <string name="notification_failed_multiple_title">Meddelanden inte skickade</string>
     <string name="notification_multiple">[%s]</string>
@@ -537,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Skicka meddelande</string>
     <string name="send_sms">Skicka meddelande</string>
     <string name="send_to">Till:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Skickades kl: %1s</string>
     <string name="sent_label">"Skickat: "</string>
     <string name="service_message_not_found">Meddelande utgånget eller otillgängligt</string>
@@ -621,11 +629,12 @@
     <string name="title_show_photo_word">Tilldela kontaktbilder</string>
     <string name="title_show_sms_template">Kolla SMS för verifieringskoder</string>
     <string name="title_show_sms_template_in">Kolla SMS för OTP</string>
-    <string name="title_timed_message_dialog">Sätt tidsinställt meddelande</string>
+    <string name="title_timed_message_dialog">Konfigurera tidsinställt meddelande</string>
     <string name="title_use_gsm_alphabet">Används GSM alfabet</string>
     <string name="to_address_label">"Till: "</string>
     <string name="to_label">"Till "</string>
     <string name="to_send_wrapper">Kommer att skicka vid %s</string>
+    <string name="toast_pending_hangup_msg">Meddelandet skickas när samtalet avslutas</string>
     <string name="today">Idag</string>
     <string name="too_many_attachments">Kan inte överskrida %1$s bifogade objekt. Endast det första %2$s kommer att läggas till.</string>
     <string name="too_many_recipients">Meddelandet har för många mottagare (%1$s). Man kan inte ha fler än %2$s mottagare.</string>
@@ -650,11 +659,12 @@ Försök har gjorts: %s."</string>
     <string name="unsupported_media_format">Formatet %1$s stöds inte.</string>
     <string name="url_fraud_dangerous_alert">"Webbplatsen du försöker komma åt kan vara farlig. Den kan skada din enhet och information. Gå vidare ändå?
 %s"</string>
-    <string name="url_fraud_risky_alert">"Webbplatsen du försöker komma åt kan vara farlig. Gå vidare ändå?
-%s"</string>
+    <string name="url_fraud_risky_alert">"Hemsida %s du försöker besöka kan vara farligt. Besök ändå? 
+"</string>
     <string name="url_fraud_title">Webbplats kan vara falsk</string>
     <string name="url_fraud_visit"><u>Gå vidare ändå</u></string>
     <string name="url_result_safe">Denna URL är säker</string>
+    <string name="url_scan_again">Kontrollera igen</string>
     <string name="url_scanning">Kontrollerar URL…</string>
     <string name="verification_code_list_title">Verifieringskod</string>
     <string name="view">Visa</string>
@@ -666,5 +676,4 @@ Försök har gjorts: %s."</string>
     <string name="wild_msg_title">Välj telefonnummer att synkronisera</string>
     <string name="yes">OK</string>
     <string name="yesterday">Igår</string>
-    <string name="fake_cell_detection_entry">Falsk basstation</string>
 </resources>

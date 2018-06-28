@@ -57,6 +57,7 @@
     <string name="save_pic_success">Sparade bild till %s</string>
     <string name="save_pic_fail">Kunde inte spara bild, kontrollera ditt SD-kort</string>
     <string name="pic_not_exist">Bilden finns inte</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Välj produkt</string>
     <string name="michat_skillset_business_type_title">Välj tjänst</string>
     <string name="michat_close_text">Chatt avslutad</string>
@@ -254,6 +255,12 @@
     <string name="feedback_status_jira_comment">Lägg till kommentar</string>
     <string name="feedback_status_forum_reply">Svara</string>
     <string name="feedback_status_submit_attachment">Inskickat</string>
+    <string name="feedback_status_collect_log_failed">Kunde inte hämta loggar</string>
+    <string name="feedback_status_submit_feedback_failed">Kunde inte skicka feedback</string>
+    <string name="feedback_status_save_log_info_failed">Kunde inte ändra bifogade URL</string>
+    <string name="feedback_status_submit_bbs_failed">Det gick inte att skicka in feedbackinnehåll</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Det gick inte att få bifogad URL</string>
+    <string name="feedback_status_upload_log_failed">Det gick inte att ladda upp bilagor</string>
     <string name="feedback_status_change_notification_title">Din rapports framsteg har uppdaterats</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s förslag \"%2$s\"</string>
@@ -301,7 +308,7 @@
     <string name="module_tools">Systemverktyg</string>
     <string name="module_desktop">Hemskärm &amp; inställningar</string>
     <string name="module_security">Säkerhet &amp; Mi Cloud</string>
-    <string name="module_data">Lagring &amp; Dual appar</string>
+    <string name="module_data">Lagring &amp; Dual Apps</string>
     <string name="module_finance">Finans &amp; Mi Wallet</string>
     <string name="module_more">Mer</string>
     <string name="module_search">Sök</string>

@@ -35,6 +35,8 @@
     <string name="mx_sub_dspt_provision_with_voip">Internetsamtal</string>
     <string name="phone_number_required_dspt_provision">"Denna tjänst kräver ditt telefonnummer. "</string>
     <string name="sync_dspt_provision">"Synkronisera dina foto, kontakter, anteckningar, och mycket mer genom alla din enheter eller nå dem "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan starta eller stanna denna funktion närsomhelst i Inställningar.
 "</string>
     <string name="sync_dspt_entrance_provision">"Synka dina bilder, kontakter, samtalshistorik, och meddelanden över alla dina enheter. Få tillgång till saker du synkar från vilken webbläsare som helst på %s. "</string>
@@ -45,6 +47,8 @@
     <string name="sync_dspt_entrance_provision_skip">Hoppa över detta steg</string>
     <string name="sync_dspt_entrance_provision_network">Denna app behöver vara ansluten till Internet för att fungerar normalt. För att synkronisera data behövs mobildataanslutning och att Wi-Fi är aktiverat.</string>
     <string name="find_device_dspt_provision">Om du tappar bort din enhet så kan du gå till %s för att lokalisera, låsa eller återställa den. Du kan slå på eller av denna funktion när som helst i Inställningar.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Om du byter SIM kort kommer ett meddelande automatiskt skickas för att återaktivera denna funktion.</string>
     <string name="mx_dspt_provision">"Mi Meddelande låter dig skicka meddelanden till andra MIUI enheter utan att bli debiterad när du är inloggad på Wi-Fi.
 
@@ -63,7 +67,7 @@ Denna funktion krypterar och sänder din enhets ID till MI's servrar."</string>
     <string name="user_agreement_p5">"
 "</string>
     <string name="user_agreement_link">Mi Clouds användarvillkor</string>
-    <string name="user_agreement_content">Genom att använda den här funktionen samtycker du till %s.</string>
+    <string name="user_agreement_content">Genom att använda den här funktionen godkänner du %s.</string>
     <string name="user_agreement_title">Mi Clouds användarvillkor</string>
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="loading">Vänta lite…</string>
@@ -73,7 +77,7 @@ Denna funktion krypterar och sänder din enhets ID till MI's servrar."</string>
     <string name="find_device_operation_failure_rpc">Kunde inte genomför åtgärden på grund av RPC-fel.</string>
     <string name="enable_find_device_success">Hitta enheten är påslagen.</string>
     <string name="activate_find_device_success">Hitta enhet har aktiverats.</string>
-    <string name="enable_find_device_error">Det går inte att slå på Hitta enhet. %1$s</string>
+    <string name="enable_find_device_error">Det går inte att aktivera Hitta enhet. %1$s</string>
     <string name="disable_find_device_error">Det går inte att stänga av Hitta enhet. \"%1$s</string>
     <string name="find_device_error_network">Kontrollera din anslutning och försök igen.</string>
     <string name="find_device_error_server">Server fel</string>
@@ -126,7 +130,7 @@ Denna funktion krypterar och sänder din enhets ID till MI's servrar."</string>
     <string name="micloud_all_sub_2_sms">2 vanliga SMS kommer att skickas för att aktivera ditt SIM-kort. Du kommer att debiteras av operatören.</string>
     <string name="micloud_all_sub_2_intl_sms">2 internationella SMS kommer att skickas för att aktivera ditt SIM-kort. Du kommer att debiteras av operatören.</string>
     <string name="micloud_all_sub_1_sms_1_intl_sms">2 SMS (vanligt och internationellt) kommer att skickas för att aktivera ditt SIM-kort. Du kommer att debiteras av operatören.</string>
-    <string name="micloud_all_sub_resend_sms">"När du slår på 'Hitta enheten', kan ett aktiverings SMS skickas efter att du bytt SIM-kort."</string>
+    <string name="micloud_all_sub_resend_sms">"När du aktiverar 'Hitta enheten', kan ett aktiveringsSMS skickas efter att du bytt SIM-kort."</string>
     <string name="micloud_sync_prompt_for_no_gallery_sync">Kontakter, Kalender, och anteckningar synkroniseras automatiskt. Gå till inställningar för Mi Cloud för att synkronisera fler objekt.</string>
     <string name="sync_item_calllog_title">Synkronisera samtalshistorik</string>
     <string name="sync_item_calllog_summary">Synkronisera inspelningar av samtal gjorda och mottagna från denna telefon</string>
@@ -138,7 +142,7 @@ Denna funktion krypterar och sänder din enhets ID till MI's servrar."</string>
     <string name="micloud_main_sync_pending">Väntar på synkronisering</string>
     <string name="micloud_main_sync_pause">Synkronisering pausad</string>
     <string name="micloud_main_detail">Visa detaljer</string>
-    <string name="micloud_main_network_abnormal">Kan inte ansluta till nätverket</string>
+    <string name="micloud_main_network_abnormal">Kontrollera dina nätverksinställningar</string>
     <string name="micloud_main_sync_init">Hämtar information</string>
     <string name="micloud_main_see_unsynced_data">Kontrollera datan som ska synkroniseras</string>
     <string name="micloud_main_syncing">Synkroniserar…</string>
@@ -270,7 +274,7 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Visa detaljer</string>
     <string name="micloud_find_device_guide_title">Logga in på &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> för att hitta, låsa eller rensa din enhet. Detta hjälper dig kanske att hitta din enhet om den är försvunnen.&lt;br /> Om du tappar bort din enhet kan du kontakta säkerhetsfunktionen av de appar du använder ofta (t ex. Alipay, WeChat, QQ) för att skydda dina konton på &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_sms_alert">Ett SMS kan behövas för att aktivera funktionen. Din operatör kommer fakturera dig för SMS:et. När du byter SIM-kort kommer ett SMS skickas automatiskt för att reaktivera denna funktion.</string>
-    <string name="micloud_find_device_guide_button">Slå på Hitta enhet</string>
+    <string name="micloud_find_device_guide_button">Aktivera Hitta enhet</string>
     <string name="micloud_find_device_guide_progress">Startar hitta enhet…</string>
     <string name="micloud_find_device_verify_button">Återaktivera Hitta enhet</string>
     <string name="micloud_find_device_verify_progress">Återaktivera Hitta enhet…</string>
@@ -279,6 +283,7 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
     <string name="micloud_find_device_opened">Hitta enheten påslagen</string>
     <string name="micloud_find_device_open_fail">Kunde inte starta Hitta enheten</string>
     <string name="micloud_find_device_opened_content">Hitta din enhet på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Kunde inte avaktivera Hitta Enhet</string>
     <string name="micloud_find_device_close_fail">Kunde inte stänga av Hitta enhet</string>
     <string name="micloud_find_device_finish">Klar</string>
@@ -342,8 +347,10 @@ på ditt Mi Kontot för att återaktivera Mi Cloud."</string>
     <string name="micloud_main_head_menu_cloud_backup">Säkerhetskopior av Hemskärmen</string>
     <string name="micloud_main_head_menu_state_open">På</string>
     <string name="micloud_main_head_menu_state_close">Av</string>
-    <string name="micloud_main_head_menu_state_unavailable">Ej tillgänglig</string>
+    <string name="micloud_main_head_menu_state_unavailable">Stöds inte</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Funktionen Hitta enhet är inte tillgänglig i det Sekundära utrymmet, du kan använda den i Primära utrymmet.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betalningar med fingeravtryck</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

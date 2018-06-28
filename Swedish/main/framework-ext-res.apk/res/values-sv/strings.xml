@@ -39,7 +39,7 @@
     <string name="translation_query_error_network">Kunde inte ladda ner filer, kolla nätverket och försök igen</string>
     <string name="translation_more">Mer</string>
     <string name="autofill">Fyll i automatiskt</string>
-    <string name="auto_start_warning_title">Tillåt %s för att starta automatiskt?</string>
+    <string name="auto_start_warning_title">Tillåt %s att starta automatiskt?</string>
     <string name="auto_start_warning_allow">Tillåt</string>
     <string name="auto_start_warning_deny">Neka</string>
     <string name="call_record_sample_prefix_miui">Ring</string>
@@ -113,10 +113,6 @@
     <string name="maml_component_customization_title">Inställningar</string>
     <string name="default_name">Standard</string>
     <string name="resource_select">Välj</string>
-    <string name="group_name_contacts">Kontakter</string>
-    <string name="group_name_friends">Vänner</string>
-    <string name="group_name_family">Familj</string>
-    <string name="group_name_coworkers">Kollegor</string>
     <string name="fp_nav_center_action_choose_dlg_title">Aktivera snabbtryck</string>
     <string name="fp_nav_center_action_choose_dlg_msg">Du kan gå tillbaka till Hemskärmen genom att trycka lätt på Hemknappen. Du kan slå på eller stänga av denna funktion i Inställningar > Ytterligare inställningar > Knappar > Tryck på Hemknappen för att gå tillbaka till Hemskärmen.</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Aktivera</string>
@@ -137,7 +133,7 @@
     <string name="security_permission_wifi_and_data_opened_text">Wi-Fi och mobildata påslagna</string>
     <string name="xspace_resolver_activity_title">Välj app</string>
     <string name="user_switching_dialog_text">Byter…</string>
-    <string name="activity_package_delete_confirm_title">Uppmärksamhet</string>
+    <string name="activity_package_delete_confirm_title">Uppmärksamma</string>
     <string name="button_text_cancel">Avbryt</string>
     <string name="button_text_delete">Avinstallera</string>
     <string name="button_text_next_step_timer">Nästa (%d)</string>
@@ -171,4 +167,9 @@
     <string name="switching_tv">Byter…</string>
     <string name="switch_desc_tv">Två utrymmen. En enhet.</string>
     <string name="switch_brand_desc_tv">Säkerhetsfunktioner tillhandahålls av Spaces Mobile</string>
+    <string name="miui_forbid_poweroff_when_device_locked">Kan inte stänga av, enheten är låst.</string>
+    <string name="super_resolution_maintain_tips">Superupplösning är inte tillgängligt ännu.</string>
+    <string name="wifi_assistant_wifi_no_internet">Detta Wi-Fi har inte tillgång till Internet</string>
+    <string name="wifi_assistant_wifi_no_internet_detail">Tryck för att visa detaljer</string>
+    <string name="resolver_app_recommend_flag">Rekommenderad</string>
 </resources>

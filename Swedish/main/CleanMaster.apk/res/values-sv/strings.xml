@@ -3,6 +3,7 @@
     <string name="menu_clear">Rensa</string>
     <string name="menu_view">Visa i mapp</string>
     <string name="menu_install">Installera den här appen</string>
+    <string name="menu_open">Öppna</string>
     <string name="menu_add_to_white_list">Lägg till i undantag</string>
     <string name="text_optimizer">Ladda upp mappnamn</string>
     <string name="summary_optimizer">Denna funktion laddar upp mappnamn för att uppdatera Cheetah Mobiler online databas och kräver din enhets ID.</string>
@@ -35,7 +36,7 @@
     <string name="btn_text_quick_scan">Genomsök</string>
     <string name="optimizecenter_data_support_cm">Med stöd av CleanMaster</string>
     <string name="optimizecenter_data_support_tc">Powered by Xunlei</string>
-    <string name="hints_app_uninstall_residual">Städa upp restavinstallera filer?</string>
+    <string name="hints_app_uninstall_residual">Städa upp filer efter avinstallationen?</string>
     <string name="button_text_cancel">Avbryt</string>
     <string name="button_text_known">OK</string>
     <string name="button_text_cleanup">Städa upp</string>
@@ -90,6 +91,7 @@
     <string name="hints_apk_header_left">Paket</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Stora filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerade appar: %d</string>
     <string name="toast_resolve_apk_error">Lös apk fel</string>
@@ -147,7 +149,7 @@
     <string name="hints_finish_quick_cleanup_title">Städa upp %s skräp</string>
     <string name="dialog_title_load_cleanup_engine_error">Något gick snett</string>
     <string name="dialog_msg_load_cleanup_engine_error">Städmotorn har skadats.</string>
-    <string name="dialog_title_add_white_list_error">Uppmärksamhet</string>
+    <string name="dialog_title_add_white_list_error">Uppmärksamma</string>
     <string name="dialog_msg_add_white_list_error">Kan inte lägga till den här filen till undantag</string>
     <string name="dialog_ok_add_white_list_error">Jag förstår</string>
     <string name="ok">OK</string>
@@ -166,7 +168,7 @@
     <string name="hints_quick_scanning">Genomsöker…</string>
     <string name="hints_quick_cleanuping">Optimerar…</string>
     <string name="hints_deepclean_scanning">Skannar %s</string>
-    <string name="cache_title_system_cache">Systemcachen</string>
+    <string name="cache_title_system_cache">Datacache</string>
     <string name="hints_storage_free">Fri</string>
     <string name="hints_storage_free_size">Totalt %1$s | %2$s tillgängligt</string>
     <string name="apps_sort_type_title">Sortera</string>
@@ -175,7 +177,7 @@
     <string name="dialog_title_uninstall_apps">Avinstallera</string>
     <string name="dialog_title_backup_and_uninstall_apps">Säkerhetskopiera och avinstallera</string>
     <string name="dialog_msg_uninstall_apps">Avinstallera dessa appar?</string>
-    <string name="dialog_msg_uninstall_apps_xspace">Avinstallera apparna inklusive den andra instansen av den Dubbla appen?</string>
+    <string name="dialog_msg_uninstall_apps_xspace">Avinstallera apparna inklusive den andra instansen av den Duals Apps?</string>
     <string name="dialog_msg_backup_and_uninstall_apps">Säkerhetsinstallerar och avinstallerar de valda appar?</string>
     <string name="toast_backup_is_running">Säkerhetskopoering är redan igång</string>
     <string name="toast_backup_uninstall_failed">Det gick inte att säkerhetskopiera %d appar</string>
@@ -267,7 +269,7 @@
     <string name="mainbtn_text_quick_cleanup">Rensa %s</string>
     <string name="mainbtn_text_no_trash">Hoppa över</string>
     <string name="mainbtn_text_quick_cleanup_default">Städa</string>
-    <string name="pref_title_open_optimizer_memory_scan">Skanna app minne</string>
+    <string name="pref_title_open_optimizer_memory_scan">Skanna appminne</string>
     <string name="toast_select_white_need_remove">Välj objekt att ta bort</string>
     <string name="network_not_available">Kan inte ansluta till nätverket</string>
     <string name="no_network_btn">Försök igen</string>
@@ -297,6 +299,7 @@
     <string name="downloading">Laddar ner</string>
     <string name="installing">Installerar</string>
     <string name="start_install">Installera nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Öppna i webbläsaren</string>
     <string name="title_share_link">Dela URL</string>
     <string name="connecting">Ansluter…</string>
@@ -307,15 +310,15 @@
     <string name="seton_immediately">Sätt på</string>
     <string name="notify_when">Få en notifikation när skräpstorleken når 100MB</string>
     <string name="goto_set">Ange</string>
-    <string name="virus_scan">Säkerhetssökning</string>
+    <string name="virus_scan">Virusskanning</string>
     <string name="tips_of_virus_scan">Skanna din enhet efter virus regelbundet för att hålla den säker</string>
     <string name="conn_of_function_safe">Nätverksanslutning för säkerhet</string>
     <string name="tips_of_connect">Anslut till internet för att använda Säkerhets finesserna full ut</string>
     <string name="buy_traffic_pack">Köp mer data</string>
     <string name="tips_of_traffic_pack_threshold">Köp mer data när du precis ska nå din datagräns</string>
     <string name="buy_immediately">Köpa</string>
-    <string name="title_of_auto_launch_manage">Autostart</string>
-    <string name="tips_of_auto_launch_manage">Förhindra sällan använda appar ifrån att starta automatiskt</string>
+    <string name="title_of_auto_launch_manage">Starta automatiskt</string>
+    <string name="tips_of_auto_launch_manage">Förhindra appar som sällan används ifrån att starta automatiskt</string>
     <string name="title_of_app_manage">Appar</string>
     <string name="tips_of_app_manage">Ta bort sällan använda program för att spara lagringsutrymme</string>
     <string name="title_of_traffic_notification">Data statusfältet</string>
@@ -364,7 +367,7 @@
     <string name="hints_cache_msd_title">Deltauppdatering</string>
     <string name="hints_cache_msd_desc">Ta bort deltauppdateringar kommer inte att påverka appanvändningen</string>
     <string name="hints_installed_app_never">Aldrig använd</string>
-    <string name="hints_installed_app_fewer">Sällan använd</string>
+    <string name="hints_installed_app_fewer">Sällan använda</string>
     <string name="hints_installed_app_near">Nyligen andvänts</string>
     <string name="activity_title_deep_apk">Ta bort APKs</string>
     <string name="deepclean_apk_content">Ta bort APKs eller onödiga appar</string>
@@ -517,4 +520,14 @@
     <string name="guide_virus_dialog_message">Att skanna appar och installationspaket skyddar din enhet från virus och malware. Skanna din enhet nu?</string>
     <string name="guide_virus_dialog_positive">Skanna</string>
     <string name="guide_virus_dialog_negative">Avbryt</string>
+    <string name="tips_low_storage_dialog_title">Lagringsutrymmet är snart slut</string>
+    <string name="tips_low_storage_dialog_msg_storage">Du använder 90% av ditt lagringsutrymme. Avinstallera apparna som du inte använder.</string>
+    <string name="tips_low_storage_dialog_msg_wechat">Cachen för WeChat har nått 3GB. Detta kan göra din enhet långsam. Rensa cachen för WeChat nu?</string>
+    <string name="tips_low_storage_dialog_msg_qq">Cachen för QQ har nått 3GB. Detta kan göra din enhet långsam. Rensa cachen för QQ nu?</string>
+    <string name="tips_low_storage_dialog_ok_storage">Frigör utrymme</string>
+    <string name="tips_low_storage_dialog_ok">Rensa</string>
+    <string name="tips_low_storage_dialog_cancel">Avbryt</string>
+    <string name="wechat_msg_time_long">yyyy-MM-dd</string>
+    <string name="wechat_msg_time_short">MM-dd</string>
+    <string name="wechat_video_time">%1$s:%2$s</string>
 </resources>

@@ -6,6 +6,9 @@ Storlek: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerar version %1$s
 Delta-uppdatering storlek: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring inte tillgänglig, kontrollera ditt SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunde inte starta nedladdning. Kontrollera att Hämtningar-appen fungerar normalt.</string>
     <string name="app_name">Säkerhetskopiering</string>
     <string name="local_app_name">Säkerhetskopiering</string>
@@ -27,7 +30,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="backup_hint">Håll enheten påslagen</string>
     <string name="backup_hint_onpad">Håll enheten påslagen</string>
     <string name="delete_backup_title">Ta bort säkerhetskopiering</string>
-    <string name="delete">Radera</string>
+    <string name="delete">Ta bort</string>
     <string name="cancel">Avbryt</string>
     <string name="reconnect">Anslut igen</string>
     <string name="pause">Pausa</string>
@@ -74,15 +77,15 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="mms_title">Multimedia meddelanden</string>
     <string name="wifi_title">Wi-Fi-inställningar</string>
     <string name="note_title">Anteckningar</string>
-    <string name="compute_backup_info">Hämta säkerthetskopieringsinfo…</string>
+    <string name="compute_backup_info">Hämtar säkerhetskopieringsinfo…</string>
     <string name="compute_delete_contact_info">Hämtar info…</string>
     <string name="unknown_hint">Okänd</string>
     <string name="task_progress">Framsteg</string>
     <string name="task_pending">Väntar…</string>
-    <string name="task_pre_running">Startat…</string>
+    <string name="task_pre_running">Startar…</string>
     <string name="task_post_running">Säkerhetskopierar…</string>
     <string name="task_finished">"Backats upp framgångsrikt "</string>
-    <string name="task_canceled">Backup avbruten</string>
+    <string name="task_canceled">Säkerhetskopiering avbruten</string>
     <string name="task_failed">Kunde inte säkerhetskopiera</string>
     <string name="task_canceled_local">Backup ofullständig (%s)</string>
     <string name="task_canceled_all_local">Avbruten</string>
@@ -119,9 +122,9 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="sc_precondition_failed">Du måste lägga till en e-postadress till din Mi-konto först.</string>
     <string name="sc_internal_server_error">Internt serverfel</string>
     <string name="sc_others">Ett fel uppstod</string>
-    <string name="succeed">Komplett</string>
+    <string name="succeed">Slutförd</string>
     <string name="fail">Misslyckades</string>
-    <string name="button_return">Bakåt</string>
+    <string name="button_return">Tillbaka</string>
     <string name="button_next">Nästa</string>
     <string name="button_finish">Slutför</string>
     <string name="progress_backup_hint">Säkerhetskopierar…</string>
@@ -194,7 +197,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="enable_encrypt_summery1">Logga in med ditt Mi-konto för att få tillgång till krypterade säkerhetskopior.</string>
     <string name="enable_encrypt_summery2">Dina säkerhetskopior kommer att krypteras automatiskt. Du måste logga in på ditt Mi-konto för att komma åt dem.</string>
     <string name="enable_encrypt_xiaomi_account">Denna säkerhetskopian skapades av %1$s. Att återställa, radera det aktuella kontot och logga in som %2$s.</string>
-    <string name="enable_encrypt_ok">OK</string>
+    <string name="button_got_it">OK</string>
     <string name="no_encrypt_password">Inget lösenord</string>
     <string name="enable_encrypt_fail">Krypteringsfel</string>
     <string name="read_encrypt_fail">Det gick inte att läsa krypterad backup</string>
@@ -212,7 +215,7 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="sd_not_available">Sätt SD-kort nu</string>
     <string name="never">Aldrig</string>
     <string name="every_day">Varje dag</string>
-    <string name="select_storage_location">Välj backup plats</string>
+    <string name="select_storage_location">Välj plats för säkerhetskopia</string>
     <string name="current_phone_location">Telefon</string>
     <string name="current_pad_location">Block</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
@@ -225,11 +228,14 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="restore_backup">Återställ</string>
     <string name="enable_encrypt_description">Kryptera</string>
     <string name="disable_encrypt_description">Inte kypterad</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Vänta en stund…</string>
     <string name="state_mounting">Kommer åt utrymme på router…</string>
-    <string name="abort_backup_confirm">Backup är inte klar. Sluta ändå?</string>
+    <string name="abort_backup_confirm">Säkerhetskopiering är inte klar. Sluta ändå?</string>
     <string name="abort_restore_confirm">Återställning är ej slutförst. Avsluta ändå?</string>
     <string name="feature_title_call_log">Samtalshistorik</string>
+    <string name="feature_title_contacts">Kontakter</string>
+    <string name="feature_title_sms">Meddelanden</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_account">Mi Konto</string>
     <string name="feature_title_antispam">Blockeringslista</string>
@@ -246,7 +252,12 @@ Delta-uppdatering storlek: %2$s"</string>
     <string name="err_filesystem_mount">Kan inte nå utrymmet på router</string>
     <string name="err_router_disconnected">Kolla din routers anslutning och testa igen.</string>
     <string name="err_router_files_delete">Kunde inte ta bort säkerhetskopieringsfilen på routern</string>
+    <string name="err_acquire_system_service">"Couldn't start system service."</string>
     <string name="err_not_allow">Stöds inte</string>
+    <string name="err_bakfile_not_exist">Säkerhetskopian finns inte.</string>
+    <string name="err_pkg_not_exist">Kunde inte hitta app.</string>
+    <string name="err_user_abort">Avbrutet av användaren.</string>
+    <string name="err_binder_died">Appen stoppades oväntat.</string>
     <string name="backup_is_running">Säkerhetskopierar enhet</string>
     <string name="restore_is_running">Återställer enhet</string>
     <string name="notif_backup_title">Säkerhetskopierar data</string>
@@ -282,13 +293,13 @@ Väntar på att den gamla enheten ska ansluta…"</string>
     <string name="trans_backingup_no_items">Synkroniserar…</string>
     <string name="trans_restoring">Återställer…</string>
     <string name="trans_sender_time_remained">"%s kvar.
-Stäng inte av WiFi. Håll enheterna nära varandra."</string>
-    <string name="trans_receiver_time_remained">"%s Återstår.
-Stäng inte av WiFi hotspot.
+Stäng inte av Wi-Fi.
 Håll enheterna nära varandra."</string>
-    <string name="trans_time_spent">"
-Förbrukad tid: %s"</string>
-    <string name="trans_restoring_no_items">Synkroniserar objekt</string>
+    <string name="trans_receiver_time_remained">"%s Återstår.
+Stäng inte av Wi-Fi hotspot.
+Håll enheterna nära varandra."</string>
+    <string name="trans_time_spent">Förbrukad tid: %s</string>
+    <string name="trans_restoring_no_items">Hämtar info…</string>
     <string name="trans_detail_category_sysdata">Systemdata (inklusive meddelanden, kontakter och samtalshistorik)</string>
     <string name="trans_detail_category_userdata">Appar</string>
     <string name="trans_detail_category_account">Konton och kontakter</string>
@@ -316,14 +327,14 @@ Förbrukad tid: %s"</string>
     <string name="trans_sending_completed">Sändning lyckades</string>
     <string name="trans_receiving_completed">Mottagning lyckades</string>
     <string name="trans_time_format_second">Mindre än 1 minut</string>
-    <string name="trans_progress_subdescript_transing_sender">Skickar %1$s, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_transing_sender">Skickar %1$s, %2$s slutfört</string>
     <string name="trans_progress_subdescript_transing_receiver">Ta emot %1$s, %2$s completed</string>
-    <string name="trans_progress_subdescript_transingsd_sender">Skickar filer, %s färdigt</string>
-    <string name="trans_progress_subdescript_transingsd_receiver">Tar emot filer, %s färdigt</string>
-    <string name="trans_progress_subdescript_transingsddata_sender">Skickar %1$s filer till SD-kort, %2$s färdigt</string>
-    <string name="trans_progress_subdescript_transingsddata_receiver">Mottager %1$s filer från SD-kort, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_transingsd_sender">Skickar filer, %s slutfört</string>
+    <string name="trans_progress_subdescript_transingsd_receiver">Tar emot filer, %s slutfört</string>
+    <string name="trans_progress_subdescript_transingsddata_sender">Skickar %1$s filer till SD-kort, %2$s slutförda</string>
+    <string name="trans_progress_subdescript_transingsddata_receiver">Mottager %1$s filer från SD-kort, %2$s slutförda</string>
     <string name="trans_progress_subdescript_br_sender">Säkerhetskopierar %1$s, %2$s färdigt</string>
-    <string name="trans_progress_subdescript_br_receiver">Återställer %1$s, %2$s färdigt</string>
+    <string name="trans_progress_subdescript_br_receiver">Återställer %1$s, %2$s slutförda</string>
     <string name="trans_progress_subdescript_waiting">Väntar på ta emot %s</string>
     <string name="trans_progress_subdescript_br_sender_finish">Säkerhetskopierat %s, väntar på att skicka…</string>
     <string name="trans_progress_subdescript_transing_receiver_finish">Mottaget %s, väntar på att återställa…</string>
@@ -336,6 +347,8 @@ Förbrukad tid: %s"</string>
     <string name="trans_connecting_toast">Ansluter…</string>
     <string name="trans_switching_5g">Växlar till 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Det gick inte att ansluta</string>
+    <string name="trans_open_camera_failed_title">Det gick inte att ansluta till Kameran</string>
+    <string name="trans_open_camera_failed_message">Starta om din enhet eller kontrollera om Mi Mover har behörighet att använda &lt;b>Kamera&lt;/b>.</string>
     <string name="trans_generate_qr_code_failed">Det gick inte att skapa QR-kod</string>
     <string name="trans_scan_invalid_qrcode">QR-kod ogiltig</string>
     <string name="trans_scan_qr_code_tips">Skanna QR-kod med hjälp av ny enhet</string>
@@ -349,25 +362,41 @@ Förbrukad tid: %s"</string>
 2. Öppna appen coh tryck Starta
 3. Skanna QR koden med din gamla enhet"</string>
     <string name="trans_operate_old_phone_tips2">Gå till Inställningar > Ytterligare Inställningar > Överför, Tryck[Jag är avsändare]</string>
+    <string name="trans_operate_tip_for_other_android">Öppna Mi Mover på din gamla telefon, tryck \"Starta\" och skanna QR-koden ovan.</string>
     <string name="trans_operate_reconnect_new_tips">"Vänta till den nya telefonen visar \"Anslutningen avbröts.\"
 Tryck sedan på \"Anslut igen\" för att skapa en QR-kod."</string>
     <string name="trans_operate_reconnect_old_tips">"Vänta till den gamla telefonen visar \"Anslutningen avbröts.\"
 Tryck sedan på \"Anslut igen\" för att skanna QR-koden."</string>
+    <string name="trans_generating_qrcode">Genererar QR-kod…</string>
+    <string name="trans_generate_qrcode_failed">Kunde inte generera QR-kod. Försök igen.</string>
     <string name="trans_wait_trans_data">"Anslut till den gamla enheten.
 Vänta på överföringen…"</string>
     <string name="trans_select_data">Välj objekt att senda</string>
     <string name="trans_select_data_tips">"Välj filer att överföra
 Liknande filer på den nya enheten kommer skrivas över"</string>
-    <string name="trans_select_data_no_space">"Inte tillräckligt med minne på den nya enheten
-Välj filer igen eller rensa %s utrymme på den nya enheten"</string>
+    <string name="trans_select_data_no_space">"Det finns inte tillräckligt med lagringsutrymme på den nya enheten (%s tillgängligt).
+Frigör lagringsutrymme och överför endast viktiga objekt."</string>
     <string name="trans_select_data_too_large">"Du har valt för många objekt att överföra. 
  Välj bara viktiga objekt för att överföringen snabbare."</string>
-    <string name="trans_calculating_base_size">Beräknar data storlek</string>
     <string name="trans_calculating">Beräknar…</string>
-    <string name="trans_native_no_space">"Inte tillräckligt med utrymme på den nya enheten.
-Rensa minst %s."</string>
-    <string name="trans_calculating_app_sd_size">Beräknar data storlek: %s</string>
+    <string name="trans_calculating_tip">Beräknar %s…</string>
+    <string name="trans_calculating_media_description">Mediafiler</string>
+    <string name="trans_calculating_app_sd_description">Data på SD-kort</string>
+    <string name="trans_native_no_space">"Det finns inte tillräckligt med lagringsutrymme på den gamla enheten (%s tillgängligt).
+Frigör lagringsutrymme och överför endast viktiga objekt."</string>
     <string name="trans_please_waiting">Vänta en stund…</string>
+    <string name="trans_old_phone_low_space_title">Inte tillräckligt med lagringsutrymme</string>
+    <string name="trans_old_phone_low_space_msg">Mi Mover behöver lite lagringsutrymme för att paketera den överförda datan men det ser inte ut som att det finns tillräckligt med lagringsutrymme på den gamla enheten. Frigör lagringsutrymme i appen Säkerhet och överför endast viktiga objekt.</string>
+    <string name="button_clean_garbage">Frigör utrymme</string>
+    <string name="button_quit">Avsluta</string>
+    <string name="trans_install_guide_page_title">Installera Mi Mover på din gamla telefon</string>
+    <string name="trans_install_guide_scan_install_tip">"Skanna denna QR-kod med din gamla telefon
+för att ladda ner och installera Mi Mover."</string>
+    <string name="trans_install_guide_step1_title">Steg 1</string>
+    <string name="trans_install_guide_step1_content">Skanna QR-koden med din gamla telefon för att ladda ner och installera \"Mi Mover\".</string>
+    <string name="trans_install_guide_step2_title">Steg 2</string>
+    <string name="trans_install_guide_step2_content">När installationen är slutförd, tryck på \"Starta\" nedan.</string>
+    <string name="trans_install_guide_button_start">Starta</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -391,10 +420,12 @@ Rensa minst %s."</string>
     <string name="trans_intro_desc_new">Tryck \"Jag är en mottagare\". En QR-kod kommer att genereras.</string>
     <string name="trans_intro_title_old">På en gammal telefon:</string>
     <string name="trans_intro_desc_old">Tryck \"Jag är en avsändare\". Skanna QR-koden på den nya telefonen, vänta tills Mi Mover listar ut vilken fil som ska skickas och tryck på \"Sänd\".</string>
+    <string name="trans_intro_desc_old_market">Tryck \"Starta\". Skanna QR-koden på den nya telefonen, vänta tills Mi Mover listar ut vilken fil som ska skickas och tryck på \"Sänd\".</string>
     <string name="trans_intro_question_3">%d. Vad ska jag göra om Mi Mover fastnar på ett steg?</string>
     <string name="trans_intro_desc_3">Avbryt överföringen, avsluta Mi Mover och börja om. Dupplicerade filer kommer skrivas över under den nya överföringen.</string>
     <string name="trans_intro_question_4">%d. Varför kan jag inte använda Wi-Fi under tiden överföringen genomförs?</string>
     <string name="trans_intro_desc_4">Mi Mover använder Wi-Fi för att överföra filer. Därför kan du inte ansluta till internet med Wi-Fi på någon av enheterna under tiden överföringen genomförs. Du kan fortfarande mobildata. Men på vissa nya enheter (till exempel Mi 6) kan fortfarande ansluta till internet med Wi-Fi under tiden överföringen genomförs.</string>
+    <string name="trans_intro_desc_4_market">Mi Mover använder Wi-Fi för att överföra filer. Du kan därför inte ansluta till Internet via Wi-Fi på någon av enheterna under tiden en överföring pågår. Du kan fortfarande mobildata.</string>
     <string name="trans_intro_question_5">%d. Varför berättar Mi Mover att det inte är tillräckligt med utrymme på min gamla telefon?</string>
     <string name="trans_intro_desc_5">Lagringsutrymme på gamla enheter används för att skapa överföringspaket. Se till att du har minst 500 MB - 1 GB tillgängligt utrymme på din gamla telefon innan du påbörjar en överföring.</string>
     <string name="trans_intro_question_6">%d. Varför misslyckas överföringen av vissa appar?</string>
@@ -410,8 +441,15 @@ Rensa minst %s."</string>
     <string name="trans_intro_desc_private">Mi Mover kan inte nå bilder i dolda album eftersom de är krypterade. Du kan återställa dessa bilder från Mi Cloud på din nya enhet.</string>
     <string name="trans_intro_title_multiuser">Data på sekundära utrymmet:</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kan inte nå objekt på det Sekundära utrymmet. Flytta objekten till det Primära utrymmet och starta Mi Mover där.</string>
-    <string name="trans_intro_title_multiapp">Data för Dual appar:</string>
-    <string name="trans_intro_desc_multiapp">Mi Mover överför inte data från Dubbla appar för att undvika konflikter mellan filer.</string>
+    <string name="trans_intro_title_multiapp">Data för Dual Apps:</string>
+    <string name="trans_intro_desc_multiapp">Mi Mover överför inte data från Dual Apps för att undvika konflikter mellan filer.</string>
+    <string name="trans_intro_question_9_market">%d. Feedback.</string>
+    <string name="trans_intro_desc_9_method_1_title">1. Dela din feedback med \"Feedbackappen\".</string>
+    <string name="trans_intro_desc_9_method_1_dec">Gå till Hemskärm > Verktyg > Feedback.</string>
+    <string name="trans_intro_desc_9_method_2_title">2. Skicka e-post till oss</string>
+    <string name="trans_intro_desc_9_method_2_dec">Skicka din feedback till miui-mover@xiaomi.com.</string>
+    <string name="trans_intro_desc_9_method_3_title">3. Rapportera problem via QQ</string>
+    <string name="trans_intro_desc_9_method_3_dec">Mi Movers QQ-grupp: 687938378</string>
     <string name="btn_got_it">Jag förstår</string>
     <string name="backup_security_tips_title">Säkerhetskopieringar fungerar kanske inte</string>
     <string name="backup_security_tips_message">Vissa appar kommer kanske inte bli säkerhetskopierade eller återställda.</string>
@@ -422,6 +460,10 @@ Rensa minst %s."</string>
     <string name="trans_disconnected_tips_title">Fjärrenhet frånkopplad</string>
     <string name="trans_disconnected_tips_message">Fjärrenhet frånkopplad. Anslut igen manuellt eller avbryt överföringen.</string>
     <string name="trans_button_cancel">Avbryt</string>
+    <string name="trans_success_dialog_market_comment_title">"Din nya enhet känns som din gamla nu.
+Gillade du Mi Mover?"</string>
+    <string name="trans_success_dialog_button_market_favourable_comment">Betygsätt Mi Mover</string>
+    <string name="trans_failed_details_page_title">Misslyckade överföringar</string>
     <string name="close_twice_auth_tutor">Avaktivera tvåstegsverifiering för Apple-ID</string>
     <string name="close_twice_auth_steps">Följ dessa steg för att avaktivera tvåstegsverifieringen för Apple-ID:</string>
     <string name="close_twice_auth_step_1">1. Öppna en webbläsare på en dator och gå till appleid.apple.com.</string>
@@ -434,7 +476,8 @@ Efter att ha skapat en ny säkerhetsfråga och bekräftat ditt födelsedatum kom
 https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="platform_chooser_title">Välj gammal enhet</string>
     <string name="platform_chooser_item_ios">Importera från en iOS-enhet</string>
-    <string name="platform_chooser_item_android">Importera från en Androidenhet</string>
+    <string name="platform_chooser_item_android_mi">Mi phone</string>
+    <string name="platform_chooser_item_android_others">Andra märken</string>
     <string name="icloud_need_wifi_title">Anslut till Wi-Fi</string>
     <string name="icloud_need_wifi_message">Du är inte ansluten till Wi-Fi nu. För att importera data från iCloud, anslut till Wi-Fi.</string>
     <string name="icloud_login_title">Logga in till iCloud</string>
@@ -488,6 +531,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
  ska du först skapa en iCloud backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund av kompatibilitetsproblem så kan du bara överföra delar av din data från iOS-enheter. Se till att du har skapat en iCloud backup före du börjar överföra.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importera</string>
     <string name="select_empty">Välj objekt att importera</string>
     <string name="select_item_summary_wait">Väntar…</string>
@@ -527,4 +571,36 @@ Frigör minst %s."</string>
     <string name="alert_message_restore_from_miasist">Mi PC Suite begär tillstånd att återställa objekt på din telefon. Tillåt?</string>
     <string name="alert_button_deny">Avböj</string>
     <string name="alert_button_agree_and_continue">Tillåt</string>
+    <string name="trans_open_location_button">Aktivera</string>
+    <string name="trans_open_location_title">Aktivera platstjänster</string>
+    <string name="trans_open_location_message">Aktivera platstjänster för att hämta en lista med tillgängliga Wi-Fi.</string>
+    <string name="perm_camera">Kamera</string>
+    <string name="perm_read_contacts">Läs kontakter</string>
+    <string name="perm_location">Plats</string>
+    <string name="perm_read_phone_state">Läs telefonstatus</string>
+    <string name="perm_read_call_log">Se samtalshistorik</string>
+    <string name="perm_read_sms">Läs SMS</string>
+    <string name="perm_storage">Läs och skriv på det externa lagringsutrymmet</string>
+    <string name="lack_perm_title">Behörigheter krävs</string>
+    <string name="lack_perm_msg">Mi Mover behöver följande behörigheter: &lt;b>%s&lt;/b>.</string>
+    <string name="flash_drive_backup_restore">USB-säkerhetskopieringar</string>
+    <string name="flash_drive_backup_note">"Säkerhetskopiera appar till ett USB-minne.
+Se till att USB-minnet har tillräckligt med utrymme innan du startar."</string>
+    <string name="flash_drive_backup_btn">Säkerhetskopiera till USB-minne</string>
+    <string name="flash_drive_restore_btn">Återställ från USB-minne</string>
+    <string name="usb_backup_select_data_too_large">"Valda filer är för stora. Se till att USB-minnet har tillräckligt med utrymme.
+Överför endast viktiga objekt."</string>
+    <string name="flash_drive_search_backup_files">"Söker efter säkerhetskopieringar på USB…
+Ändra inte eller byt inte namn på de säkerhetskopierade filerna."</string>
+    <string name="flash_drive_connection_failed">USB-minne frånkopplad</string>
+    <string name="storage_sd_card">SD-kort</string>
+    <string name="storage_usb">USB-minne</string>
+    <string name="usb_trans_select_data_no_space">"Endast %s är tillgängligt på ditt USB-minne.
+Frigör utrymme eller överför endast viktiga objekt."</string>
+    <string name="usb_restore_select_data_too_large">"Säkerhetskopierade filer är stora. Det en stund att återställa dem.
+Återställ endast viktiga objekt kommer gå snabbare."</string>
+    <string name="usb_trans_native_no_space">"Endast %s är tillgängligt på din enhet.
+Frigör utrymme eller gör flera mindre överföringar."</string>
+    <string name="usb_trans_old_phone_low_space_title">Inte tillräckligt med lagringsutrymme</string>
+    <string name="usb_trans_old_phone_low_space_msg">Ytterligare lagringsutrymme krävs för att spara din säkerhetskopieringar. Det finns inte tillräckligt med lagringsutrymme för att fortsätta överföringar. Du kan frigöra utrymme och ta bort onödiga filer i appen Säkerhet eller endast överföra viktiga objekt.</string>
 </resources>

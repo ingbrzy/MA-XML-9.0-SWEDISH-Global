@@ -11,7 +11,7 @@
     <string name="calendar_default_name">Standard</string>
     <string name="calendar_info">Kalenderinfo</string>
     <string name="calendar_info_error">Fel</string>
-    <string name="calendar_info_no_calendars">Ingen kalender</string>
+    <string name="calendar_info_no_calendars">Ingen kalendrar</string>
     <string name="calendar_info_events">Händelse: %1$d</string>
     <string name="calendar_info_events_dirty">Händelser: %1$d | Inte sparade: %2$d</string>
     <string name="provider_label">Kalender</string>

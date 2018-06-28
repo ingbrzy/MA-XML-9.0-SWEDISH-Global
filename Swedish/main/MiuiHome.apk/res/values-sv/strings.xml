@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Lägg till i Arbetsutrymmet</string>
     <string name="activity_not_found">Appen är inte installerad på din enhet</string>
     <string name="add_screen">Lägg till skärm</string>
+    <string name="announce_for_checked">%1$s，markerad</string>
     <string name="announce_for_choose_default_screen">Ställ in skärm %1$d som standard för Hemskärmen</string>
     <string name="announce_for_close_default_preview">Stängde standardinställningarna för Hemskärmen</string>
     <string name="announce_for_close_folder">Stängde mapp</string>
@@ -22,10 +24,13 @@
     <string name="announce_for_drop_workspace">Skärmnummer %1$d, radnummer %2$d, kolumnnummer %3$d</string>
     <string name="announce_for_edit_mode">Gick in i redigeringsläge</string>
     <string name="announce_for_edit_mode_disable">Avslutade redigeringsläge</string>
+    <string name="announce_for_move">Flytta till rad %1$d kolumn %2$d</string>
+    <string name="announce_for_move_hotseat">Flytta till dockningsplatsen %1$d</string>
     <string name="announce_for_open_default_preview">Öppnade standardinställningarna för Hemskärmen</string>
     <string name="announce_for_open_folder">Öppnade mapp %1$s</string>
     <string name="announce_for_open_launcher_menu">Öppnade menyn</string>
     <string name="announce_for_show_uninstall_dialog">Dialog för avinstallation visas. Avbryt eller bekräfta.</string>
+    <string name="announce_for_unchecked">%1$s, avmarkerad</string>
     <string name="app_already_exist">App finns redan</string>
     <string name="app_being_backup_message">Appar säkerhetskopieras</string>
     <string name="app_being_restored_message">App återställs</string>
@@ -58,6 +63,7 @@
     <string name="aqi_quality_index_light_pollution">Försiktighet</string>
     <string name="aqi_quality_index_moderate">Måttlig</string>
     <string name="aqi_quality_index_unhealthy">Ohälsosam</string>
+    <string name="backup_fail">Kunde inte backningen launcher</string>
     <string name="bad_wallpaper_source_prompt">Kan inte ladda bakgrund</string>
     <string name="buffering">Buffrar…</string>
     <string name="cancel_action">Avbryt</string>
@@ -87,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Fler appar</string>
     <string name="default_folder_title_security">System</string>
+    <string name="default_folder_title_services">Tjänster</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Verktyg</string>
     <string name="default_screen_preview_title">Tryck för att ställa in standardskärm</string>
@@ -175,6 +182,7 @@
     <string name="guide_install_app_title">Hitta och installera app?</string>
     <string name="guide_tips_editing_mode">Tryck &amp; håll för att plocka upp en widget</string>
     <string name="home_screen">Hemskärm</string>
+    <string name="icon_reorganize_channel">Ordna ikoner</string>
     <string name="image_too_small_message">Originalbilden är inte tillräckligt stor.</string>
     <string name="install">Installera</string>
     <string name="invalid_contact_shortcut">Ogiltig kontakt</string>
@@ -224,12 +232,14 @@
     <string name="normal_wallpaper">Bakgrund</string>
     <string name="notification_installed">Installerat</string>
     <string name="notification_open_button">Öppen</string>
+    <string name="notification_reset_title">Ordna ikoner framgångsrikt</string>
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Avbryt</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Avaktivera</string>
     <string name="open_personal_assistant_dialog_desc">Du kommer inte att kunna använda App vault och få sina uppdateringar. Stäng av nu?</string>
+    <string name="open_personal_assistant_dialog_desc_international">Du kommer inte att kunna använda App vault kort (lager, genvägar, etc.) och få uppdateringar när du stänga av funktionen.</string>
     <string name="open_personal_assistant_dialog_title">Avaktivera App vault</string>
-    <string name="open_personal_assistant_title">Aktivera App vault</string>
+    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ingen mer plats på Hemskärmen</string>
     <string name="permdesc_install_shortcut">Tillåt en app att lägga till genvägar utan att åtgärd från användaren.</string>
     <string name="permdesc_install_widget">Tillåt en app att lägga till widgets utan att åtgärd från användaren.</string>
@@ -260,6 +270,7 @@
     <string name="preferences_general_title">Ytterligare inställningar</string>
     <string name="preferences_title">Launcherinställningar</string>
     <string name="preferred_app_settings_not_selected">Inte vald</string>
+    <string name="quick_app">Snabb appar</string>
     <string name="recents_config_title">Senast använda appar</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Tom</string>
@@ -269,7 +280,12 @@
     <string name="recommend_apps_switch_title">Rekommenderade appar</string>
     <string name="recommend_apps_tips">Denna funktion kräver anslutning till internet för att fungera normalt. För att stänga av denna funktion, tryck på mappens namn.</string>
     <string name="recommend_loading">Laddar</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="reset_description_first_time">Du kan återställa layouten från %1$s inom 2 timmar</string>
+    <string name="reset_description_others">Du kan återställa layouten från %1$s</string>
+    <string name="reset_fail">Kunde ej återställa</string>
     <string name="reset_scene_prompt">Skärmen kommer att återställas till standardlayout.</string>
+    <string name="reset_title">Återställ</string>
     <string name="screen_cells_config_title">Hemskärmens utseende</string>
     <string name="screen_locked_toast">Hemskärmens utseende är låst.</string>
     <string name="screen_number">%d skärm</string>

@@ -4,6 +4,10 @@
         <item quantity="other">Drar %1$d objekt</item>
         <item quantity="one">Drar %1$d objekt</item>
     </plurals>
+    <plurals name="announce_for_unread">
+        <item quantity="other">%2$s oläst från %1$s</item>
+        <item quantity="one">%2$s oläst från %1$s</item>
+    </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">Ta bort %1$d bakgrunder?</item>
         <item quantity="one">Ta bort %1$d bakgrund?</item>

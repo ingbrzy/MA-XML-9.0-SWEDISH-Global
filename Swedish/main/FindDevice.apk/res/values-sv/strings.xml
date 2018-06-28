@@ -4,7 +4,7 @@
     <string name="find_device">Hitta Enhet</string>
     <string name="enable_find_device_success">Hitta enheten är påslagen</string>
     <string name="disable_find_device_success">Hitta enheten är avstängd</string>
-    <string name="enable_find_device_error">Det går inte att slå på Sök enhet. %1$s</string>
+    <string name="enable_find_device_error">Det går inte att aktivera Hitta enhet. %1$s</string>
     <string name="disable_find_device_error">Det går inte att stänga Sök enhet. %1$s</string>
     <string name="find_device_error_access_denied">Åtkomst nekad.</string>
     <string name="find_device_error_unknown">Okänt fel (%s).</string>
@@ -21,8 +21,7 @@
     <string name="find_device_stop_noise">Tryck på OK för att tysta</string>
     <string name="find_device_noise_title">Hitta enhet larm</string>
     <string name="find_device_success_title">Hitta enhet</string>
-    <string name="find_device_notice_p1">Gå till</string>
-    <string name="find_device_notice_p3">för att hitta, låsa eller återställa din enhet.</string>
+    <string name="find_device_notice">Gå till&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />för att hitta, låsa eller återställa din enhet.</string>
     <string name="find_device_notice_sms_alert">Om du byter SIM-kort kommer kanske ett SMS skickas för att automatiskt återaktivera denna funktion.</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Kan inte ansluta till nätverk</string>
@@ -35,7 +34,7 @@
     <string name="unlock_error_unknown">Kan inte logga in</string>
     <string name="unlock_error_user_name">Ogiltigt användarnamn</string>
     <string name="unlock_error_interrupted">Avbrutet</string>
-    <string name="unlock_error_rpc">RPC fel</string>
+    <string name="unlock_error_rpc">RPC-fel</string>
     <string name="unlock_error_abort">Avbrutet av användare</string>
     <string name="unlock_error_passport_sdk_timeout">Mi konto SDK svarar inte</string>
     <string name="open_wifi_settings">Öppna inställningar för Wi-Fi</string>

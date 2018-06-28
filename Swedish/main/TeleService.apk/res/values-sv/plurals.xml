@@ -30,8 +30,4 @@
         <item quantity="one">"
 %d försök återstår."</item>
     </plurals>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Ingen dataanslutning för %s minuter</item>
-        <item quantity="one">Ingen dataanslutning för %s minut</item>
-    </plurals>
 </resources>

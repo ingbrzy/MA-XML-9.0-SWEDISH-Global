@@ -26,7 +26,7 @@
     </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">%d valda</item>
-        <item quantity="one">%d valda</item>
+        <item quantity="one">%d valt</item>
     </plurals>
     <plurals name="conversation_archived">
         <item quantity="other">&lt;b>%1$d&lt;/b> arkiverade.</item>

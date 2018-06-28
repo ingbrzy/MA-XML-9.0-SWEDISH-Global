@@ -63,29 +63,29 @@
     <string name="remove_button_time">Ta bort och starta om (%ds)</string>
     <string name="cancel_button">Avbryt</string>
     <string name="list_empty_text">Tom</string>
-    <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, Skapa dual appar och försök igen.</string>
-    <string name="xspace_label">Dual appar</string>
-    <string name="xspace_setting_label">Inställningar för Dual app</string>
-    <string name="xspace_account">Konton för Dual app</string>
-    <string name="declare_dialog_title">Om Dual app</string>
-    <string name="stop_xspace_alert_title">Ta bort konton för dual appen</string>
-    <string name="stop_xspace_alert_content">Du har tagit bort alla dual appar. Ta bort konton för dual appar and appdata också? Om detta görs måste du skapa dual appar igen när du behöver dem.</string>
+    <string name="list_empty_text_xspace">Installera WeChat/QQ/Weibo, Skapa Dual Appar och försök igen.</string>
+    <string name="xspace_label">Dual Apps</string>
+    <string name="xspace_setting_label">Inställningar för Dual App</string>
+    <string name="xspace_account">Konton för Dual App</string>
+    <string name="declare_dialog_title">Om Dual Apps</string>
+    <string name="stop_xspace_alert_title">Ta bort konton för Dual Apps</string>
+    <string name="stop_xspace_alert_content">Du har tagit bort alla Dual Apps. Ta bort konton för Dual Apps and appdata också? Om detta görs måste du skapa Dual Apps igen när du behöver dem.</string>
     <string name="xspace_loading_msg">Laddar appar…</string>
-    <string name="xspace_header">Dual appar</string>
+    <string name="xspace_header">Dual Apps</string>
     <string name="xspace_introduce">Rekommenderad</string>
-    <string name="xspace_description">"Dual appar är kopia av appen och kan användas helt separat med ett annat konto.
+    <string name="xspace_description">"Dual Apps är en separat instans av appen och kan användas helt separat med ett annat konto.
 
-Vissa Dual appar kräver support för Google Services Framework. I de fallen skapas dubbla Google Services Framework."</string>
-    <string name="xspace_chocie">Stöd för Dual app</string>
-    <string name="xspace_creating">Skapar dual app…</string>
+Vissa Dual Apps kräver support för Google Services Framework. I de fallen skapas dubbla Google Services Framework."</string>
+    <string name="xspace_chocie">Stöd för Dual App</string>
+    <string name="xspace_creating">Skapar Dual App…</string>
     <string name="xspace_installing">Installerar…</string>
     <string name="xspace_install_failed">Kunde inte skapa</string>
     <string name="xspace_uninstalling">Avinstallerar…</string>
     <string name="xspace_install_completed">Ikon tillagd på hemskärmen</string>
     <string name="xspace_install_completed_global">Ikon tillagd i lådan</string>
-    <string name="xspace_uninstall_completed">Dual app avinstallerad</string>
-    <string name="xspace_uninstall_dialog_title">Avinstallera dual app</string>
-    <string name="xspace_uninstall_dialog_content">Avinstallation av en dual app kommer ta bort all applikationsdata för alla instanser av appen.</string>
+    <string name="xspace_uninstall_completed">Dual App avinstallerad</string>
+    <string name="xspace_uninstall_dialog_title">Avinstallera Dual App</string>
+    <string name="xspace_uninstall_dialog_content">Avinstallation av en Dual App kommer ta bort all applikationsdata för alla instanser av appen.</string>
     <string name="loading_apps">Laddar appar…</string>
     <string name="loading_success">Laddad</string>
     <string name="switching">Flyttar…</string>
@@ -187,7 +187,7 @@ läggs funktionen till i Sekundära utrymmet automatiskt."</string>
     <string name="reset_password_dialog_message">Du använder olika lösenordstyper för det Primära och Sekundära utrymmet. Det Sekundära utrymmet måste använda samma lösenordstyp som det Primära för att genvägen ska döljas.</string>
     <string name="reset_password_dialog_positve_btn_title">Ändra</string>
     <string name="entrance_reopen_toast_msg">Visar genvägen till det Sekundära utrymmet på grund av olika lösenordstyper</string>
-    <string name="settings_cross_notification_title">Meddelanden</string>
+    <string name="settings_cross_notification_title">Notifikationer</string>
     <string name="settings_cross_notification_summary">Ta emot meddelande från det andra utrymmet</string>
     <string name="settings_switch_shortcut_summary">Visa hemskärmsgenväg i primära utrymme</string>
     <string name="settings_space_data">Data</string>
@@ -281,7 +281,7 @@ för att logga in från låsskärmen"</string>
     <string name="scanner_fingerprint">Skannar fingeravtryck…</string>
     <string name="scanner_fingerprint_enter_second">"Skanna Sekundära utrymmets fingeravtryck
  för att gå till Sekundära utrymmet från Låsskärmen"</string>
-    <string name="xspace_guide_title">Skapa en dual app</string>
+    <string name="xspace_guide_title">Skapa en Dual App</string>
     <string name="xspace_guide_des">Använd två konton utan att behöva växla</string>
     <string name="xpsace_guide_button">Skapa</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s:&lt;/font>"</string>
@@ -294,13 +294,14 @@ för att logga in från låsskärmen"</string>
     <string name="weibo_send">Skicka till Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">Skicka till QQ vänner/datorer</string>
+    <string name="qq_login">Logga in på QQ</string>
     <string name="xspace_default_setting_label">Standardapp</string>
     <string name="xspace_default_app_title">Standardapp</string>
     <string name="xspace_default_app_summary">Ställ in standardapp för betalningar, delningar, favoriter och mer.</string>
     <string name="xspace_default_setting_dialog_title">Standard</string>
     <string name="xspace_default_guide_notification_content">Tryck för att ändra</string>
     <string name="xspace_default_guide_notification_main_title">Använd standardapp</string>
-    <string name="xspace_default_guide_notification_xspace_title">Använd dual app</string>
+    <string name="xspace_default_guide_notification_xspace_title">Använd Dual App</string>
     <string name="space_name_default">Arbetsutrymme</string>
     <string name="space_des_default">Isolerat utrymme med krypterad data</string>
     <string name="create_work_space">Skapa ett Arbetsutrymme</string>
@@ -331,11 +332,11 @@ för att logga in från låsskärmen"</string>
     <string name="can_not_delete_when_calling">Det går inte att ta bort utrymmen under samtal</string>
     <string name="support_desc">Säkerhetsfunktioner tillhandahålls av Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">Viktig uppdatering</string>
-    <string name="sdcardfs_dialog_message">MIUI 9 har ett nytt filsystem. Gammal data kan vara inkompatibel med det. För att lösa detta problem, följ stegen för att installera en uppdatering. Din enhet kommer starta om två gånger under uppdateringen.</string>
+    <string name="sdcardfs_dialog_message">Ett nytt filsystem introduceras i denna uppdatering. Gammal data kan vara inkompatibel med det. För att lösa detta problem, följ stegen för att installera en uppdatering. Din enhet kommer starta om två gånger under uppdateringen.</string>
     <string name="do_not_ask">Fråga inte igen</string>
-    <string name="gpg_message">Att skapa Dual appar för spel kräver Google Play Games. Skapa en Dual app för Google Play Games?</string>
-    <string name="gpg_title">Dual app för Google Play Games</string>
-    <string name="gms_message">Att skapa Dual appar kräver Google services. Skapa en Dual app för Google services?</string>
+    <string name="gpg_message">Att skapa Dual Apps för spel kräver Google Play Games. Skapa en Dual App för Google Play Games?</string>
+    <string name="gpg_title">Dual App för Google Play Games</string>
+    <string name="gms_message">Att skapa Dual Apps kräver Google services. Skapa en Dual App för Google services?</string>
     <string name="gms_title">Aktivera Googles funktioner</string>
     <string name="gms_open_button">Aktivera</string>
     <string name="create_second_space">Skapad utan problem</string>
@@ -359,18 +360,18 @@ Två utrymmen. En enhet."</string>
     <string name="privacy_password_fingerprint_dialog_title">Skanna ditt fingeravtryck</string>
     <string name="privacy_password_fingerprint_dialog_message">Placera fingret på sensorn</string>
     <string name="optimize_now">Optimera</string>
-    <string name="dialog_title">Uppmärksamhet</string>
+    <string name="dialog_title">Uppmärksamma</string>
     <string name="remove_user_click_message">*Om du inte har några viktiga objekt i Sekundära utrymmet, %s</string>
     <string name="remove_user_click_message_action">kan du ta bort det Sekundära utrymmet om starta om enheten nu.</string>
     <string name="sdcradfs_dialog_in_owner_title">Sekundärt utrymme</string>
-    <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 har ett nytt filsystem. Gammal data kan vara inkompatibel med det. För att uppdatera: flytta objekt från Sekundära utrymmet, starta din enhet och skapa ett Sekundärt utrymme igen.
-Om du inte uppdaterar kommer dual apps inte fungerar som det ska."</string>
+    <string name="sdcradfs_dialog_in_owner_message">"Ett nytt filsystem introduceras i denna uppdatering. Gammal data kan vara inkompatibel med det. För att uppdatera: flytta objekt från Sekundära utrymmet, starta om din enhet och skapa ett Sekundärt utrymme igen.
+Om du inte uppdaterar kommer Dual Apps inte fungera som det ska."</string>
     <string name="sdcradfs_dialog_in_sec_title">Viktig uppdatering</string>
     <string name="sdcradfs_dialog_in_sec_message">"För att uppdatera ska du ta bort ditt Sekundära utrymme och sedan skapar det igen. Flytta data från Sekundära utrymmet till det Primära utrymmet och starta om enheten för att slutföra uppdateringen.
-Om du inte uppdaterar kommer dual apps inte fungerar som det ska."</string>
+Om du inte uppdaterar kommer Dual Apps inte fungerar som det ska."</string>
     <string name="space_created_success">Sekundärt utrymme skapat</string>
     <string name="encrypt_space_delete_dialog_title">Uppmärksamma</string>
-    <string name="encrypt_space_delete_dialog_message">Du ska snart uppdatera Android. Efter uppdateringen kommer det data i det Sekundära utrymmet bli inkompatibel. För att undvika detta, flytta all data till det Primära utrymmet, ta bort det Sekundära utrymmet och skapa det igen.</string>
+    <string name="encrypt_space_delete_dialog_message">Du ska snart genomföra en systemuppdatering. Efter uppdateringen kommer det data i det Sekundära utrymmet bli inkompatibel. För att undvika detta, flytta all data till det Primära utrymmet, ta bort det Sekundära utrymmet och skapa det igen.</string>
     <string name="encrypt_space_delete_dialog_click_message">*Om du inte behöver flytta data, %s</string>
     <string name="encrypt_space_delete_dialog_click_message_action">ta bort eller skapa det Sekundära utrymmet nu.</string>
     <string name="encrypt_space_delete_dialog_positive_text">Flytta data</string>
@@ -395,8 +396,6 @@ Om du inte uppdaterar kommer dual apps inte fungerar som det ska."</string>
     <string name="green_guard_des3">Kontrollera installerade appar och begränsa användning</string>
     <string name="experience_more_features">Lägg till en enhet för att visa alla funktioner</string>
     <string name="can_not_switch_when_green_kid_active">Att växla till det Sekundära utrymmet är begränsat av föräldrakontroll</string>
-    <string name="need_network_when_bind">Anslut till nätverket innan enheter läggs till</string>
-    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
-    <string name="agree">Samtycker</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="need_network_when_bind">Anslut till nätverket innan du lägger till enheter</string>
+    <string name="this_function_can_not_use_in_second_space">Denna funktion kan bara användas i Primära utrymmet</string>
 </resources>

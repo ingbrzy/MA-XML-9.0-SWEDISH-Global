@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Visa startsidan</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
-    <string name="abc_action_bar_up_description">Navigera uppåt</string>
-    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
-    <string name="abc_action_mode_done">Klart</string>
-    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
-    <string name="abc_activitychooserview_choose_application">Välj en app</string>
-    <string name="abc_search_hint">Sök …</string>
-    <string name="abc_searchview_description_clear">Ta bort frågan</string>
-    <string name="abc_searchview_description_query">Sökfråga</string>
-    <string name="abc_searchview_description_search">Sök</string>
-    <string name="abc_searchview_description_submit">Skicka fråga</string>
-    <string name="abc_searchview_description_voice">Röstsökning</string>
-    <string name="abc_shareactionprovider_share_with">Dela med</string>
-    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
-    <string name="abc_toolbar_collapse_description">Komprimera</string>
     <string name="common_google_play_services_api_unavailable_text">För %1$s krävs en eller flera Google Play-tjänster som inte är tillgängliga för närvarande. Kontakta utvecklaren om du vill ha hjälp.</string>
     <string name="common_google_play_services_enable_button">Aktivera Google Play Tjänster</string>
     <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
@@ -48,7 +31,6 @@
     <string name="common_open_on_phone">Öppna på mobilen</string>
     <string name="common_signin_button_text">Logga in</string>
     <string name="common_signin_button_text_long">Logga in med Google</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="Clock_main">Alarm</string>
     <string name="Clock_parent">Klocka</string>
     <string name="MiDrop_main">Skicka</string>
@@ -82,6 +64,37 @@
     <string name="ball_dialog_content">Installera HuPu Sports för att använda den här funktionen. Installera nu?</string>
     <string name="ball_dialog_tip">Visa ej igen</string>
     <string name="ball_dialog_title">Installera appen först.</string>
+    <string name="ball_football_brief">All information om dina favoritlag</string>
+    <string name="ball_football_brief_detail">Visa information, se resultat och följ upp till 4 fotbollslag.</string>
+    <string name="ball_football_check_full_schedule">Visa alla matcher</string>
+    <string name="ball_football_final">Slutliga</string>
+    <string name="ball_football_full_schedule">Alla matcher</string>
+    <string name="ball_football_group_competition">Gruppspel</string>
+    <string name="ball_football_news">Nyheter</string>
+    <string name="ball_football_quarter_finals">Kvartsfinal</string>
+    <string name="ball_football_rank_team">Lag</string>
+    <string name="ball_football_recent_finished">SLUTADE</string>
+    <string name="ball_football_recent_next_game">Nästa match: %s</string>
+    <string name="ball_football_recent_playing">LIVE</string>
+    <string name="ball_football_recent_starting_time">Startar: %s</string>
+    <string name="ball_football_recent_time">MM/dd HH:mm</string>
+    <string name="ball_football_round_of_16">Sextondelsfinal</string>
+    <string name="ball_football_round_one">Gruppspelet (omgång 1)</string>
+    <string name="ball_football_round_three">Gruppspelet (omgång 3)</string>
+    <string name="ball_football_round_two">Gruppspelet (omgång 2)</string>
+    <string name="ball_football_semi_finals">Semifinal</string>
+    <string name="ball_football_tab_GroupA">Grupp A</string>
+    <string name="ball_football_tab_GroupB">Grupp B</string>
+    <string name="ball_football_tab_GroupC">Grupp C</string>
+    <string name="ball_football_tab_GroupD">Grupp D</string>
+    <string name="ball_football_tab_GroupE">Grupp E</string>
+    <string name="ball_football_tab_GroupF">Grupp F</string>
+    <string name="ball_football_tab_GroupG">Grupp G</string>
+    <string name="ball_football_tab_GroupH">Grupp H</string>
+    <string name="ball_football_tab_hot">Populära</string>
+    <string name="ball_football_third_place_playoff">Match om tredjeplats</string>
+    <string name="ball_football_word_cup">Fotbolls-VM</string>
+    <string name="ball_football_your_teams" formatted="false">Välj lag att följa (%d/%d)</string>
     <string name="ball_net_errot">Det gick inte att ansluta till nätverket.</string>
     <string name="ball_recent_no_data">Ingen information om de kommande matcherna.</string>
     <string name="bicycle">Cykla</string>
@@ -171,6 +184,7 @@
     <string name="memory_clear_result">%1$s rensad</string>
     <string name="mi_agenda">Kalenderhändelser</string>
     <string name="mi_function">Genvägar</string>
+    <string name="minus_screen_search_label">Sök</string>
     <string name="month_day_format">MM/dd</string>
     <string name="month_format_en">MM/dd</string>
     <string name="more_stock_infos">Forum info</string>
@@ -199,7 +213,7 @@
     <string name="ola_trip">Ring en taxi</string>
     <string name="ola_trip_content">Beräkna priset och ring en Ola</string>
     <string name="ola_trip_content_detail">Beräkna den ungefärliga priset och ringa en Ola.</string>
-    <string name="phone_check">Optimization</string>
+    <string name="phone_check">Optimering</string>
     <string name="place_label">Frekventa platser</string>
     <string name="record_name">Spela in</string>
     <string name="record_parent">Inspelning</string>
@@ -263,7 +277,7 @@
     <string name="stock_provider">Citat från aktiemarknaden tillhandahålls av Webull</string>
     <string name="stock_search_empty">Kunde inte hitta låt.</string>
     <string name="stock_title">Aktier</string>
-    <string name="stock_title_schema">Sparar visningsalternativ</string>
+    <string name="stock_title_schema">Visningsalternativ för aktier</string>
     <string name="stock_toast_add_max_count">Du kan följa upp till 8 företag.</string>
     <string name="stock_web_lable">Aktier</string>
     <string name="time_just_now">Just nu</string>

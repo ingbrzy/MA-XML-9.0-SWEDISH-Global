@@ -3,6 +3,7 @@
     <string name="camera_setting">Kamera</string>
     <string name="path_settings">Systemappar/Kamera/Inställningar</string>
     <string name="search_settings">Kamerainställningar;Kvalitet;Bildkvalitet;Bildposition;Fotoplats;Ansiktsigenkänning;Kameraljud</string>
+    <string name="hibernate_hint">Tryck på skärmen för att väcka kameran</string>
     <string name="camera_error_title">Kamerafel</string>
     <string name="cannot_connect_camera_once">Kan inte ansluta till kameran</string>
     <string name="cannot_connect_camera_twice">Kan fortfarande inte ansluta till kameran. Försök att starta om din telefon.</string>
@@ -31,10 +32,15 @@
     <string name="pref_front_mirror_title">Spegla framkameran</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_hfr_title">Video HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_video_encoder_title">Videokodare</string>
+    <string name="pref_video_encoder_entry_h264">H.264 (kompatibilitet)</string>
+    <string name="pref_video_encoder_entry_h265">H.265 (prestanda)</string>
     <string name="pref_video_time_lapse_frame_interval_title">Time lapse intervall</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0.06-sekunders intervall)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0.12-sekunders intervall)</string>
@@ -92,11 +98,6 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">AI kamera</string>
-    <string name="pref_camera_front_ai_scene_entry_on">AI kamera</string>
-    <string name="pref_camera_front_ai_scene_entry_off">AI kamera är avstängd</string>
-    <string name="ai_scene_mode_use_hint_text">"AI kamera upptäcker scenarier automatiskt
-och optimerar dina foton baserat på denna information"</string>
     <string name="pref_camera_coloreffect_entry_none">Normal</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Färg pop</string>
@@ -217,6 +218,8 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="accessibility_filter_close_panel">Stängde filtermeny</string>
     <string name="accessibility_bokeh_normal">Suddig bakgrund för den främre kameran är av</string>
     <string name="accessibility_bokeh_on">Suddig bakgrund för den främre kameran är på</string>
+    <string name="accessibility_ai_scene_on">AI kamera är på</string>
+    <string name="accessibility_ai_scene_off">AI kamera är avstängd</string>
     <string name="accessibility_more">Mer</string>
     <string name="accessibility_setting">Inställningar</string>
     <string name="accessibility_protrait">Porträtt</string>
@@ -408,6 +411,7 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="dual_camera_lens_covered_toast">Linsen är täckt.</string>
     <string name="dual_camera_use_hint">Se till att objektet inte är längre bort än 2 meter.</string>
     <string name="bokeh_use_hint">Djupeffekt</string>
+    <string name="back_bokeh_use_hint">Se till att objektet inte är längre bort än 1.5 meter.</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">LINS</string>
@@ -415,6 +419,7 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">NORMAL</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">SVAGT LJUS</string>
+    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Porträttläge</string>
     <string name="pref_camera_portrait_mode_entry_off">Porträttläge av</string>
     <string name="pref_camera_portrait_mode_entry_on">Porträttläge på</string>
@@ -424,6 +429,7 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="portrait_mode_depth_effect_success_hint">Djupeffekt</string>
     <string name="portrait_mode_use_hint">"Porträttläge gör bakgrunden suddig
  och frambringar personerna förgrunden."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Fyrkant</string>
     <string name="simple_mode_button_text_square">Stäng av Fyrkant</string>
     <string name="face_beauty_smart">Prydlig</string>
@@ -438,6 +444,7 @@ och optimerar dina foton baserat på denna information"</string>
     <string name="pref_camera_beautify_entry_low">Låg</string>
     <string name="pref_camera_beautify_entry_normal">Medium</string>
     <string name="pref_camera_beautify_entry_high">Hög</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Lägen</string>
     <string name="button_front_camera_title">Ta en selfie</string>
     <string name="button_normal_video_title">Spela in video</string>
@@ -459,6 +466,7 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="hint_fast_motion">Videon som du spelar in kommer spelas snabbare.</string>
     <string name="hint_slow_motion">Videon som du spelar in kommer spelas långsammare.</string>
     <string name="hunt_dual_water_mark">Vattenstämpel för Dubbelkamera kommer läggas till automatiskt.</string>
+    <string name="hint_ae_af_lock">Autofokus / Autoexponering har låsts</string>
     <string name="hint_device_water_mark">Vattenstämpel kommer läggas till automatiskt.</string>
     <string name="module_name_fun">Kortfilm</string>
     <string name="module_name_video">Video</string>
@@ -480,16 +488,26 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="config_name_super_resolution">Superupplösning</string>
     <string name="beauty_fragment_tab_name_beauty">Skönhet</string>
     <string name="beauty_fragment_tab_name_makeup">Avancerad</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">Skönhet</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">Modellera om</string>
     <string name="edit_skin_white">Ton</string>
     <string name="edit_skin_smooth">Slät</string>
     <string name="edit_eye_large">Stora ögon</string>
     <string name="edit_face_slender">Smal</string>
     <string name="edit_face_ruddy">Rödblommig</string>
+    <string name="edit_nose">Näsa</string>
+    <string name="edit_risorius">Skrattmuskeln</string>
+    <string name="edit_lips">Läppar</string>
+    <string name="edit_chin">Kind</string>
+    <string name="edit_neck">Nacke</string>
+    <string name="edit_smile">Le</string>
+    <string name="edit_slim_nose">Näsa</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D-skönhet</string>
     <string name="sticker_tab1">Söt</string>
     <string name="sticker_tab2">Rolig</string>
     <string name="user_agreement2">Användarvillkor</string>
     <string name="user_agreement4">Integritetspolicy</string>
-    <string name="user_agree">Samtycker</string>
+    <string name="user_agree">Godkänn</string>
     <string name="do_not_remind_me">Visa inte igen</string>
     <string name="user_notice_identify_summary_format">"Genom att använda denna tjänsten, godkänner du Xiaomi's %1$s och %2$s."</string>
     <string name="user_notice_title">Villkor</string>
@@ -505,8 +523,20 @@ och skapar sedan ett foto med minsta möjliga brus."</string>
     <string name="front_camera_hint_text_rotate">Rotera din telefon</string>
     <string name="front_camera_hint_text_place">"Tar seflies kommer bli lättare
 om du roterar din telefon"</string>
+    <string name="pref_camera_ai_scene_title">AI kamera</string>
+    <string name="pref_camera_front_ai_scene_entry_on">AI kamera</string>
+    <string name="pref_camera_front_ai_scene_entry_off">AI kamera är avstängd</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+    <string name="ai_scene_mode_use_hint_text">"AI kamera upptäcker scenarier automatiskt
+och optimerar dina foton baserat på denna information"</string>
     <string name="pref_camera_asd_popup_title">Meddela när blixten behövs</string>
     <string name="pref_video_captrue_ability_title">Ta bilder under inspelning</string>
+    <string name="face_analyze_info">Ålder: %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Fullskärm 16:9</string>
+    <string name="lens_dirty_detected_title_back">Bakre kameralins är smutsig</string>
+    <string name="lens_dirty_detected_title_front">Främre kameralins är smutsig</string>
+    <string name="lens_dirty_detected_content">"Det verkar som att din kameralins är smutsig.
+Rengör linsen för bättre bilder."</string>
 </resources>

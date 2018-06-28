@@ -25,8 +25,6 @@
     <string name="HIPS_Perm_VideoRecorder_Desc">använda kameran för bildtagning eller videoinspelning</string>
     <string name="HIPS_Perm_AudioRecorder">Spela in ljud</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">spela in ljud och telefonsamtal</string>
-    <string name="HIPS_Perm_Mobile_Connectivity">Ändra anslutning till mobildata</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Desc">slå på eller av mobildata</string>
     <string name="HIPS_Perm_WIFI_Connectivity">Ändra Wi-Fi anslutning</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">slå på eller av Wi-Fi</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">Ändra Bluetooth anslutning</string>

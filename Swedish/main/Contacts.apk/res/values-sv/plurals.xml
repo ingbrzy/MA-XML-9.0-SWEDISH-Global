@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 timme sedan</item>
-        <item quantity="one">1 timme sedan</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">En halvtimme sedan</item>
-        <item quantity="one">En halvtimme sedan</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Om 1 timme</item>
-        <item quantity="one">Om 1 timme</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="other">Om en halvtimma</item>
-        <item quantity="one">Om en halvtimma</item>
-    </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
         <item quantity="other">Omedelbart</item>
         <item quantity="one">Omedelbart</item>
     </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">inom %1$d min</item>
-        <item quantity="one">inom %1$d min</item>
-    </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Just nu</item>
         <item quantity="one">Just nu</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%1$d minuter sedan</item>
-        <item quantity="one">%1$d minut sedan</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Ta bort %1$d kontakter?</item>

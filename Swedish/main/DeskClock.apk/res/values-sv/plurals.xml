@@ -16,6 +16,10 @@
         <item quantity="other">Ta bort valda tidszoner?</item>
         <item quantity="one">Ta bort denna tidszon?</item>
     </plurals>
+    <plurals name="second">
+        <item quantity="other">%d andra</item>
+        <item quantity="one">%d andra</item>
+    </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Snooza i %d minuter</item>
         <item quantity="one">Snooza i %d minut</item>

@@ -15,6 +15,8 @@ Se den valda tangentbords sekretesspolicyn."</string>
     <string name="sim_card_detection_info">Att sätta in SIM-kortet, läs instruktionerna som följde med enheten.</string>
     <string name="sim_card_detecting">Söker efter SIM-kort…</string>
     <string name="sim_card_detecting_check">Det gick inte att hitta SIM-kortet. Se till att SIM-kortet är rätt installerat och att du har tillräckligt med pengar på kortet.</string>
+    <string name="sim_card_detection_mobile_not_available">SIM-kortet kunde inte ansluta till nätverket</string>
+    <string name="sim_scard_detecting_check_mobile_not_available">Ditt SIM-kort kunde inte ansluta till ett giltigt operatörsnätverk. Se till att du har tillräckligt saldo på ditt kort och försök igen.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Tillåt anslutning till nätverk för mobildata? Om du tillåter det kommer SIM-kortet du sätter in att ansluta till nätverk för mobildata.</string>
     <string name="other_settings">Ytterligare inställningar</string>
     <string name="other_settings_location">Plats</string>
@@ -55,7 +57,7 @@ Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan an
     <string name="agree">Acceptera</string>
     <string name="disagree">Avbryt</string>
     <string name="setting_locale">Ställer in region…</string>
-    <string name="agree_terms">Jag har läst och samtycker med användarvillkoren och integritetspolicyn.</string>
+    <string name="agree_terms">Jag har läst och godkänner användarvillkoren och integritetspolicyn.</string>
     <string name="miui_terms_no_network">Du har ingen internetanslutning. Visa användarvillkoren på %s.</string>
     <string name="miui_privacy_policy_no_network">Du har ingen internetanslutning. Visa integritetspolicyn på %s.</string>
     <string name="locale_picker_title">Välj din region</string>
@@ -69,8 +71,9 @@ Du måste godkänna våra Användarvillkor och Integritetspolicy innan du kan an
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Använd ditt fingeravtryck för att låsa upp enheten, eller logga in till appar och tjänster.</string>
     <string name="content_description_start">Starta</string>
+    <string name="start_up_slogan">Designad för helskärmsupplevelse</string>
     <string name="content_description_miui_version">MIUI 9</string>
-    <string name="content_description_complete">Färdig</string>
+    <string name="content_description_complete">Slutförd</string>
     <string name="language_picker_other_languages_title">Fler språk</string>
     <string name="language_settings">Välj språk</string>
     <string name="navigation_picker_radio_text_full_screen">Helskärmsgester</string>
